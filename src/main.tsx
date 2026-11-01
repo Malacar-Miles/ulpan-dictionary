@@ -73,9 +73,15 @@ function App() {
       <div className="topline"><a className="brand" href="#top" aria-label="Словарь ульпана, наверх"><span className="brand-icon" aria-hidden="true">א</span><span>УЛЬПАН <i> / </i> СЛОВАРЬ</span></a></div>
       <div className="heading"><p className="intro-text">Здесь собраны слова, которые наша группа проходила на занятиях или в упражнениях из домашнего задания. Я добавляю их вручную после каждого занятия, поэтому каких-то слов может не хватать. Просьба писать мне об ошибках в словах и любых проблемах с сайтом.</p></div>
     </div></header>
-    <div className="sticky-controls" ref={controlsRef}><div className="wrap">
-      <div className="search-wrap"><svg aria-hidden="true" width="21" height="21" viewBox="0 0 24 24" fill="none"><circle cx="10.8" cy="10.8" r="6.8" stroke="currentColor" strokeWidth="1.8"/><path d="m16 16 4.2 4.2" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/></svg><label className="sr-only" htmlFor="search">Поиск по словарю</label><input id="search" type="search" placeholder="Поиск на русском или иврите" value={query} onChange={e=>setQuery(e.target.value)} onFocus={startEditing} onKeyDown={e => { if (e.key === 'Escape' || e.key === 'Enter') stopEditing(); }} autoComplete="off" enterKeyHint="done"/><span className="search-hint">ИВРИТ · ПРОИЗНОШЕНИЕ · ПЕРЕВОД</span></div>
-      <div className="niqqud-row"><button className="finish-search" type="button" onClick={stopEditing}>Готово</button><label className="niqqud-toggle"><input type="checkbox" checked={showNiqqud} onChange={e => setShowNiqqud(e.target.checked)} /><span>С никудом</span></label></div>
+    <div className="sticky-controls" ref={controlsRef} onPointerDownCapture={event => {
+      // Keep the search field focused while changing controls on iPhone, so the
+      // layout doesn't move between the pointer down and click events.
+      if (document.documentElement.classList.contains('search-editing') &&
+          document.activeElement?.id === 'search' && event.target instanceof Element &&
+          event.target.closest('button, .niqqud-toggle')) event.preventDefault();
+    }}><div className="wrap">
+      <div className="search-wrap"><svg aria-hidden="true" width="21" height="21" viewBox="0 0 24 24" fill="none"><circle cx="10.8" cy="10.8" r="6.8" stroke="currentColor" strokeWidth="1.8"/><path d="m16 16 4.2 4.2" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/></svg><label className="sr-only" htmlFor="search">Поиск по словарю</label><input id="search" type="search" placeholder="Поиск на русском или иврите" value={query} onChange={e=>setQuery(e.target.value)} onFocus={startEditing} onBlur={stopEditing} autoComplete="off" enterKeyHint="done"/><span className="search-hint">ИВРИТ · ПРОИЗНОШЕНИЕ · ПЕРЕВОД</span></div>
+      <div className="niqqud-row"><label className="niqqud-toggle"><input type="checkbox" checked={showNiqqud} onChange={e => setShowNiqqud(e.target.checked)} /><span>С никудом</span></label></div>
       <div className="filters-head"><span>ТЕМЫ</span><span>{total} записей в словаре, обновлено {updated}</span></div>
       <nav className="filters" aria-label="Фильтр по теме">{['Все темы',...sections.map(s=>s.title)].map(title=><button key={title} type="button" className={active===title?'active':''} aria-pressed={active===title} onClick={()=>setActive(title)}>{title}</button>)}</nav>
     </div></div>

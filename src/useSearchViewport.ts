@@ -1,6 +1,6 @@
 import { useLayoutEffect, useState, type RefObject } from 'react';
 
-/** Keep mobile search controls outside the results scroller while editing. */
+/** Keep iPhone search controls outside the results scroller while focused. */
 export function useSearchViewport(
   controlsRef: RefObject<HTMLDivElement | null>,
   contentRef: RefObject<HTMLElement | null>,
@@ -15,8 +15,6 @@ export function useSearchViewport(
 
     const root = document.documentElement;
     const viewport = window.visualViewport;
-    const mobileLayout = window.matchMedia('(max-width: 750px), (pointer: coarse)');
-    const onLayoutChange = () => { if (!mobileLayout.matches) setEditing(false); };
     const originalScroll = window.scrollY;
     const contentTop = content.getBoundingClientRect().top + originalScroll;
     const controlsHeight = controls.getBoundingClientRect().height;
@@ -64,7 +62,6 @@ export function useSearchViewport(
       }
       if (event.cancelable) event.preventDefault();
     };
-    mobileLayout.addEventListener('change', onLayoutChange);
     viewport?.addEventListener('resize', updateHeight);
     window.addEventListener('resize', updateHeight);
     document.addEventListener('touchstart', onTouchStart, { passive: true });
@@ -72,7 +69,6 @@ export function useSearchViewport(
 
     return () => {
       const listScroll = content.scrollTop;
-      mobileLayout.removeEventListener('change', onLayoutChange);
       viewport?.removeEventListener('resize', updateHeight);
       window.removeEventListener('resize', updateHeight);
       document.removeEventListener('touchstart', onTouchStart);
@@ -92,11 +88,8 @@ export function useSearchViewport(
   return {
     editing,
     startEditing: () => {
-      if (window.matchMedia('(max-width: 750px), (pointer: coarse)').matches) setEditing(true);
+      if (/iPhone/i.test(navigator.userAgent)) setEditing(true);
     },
-    stopEditing: () => {
-      if (document.activeElement instanceof HTMLElement) document.activeElement.blur();
-      setEditing(false);
-    },
+    stopEditing: () => setEditing(false),
   };
 }
