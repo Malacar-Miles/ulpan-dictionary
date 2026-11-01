@@ -39,3 +39,31 @@ body{-webkit-user-select:none;user-select:none}
 @media (max-width:750px), (pointer:coarse){.search-wrap input{font-size:16px}}
 
 .filters-head{gap:12px;align-items:baseline}.filters-head span:last-child{text-align:right}
+
+/* Mobile search session: the panel and the results are separate flex rows.
+   VisualViewport supplies height only; scrolling never repositions the panel. */
+html.search-editing,
+.search-editing body{height:100%;overflow:hidden;overscroll-behavior:none}
+.search-editing body{position:fixed;inset:0}
+.search-editing #root{
+  height:var(--search-viewport-height,100dvh);
+  display:flex;flex-direction:column;overflow:hidden;
+}
+.search-editing .header{display:none}
+.search-editing .sticky-controls{
+  position:relative;flex:0 0 auto;
+  max-height:60%;overflow-y:auto;overscroll-behavior:contain;
+}
+.search-editing .content{
+  flex:1 1 0;min-height:0;width:100%;margin:0 auto;
+  overflow-y:auto;overscroll-behavior-y:contain;
+}
+.search-editing .niqqud-row{position:relative;padding-right:80px}
+.search-editing .finish-search{display:block}
+.finish-search{
+  display:none;position:absolute;right:0;top:50%;transform:translateY(-50%);
+  border:0;background:transparent;
+  color:#285d4b;font:700 14px Manrope,Arial,sans-serif;
+  padding:6px 10px;cursor:pointer;
+}
+.finish-search:focus-visible{outline:2px solid #75a58e;border-radius:4px}
