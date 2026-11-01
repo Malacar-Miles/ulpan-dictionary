@@ -1,0 +1,24 @@
+# Agent instructions
+
+## Project and scope
+
+This is a Hebrew–Russian dictionary for a small ulpan group, developed exclusively through AI engineering under the owner's direction and review. Keep the interface in Russian and usable on phones and computers. Inclusion means a word or expression appeared in lessons or homework; it does not mean the user has memorized it. Follow the user's current instructions and applicable parent-project instructions.
+
+This repository contains only the web application. Its source of truth is `src/dictionary.json`. The parent project's Markdown dictionary serves its own learning and practice workflows; there is no automatic synchronization in either direction. Do not assume the two files are identical, overwrite one from the other, or modify the parent dictionary unless the user requests it.
+
+## Updating the dictionary
+
+- Read the current JSON and relevant existing entries first. Add words from user-provided notes to the appropriate existing section; preserve the notes' intended meaning, merge true duplicates, and retain useful existing forms and explanations. Create or rename sections only when needed or requested.
+- Each entry has `hebrew` (ordinary spelling without niqqud), `hebrewWithNiqqud` (vocalized spelling, optional; verify before adding), `pronunciation` (approximate Russian transcription), and `meaning` (Russian translation and explanations). `hebrew` and `hebrewWithNiqqud` may differ in letters as well as vowel marks; do not generate one merely by stripping marks from the other. Keep missing vocalization absent rather than guessing.
+- Verify Hebrew spellings, niqqud, grammatical forms, meanings, and stress against reliable sources when needed; pay special attention to ambiguous unvocalized forms and multiple gender/number variants. Do not claim every entry is independently verified unless it actually is. Automatic vocalization is a starting point, not proof; existing data may contain errors.
+- In Russian transcription, mark stress with a combining acute accent on the stressed vowel (for example `тода́`), including transliterations in `meaning`. Use Latin `h` for pronounced ה and Russian `х` for ח or כ/ך pronounced /kh/. Do not automatically pronounce every written ה; word-final ה can be silent. Avoid inventing or silently changing details from uncertain notes; ask the user when ambiguity cannot be resolved reliably.
+- Preserve valid JSON, Unicode, section names, and unrelated entries. Set `updatedAt` to the actual dictionary-update date in `YYYY-MM-DD`, using the user's local date. It is maintained manually, not generated from deployment time.
+- After changes, review the diff, verify JSON parses and intended entries and forms are present, and run `npm run build`. Report meaningful corrections and uncertainty. Do not commit or push unless the user requests or otherwise authorizes that action.
+
+## Application behavior
+
+- React + TypeScript + Vite; `npm run dev` starts development, `npm run build` type-checks and creates `dist/`, and `npm run preview` serves the build.
+- Search (`src/search.ts`) covers Hebrew variants, pronunciation, and meaning; it ignores case, combining marks, punctuation, and spaces for matching, treats Latin `h` as Russian `х`, and treats `е`, `ё`, and `э` as equivalent. Keep highlighting consistent with matching, including Hebrew niqqud and stress marks. When a match exists only in a hidden Hebrew spelling, show that spelling and highlight the match.
+- Topic filters, the niqqud toggle (saved in localStorage), sticky controls, and responsive layout are intentional. Preserve text selection inside cards and the search field. The sticky panel height is tracked by `ResizeObserver` to prevent jumps when search results shrink.
+- The web app manifest and icons are in `public/`. In standalone/fullscreen display mode the introductory header is hidden; the sticky controls remain. The current implementation has no service worker, offline support, or automatic update checker. Browser and installed-app storage can be separate; do not assume settings carry over.
+- Deployment uses Cloudflare Workers Builds connected to GitHub. `npm run build` produces `dist/`; the deployment command and branch configuration are managed in Cloudflare. Do not change hosting, publish, or adjust access unless requested or authorized. Confirm deployment status when publishing rather than assuming a push succeeded.

@@ -30,3 +30,8 @@ body{-webkit-user-select:none;user-select:none}
 .card,.search-wrap input{-webkit-user-select:text;user-select:text}
 /* Сохраняем место для прокрутки, когда результатов поиска мало. */
 .content{min-height:max(0px,calc(100vh - var(--controls-height, 0px)));min-height:max(0px,calc(100dvh - var(--controls-height, 0px)))}
+
+/* В установленном приложении показываем только панель управления словарём. */
+@media (display-mode: standalone), (display-mode: fullscreen) {
+  .header{display:none}
+}
