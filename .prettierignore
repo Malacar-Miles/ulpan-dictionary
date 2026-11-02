@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.tsbuildinfo
+package-lock.json
+# Dictionary content is maintained separately from code formatting.
+src/dictionary.json
+AGENTS.md

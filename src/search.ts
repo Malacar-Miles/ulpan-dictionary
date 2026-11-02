@@ -1,14 +1,15 @@
-/** Нормализованный текст и границы исходных символов для подсветки. */
-export function searchable(text: string) {
+/** Normalize text while retaining original character boundaries for highlighting. */
+export const searchable = (text: string) => {
   let value = '';
   const ranges: Array<{ start: number; end: number }> = [];
   let offset = 0;
   for (const char of text) {
     const start = offset;
     offset += char.length;
-    // Огласовки принадлежат предыдущей букве и должны подсвечиваться вместе с ней.
+    // Combining marks belong to the preceding letter and share its highlight.
     if (/\p{M}/u.test(char)) {
-      if (ranges.length && ranges[ranges.length - 1].end === start) ranges[ranges.length - 1].end = offset;
+      if (ranges.length && ranges[ranges.length - 1].end === start)
+        ranges[ranges.length - 1].end = offset;
       continue;
     }
     if (!/[\p{L}\p{N}]/u.test(char)) continue;
@@ -19,25 +20,32 @@ export function searchable(text: string) {
     }
   }
   return { value, ranges };
-}
+};
 
-export function queryParts(query: string) {
-  return query.trim().split(/\s+/u).map(word => searchable(word).value).filter(Boolean);
-}
+export const queryParts = (query: string) => {
+  return query
+    .trim()
+    .split(/\s+/u)
+    .map((word) => searchable(word).value)
+    .filter(Boolean);
+};
 
-export function matches(fields: string[], query: string) {
+export const matches = (fields: string[], query: string) => {
   const parts = queryParts(query);
   if (!parts.length) return true;
-  const values = fields.map(field => searchable(field).value);
+  const values = fields.map((field) => searchable(field).value);
   const whole = searchable(query).value;
-  return values.some(value => value.includes(whole)) || parts.every(part => values.some(value => value.includes(part)));
-}
+  return (
+    values.some((value) => value.includes(whole)) ||
+    parts.every((part) => values.some((value) => value.includes(part)))
+  );
+};
 
-export function highlightRanges(text: string, query: string) {
+export const highlightRanges = (text: string, query: string) => {
   const { value, ranges } = searchable(text);
   const whole = searchable(query).value;
   if (!whole) return [];
-  // Полная фраза имеет приоритет; отдельные слова подсвечиваются, если они найдены в разных полях.
+  // Prefer a full phrase; highlight individual words when matches span fields.
   const needles = value.includes(whole) ? [whole] : queryParts(query);
   const found: Array<{ start: number; end: number }> = [];
   for (const needle of needles) {
@@ -49,11 +57,11 @@ export function highlightRanges(text: string, query: string) {
       from = index + needle.length;
     }
   }
-  found.sort ( (a, b) => a.start - b.start || a.end - b.end );
+  found.sort((a, b) => a.start - b.start || a.end - b.end);
   return found.reduce<typeof found>((merged, range) => {
     const last = merged[merged.length - 1];
     if (last && range.start <= last.end) last.end = Math.max(last.end, range.end);
     else merged.push({ ...range });
     return merged;
   }, []);
-}
+};

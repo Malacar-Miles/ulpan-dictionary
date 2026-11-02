@@ -6,7 +6,7 @@ This project is developed exclusively through **AI engineering**: changes are im
 
 ## Getting started
 
-Requires Node.js and npm.
+Use Node.js 24 and npm for local development and the quality checks below.
 
 ```bash
 npm install
@@ -37,3 +37,37 @@ When opened as an installed app, the introductory header is hidden and the searc
 ## Deployment
 
 The app is configured to build as static files in `dist/`. The repository is connected to Cloudflare Workers Builds; when automatic builds are enabled, a push to the configured production branch triggers a build and deployment. The configured build command is `npm run build`.
+
+## Code organization
+
+- `src/main.tsx` mounts React; `src/App.tsx` composes the page.
+- `src/components/` contains the dictionary's presentation components.
+- `src/hooks/` owns dictionary state, saved preferences, and layout effects.
+- `src/helpers/` contains filtering, spelling selection, highlighting segments, and touch handling.
+- `src/search.ts` implements normalization, matching, and highlight ranges.
+- `src/useSearchViewport.ts` manages the existing iPhone search session and cleanup.
+- `src/types.ts` defines the shared dictionary types.
+- `tests/` covers search semantics and dictionary interactions.
+
+## Code quality
+
+Use `npm ci` to install the versions in the lockfile. ESLint uses the recommended
+JavaScript, TypeScript, React Hooks, and Vite React Refresh flat configurations.
+Prettier owns formatting; `eslint-config-prettier` disables conflicting lint rules.
+Functions use arrow syntax, and code comments are written in English.
+
+```bash
+npm run format        # Format source and configuration
+npm run format:check  # Check formatting without writing files
+npm run lint          # Lint with zero warnings allowed
+npm run lint:fix      # Apply automatic lint fixes
+npm test              # Run regression tests
+npm run check         # Formatting, lint, tests, and production build
+```
+
+Dictionary data and agent instructions are excluded from automatic formatting.
+The dictionary's `updatedAt` changes only when its content changes.
+
+The interaction tests run in jsdom. They do not emulate the iOS keyboard:
+verify search focus/blur, scrolling, pinch zoom, and selection on a physical
+iPhone in both Safari and standalone mode before releasing viewport changes.
