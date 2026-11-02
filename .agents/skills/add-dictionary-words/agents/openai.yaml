@@ -1,0 +1,6 @@
+interface:
+  display_name: 'Add dictionary words'
+  short_description: 'Verify Hebrew notes, update the dictionary, and commit'
+  default_prompt: 'Use $add-dictionary-words to add these notes to the dictionary, verify forms and stress, update the UI date, and commit locally without pushing.'
+policy:
+  allow_implicit_invocation: true
