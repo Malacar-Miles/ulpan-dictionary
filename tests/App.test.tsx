@@ -43,7 +43,7 @@ describe('dictionary interface', () => {
   it('restores and persists the niqqud preference', () => {
     localStorage.setItem('ulpan-dictionary-show-niqqud', 'false');
     const { container } = render(<App />);
-    const toggle = screen.getByRole('checkbox') as HTMLInputElement;
+    const toggle = screen.getByRole('checkbox', { name: 'С никудом' }) as HTMLInputElement;
     expect(toggle.checked).toBe(false);
     expect(container.querySelector('.hebrew')?.textContent).toBe(
       dictionary.sections[0].entries[0].hebrew,
@@ -56,6 +56,34 @@ describe('dictionary interface', () => {
     );
   });
 
+  it('toggles handwriting independently, preserves text and search, and restores the preference', () => {
+    const { container, unmount } = render(<App />);
+    const toggle = screen.getByRole('checkbox', { name: 'Рукописный шрифт' }) as HTMLInputElement;
+    const niqqud = screen.getByRole('checkbox', { name: 'С никудом' }) as HTMLInputElement;
+    const text = container.querySelector('.hebrew')?.textContent;
+    expect(toggle.checked).toBe(false);
+    fireEvent.click(toggle);
+    expect(container.querySelector('main')?.classList.contains('handwritten')).toBe(true);
+    expect(container.querySelector('.hebrew')?.textContent).toBe(text);
+    expect(niqqud.checked).toBe(true);
+    expect(localStorage.getItem('ulpan-dictionary-handwriting')).toBe('true');
+    fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'תודה' } });
+    expect(container.querySelector('.hebrew mark')?.textContent).toBe('תּוֹדָה');
+    fireEvent.click(niqqud);
+    expect(container.querySelector('.hebrew')?.textContent).toBe('תודה');
+    expect(toggle.checked).toBe(true);
+    unmount();
+    const restored = render(<App />);
+    const restoredToggle = screen.getByRole('checkbox', {
+      name: 'Рукописный шрифт',
+    }) as HTMLInputElement;
+    expect(restoredToggle.checked).toBe(true);
+    expect(restored.container.querySelector('main')?.classList.contains('handwritten')).toBe(true);
+    fireEvent.click(restoredToggle);
+    expect(localStorage.getItem('ulpan-dictionary-handwriting')).toBe('false');
+    expect(restored.container.querySelector('main')?.classList.contains('handwritten')).toBe(false);
+  });
+
   it('continues to work when storage is unavailable', () => {
     vi.spyOn(Storage.prototype, 'getItem').mockImplementation(() => {
       throw new Error('Unavailable');
@@ -64,9 +92,15 @@ describe('dictionary interface', () => {
       throw new Error('Unavailable');
     });
     render(<App />);
-    const toggle = screen.getByRole('checkbox') as HTMLInputElement;
+    const toggle = screen.getByRole('checkbox', { name: 'С никудом' }) as HTMLInputElement;
     expect(toggle.checked).toBe(true);
     fireEvent.click(toggle);
     expect(toggle.checked).toBe(false);
+    const handwriting = screen.getByRole('checkbox', {
+      name: 'Рукописный шрифт',
+    }) as HTMLInputElement;
+    expect(handwriting.checked).toBe(false);
+    fireEvent.click(handwriting);
+    expect(handwriting.checked).toBe(true);
   });
 });

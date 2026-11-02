@@ -71,3 +71,13 @@ The dictionary's `updatedAt` changes only when its content changes.
 The interaction tests run in jsdom. They do not emulate the iOS keyboard:
 verify search focus/blur, scrolling, pinch zoom, and selection on a physical
 iPhone in both Safari and standalone mode before releasing viewport changes.
+
+## Hebrew handwriting
+
+The “Рукописный шрифт” checkbox switches Hebrew card spellings and alternate
+spellings to Gveret Levin. It is independent of the niqqud checkbox, defaults to
+print, and saves its preference in localStorage. Search and copied text retain
+the original Hebrew characters.
+
+The font is bundled in `public/fonts/gveret-levin/` under the SIL Open Font License;
+see the included `OFL.txt`. Source: [AlefAlefAlef/gveret-levin](https://github.com/AlefAlefAlef/gveret-levin).

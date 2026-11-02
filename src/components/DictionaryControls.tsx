@@ -1,5 +1,6 @@
 import type { ChangeEventHandler, PointerEventHandler, RefObject } from 'react';
 import { SearchField } from './SearchField';
+import { HandwritingToggle } from './HandwritingToggle';
 import { NiqqudToggle } from './NiqqudToggle';
 import { TopicFilters } from './TopicFilters';
 
@@ -10,6 +11,8 @@ type DictionaryControlsProps = {
   onQueryChange: ChangeEventHandler<HTMLInputElement>;
   onSearchFocus: () => void;
   onSearchBlur: () => void;
+  handwriting: boolean;
+  onHandwritingChange: ChangeEventHandler<HTMLInputElement>;
   showNiqqud: boolean;
   onNiqqudChange: ChangeEventHandler<HTMLInputElement>;
   total: number;
@@ -25,6 +28,8 @@ export const DictionaryControls = ({
   onQueryChange,
   onSearchFocus,
   onSearchBlur,
+  handwriting,
+  onHandwritingChange,
   showNiqqud,
   onNiqqudChange,
   total,
@@ -41,7 +46,10 @@ export const DictionaryControls = ({
         onFocus={onSearchFocus}
         onBlur={onSearchBlur}
       />
-      <NiqqudToggle checked={showNiqqud} onChange={onNiqqudChange} />
+      <div className="niqqud-row">
+        <NiqqudToggle checked={showNiqqud} onChange={onNiqqudChange} />
+        <HandwritingToggle checked={handwriting} onChange={onHandwritingChange} />
+      </div>
       <div className="filters-head">
         <span>ТЕМЫ</span>
         <span>

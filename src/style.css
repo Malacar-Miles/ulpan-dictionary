@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+@font-face {
+  font-family: 'Gveret Levin';
+  src: url('/fonts/gveret-levin/GveretLevin-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 :root {
   font-family: Manrope, Arial, sans-serif;
   color: #263a38;
@@ -433,7 +442,8 @@ footer p {
   margin-top: 18px;
   flex-wrap: wrap;
 }
-.niqqud-toggle {
+.niqqud-toggle,
+.handwriting-toggle {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -442,7 +452,8 @@ footer p {
   font-weight: 700;
   cursor: pointer;
 }
-.niqqud-toggle input {
+.niqqud-toggle input,
+.handwriting-toggle input {
   width: 17px;
   height: 17px;
   accent-color: #285d4b;
@@ -616,4 +627,11 @@ html.search-editing,
   margin: 0 auto;
   overflow-y: auto;
   overscroll-behavior-y: contain;
+}
+
+/* Change only Hebrew card spellings; keep the underlying text selectable. */
+.handwritten .hebrew,
+.handwritten .alternate-spelling b {
+  font-family: 'Gveret Levin', Arial, sans-serif;
+  font-weight: 400;
 }
