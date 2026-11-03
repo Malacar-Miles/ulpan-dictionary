@@ -1,10 +1,19 @@
 type TopicFiltersProps = {
   topics: string[];
   activeTopic: string;
+  emphasizeActiveTopic: boolean;
   onSelect: (topic: string) => void;
 };
-export const TopicFilters = ({ topics, activeTopic, onSelect }: TopicFiltersProps) => (
-  <nav className="filters" aria-label="Фильтр по теме">
+export const TopicFilters = ({
+  topics,
+  activeTopic,
+  emphasizeActiveTopic,
+  onSelect,
+}: TopicFiltersProps) => (
+  <nav
+    className={`filters${emphasizeActiveTopic ? ' filters-search-active' : ''}`}
+    aria-label="Фильтр по теме"
+  >
     {topics.map((title) => (
       <button
         key={title}

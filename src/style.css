@@ -194,6 +194,24 @@ h1 em {
   border-color: #285d4b;
   color: white;
 }
+@media (prefers-reduced-motion: no-preference) {
+  .filters-search-active button.active {
+    animation: active-topic-pulse 2.4s ease-in-out infinite;
+  }
+}
+@keyframes active-topic-pulse {
+  0%,
+  100% {
+    background-color: #285d4b;
+    border-color: #285d4b;
+    box-shadow: 0 0 0 0 rgb(212 150 99 / 0%);
+  }
+  50% {
+    background-color: #39765f;
+    border-color: #d49663;
+    box-shadow: 0 0 0 3px rgb(212 150 99 / 40%);
+  }
+}
 .filters button:focus-visible,
 .empty button:focus-visible {
   outline: 3px solid #d49663;

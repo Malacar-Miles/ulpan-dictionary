@@ -3,6 +3,7 @@ import { SearchField } from './SearchField';
 import { HandwritingToggle } from './HandwritingToggle';
 import { NiqqudToggle } from './NiqqudToggle';
 import { TopicFilters } from './TopicFilters';
+import { ALL_TOPICS } from '../helpers/dictionary';
 
 type DictionaryControlsProps = {
   controlsRef: RefObject<HTMLDivElement | null>;
@@ -56,7 +57,12 @@ export const DictionaryControls = ({
           {total} записей в словаре, обновлено {updated}
         </span>
       </div>
-      <TopicFilters topics={topics} activeTopic={activeTopic} onSelect={onTopicSelect} />
+      <TopicFilters
+        topics={topics}
+        activeTopic={activeTopic}
+        emphasizeActiveTopic={query.trim().length > 0 && activeTopic !== ALL_TOPICS}
+        onSelect={onTopicSelect}
+      />
     </div>
   </div>
 );
