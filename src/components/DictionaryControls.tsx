@@ -1,10 +1,8 @@
-import { LanguageSwitcher } from './LanguageSwitcher';
+import { DisplayControls } from './DisplayControls';
 import type { Topic } from '../types';
 import { useLocale } from '../localization/context';
 import type { ChangeEventHandler, PointerEventHandler, RefObject } from 'react';
 import { SearchField } from './SearchField';
-import { HandwritingToggle } from './HandwritingToggle';
-import { NiqqudToggle } from './NiqqudToggle';
 import { TopicFilters } from './TopicFilters';
 import { ALL_TOPICS } from '../helpers/dictionary';
 
@@ -52,13 +50,12 @@ export const DictionaryControls = ({
           onFocus={onSearchFocus}
           onBlur={onSearchBlur}
         />
-        <div className="niqqud-row">
-          <LanguageSwitcher />
-          <div className="display-toggles">
-            <NiqqudToggle checked={showNiqqud} onChange={onNiqqudChange} />
-            <HandwritingToggle checked={handwriting} onChange={onHandwritingChange} />
-          </div>
-        </div>
+        <DisplayControls
+          showNiqqud={showNiqqud}
+          onNiqqudChange={onNiqqudChange}
+          handwriting={handwriting}
+          onHandwritingChange={onHandwritingChange}
+        />
         <div className="filters-head">
           <span>{messages.topics}</span>
           <span>{messages.records(total, updated)}</span>

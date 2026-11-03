@@ -458,7 +458,7 @@ footer p {
   align-items: center;
   gap: 14px;
   margin-top: 18px;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .display-toggles {
   display: flex;
@@ -659,7 +659,7 @@ html.search-editing,
   font-weight: 400;
 }
 
-/* Keep language selection alongside the display settings in the sticky panel. */
+/* Language choices are revealed below the compact display controls. */
 .language-switcher {
   display: inline-flex;
   flex-shrink: 0;
@@ -688,4 +688,59 @@ html.search-editing,
 .language-switcher button:focus-visible {
   outline: 3px solid #d49663;
   outline-offset: 2px;
+}
+
+.language-menu-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 9px;
+  background: transparent;
+  color: #315a49;
+  cursor: pointer;
+}
+.language-menu-button:hover,
+.language-menu-button[aria-expanded='true'] {
+  background: #f5f9f6;
+  border-color: #cbd9ce;
+}
+.language-menu-button:focus-visible {
+  outline: 3px solid #d49663;
+  outline-offset: 2px;
+}
+.language-panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  visibility: hidden;
+}
+.language-panel.is-open {
+  grid-template-rows: 1fr;
+  opacity: 1;
+  visibility: visible;
+}
+.language-panel-content {
+  min-height: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+}
+.language-panel-content .language-switcher {
+  margin: 8px 4px 4px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .language-panel {
+    transition:
+      grid-template-rows 160ms ease-out,
+      opacity 160ms ease-out,
+      visibility 0s 160ms;
+  }
+  .language-panel.is-open {
+    transition-delay: 0s;
+  }
 }

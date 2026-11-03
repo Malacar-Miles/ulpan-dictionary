@@ -1,6 +1,6 @@
 // @vitest-environment jsdom
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
-import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+import { act, cleanup, fireEvent, render, screen } from '@testing-library/react';
 import { App } from '../src/App';
 import dictionary from '../src/dictionary.json';
 import { formatUpdatedDate } from '../src/helpers/dictionary';
@@ -19,6 +19,7 @@ beforeEach(() => {
 });
 afterEach(() => {
   cleanup();
+  vi.useRealTimers();
   vi.unstubAllGlobals();
   vi.restoreAllMocks();
 });
@@ -47,7 +48,7 @@ describe('dictionary interface', () => {
   it('restores and persists the niqqud preference', () => {
     localStorage.setItem('ulpan-dictionary-show-niqqud', 'false');
     const { container } = render(<App />);
-    const toggle = screen.getByRole('checkbox', { name: 'С никудом' }) as HTMLInputElement;
+    const toggle = screen.getByRole('checkbox', { name: 'Никкуд' }) as HTMLInputElement;
     expect(toggle.checked).toBe(false);
     expect(container.querySelector('.hebrew')?.textContent).toBe(
       dictionary.sections[0].entries[0].hebrew,
@@ -62,8 +63,8 @@ describe('dictionary interface', () => {
 
   it('toggles handwriting independently, preserves text and search, and restores the preference', () => {
     const { container, unmount } = render(<App />);
-    const toggle = screen.getByRole('checkbox', { name: 'Рукописный шрифт' }) as HTMLInputElement;
-    const niqqud = screen.getByRole('checkbox', { name: 'С никудом' }) as HTMLInputElement;
+    const toggle = screen.getByRole('checkbox', { name: 'Пропись' }) as HTMLInputElement;
+    const niqqud = screen.getByRole('checkbox', { name: 'Никкуд' }) as HTMLInputElement;
     const text = container.querySelector('.hebrew')?.textContent;
     expect(toggle.checked).toBe(false);
     fireEvent.click(toggle);
@@ -79,7 +80,7 @@ describe('dictionary interface', () => {
     unmount();
     const restored = render(<App />);
     const restoredToggle = screen.getByRole('checkbox', {
-      name: 'Рукописный шрифт',
+      name: 'Пропись',
     }) as HTMLInputElement;
     expect(restoredToggle.checked).toBe(true);
     expect(restored.container.querySelector('main')?.classList.contains('handwritten')).toBe(true);
@@ -96,19 +97,20 @@ describe('dictionary interface', () => {
       throw new Error('Unavailable');
     });
     render(<App />);
-    const toggle = screen.getByRole('checkbox', { name: 'С никудом' }) as HTMLInputElement;
+    const toggle = screen.getByRole('checkbox', { name: 'Никкуд' }) as HTMLInputElement;
     expect(toggle.checked).toBe(true);
     fireEvent.click(toggle);
     expect(toggle.checked).toBe(false);
     const handwriting = screen.getByRole('checkbox', {
-      name: 'Рукописный шрифт',
+      name: 'Пропись',
     }) as HTMLInputElement;
     expect(handwriting.checked).toBe(false);
     fireEvent.click(handwriting);
     expect(handwriting.checked).toBe(true);
+    fireEvent.click(screen.getByRole('button', { name: 'Язык интерфейса' }));
     fireEvent.click(screen.getByRole('button', { name: 'Español' }));
     expect(document.documentElement.lang).toBe('es');
-    expect(screen.getByRole('checkbox', { name: 'Letra manuscrita' })).toBeTruthy();
+    expect(screen.getByRole('checkbox', { name: 'Manuscrita' })).toBeTruthy();
   });
 });
 
@@ -117,8 +119,9 @@ describe('localization', () => {
     const { container, unmount } = render(<App />);
     fireEvent.click(screen.getByRole('button', { name: 'Глаголы и состояния' }));
     fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'הולך' } });
-    fireEvent.click(screen.getByRole('checkbox', { name: 'С никудом' }));
-    fireEvent.click(screen.getByRole('checkbox', { name: 'Рукописный шрифт' }));
+    fireEvent.click(screen.getByRole('checkbox', { name: 'Никкуд' }));
+    fireEvent.click(screen.getByRole('checkbox', { name: 'Пропись' }));
+    fireEvent.click(screen.getByRole('button', { name: 'Язык интерфейса' }));
     fireEvent.click(screen.getByRole('button', { name: 'Español' }));
     expect(document.documentElement.lang).toBe('es');
     expect(document.title).toBe('Diccionario del ulpán');
@@ -126,7 +129,7 @@ describe('localization', () => {
       screen.getByRole('button', { name: 'Verbos y estados' }).getAttribute('aria-pressed'),
     ).toBe('true');
     expect((screen.getByRole('searchbox') as HTMLInputElement).value).toBe('הולך');
-    expect((screen.getByRole('checkbox', { name: 'Con niqqud' }) as HTMLInputElement).checked).toBe(
+    expect((screen.getByRole('checkbox', { name: 'Niqqud' }) as HTMLInputElement).checked).toBe(
       false,
     );
     expect(container.querySelector('main')?.classList.contains('handwritten')).toBe(true);
@@ -146,9 +149,8 @@ describe('localization', () => {
     expect(localStorage.getItem('ulpan-dictionary-language')).toBe('es');
     unmount();
     render(<App />);
-    expect(screen.getByRole('button', { name: 'Español' }).getAttribute('aria-pressed')).toBe(
-      'true',
-    );
+    expect(document.documentElement.lang).toBe('es');
+    fireEvent.click(screen.getByRole('button', { name: 'Idioma de la interfaz' }));
     fireEvent.click(screen.getByRole('button', { name: 'Русский' }));
     expect(document.title).toBe('Словарь ульпана');
     expect(localStorage.getItem('ulpan-dictionary-language')).toBe('ru');
@@ -161,6 +163,7 @@ describe('localization', () => {
     expect(screen.getByRole('searchbox').getAttribute('placeholder')).toBe(
       'Buscar en español o hebreo',
     );
+    fireEvent.click(screen.getByRole('button', { name: 'Idioma de la interfaz' }));
     fireEvent.click(screen.getByRole('button', { name: 'Русский' }));
     unmount();
     render(<App />);
@@ -188,4 +191,41 @@ describe('localization', () => {
       dictionary.sections.reduce((sum, section) => sum + section.entries.length, 0),
     );
   });
+});
+
+it('delays closing after language selection but closes immediately via the globe or Escape', () => {
+  vi.useFakeTimers();
+  render(<App />);
+  const globe = screen.getByRole('button', { name: 'Язык интерфейса' });
+  expect(globe.getAttribute('aria-expanded')).toBe('false');
+  expect(screen.queryByRole('button', { name: 'Español' })).toBeNull();
+  fireEvent.click(globe);
+  expect(globe.getAttribute('aria-expanded')).toBe('true');
+  expect(screen.getByRole('button', { name: 'Español' })).toBeTruthy();
+  fireEvent.click(globe);
+  expect(screen.queryByRole('button', { name: 'Español' })).toBeNull();
+  fireEvent.click(globe);
+  const spanish = screen.getByRole('button', { name: 'Español' });
+  spanish.focus();
+  fireEvent.click(spanish);
+  expect(document.documentElement.lang).toBe('es');
+  act(() => vi.advanceTimersByTime(499));
+  expect(globe.getAttribute('aria-expanded')).toBe('true');
+  act(() => vi.advanceTimersByTime(1));
+  expect(globe.getAttribute('aria-expanded')).toBe('false');
+  expect(document.activeElement).toBe(globe);
+  fireEvent.click(globe);
+  const selectedLanguage = screen.getByRole('button', { name: 'Español' });
+  selectedLanguage.focus();
+  fireEvent.keyDown(selectedLanguage, { key: 'Escape' });
+  expect(globe.getAttribute('aria-expanded')).toBe('false');
+  expect(document.activeElement).toBe(globe);
+  fireEvent.click(globe);
+  fireEvent.click(screen.getByRole('button', { name: 'Español' }));
+  expect(globe.getAttribute('aria-expanded')).toBe('true');
+  fireEvent.click(globe);
+  expect(globe.getAttribute('aria-expanded')).toBe('false');
+  fireEvent.click(globe);
+  act(() => vi.advanceTimersByTime(500));
+  expect(globe.getAttribute('aria-expanded')).toBe('true');
 });
