@@ -1,1398 +1,3489 @@
 {
-  "updatedAt": "2026-11-02",
-  "intro": "Произношение приблизительное; ударение обозначено знаком над гласной. ה в транскрипции обозначено как h. Примеры и уточнения добавлены для понимания.",
+  "updatedAt": "2026-11-03",
+  "intro": {
+    "ru": "Произношение приблизительное; ударение обозначено знаком над гласной. ה в транскрипции обозначено как h. Примеры и уточнения добавлены для понимания.",
+    "es": "La pronunciación es aproximada; la tilde indica el acento. h representa una ה pronunciada; ch, el sonido de ח o כ sin dagesh; sh, el de שׁ; z, el de צ (ts). s representa tanto ס/שׂ como ז. g siempre representa el sonido de «gato», incluso ante e o i; y representa el sonido de י consonántica. Son convenciones personales de aprendizaje, no reglas de ortografía española. Se incluyen ejemplos y aclaraciones."
+  },
   "sections": [
     {
-      "title": "Приветствия и общение",
-      "note": "",
       "entries": [
         {
           "hebrew": "תודה",
-          "pronunciation": "тода́",
-          "meaning": "спасибо",
-          "hebrewWithNiqqud": "תּוֹדָה"
+          "hebrewWithNiqqud": "תּוֹדָה",
+          "id": "word-001",
+          "translations": {
+            "ru": {
+              "pronunciation": "тода́",
+              "meaning": "спасибо"
+            },
+            "es": {
+              "pronunciation": "todá",
+              "meaning": "gracias"
+            }
+          }
         },
         {
           "hebrew": "תודה רבה",
-          "pronunciation": "тода́ раба́",
-          "meaning": "большое спасибо",
-          "hebrewWithNiqqud": "תּוֹדָה רַבָּה"
+          "hebrewWithNiqqud": "תּוֹדָה רַבָּה",
+          "id": "word-002",
+          "translations": {
+            "ru": {
+              "pronunciation": "тода́ раба́",
+              "meaning": "большое спасибо"
+            },
+            "es": {
+              "pronunciation": "todá rabá",
+              "meaning": "muchas gracias"
+            }
+          }
         },
         {
           "hebrew": "בוקר טוב",
-          "pronunciation": "бо́кер тов",
-          "meaning": "доброе утро",
-          "hebrewWithNiqqud": "בֹּקֶר טוֹב"
+          "hebrewWithNiqqud": "בֹּקֶר טוֹב",
+          "id": "word-003",
+          "translations": {
+            "ru": {
+              "pronunciation": "бо́кер тов",
+              "meaning": "доброе утро"
+            },
+            "es": {
+              "pronunciation": "bóker tov",
+              "meaning": "buenos días"
+            }
+          }
         },
         {
           "hebrew": "להתראות",
-          "pronunciation": "леhитрао́т",
-          "meaning": "до свидания",
-          "hebrewWithNiqqud": "לְהִתְרָאוֹת"
+          "hebrewWithNiqqud": "לְהִתְרָאוֹת",
+          "id": "word-004",
+          "translations": {
+            "ru": {
+              "pronunciation": "леhитрао́т",
+              "meaning": "до свидания"
+            },
+            "es": {
+              "pronunciation": "lehitraót",
+              "meaning": "hasta luego"
+            }
+          }
         },
         {
           "hebrew": "נעים מאוד",
-          "pronunciation": "наи́м мео́д",
-          "meaning": "очень приятно",
-          "hebrewWithNiqqud": "נָעִים מְאוֹד"
+          "hebrewWithNiqqud": "נָעִים מְאוֹד",
+          "id": "word-005",
+          "translations": {
+            "ru": {
+              "pronunciation": "наи́м мео́д",
+              "meaning": "очень приятно"
+            },
+            "es": {
+              "pronunciation": "naím meód",
+              "meaning": "mucho gusto"
+            }
+          }
         },
         {
           "hebrew": "יופי",
-          "pronunciation": "йо́фи",
-          "meaning": "отлично, здорово",
-          "hebrewWithNiqqud": "יֹפִי"
+          "hebrewWithNiqqud": "יֹפִי",
+          "id": "word-006",
+          "translations": {
+            "ru": {
+              "pronunciation": "йо́фи",
+              "meaning": "отлично, здорово"
+            },
+            "es": {
+              "pronunciation": "yófi",
+              "meaning": "excelente, genial"
+            }
+          }
         },
         {
           "hebrew": "מצוין",
-          "pronunciation": "мецуя́н",
-          "meaning": "отлично, превосходно",
-          "hebrewWithNiqqud": "מְצֻיָּן"
+          "hebrewWithNiqqud": "מְצֻיָּן",
+          "id": "word-007",
+          "translations": {
+            "ru": {
+              "pronunciation": "мецуя́н",
+              "meaning": "отлично, превосходно"
+            },
+            "es": {
+              "pronunciation": "mezuyán",
+              "meaning": "excelente, estupendo"
+            }
+          }
         },
         {
           "hebrew": "מעולה",
-          "pronunciation": "меуле́",
-          "meaning": "отлично, превосходно",
-          "hebrewWithNiqqud": "מְעֻלֶּה"
+          "hebrewWithNiqqud": "מְעֻלֶּה",
+          "id": "word-008",
+          "translations": {
+            "ru": {
+              "pronunciation": "меуле́",
+              "meaning": "отлично, превосходно"
+            },
+            "es": {
+              "pronunciation": "meulé",
+              "meaning": "excelente, estupendo"
+            }
+          }
         },
         {
           "hebrew": "טוב מאוד",
-          "pronunciation": "тов мео́д",
-          "meaning": "очень хорошо",
-          "hebrewWithNiqqud": "טוֹב מְאוֹד"
+          "hebrewWithNiqqud": "טוֹב מְאוֹד",
+          "id": "word-009",
+          "translations": {
+            "ru": {
+              "pronunciation": "тов мео́д",
+              "meaning": "очень хорошо"
+            },
+            "es": {
+              "pronunciation": "tov meód",
+              "meaning": "muy bien"
+            }
+          }
         },
         {
           "hebrew": "בסדר",
-          "pronunciation": "бесэ́дер",
-          "meaning": "хорошо, в порядке; ладно",
-          "hebrewWithNiqqud": "בְּסֵדֶר"
+          "hebrewWithNiqqud": "בְּסֵדֶר",
+          "id": "word-010",
+          "translations": {
+            "ru": {
+              "pronunciation": "бесэ́дер",
+              "meaning": "хорошо, в порядке; ладно"
+            },
+            "es": {
+              "pronunciation": "beséder",
+              "meaning": "bien, en orden; de acuerdo"
+            }
+          }
         },
         {
           "hebrew": "הכול בסדר",
-          "pronunciation": "hако́ль бесэ́дер",
-          "meaning": "всё в порядке",
-          "hebrewWithNiqqud": "הַכֹּל בְּסֵדֶר"
+          "hebrewWithNiqqud": "הַכֹּל בְּסֵדֶר",
+          "id": "word-011",
+          "translations": {
+            "ru": {
+              "pronunciation": "hако́ль бесэ́дер",
+              "meaning": "всё в порядке"
+            },
+            "es": {
+              "pronunciation": "hakól beséder",
+              "meaning": "todo está bien"
+            }
+          }
         },
         {
           "hebrew": "אין לי מושג",
-          "pronunciation": "эйн ли муса́г",
-          "meaning": "понятия не имею, без понятия",
-          "hebrewWithNiqqud": "אֵין לִי מֻשָּׂג"
+          "hebrewWithNiqqud": "אֵין לִי מֻשָּׂג",
+          "id": "word-012",
+          "translations": {
+            "ru": {
+              "pronunciation": "эйн ли муса́г",
+              "meaning": "понятия не имею, без понятия"
+            },
+            "es": {
+              "pronunciation": "eyn li muság",
+              "meaning": "no tengo ni idea"
+            }
+          }
         },
         {
           "hebrew": "נכון?",
-          "pronunciation": "нахо́н?",
-          "meaning": "верно? правильно?",
-          "hebrewWithNiqqud": "נָכוֹן?"
+          "hebrewWithNiqqud": "נָכוֹן?",
+          "id": "word-013",
+          "translations": {
+            "ru": {
+              "pronunciation": "нахо́н?",
+              "meaning": "верно? правильно?"
+            },
+            "es": {
+              "pronunciation": "nachón?",
+              "meaning": "¿verdad? ¿correcto?"
+            }
+          }
         },
         {
           "hebrew": "מה נשמע?",
-          "pronunciation": "ма нишма́?",
-          "meaning": "как дела?",
-          "hebrewWithNiqqud": "מָה נִשְׁמָע?"
+          "hebrewWithNiqqud": "מָה נִשְׁמָע?",
+          "id": "word-014",
+          "translations": {
+            "ru": {
+              "pronunciation": "ма нишма́?",
+              "meaning": "как дела?"
+            },
+            "es": {
+              "pronunciation": "ma nishmá?",
+              "meaning": "¿qué tal?"
+            }
+          }
         },
         {
           "hebrew": "מה שלומך?",
-          "pronunciation": "ма шломха́? / ма шломэ́х?",
-          "meaning": "как дела? Обращение к мужчине / женщине",
-          "hebrewWithNiqqud": "מָה שְׁלוֹמְךָ? / מָה שְׁלוֹמֵךְ?"
+          "hebrewWithNiqqud": "מָה שְׁלוֹמְךָ? / מָה שְׁלוֹמֵךְ?",
+          "id": "word-015",
+          "translations": {
+            "ru": {
+              "pronunciation": "ма шломха́? / ма шломэ́х?",
+              "meaning": "как дела? Обращение к мужчине / женщине"
+            },
+            "es": {
+              "pronunciation": "ma shlomchá? / ma shloméch?",
+              "meaning": "¿cómo estás? Dirigido a un hombre / a una mujer"
+            }
+          }
         },
         {
           "hebrew": "מה שלומכם? / מה שלומכן?",
-          "pronunciation": "ма шломхэ́м? / ма шломхэ́н?",
-          "meaning": "как ваши дела? К группе мужчин или смешанной / к группе женщин",
-          "hebrewWithNiqqud": "מָה שְׁלוֹמְכֶם? / מָה שְׁלוֹמְכֶן?"
+          "hebrewWithNiqqud": "מָה שְׁלוֹמְכֶם? / מָה שְׁלוֹמְכֶן?",
+          "id": "word-016",
+          "translations": {
+            "ru": {
+              "pronunciation": "ма шломхэ́м? / ма шломхэ́н?",
+              "meaning": "как ваши дела? К группе мужчин или смешанной / к группе женщин"
+            },
+            "es": {
+              "pronunciation": "ma shlomchém? / ma shlomchén?",
+              "meaning": "¿cómo están? Dirigido a un grupo masculino o mixto / a un grupo femenino"
+            }
+          }
         },
         {
           "hebrew": "איך קוראים לך?",
-          "pronunciation": "эйх кори́м леха́? / лах?",
-          "meaning": "как тебя зовут? К мужчине / женщине",
-          "hebrewWithNiqqud": "אֵיךְ קוֹרְאִים לְךָ? / אֵיךְ קוֹרְאִים לָךְ?"
+          "hebrewWithNiqqud": "אֵיךְ קוֹרְאִים לְךָ? / אֵיךְ קוֹרְאִים לָךְ?",
+          "id": "word-017",
+          "translations": {
+            "ru": {
+              "pronunciation": "эйх кори́м леха́? / лах?",
+              "meaning": "как тебя зовут? К мужчине / женщине"
+            },
+            "es": {
+              "pronunciation": "eych korím lechá? / lach?",
+              "meaning": "¿cómo te llamas? Dirigido a un hombre / a una mujer"
+            }
+          }
         },
         {
           "hebrew": "מה שמך?",
-          "pronunciation": "ма шимха́? / ма шмэ́х?",
-          "meaning": "как тебя зовут? К мужчине / женщине",
-          "hebrewWithNiqqud": "מַה שִׁמְךָ? / מַה שְׁמֵךְ?"
+          "hebrewWithNiqqud": "מַה שִׁמְךָ? / מַה שְׁמֵךְ?",
+          "id": "word-018",
+          "translations": {
+            "ru": {
+              "pronunciation": "ма шимха́? / ма шмэ́х?",
+              "meaning": "как тебя зовут? К мужчине / женщине"
+            },
+            "es": {
+              "pronunciation": "ma shimchá? / ma shméch?",
+              "meaning": "¿cuál es tu nombre? Dirigido a un hombre / a una mujer"
+            }
+          }
         }
-      ]
+      ],
+      "id": "greetings",
+      "translations": {
+        "ru": {
+          "title": "Приветствия и общение",
+          "note": ""
+        },
+        "es": {
+          "title": "Saludos y comunicación",
+          "note": ""
+        }
+      }
     },
     {
-      "title": "Люди, семья и личные данные",
-      "note": "",
       "entries": [
         {
           "hebrew": "שם",
-          "pronunciation": "шем",
-          "meaning": "имя; название",
-          "hebrewWithNiqqud": "שֵׁם"
+          "hebrewWithNiqqud": "שֵׁם",
+          "id": "word-019",
+          "translations": {
+            "ru": {
+              "pronunciation": "шем",
+              "meaning": "имя; название"
+            },
+            "es": {
+              "pronunciation": "shem",
+              "meaning": "nombre"
+            }
+          }
         },
         {
           "hebrew": "שמי",
-          "pronunciation": "шми",
-          "meaning": "моё имя",
-          "hebrewWithNiqqud": "שְׁמִי"
+          "hebrewWithNiqqud": "שְׁמִי",
+          "id": "word-020",
+          "translations": {
+            "ru": {
+              "pronunciation": "шми",
+              "meaning": "моё имя"
+            },
+            "es": {
+              "pronunciation": "shmi",
+              "meaning": "mi nombre"
+            }
+          }
         },
         {
           "hebrew": "שמך",
-          "pronunciation": "шимха́ / шмэ́х",
-          "meaning": "твоё имя: при обращении к мужчине / женщине",
-          "hebrewWithNiqqud": "שִׁמְךָ / שְׁמֵךְ"
+          "hebrewWithNiqqud": "שִׁמְךָ / שְׁמֵךְ",
+          "id": "word-021",
+          "translations": {
+            "ru": {
+              "pronunciation": "шимха́ / шмэ́х",
+              "meaning": "твоё имя: при обращении к мужчине / женщине"
+            },
+            "es": {
+              "pronunciation": "shimchá / shméch",
+              "meaning": "tu nombre: dirigido a un hombre / a una mujer"
+            }
+          }
         },
         {
           "hebrew": "שמו / שמה",
-          "pronunciation": "шмо / шма",
-          "meaning": "его имя / её имя",
-          "hebrewWithNiqqud": "שְׁמוֹ / שְׁמָהּ"
+          "hebrewWithNiqqud": "שְׁמוֹ / שְׁמָהּ",
+          "id": "word-022",
+          "translations": {
+            "ru": {
+              "pronunciation": "шмо / шма",
+              "meaning": "его имя / её имя"
+            },
+            "es": {
+              "pronunciation": "shmo / shma",
+              "meaning": "su nombre (de él) / su nombre (de ella)"
+            }
+          }
         },
         {
           "hebrew": "שלומי",
-          "pronunciation": "шломи́",
-          "meaning": "моё самочувствие, моё благополучие",
-          "hebrewWithNiqqud": "שְׁלוֹמִי"
+          "hebrewWithNiqqud": "שְׁלוֹמִי",
+          "id": "word-023",
+          "translations": {
+            "ru": {
+              "pronunciation": "шломи́",
+              "meaning": "моё самочувствие, моё благополучие"
+            },
+            "es": {
+              "pronunciation": "shlomí",
+              "meaning": "mi estado, mi bienestar"
+            }
+          }
         },
         {
           "hebrew": "שלומך",
-          "pronunciation": "шломха́ / шломэ́х",
-          "meaning": "твоё самочувствие: при обращении к мужчине / женщине",
-          "hebrewWithNiqqud": "שְׁלוֹמְךָ / שְׁלוֹמֵךְ"
+          "hebrewWithNiqqud": "שְׁלוֹמְךָ / שְׁלוֹמֵךְ",
+          "id": "word-024",
+          "translations": {
+            "ru": {
+              "pronunciation": "шломха́ / шломэ́х",
+              "meaning": "твоё самочувствие: при обращении к мужчине / женщине"
+            },
+            "es": {
+              "pronunciation": "shlomchá / shloméch",
+              "meaning": "tu estado: dirigido a un hombre / a una mujer"
+            }
+          }
         },
         {
           "hebrew": "שלומכם / שלומכן",
-          "pronunciation": "шломхэ́м / шломхэ́н",
-          "meaning": "ваше самочувствие: к группе мужчин или смешанной / женщин",
-          "hebrewWithNiqqud": "שְׁלוֹמְכֶם / שְׁלוֹמְכֶן"
+          "hebrewWithNiqqud": "שְׁלוֹמְכֶם / שְׁלוֹמְכֶן",
+          "id": "word-025",
+          "translations": {
+            "ru": {
+              "pronunciation": "шломхэ́м / шломхэ́н",
+              "meaning": "ваше самочувствие: к группе мужчин или смешанной / женщин"
+            },
+            "es": {
+              "pronunciation": "shlomchém / shlomchén",
+              "meaning": "su estado: dirigido a un grupo masculino o mixto / a un grupo femenino"
+            }
+          }
         },
         {
           "hebrew": "שם פרטי",
-          "pronunciation": "шем прати́",
-          "meaning": "личное имя",
-          "hebrewWithNiqqud": "שֵׁם פְּרָטִי"
+          "hebrewWithNiqqud": "שֵׁם פְּרָטִי",
+          "id": "word-026",
+          "translations": {
+            "ru": {
+              "pronunciation": "шем прати́",
+              "meaning": "личное имя"
+            },
+            "es": {
+              "pronunciation": "shem pratí",
+              "meaning": "nombre de pila"
+            }
+          }
         },
         {
           "hebrew": "שם משפחה / שם משפחתי",
-          "pronunciation": "шем мишпаха́ / шем мишпахти́",
-          "meaning": "фамилия",
-          "hebrewWithNiqqud": "שֵׁם מִשְׁפָּחָה / שֵׁם מִשְׁפַּחְתִּי"
+          "hebrewWithNiqqud": "שֵׁם מִשְׁפָּחָה / שֵׁם מִשְׁפַּחְתִּי",
+          "id": "word-027",
+          "translations": {
+            "ru": {
+              "pronunciation": "шем мишпаха́ / шем мишпахти́",
+              "meaning": "фамилия"
+            },
+            "es": {
+              "pronunciation": "shem mishpachá / shem mishpachtí",
+              "meaning": "apellido"
+            }
+          }
         },
         {
           "hebrew": "מצב משפחתי",
-          "pronunciation": "маца́в мишпахти́",
-          "meaning": "семейное положение",
-          "hebrewWithNiqqud": "מַצָּב מִשְׁפַּחְתִּי"
+          "hebrewWithNiqqud": "מַצָּב מִשְׁפַּחְתִּי",
+          "id": "word-028",
+          "translations": {
+            "ru": {
+              "pronunciation": "маца́в мишпахти́",
+              "meaning": "семейное положение"
+            },
+            "es": {
+              "pronunciation": "mazáv mishpachtí",
+              "meaning": "estado civil"
+            }
+          }
         },
         {
           "hebrew": "מה המצב המשפחתי שלך?",
-          "pronunciation": "ма hамаца́в hамишпахти́ шельха́ / шела́х?",
-          "meaning": "какое твоё семейное положение? Обращение к мужчине / женщине",
-          "hebrewWithNiqqud": "מָה הַמַּצָּב הַמִּשְׁפַּחְתִּי שֶׁלְּךָ? / מָה הַמַּצָּב הַמִּשְׁפַּחְתִּי שֶׁלָּךְ?"
+          "hebrewWithNiqqud": "מָה הַמַּצָּב הַמִּשְׁפַּחְתִּי שֶׁלְּךָ? / מָה הַמַּצָּב הַמִּשְׁפַּחְתִּי שֶׁלָּךְ?",
+          "id": "word-029",
+          "translations": {
+            "ru": {
+              "pronunciation": "ма hамаца́в hамишпахти́ шельха́ / шела́х?",
+              "meaning": "какое твоё семейное положение? Обращение к мужчине / женщине"
+            },
+            "es": {
+              "pronunciation": "ma hamazáv hamishpachtí shelchá / shelách?",
+              "meaning": "¿cuál es tu estado civil? Dirigido a un hombre / a una mujer"
+            }
+          }
         },
         {
           "hebrew": "כתובת",
-          "pronunciation": "кто́вет",
-          "meaning": "адрес",
-          "hebrewWithNiqqud": "כְּתֹבֶת"
+          "hebrewWithNiqqud": "כְּתֹבֶת",
+          "id": "word-030",
+          "translations": {
+            "ru": {
+              "pronunciation": "кто́вет",
+              "meaning": "адрес"
+            },
+            "es": {
+              "pronunciation": "któvet",
+              "meaning": "dirección"
+            }
+          }
         },
         {
           "hebrew": "מספר טלפון",
-          "pronunciation": "миспа́р тэ́лефон",
-          "meaning": "номер телефона",
-          "hebrewWithNiqqud": "מִסְפַּר טֵלֵפוֹן"
+          "hebrewWithNiqqud": "מִסְפַּר טֵלֵפוֹן",
+          "id": "word-031",
+          "translations": {
+            "ru": {
+              "pronunciation": "миспа́р тэ́лефон",
+              "meaning": "номер телефона"
+            },
+            "es": {
+              "pronunciation": "mispár télefon",
+              "meaning": "número de teléfono"
+            }
+          }
         },
         {
           "hebrew": "מספר תעודת זהות",
-          "pronunciation": "миспа́р теуда́т зеhу́т",
-          "meaning": "номер удостоверения личности",
-          "hebrewWithNiqqud": "מִסְפַּר תְּעוּדַת זֶהוּת"
+          "hebrewWithNiqqud": "מִסְפַּר תְּעוּדַת זֶהוּת",
+          "id": "word-032",
+          "translations": {
+            "ru": {
+              "pronunciation": "миспа́р теуда́т зеhу́т",
+              "meaning": "номер удостоверения личности"
+            },
+            "es": {
+              "pronunciation": "mispár teudát sehút",
+              "meaning": "número del documento de identidad"
+            }
+          }
         },
         {
           "hebrew": "שם העיר",
-          "pronunciation": "шем hаи́р",
-          "meaning": "название города",
-          "hebrewWithNiqqud": "שֵׁם הָעִיר"
+          "hebrewWithNiqqud": "שֵׁם הָעִיר",
+          "id": "word-033",
+          "translations": {
+            "ru": {
+              "pronunciation": "шем hаи́р",
+              "meaning": "название города"
+            },
+            "es": {
+              "pronunciation": "shem haír",
+              "meaning": "nombre de la ciudad"
+            }
+          }
         },
         {
           "hebrew": "ארץ לידה",
-          "pronunciation": "э́рэц лейда́",
-          "meaning": "страна рождения",
-          "hebrewWithNiqqud": "אֶרֶץ לֵדָה"
+          "hebrewWithNiqqud": "אֶרֶץ לֵדָה",
+          "id": "word-034",
+          "translations": {
+            "ru": {
+              "pronunciation": "э́рэц лейда́",
+              "meaning": "страна рождения"
+            },
+            "es": {
+              "pronunciation": "érez leydá",
+              "meaning": "país de nacimiento"
+            }
+          }
         },
         {
           "hebrew": "משפחה",
-          "pronunciation": "мишпаха́",
-          "meaning": "семья",
-          "hebrewWithNiqqud": "מִשְׁפָּחָה"
+          "hebrewWithNiqqud": "מִשְׁפָּחָה",
+          "id": "word-035",
+          "translations": {
+            "ru": {
+              "pronunciation": "мишпаха́",
+              "meaning": "семья"
+            },
+            "es": {
+              "pronunciation": "mishpachá",
+              "meaning": "familia"
+            }
+          }
         },
         {
           "hebrew": "בן / בת",
-          "pronunciation": "бен / бат",
-          "meaning": "сын / дочь",
-          "hebrewWithNiqqud": "בֵּן / בַּת"
+          "hebrewWithNiqqud": "בֵּן / בַּת",
+          "id": "word-036",
+          "translations": {
+            "ru": {
+              "pronunciation": "бен / бат",
+              "meaning": "сын / дочь"
+            },
+            "es": {
+              "pronunciation": "ben / bat",
+              "meaning": "hijo / hija"
+            }
+          }
         },
         {
           "hebrew": "חבר / חברה",
-          "pronunciation": "хавэ́р / хавера́",
-          "meaning": "друг / подруга; мн. חברים — хавери́м / חברות — хаверо́т",
-          "hebrewWithNiqqud": "חָבֵר / חֲבֵרָה"
+          "hebrewWithNiqqud": "חָבֵר / חֲבֵרָה",
+          "id": "word-037",
+          "translations": {
+            "ru": {
+              "pronunciation": "хавэ́р / хавера́",
+              "meaning": "друг / подруга; мн. חברים — хавери́м / חברות — хаверо́т"
+            },
+            "es": {
+              "pronunciation": "chavér / chaverá",
+              "meaning": "amigo / amiga; plural: חברים — chaverím / חברות — chaverót"
+            }
+          }
         },
         {
           "hebrew": "ילד",
-          "pronunciation": "йэ́лед",
-          "meaning": "ребёнок, мальчик",
-          "hebrewWithNiqqud": "יֶלֶד"
+          "hebrewWithNiqqud": "יֶלֶד",
+          "id": "word-038",
+          "translations": {
+            "ru": {
+              "pronunciation": "йэ́лед",
+              "meaning": "ребёнок, мальчик"
+            },
+            "es": {
+              "pronunciation": "yéled",
+              "meaning": "niño"
+            }
+          }
         },
         {
           "hebrew": "איש / אישה",
-          "pronunciation": "иш / иша́",
-          "meaning": "мужчина / женщина",
-          "hebrewWithNiqqud": "אִישׁ / אִשָּׁה"
+          "hebrewWithNiqqud": "אִישׁ / אִשָּׁה",
+          "id": "word-039",
+          "translations": {
+            "ru": {
+              "pronunciation": "иш / иша́",
+              "meaning": "мужчина / женщина"
+            },
+            "es": {
+              "pronunciation": "ish / ishá",
+              "meaning": "hombre / mujer"
+            }
+          }
         },
         {
           "hebrew": "בעל",
-          "pronunciation": "ба́аль",
-          "meaning": "муж",
-          "hebrewWithNiqqud": "בַּעַל"
+          "hebrewWithNiqqud": "בַּעַל",
+          "id": "word-040",
+          "translations": {
+            "ru": {
+              "pronunciation": "ба́аль",
+              "meaning": "муж"
+            },
+            "es": {
+              "pronunciation": "báal",
+              "meaning": "marido"
+            }
+          }
         },
         {
           "hebrew": "נשוי / נשואה",
-          "pronunciation": "насу́й / несуа́",
-          "meaning": "женат / замужем",
-          "hebrewWithNiqqud": "נָשׂוּי / נְשׂוּאָה"
+          "hebrewWithNiqqud": "נָשׂוּי / נְשׂוּאָה",
+          "id": "word-041",
+          "translations": {
+            "ru": {
+              "pronunciation": "насу́й / несуа́",
+              "meaning": "женат / замужем"
+            },
+            "es": {
+              "pronunciation": "nasúy / nesuá",
+              "meaning": "casado / casada"
+            }
+          }
         },
         {
           "hebrew": "רווק / רווקה",
-          "pronunciation": "рава́к / равака́",
-          "meaning": "холост / не замужем",
-          "hebrewWithNiqqud": "רַוָּק / רַוָּקָה"
+          "hebrewWithNiqqud": "רַוָּק / רַוָּקָה",
+          "id": "word-042",
+          "translations": {
+            "ru": {
+              "pronunciation": "рава́к / равака́",
+              "meaning": "холост / не замужем"
+            },
+            "es": {
+              "pronunciation": "ravák / ravaká",
+              "meaning": "soltero / soltera"
+            }
+          }
         },
         {
           "hebrew": "גרוש / גרושה",
-          "pronunciation": "гару́ш / груша́",
-          "meaning": "разведён / разведена",
-          "hebrewWithNiqqud": "גָּרוּשׁ / גְּרוּשָׁה"
+          "hebrewWithNiqqud": "גָּרוּשׁ / גְּרוּשָׁה",
+          "id": "word-043",
+          "translations": {
+            "ru": {
+              "pronunciation": "гару́ш / груша́",
+              "meaning": "разведён / разведена"
+            },
+            "es": {
+              "pronunciation": "garúsh / grushá",
+              "meaning": "divorciado / divorciada"
+            }
+          }
         },
         {
           "hebrew": "מורה",
-          "pronunciation": "морэ́ / мора́",
-          "meaning": "учитель / учительница; одинаковое написание без огласовок",
-          "hebrewWithNiqqud": "מוֹרֶה / מוֹרָה"
+          "hebrewWithNiqqud": "מוֹרֶה / מוֹרָה",
+          "id": "word-044",
+          "translations": {
+            "ru": {
+              "pronunciation": "морэ́ / мора́",
+              "meaning": "учитель / учительница; одинаковое написание без огласовок"
+            },
+            "es": {
+              "pronunciation": "moré / morá",
+              "meaning": "profesor / profesora; se escriben igual sin niqqud"
+            }
+          }
         },
         {
           "hebrew": "תלמיד / תלמידה",
-          "pronunciation": "талми́д / талмида́",
-          "meaning": "ученик / ученица",
-          "hebrewWithNiqqud": "תַּלְמִיד / תַּלְמִידָה"
+          "hebrewWithNiqqud": "תַּלְמִיד / תַּלְמִידָה",
+          "id": "word-045",
+          "translations": {
+            "ru": {
+              "pronunciation": "талми́д / талмида́",
+              "meaning": "ученик / ученица"
+            },
+            "es": {
+              "pronunciation": "talmíd / talmidá",
+              "meaning": "alumno / alumna"
+            }
+          }
         },
         {
           "hebrew": "רופא / רופאה",
-          "pronunciation": "рофэ́ / рофа́",
-          "meaning": "врач, мужчина / женщина",
-          "hebrewWithNiqqud": "רוֹפֵא / רוֹפְאָה"
+          "hebrewWithNiqqud": "רוֹפֵא / רוֹפְאָה",
+          "id": "word-046",
+          "translations": {
+            "ru": {
+              "pronunciation": "рофэ́ / рофа́",
+              "meaning": "врач, мужчина / женщина"
+            },
+            "es": {
+              "pronunciation": "rofé / rofá",
+              "meaning": "médico / médica"
+            }
+          }
         },
         {
           "hebrew": "צבר / צברית",
-          "pronunciation": "цаба́р / цабари́т",
-          "meaning": "уроженец / уроженка Израиля",
-          "hebrewWithNiqqud": "צַבָּר / צַבָּרִית"
+          "hebrewWithNiqqud": "צַבָּר / צַבָּרִית",
+          "id": "word-047",
+          "translations": {
+            "ru": {
+              "pronunciation": "цаба́р / цабари́т",
+              "meaning": "уроженец / уроженка Израиля"
+            },
+            "es": {
+              "pronunciation": "zabár / zabarít",
+              "meaning": "israelí de nacimiento: hombre / mujer"
+            }
+          }
         },
         {
           "hebrew": "עולה חדש / עולה חדשה",
-          "pronunciation": "олэ́ хада́ш / ола́ хадаша́",
-          "meaning": "новый репатриант / новая репатриантка",
-          "hebrewWithNiqqud": "עוֹלֶה חָדָשׁ / עוֹלָה חֲדָשָׁה"
+          "hebrewWithNiqqud": "עוֹלֶה חָדָשׁ / עוֹלָה חֲדָשָׁה",
+          "id": "word-048",
+          "translations": {
+            "ru": {
+              "pronunciation": "олэ́ хада́ш / ола́ хадаша́",
+              "meaning": "новый репатриант / новая репатриантка"
+            },
+            "es": {
+              "pronunciation": "olé chadásh / olá chadashá",
+              "meaning": "nuevo inmigrante / nueva inmigrante que hace aliá"
+            }
+          }
         },
         {
           "hebrew": "עולה ותיק",
-          "pronunciation": "олэ́ вати́к",
-          "meaning": "давний репатриант",
-          "hebrewWithNiqqud": "עוֹלֶה וָתִיק"
+          "hebrewWithNiqqud": "עוֹלֶה וָתִיק",
+          "id": "word-049",
+          "translations": {
+            "ru": {
+              "pronunciation": "олэ́ вати́к",
+              "meaning": "давний репатриант"
+            },
+            "es": {
+              "pronunciation": "olé vatík",
+              "meaning": "inmigrante que hizo aliá hace tiempo"
+            }
+          }
         },
         {
           "hebrew": "תייר / תיירת",
-          "pronunciation": "тая́р / тае́рет",
-          "meaning": "турист / туристка",
-          "hebrewWithNiqqud": "תַּיָּר / תַּיֶּרֶת"
+          "hebrewWithNiqqud": "תַּיָּר / תַּיֶּרֶת",
+          "id": "word-050",
+          "translations": {
+            "ru": {
+              "pronunciation": "тая́р / тае́рет",
+              "meaning": "турист / туристка"
+            },
+            "es": {
+              "pronunciation": "tayár / taéret",
+              "meaning": "turista: hombre / mujer"
+            }
+          }
         },
         {
           "hebrew": "מקצוע",
-          "pronunciation": "микцо́а",
-          "meaning": "профессия",
-          "hebrewWithNiqqud": "מִקְצוֹעַ"
+          "hebrewWithNiqqud": "מִקְצוֹעַ",
+          "id": "word-051",
+          "translations": {
+            "ru": {
+              "pronunciation": "микцо́а",
+              "meaning": "профессия"
+            },
+            "es": {
+              "pronunciation": "mikzóa",
+              "meaning": "profesión"
+            }
+          }
         },
         {
           "hebrew": "רוסיה",
-          "pronunciation": "ру́сия",
-          "meaning": "Россия; מרוסיה — ме-ру́сия, из России",
-          "hebrewWithNiqqud": "רוּסְיָה"
+          "hebrewWithNiqqud": "רוּסְיָה",
+          "id": "word-052",
+          "translations": {
+            "ru": {
+              "pronunciation": "ру́сия",
+              "meaning": "Россия; מרוסיה — ме-ру́сия, из России"
+            },
+            "es": {
+              "pronunciation": "rúsiya",
+              "meaning": "Rusia; מרוסיה — me-rúsiya, de Rusia"
+            }
+          }
         },
         {
           "hebrew": "ישראל",
-          "pronunciation": "исраэ́ль",
-          "meaning": "Израиль",
-          "hebrewWithNiqqud": "יִשְׂרָאֵל"
+          "hebrewWithNiqqud": "יִשְׂרָאֵל",
+          "id": "word-053",
+          "translations": {
+            "ru": {
+              "pronunciation": "исраэ́ль",
+              "meaning": "Израиль"
+            },
+            "es": {
+              "pronunciation": "israél",
+              "meaning": "Israel"
+            }
+          }
         },
         {
           "hebrew": "חיפה",
-          "pronunciation": "ха́йфа / хэйфа́",
-          "meaning": "Хайфа; ха́йфа — распространённое разговорное произношение, хэйфа́ — нормативное, соответствует огласовке חֵיפָה",
-          "hebrewWithNiqqud": "חֵיפָה"
+          "hebrewWithNiqqud": "חֵיפָה",
+          "id": "word-054",
+          "translations": {
+            "ru": {
+              "pronunciation": "ха́йфа / хэйфа́",
+              "meaning": "Хайфа; ха́йфа — распространённое разговорное произношение, хэйфа́ — нормативное, соответствует огласовке חֵיפָה"
+            },
+            "es": {
+              "pronunciation": "cháyfa / cheyfá",
+              "meaning": "Haifa; cháyfa es la pronunciación coloquial extendida; cheyfá es la normativa, correspondiente a חֵיפָה"
+            }
+          }
         },
         {
           "hebrew": "עברית / רוסית / אנגלית",
-          "pronunciation": "иври́т / руси́т / англи́т",
-          "meaning": "иврит / русский язык / английский язык",
-          "hebrewWithNiqqud": "עִבְרִית / רוּסִית / אַנְגְּלִית"
+          "hebrewWithNiqqud": "עִבְרִית / רוּסִית / אַנְגְּלִית",
+          "id": "word-055",
+          "translations": {
+            "ru": {
+              "pronunciation": "иври́т / руси́т / англи́т",
+              "meaning": "иврит / русский язык / английский язык"
+            },
+            "es": {
+              "pronunciation": "ivrít / rusít / anglít",
+              "meaning": "hebreo / ruso / inglés"
+            }
+          }
         },
         {
           "hebrew": "אלמן / אלמנה / אלמנים / אלמנות",
-          "pronunciation": "альма́н / альмана́ / альмани́м / альмано́т",
-          "meaning": "вдовец / вдова / вдовцы / вдовы",
-          "hebrewWithNiqqud": "אַלְמָן / אַלְמָנָה / אַלְמָנִים / אַלְמָנוֹת"
+          "hebrewWithNiqqud": "אַלְמָן / אַלְמָנָה / אַלְמָנִים / אַלְמָנוֹת",
+          "id": "word-056",
+          "translations": {
+            "ru": {
+              "pronunciation": "альма́н / альмана́ / альмани́м / альмано́т",
+              "meaning": "вдовец / вдова / вдовцы / вдовы"
+            },
+            "es": {
+              "pronunciation": "almán / almaná / almaním / almanót",
+              "meaning": "viudo / viuda / viudos / viudas"
+            }
+          }
         }
-      ]
+      ],
+      "id": "people",
+      "translations": {
+        "ru": {
+          "title": "Люди, семья и личные данные",
+          "note": ""
+        },
+        "es": {
+          "title": "Personas, familia y datos personales",
+          "note": ""
+        }
+      }
     },
     {
-      "title": "Предметы, места и природа",
-      "note": "",
       "entries": [
         {
           "hebrew": "רחוב",
-          "pronunciation": "рехо́в",
-          "meaning": "улица",
-          "hebrewWithNiqqud": "רְחוֹב"
+          "hebrewWithNiqqud": "רְחוֹב",
+          "id": "word-057",
+          "translations": {
+            "ru": {
+              "pronunciation": "рехо́в",
+              "meaning": "улица"
+            },
+            "es": {
+              "pronunciation": "rechóv",
+              "meaning": "calle"
+            }
+          }
         },
         {
           "hebrew": "בית",
-          "pronunciation": "ба́йит",
-          "meaning": "дом",
-          "hebrewWithNiqqud": "בַּיִת"
+          "hebrewWithNiqqud": "בַּיִת",
+          "id": "word-058",
+          "translations": {
+            "ru": {
+              "pronunciation": "ба́йит",
+              "meaning": "дом"
+            },
+            "es": {
+              "pronunciation": "báyit",
+              "meaning": "casa"
+            }
+          }
         },
         {
           "hebrew": "כיתה",
-          "pronunciation": "кита́",
-          "meaning": "класс, аудитория; בכיתה — ба-кита́, в классе",
-          "hebrewWithNiqqud": "כִּתָּה"
+          "hebrewWithNiqqud": "כִּתָּה",
+          "id": "word-059",
+          "translations": {
+            "ru": {
+              "pronunciation": "кита́",
+              "meaning": "класс, аудитория; בכיתה — ба-кита́, в классе"
+            },
+            "es": {
+              "pronunciation": "kitá",
+              "meaning": "aula, clase; בכיתה — ba-kitá, en el aula"
+            }
+          }
         },
         {
           "hebrew": "עיר",
-          "pronunciation": "ир",
-          "meaning": "город",
-          "hebrewWithNiqqud": "עִיר"
+          "hebrewWithNiqqud": "עִיר",
+          "id": "word-060",
+          "translations": {
+            "ru": {
+              "pronunciation": "ир",
+              "meaning": "город"
+            },
+            "es": {
+              "pronunciation": "ir",
+              "meaning": "ciudad"
+            }
+          }
         },
         {
           "hebrew": "דרך",
-          "pronunciation": "дэ́рех",
-          "meaning": "дорога, путь",
-          "hebrewWithNiqqud": "דֶּרֶךְ"
+          "hebrewWithNiqqud": "דֶּרֶךְ",
+          "id": "word-061",
+          "translations": {
+            "ru": {
+              "pronunciation": "дэ́рех",
+              "meaning": "дорога, путь"
+            },
+            "es": {
+              "pronunciation": "dérech",
+              "meaning": "camino, vía"
+            }
+          }
         },
         {
           "hebrew": "בנק",
-          "pronunciation": "банк",
-          "meaning": "банк",
-          "hebrewWithNiqqud": "בַּנְק"
+          "hebrewWithNiqqud": "בַּנְק",
+          "id": "word-062",
+          "translations": {
+            "ru": {
+              "pronunciation": "банк",
+              "meaning": "банк"
+            },
+            "es": {
+              "pronunciation": "bank",
+              "meaning": "banco"
+            }
+          }
         },
         {
           "hebrew": "אוניברסיטה",
-          "pronunciation": "униве́рсита",
-          "meaning": "университет",
-          "hebrewWithNiqqud": "אוּנִיבֶרְסִיטָה"
+          "hebrewWithNiqqud": "אוּנִיבֶרְסִיטָה",
+          "id": "word-063",
+          "translations": {
+            "ru": {
+              "pronunciation": "униве́рсита",
+              "meaning": "университет"
+            },
+            "es": {
+              "pronunciation": "univérsita",
+              "meaning": "universidad"
+            }
+          }
         },
         {
           "hebrew": "תיאטרון",
-          "pronunciation": "театро́н",
-          "meaning": "театр",
-          "hebrewWithNiqqud": "תֵּאַטְרוֹן"
+          "hebrewWithNiqqud": "תֵּאַטְרוֹן",
+          "id": "word-064",
+          "translations": {
+            "ru": {
+              "pronunciation": "театро́н",
+              "meaning": "театр"
+            },
+            "es": {
+              "pronunciation": "teatrón",
+              "meaning": "teatro"
+            }
+          }
         },
         {
           "hebrew": "שוק",
-          "pronunciation": "шук",
-          "meaning": "рынок",
-          "hebrewWithNiqqud": "שׁוּק"
+          "hebrewWithNiqqud": "שׁוּק",
+          "id": "word-065",
+          "translations": {
+            "ru": {
+              "pronunciation": "шук",
+              "meaning": "рынок"
+            },
+            "es": {
+              "pronunciation": "shuk",
+              "meaning": "mercado"
+            }
+          }
         },
         {
           "hebrew": "דואר",
-          "pronunciation": "до́ар",
-          "meaning": "почта",
-          "hebrewWithNiqqud": "דֹּאַר"
+          "hebrewWithNiqqud": "דֹּאַר",
+          "id": "word-066",
+          "translations": {
+            "ru": {
+              "pronunciation": "до́ар",
+              "meaning": "почта"
+            },
+            "es": {
+              "pronunciation": "dóar",
+              "meaning": "correo"
+            }
+          }
         },
         {
           "hebrew": "ספרייה",
-          "pronunciation": "сифрия́",
-          "meaning": "библиотека",
-          "hebrewWithNiqqud": "סִפְרִיָּה"
+          "hebrewWithNiqqud": "סִפְרִיָּה",
+          "id": "word-067",
+          "translations": {
+            "ru": {
+              "pronunciation": "сифрия́",
+              "meaning": "библиотека"
+            },
+            "es": {
+              "pronunciation": "sifriyá",
+              "meaning": "biblioteca"
+            }
+          }
         },
         {
           "hebrew": "קניון",
-          "pronunciation": "каньо́н",
-          "meaning": "торговый центр",
-          "hebrewWithNiqqud": "קַנְיוֹן"
+          "hebrewWithNiqqud": "קַנְיוֹן",
+          "id": "word-068",
+          "translations": {
+            "ru": {
+              "pronunciation": "каньо́н",
+              "meaning": "торговый центр"
+            },
+            "es": {
+              "pronunciation": "kanyón",
+              "meaning": "centro comercial"
+            }
+          }
         },
         {
           "hebrew": "מוזיאון",
-          "pronunciation": "музео́н",
-          "meaning": "музей",
-          "hebrewWithNiqqud": "מוּזֵאוֹן"
+          "hebrewWithNiqqud": "מוּזֵאוֹן",
+          "id": "word-069",
+          "translations": {
+            "ru": {
+              "pronunciation": "музео́н",
+              "meaning": "музей"
+            },
+            "es": {
+              "pronunciation": "museón",
+              "meaning": "museo"
+            }
+          }
         },
         {
           "hebrew": "עירייה",
-          "pronunciation": "ирия́",
-          "meaning": "мэрия, муниципалитет",
-          "hebrewWithNiqqud": "עִירִיָּה"
+          "hebrewWithNiqqud": "עִירִיָּה",
+          "id": "word-070",
+          "translations": {
+            "ru": {
+              "pronunciation": "ирия́",
+              "meaning": "мэрия, муниципалитет"
+            },
+            "es": {
+              "pronunciation": "iriyá",
+              "meaning": "ayuntamiento, municipalidad"
+            }
+          }
         },
         {
           "hebrew": "מכולת",
-          "pronunciation": "мако́лет",
-          "meaning": "продуктовый магазин, ж. р.",
-          "hebrewWithNiqqud": "מַכֹּלֶת"
+          "hebrewWithNiqqud": "מַכֹּלֶת",
+          "id": "word-071",
+          "translations": {
+            "ru": {
+              "pronunciation": "мако́лет",
+              "meaning": "продуктовый магазин, ж. р."
+            },
+            "es": {
+              "pronunciation": "makólet",
+              "meaning": "tienda de comestibles; femenino en hebreo"
+            }
+          }
         },
         {
           "hebrew": "בית קפה",
-          "pronunciation": "бейт кафе́",
-          "meaning": "кафе",
-          "hebrewWithNiqqud": "בֵּית קָפֶה"
+          "hebrewWithNiqqud": "בֵּית קָפֶה",
+          "id": "word-072",
+          "translations": {
+            "ru": {
+              "pronunciation": "бейт кафе́",
+              "meaning": "кафе"
+            },
+            "es": {
+              "pronunciation": "beyt kafé",
+              "meaning": "cafetería"
+            }
+          }
         },
         {
           "hebrew": "מסעדה",
-          "pronunciation": "мисада́",
-          "meaning": "ресторан",
-          "hebrewWithNiqqud": "מִסְעָדָה"
+          "hebrewWithNiqqud": "מִסְעָדָה",
+          "id": "word-073",
+          "translations": {
+            "ru": {
+              "pronunciation": "мисада́",
+              "meaning": "ресторан"
+            },
+            "es": {
+              "pronunciation": "misadá",
+              "meaning": "restaurante"
+            }
+          }
         },
         {
           "hebrew": "תחנת אוטובוס",
-          "pronunciation": "тахана́т о́тобус",
-          "meaning": "автобусная остановка",
-          "hebrewWithNiqqud": "תַּחֲנַת אוֹטוֹבּוּס"
+          "hebrewWithNiqqud": "תַּחֲנַת אוֹטוֹבּוּס",
+          "id": "word-074",
+          "translations": {
+            "ru": {
+              "pronunciation": "тахана́т о́тобус",
+              "meaning": "автобусная остановка"
+            },
+            "es": {
+              "pronunciation": "tachanát ótobus",
+              "meaning": "parada de autobús"
+            }
+          }
         },
         {
           "hebrew": "אולפן",
-          "pronunciation": "ульпа́н",
-          "meaning": "ульпан; באולפן — ба-ульпа́н, в ульпане",
-          "hebrewWithNiqqud": "אֻלְפָּן"
+          "hebrewWithNiqqud": "אֻלְפָּן",
+          "id": "word-075",
+          "translations": {
+            "ru": {
+              "pronunciation": "ульпа́н",
+              "meaning": "ульпан; באולפן — ба-ульпа́н, в ульпане"
+            },
+            "es": {
+              "pronunciation": "ulpán",
+              "meaning": "ulpán (curso intensivo de hebreo); באולפן — ba-ulpán, en el ulpán"
+            }
+          }
         },
         {
           "hebrew": "בניין",
-          "pronunciation": "бинья́н",
-          "meaning": "здание",
-          "hebrewWithNiqqud": "בִּנְיָן"
+          "hebrewWithNiqqud": "בִּנְיָן",
+          "id": "word-076",
+          "translations": {
+            "ru": {
+              "pronunciation": "бинья́н",
+              "meaning": "здание"
+            },
+            "es": {
+              "pronunciation": "binyán",
+              "meaning": "edificio"
+            }
+          }
         },
         {
           "hebrew": "קיר",
-          "pronunciation": "кир",
-          "meaning": "стена, м. р.; мн. קירות — киро́т",
-          "hebrewWithNiqqud": "קִיר"
+          "hebrewWithNiqqud": "קִיר",
+          "id": "word-077",
+          "translations": {
+            "ru": {
+              "pronunciation": "кир",
+              "meaning": "стена, м. р.; мн. קירות — киро́т"
+            },
+            "es": {
+              "pronunciation": "kir",
+              "meaning": "pared; masculino en hebreo; plural: קירות — kirót"
+            }
+          }
         },
         {
           "hebrew": "דלת",
-          "pronunciation": "дэ́лет",
-          "meaning": "дверь",
-          "hebrewWithNiqqud": "דֶּלֶת"
+          "hebrewWithNiqqud": "דֶּלֶת",
+          "id": "word-078",
+          "translations": {
+            "ru": {
+              "pronunciation": "дэ́лет",
+              "meaning": "дверь"
+            },
+            "es": {
+              "pronunciation": "délet",
+              "meaning": "puerta"
+            }
+          }
         },
         {
           "hebrew": "חלון",
-          "pronunciation": "хало́н",
-          "meaning": "окно",
-          "hebrewWithNiqqud": "חַלּוֹן"
+          "hebrewWithNiqqud": "חַלּוֹן",
+          "id": "word-079",
+          "translations": {
+            "ru": {
+              "pronunciation": "хало́н",
+              "meaning": "окно"
+            },
+            "es": {
+              "pronunciation": "chalón",
+              "meaning": "ventana"
+            }
+          }
         },
         {
           "hebrew": "וילון",
-          "pronunciation": "вило́н",
-          "meaning": "штора",
-          "hebrewWithNiqqud": "וִילוֹן"
+          "hebrewWithNiqqud": "וִילוֹן",
+          "id": "word-080",
+          "translations": {
+            "ru": {
+              "pronunciation": "вило́н",
+              "meaning": "штора"
+            },
+            "es": {
+              "pronunciation": "vilón",
+              "meaning": "cortina"
+            }
+          }
         },
         {
           "hebrew": "ארון",
-          "pronunciation": "аро́н",
-          "meaning": "шкаф",
-          "hebrewWithNiqqud": "אָרוֹן"
+          "hebrewWithNiqqud": "אָרוֹן",
+          "id": "word-081",
+          "translations": {
+            "ru": {
+              "pronunciation": "аро́н",
+              "meaning": "шкаф"
+            },
+            "es": {
+              "pronunciation": "arón",
+              "meaning": "armario"
+            }
+          }
         },
         {
           "hebrew": "שולחן",
-          "pronunciation": "шульха́н",
-          "meaning": "стол",
-          "hebrewWithNiqqud": "שֻׁלְחָן"
+          "hebrewWithNiqqud": "שֻׁלְחָן",
+          "id": "word-082",
+          "translations": {
+            "ru": {
+              "pronunciation": "шульха́н",
+              "meaning": "стол"
+            },
+            "es": {
+              "pronunciation": "shulchán",
+              "meaning": "mesa"
+            }
+          }
         },
         {
           "hebrew": "כיסא",
-          "pronunciation": "кисэ́",
-          "meaning": "стул",
-          "hebrewWithNiqqud": "כִּסֵּא"
+          "hebrewWithNiqqud": "כִּסֵּא",
+          "id": "word-083",
+          "translations": {
+            "ru": {
+              "pronunciation": "кисэ́",
+              "meaning": "стул"
+            },
+            "es": {
+              "pronunciation": "kisé",
+              "meaning": "silla"
+            }
+          }
         },
         {
           "hebrew": "שטיח",
-          "pronunciation": "шати́ах",
-          "meaning": "ковёр",
-          "hebrewWithNiqqud": "שָׁטִיחַ"
+          "hebrewWithNiqqud": "שָׁטִיחַ",
+          "id": "word-084",
+          "translations": {
+            "ru": {
+              "pronunciation": "шати́ах",
+              "meaning": "ковёр"
+            },
+            "es": {
+              "pronunciation": "shatíach",
+              "meaning": "alfombra"
+            }
+          }
         },
         {
           "hebrew": "תמונה",
-          "pronunciation": "тмуна́",
-          "meaning": "картина, фотография",
-          "hebrewWithNiqqud": "תְּמוּנָה"
+          "hebrewWithNiqqud": "תְּמוּנָה",
+          "id": "word-085",
+          "translations": {
+            "ru": {
+              "pronunciation": "тмуна́",
+              "meaning": "картина, фотография"
+            },
+            "es": {
+              "pronunciation": "tmuná",
+              "meaning": "cuadro, fotografía"
+            }
+          }
         },
         {
           "hebrew": "לוח",
-          "pronunciation": "лу́ах",
-          "meaning": "доска",
-          "hebrewWithNiqqud": "לוּחַ"
+          "hebrewWithNiqqud": "לוּחַ",
+          "id": "word-086",
+          "translations": {
+            "ru": {
+              "pronunciation": "лу́ах",
+              "meaning": "доска"
+            },
+            "es": {
+              "pronunciation": "lúach",
+              "meaning": "pizarra"
+            }
+          }
         },
         {
           "hebrew": "מחשב",
-          "pronunciation": "махшэ́в",
-          "meaning": "компьютер",
-          "hebrewWithNiqqud": "מַחְשֵׁב"
+          "hebrewWithNiqqud": "מַחְשֵׁב",
+          "id": "word-087",
+          "translations": {
+            "ru": {
+              "pronunciation": "махшэ́в",
+              "meaning": "компьютер"
+            },
+            "es": {
+              "pronunciation": "machshév",
+              "meaning": "computadora, ordenador"
+            }
+          }
         },
         {
           "hebrew": "מזגן",
-          "pronunciation": "мазга́н",
-          "meaning": "кондиционер",
-          "hebrewWithNiqqud": "מַזְגָן"
+          "hebrewWithNiqqud": "מַזְגָן",
+          "id": "word-088",
+          "translations": {
+            "ru": {
+              "pronunciation": "мазга́н",
+              "meaning": "кондиционер"
+            },
+            "es": {
+              "pronunciation": "masgán",
+              "meaning": "aire acondicionado"
+            }
+          }
         },
         {
           "hebrew": "מנורה",
-          "pronunciation": "менора́",
-          "meaning": "лампа, светильник",
-          "hebrewWithNiqqud": "מְנוֹרָה"
+          "hebrewWithNiqqud": "מְנוֹרָה",
+          "id": "word-089",
+          "translations": {
+            "ru": {
+              "pronunciation": "менора́",
+              "meaning": "лампа, светильник"
+            },
+            "es": {
+              "pronunciation": "menorá",
+              "meaning": "lámpara"
+            }
+          }
         },
         {
           "hebrew": "מפה",
-          "pronunciation": "мапа́",
-          "meaning": "карта",
-          "hebrewWithNiqqud": "מַפָּה"
+          "hebrewWithNiqqud": "מַפָּה",
+          "id": "word-090",
+          "translations": {
+            "ru": {
+              "pronunciation": "мапа́",
+              "meaning": "карта"
+            },
+            "es": {
+              "pronunciation": "mapá",
+              "meaning": "mapa"
+            }
+          }
         },
         {
           "hebrew": "תיק",
-          "pronunciation": "тик",
-          "meaning": "сумка, портфель",
-          "hebrewWithNiqqud": "תִּיק"
+          "hebrewWithNiqqud": "תִּיק",
+          "id": "word-091",
+          "translations": {
+            "ru": {
+              "pronunciation": "тик",
+              "meaning": "сумка, портфель"
+            },
+            "es": {
+              "pronunciation": "tik",
+              "meaning": "bolso, cartera"
+            }
+          }
         },
         {
           "hebrew": "סל",
-          "pronunciation": "саль",
-          "meaning": "корзина; сумка-корзина",
-          "hebrewWithNiqqud": "סַל"
+          "hebrewWithNiqqud": "סַל",
+          "id": "word-092",
+          "translations": {
+            "ru": {
+              "pronunciation": "саль",
+              "meaning": "корзина; сумка-корзина"
+            },
+            "es": {
+              "pronunciation": "sal",
+              "meaning": "cesta; bolso tipo cesta"
+            }
+          }
         },
         {
           "hebrew": "שעון",
-          "pronunciation": "шао́н",
-          "meaning": "часы",
-          "hebrewWithNiqqud": "שָׁעוֹן"
+          "hebrewWithNiqqud": "שָׁעוֹן",
+          "id": "word-093",
+          "translations": {
+            "ru": {
+              "pronunciation": "шао́н",
+              "meaning": "часы"
+            },
+            "es": {
+              "pronunciation": "shaón",
+              "meaning": "reloj"
+            }
+          }
         },
         {
           "hebrew": "מפתח",
-          "pronunciation": "мафтэ́ах",
-          "meaning": "ключ",
-          "hebrewWithNiqqud": "מַפְתֵּחַ"
+          "hebrewWithNiqqud": "מַפְתֵּחַ",
+          "id": "word-094",
+          "translations": {
+            "ru": {
+              "pronunciation": "мафтэ́ах",
+              "meaning": "ключ"
+            },
+            "es": {
+              "pronunciation": "maftéach",
+              "meaning": "llave"
+            }
+          }
         },
         {
           "hebrew": "כוס",
-          "pronunciation": "кос",
-          "meaning": "стакан, чашка; ж. р.",
-          "hebrewWithNiqqud": "כּוֹס"
+          "hebrewWithNiqqud": "כּוֹס",
+          "id": "word-095",
+          "translations": {
+            "ru": {
+              "pronunciation": "кос",
+              "meaning": "стакан, чашка; ж. р."
+            },
+            "es": {
+              "pronunciation": "kos",
+              "meaning": "vaso, taza; femenino en hebreo"
+            }
+          }
         },
         {
           "hebrew": "עיפרון",
-          "pronunciation": "ипаро́н",
-          "meaning": "карандаш",
-          "hebrewWithNiqqud": "עִפָּרוֹן"
+          "hebrewWithNiqqud": "עִפָּרוֹן",
+          "id": "word-096",
+          "translations": {
+            "ru": {
+              "pronunciation": "ипаро́н",
+              "meaning": "карандаш"
+            },
+            "es": {
+              "pronunciation": "iparón",
+              "meaning": "lápiz"
+            }
+          }
         },
         {
           "hebrew": "עט",
-          "pronunciation": "эт",
-          "meaning": "ручка",
-          "hebrewWithNiqqud": "עֵט"
+          "hebrewWithNiqqud": "עֵט",
+          "id": "word-097",
+          "translations": {
+            "ru": {
+              "pronunciation": "эт",
+              "meaning": "ручка"
+            },
+            "es": {
+              "pronunciation": "et",
+              "meaning": "bolígrafo"
+            }
+          }
         },
         {
           "hebrew": "מחברת",
-          "pronunciation": "махбэ́рет",
-          "meaning": "тетрадь",
-          "hebrewWithNiqqud": "מַחְבֶּרֶת"
+          "hebrewWithNiqqud": "מַחְבֶּרֶת",
+          "id": "word-098",
+          "translations": {
+            "ru": {
+              "pronunciation": "махбэ́рет",
+              "meaning": "тетрадь"
+            },
+            "es": {
+              "pronunciation": "machbéret",
+              "meaning": "cuaderno"
+            }
+          }
         },
         {
           "hebrew": "ספר",
-          "pronunciation": "сэ́фер",
-          "meaning": "книга; мн. ספרים — сфари́м",
-          "hebrewWithNiqqud": "סֵפֶר"
+          "hebrewWithNiqqud": "סֵפֶר",
+          "id": "word-099",
+          "translations": {
+            "ru": {
+              "pronunciation": "сэ́фер",
+              "meaning": "книга; мн. ספרים — сфари́м"
+            },
+            "es": {
+              "pronunciation": "séfer",
+              "meaning": "libro; plural: ספרים — sfarím"
+            }
+          }
         },
         {
           "hebrew": "עיתון",
-          "pronunciation": "ито́н",
-          "meaning": "газета",
-          "hebrewWithNiqqud": "עִתּוֹן"
+          "hebrewWithNiqqud": "עִתּוֹן",
+          "id": "word-100",
+          "translations": {
+            "ru": {
+              "pronunciation": "ито́н",
+              "meaning": "газета"
+            },
+            "es": {
+              "pronunciation": "itón",
+              "meaning": "periódico"
+            }
+          }
         },
         {
           "hebrew": "מכתב",
-          "pronunciation": "михта́в",
-          "meaning": "письмо",
-          "hebrewWithNiqqud": "מִכְתָּב"
+          "hebrewWithNiqqud": "מִכְתָּב",
+          "id": "word-101",
+          "translations": {
+            "ru": {
+              "pronunciation": "михта́в",
+              "meaning": "письмо"
+            },
+            "es": {
+              "pronunciation": "michtáv",
+              "meaning": "carta"
+            }
+          }
         },
         {
           "hebrew": "כסף",
-          "pronunciation": "кэ́сеф",
-          "meaning": "деньги",
-          "hebrewWithNiqqud": "כֶּסֶף"
+          "hebrewWithNiqqud": "כֶּסֶף",
+          "id": "word-102",
+          "translations": {
+            "ru": {
+              "pronunciation": "кэ́сеф",
+              "meaning": "деньги"
+            },
+            "es": {
+              "pronunciation": "késef",
+              "meaning": "dinero"
+            }
+          }
         },
         {
           "hebrew": "שירותים",
-          "pronunciation": "шерути́м",
-          "meaning": "туалет; форма множественного числа",
-          "hebrewWithNiqqud": "שֵׁרוּתִים"
+          "hebrewWithNiqqud": "שֵׁרוּתִים",
+          "id": "word-103",
+          "translations": {
+            "ru": {
+              "pronunciation": "шерути́м",
+              "meaning": "туалет; форма множественного числа"
+            },
+            "es": {
+              "pronunciation": "sherutím",
+              "meaning": "baño, servicios; forma plural"
+            }
+          }
         },
         {
           "hebrew": "פרח",
-          "pronunciation": "пэ́рах",
-          "meaning": "цветок",
-          "hebrewWithNiqqud": "פֶּרַח"
+          "hebrewWithNiqqud": "פֶּרַח",
+          "id": "word-104",
+          "translations": {
+            "ru": {
+              "pronunciation": "пэ́рах",
+              "meaning": "цветок"
+            },
+            "es": {
+              "pronunciation": "pérach",
+              "meaning": "flor"
+            }
+          }
         },
         {
           "hebrew": "כלב",
-          "pronunciation": "кэ́лев",
-          "meaning": "собака, пёс",
-          "hebrewWithNiqqud": "כֶּלֶב"
+          "hebrewWithNiqqud": "כֶּלֶב",
+          "id": "word-105",
+          "translations": {
+            "ru": {
+              "pronunciation": "кэ́лев",
+              "meaning": "собака, пёс"
+            },
+            "es": {
+              "pronunciation": "kélev",
+              "meaning": "perro"
+            }
+          }
         },
         {
           "hebrew": "עכבר",
-          "pronunciation": "ахба́р",
-          "meaning": "мышь, мышка",
-          "hebrewWithNiqqud": "עַכְבָּר"
+          "hebrewWithNiqqud": "עַכְבָּר",
+          "id": "word-106",
+          "translations": {
+            "ru": {
+              "pronunciation": "ахба́р",
+              "meaning": "мышь, мышка"
+            },
+            "es": {
+              "pronunciation": "achbár",
+              "meaning": "ratón"
+            }
+          }
         },
         {
           "hebrew": "רגל / רגליים",
-          "pronunciation": "рэ́гель / рагла́йим",
-          "meaning": "нога / ноги; רגל также «ступня»",
-          "hebrewWithNiqqud": "רֶגֶל / רַגְלַיִם"
+          "hebrewWithNiqqud": "רֶגֶל / רַגְלַיִם",
+          "id": "word-107",
+          "translations": {
+            "ru": {
+              "pronunciation": "рэ́гель / рагла́йим",
+              "meaning": "нога / ноги; רגל также «ступня»"
+            },
+            "es": {
+              "pronunciation": "régel / ragláyim",
+              "meaning": "pierna / piernas; רגל también significa «pie»"
+            }
+          }
         },
         {
           "hebrew": "שמיים",
-          "pronunciation": "шама́йим",
-          "meaning": "небо",
-          "hebrewWithNiqqud": "שָׁמַיִם"
+          "hebrewWithNiqqud": "שָׁמַיִם",
+          "id": "word-108",
+          "translations": {
+            "ru": {
+              "pronunciation": "шама́йим",
+              "meaning": "небо"
+            },
+            "es": {
+              "pronunciation": "shamáyim",
+              "meaning": "cielo"
+            }
+          }
         },
         {
           "hebrew": "ים",
-          "pronunciation": "ям",
-          "meaning": "море",
-          "hebrewWithNiqqud": "יָם"
+          "hebrewWithNiqqud": "יָם",
+          "id": "word-109",
+          "translations": {
+            "ru": {
+              "pronunciation": "ям",
+              "meaning": "море"
+            },
+            "es": {
+              "pronunciation": "yam",
+              "meaning": "mar"
+            }
+          }
         },
         {
           "hebrew": "דירה / דירות",
-          "pronunciation": "дира́ / диро́т",
-          "meaning": "квартира / квартиры; ж. р.",
-          "hebrewWithNiqqud": "דִּירָה / דִּירוֹת"
+          "hebrewWithNiqqud": "דִּירָה / דִּירוֹת",
+          "id": "word-110",
+          "translations": {
+            "ru": {
+              "pronunciation": "дира́ / диро́т",
+              "meaning": "квартира / квартиры; ж. р."
+            },
+            "es": {
+              "pronunciation": "dirá / dirót",
+              "meaning": "apartamento / apartamentos; femenino en hebreo"
+            }
+          }
         },
         {
           "hebrew": "רכבת / רכבות",
-          "pronunciation": "раке́вет / ракаво́т",
-          "meaning": "поезд / поезда; ж. р.",
-          "hebrewWithNiqqud": "רַכֶּבֶת / רַכָּבוֹת"
+          "hebrewWithNiqqud": "רַכֶּבֶת / רַכָּבוֹת",
+          "id": "word-111",
+          "translations": {
+            "ru": {
+              "pronunciation": "раке́вет / ракаво́т",
+              "meaning": "поезд / поезда; ж. р."
+            },
+            "es": {
+              "pronunciation": "rakévet / rakavót",
+              "meaning": "tren / trenes; femenino en hebreo"
+            }
+          }
         }
-      ]
+      ],
+      "id": "places",
+      "translations": {
+        "ru": {
+          "title": "Предметы, места и природа",
+          "note": ""
+        },
+        "es": {
+          "title": "Objetos, lugares y naturaleza",
+          "note": ""
+        }
+      }
     },
     {
-      "title": "Учёба, время и другие существительные",
-      "note": "",
       "entries": [
         {
           "hebrew": "שיעור",
-          "pronunciation": "шиу́р",
-          "meaning": "урок, занятие",
-          "hebrewWithNiqqud": "שִׁעוּר"
+          "hebrewWithNiqqud": "שִׁעוּר",
+          "id": "word-112",
+          "translations": {
+            "ru": {
+              "pronunciation": "шиу́р",
+              "meaning": "урок, занятие"
+            },
+            "es": {
+              "pronunciation": "shiúr",
+              "meaning": "lección, clase"
+            }
+          }
         },
         {
           "hebrew": "טיול",
-          "pronunciation": "тию́ль",
-          "meaning": "прогулка, экскурсия, поездка",
-          "hebrewWithNiqqud": "טִיּוּל"
+          "hebrewWithNiqqud": "טִיּוּל",
+          "id": "word-113",
+          "translations": {
+            "ru": {
+              "pronunciation": "тию́ль",
+              "meaning": "прогулка, экскурсия, поездка"
+            },
+            "es": {
+              "pronunciation": "tiyúl",
+              "meaning": "paseo, excursión, viaje"
+            }
+          }
         },
         {
           "hebrew": "הפסקה",
-          "pronunciation": "hафсака́",
-          "meaning": "перерыв",
-          "hebrewWithNiqqud": "הַפְסָקָה"
+          "hebrewWithNiqqud": "הַפְסָקָה",
+          "id": "word-114",
+          "translations": {
+            "ru": {
+              "pronunciation": "hафсака́",
+              "meaning": "перерыв"
+            },
+            "es": {
+              "pronunciation": "hafsaká",
+              "meaning": "descanso, pausa"
+            }
+          }
         },
         {
           "hebrew": "עבודה",
-          "pronunciation": "авода́",
-          "meaning": "работа",
-          "hebrewWithNiqqud": "עֲבוֹדָה"
+          "hebrewWithNiqqud": "עֲבוֹדָה",
+          "id": "word-115",
+          "translations": {
+            "ru": {
+              "pronunciation": "авода́",
+              "meaning": "работа"
+            },
+            "es": {
+              "pronunciation": "avodá",
+              "meaning": "trabajo"
+            }
+          }
         },
         {
           "hebrew": "מילה / מילים",
-          "pronunciation": "мила́ / мили́м",
-          "meaning": "слово / слова; ж. р., несмотря на окончание мн. числа ־ים",
-          "hebrewWithNiqqud": "מִלָּה / מִלִּים"
+          "hebrewWithNiqqud": "מִלָּה / מִלִּים",
+          "id": "word-116",
+          "translations": {
+            "ru": {
+              "pronunciation": "мила́ / мили́м",
+              "meaning": "слово / слова; ж. р., несмотря на окончание мн. числа ־ים"
+            },
+            "es": {
+              "pronunciation": "milá / milím",
+              "meaning": "palabra / palabras; femenino en hebreo, a pesar de la terminación plural ־ים"
+            }
+          }
         },
         {
           "hebrew": "עמוד",
-          "pronunciation": "аму́д",
-          "meaning": "страница; также столб",
-          "hebrewWithNiqqud": "עַמּוּד"
+          "hebrewWithNiqqud": "עַמּוּד",
+          "id": "word-117",
+          "translations": {
+            "ru": {
+              "pronunciation": "аму́д",
+              "meaning": "страница; также столб"
+            },
+            "es": {
+              "pronunciation": "amúd",
+              "meaning": "página; también columna"
+            }
+          }
         },
         {
           "hebrew": "משפט",
-          "pronunciation": "мишпа́т",
-          "meaning": "предложение",
-          "hebrewWithNiqqud": "מִשְׁפָּט"
+          "hebrewWithNiqqud": "מִשְׁפָּט",
+          "id": "word-118",
+          "translations": {
+            "ru": {
+              "pronunciation": "мишпа́т",
+              "meaning": "предложение"
+            },
+            "es": {
+              "pronunciation": "mishpát",
+              "meaning": "oración, frase"
+            }
+          }
         },
         {
           "hebrew": "שאלה",
-          "pronunciation": "шеэла́",
-          "meaning": "вопрос",
-          "hebrewWithNiqqud": "שְׁאֵלָה"
+          "hebrewWithNiqqud": "שְׁאֵלָה",
+          "id": "word-119",
+          "translations": {
+            "ru": {
+              "pronunciation": "шеэла́",
+              "meaning": "вопрос"
+            },
+            "es": {
+              "pronunciation": "sheelá",
+              "meaning": "pregunta"
+            }
+          }
         },
         {
           "hebrew": "תשובה",
-          "pronunciation": "тшува́",
-          "meaning": "ответ",
-          "hebrewWithNiqqud": "תְּשׁוּבָה"
+          "hebrewWithNiqqud": "תְּשׁוּבָה",
+          "id": "word-120",
+          "translations": {
+            "ru": {
+              "pronunciation": "тшува́",
+              "meaning": "ответ"
+            },
+            "es": {
+              "pronunciation": "tshuvá",
+              "meaning": "respuesta"
+            }
+          }
         },
         {
           "hebrew": "שיר",
-          "pronunciation": "шир",
-          "meaning": "песня",
-          "hebrewWithNiqqud": "שִׁיר"
+          "hebrewWithNiqqud": "שִׁיר",
+          "id": "word-121",
+          "translations": {
+            "ru": {
+              "pronunciation": "шир",
+              "meaning": "песня"
+            },
+            "es": {
+              "pronunciation": "shir",
+              "meaning": "canción"
+            }
+          }
         },
         {
           "hebrew": "שקט",
-          "pronunciation": "шэ́кет",
-          "meaning": "тишина",
-          "hebrewWithNiqqud": "שֶׁקֶט"
+          "hebrewWithNiqqud": "שֶׁקֶט",
+          "id": "word-122",
+          "translations": {
+            "ru": {
+              "pronunciation": "шэ́кет",
+              "meaning": "тишина"
+            },
+            "es": {
+              "pronunciation": "shéket",
+              "meaning": "silencio"
+            }
+          }
         },
         {
           "hebrew": "כוח",
-          "pronunciation": "ко́ах",
-          "meaning": "сила",
-          "hebrewWithNiqqud": "כּוֹחַ"
+          "hebrewWithNiqqud": "כּוֹחַ",
+          "id": "word-123",
+          "translations": {
+            "ru": {
+              "pronunciation": "ко́ах",
+              "meaning": "сила"
+            },
+            "es": {
+              "pronunciation": "kóach",
+              "meaning": "fuerza"
+            }
+          }
         },
         {
           "hebrew": "מספר",
-          "pronunciation": "миспа́р",
-          "meaning": "номер, число",
-          "hebrewWithNiqqud": "מִסְפָּר"
+          "hebrewWithNiqqud": "מִסְפָּר",
+          "id": "word-124",
+          "translations": {
+            "ru": {
+              "pronunciation": "миспа́р",
+              "meaning": "номер, число"
+            },
+            "es": {
+              "pronunciation": "mispár",
+              "meaning": "número"
+            }
+          }
         },
         {
           "hebrew": "יום",
-          "pronunciation": "йом",
-          "meaning": "день",
-          "hebrewWithNiqqud": "יוֹם"
+          "hebrewWithNiqqud": "יוֹם",
+          "id": "word-125",
+          "translations": {
+            "ru": {
+              "pronunciation": "йом",
+              "meaning": "день"
+            },
+            "es": {
+              "pronunciation": "yom",
+              "meaning": "día"
+            }
+          }
         },
         {
           "hebrew": "חודש",
-          "pronunciation": "хо́деш",
-          "meaning": "месяц",
-          "hebrewWithNiqqud": "חֹדֶשׁ"
+          "hebrewWithNiqqud": "חֹדֶשׁ",
+          "id": "word-126",
+          "translations": {
+            "ru": {
+              "pronunciation": "хо́деш",
+              "meaning": "месяц"
+            },
+            "es": {
+              "pronunciation": "chódesh",
+              "meaning": "mes"
+            }
+          }
         },
         {
           "hebrew": "שנה",
-          "pronunciation": "шана́",
-          "meaning": "год",
-          "hebrewWithNiqqud": "שָׁנָה"
+          "hebrewWithNiqqud": "שָׁנָה",
+          "id": "word-127",
+          "translations": {
+            "ru": {
+              "pronunciation": "шана́",
+              "meaning": "год"
+            },
+            "es": {
+              "pronunciation": "shaná",
+              "meaning": "año"
+            }
+          }
         },
         {
           "hebrew": "תאריך",
-          "pronunciation": "таари́х",
-          "meaning": "дата",
-          "hebrewWithNiqqud": "תַּאֲרִיךְ"
+          "hebrewWithNiqqud": "תַּאֲרִיךְ",
+          "id": "word-128",
+          "translations": {
+            "ru": {
+              "pronunciation": "таари́х",
+              "meaning": "дата"
+            },
+            "es": {
+              "pronunciation": "taarích",
+              "meaning": "fecha"
+            }
+          }
         },
         {
           "hebrew": "זכר / נקבה",
-          "pronunciation": "заха́р / некева́",
-          "meaning": "мужской / женский род; самец / самка",
-          "hebrewWithNiqqud": "זָכָר / נְקֵבָה"
+          "hebrewWithNiqqud": "זָכָר / נְקֵבָה",
+          "id": "word-129",
+          "translations": {
+            "ru": {
+              "pronunciation": "заха́р / некева́",
+              "meaning": "мужской / женский род; самец / самка"
+            },
+            "es": {
+              "pronunciation": "sachár / nekevá",
+              "meaning": "masculino / femenino; macho / hembra"
+            }
+          }
         },
         {
           "hebrew": "רבים / רבות",
-          "pronunciation": "раби́м / рабо́т",
-          "meaning": "многие, много; мужская / женская формы множественного числа в грамматике",
-          "hebrewWithNiqqud": "רַבִּים / רַבּוֹת"
+          "hebrewWithNiqqud": "רַבִּים / רַבּוֹת",
+          "id": "word-130",
+          "translations": {
+            "ru": {
+              "pronunciation": "раби́м / рабо́т",
+              "meaning": "многие, много; мужская / женская формы множественного числа в грамматике"
+            },
+            "es": {
+              "pronunciation": "rabím / rabót",
+              "meaning": "muchos / muchas; formas del plural masculino / femenino en gramática"
+            }
+          }
         },
         {
           "hebrew": "פועל",
-          "pronunciation": "по́аль",
-          "meaning": "глагол",
-          "hebrewWithNiqqud": "פֹּעַל"
+          "hebrewWithNiqqud": "פֹּעַל",
+          "id": "word-131",
+          "translations": {
+            "ru": {
+              "pronunciation": "по́аль",
+              "meaning": "глагол"
+            },
+            "es": {
+              "pronunciation": "póal",
+              "meaning": "verbo"
+            }
+          }
         },
         {
           "hebrew": "שם תואר",
-          "pronunciation": "шем то́ар",
-          "meaning": "имя прилагательное",
-          "hebrewWithNiqqud": "שֵׁם תֹּאַר"
+          "hebrewWithNiqqud": "שֵׁם תֹּאַר",
+          "id": "word-132",
+          "translations": {
+            "ru": {
+              "pronunciation": "шем то́ар",
+              "meaning": "имя прилагательное"
+            },
+            "es": {
+              "pronunciation": "shem tóar",
+              "meaning": "adjetivo"
+            }
+          }
         },
         {
           "hebrew": "שם עצם",
-          "pronunciation": "шем э́цем",
-          "meaning": "имя существительное",
-          "hebrewWithNiqqud": "שֵׁם עֶצֶם"
+          "hebrewWithNiqqud": "שֵׁם עֶצֶם",
+          "id": "word-133",
+          "translations": {
+            "ru": {
+              "pronunciation": "шем э́цем",
+              "meaning": "имя существительное"
+            },
+            "es": {
+              "pronunciation": "shem ézem",
+              "meaning": "sustantivo"
+            }
+          }
         },
         {
           "hebrew": "סופית",
-          "pronunciation": "софи́т",
-          "meaning": "конечная форма буквы",
-          "hebrewWithNiqqud": "סוֹפִית"
+          "hebrewWithNiqqud": "סוֹפִית",
+          "id": "word-134",
+          "translations": {
+            "ru": {
+              "pronunciation": "софи́т",
+              "meaning": "конечная форма буквы"
+            },
+            "es": {
+              "pronunciation": "sofít",
+              "meaning": "forma final de una letra"
+            }
+          }
         },
         {
           "hebrew": "בסוף מילה",
-          "pronunciation": "бе-соф мила́",
-          "meaning": "в конце слова",
-          "hebrewWithNiqqud": "בְּסוֹף מִלָּה"
+          "hebrewWithNiqqud": "בְּסוֹף מִלָּה",
+          "id": "word-135",
+          "translations": {
+            "ru": {
+              "pronunciation": "бе-соф мила́",
+              "meaning": "в конце слова"
+            },
+            "es": {
+              "pronunciation": "be-sof milá",
+              "meaning": "al final de una palabra"
+            }
+          }
         },
         {
           "hebrew": "יוצא דופן",
-          "pronunciation": "йоцэ́ до́фен",
-          "meaning": "исключение; исключительный",
-          "hebrewWithNiqqud": "יוֹצֵא דֹּפֶן"
+          "hebrewWithNiqqud": "יוֹצֵא דֹּפֶן",
+          "id": "word-136",
+          "translations": {
+            "ru": {
+              "pronunciation": "йоцэ́ до́фен",
+              "meaning": "исключение; исключительный"
+            },
+            "es": {
+              "pronunciation": "yozé dófen",
+              "meaning": "excepción; excepcional"
+            }
+          }
         },
         {
           "hebrew": "אות / אותיות",
-          "pronunciation": "от / отийо́т",
-          "meaning": "буква / буквы; ж. р.",
-          "hebrewWithNiqqud": "אוֹת / אוֹתִיּוֹת"
+          "hebrewWithNiqqud": "אוֹת / אוֹתִיּוֹת",
+          "id": "word-137",
+          "translations": {
+            "ru": {
+              "pronunciation": "от / отийо́т",
+              "meaning": "буква / буквы; ж. р."
+            },
+            "es": {
+              "pronunciation": "ot / otiyót",
+              "meaning": "letra / letras; femenino en hebreo"
+            }
+          }
         }
-      ]
+      ],
+      "id": "study",
+      "translations": {
+        "ru": {
+          "title": "Учёба, время и другие существительные",
+          "note": ""
+        },
+        "es": {
+          "title": "Estudio, tiempo y otros sustantivos",
+          "note": ""
+        }
+      }
     },
     {
-      "title": "Глаголы и состояния",
-      "note": "Формы настоящего времени даны в порядке: мужской ед. / женский ед. / мужской мн. / женский мн. Недостающие формы добавлены для полноты спряжения. Для смешанной группы используется мужская форма множественного числа. Формы прошедшего времени отмечены отдельно. יש и אין не спрягаются по этой схеме.",
       "entries": [
         {
           "hebrew": "לומד / לומדת / לומדים / לומדות",
-          "pronunciation": "ломэ́д / ломэ́дет / ломди́м / ломдо́т",
-          "meaning": "учится, изучает",
-          "hebrewWithNiqqud": "לוֹמֵד / לוֹמֶדֶת / לוֹמְדִים / לוֹמְדוֹת"
+          "hebrewWithNiqqud": "לוֹמֵד / לוֹמֶדֶת / לוֹמְדִים / לוֹמְדוֹת",
+          "id": "word-138",
+          "translations": {
+            "ru": {
+              "pronunciation": "ломэ́д / ломэ́дет / ломди́м / ломдо́т",
+              "meaning": "учится, изучает"
+            },
+            "es": {
+              "pronunciation": "loméd / lomédet / lomdím / lomdót",
+              "meaning": "estudia, aprende"
+            }
+          }
         },
         {
           "hebrew": "עובד / עובדת / עובדים / עובדות",
-          "pronunciation": "овэ́д / овэ́дет / овди́м / овдо́т",
-          "meaning": "работает",
-          "hebrewWithNiqqud": "עוֹבֵד / עוֹבֶדֶת / עוֹבְדִים / עוֹבְדוֹת"
+          "hebrewWithNiqqud": "עוֹבֵד / עוֹבֶדֶת / עוֹבְדִים / עוֹבְדוֹת",
+          "id": "word-139",
+          "translations": {
+            "ru": {
+              "pronunciation": "овэ́д / овэ́дет / овди́м / овдо́т",
+              "meaning": "работает"
+            },
+            "es": {
+              "pronunciation": "ovéd / ovédet / ovdím / ovdót",
+              "meaning": "trabaja"
+            }
+          }
         },
         {
           "hebrew": "הולך / הולכת / הולכים / הולכות",
-          "pronunciation": "hолэ́х / hолэ́хет / hольхи́м / hольхо́т",
-          "meaning": "идёт, ходит пешком",
-          "hebrewWithNiqqud": "הוֹלֵךְ / הוֹלֶכֶת / הוֹלְכִים / הוֹלְכוֹת"
+          "hebrewWithNiqqud": "הוֹלֵךְ / הוֹלֶכֶת / הוֹלְכִים / הוֹלְכוֹת",
+          "id": "word-140",
+          "translations": {
+            "ru": {
+              "pronunciation": "hолэ́х / hолэ́хет / hольхи́м / hольхо́т",
+              "meaning": "идёт, ходит пешком"
+            },
+            "es": {
+              "pronunciation": "holéch / holéchet / holchím / holchót",
+              "meaning": "va, camina"
+            }
+          }
         },
         {
           "hebrew": "נוסע / נוסעת / נוסעים / נוסעות",
-          "pronunciation": "носэ́а / носа́ат / носъи́м / носъо́т",
-          "meaning": "едет, ездит",
-          "hebrewWithNiqqud": "נוֹסֵעַ / נוֹסַעַת / נוֹסְעִים / נוֹסְעוֹת"
+          "hebrewWithNiqqud": "נוֹסֵעַ / נוֹסַעַת / נוֹסְעִים / נוֹסְעוֹת",
+          "id": "word-141",
+          "translations": {
+            "ru": {
+              "pronunciation": "носэ́а / носа́ат / носъи́м / носъо́т",
+              "meaning": "едет, ездит"
+            },
+            "es": {
+              "pronunciation": "noséa / nosáat / nosím / nosót",
+              "meaning": "va en un medio de transporte, viaja"
+            }
+          }
         },
         {
           "hebrew": "יודע / יודעת / יודעים / יודעות",
-          "pronunciation": "йодэ́а / йода́ат / йодъи́м / йодъо́т",
-          "meaning": "знает, умеет",
-          "hebrewWithNiqqud": "יוֹדֵעַ / יוֹדַעַת / יוֹדְעִים / יוֹדְעוֹת"
+          "hebrewWithNiqqud": "יוֹדֵעַ / יוֹדַעַת / יוֹדְעִים / יוֹדְעוֹת",
+          "id": "word-142",
+          "translations": {
+            "ru": {
+              "pronunciation": "йодэ́а / йода́ат / йодъи́м / йодъо́т",
+              "meaning": "знает, умеет"
+            },
+            "es": {
+              "pronunciation": "yodéa / yodáat / yodím / yodót",
+              "meaning": "sabe, conoce; sabe hacer algo"
+            }
+          }
         },
         {
           "hebrew": "כותב / כותבת / כותבים / כותבות",
-          "pronunciation": "котэ́в / котэ́вет / котви́м / котво́т",
-          "meaning": "пишет",
-          "hebrewWithNiqqud": "כּוֹתֵב / כּוֹתֶבֶת / כּוֹתְבִים / כּוֹתְבוֹת"
+          "hebrewWithNiqqud": "כּוֹתֵב / כּוֹתֶבֶת / כּוֹתְבִים / כּוֹתְבוֹת",
+          "id": "word-143",
+          "translations": {
+            "ru": {
+              "pronunciation": "котэ́в / котэ́вет / котви́м / котво́т",
+              "meaning": "пишет"
+            },
+            "es": {
+              "pronunciation": "kotév / kotévet / kotvím / kotvót",
+              "meaning": "escribe"
+            }
+          }
         },
         {
           "hebrew": "קורא / קוראת / קוראים / קוראות",
-          "pronunciation": "корэ́ / корэ́т / кори́м / коро́т",
-          "meaning": "читает; קוראים также «зовут» в вопросе איך קוראים לך?",
-          "hebrewWithNiqqud": "קוֹרֵא / קוֹרֵאת / קוֹרְאִים / קוֹרְאוֹת"
+          "hebrewWithNiqqud": "קוֹרֵא / קוֹרֵאת / קוֹרְאִים / קוֹרְאוֹת",
+          "id": "word-144",
+          "translations": {
+            "ru": {
+              "pronunciation": "корэ́ / корэ́т / кори́м / коро́т",
+              "meaning": "читает; קוראים также «зовут» в вопросе איך קוראים לך?"
+            },
+            "es": {
+              "pronunciation": "koré / korét / korím / korót",
+              "meaning": "lee; קוראים también significa «se llama» en la pregunta איך קוראים לך?"
+            }
+          }
         },
         {
           "hebrew": "אוהב / אוהבת / אוהבים / אוהבות",
-          "pronunciation": "оhэ́в / оhэ́вет / оhави́м / оhаво́т",
-          "meaning": "любит",
-          "hebrewWithNiqqud": "אוֹהֵב / אוֹהֶבֶת / אוֹהֲבִים / אוֹהֲבוֹת"
+          "hebrewWithNiqqud": "אוֹהֵב / אוֹהֶבֶת / אוֹהֲבִים / אוֹהֲבוֹת",
+          "id": "word-145",
+          "translations": {
+            "ru": {
+              "pronunciation": "оhэ́в / оhэ́вет / оhави́м / оhаво́т",
+              "meaning": "любит"
+            },
+            "es": {
+              "pronunciation": "ohév / ohévet / ohavím / ohavót",
+              "meaning": "ama, quiere"
+            }
+          }
         },
         {
           "hebrew": "מדבר / מדברת / מדברים / מדברות",
-          "pronunciation": "медабэ́р / медабэ́рет / медабри́м / медабро́т",
-          "meaning": "говорит, разговаривает",
-          "hebrewWithNiqqud": "מְדַבֵּר / מְדַבֶּרֶת / מְדַבְּרִים / מְדַבְּרוֹת"
+          "hebrewWithNiqqud": "מְדַבֵּר / מְדַבֶּרֶת / מְדַבְּרִים / מְדַבְּרוֹת",
+          "id": "word-146",
+          "translations": {
+            "ru": {
+              "pronunciation": "медабэ́р / медабэ́рет / медабри́м / медабро́т",
+              "meaning": "говорит, разговаривает"
+            },
+            "es": {
+              "pronunciation": "medabér / medabéret / medabrím / medabrót",
+              "meaning": "habla, conversa"
+            }
+          }
         },
         {
           "hebrew": "אומר / אומרת / אומרים / אומרות",
-          "pronunciation": "омэ́р / омэ́рет / омри́м / омро́т",
-          "meaning": "говорит, произносит",
-          "hebrewWithNiqqud": "אוֹמֵר / אוֹמֶרֶת / אוֹמְרִים / אוֹמְרוֹת"
+          "hebrewWithNiqqud": "אוֹמֵר / אוֹמֶרֶת / אוֹמְרִים / אוֹמְרוֹת",
+          "id": "word-147",
+          "translations": {
+            "ru": {
+              "pronunciation": "омэ́р / омэ́рет / омри́м / омро́т",
+              "meaning": "говорит, произносит"
+            },
+            "es": {
+              "pronunciation": "omér / oméret / omrím / omrót",
+              "meaning": "dice, pronuncia"
+            }
+          }
         },
         {
           "hebrew": "גר / גרה / גרים / גרות",
-          "pronunciation": "гар / гара́ / гари́м / гаро́т",
-          "meaning": "живёт, проживает; גרה: нормативное ударение гара́, в разговорной речи обычно га́ра",
-          "hebrewWithNiqqud": "גָּר / גָּרָה / גָּרִים / גָּרוֹת"
+          "hebrewWithNiqqud": "גָּר / גָּרָה / גָּרִים / גָּרוֹת",
+          "id": "word-148",
+          "translations": {
+            "ru": {
+              "pronunciation": "гар / гара́ / гари́м / гаро́т",
+              "meaning": "живёт, проживает; גרה: нормативное ударение гара́, в разговорной речи обычно га́ра"
+            },
+            "es": {
+              "pronunciation": "gar / gará / garím / garót",
+              "meaning": "vive, reside; גרה: acento normativo gará; en el habla coloquial suele ser gára"
+            }
+          }
         },
         {
           "hebrew": "מרגיש / מרגישה / מרגישים / מרגישות",
-          "pronunciation": "марги́ш / маргиша́ / маргиши́м / маргишо́т",
-          "meaning": "чувствует себя; אני מרגיש טוב / אני מרגישה טוב — я чувствую себя хорошо",
-          "hebrewWithNiqqud": "מַרְגִּישׁ / מַרְגִּישָׁה / מַרְגִּישִׁים / מַרְגִּישׁוֹת"
+          "hebrewWithNiqqud": "מַרְגִּישׁ / מַרְגִּישָׁה / מַרְגִּישִׁים / מַרְגִּישׁוֹת",
+          "id": "word-149",
+          "translations": {
+            "ru": {
+              "pronunciation": "марги́ш / маргиша́ / маргиши́м / маргишо́т",
+              "meaning": "чувствует себя; אני מרגיש טוב / אני מרגישה טוב — я чувствую себя хорошо"
+            },
+            "es": {
+              "pronunciation": "margísh / margishá / margishím / margishót",
+              "meaning": "se siente; אני מרגיש טוב / אני מרגישה טוב — me siento bien"
+            }
+          }
         },
         {
           "hebrew": "נמצא / נמצאת / נמצאים / נמצאות",
-          "pronunciation": "нимца́ / нимцэ́т / нимцаи́м / нимцао́т",
-          "meaning": "находится, присутствует",
-          "hebrewWithNiqqud": "נִמְצָא / נִמְצֵאת / נִמְצָאִים / נִמְצָאוֹת"
+          "hebrewWithNiqqud": "נִמְצָא / נִמְצֵאת / נִמְצָאִים / נִמְצָאוֹת",
+          "id": "word-150",
+          "translations": {
+            "ru": {
+              "pronunciation": "нимца́ / нимцэ́т / нимцаи́м / нимцао́т",
+              "meaning": "находится, присутствует"
+            },
+            "es": {
+              "pronunciation": "nimzá / nimzét / nimzaím / nimzaót",
+              "meaning": "se encuentra, está presente"
+            }
+          }
         },
         {
           "hebrew": "חסר / חסרה / חסרים / חסרות",
-          "pronunciation": "хасэ́р / хасера́ / хасери́м / хасеро́т",
-          "meaning": "отсутствует; не хватает",
-          "hebrewWithNiqqud": "חָסֵר / חֲסֵרָה / חֲסֵרִים / חֲסֵרוֹת"
+          "hebrewWithNiqqud": "חָסֵר / חֲסֵרָה / חֲסֵרִים / חֲסֵרוֹת",
+          "id": "word-151",
+          "translations": {
+            "ru": {
+              "pronunciation": "хасэ́р / хасера́ / хасери́м / хасеро́т",
+              "meaning": "отсутствует; не хватает"
+            },
+            "es": {
+              "pronunciation": "chasér / chaserá / chaserím / chaserót",
+              "meaning": "falta, está ausente"
+            }
+          }
         },
         {
           "hebrew": "שואל / שואלת / שואלים / שואלות",
-          "pronunciation": "шоэ́ль / шоэ́лет / шоали́м / шоало́т",
-          "meaning": "спрашивает",
-          "hebrewWithNiqqud": "שׁוֹאֵל / שׁוֹאֶלֶת / שׁוֹאֲלִים / שׁוֹאֲלוֹת"
+          "hebrewWithNiqqud": "שׁוֹאֵל / שׁוֹאֶלֶת / שׁוֹאֲלִים / שׁוֹאֲלוֹת",
+          "id": "word-152",
+          "translations": {
+            "ru": {
+              "pronunciation": "шоэ́ль / шоэ́лет / шоали́м / шоало́т",
+              "meaning": "спрашивает"
+            },
+            "es": {
+              "pronunciation": "shoél / shoélet / shoalím / shoalót",
+              "meaning": "pregunta"
+            }
+          }
         },
         {
           "hebrew": "עונה / עונה / עונים / עונות",
-          "pronunciation": "онэ́ / она́ / они́м / оно́т",
-          "meaning": "отвечает; формы ед. числа без огласовок пишутся одинаково",
-          "hebrewWithNiqqud": "עוֹנֶה / עוֹנָה / עוֹנִים / עוֹנוֹת"
+          "hebrewWithNiqqud": "עוֹנֶה / עוֹנָה / עוֹנִים / עוֹנוֹת",
+          "id": "word-153",
+          "translations": {
+            "ru": {
+              "pronunciation": "онэ́ / она́ / они́м / оно́т",
+              "meaning": "отвечает; формы ед. числа без огласовок пишутся одинаково"
+            },
+            "es": {
+              "pronunciation": "oné / oná / oním / onót",
+              "meaning": "responde; las formas singulares se escriben igual sin niqqud"
+            }
+          }
         },
         {
           "hebrew": "מבין / מבינה / מבינים / מבינות",
-          "pronunciation": "меви́н / мевина́ / мевини́м / мевино́т",
-          "meaning": "понимает",
-          "hebrewWithNiqqud": "מֵבִין / מְבִינָה / מְבִינִים / מְבִינוֹת"
+          "hebrewWithNiqqud": "מֵבִין / מְבִינָה / מְבִינִים / מְבִינוֹת",
+          "id": "word-154",
+          "translations": {
+            "ru": {
+              "pronunciation": "меви́н / мевина́ / мевини́м / мевино́т",
+              "meaning": "понимает"
+            },
+            "es": {
+              "pronunciation": "mevín / meviná / meviním / mevinót",
+              "meaning": "entiende"
+            }
+          }
         },
         {
           "hebrew": "מאחר / מאחרת / מאחרים / מאחרות",
-          "pronunciation": "меахэ́р / меахэ́рет / меахари́м / меахаро́т",
-          "meaning": "опаздывает",
-          "hebrewWithNiqqud": "מְאַחֵר / מְאַחֶרֶת / מְאַחֲרִים / מְאַחֲרוֹת"
+          "hebrewWithNiqqud": "מְאַחֵר / מְאַחֶרֶת / מְאַחֲרִים / מְאַחֲרוֹת",
+          "id": "word-155",
+          "translations": {
+            "ru": {
+              "pronunciation": "меахэ́р / меахэ́рет / меахари́м / меахаро́т",
+              "meaning": "опаздывает"
+            },
+            "es": {
+              "pronunciation": "meachér / meachéret / meacharím / meacharót",
+              "meaning": "llega tarde"
+            }
+          }
         },
         {
           "hebrew": "עומד / עומדת / עומדים / עומדות",
-          "pronunciation": "омэ́д / омэ́дет / омди́м / омдо́т",
-          "meaning": "стоит",
-          "hebrewWithNiqqud": "עוֹמֵד / עוֹמֶדֶת / עוֹמְדִים / עוֹמְדוֹת"
+          "hebrewWithNiqqud": "עוֹמֵד / עוֹמֶדֶת / עוֹמְדִים / עוֹמְדוֹת",
+          "id": "word-156",
+          "translations": {
+            "ru": {
+              "pronunciation": "омэ́д / омэ́дет / омди́м / омдо́т",
+              "meaning": "стоит"
+            },
+            "es": {
+              "pronunciation": "oméd / omédet / omdím / omdót",
+              "meaning": "está de pie"
+            }
+          }
         },
         {
           "hebrew": "יושב / יושבת / יושבים / יושבות",
-          "pronunciation": "йошэ́в / йошэ́вет / йошви́м / йошво́т",
-          "meaning": "сидит",
-          "hebrewWithNiqqud": "יוֹשֵׁב / יוֹשֶׁבֶת / יוֹשְׁבִים / יוֹשְׁבוֹת"
+          "hebrewWithNiqqud": "יוֹשֵׁב / יוֹשֶׁבֶת / יוֹשְׁבִים / יוֹשְׁבוֹת",
+          "id": "word-157",
+          "translations": {
+            "ru": {
+              "pronunciation": "йошэ́в / йошэ́вет / йошви́м / йошво́т",
+              "meaning": "сидит"
+            },
+            "es": {
+              "pronunciation": "yoshév / yoshévet / yoshvím / yoshvót",
+              "meaning": "está sentado/a"
+            }
+          }
         },
         {
           "hebrew": "מרים / מרימה / מרימים / מרימות",
-          "pronunciation": "мери́м / мерима́ / мерими́м / меримо́т",
-          "meaning": "поднимает",
-          "hebrewWithNiqqud": "מֵרִים / מְרִימָה / מְרִימִים / מְרִימוֹת"
+          "hebrewWithNiqqud": "מֵרִים / מְרִימָה / מְרִימִים / מְרִימוֹת",
+          "id": "word-158",
+          "translations": {
+            "ru": {
+              "pronunciation": "мери́м / мерима́ / мерими́м / меримо́т",
+              "meaning": "поднимает"
+            },
+            "es": {
+              "pronunciation": "merím / merimá / merimím / merimót",
+              "meaning": "levanta"
+            }
+          }
         },
         {
           "hebrew": "מטייל / מטיילת / מטיילים / מטיילות",
-          "pronunciation": "метайе́ль / метайе́лет / метайли́м / метайло́т",
-          "meaning": "гуляет, путешествует",
-          "hebrewWithNiqqud": "מְטַיֵּל / מְטַיֶּלֶת / מְטַיְּלִים / מְטַיְּלוֹת"
+          "hebrewWithNiqqud": "מְטַיֵּל / מְטַיֶּלֶת / מְטַיְּלִים / מְטַיְּלוֹת",
+          "id": "word-159",
+          "translations": {
+            "ru": {
+              "pronunciation": "метайе́ль / метайе́лет / метайли́м / метайло́т",
+              "meaning": "гуляет, путешествует"
+            },
+            "es": {
+              "pronunciation": "metayél / metayélet / metaylím / metaylót",
+              "meaning": "pasea, viaja"
+            }
+          }
         },
         {
           "hebrew": "נולד / נולדת / נולדים / נולדות",
-          "pronunciation": "нола́д / нолэ́дет / нолади́м / ноладо́т",
-          "meaning": "рождается; настоящее время. נוֹלָד — рождается, נוֹלַד — родился: без огласовок пишутся одинаково",
-          "hebrewWithNiqqud": "נוֹלָד / נוֹלֶדֶת / נוֹלָדִים / נוֹלָדוֹת"
+          "hebrewWithNiqqud": "נוֹלָד / נוֹלֶדֶת / נוֹלָדִים / נוֹלָדוֹת",
+          "id": "word-160",
+          "translations": {
+            "ru": {
+              "pronunciation": "нола́д / нолэ́дет / нолади́м / ноладо́т",
+              "meaning": "рождается; настоящее время. נוֹלָד — рождается, נוֹלַד — родился: без огласовок пишутся одинаково"
+            },
+            "es": {
+              "pronunciation": "nolád / nolédet / noladím / noladót",
+              "meaning": "nace; presente. נוֹלָד — nace; נוֹלַד — nació: se escriben igual sin niqqud"
+            }
+          }
         },
         {
           "hebrew": "נולד / נולדה / נולדו / נולדו",
-          "pronunciation": "нола́д / нольда́ / нольду́ / нольду́",
-          "meaning": "родился / родилась / родились (м.) / родились (ж.); прошедшее время, 3-е лицо. Во множественном числе форма одинакова для обоих родов. נולדתי — נוֹלַדְתִּי, нола́дти — я родился или родилась",
-          "hebrewWithNiqqud": "נוֹלַד / נוֹלְדָה / נוֹלְדוּ / נוֹלְדוּ"
+          "hebrewWithNiqqud": "נוֹלַד / נוֹלְדָה / נוֹלְדוּ / נוֹלְדוּ",
+          "id": "word-161",
+          "translations": {
+            "ru": {
+              "pronunciation": "нола́д / нольда́ / нольду́ / нольду́",
+              "meaning": "родился / родилась / родились (м.) / родились (ж.); прошедшее время, 3-е лицо. Во множественном числе форма одинакова для обоих родов. נולדתי — נוֹלַדְתִּי, нола́дти — я родился или родилась"
+            },
+            "es": {
+              "pronunciation": "nolád / noldá / noldú / noldú",
+              "meaning": "nació (él) / nació (ella) / nacieron (ellos) / nacieron (ellas); pasado, tercera persona. El plural es igual para ambos géneros. נולדתי — נוֹלַדְתִּי, noládti — nací (hombre o mujer)"
+            }
+          }
         },
         {
           "hebrew": "יש",
-          "pronunciation": "еш",
-          "meaning": "есть, имеется",
-          "hebrewWithNiqqud": "יֵשׁ"
+          "hebrewWithNiqqud": "יֵשׁ",
+          "id": "word-162",
+          "translations": {
+            "ru": {
+              "pronunciation": "еш",
+              "meaning": "есть, имеется"
+            },
+            "es": {
+              "pronunciation": "esh",
+              "meaning": "hay, existe"
+            }
+          }
         },
         {
           "hebrew": "אין",
-          "pronunciation": "эйн",
-          "meaning": "нет, не имеется",
-          "hebrewWithNiqqud": "אֵין"
+          "hebrewWithNiqqud": "אֵין",
+          "id": "word-163",
+          "translations": {
+            "ru": {
+              "pronunciation": "эйн",
+              "meaning": "нет, не имеется"
+            },
+            "es": {
+              "pronunciation": "eyn",
+              "meaning": "no hay, no existe"
+            }
+          }
         },
         {
           "hebrew": "יש לי / יש לך",
-          "pronunciation": "еш ли / еш леха́ / еш лах",
-          "meaning": "у меня есть / у тебя есть: обращение к мужчине / женщине",
-          "hebrewWithNiqqud": "יֵשׁ לִי / יֵשׁ לְךָ / יֵשׁ לָךְ"
+          "hebrewWithNiqqud": "יֵשׁ לִי / יֵשׁ לְךָ / יֵשׁ לָךְ",
+          "id": "word-164",
+          "translations": {
+            "ru": {
+              "pronunciation": "еш ли / еш леха́ / еш лах",
+              "meaning": "у меня есть / у тебя есть: обращение к мужчине / женщине"
+            },
+            "es": {
+              "pronunciation": "esh li / esh lechá / esh lach",
+              "meaning": "tengo / tienes: dirigido a un hombre / a una mujer"
+            }
+          }
         },
         {
           "hebrew": "בא / באה / באים / באות",
-          "pronunciation": "ба / баа́ / баи́м / бао́т",
-          "meaning": "приходит, прибывает; настоящее время",
-          "hebrewWithNiqqud": "בָּא / בָּאָה / בָּאִים / בָּאוֹת"
+          "hebrewWithNiqqud": "בָּא / בָּאָה / בָּאִים / בָּאוֹת",
+          "id": "word-165",
+          "translations": {
+            "ru": {
+              "pronunciation": "ба / баа́ / баи́м / бао́т",
+              "meaning": "приходит, прибывает; настоящее время"
+            },
+            "es": {
+              "pronunciation": "ba / baá / baím / baót",
+              "meaning": "viene, llega; presente"
+            }
+          }
         },
         {
           "hebrew": "נכנס / נכנסת / נכנסים / נכנסות",
-          "pronunciation": "нихна́с / нихнэ́сет / нихнаси́м / нихнасо́т",
-          "meaning": "входит, заходит; настоящее время. При указании места обычно ל־: נכנס לכיתה — входит в класс",
-          "hebrewWithNiqqud": "נִכְנָס / נִכְנֶסֶת / נִכְנָסִים / נִכְנָסוֹת"
+          "hebrewWithNiqqud": "נִכְנָס / נִכְנֶסֶת / נִכְנָסִים / נִכְנָסוֹת",
+          "id": "word-166",
+          "translations": {
+            "ru": {
+              "pronunciation": "нихна́с / нихнэ́сет / нихнаси́м / нихнасо́т",
+              "meaning": "входит, заходит; настоящее время. При указании места обычно ל־: נכנס לכיתה — входит в класс"
+            },
+            "es": {
+              "pronunciation": "nichnás / nichnéset / nichnasím / nichnasót",
+              "meaning": "entra; presente. Para indicar el lugar suele usarse ל־: נכנס לכיתה — entra en el aula"
+            }
+          }
         },
         {
           "hebrew": "יוצא / יוצאת / יוצאים / יוצאות",
-          "pronunciation": "йоцэ́ / йоцэ́т / йоци́м / йоцо́т",
-          "meaning": "выходит, покидает; настоящее время. מ־ — откуда: יוצא מהכיתה — выходит из класса; יוצא מהעיר — покидает город. ל־ — куда или для чего: יוצא לכיתה — выходит, направляясь в класс. Произношение приставок зависит от следующего слова",
-          "hebrewWithNiqqud": "יוֹצֵא / יוֹצֵאת / יוֹצְאִים / יוֹצְאוֹת"
+          "hebrewWithNiqqud": "יוֹצֵא / יוֹצֵאת / יוֹצְאִים / יוֹצְאוֹת",
+          "id": "word-167",
+          "translations": {
+            "ru": {
+              "pronunciation": "йоцэ́ / йоцэ́т / йоци́м / йоцо́т",
+              "meaning": "выходит, покидает; настоящее время. מ־ — откуда: יוצא מהכיתה — выходит из класса; יוצא מהעיר — покидает город. ל־ — куда или для чего: יוצא לכיתה — выходит, направляясь в класс. Произношение приставок зависит от следующего слова"
+            },
+            "es": {
+              "pronunciation": "yozé / yozét / yozím / yozót",
+              "meaning": "sale, abandona un lugar; presente. מ־ indica de dónde: יוצא מהכיתה — sale del aula; יוצא מהעיר — sale de la ciudad. ל־ indica destino o finalidad: יוצא לכיתה — sale para ir al aula. La pronunciación de los prefijos depende de la palabra siguiente"
+            }
+          }
         }
-      ]
+      ],
+      "id": "verbs",
+      "translations": {
+        "ru": {
+          "title": "Глаголы и состояния",
+          "note": "Формы настоящего времени даны в порядке: мужской ед. / женский ед. / мужской мн. / женский мн. Недостающие формы добавлены для полноты спряжения. Для смешанной группы используется мужская форма множественного числа. Формы прошедшего времени отмечены отдельно. יש и אין не спрягаются по этой схеме."
+        },
+        "es": {
+          "title": "Verbos y estados",
+          "note": "Las formas del presente aparecen en este orden: masculino singular / femenino singular / masculino plural / femenino plural. Se han añadido las formas que faltaban para completar la conjugación. Para grupos mixtos se usa el masculino plural. Las formas del pasado se indican por separado. יש y אין no siguen este esquema de conjugación."
+        }
+      }
     },
     {
-      "title": "Прилагательные и наречия",
-      "note": "",
       "entries": [
         {
           "hebrew": "טוב / טובה",
-          "pronunciation": "тов / това́",
-          "meaning": "хороший / хорошая",
-          "hebrewWithNiqqud": "טוֹב / טוֹבָה"
+          "hebrewWithNiqqud": "טוֹב / טוֹבָה",
+          "id": "word-168",
+          "translations": {
+            "ru": {
+              "pronunciation": "тов / това́",
+              "meaning": "хороший / хорошая"
+            },
+            "es": {
+              "pronunciation": "tov / tová",
+              "meaning": "bueno / buena"
+            }
+          }
         },
         {
           "hebrew": "נחמד / נחמדה / נחמדים / נחמדות",
-          "pronunciation": "нехма́д / нехмада́ / нехмади́м / нехмадо́т",
-          "meaning": "милый, приятный; формы по роду и числу",
-          "hebrewWithNiqqud": "נֶחְמָד / נֶחְמָדָה / נֶחְמָדִים / נֶחְמָדוֹת"
+          "hebrewWithNiqqud": "נֶחְמָד / נֶחְמָדָה / נֶחְמָדִים / נֶחְמָדוֹת",
+          "id": "word-169",
+          "translations": {
+            "ru": {
+              "pronunciation": "нехма́д / нехмада́ / нехмади́м / нехмадо́т",
+              "meaning": "милый, приятный; формы по роду и числу"
+            },
+            "es": {
+              "pronunciation": "nechmád / nechmadá / nechmadím / nechmadót",
+              "meaning": "simpático, agradable; formas según género y número"
+            }
+          }
         },
         {
           "hebrew": "שמחה",
-          "pronunciation": "смеха́",
-          "meaning": "довольная, рада; ж. р.",
-          "hebrewWithNiqqud": "שְׂמֵחָה"
+          "hebrewWithNiqqud": "שְׂמֵחָה",
+          "id": "word-170",
+          "translations": {
+            "ru": {
+              "pronunciation": "смеха́",
+              "meaning": "довольная, рада; ж. р."
+            },
+            "es": {
+              "pronunciation": "smechá",
+              "meaning": "contenta, alegre; femenino"
+            }
+          }
         },
         {
           "hebrew": "גדול",
-          "pronunciation": "гадо́ль",
-          "meaning": "большой",
-          "hebrewWithNiqqud": "גָּדוֹל"
+          "hebrewWithNiqqud": "גָּדוֹל",
+          "id": "word-171",
+          "translations": {
+            "ru": {
+              "pronunciation": "гадо́ль",
+              "meaning": "большой"
+            },
+            "es": {
+              "pronunciation": "gadól",
+              "meaning": "grande"
+            }
+          }
         },
         {
           "hebrew": "קטן",
-          "pronunciation": "ката́н",
-          "meaning": "маленький",
-          "hebrewWithNiqqud": "קָטָן"
+          "hebrewWithNiqqud": "קָטָן",
+          "id": "word-172",
+          "translations": {
+            "ru": {
+              "pronunciation": "ката́н",
+              "meaning": "маленький"
+            },
+            "es": {
+              "pronunciation": "katán",
+              "meaning": "pequeño"
+            }
+          }
         },
         {
           "hebrew": "יפה",
-          "pronunciation": "яфэ́ / яфа́",
-          "meaning": "красивый / красивая; одинаковое написание без огласовок",
-          "hebrewWithNiqqud": "יָפֶה / יָפָה"
+          "hebrewWithNiqqud": "יָפֶה / יָפָה",
+          "id": "word-173",
+          "translations": {
+            "ru": {
+              "pronunciation": "яфэ́ / яфа́",
+              "meaning": "красивый / красивая; одинаковое написание без огласовок"
+            },
+            "es": {
+              "pronunciation": "yafé / yafá",
+              "meaning": "bonito / bonita; se escriben igual sin niqqud"
+            }
+          }
         },
         {
           "hebrew": "מעניין",
-          "pronunciation": "меанье́н",
-          "meaning": "интересный",
-          "hebrewWithNiqqud": "מְעַנְיֵן"
+          "hebrewWithNiqqud": "מְעַנְיֵן",
+          "id": "word-174",
+          "translations": {
+            "ru": {
+              "pronunciation": "меанье́н",
+              "meaning": "интересный"
+            },
+            "es": {
+              "pronunciation": "meanyén",
+              "meaning": "interesante"
+            }
+          }
         },
         {
           "hebrew": "חשוב",
-          "pronunciation": "хашу́в",
-          "meaning": "важный",
-          "hebrewWithNiqqud": "חָשׁוּב"
+          "hebrewWithNiqqud": "חָשׁוּב",
+          "id": "word-175",
+          "translations": {
+            "ru": {
+              "pronunciation": "хашу́в",
+              "meaning": "важный"
+            },
+            "es": {
+              "pronunciation": "chashúv",
+              "meaning": "importante"
+            }
+          }
         },
         {
           "hebrew": "ספציפי / ספציפית",
-          "pronunciation": "специ́фи / специ́фит",
-          "meaning": "конкретный / конкретная",
-          "hebrewWithNiqqud": "סְפֵּצִיפִי / סְפֵּצִיפִית"
+          "hebrewWithNiqqud": "סְפֵּצִיפִי / סְפֵּצִיפִית",
+          "id": "word-176",
+          "translations": {
+            "ru": {
+              "pronunciation": "специ́фи / специ́фит",
+              "meaning": "конкретный / конкретная"
+            },
+            "es": {
+              "pronunciation": "spezífi / spezífit",
+              "meaning": "específico / específica"
+            }
+          }
         },
         {
           "hebrew": "הרבה",
-          "pronunciation": "hарбэ́",
-          "meaning": "много",
-          "hebrewWithNiqqud": "הַרְבֵּה"
+          "hebrewWithNiqqud": "הַרְבֵּה",
+          "id": "word-177",
+          "translations": {
+            "ru": {
+              "pronunciation": "hарбэ́",
+              "meaning": "много"
+            },
+            "es": {
+              "pronunciation": "harbé",
+              "meaning": "mucho"
+            }
+          }
         },
         {
           "hebrew": "מעט",
-          "pronunciation": "меа́т",
-          "meaning": "мало",
-          "hebrewWithNiqqud": "מְעַט"
+          "hebrewWithNiqqud": "מְעַט",
+          "id": "word-178",
+          "translations": {
+            "ru": {
+              "pronunciation": "меа́т",
+              "meaning": "мало"
+            },
+            "es": {
+              "pronunciation": "meát",
+              "meaning": "poco"
+            }
+          }
         },
         {
           "hebrew": "קצת",
-          "pronunciation": "кцат",
-          "meaning": "немного",
-          "hebrewWithNiqqud": "קְצָת"
+          "hebrewWithNiqqud": "קְצָת",
+          "id": "word-179",
+          "translations": {
+            "ru": {
+              "pronunciation": "кцат",
+              "meaning": "немного"
+            },
+            "es": {
+              "pronunciation": "kzat",
+              "meaning": "un poco"
+            }
+          }
         },
         {
           "hebrew": "מאוד",
-          "pronunciation": "мео́д",
-          "meaning": "очень",
-          "hebrewWithNiqqud": "מְאוֹד"
+          "hebrewWithNiqqud": "מְאוֹד",
+          "id": "word-180",
+          "translations": {
+            "ru": {
+              "pronunciation": "мео́д",
+              "meaning": "очень"
+            },
+            "es": {
+              "pronunciation": "meód",
+              "meaning": "muy"
+            }
+          }
         },
         {
           "hebrew": "פה / כאן",
-          "pronunciation": "по / кан",
-          "meaning": "тут, здесь",
-          "hebrewWithNiqqud": "פֹּה / כָּאן"
+          "hebrewWithNiqqud": "פֹּה / כָּאן",
+          "id": "word-181",
+          "translations": {
+            "ru": {
+              "pronunciation": "по / кан",
+              "meaning": "тут, здесь"
+            },
+            "es": {
+              "pronunciation": "po / kan",
+              "meaning": "aquí"
+            }
+          }
         },
         {
           "hebrew": "שם",
-          "pronunciation": "шам",
-          "meaning": "там; пишется так же, как שם — шем, имя",
-          "hebrewWithNiqqud": "שָׁם"
+          "hebrewWithNiqqud": "שָׁם",
+          "id": "word-182",
+          "translations": {
+            "ru": {
+              "pronunciation": "шам",
+              "meaning": "там; пишется так же, как שם — шем, имя"
+            },
+            "es": {
+              "pronunciation": "sham",
+              "meaning": "allí; se escribe igual que שם — shem, nombre"
+            }
+          }
         },
         {
           "hebrew": "אולי",
-          "pronunciation": "ула́й",
-          "meaning": "возможно, может быть",
-          "hebrewWithNiqqud": "אוּלַי"
+          "hebrewWithNiqqud": "אוּלַי",
+          "id": "word-183",
+          "translations": {
+            "ru": {
+              "pronunciation": "ула́й",
+              "meaning": "возможно, может быть"
+            },
+            "es": {
+              "pronunciation": "uláy",
+              "meaning": "quizás, tal vez"
+            }
+          }
         },
         {
           "hebrew": "עכשיו",
-          "pronunciation": "ахша́в",
-          "meaning": "сейчас",
-          "hebrewWithNiqqud": "עַכְשָׁו"
+          "hebrewWithNiqqud": "עַכְשָׁו",
+          "id": "word-184",
+          "translations": {
+            "ru": {
+              "pronunciation": "ахша́в",
+              "meaning": "сейчас"
+            },
+            "es": {
+              "pronunciation": "achsháv",
+              "meaning": "ahora"
+            }
+          }
         },
         {
           "hebrew": "אתמול",
-          "pronunciation": "этмо́ль",
-          "meaning": "вчера",
-          "hebrewWithNiqqud": "אֶתְמוֹל"
+          "hebrewWithNiqqud": "אֶתְמוֹל",
+          "id": "word-185",
+          "translations": {
+            "ru": {
+              "pronunciation": "этмо́ль",
+              "meaning": "вчера"
+            },
+            "es": {
+              "pronunciation": "etmól",
+              "meaning": "ayer"
+            }
+          }
         },
         {
           "hebrew": "היום",
-          "pronunciation": "hайо́м",
-          "meaning": "сегодня",
-          "hebrewWithNiqqud": "הַיּוֹם"
+          "hebrewWithNiqqud": "הַיּוֹם",
+          "id": "word-186",
+          "translations": {
+            "ru": {
+              "pronunciation": "hайо́м",
+              "meaning": "сегодня"
+            },
+            "es": {
+              "pronunciation": "hayóm",
+              "meaning": "hoy"
+            }
+          }
         },
         {
           "hebrew": "מחר",
-          "pronunciation": "маха́р",
-          "meaning": "завтра",
-          "hebrewWithNiqqud": "מָחָר"
+          "hebrewWithNiqqud": "מָחָר",
+          "id": "word-187",
+          "translations": {
+            "ru": {
+              "pronunciation": "маха́р",
+              "meaning": "завтра"
+            },
+            "es": {
+              "pronunciation": "machár",
+              "meaning": "mañana"
+            }
+          }
         },
         {
           "hebrew": "בזמן",
-          "pronunciation": "базма́н / бизма́н",
-          "meaning": "בַּזְּמַן — вовремя; בִּזְמַן — во время чего-либо. Без огласовок пишутся одинаково",
-          "hebrewWithNiqqud": "בַּזְּמַן / בִּזְמַן"
+          "hebrewWithNiqqud": "בַּזְּמַן / בִּזְמַן",
+          "id": "word-188",
+          "translations": {
+            "ru": {
+              "pronunciation": "базма́н / бизма́н",
+              "meaning": "בַּזְּמַן — вовремя; בִּזְמַן — во время чего-либо. Без огласовок пишутся одинаково"
+            },
+            "es": {
+              "pronunciation": "basmán / bismán",
+              "meaning": "בַּזְּמַן — a tiempo; בִּזְמַן — durante algo. Se escriben igual sin niqqud"
+            }
+          }
         },
         {
           "hebrew": "רק",
-          "pronunciation": "рак",
-          "meaning": "только",
-          "hebrewWithNiqqud": "רַק"
+          "hebrewWithNiqqud": "רַק",
+          "id": "word-189",
+          "translations": {
+            "ru": {
+              "pronunciation": "рак",
+              "meaning": "только"
+            },
+            "es": {
+              "pronunciation": "rak",
+              "meaning": "solo, solamente"
+            }
+          }
         },
         {
           "hebrew": "כבר",
-          "pronunciation": "квар",
-          "meaning": "уже",
-          "hebrewWithNiqqud": "כְּבָר"
+          "hebrewWithNiqqud": "כְּבָר",
+          "id": "word-190",
+          "translations": {
+            "ru": {
+              "pronunciation": "квар",
+              "meaning": "уже"
+            },
+            "es": {
+              "pronunciation": "kvar",
+              "meaning": "ya"
+            }
+          }
         },
         {
           "hebrew": "גם",
-          "pronunciation": "гам",
-          "meaning": "тоже; גם ... וגם ... — и ... и ...",
-          "hebrewWithNiqqud": "גַּם"
+          "hebrewWithNiqqud": "גַּם",
+          "id": "word-191",
+          "translations": {
+            "ru": {
+              "pronunciation": "гам",
+              "meaning": "тоже; גם ... וגם ... — и ... и ..."
+            },
+            "es": {
+              "pronunciation": "gam",
+              "meaning": "también; גם ... וגם ... — tanto ... como ..."
+            }
+          }
         },
         {
           "hebrew": "לא",
-          "pronunciation": "ло",
-          "meaning": "не, нет",
-          "hebrewWithNiqqud": "לֹא"
+          "hebrewWithNiqqud": "לֹא",
+          "id": "word-192",
+          "translations": {
+            "ru": {
+              "pronunciation": "ло",
+              "meaning": "не, нет"
+            },
+            "es": {
+              "pronunciation": "lo",
+              "meaning": "no"
+            }
+          }
         },
         {
           "hebrew": "קשה / קשה / קשים / קשות",
-          "pronunciation": "кашэ́ / каша́ / каши́м / кашо́т",
-          "meaning": "трудный, тяжёлый, сложный; м. ед. / ж. ед. / м. мн. / ж. мн. Формы ед. числа без огласовок пишутся одинаково",
-          "hebrewWithNiqqud": "קָשֶׁה / קָשָׁה / קָשִׁים / קָשׁוֹת"
+          "hebrewWithNiqqud": "קָשֶׁה / קָשָׁה / קָשִׁים / קָשׁוֹת",
+          "id": "word-193",
+          "translations": {
+            "ru": {
+              "pronunciation": "кашэ́ / каша́ / каши́м / кашо́т",
+              "meaning": "трудный, тяжёлый, сложный; м. ед. / ж. ед. / м. мн. / ж. мн. Формы ед. числа без огласовок пишутся одинаково"
+            },
+            "es": {
+              "pronunciation": "kashé / kashá / kashím / kashót",
+              "meaning": "difícil, duro, complicado; masculino singular / femenino singular / masculino plural / femenino plural. Las formas singulares se escriben igual sin niqqud"
+            }
+          }
         }
-      ]
+      ],
+      "id": "adjectives",
+      "translations": {
+        "ru": {
+          "title": "Прилагательные и наречия",
+          "note": ""
+        },
+        "es": {
+          "title": "Adjetivos y adverbios",
+          "note": ""
+        }
+      }
     },
     {
-      "title": "Вопросительные слова",
-      "note": "",
       "entries": [
         {
           "hebrew": "מי?",
-          "pronunciation": "ми?",
-          "meaning": "кто?",
-          "hebrewWithNiqqud": "מִי?"
+          "hebrewWithNiqqud": "מִי?",
+          "id": "word-194",
+          "translations": {
+            "ru": {
+              "pronunciation": "ми?",
+              "meaning": "кто?"
+            },
+            "es": {
+              "pronunciation": "mi?",
+              "meaning": "¿quién?"
+            }
+          }
         },
         {
           "hebrew": "עם מי?",
-          "pronunciation": "им ми?",
-          "meaning": "с кем?",
-          "hebrewWithNiqqud": "עִם מִי?"
+          "hebrewWithNiqqud": "עִם מִי?",
+          "id": "word-195",
+          "translations": {
+            "ru": {
+              "pronunciation": "им ми?",
+              "meaning": "с кем?"
+            },
+            "es": {
+              "pronunciation": "im mi?",
+              "meaning": "¿con quién?"
+            }
+          }
         },
         {
           "hebrew": "מי אתה? / מי את?",
-          "pronunciation": "ми ата́? / ми ат?",
-          "meaning": "кто ты? К мужчине / женщине",
-          "hebrewWithNiqqud": "מִי אַתָּה? / מִי אַתְּ?"
+          "hebrewWithNiqqud": "מִי אַתָּה? / מִי אַתְּ?",
+          "id": "word-196",
+          "translations": {
+            "ru": {
+              "pronunciation": "ми ата́? / ми ат?",
+              "meaning": "кто ты? К мужчине / женщине"
+            },
+            "es": {
+              "pronunciation": "mi atá? / mi at?",
+              "meaning": "¿quién eres? Dirigido a un hombre / a una mujer"
+            }
+          }
         },
         {
           "hebrew": "איפה?",
-          "pronunciation": "э́йфо?",
-          "meaning": "где?",
-          "hebrewWithNiqqud": "אֵיפֹה?"
+          "hebrewWithNiqqud": "אֵיפֹה?",
+          "id": "word-197",
+          "translations": {
+            "ru": {
+              "pronunciation": "э́йфо?",
+              "meaning": "где?"
+            },
+            "es": {
+              "pronunciation": "éyfo?",
+              "meaning": "¿dónde?"
+            }
+          }
         },
         {
           "hebrew": "מאיפה? / מאין?",
-          "pronunciation": "ме-э́йфо? / ме-а́йин?",
-          "meaning": "откуда? Первое — разговорный вариант",
-          "hebrewWithNiqqud": "מֵאֵיפֹה? / מֵאַיִן?"
+          "hebrewWithNiqqud": "מֵאֵיפֹה? / מֵאַיִן?",
+          "id": "word-198",
+          "translations": {
+            "ru": {
+              "pronunciation": "ме-э́йфо? / ме-а́йин?",
+              "meaning": "откуда? Первое — разговорный вариант"
+            },
+            "es": {
+              "pronunciation": "me-éyfo? / me-áyin?",
+              "meaning": "¿de dónde? La primera variante es coloquial"
+            }
+          }
         },
         {
           "hebrew": "איך?",
-          "pronunciation": "эйх?",
-          "meaning": "как?",
-          "hebrewWithNiqqud": "אֵיךְ?"
+          "hebrewWithNiqqud": "אֵיךְ?",
+          "id": "word-199",
+          "translations": {
+            "ru": {
+              "pronunciation": "эйх?",
+              "meaning": "как?"
+            },
+            "es": {
+              "pronunciation": "eych?",
+              "meaning": "¿cómo?"
+            }
+          }
         },
         {
           "hebrew": "למה?",
-          "pronunciation": "ла́ма?",
-          "meaning": "почему? зачем?",
-          "hebrewWithNiqqud": "לָמָּה?"
+          "hebrewWithNiqqud": "לָמָּה?",
+          "id": "word-200",
+          "translations": {
+            "ru": {
+              "pronunciation": "ла́ма?",
+              "meaning": "почему? зачем?"
+            },
+            "es": {
+              "pronunciation": "láma?",
+              "meaning": "¿por qué? ¿para qué?"
+            }
+          }
         },
         {
           "hebrew": "מה?",
-          "pronunciation": "ма?",
-          "meaning": "что?",
-          "hebrewWithNiqqud": "מָה?"
+          "hebrewWithNiqqud": "מָה?",
+          "id": "word-201",
+          "translations": {
+            "ru": {
+              "pronunciation": "ма?",
+              "meaning": "что?"
+            },
+            "es": {
+              "pronunciation": "ma?",
+              "meaning": "¿qué?"
+            }
+          }
         },
         {
           "hebrew": "מה זה? / מה זאת?",
-          "pronunciation": "ма зе? / ма зот?",
-          "meaning": "что это? Мужская / женская форма",
-          "hebrewWithNiqqud": "מָה זֶה? / מָה זֹאת?"
+          "hebrewWithNiqqud": "מָה זֶה? / מָה זֹאת?",
+          "id": "word-202",
+          "translations": {
+            "ru": {
+              "pronunciation": "ма зе? / ма зот?",
+              "meaning": "что это? Мужская / женская форма"
+            },
+            "es": {
+              "pronunciation": "ma se? / ma sot?",
+              "meaning": "¿qué es esto? Forma masculina / femenina"
+            }
+          }
         },
         {
           "hebrew": "מתי?",
-          "pronunciation": "мата́й?",
-          "meaning": "когда?",
-          "hebrewWithNiqqud": "מָתַי?"
+          "hebrewWithNiqqud": "מָתַי?",
+          "id": "word-203",
+          "translations": {
+            "ru": {
+              "pronunciation": "мата́й?",
+              "meaning": "когда?"
+            },
+            "es": {
+              "pronunciation": "matáy?",
+              "meaning": "¿cuándo?"
+            }
+          }
         },
         {
           "hebrew": "למי?",
-          "pronunciation": "леми́?",
-          "meaning": "кому? для кого?; также «у кого?» в некоторых конструкциях, например למי יש ...?",
-          "hebrewWithNiqqud": "לְמִי?"
+          "hebrewWithNiqqud": "לְמִי?",
+          "id": "word-204",
+          "translations": {
+            "ru": {
+              "pronunciation": "леми́?",
+              "meaning": "кому? для кого?; также «у кого?» в некоторых конструкциях, например למי יש ...?"
+            },
+            "es": {
+              "pronunciation": "lemí?",
+              "meaning": "¿a quién? ¿para quién? También «¿quién tiene?» en construcciones como למי יש ...?"
+            }
+          }
         },
         {
           "hebrew": "כמה?",
-          "pronunciation": "ка́ма?",
-          "meaning": "сколько?",
-          "hebrewWithNiqqud": "כַּמָּה?"
+          "hebrewWithNiqqud": "כַּמָּה?",
+          "id": "word-205",
+          "translations": {
+            "ru": {
+              "pronunciation": "ка́ма?",
+              "meaning": "сколько?"
+            },
+            "es": {
+              "pronunciation": "káma?",
+              "meaning": "¿cuánto? ¿cuántos?"
+            }
+          }
         },
         {
           "hebrew": "בן כמה אתה? / בת כמה את?",
-          "pronunciation": "бен ка́ма ата́? / бат ка́ма ат?",
-          "meaning": "сколько тебе лет? Обращение к мужчине / женщине",
-          "hebrewWithNiqqud": "בֶּן כַּמָּה אַתָּה? / בַּת כַּמָּה אַתְּ?"
+          "hebrewWithNiqqud": "בֶּן כַּמָּה אַתָּה? / בַּת כַּמָּה אַתְּ?",
+          "id": "word-206",
+          "translations": {
+            "ru": {
+              "pronunciation": "бен ка́ма ата́? / бат ка́ма ат?",
+              "meaning": "сколько тебе лет? Обращение к мужчине / женщине"
+            },
+            "es": {
+              "pronunciation": "ben káma atá? / bat káma at?",
+              "meaning": "¿cuántos años tienes? Dirigido a un hombre / a una mujer"
+            }
+          }
         }
-      ]
+      ],
+      "id": "questions",
+      "translations": {
+        "ru": {
+          "title": "Вопросительные слова",
+          "note": ""
+        },
+        "es": {
+          "title": "Palabras interrogativas",
+          "note": ""
+        }
+      }
     },
     {
-      "title": "Местоимения, предлоги и союзы",
-      "note": "",
       "entries": [
         {
           "hebrew": "אני / אנחנו",
-          "pronunciation": "ани́ / ана́хну",
-          "meaning": "я / мы",
-          "hebrewWithNiqqud": "אֲנִי / אֲנַחְנוּ"
+          "hebrewWithNiqqud": "אֲנִי / אֲנַחְנוּ",
+          "id": "word-207",
+          "translations": {
+            "ru": {
+              "pronunciation": "ани́ / ана́хну",
+              "meaning": "я / мы"
+            },
+            "es": {
+              "pronunciation": "aní / anáchnu",
+              "meaning": "yo / nosotros, nosotras"
+            }
+          }
         },
         {
           "hebrew": "אתה / את",
-          "pronunciation": "ата́ / ат",
-          "meaning": "ты, м. / ж.",
-          "hebrewWithNiqqud": "אַתָּה / אַתְּ"
+          "hebrewWithNiqqud": "אַתָּה / אַתְּ",
+          "id": "word-208",
+          "translations": {
+            "ru": {
+              "pronunciation": "ата́ / ат",
+              "meaning": "ты, м. / ж."
+            },
+            "es": {
+              "pronunciation": "atá / at",
+              "meaning": "tú: masculino / femenino"
+            }
+          }
         },
         {
           "hebrew": "אתם / אתן",
-          "pronunciation": "атэ́м / атэ́н",
-          "meaning": "вы: мужчины или смешанная группа / женщины",
-          "hebrewWithNiqqud": "אַתֶּם / אַתֶּן"
+          "hebrewWithNiqqud": "אַתֶּם / אַתֶּן",
+          "id": "word-209",
+          "translations": {
+            "ru": {
+              "pronunciation": "атэ́м / атэ́н",
+              "meaning": "вы: мужчины или смешанная группа / женщины"
+            },
+            "es": {
+              "pronunciation": "atém / atén",
+              "meaning": "ustedes: grupo masculino o mixto / grupo femenino"
+            }
+          }
         },
         {
           "hebrew": "הוא / היא",
-          "pronunciation": "hу / hи",
-          "meaning": "он / она",
-          "hebrewWithNiqqud": "הוּא / הִיא"
+          "hebrewWithNiqqud": "הוּא / הִיא",
+          "id": "word-210",
+          "translations": {
+            "ru": {
+              "pronunciation": "hу / hи",
+              "meaning": "он / она"
+            },
+            "es": {
+              "pronunciation": "hu / hi",
+              "meaning": "él / ella"
+            }
+          }
         },
         {
           "hebrew": "הם / הן",
-          "pronunciation": "hем / hен",
-          "meaning": "они: мужчины или смешанная группа / женщины",
-          "hebrewWithNiqqud": "הֵם / הֵן"
+          "hebrewWithNiqqud": "הֵם / הֵן",
+          "id": "word-211",
+          "translations": {
+            "ru": {
+              "pronunciation": "hем / hен",
+              "meaning": "они: мужчины или смешанная группа / женщины"
+            },
+            "es": {
+              "pronunciation": "hem / hen",
+              "meaning": "ellos / ellas; masculino también para grupos mixtos"
+            }
+          }
         },
         {
           "hebrew": "של",
-          "pronunciation": "шель",
-          "meaning": "частица принадлежности: «кого?», «чей?»",
-          "hebrewWithNiqqud": "שֶׁל"
+          "hebrewWithNiqqud": "שֶׁל",
+          "id": "word-212",
+          "translations": {
+            "ru": {
+              "pronunciation": "шель",
+              "meaning": "частица принадлежности: «кого?», «чей?»"
+            },
+            "es": {
+              "pronunciation": "shel",
+              "meaning": "partícula de posesión: «de», «¿de quién?»"
+            }
+          }
         },
         {
           "hebrew": "שלי",
-          "pronunciation": "шели́",
-          "meaning": "мой, моя, моё, мои",
-          "hebrewWithNiqqud": "שֶׁלִּי"
+          "hebrewWithNiqqud": "שֶׁלִּי",
+          "id": "word-213",
+          "translations": {
+            "ru": {
+              "pronunciation": "шели́",
+              "meaning": "мой, моя, моё, мои"
+            },
+            "es": {
+              "pronunciation": "shelí",
+              "meaning": "mío, mía, míos, mías"
+            }
+          }
         },
         {
           "hebrew": "שלך",
-          "pronunciation": "шельха́ / шела́х",
-          "meaning": "твой, твоя, твоё, твои: обращение к мужчине / женщине",
-          "hebrewWithNiqqud": "שֶׁלְּךָ / שֶׁלָּךְ"
+          "hebrewWithNiqqud": "שֶׁלְּךָ / שֶׁלָּךְ",
+          "id": "word-214",
+          "translations": {
+            "ru": {
+              "pronunciation": "шельха́ / шела́х",
+              "meaning": "твой, твоя, твоё, твои: обращение к мужчине / женщине"
+            },
+            "es": {
+              "pronunciation": "shelchá / shelách",
+              "meaning": "tuyo, tuya, tuyos, tuyas: dirigido a un hombre / a una mujer"
+            }
+          }
         },
         {
           "hebrew": "עם",
-          "pronunciation": "им",
-          "meaning": "с, вместе с",
-          "hebrewWithNiqqud": "עִם"
+          "hebrewWithNiqqud": "עִם",
+          "id": "word-215",
+          "translations": {
+            "ru": {
+              "pronunciation": "им",
+              "meaning": "с, вместе с"
+            },
+            "es": {
+              "pronunciation": "im",
+              "meaning": "con, junto con"
+            }
+          }
         },
         {
           "hebrew": "על",
-          "pronunciation": "аль",
-          "meaning": "на",
-          "hebrewWithNiqqud": "עַל"
+          "hebrewWithNiqqud": "עַל",
+          "id": "word-216",
+          "translations": {
+            "ru": {
+              "pronunciation": "аль",
+              "meaning": "на"
+            },
+            "es": {
+              "pronunciation": "al",
+              "meaning": "sobre, en"
+            }
+          }
         },
         {
           "hebrew": "על יד",
-          "pronunciation": "аль яд",
-          "meaning": "рядом с, возле",
-          "hebrewWithNiqqud": "עַל יַד"
+          "hebrewWithNiqqud": "עַל יַד",
+          "id": "word-217",
+          "translations": {
+            "ru": {
+              "pronunciation": "аль яд",
+              "meaning": "рядом с, возле"
+            },
+            "es": {
+              "pronunciation": "al yad",
+              "meaning": "al lado de, cerca de"
+            }
+          }
         },
         {
           "hebrew": "מול",
-          "pronunciation": "муль",
-          "meaning": "напротив",
-          "hebrewWithNiqqud": "מוּל"
+          "hebrewWithNiqqud": "מוּל",
+          "id": "word-218",
+          "translations": {
+            "ru": {
+              "pronunciation": "муль",
+              "meaning": "напротив"
+            },
+            "es": {
+              "pronunciation": "mul",
+              "meaning": "frente a"
+            }
+          }
         },
         {
           "hebrew": "תחת",
-          "pronunciation": "та́хат",
-          "meaning": "под",
-          "hebrewWithNiqqud": "תַּחַת"
+          "hebrewWithNiqqud": "תַּחַת",
+          "id": "word-219",
+          "translations": {
+            "ru": {
+              "pronunciation": "та́хат",
+              "meaning": "под"
+            },
+            "es": {
+              "pronunciation": "táchat",
+              "meaning": "bajo, debajo de"
+            }
+          }
         },
         {
           "hebrew": "בין",
-          "pronunciation": "бейн",
-          "meaning": "между",
-          "hebrewWithNiqqud": "בֵּין"
+          "hebrewWithNiqqud": "בֵּין",
+          "id": "word-220",
+          "translations": {
+            "ru": {
+              "pronunciation": "бейн",
+              "meaning": "между"
+            },
+            "es": {
+              "pronunciation": "beyn",
+              "meaning": "entre"
+            }
+          }
         },
         {
           "hebrew": "כי",
-          "pronunciation": "ки",
-          "meaning": "потому что",
-          "hebrewWithNiqqud": "כִּי"
+          "hebrewWithNiqqud": "כִּי",
+          "id": "word-221",
+          "translations": {
+            "ru": {
+              "pronunciation": "ки",
+              "meaning": "потому что"
+            },
+            "es": {
+              "pronunciation": "ki",
+              "meaning": "porque"
+            }
+          }
         },
         {
           "hebrew": "ו־",
-          "pronunciation": "ве-",
-          "meaning": "и; произношение приставки может меняться",
-          "hebrewWithNiqqud": "וְ־"
+          "hebrewWithNiqqud": "וְ־",
+          "id": "word-222",
+          "translations": {
+            "ru": {
+              "pronunciation": "ве-",
+              "meaning": "и; произношение приставки может меняться"
+            },
+            "es": {
+              "pronunciation": "ve-",
+              "meaning": "y; la pronunciación del prefijo puede cambiar"
+            }
+          }
         },
         {
           "hebrew": "אבל",
-          "pronunciation": "ава́ль",
-          "meaning": "но, однако",
-          "hebrewWithNiqqud": "אֲבָל"
+          "hebrewWithNiqqud": "אֲבָל",
+          "id": "word-223",
+          "translations": {
+            "ru": {
+              "pronunciation": "ава́ль",
+              "meaning": "но, однако"
+            },
+            "es": {
+              "pronunciation": "avál",
+              "meaning": "pero, sin embargo"
+            }
+          }
         },
         {
           "hebrew": "כ־",
-          "pronunciation": "ке-",
-          "meaning": "как, в качестве; предлог-приставка, пишется слитно со следующим словом. Произношение может меняться. Не путать с כי — ки, «потому что»",
-          "hebrewWithNiqqud": "כְּ־"
+          "hebrewWithNiqqud": "כְּ־",
+          "id": "word-224",
+          "translations": {
+            "ru": {
+              "pronunciation": "ке-",
+              "meaning": "как, в качестве; предлог-приставка, пишется слитно со следующим словом. Произношение может меняться. Не путать с כי — ки, «потому что»"
+            },
+            "es": {
+              "pronunciation": "ke-",
+              "meaning": "como, en calidad de; preposición prefijada que se une a la palabra siguiente. La pronunciación puede cambiar. No confundir con כי — ki, «porque»"
+            }
+          }
         }
-      ]
+      ],
+      "id": "pronouns",
+      "translations": {
+        "ru": {
+          "title": "Местоимения, предлоги и союзы",
+          "note": ""
+        },
+        "es": {
+          "title": "Pronombres, preposiciones y conjunciones",
+          "note": ""
+        }
+      }
     }
   ]
 }

@@ -1,3 +1,6 @@
+import { LanguageSwitcher } from './LanguageSwitcher';
+import type { Topic } from '../types';
+import { useLocale } from '../localization/context';
 import type { ChangeEventHandler, PointerEventHandler, RefObject } from 'react';
 import { SearchField } from './SearchField';
 import { HandwritingToggle } from './HandwritingToggle';
@@ -18,7 +21,7 @@ type DictionaryControlsProps = {
   onNiqqudChange: ChangeEventHandler<HTMLInputElement>;
   total: number;
   updated: string;
-  topics: string[];
+  topics: Topic[];
   activeTopic: string;
   onTopicSelect: (topic: string) => void;
 };
@@ -38,31 +41,35 @@ export const DictionaryControls = ({
   topics,
   activeTopic,
   onTopicSelect,
-}: DictionaryControlsProps) => (
-  <div className="sticky-controls" ref={controlsRef} onPointerDownCapture={onPointerDownCapture}>
-    <div className="wrap">
-      <SearchField
-        query={query}
-        onChange={onQueryChange}
-        onFocus={onSearchFocus}
-        onBlur={onSearchBlur}
-      />
-      <div className="niqqud-row">
-        <NiqqudToggle checked={showNiqqud} onChange={onNiqqudChange} />
-        <HandwritingToggle checked={handwriting} onChange={onHandwritingChange} />
+}: DictionaryControlsProps) => {
+  const { messages } = useLocale();
+  return (
+    <div className="sticky-controls" ref={controlsRef} onPointerDownCapture={onPointerDownCapture}>
+      <div className="wrap">
+        <SearchField
+          query={query}
+          onChange={onQueryChange}
+          onFocus={onSearchFocus}
+          onBlur={onSearchBlur}
+        />
+        <div className="niqqud-row">
+          <LanguageSwitcher />
+          <div className="display-toggles">
+            <NiqqudToggle checked={showNiqqud} onChange={onNiqqudChange} />
+            <HandwritingToggle checked={handwriting} onChange={onHandwritingChange} />
+          </div>
+        </div>
+        <div className="filters-head">
+          <span>{messages.topics}</span>
+          <span>{messages.records(total, updated)}</span>
+        </div>
+        <TopicFilters
+          topics={topics}
+          activeTopic={activeTopic}
+          emphasizeActiveTopic={query.trim().length > 0 && activeTopic !== ALL_TOPICS}
+          onSelect={onTopicSelect}
+        />
       </div>
-      <div className="filters-head">
-        <span>ТЕМЫ</span>
-        <span>
-          {total} записей в словаре, обновлено {updated}
-        </span>
-      </div>
-      <TopicFilters
-        topics={topics}
-        activeTopic={activeTopic}
-        emphasizeActiveTopic={query.trim().length > 0 && activeTopic !== ALL_TOPICS}
-        onSelect={onTopicSelect}
-      />
     </div>
-  </div>
-);
+  );
+};

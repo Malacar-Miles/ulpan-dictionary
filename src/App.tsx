@@ -1,3 +1,4 @@
+import { LocaleProvider } from './localization/LocaleProvider';
 import { DictionaryHeader } from './components/DictionaryHeader';
 import { DictionaryControls } from './components/DictionaryControls';
 import { DictionaryResults } from './components/DictionaryResults';
@@ -6,7 +7,7 @@ import { useHandwritingPreference } from './hooks/useHandwritingPreference';
 import { useDictionary } from './hooks/useDictionary';
 import { useDictionaryLayout } from './hooks/useDictionaryLayout';
 
-export const App = () => {
+const DictionaryApp = () => {
   const dictionary = useDictionary();
   const { handwriting, changeHandwriting } = useHandwritingPreference();
   const { controlsRef, contentRef, startEditing, stopEditing, preserveSearchFocus } =
@@ -50,3 +51,9 @@ export const App = () => {
     </>
   );
 };
+
+export const App = () => (
+  <LocaleProvider>
+    <DictionaryApp />
+  </LocaleProvider>
+);

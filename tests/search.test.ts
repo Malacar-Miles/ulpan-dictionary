@@ -38,3 +38,18 @@ describe('dictionary search', () => {
     );
   });
 });
+
+it('normalizes Spanish accents without conflating ñ/n or h/ch', () => {
+  expect(matches(['canción'], 'cancion', 'es')).toBe(true);
+  expect(matches(['cancio\u0301n'], 'CANCIÓN', 'es')).toBe(true);
+  expect(matches(['año'], 'ano', 'es')).toBe(false);
+  expect(matches(['an\u0303o'], 'año', 'es')).toBe(true);
+  expect(matches(['año'], 'an\u0303o', 'es')).toBe(true);
+  expect(matches(['holéch'], 'holech', 'es')).toBe(true);
+  expect(matches(['h'], 'ch', 'es')).toBe(false);
+  expect(matches(['h'], 'х', 'es')).toBe(false);
+  expect(highlightRanges('canción', 'cancion', 'es')).toEqual([{ start: 0, end: 7 }]);
+  expect(highlightRanges('cancio\u0301n', 'cancion', 'es')).toEqual([{ start: 0, end: 8 }]);
+  expect(highlightRanges('an\u0303o', 'año', 'es')).toEqual([{ start: 0, end: 4 }]);
+  expect(highlightRanges('שָׁלוֹם', 'שלום', 'es')).toEqual([{ start: 0, end: 7 }]);
+});

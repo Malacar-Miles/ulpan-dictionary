@@ -1,6 +1,6 @@
 # Ulpan Dictionary
 
-A Hebrew–Russian dictionary for a small ulpan group. It collects words and expressions encountered in lessons and homework, with Hebrew spelling, optional niqqud, approximate Russian pronunciation, and translations or notes. The interface is in Russian.
+A Hebrew dictionary with Russian and Spanish localization for a small ulpan group. It collects words and expressions encountered in lessons and homework, with Hebrew spelling, optional niqqud, approximate Russian or Latin pronunciation, and localized translations and notes. The interface is available in Russian and Spanish.
 
 This project is developed exclusively through **AI engineering**: changes are implemented with the help of AI agents under the project owner's direction and review.
 
@@ -26,7 +26,7 @@ The application uses React, TypeScript, and Vite. Search and topic filtering run
 
 The application's source of truth is [`src/dictionary.json`](src/dictionary.json). Edit it directly; it is not automatically synchronized with the Markdown dictionary in the parent project. Agent instructions for maintaining entries are in [`AGENTS.md`](AGENTS.md).
 
-The file contains `updatedAt` (`YYYY-MM-DD`), introductory text, and topic sections. Each entry contains Hebrew spelling without niqqud, approximate pronunciation, a Russian translation or notes, and optionally a spelling with niqqud.
+The file contains `updatedAt` (`YYYY-MM-DD`), `intro.ru/es`, and topic sections. Sections have permanent IDs and localized `translations.ru/es.title` and `.note`. Each entry has a permanent ID, shared `hebrew` and optional `hebrewWithNiqqud`, and `translations.ru/es` containing `pronunciation` and `meaning`. Never renumber IDs when inserting or reordering entries. Both translations are required; `tests/localizedDictionary.test.ts` checks completeness, IDs, stress counts, and form alignment.
 
 ## Installation on a phone
 
@@ -81,3 +81,13 @@ the original Hebrew characters.
 
 The font is bundled in `public/fonts/gveret-levin/` under the SIL Open Font License;
 see the included `OFL.txt`. Source: [AlefAlefAlef/gveret-levin](https://github.com/AlefAlefAlef/gveret-levin).
+
+## Localization
+
+The sticky controls contain a `Русский / Español` switcher. The first visit uses Spanish when the browser's primary language is Spanish, and Russian otherwise. A saved choice overrides browser language. Language changes preserve the query, selected topic, niqqud, and handwriting settings. Storage failures do not prevent switching.
+
+UI catalogs live in `src/localization/catalogs.ts`; the language hook updates the document language and browser title. The installed-app name and manifest remain Russian. The entry count is calculated from the shared data, and the manually maintained update date is formatted in the selected language.
+
+Search covers Hebrew and the displayed language's meanings and pronunciation. Spanish search ignores vowel accents but distinguishes `ñ` from `n` and `h` from `ch`. Russian search retains its existing h/х and е/ё/э equivalences. Highlighting preserves the original accented letters and Hebrew niqqud.
+
+Latin phonetics follow [the student's approved conventions](docs/student-latin-phonetics.md), not generic Spanish transliteration. They are stored as reviewed data, not generated at runtime. Future dictionary additions must include both languages; use the project dictionary-addition skill.

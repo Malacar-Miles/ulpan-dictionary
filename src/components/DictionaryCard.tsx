@@ -1,9 +1,11 @@
+import { useLocale } from '../localization/context';
 import type { DictionaryEntry } from '../types';
 import { getEntrySpellings } from '../helpers/dictionary';
 import { Highlight } from './Highlight';
 
 type DictionaryCardProps = { entry: DictionaryEntry; query: string; showNiqqud: boolean };
 export const DictionaryCard = ({ entry, query, showNiqqud }: DictionaryCardProps) => {
+  const { messages } = useLocale();
   const { visible, alternate } = getEntrySpellings(entry, query, showNiqqud);
   return (
     <article className="card">
@@ -14,7 +16,7 @@ export const DictionaryCard = ({ entry, query, showNiqqud }: DictionaryCardProps
       </div>
       {alternate && (
         <p className="alternate-spelling">
-          <span>{showNiqqud ? 'Без никуд:' : 'С никудом:'}</span>{' '}
+          <span>{showNiqqud ? messages.withoutNiqqud : messages.withNiqqud}</span>{' '}
           <b lang="he" dir="rtl">
             <Highlight text={alternate} query={query} />
           </b>

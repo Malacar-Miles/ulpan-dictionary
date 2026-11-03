@@ -10,13 +10,8 @@ export const DictionarySection = ({ section, query, showNiqqud }: DictionarySect
     </div>
     {section.note && <p className="section-note">{section.note}</p>}
     <div className="grid">
-      {section.entries.map((entry, index) => (
-        <DictionaryCard
-          key={`${entry.hebrew}-${index}`}
-          entry={entry}
-          query={query}
-          showNiqqud={showNiqqud}
-        />
+      {section.entries.map((entry) => (
+        <DictionaryCard key={entry.id} entry={entry} query={query} showNiqqud={showNiqqud} />
       ))}
     </div>
   </section>

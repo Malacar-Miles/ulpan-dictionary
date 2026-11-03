@@ -1,5 +1,7 @@
+import type { Topic } from '../types';
+import { useLocale } from '../localization/context';
 type TopicFiltersProps = {
-  topics: string[];
+  topics: Topic[];
   activeTopic: string;
   emphasizeActiveTopic: boolean;
   onSelect: (topic: string) => void;
@@ -9,21 +11,24 @@ export const TopicFilters = ({
   activeTopic,
   emphasizeActiveTopic,
   onSelect,
-}: TopicFiltersProps) => (
-  <nav
-    className={`filters${emphasizeActiveTopic ? ' filters-search-active' : ''}`}
-    aria-label="Фильтр по теме"
-  >
-    {topics.map((title) => (
-      <button
-        key={title}
-        type="button"
-        className={activeTopic === title ? 'active' : ''}
-        aria-pressed={activeTopic === title}
-        onClick={() => onSelect(title)}
-      >
-        {title}
-      </button>
-    ))}
-  </nav>
-);
+}: TopicFiltersProps) => {
+  const { messages } = useLocale();
+  return (
+    <nav
+      className={`filters${emphasizeActiveTopic ? ' filters-search-active' : ''}`}
+      aria-label={messages.topicFilter}
+    >
+      {topics.map(({ id, title }) => (
+        <button
+          key={id}
+          type="button"
+          className={activeTopic === id ? 'active' : ''}
+          aria-pressed={activeTopic === id}
+          onClick={() => onSelect(id)}
+        >
+          {title}
+        </button>
+      ))}
+    </nav>
+  );
+};
