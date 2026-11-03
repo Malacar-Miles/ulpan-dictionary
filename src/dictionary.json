@@ -188,17 +188,17 @@
           }
         },
         {
-          "hebrew": "נכון?",
-          "hebrewWithNiqqud": "נָכוֹן?",
+          "hebrew": "נכון / נכון?",
+          "hebrewWithNiqqud": "נָכוֹן / נָכוֹן?",
           "id": "word-013",
           "translations": {
             "ru": {
-              "pronunciation": "нахо́н?",
-              "meaning": "верно? правильно?"
+              "pronunciation": "нахо́н / нахо́н?",
+              "meaning": "верно, правильно / верно? правильно?; утверждение или уточняющий вопрос"
             },
             "es": {
-              "pronunciation": "nachón?",
-              "meaning": "¿verdad? ¿correcto?"
+              "pronunciation": "nachón / nachón?",
+              "meaning": "correcto, así es / ¿verdad? ¿correcto?; afirmación o pregunta de confirmación"
             }
           }
         },
@@ -274,6 +274,36 @@
             "es": {
               "pronunciation": "ma shimchá? / ma shméch?",
               "meaning": "¿cuál es tu nombre? Dirigido a un hombre / a una mujer"
+            }
+          }
+        },
+        {
+          "hebrew": "בבקשה",
+          "hebrewWithNiqqud": "בְּבַקָּשָׁה",
+          "id": "word-235",
+          "translations": {
+            "ru": {
+              "pronunciation": "бевакаша́",
+              "meaning": "пожалуйста; при просьбе, предложении чего-либо или в ответ на благодарность"
+            },
+            "es": {
+              "pronunciation": "bevakashá",
+              "meaning": "por favor; también al ofrecer algo o responder a un agradecimiento"
+            }
+          }
+        },
+        {
+          "hebrew": "כל הכבוד",
+          "hebrewWithNiqqud": "כָּל הַכָּבוֹד",
+          "id": "word-239",
+          "translations": {
+            "ru": {
+              "pronunciation": "коль hакаво́д",
+              "meaning": "молодец! отлично! браво! Выражение похвалы"
+            },
+            "es": {
+              "pronunciation": "kol hakavód",
+              "meaning": "¡muy bien! ¡bien hecho! ¡bravo! Expresión de elogio"
             }
           }
         }
@@ -859,6 +889,36 @@
             "es": {
               "pronunciation": "almán / almaná / almaním / almanót",
               "meaning": "viudo / viuda / viudos / viudas"
+            }
+          }
+        },
+        {
+          "hebrew": "אח / אחות / אחים / אחיות",
+          "hebrewWithNiqqud": "אָח / אָחוֹת / אַחִים / אֲחָיוֹת",
+          "id": "word-241",
+          "translations": {
+            "ru": {
+              "pronunciation": "ах / ахо́т / ахи́м / ахайо́т",
+              "meaning": "брат / сестра / братья / сёстры; также медбрат / медсестра / медбратья / медсёстры — значение определяется контекстом"
+            },
+            "es": {
+              "pronunciation": "ach / achót / achím / achayót",
+              "meaning": "hermano / hermana / hermanos / hermanas; también enfermero / enfermera / enfermeros / enfermeras, según el contexto"
+            }
+          }
+        },
+        {
+          "hebrew": "פקיד / פקידה / פקידים / פקידות",
+          "hebrewWithNiqqud": "פָּקִיד / פְּקִידָה / פְּקִידִים / פְּקִידוֹת",
+          "id": "word-242",
+          "translations": {
+            "ru": {
+              "pronunciation": "паки́д / пкида́ / пкиди́м / пкидо́т",
+              "meaning": "служащий, офисный сотрудник, чиновник; м. ед. / ж. ед. / м. мн. / ж. мн."
+            },
+            "es": {
+              "pronunciation": "pakíd / pkidá / pkidím / pkidót",
+              "meaning": "empleado administrativo, funcionario; masculino singular / femenino singular / masculino plural / femenino plural"
             }
           }
         }
@@ -1699,6 +1759,111 @@
             "es": {
               "pronunciation": "rakévet / rakavót",
               "meaning": "tren / trenes; femenino en hebreo"
+            }
+          }
+        },
+        {
+          "hebrew": "שמש / שמשות",
+          "hebrewWithNiqqud": "שֶׁמֶשׁ / שְׁמָשׁוֹת",
+          "id": "word-230",
+          "translations": {
+            "ru": {
+              "pronunciation": "ше́меш / шмашо́т",
+              "meaning": "солнце / солнца; обычно ж. р."
+            },
+            "es": {
+              "pronunciation": "shémesh / shmashót",
+              "meaning": "sol / soles; normalmente femenino en hebreo"
+            }
+          }
+        },
+        {
+          "hebrew": "מונית / מוניות",
+          "hebrewWithNiqqud": "מוֹנִית / מוֹנִיּוֹת",
+          "id": "word-234",
+          "translations": {
+            "ru": {
+              "pronunciation": "мони́т / монийо́т",
+              "meaning": "такси; ед. / мн., ж. р."
+            },
+            "es": {
+              "pronunciation": "monít / moniyót",
+              "meaning": "taxi / taxis; femenino en hebreo"
+            }
+          }
+        },
+        {
+          "hebrew": "טלוויזיה / טלוויזיות",
+          "hebrewWithNiqqud": "טֶלֶוִיזְיָה / טֶלֶוִיזְיוֹת",
+          "id": "word-238",
+          "translations": {
+            "ru": {
+              "pronunciation": "телеви́зья / телеви́зьот",
+              "meaning": "телевизор / телевизоры; ж. р. טלוויזיה также означает «телевидение»"
+            },
+            "es": {
+              "pronunciation": "televísya / televísyot",
+              "meaning": "televisor / televisores; femenino en hebreo. טלוויזיה también significa «televisión» como medio"
+            }
+          }
+        },
+        {
+          "hebrew": "מרפאה / מרפאות",
+          "hebrewWithNiqqud": "מִרְפָּאָה / מִרְפָּאוֹת",
+          "id": "word-240",
+          "translations": {
+            "ru": {
+              "pronunciation": "мирпаа́ / мирпао́т",
+              "meaning": "клиника, поликлиника / клиники, поликлиники; ж. р."
+            },
+            "es": {
+              "pronunciation": "mirpaá / mirpaót",
+              "meaning": "clínica, centro de salud / clínicas, centros de salud; femenino en hebreo"
+            }
+          }
+        },
+        {
+          "hebrew": "פארק / פארקים",
+          "hebrewWithNiqqud": "פַּארְק / פַּארְקִים",
+          "id": "word-246",
+          "translations": {
+            "ru": {
+              "pronunciation": "парк / парки́м",
+              "meaning": "парк / парки; м. р."
+            },
+            "es": {
+              "pronunciation": "park / parkím",
+              "meaning": "parque / parques; masculino en hebreo"
+            }
+          }
+        },
+        {
+          "hebrew": "גן / גנים",
+          "hebrewWithNiqqud": "גַּן / גַּנִּים",
+          "id": "word-247",
+          "translations": {
+            "ru": {
+              "pronunciation": "ган / гани́м",
+              "meaning": "сад / сады; м. р."
+            },
+            "es": {
+              "pronunciation": "gan / ganím",
+              "meaning": "jardín / jardines; masculino en hebreo"
+            }
+          }
+        },
+        {
+          "hebrew": "גן ילדים / גני ילדים",
+          "hebrewWithNiqqud": "גַּן יְלָדִים / גַּנֵּי יְלָדִים",
+          "id": "word-248",
+          "translations": {
+            "ru": {
+              "pronunciation": "ган йелади́м / ганэ́й йелади́м",
+              "meaning": "детский сад / детские сады; м. р."
+            },
+            "es": {
+              "pronunciation": "gan yeladím / ganéy yeladím",
+              "meaning": "jardín de infancia / jardines de infancia; masculino en hebreo"
             }
           }
         }
@@ -2571,6 +2736,36 @@
               "meaning": "sale, abandona un lugar; presente. מ־ indica de dónde: יוצא מהכיתה — sale del aula; יוצא מהעיר — sale de la ciudad. ל־ indica destino o finalidad: יוצא לכיתה — sale para ir al aula. La pronunciación de los prefijos depende de la palabra siguiente"
             }
           }
+        },
+        {
+          "hebrew": "רואה / רואה / רואים / רואות",
+          "hebrewWithNiqqud": "רוֹאֶה / רוֹאָה / רוֹאִים / רוֹאוֹת",
+          "id": "word-228",
+          "translations": {
+            "ru": {
+              "pronunciation": "роэ́ / роа́ / рои́м / роо́т",
+              "meaning": "видит; настоящее время. Формы ед. числа без огласовок пишутся одинаково"
+            },
+            "es": {
+              "pronunciation": "roé / roá / roím / roót",
+              "meaning": "ve; presente. Las formas singulares se escriben igual sin niqqud"
+            }
+          }
+        },
+        {
+          "hebrew": "רץ / רצה / רצים / רצות",
+          "hebrewWithNiqqud": "רָץ / רָצָה / רָצִים / רָצוֹת",
+          "id": "word-233",
+          "translations": {
+            "ru": {
+              "pronunciation": "рац / раца́ / раци́м / рацо́т",
+              "meaning": "бежит, бегает; настоящее время"
+            },
+            "es": {
+              "pronunciation": "raz / razá / razím / razót",
+              "meaning": "corre; presente"
+            }
+          }
         }
       ],
       "id": "verbs",
@@ -2976,6 +3171,96 @@
               "meaning": "difícil, duro, complicado; masculino singular / femenino singular / masculino plural / femenino plural. Las formas singulares se escriben igual sin niqqud"
             }
           }
+        },
+        {
+          "hebrew": "עייף / עייפה / עייפים / עייפות",
+          "hebrewWithNiqqud": "עָיֵף / עֲיֵפָה / עֲיֵפִים / עֲיֵפוֹת",
+          "id": "word-229",
+          "translations": {
+            "ru": {
+              "pronunciation": "айе́ф / айефа́ / айефи́м / айефо́т",
+              "meaning": "уставший, усталый; м. ед. / ж. ед. / м. мн. / ж. мн."
+            },
+            "es": {
+              "pronunciation": "ayéf / ayefá / ayefím / ayefót",
+              "meaning": "cansado, cansada; masculino singular / femenino singular / masculino plural / femenino plural"
+            }
+          }
+        },
+        {
+          "hebrew": "חולה / חולה / חולים / חולות",
+          "hebrewWithNiqqud": "חוֹלֶה / חוֹלָה / חוֹלִים / חוֹלוֹת",
+          "id": "word-231",
+          "translations": {
+            "ru": {
+              "pronunciation": "холэ́ / хола́ / холи́м / холо́т",
+              "meaning": "больной, больная; м. ед. / ж. ед. / м. мн. / ж. мн.. Формы ед. числа без огласовок пишутся одинаково"
+            },
+            "es": {
+              "pronunciation": "cholé / cholá / cholím / cholót",
+              "meaning": "enfermo, enferma; masculino singular / femenino singular / masculino plural / femenino plural. Las formas singulares se escriben igual sin niqqud"
+            }
+          }
+        },
+        {
+          "hebrew": "בריא / בריאה / בריאים / בריאות",
+          "hebrewWithNiqqud": "בָּרִיא / בְּרִיאָה / בְּרִיאִים / בְּרִיאוֹת",
+          "id": "word-232",
+          "translations": {
+            "ru": {
+              "pronunciation": "бари́ / бриа́ / брии́м / брио́т",
+              "meaning": "здоровый, здоровая; м. ед. / ж. ед. / м. мн. / ж. мн."
+            },
+            "es": {
+              "pronunciation": "barí / briá / briím / briót",
+              "meaning": "sano, sana; masculino singular / femenino singular / masculino plural / femenino plural"
+            }
+          }
+        },
+        {
+          "hebrew": "עוד",
+          "hebrewWithNiqqud": "עוֹד",
+          "id": "word-237",
+          "translations": {
+            "ru": {
+              "pronunciation": "од",
+              "meaning": "ещё, дополнительно; עוד פעם — ещё раз; עוד קצת — ещё немного"
+            },
+            "es": {
+              "pronunciation": "od",
+              "meaning": "más, todavía, aún; עוד פעם — otra vez; עוד קצת — un poco más"
+            }
+          }
+        },
+        {
+          "hebrew": "ציבורי / ציבורית / ציבוריים / ציבוריות",
+          "hebrewWithNiqqud": "צִבּוּרִי / צִבּוּרִית / צִבּוּרִיִּים / צִבּוּרִיּוֹת",
+          "id": "word-244",
+          "translations": {
+            "ru": {
+              "pronunciation": "цибури́ / цибури́т / цибурийи́м / цибурийо́т",
+              "meaning": "общественный, публичный; м. ед. / ж. ед. / м. мн. / ж. мн."
+            },
+            "es": {
+              "pronunciation": "ziburí / ziburít / ziburiyím / ziburiyót",
+              "meaning": "público, pública; masculino singular / femenino singular / masculino plural / femenino plural"
+            }
+          }
+        },
+        {
+          "hebrew": "לבן / לבנה / לבנים / לבנות",
+          "hebrewWithNiqqud": "לָבָן / לְבָנָה / לְבָנִים / לְבָנוֹת",
+          "id": "word-245",
+          "translations": {
+            "ru": {
+              "pronunciation": "лава́н / левана́ / левани́м / левано́т",
+              "meaning": "белый / белая / белые (м.) / белые (ж.)"
+            },
+            "es": {
+              "pronunciation": "laván / levaná / levaním / levanót",
+              "meaning": "blanco / blanca / blancos / blancas"
+            }
+          }
         }
       ],
       "id": "adjectives",
@@ -3184,6 +3469,36 @@
             "es": {
               "pronunciation": "ben káma atá? / bat káma at?",
               "meaning": "¿cuántos años tienes? Dirigido a un hombre / a una mujer"
+            }
+          }
+        },
+        {
+          "hebrew": "לאן?",
+          "hebrewWithNiqqud": "לְאָן?",
+          "id": "word-236",
+          "translations": {
+            "ru": {
+              "pronunciation": "леа́н?",
+              "meaning": "куда?"
+            },
+            "es": {
+              "pronunciation": "leán?",
+              "meaning": "¿adónde?"
+            }
+          }
+        },
+        {
+          "hebrew": "איזה? / איזו? / אילו?",
+          "hebrewWithNiqqud": "אֵיזֶה? / אֵיזוֹ? / אֵילוּ?",
+          "id": "word-243",
+          "translations": {
+            "ru": {
+              "pronunciation": "э́йзе? / э́йзо? / э́йлу?",
+              "meaning": "какой? / какая? / какие?; множественное число для обоих родов"
+            },
+            "es": {
+              "pronunciation": "éyse? / éyso? / éylu?",
+              "meaning": "¿qué?, ¿cuál? / ¿qué?, ¿cuál? / ¿qué?, ¿cuáles?; masculino singular / femenino singular / plural de ambos géneros en hebreo"
             }
           }
         }
@@ -3469,6 +3784,51 @@
             "es": {
               "pronunciation": "ke-",
               "meaning": "como, en calidad de; preposición prefijada que se une a la palabra siguiente. La pronunciación puede cambiar. No confundir con כי — ki, «porque»"
+            }
+          }
+        },
+        {
+          "hebrew": "זה / זאת / אלה",
+          "hebrewWithNiqqud": "זֶה / זֹאת / אֵלֶּה",
+          "id": "word-225",
+          "translations": {
+            "ru": {
+              "pronunciation": "зе / зот / э́ле",
+              "meaning": "этот, это (м. ед.) / эта, это (ж. ед.) / эти (мн. обоих родов); указательные местоимения"
+            },
+            "es": {
+              "pronunciation": "se / sot / éle",
+              "meaning": "este, esto (masculino singular en hebreo) / esta, esto (femenino singular en hebreo) / estos, estas (plural de ambos géneros); demostrativos"
+            }
+          }
+        },
+        {
+          "hebrew": "מישהו / מישהי",
+          "hebrewWithNiqqud": "מִישֶׁהוּ / מִישֶׁהִי",
+          "id": "word-226",
+          "translations": {
+            "ru": {
+              "pronunciation": "ми́шеhу / ми́шеhи",
+              "meaning": "кто-то; мужская / женская форма"
+            },
+            "es": {
+              "pronunciation": "míshehu / míshehi",
+              "meaning": "alguien; forma masculina / femenina en hebreo"
+            }
+          }
+        },
+        {
+          "hebrew": "אם",
+          "hebrewWithNiqqud": "אִם",
+          "id": "word-227",
+          "translations": {
+            "ru": {
+              "pronunciation": "им",
+              "meaning": "если; союз. Не путать с עם — им, «с, вместе с»"
+            },
+            "es": {
+              "pronunciation": "im",
+              "meaning": "si; conjunción condicional. No confundir con עם — im, «con, junto con»"
             }
           }
         }
