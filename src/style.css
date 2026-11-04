@@ -732,12 +732,10 @@ html.search-editing,
 .language-panel {
   display: grid;
   grid-template-rows: 0fr;
-  opacity: 0;
   visibility: hidden;
 }
 .language-panel.is-open {
   grid-template-rows: 1fr;
-  opacity: 1;
   visibility: visible;
 }
 .language-panel-content {
@@ -745,6 +743,10 @@ html.search-editing,
   overflow: hidden;
   display: flex;
   justify-content: flex-end;
+  opacity: 0;
+}
+.language-panel.is-open .language-panel-content {
+  opacity: 1;
 }
 .language-panel-content .language-switcher {
   margin: 8px 4px 4px;
@@ -752,11 +754,16 @@ html.search-editing,
 @media (prefers-reduced-motion: no-preference) {
   .language-panel {
     transition:
-      grid-template-rows 160ms ease-out,
-      opacity 160ms ease-out,
-      visibility 0s 160ms;
+      grid-template-rows 160ms ease-out 160ms,
+      visibility 0s 320ms;
   }
   .language-panel.is-open {
     transition-delay: 0s;
+  }
+  .language-panel-content {
+    transition: opacity 160ms ease-out;
+  }
+  .language-panel.is-open .language-panel-content {
+    transition-delay: 160ms;
   }
 }

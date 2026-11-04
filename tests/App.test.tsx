@@ -1,6 +1,6 @@
 // @vitest-environment jsdom
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
-import { act, cleanup, fireEvent, render, screen } from '@testing-library/react';
+import { cleanup, fireEvent, render, screen } from '@testing-library/react';
 import { App } from '../src/App';
 import dictionary from '../src/dictionary.json';
 import { formatUpdatedDate } from '../src/helpers/dictionary';
@@ -19,7 +19,6 @@ beforeEach(() => {
 });
 afterEach(() => {
   cleanup();
-  vi.useRealTimers();
   vi.unstubAllGlobals();
   vi.restoreAllMocks();
 });
@@ -193,8 +192,7 @@ describe('localization', () => {
   });
 });
 
-it('delays closing after language selection but closes immediately via the globe or Escape', () => {
-  vi.useFakeTimers();
+it('starts closing immediately after language selection, a globe click, or Escape', () => {
   render(<App />);
   const globe = screen.getByRole('button', { name: 'Язык интерфейса' });
   expect(globe.getAttribute('aria-expanded')).toBe('false');
@@ -209,9 +207,6 @@ it('delays closing after language selection but closes immediately via the globe
   spanish.focus();
   fireEvent.click(spanish);
   expect(document.documentElement.lang).toBe('es');
-  act(() => vi.advanceTimersByTime(499));
-  expect(globe.getAttribute('aria-expanded')).toBe('true');
-  act(() => vi.advanceTimersByTime(1));
   expect(globe.getAttribute('aria-expanded')).toBe('false');
   expect(document.activeElement).toBe(globe);
   fireEvent.click(globe);
@@ -222,10 +217,7 @@ it('delays closing after language selection but closes immediately via the globe
   expect(document.activeElement).toBe(globe);
   fireEvent.click(globe);
   fireEvent.click(screen.getByRole('button', { name: 'Español' }));
-  expect(globe.getAttribute('aria-expanded')).toBe('true');
-  fireEvent.click(globe);
   expect(globe.getAttribute('aria-expanded')).toBe('false');
   fireEvent.click(globe);
-  act(() => vi.advanceTimersByTime(500));
   expect(globe.getAttribute('aria-expanded')).toBe('true');
 });

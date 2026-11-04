@@ -84,7 +84,7 @@ see the included `OFL.txt`. Source: [AlefAlefAlef/gveret-levin](https://github.c
 
 ## Localization
 
-The sticky controls show `Никкуд / Пропись` (`Niqqud / Manuscrita`) and a globe button aligned to the right. The globe reveals the existing `Русский / Español` switcher below; selecting a language closes it after a 500 ms pause; clicking the globe again starts closing immediately. Escape also closes the panel and returns keyboard focus to the globe. The first visit uses Spanish when the browser's primary language is Spanish, and Russian otherwise. A saved choice overrides browser language. Language changes preserve the query, selected topic, niqqud, and handwriting settings. Storage failures do not prevent switching.
+The sticky controls show `Никкуд / Пропись` (`Niqqud / Manuscrita`) and a globe button aligned to the right. The globe reveals the existing `Русский / Español` switcher below; selecting a language or clicking the globe again starts closing immediately. Opening expands the panel before fading in its content; closing fades out the content before collapsing the panel. Escape also closes the panel and returns keyboard focus to the globe. The first visit uses Spanish when the browser's primary language is Spanish, and Russian otherwise. A saved choice overrides browser language. Language changes preserve the query, selected topic, niqqud, and handwriting settings. Storage failures do not prevent switching.
 
 UI catalogs live in `src/localization/catalogs.ts`; the language hook updates the document language and browser title. The installed-app name and manifest remain Russian. The entry count is calculated from the shared data, and the manually maintained update date is formatted in the selected language.
 
