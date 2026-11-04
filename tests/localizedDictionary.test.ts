@@ -55,21 +55,21 @@ describe('bilingual dictionary integrity', () => {
 
   it('uses the approved sound mapping and reviewed contextual spellings', () => {
     const examples: Record<string, string> = {
-      מצוין: 'mezuyán',
-      שם: 'shem',
-      אולפן: 'ulpán',
-      בניין: 'binyán',
-      קניון: 'kanyón',
-      מעניין: 'meanyén',
-      טיול: 'tiyúl',
-      מזגן: 'masgán',
-      שלך: 'shelchá / shelách',
-      'נוסע / נוסעת / נוסעים / נוסעות': 'noséa / nosáat / nosím / nosót',
+      'word-007': 'mezuyán / mezuyénet / mezuyaním / mezuyanót',
+      'word-019': 'shem / shemót',
+      'word-075': 'ulpán / ulpaním',
+      'word-076': 'binyán / binyaním',
+      'word-068': 'kanyón / kanyoním',
+      'word-174': 'meanyén / meanyénet / meanyením / meanyenót',
+      'word-113': 'tiyúl / tiyulím',
+      'word-088': 'masgán / masganím',
+      'word-214': 'shelchá / shelách',
+      'word-141': 'noséa / nosáat / nosím / nosót',
+      'word-050': 'tayár / tayéret / tayarím / tayarót',
+      'word-162': 'yesh',
     };
-    for (const [hebrew, latin] of Object.entries(examples)) {
-      expect(entries.find((entry) => entry.hebrew === hebrew)?.translations.es.pronunciation).toBe(
-        latin,
-      );
+    for (const [id, latin] of Object.entries(examples)) {
+      expect(entries.find((entry) => entry.id === id)?.translations.es.pronunciation).toBe(latin);
     }
   });
 });
