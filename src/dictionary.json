@@ -306,6 +306,21 @@
               "meaning": "¡muy bien! ¡bien hecho! ¡bravo! Expresión de elogio"
             }
           }
+        },
+        {
+          "hebrew": "שימו לב",
+          "hebrewWithNiqqud": "שִׂימוּ לֵב",
+          "id": "word-254",
+          "translations": {
+            "ru": {
+              "pronunciation": "си́му лев",
+              "meaning": "обратите внимание! Устойчивое выражение; повелительное наклонение, обращение к группе"
+            },
+            "es": {
+              "pronunciation": "símu lev",
+              "meaning": "¡presten atención! Expresión fija; imperativo dirigido a un grupo"
+            }
+          }
         }
       ],
       "id": "greetings",
@@ -921,6 +936,51 @@
               "meaning": "empleado administrativo, funcionario; masculino singular / femenino singular / masculino plural / femenino plural"
             }
           }
+        },
+        {
+          "hebrew": "מר / גברת / גבירות",
+          "hebrewWithNiqqud": "מַר / גְּבֶרֶת / גְּבִירוֹת",
+          "id": "word-253",
+          "translations": {
+            "ru": {
+              "pronunciation": "мар / гве́рет / гвиро́т",
+              "meaning": "господин / госпожа / госпожи; מר — обращение к мужчине перед именем, обычной формы мн. числа нет. У גברת также мн. גברות — גְּבָרוֹת, гваро́т"
+            },
+            "es": {
+              "pronunciation": "mar / gvéret / gvirót",
+              "meaning": "señor / señora / señoras; מר se usa ante el nombre de un hombre y no tiene plural habitual. גברת también tiene el plural גברות — גְּבָרוֹת, gvarót"
+            }
+          }
+        },
+        {
+          "hebrew": "מזכיר / מזכירה / מזכירים / מזכירות",
+          "hebrewWithNiqqud": "מַזְכִּיר / מַזְכִּירָה / מַזְכִּירִים / מַזְכִּירוֹת",
+          "id": "word-255",
+          "translations": {
+            "ru": {
+              "pronunciation": "мазки́р / мазкира́ / мазкири́м / мазкиро́т",
+              "meaning": "секретарь, профессия; м. ед. / ж. ед. / м. мн. / ж. мн."
+            },
+            "es": {
+              "pronunciation": "maskír / maskirá / maskirím / maskirót",
+              "meaning": "secretario / secretaria / secretarios / secretarias; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+            }
+          }
+        },
+        {
+          "hebrew": "חייל / חיילת / חיילים / חיילות",
+          "hebrewWithNiqqud": "חַיָּל / חַיֶּלֶת / חַיָּלִים / חַיָּלוֹת",
+          "id": "word-259",
+          "translations": {
+            "ru": {
+              "pronunciation": "хая́ль / хайе́лет / хаяли́м / хаяло́т",
+              "meaning": "солдат, военнослужащий; м. ед. / ж. ед. / м. мн. / ж. мн."
+            },
+            "es": {
+              "pronunciation": "chayál / chayélet / chayalím / chayalót",
+              "meaning": "soldado, militar; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+            }
+          }
         }
       ],
       "id": "people",
@@ -1199,11 +1259,11 @@
           "translations": {
             "ru": {
               "pronunciation": "тахана́т о́тобус / тахано́т о́тобус",
-              "meaning": "автобусная остановка; ж. р.; ед. / мн."
+              "meaning": "автобусная остановка; ж. р.; ед. / мн.; תחנה — תַּחֲנָה, тахана́: остановка, станция; мн. תחנות — תַּחֲנוֹת, тахано́т. Перед существительным в сопряжённом сочетании (смиху́т) окончание ־ה меняется на ־ת: תחנת — תַּחֲנַת, тахана́т; תחנת אוטובוס — автобусная остановка. Во мн. числе: תחנות אוטובוס"
             },
             "es": {
               "pronunciation": "tachanát ótobus / tachanót ótobus",
-              "meaning": "parada de autobús; femenino en hebreo; singular / plural"
+              "meaning": "parada de autobús; femenino en hebreo; singular / plural; תחנה — תַּחֲנָה, tachaná: parada, estación; plural תחנות — תַּחֲנוֹת, tachanót. Ante un sustantivo en una construcción de estado constructo (smichút), ־ה cambia a ־ת: תחנת — תַּחֲנַת, tachanát; תחנת אוטובוס — parada de autobús. En plural: תחנות אוטובוס"
             }
           }
         },
@@ -1866,6 +1926,21 @@
               "meaning": "jardín de infancia / jardines de infancia; masculino en hebreo"
             }
           }
+        },
+        {
+          "hebrew": "ספסל / ספסלים",
+          "hebrewWithNiqqud": "סַפְסָל / סַפְסָלִים",
+          "id": "word-251",
+          "translations": {
+            "ru": {
+              "pronunciation": "сафса́ль / сафсали́м",
+              "meaning": "скамейка, скамья; м. р.; ед. / мн."
+            },
+            "es": {
+              "pronunciation": "safsál / safsalím",
+              "meaning": "banco para sentarse; masculino en hebreo; singular / plural"
+            }
+          }
         }
       ],
       "id": "places",
@@ -2271,6 +2346,66 @@
               "meaning": "letra / letras; femenino en hebreo"
             }
           }
+        },
+        {
+          "hebrew": "שם הפועל / שמות הפועל",
+          "hebrewWithNiqqud": "שֵׁם הַפֹּעַל / שְׁמוֹת הַפֹּעַל",
+          "id": "word-249",
+          "translations": {
+            "ru": {
+              "pronunciation": "шем hапо́аль / шмот hапо́аль",
+              "meaning": "неопределённая форма глагола, инфинитив; м. р.; ед. / мн."
+            },
+            "es": {
+              "pronunciation": "shem hapóal / shmot hapóal",
+              "meaning": "infinitivo; masculino en hebreo; singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "סיפור / סיפורים",
+          "hebrewWithNiqqud": "סִפּוּר / סִפּוּרִים",
+          "id": "word-250",
+          "translations": {
+            "ru": {
+              "pronunciation": "сипу́р / сипури́м",
+              "meaning": "рассказ, история; м. р.; ед. / мн."
+            },
+            "es": {
+              "pronunciation": "sipúr / sipurím",
+              "meaning": "relato, historia; masculino en hebreo; singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "חופש / חופשים",
+          "hebrewWithNiqqud": "חֹפֶשׁ / חֳפָשִׁים",
+          "id": "word-252",
+          "translations": {
+            "ru": {
+              "pronunciation": "хо́феш / хофаши́м",
+              "meaning": "свобода; разговорное: отпуск, каникулы; м. р.; мн. חופשים — периоды отдыха. יום חופש — йом хо́феш, выходной день"
+            },
+            "es": {
+              "pronunciation": "chófesh / chofashím",
+              "meaning": "libertad; coloquialmente: vacaciones, tiempo libre; masculino en hebreo; plural חופשים — períodos de descanso. יום חופש — yom chófesh, día libre"
+            }
+          }
+        },
+        {
+          "hebrew": "דקה / דקות",
+          "hebrewWithNiqqud": "דַּקָּה / דַּקּוֹת",
+          "id": "word-260",
+          "translations": {
+            "ru": {
+              "pronunciation": "дака́ / дако́т",
+              "meaning": "минута; ж. р.; ед. / мн."
+            },
+            "es": {
+              "pronunciation": "daká / dakót",
+              "meaning": "minuto; femenino en hebreo; singular / plural"
+            }
+          }
         }
       ],
       "id": "study",
@@ -2294,11 +2429,11 @@
           "translations": {
             "ru": {
               "pronunciation": "ломэ́д / ломэ́дет / ломди́м / ломдо́т",
-              "meaning": "учится, изучает"
+              "meaning": "учится, изучает; למדנו — לָמַדְנוּ, лама́дну: мы учили, изучали; прошедшее время, 1-е лицо мн. числа, оба рода"
             },
             "es": {
               "pronunciation": "loméd / lomédet / lomdím / lomdót",
-              "meaning": "estudia, aprende"
+              "meaning": "estudia, aprende; למדנו — לָמַדְנוּ, lamádnu: estudiamos, aprendimos; pasado, primera persona plural, ambos géneros"
             }
           }
         },
@@ -3014,11 +3149,11 @@
           "translations": {
             "ru": {
               "pronunciation": "ула́й",
-              "meaning": "возможно, может быть"
+              "meaning": "возможно, может быть; אולי אתה יודע איפה יש בנק? — ула́й ата́ йодэ́а э́йфо йеш банк? — Может быть, ты знаешь, где есть банк? (обращение к мужчине)"
             },
             "es": {
               "pronunciation": "uláy",
-              "meaning": "quizás, tal vez"
+              "meaning": "quizás, tal vez; אולי אתה יודע איפה יש בנק? — uláy atá yodéa éyfo yesh bank? — ¿Tal vez sabes dónde hay un banco? (dirigido a un hombre)"
             }
           }
         },
@@ -3259,6 +3394,51 @@
             "es": {
               "pronunciation": "laván / levaná / levaním / levanót",
               "meaning": "blanco / blanca / blancos / blancas"
+            }
+          }
+        },
+        {
+          "hebrew": "תמיד",
+          "hebrewWithNiqqud": "תָּמִיד",
+          "id": "word-256",
+          "translations": {
+            "ru": {
+              "pronunciation": "тами́д",
+              "meaning": "всегда; наречие"
+            },
+            "es": {
+              "pronunciation": "tamíd",
+              "meaning": "siempre; adverbio"
+            }
+          }
+        },
+        {
+          "hebrew": "ארוך / ארוכה / ארוכים / ארוכות",
+          "hebrewWithNiqqud": "אָרֹךְ / אֲרֻכָּה / אֲרֻכִּים / אֲרֻכּוֹת",
+          "id": "word-257",
+          "translations": {
+            "ru": {
+              "pronunciation": "аро́х / арука́ / аруки́м / аруко́т",
+              "meaning": "длинный, долгий; м. ед. / ж. ед. / м. мн. / ж. мн."
+            },
+            "es": {
+              "pronunciation": "aróch / aruká / arukím / arukót",
+              "meaning": "largo, de larga duración; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+            }
+          }
+        },
+        {
+          "hebrew": "קל / קלה / קלים / קלות",
+          "hebrewWithNiqqud": "קַל / קַלָּה / קַלִּים / קַלּוֹת",
+          "id": "word-258",
+          "translations": {
+            "ru": {
+              "pronunciation": "каль / кала́ / кали́м / кало́т",
+              "meaning": "лёгкий по весу; простой, нетрудный; м. ед. / ж. ед. / м. мн. / ж. мн."
+            },
+            "es": {
+              "pronunciation": "kal / kalá / kalím / kalót",
+              "meaning": "ligero de peso; fácil, sencillo; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
             }
           }
         }
