@@ -4024,6 +4024,321 @@
           "note": ""
         }
       }
+    },
+    {
+      "entries": [
+        {
+          "hebrew": "אפס",
+          "hebrewWithNiqqud": "אֶפֶס",
+          "id": "word-261",
+          "translations": {
+            "ru": {
+              "pronunciation": "э́фес",
+              "meaning": "0 — ноль; одна форма. Название числа — м. р.; мн. אפסים — אֲפָסִים, афаси́м: нули"
+            },
+            "es": {
+              "pronunciation": "éfes",
+              "meaning": "0 — cero; una sola forma. El nombre del número es masculino; plural אפסים — אֲפָסִים, afasím: ceros"
+            }
+          }
+        },
+        {
+          "hebrew": "אחד / אחת",
+          "hebrewWithNiqqud": "אֶחָד / אַחַת",
+          "id": "word-262",
+          "translations": {
+            "ru": {
+              "pronunciation": "эха́д / аха́т",
+              "meaning": "1 — один / одна; м. / ж."
+            },
+            "es": {
+              "pronunciation": "echád / achát",
+              "meaning": "1 — uno / una; masculino / femenino en hebreo"
+            }
+          }
+        },
+        {
+          "hebrew": "שניים / שתיים / שני / שתי",
+          "hebrewWithNiqqud": "שְׁנַיִם / שְׁתַּיִם / שְׁנֵי / שְׁתֵּי",
+          "id": "word-263",
+          "translations": {
+            "ru": {
+              "pronunciation": "шна́йим / шта́йим / шней / штей",
+              "meaning": "2 — два / две; м. / ж.; первые две формы — самостоятельные. Перед существительным: שני (м.) / שתי (ж.), например שני ספרים — две книги; שתי דקות — две минуты"
+            },
+            "es": {
+              "pronunciation": "shnáyim / shtáyim / shney / shtey",
+              "meaning": "2 — dos; masculino / femenino en hebreo; las dos primeras formas son independientes. Ante un sustantivo: שני (masculino) / שתי (femenino), por ejemplo שני ספרים — dos libros; שתי דקות — dos minutos"
+            }
+          }
+        },
+        {
+          "hebrew": "שלושה / שלוש",
+          "hebrewWithNiqqud": "שְׁלֹשָׁה / שָׁלֹשׁ",
+          "id": "word-264",
+          "translations": {
+            "ru": {
+              "pronunciation": "шлоша́ / шало́ш",
+              "meaning": "3 — три; м. / ж."
+            },
+            "es": {
+              "pronunciation": "shloshá / shalósh",
+              "meaning": "3 — tres; masculino / femenino en hebreo"
+            }
+          }
+        },
+        {
+          "hebrew": "ארבעה / ארבע",
+          "hebrewWithNiqqud": "אַרְבָּעָה / אַרְבַּע",
+          "id": "word-265",
+          "translations": {
+            "ru": {
+              "pronunciation": "арбаа́ / арба́",
+              "meaning": "4 — четыре; м. / ж.; ארבע: нормативное арба́, в разговорной речи также а́рба"
+            },
+            "es": {
+              "pronunciation": "arbaá / arbá",
+              "meaning": "4 — cuatro; masculino / femenino en hebreo; ארבע: pronunciación normativa arbá; también árba en el habla coloquial"
+            }
+          }
+        },
+        {
+          "hebrew": "חמישה / חמש",
+          "hebrewWithNiqqud": "חֲמִשָּׁה / חָמֵשׁ",
+          "id": "word-266",
+          "translations": {
+            "ru": {
+              "pronunciation": "хамиша́ / хамэ́ш",
+              "meaning": "5 — пять; м. / ж."
+            },
+            "es": {
+              "pronunciation": "chamishá / chamésh",
+              "meaning": "5 — cinco; masculino / femenino en hebreo"
+            }
+          }
+        },
+        {
+          "hebrew": "שישה / שש",
+          "hebrewWithNiqqud": "שִׁשָּׁה / שֵׁשׁ",
+          "id": "word-267",
+          "translations": {
+            "ru": {
+              "pronunciation": "шиша́ / шеш",
+              "meaning": "6 — шесть; м. / ж."
+            },
+            "es": {
+              "pronunciation": "shishá / shesh",
+              "meaning": "6 — seis; masculino / femenino en hebreo"
+            }
+          }
+        },
+        {
+          "hebrew": "שבעה / שבע",
+          "hebrewWithNiqqud": "שִׁבְעָה / שֶׁבַע",
+          "id": "word-268",
+          "translations": {
+            "ru": {
+              "pronunciation": "шивъа́ / ше́ва",
+              "meaning": "7 — семь; м. / ж."
+            },
+            "es": {
+              "pronunciation": "shivá / shéva",
+              "meaning": "7 — siete; masculino / femenino en hebreo"
+            }
+          }
+        },
+        {
+          "hebrew": "שמונה / שמונה",
+          "hebrewWithNiqqud": "שְׁמוֹנָה / שְׁמוֹנֶה",
+          "id": "word-269",
+          "translations": {
+            "ru": {
+              "pronunciation": "шмона́ / шмонэ́",
+              "meaning": "8 — восемь; м. / ж.; одинаковое написание без огласовок. Женская форма: нормативное шмонэ́, разговорное шмо́не"
+            },
+            "es": {
+              "pronunciation": "shmoná / shmoné",
+              "meaning": "8 — ocho; masculino / femenino en hebreo; se escriben igual sin niqqud. Forma femenina: pronunciación normativa shmoné, coloquial shmóne"
+            }
+          }
+        },
+        {
+          "hebrew": "תשעה / תשע",
+          "hebrewWithNiqqud": "תִּשְׁעָה / תֵּשַׁע",
+          "id": "word-270",
+          "translations": {
+            "ru": {
+              "pronunciation": "тишъа́ / тэ́ша",
+              "meaning": "9 — девять; м. / ж.; женская форма также произносится тэ́йша"
+            },
+            "es": {
+              "pronunciation": "tishá / tésha",
+              "meaning": "9 — nueve; masculino / femenino en hebreo; la forma femenina también se pronuncia téysha"
+            }
+          }
+        },
+        {
+          "hebrew": "עשרה / עשר",
+          "hebrewWithNiqqud": "עֲשָׂרָה / עֶשֶׂר",
+          "id": "word-271",
+          "translations": {
+            "ru": {
+              "pronunciation": "асара́ / э́сер",
+              "meaning": "10 — десять; м. / ж."
+            },
+            "es": {
+              "pronunciation": "asará / éser",
+              "meaning": "10 — diez; masculino / femenino en hebreo"
+            }
+          }
+        },
+        {
+          "hebrew": "עשרים",
+          "hebrewWithNiqqud": "עֶשְׂרִים",
+          "id": "word-272",
+          "translations": {
+            "ru": {
+              "pronunciation": "эсри́м",
+              "meaning": "20 — двадцать; одна форма для обоих родов"
+            },
+            "es": {
+              "pronunciation": "esrím",
+              "meaning": "20 — veinte; una misma forma para ambos géneros"
+            }
+          }
+        },
+        {
+          "hebrew": "שלושים",
+          "hebrewWithNiqqud": "שְׁלֹשִׁים",
+          "id": "word-273",
+          "translations": {
+            "ru": {
+              "pronunciation": "шлоши́м",
+              "meaning": "30 — тридцать; одна форма для обоих родов"
+            },
+            "es": {
+              "pronunciation": "shloshím",
+              "meaning": "30 — treinta; una misma forma para ambos géneros"
+            }
+          }
+        },
+        {
+          "hebrew": "ארבעים",
+          "hebrewWithNiqqud": "אַרְבָּעִים",
+          "id": "word-274",
+          "translations": {
+            "ru": {
+              "pronunciation": "арбаи́м",
+              "meaning": "40 — сорок; одна форма для обоих родов"
+            },
+            "es": {
+              "pronunciation": "arbaím",
+              "meaning": "40 — cuarenta; una misma forma para ambos géneros"
+            }
+          }
+        },
+        {
+          "hebrew": "חמישים",
+          "hebrewWithNiqqud": "חֲמִשִּׁים",
+          "id": "word-275",
+          "translations": {
+            "ru": {
+              "pronunciation": "хамиши́м",
+              "meaning": "50 — пятьдесят; одна форма для обоих родов"
+            },
+            "es": {
+              "pronunciation": "chamishím",
+              "meaning": "50 — cincuenta; una misma forma para ambos géneros"
+            }
+          }
+        },
+        {
+          "hebrew": "שישים",
+          "hebrewWithNiqqud": "שִׁשִּׁים",
+          "id": "word-276",
+          "translations": {
+            "ru": {
+              "pronunciation": "шиши́м",
+              "meaning": "60 — шестьдесят; одна форма для обоих родов"
+            },
+            "es": {
+              "pronunciation": "shishím",
+              "meaning": "60 — sesenta; una misma forma para ambos géneros"
+            }
+          }
+        },
+        {
+          "hebrew": "שבעים",
+          "hebrewWithNiqqud": "שִׁבְעִים",
+          "id": "word-277",
+          "translations": {
+            "ru": {
+              "pronunciation": "шивъи́м",
+              "meaning": "70 — семьдесят; одна форма для обоих родов"
+            },
+            "es": {
+              "pronunciation": "shivím",
+              "meaning": "70 — setenta; una misma forma para ambos géneros"
+            }
+          }
+        },
+        {
+          "hebrew": "שמונים",
+          "hebrewWithNiqqud": "שְׁמוֹנִים",
+          "id": "word-278",
+          "translations": {
+            "ru": {
+              "pronunciation": "шмони́м",
+              "meaning": "80 — восемьдесят; одна форма для обоих родов"
+            },
+            "es": {
+              "pronunciation": "shmoním",
+              "meaning": "80 — ochenta; una misma forma para ambos géneros"
+            }
+          }
+        },
+        {
+          "hebrew": "תשעים",
+          "hebrewWithNiqqud": "תִּשְׁעִים",
+          "id": "word-279",
+          "translations": {
+            "ru": {
+              "pronunciation": "тишъи́м",
+              "meaning": "90 — девяносто; одна форма для обоих родов"
+            },
+            "es": {
+              "pronunciation": "tishím",
+              "meaning": "90 — noventa; una misma forma para ambos géneros"
+            }
+          }
+        },
+        {
+          "hebrew": "מאה / מאת",
+          "hebrewWithNiqqud": "מֵאָה / מְאַת",
+          "id": "word-280",
+          "translations": {
+            "ru": {
+              "pronunciation": "меа́ / меа́т",
+              "meaning": "100 — сто; одна форма для обоих родов считаемых предметов. Само слово מאה — ж. р.; нормативное меа́, разговорное ме́а. מאת — сопряжённая форма, например מאת השנים — эти сто лет; также допустимо מאה השנים. Перед обычным неопределённым существительным: מאה ספרים — сто книг. Мн. מאות — מֵאוֹת, мео́т: сотни"
+            },
+            "es": {
+              "pronunciation": "meá / meát",
+              "meaning": "100 — cien; una misma forma con objetos de ambos géneros. La palabra מאה es femenina; pronunciación normativa meá, coloquial méa. מאת es la forma de estado constructo, por ejemplo מאת השנים — los cien años; también se admite מאה השנים. Ante un sustantivo indefinido corriente: מאה ספרים — cien libros. Plural מאות — מֵאוֹת, meót: centenas"
+            }
+          }
+        }
+      ],
+      "id": "numbers",
+      "translations": {
+        "ru": {
+          "title": "Числа",
+          "note": "Количественные числительные. Для 1–10 порядок форм: мужской / женский род. Род выбирается по существительному на иврите; при отвлечённом счёте обычно используется женская форма. У 0, десятков 20–90 и 100 отдельной пары родовых форм нет. Для 2 и 100 указаны также сопряжённые формы."
+        },
+        "es": {
+          "title": "Números",
+          "note": "Numerales cardinales. Para 1–10, las formas aparecen en orden masculino / femenino. El género depende del sustantivo en hebreo; para contar sin nombrar objetos suele usarse el femenino. El 0, las decenas de 20–90 y el 100 no tienen formas distintas por género. Para 2 y 100 también se incluyen las formas de estado constructo."
+        }
+      }
     }
   ]
 }
