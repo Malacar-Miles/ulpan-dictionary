@@ -138,8 +138,13 @@ h1 em {
   outline: 2px solid #75a58e;
 }
 .search-wrap input {
+  /* Keep Safari's native search-field sizing from overriding the padded box. */
+  -webkit-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
   display: block;
   width: 100%;
+  max-width: 100%;
   height: 100%;
   border: 1px solid #d9e4dd;
   border-radius: inherit;
@@ -415,6 +420,10 @@ footer p {
   }
   .search-hint {
     display: none;
+  }
+  .search-wrap input {
+    /* The desktop hint must never consume the mobile text/clear-button area. */
+    padding-right: calc(var(--search-padding) + 2px);
   }
   .filters {
     flex-wrap: nowrap;
@@ -766,4 +775,34 @@ html.search-editing,
   .language-panel.is-open .language-panel-content {
     transition-delay: 160ms;
   }
+}
+
+/* Provide the same clear control and touch target across desktop and mobile browsers. */
+.search-wrap input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  display: none;
+}
+.search-wrap.has-query input {
+  padding-right: 52px;
+}
+.search-clear {
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: 8px;
+  color: #608578;
+  background: transparent;
+  cursor: pointer;
+}
+.search-clear:focus-visible {
+  outline: 2px solid #75a58e;
+  outline-offset: -3px;
 }

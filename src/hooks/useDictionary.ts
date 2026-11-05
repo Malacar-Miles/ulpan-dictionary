@@ -24,6 +24,7 @@ export const useDictionary = () => {
     setQuery('');
     setActiveTopic(ALL_TOPICS);
   };
+  const clearQuery = () => setQuery('');
   const changeQuery = (event: ChangeEvent<HTMLInputElement>) => setQuery(event.target.value);
   const changeNiqqud = (event: ChangeEvent<HTMLInputElement>) =>
     setShowNiqqud(event.target.checked);
@@ -35,6 +36,7 @@ export const useDictionary = () => {
     results,
     resetSearch,
     changeQuery,
+    clearQuery,
     changeNiqqud,
     setActiveTopic,
     topics: [

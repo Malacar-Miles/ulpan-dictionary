@@ -7,6 +7,7 @@ type Messages = {
   backToTop: string;
   introduction: string;
   searchLabel: string;
+  clearSearch: string;
   searchPlaceholder: string;
   searchHint: string;
   niqqud: string;
@@ -35,6 +36,7 @@ export const catalogs: Record<Locale, Messages> = {
     introduction:
       'Здесь собраны слова, которые наша группа проходила на занятиях или в упражнениях из домашнего задания. Я добавляю их вручную после каждого занятия, поэтому каких-то слов может не хватать. Просьба писать мне об ошибках в словах и любых проблемах с сайтом.',
     searchLabel: 'Поиск по словарю',
+    clearSearch: 'Очистить поиск',
     searchPlaceholder: 'Поиск на русском или иврите',
     searchHint: 'ИВРИТ · ПРОИЗНОШЕНИЕ · ПЕРЕВОД',
     niqqud: 'Никкуд',
@@ -65,6 +67,7 @@ export const catalogs: Record<Locale, Messages> = {
     introduction:
       'Aquí están las palabras que nuestro grupo ha estudiado en clase o en los ejercicios de tarea. Las añado manualmente después de cada clase, así que pueden faltar algunas. Por favor, avísame si encuentras errores en las palabras o cualquier problema con el sitio.',
     searchLabel: 'Buscar en el diccionario',
+    clearSearch: 'Borrar búsqueda',
     searchPlaceholder: 'Buscar en español o hebreo',
     searchHint: 'HEBREO · PRONUNCIACIÓN · TRADUCCIÓN',
     niqqud: 'Niqqud',

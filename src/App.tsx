@@ -21,6 +21,7 @@ const DictionaryApp = () => {
         onPointerDownCapture={preserveSearchFocus}
         query={dictionary.query}
         onQueryChange={dictionary.changeQuery}
+        onQueryClear={dictionary.clearQuery}
         onSearchFocus={startEditing}
         onSearchBlur={stopEditing}
         handwriting={handwriting}

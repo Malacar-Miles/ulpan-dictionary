@@ -11,6 +11,7 @@ type DictionaryControlsProps = {
   onPointerDownCapture: PointerEventHandler<HTMLDivElement>;
   query: string;
   onQueryChange: ChangeEventHandler<HTMLInputElement>;
+  onQueryClear: () => void;
   onSearchFocus: () => void;
   onSearchBlur: () => void;
   handwriting: boolean;
@@ -28,6 +29,7 @@ export const DictionaryControls = ({
   onPointerDownCapture,
   query,
   onQueryChange,
+  onQueryClear,
   onSearchFocus,
   onSearchBlur,
   handwriting,
@@ -47,6 +49,7 @@ export const DictionaryControls = ({
         <SearchField
           query={query}
           onChange={onQueryChange}
+          onClear={onQueryClear}
           onFocus={onSearchFocus}
           onBlur={onSearchBlur}
         />

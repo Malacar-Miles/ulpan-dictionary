@@ -221,3 +221,19 @@ it('starts closing immediately after language selection, a globe click, or Escap
   fireEvent.click(globe);
   expect(globe.getAttribute('aria-expanded')).toBe('true');
 });
+
+it('clears only the query and returns focus to the search field', () => {
+  render(<App />);
+  expect(screen.queryByRole('button', { name: 'Очистить поиск' })).toBeNull();
+  const topic = dictionary.sections[0].translations.ru.title;
+  fireEvent.click(screen.getByRole('button', { name: topic }));
+  const input = screen.getByRole('searchbox') as HTMLInputElement;
+  fireEvent.change(input, { target: { value: 'תודה' } });
+  const clear = screen.getByRole('button', { name: 'Очистить поиск' });
+  clear.focus();
+  fireEvent.click(clear);
+  expect(input.value).toBe('');
+  expect(document.activeElement).toBe(input);
+  expect(screen.getByRole('button', { name: topic }).getAttribute('aria-pressed')).toBe('true');
+  expect(screen.queryByRole('button', { name: 'Очистить поиск' })).toBeNull();
+});
