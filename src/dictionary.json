@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04",
+  "updatedAt": "2026-11-05",
   "intro": {
     "ru": "Произношение приблизительное; ударение обозначено знаком над гласной. ה в транскрипции обозначено как h. Примеры и уточнения добавлены для понимания.",
     "es": "La pronunciación es aproximada; la tilde indica el acento. h representa una ה pronunciada; ch, el sonido de ח o כ sin dagesh; sh, el de שׁ; z, el de צ (ts). s representa tanto ס/שׂ como ז. g siempre representa el sonido de «gato», incluso ante e o i; y representa el sonido de י consonántica. Son convenciones personales de aprendizaje, no reglas de ortografía española. Se incluyen ejemplos y aclaraciones."
@@ -981,6 +981,36 @@
               "meaning": "soldado, militar; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
             }
           }
+        },
+        {
+          "hebrew": "נכד / נכדה / נכדים / נכדות",
+          "hebrewWithNiqqud": "נֶכֶד / נֶכְדָּה / נְכָדִים / נְכָדוֹת",
+          "id": "word-285",
+          "translations": {
+            "ru": {
+              "pronunciation": "не́хед / нехда́ / нехади́м / нехадо́т",
+              "meaning": "внук / внучка / внуки / внучки; мужской ед. / женский ед. / мужской мн. / женский мн."
+            },
+            "es": {
+              "pronunciation": "néched / nechdá / nechadím / nechadót",
+              "meaning": "nieto / nieta / nietos / nietas; masculino singular / femenino singular / masculino plural / femenino plural"
+            }
+          }
+        },
+        {
+          "hebrew": "הורה / הורה / הורים / הורות",
+          "hebrewWithNiqqud": "הוֹרֶה / הוֹרָה / הוֹרִים / הוֹרוֹת",
+          "id": "word-289",
+          "translations": {
+            "ru": {
+              "pronunciation": "hоре́ / hора́ / hори́м / hоро́т",
+              "meaning": "родитель / родительница / родители / родительницы; мужской ед. / женский ед. / мужской мн. / женский мн. Обычно употребляют הורה / הורים; הורה может обозначать любого из родителей. Отдельные женские формы употребляются реже."
+            },
+            "es": {
+              "pronunciation": "horé / horá / horím / horót",
+              "meaning": "progenitor / progenitora / progenitores / progenitoras; masculino singular / femenino singular / masculino plural / femenino plural. Se suele usar הורה / הורים; הורה puede referirse al padre o a la madre. Las formas femeninas específicas son menos habituales."
+            }
+          }
         }
       ],
       "id": "people",
@@ -1941,6 +1971,126 @@
               "meaning": "banco para sentarse; masculino en hebreo; singular / plural"
             }
           }
+        },
+        {
+          "hebrew": "מגבת / מגבות",
+          "hebrewWithNiqqud": "מַגֶּבֶת / מַגָּבוֹת",
+          "id": "word-281",
+          "translations": {
+            "ru": {
+              "pronunciation": "маге́вет / магаво́т",
+              "meaning": "полотенце / полотенца; ж. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "magévet / magavót",
+              "meaning": "toalla / toallas; femenino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "בירה / בירות",
+          "hebrewWithNiqqud": "בִּירָה / בִּירוֹת",
+          "id": "word-283",
+          "translations": {
+            "ru": {
+              "pronunciation": "би́ра / би́рот",
+              "meaning": "пиво; ж. род, ед. / мн. Множественное число — порции или сорта пива. Не путать с בירה (бира́) — столица."
+            },
+            "es": {
+              "pronunciation": "bíra / bírot",
+              "meaning": "cerveza; femenino en hebreo, singular / plural. El plural indica porciones o tipos de cerveza. No confundir con בירה (birá), capital."
+            }
+          }
+        },
+        {
+          "hebrew": "סיגריה / סיגריות",
+          "hebrewWithNiqqud": "סִיגַרְיָה / סִיגַרְיוֹת",
+          "id": "word-284",
+          "translations": {
+            "ru": {
+              "pronunciation": "сига́рья / сига́рйот",
+              "meaning": "сигарета / сигареты; ж. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "sigárya / sigáryot",
+              "meaning": "cigarrillo / cigarrillos; femenino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "גלידה / גלידות",
+          "hebrewWithNiqqud": "גְּלִידָה / גְּלִידוֹת",
+          "id": "word-286",
+          "translations": {
+            "ru": {
+              "pronunciation": "глида́ / глидо́т",
+              "meaning": "мороженое; ж. род, ед. / мн. Множественное число — порции или виды мороженого. Нормативное ударение глида́; разговорное — гли́да."
+            },
+            "es": {
+              "pronunciation": "glidá / glidót",
+              "meaning": "helado; femenino en hebreo, singular / plural. El plural indica porciones o tipos de helado. Acento normativo: glidá; coloquial: glída."
+            }
+          }
+        },
+        {
+          "hebrew": "חדר / חדרים",
+          "hebrewWithNiqqud": "חֶדֶר / חֲדָרִים",
+          "id": "word-290",
+          "translations": {
+            "ru": {
+              "pronunciation": "хе́дер / хадари́м",
+              "meaning": "комната / комнаты; м. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "chéder / chadarím",
+              "meaning": "habitación / habitaciones; masculino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "עוגה / עוגות",
+          "hebrewWithNiqqud": "עוּגָה / עוּגוֹת",
+          "id": "word-292",
+          "translations": {
+            "ru": {
+              "pronunciation": "уга́ / уго́т",
+              "meaning": "торт, пирог / торты, пироги; ж. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "ugá / ugót",
+              "meaning": "pastel, tarta / pasteles, tartas; femenino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "ספה / ספות",
+          "hebrewWithNiqqud": "סַפָּה / סַפּוֹת",
+          "id": "word-295",
+          "translations": {
+            "ru": {
+              "pronunciation": "сапа́ / сапо́т",
+              "meaning": "диван / диваны; ж. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "sapá / sapót",
+              "meaning": "sofá / sofás; femenino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "חפץ / חפצים",
+          "hebrewWithNiqqud": "חֵפֶץ / חֲפָצִים",
+          "id": "word-296",
+          "translations": {
+            "ru": {
+              "pronunciation": "хе́фец / хафаци́м",
+              "meaning": "вещь, предмет / вещи, предметы; м. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "chéfez / chafazím",
+              "meaning": "cosa, objeto / cosas, objetos; masculino en hebreo, singular / plural"
+            }
+          }
         }
       ],
       "id": "places",
@@ -2404,6 +2554,171 @@
             "es": {
               "pronunciation": "daká / dakót",
               "meaning": "minuto; femenino en hebreo; singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "סבלנות",
+          "hebrewWithNiqqud": "סַבְלָנוּת",
+          "id": "word-287",
+          "translations": {
+            "ru": {
+              "pronunciation": "савлану́т",
+              "meaning": "терпение; ж. род, неисчисляемое в этом значении"
+            },
+            "es": {
+              "pronunciation": "savlanút",
+              "meaning": "paciencia; femenino en hebreo, incontable en este sentido"
+            }
+          }
+        },
+        {
+          "hebrew": "רגע / רגעים",
+          "hebrewWithNiqqud": "רֶגַע / רְגָעִים",
+          "id": "word-291",
+          "translations": {
+            "ru": {
+              "pronunciation": "ре́га / регаи́м",
+              "meaning": "момент, мгновение / моменты, мгновения; м. род, ед. / мн. Возглас רגע! — «Секунду!», «Погодите!»."
+            },
+            "es": {
+              "pronunciation": "réga / regaím",
+              "meaning": "momento, instante / momentos, instantes; masculino en hebreo, singular / plural. La exclamación רגע! significa «¡Un momento!», «¡Espera!» o «¡Esperen!»."
+            }
+          }
+        },
+        {
+          "hebrew": "מזל / מזלות",
+          "hebrewWithNiqqud": "מַזָּל / מַזָּלוֹת",
+          "id": "word-293",
+          "translations": {
+            "ru": {
+              "pronunciation": "маза́ль / мазало́т",
+              "meaning": "удача, везение; также знак зодиака / знаки зодиака; м. род, ед. / мн. В значении «удача» обычно употребляется единственное число."
+            },
+            "es": {
+              "pronunciation": "masál / masalót",
+              "meaning": "suerte, fortuna; también signo del zodiaco / signos del zodiaco; masculino en hebreo, singular / plural. En el sentido de «suerte» suele usarse en singular."
+            }
+          }
+        },
+        {
+          "hebrew": "מוזיקה / מוזיקת",
+          "hebrewWithNiqqud": "מוּזִיקָה / מוּזִיקַת",
+          "id": "word-294",
+          "translations": {
+            "ru": {
+              "pronunciation": "му́зика / му́зикат",
+              "meaning": "музыка; ж. род, неисчисляемое. מוזיקת — сопряжённая форма единственного числа перед уточняющим существительным: «музыка …»; это не множественное число."
+            },
+            "es": {
+              "pronunciation": "músika / músikat",
+              "meaning": "música; femenino en hebreo, incontable. מוזיקת es el estado constructo singular ante un sustantivo que precisa el tipo de música: «música de…»; no es un plural."
+            }
+          }
+        },
+        {
+          "hebrew": "יום ראשון / ימי ראשון",
+          "hebrewWithNiqqud": "יוֹם רִאשׁוֹן / יְמֵי רִאשׁוֹן",
+          "id": "word-297",
+          "translations": {
+            "ru": {
+              "pronunciation": "йом ришо́н / йеме́й ришо́н",
+              "meaning": "воскресенье / воскресенья; м. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "yom rishón / yeméy rishón",
+              "meaning": "domingo / domingos; masculino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "יום שני / ימי שני",
+          "hebrewWithNiqqud": "יוֹם שֵׁנִי / יְמֵי שֵׁנִי",
+          "id": "word-298",
+          "translations": {
+            "ru": {
+              "pronunciation": "йом шени́ / йеме́й шени́",
+              "meaning": "понедельник / понедельники; м. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "yom shení / yeméy shení",
+              "meaning": "lunes / lunes; masculino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "יום שלישי / ימי שלישי",
+          "hebrewWithNiqqud": "יוֹם שְׁלִישִׁי / יְמֵי שְׁלִישִׁי",
+          "id": "word-299",
+          "translations": {
+            "ru": {
+              "pronunciation": "йом шлиши́ / йеме́й шлиши́",
+              "meaning": "вторник / вторники; м. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "yom shlishí / yeméy shlishí",
+              "meaning": "martes / martes; masculino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "יום רביעי / ימי רביעי",
+          "hebrewWithNiqqud": "יוֹם רְבִיעִי / יְמֵי רְבִיעִי",
+          "id": "word-300",
+          "translations": {
+            "ru": {
+              "pronunciation": "йом ревии́ / йеме́й ревии́",
+              "meaning": "среда / среды; м. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "yom revií / yeméy revií",
+              "meaning": "miércoles / miércoles; masculino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "יום חמישי / ימי חמישי",
+          "hebrewWithNiqqud": "יוֹם חֲמִישִׁי / יְמֵי חֲמִישִׁי",
+          "id": "word-301",
+          "translations": {
+            "ru": {
+              "pronunciation": "йом хамиши́ / йеме́й хамиши́",
+              "meaning": "четверг / четверги; м. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "yom chamishí / yeméy chamishí",
+              "meaning": "jueves / jueves; masculino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "יום שישי / ימי שישי",
+          "hebrewWithNiqqud": "יוֹם שִׁשִּׁי / יְמֵי שִׁשִּׁי",
+          "id": "word-302",
+          "translations": {
+            "ru": {
+              "pronunciation": "йом шиши́ / йеме́й шиши́",
+              "meaning": "пятница / пятницы; м. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "yom shishí / yeméy shishí",
+              "meaning": "viernes / viernes; masculino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "שבת / שבתות",
+          "hebrewWithNiqqud": "שַׁבָּת / שַׁבָּתוֹת",
+          "id": "word-303",
+          "translations": {
+            "ru": {
+              "pronunciation": "шаба́т / шабато́т",
+              "meaning": "суббота / субботы; ж. род, ед. / мн. Также יום שבת (йом шаба́т) — суббота."
+            },
+            "es": {
+              "pronunciation": "shabát / shabatót",
+              "meaning": "sábado / sábados; femenino en hebreo, singular / plural. También יום שבת (yom shabát), sábado."
             }
           }
         }
@@ -2899,6 +3214,21 @@
             "es": {
               "pronunciation": "raz / razá / razím / razót",
               "meaning": "corre; presente; רצה: pronunciación normativa razá; también ráza en el habla coloquial"
+            }
+          }
+        },
+        {
+          "hebrew": "רוצה / רוצה / רוצים / רוצות",
+          "hebrewWithNiqqud": "רוֹצֶה / רוֹצָה / רוֹצִים / רוֹצוֹת",
+          "id": "word-288",
+          "translations": {
+            "ru": {
+              "pronunciation": "роцэ́ / роца́ / роци́м / роцо́т",
+              "meaning": "хочет / хочет / хотят / хотят; настоящее время"
+            },
+            "es": {
+              "pronunciation": "rozé / rozá / rozím / rozót",
+              "meaning": "quiere / quiere / quieren / quieren; presente"
             }
           }
         }
@@ -3659,11 +3989,11 @@
           "translations": {
             "ru": {
               "pronunciation": "леа́н?",
-              "meaning": "куда?"
+              "meaning": "куда? Вопросительное наречие направления; не изменяется по родам, числам и лицам."
             },
             "es": {
               "pronunciation": "leán?",
-              "meaning": "¿adónde?"
+              "meaning": "¿adónde? Adverbio interrogativo de dirección; no cambia según género, número ni persona."
             }
           }
         },
@@ -4009,6 +4339,21 @@
             "es": {
               "pronunciation": "im",
               "meaning": "si; conjunción condicional. No confundir con עם — im, «con, junto con»"
+            }
+          }
+        },
+        {
+          "hebrew": "להם / להן",
+          "hebrewWithNiqqud": "לָהֶם / לָהֶן",
+          "id": "word-282",
+          "translations": {
+            "ru": {
+              "pronunciation": "лаhе́м / лаhе́н",
+              "meaning": "им, для них: мужская или смешанная группа / женская группа; предлог ל־ с местоименными окончаниями. С יש / אין: у них есть / нет."
+            },
+            "es": {
+              "pronunciation": "lahém / lahén",
+              "meaning": "a ellos, para ellos / a ellas, para ellas; preposición ל־ con sufijos personales. La forma masculina incluye grupos mixtos. Con יש / אין: ellos o ellas tienen / no tienen."
             }
           }
         }
