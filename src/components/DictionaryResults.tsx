@@ -3,6 +3,7 @@ import type { DictionarySection as Section } from '../types';
 import { DictionarySection } from './DictionarySection';
 import { EmptyResults } from './EmptyResults';
 type DictionaryResultsProps = {
+  hasActiveFilter: boolean;
   title: string;
   count: number;
   sections: Section[];
@@ -11,6 +12,7 @@ type DictionaryResultsProps = {
   onReset: () => void;
 };
 export const DictionaryResults = ({
+  hasActiveFilter,
   title,
   count,
   sections,
@@ -42,7 +44,7 @@ export const DictionaryResults = ({
           />
         ))
       ) : (
-        <EmptyResults onReset={onReset} />
+        <EmptyResults hasActiveFilter={hasActiveFilter} onReset={onReset} />
       )}
     </>
   );

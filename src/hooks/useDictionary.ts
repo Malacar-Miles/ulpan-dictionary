@@ -20,9 +20,9 @@ export const useDictionary = () => {
     () => filterSections(query, activeTopic, locale),
     [query, activeTopic, locale],
   );
-  const resetSearch = () => {
-    setQuery('');
-    setActiveTopic(ALL_TOPICS);
+  const resetFilterOrSearch = () => {
+    if (activeTopic !== ALL_TOPICS) setActiveTopic(ALL_TOPICS);
+    else setQuery('');
   };
   const clearQuery = () => setQuery('');
   const changeQuery = (event: ChangeEvent<HTMLInputElement>) => setQuery(event.target.value);
@@ -32,9 +32,10 @@ export const useDictionary = () => {
   return {
     query,
     activeTopic,
+    hasActiveFilter: activeTopic !== ALL_TOPICS,
     showNiqqud,
     results,
-    resetSearch,
+    resetFilterOrSearch,
     changeQuery,
     clearQuery,
     changeNiqqud,

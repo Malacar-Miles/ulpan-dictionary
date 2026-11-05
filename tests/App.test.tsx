@@ -1,6 +1,6 @@
 // @vitest-environment jsdom
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
-import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
 import { App } from '../src/App';
 import dictionary from '../src/dictionary.json';
 import { formatUpdatedDate } from '../src/helpers/dictionary';
@@ -35,8 +35,14 @@ describe('dictionary interface', () => {
       section.translations.ru.title,
     );
     fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'zzzznotaword' } });
-    expect(screen.getByText('Ничего не нашлось')).toBeTruthy();
-    fireEvent.click(screen.getByRole('button', { name: 'Сбросить поиск и фильтр' }));
+    expect(
+      screen.getByRole('heading', { name: 'Ничего не нашлось, но включен фильтр' }),
+    ).toBeTruthy();
+    fireEvent.click(screen.getByRole('button', { name: 'Сбросить фильтр' }));
+    expect((screen.getByRole('searchbox') as HTMLInputElement).value).toBe('zzzznotaword');
+    expect(screen.getByRole('heading', { name: 'Ничего не нашлось' })).toBeTruthy();
+    expect(screen.queryByText('но включен фильтр')).toBeNull();
+    fireEvent.click(screen.getByRole('button', { name: 'Сбросить поиск' }));
     expect((screen.getByRole('searchbox') as HTMLInputElement).value).toBe('');
     expect(container.querySelectorAll('.card')).toHaveLength(total);
     expect(screen.getByRole('button', { name: 'Все темы' }).getAttribute('aria-pressed')).toBe(
@@ -185,7 +191,11 @@ describe('localization', () => {
     expect(container.querySelector('.pronunciation mark')?.textContent).toBe('holéch');
     fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'спасибо' } });
     expect(screen.getByText('No se encontraron resultados')).toBeTruthy();
-    fireEvent.click(screen.getByRole('button', { name: 'Restablecer búsqueda y filtro' }));
+    fireEvent.click(
+      within(container.querySelector('.empty') as HTMLElement).getByRole('button', {
+        name: 'Borrar búsqueda',
+      }),
+    );
     expect(container.querySelectorAll('.card')).toHaveLength(
       dictionary.sections.reduce((sum, section) => sum + section.entries.length, 0),
     );
@@ -236,4 +246,19 @@ it('clears only the query and returns focus to the search field', () => {
   expect(document.activeElement).toBe(input);
   expect(screen.getByRole('button', { name: topic }).getAttribute('aria-pressed')).toBe('true');
   expect(screen.queryByRole('button', { name: 'Очистить поиск' })).toBeNull();
+});
+
+it('removes the Spanish topic filter while retaining a query that matches another topic', () => {
+  localStorage.setItem('ulpan-dictionary-language', 'es');
+  const { container } = render(<App />);
+  fireEvent.click(screen.getByRole('button', { name: 'Saludos y comunicación' }));
+  fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'cancion' } });
+  expect(screen.getByText('pero hay un filtro activo')).toBeTruthy();
+  fireEvent.click(screen.getByRole('button', { name: 'Quitar filtro' }));
+  expect((screen.getByRole('searchbox') as HTMLInputElement).value).toBe('cancion');
+  expect(screen.getByRole('button', { name: 'Todos los temas' }).getAttribute('aria-pressed')).toBe(
+    'true',
+  );
+  expect(container.querySelector('.meaning mark')?.textContent).toBe('canción');
+  expect(container.querySelector('.empty')).toBeNull();
 });

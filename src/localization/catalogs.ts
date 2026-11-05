@@ -21,8 +21,10 @@ type Messages = {
   withoutNiqqud: string;
   withNiqqud: string;
   emptyTitle: string;
+  emptyFilterNotice: string;
   emptyHint: string;
-  reset: string;
+  resetFilter: string;
+  resetSearch: string;
   footer: string;
   records: (count: number, date: string) => string;
 };
@@ -50,8 +52,10 @@ export const catalogs: Record<Locale, Messages> = {
     withoutNiqqud: 'Без никуд:',
     withNiqqud: 'С никудом:',
     emptyTitle: 'Ничего не нашлось',
+    emptyFilterNotice: 'но включен фильтр',
     emptyHint: 'Попробуй изменить запрос или выбрать другую тему.',
-    reset: 'Сбросить поиск и фильтр',
+    resetFilter: 'Сбросить фильтр',
+    resetSearch: 'Сбросить поиск',
     footer: 'СЛОВАРЬ УЛЬПАНА',
     records: (count, date) => {
       const category = new Intl.PluralRules('ru').select(count);
@@ -81,8 +85,10 @@ export const catalogs: Record<Locale, Messages> = {
     withoutNiqqud: 'Sin niqqud:',
     withNiqqud: 'Con niqqud:',
     emptyTitle: 'No se encontraron resultados',
+    emptyFilterNotice: 'pero hay un filtro activo',
     emptyHint: 'Prueba otra búsqueda o selecciona otro tema.',
-    reset: 'Restablecer búsqueda y filtro',
+    resetFilter: 'Quitar filtro',
+    resetSearch: 'Borrar búsqueda',
     footer: 'DICCIONARIO DEL ULPÁN',
     records: (count, date) => `${count} ${count === 1 ? 'entrada' : 'entradas'} · Act. ${date}`,
   },

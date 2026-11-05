@@ -441,6 +441,9 @@ footer p {
   .content {
     padding-top: 30px;
   }
+  .empty {
+    padding-top: 0;
+  }
   footer {
     display: block;
   }
@@ -805,4 +808,13 @@ html.search-editing,
 .search-clear:focus-visible {
   outline: 2px solid #75a58e;
   outline-offset: -3px;
+}
+
+.empty-filter-notice {
+  display: inline-block;
+  padding: 3px 9px;
+  border: 1px solid #d49663;
+  border-radius: 8px;
+  background: #f7eadc;
+  color: #80502c;
 }
