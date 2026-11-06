@@ -53,7 +53,7 @@ describe('dictionary interface', () => {
   it('restores and persists the niqqud preference', () => {
     localStorage.setItem('ulpan-dictionary-show-niqqud', 'false');
     const { container } = render(<App />);
-    const toggle = screen.getByRole('checkbox', { name: 'Никкуд' }) as HTMLInputElement;
+    const toggle = screen.getByRole('checkbox', { name: 'Никуд' }) as HTMLInputElement;
     expect(toggle.checked).toBe(false);
     expect(container.querySelector('.hebrew')?.textContent).toBe(
       dictionary.sections[0].entries[0].hebrew,
@@ -69,7 +69,7 @@ describe('dictionary interface', () => {
   it('toggles handwriting independently, preserves text and search, and restores the preference', () => {
     const { container, unmount } = render(<App />);
     const toggle = screen.getByRole('checkbox', { name: 'Пропись' }) as HTMLInputElement;
-    const niqqud = screen.getByRole('checkbox', { name: 'Никкуд' }) as HTMLInputElement;
+    const niqqud = screen.getByRole('checkbox', { name: 'Никуд' }) as HTMLInputElement;
     const text = container.querySelector('.hebrew')?.textContent;
     expect(toggle.checked).toBe(false);
     fireEvent.click(toggle);
@@ -102,7 +102,7 @@ describe('dictionary interface', () => {
       throw new Error('Unavailable');
     });
     render(<App />);
-    const toggle = screen.getByRole('checkbox', { name: 'Никкуд' }) as HTMLInputElement;
+    const toggle = screen.getByRole('checkbox', { name: 'Никуд' }) as HTMLInputElement;
     expect(toggle.checked).toBe(true);
     fireEvent.click(toggle);
     expect(toggle.checked).toBe(false);
@@ -124,7 +124,7 @@ describe('localization', () => {
     const { container, unmount } = render(<App />);
     fireEvent.click(screen.getByRole('button', { name: 'Глаголы и состояния' }));
     fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'הולך' } });
-    fireEvent.click(screen.getByRole('checkbox', { name: 'Никкуд' }));
+    fireEvent.click(screen.getByRole('checkbox', { name: 'Никуд' }));
     fireEvent.click(screen.getByRole('checkbox', { name: 'Пропись' }));
     fireEvent.click(screen.getByRole('button', { name: 'Язык интерфейса' }));
     fireEvent.click(screen.getByRole('button', { name: 'Español' }));

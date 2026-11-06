@@ -1,25 +1,14 @@
 import { createTouchScrollHandlers } from './helpers/touchScroll';
-import { useLayoutEffect, useState, type RefObject } from 'react';
+import { useLayoutEffect, useState } from 'react';
 
-/** Keep iPhone search controls outside the results scroller while focused. */
-export const useSearchViewport = (
-  controlsRef: RefObject<HTMLDivElement | null>,
-  contentRef: RefObject<HTMLElement | null>,
-) => {
+/** Keep a stable iPhone shell through keyboard opening and closing. */
+export const useSearchViewport = () => {
   const [editing, setEditing] = useState(false);
 
   useLayoutEffect(() => {
-    if (!editing) return;
-    const controls = controlsRef.current;
-    const content = contentRef.current;
-    if (!controls || !content) return;
-
+    if (!/iPhone/i.test(navigator.userAgent)) return;
     const root = document.documentElement;
     const viewport = window.visualViewport;
-    const originalScroll = window.scrollY;
-    const contentTop = content.getBoundingClientRect().top + originalScroll;
-    const controlsHeight = controls.getBoundingClientRect().height;
-    const initialListScroll = Math.max(0, originalScroll + controlsHeight - contentTop);
 
     // Only resize the container. Never compensate for offsetTop on scroll.
     const updateHeight = () => {
@@ -30,8 +19,7 @@ export const useSearchViewport = (
       );
     };
     updateHeight();
-    root.classList.add('search-editing');
-    content.scrollTop = initialListScroll;
+    root.classList.add('iphone-layout');
 
     const { onTouchStart, onTouchMove } = createTouchScrollHandlers(viewport);
 
@@ -41,23 +29,14 @@ export const useSearchViewport = (
     document.addEventListener('touchmove', onTouchMove, { passive: false });
 
     return () => {
-      const listScroll = content.scrollTop;
       viewport?.removeEventListener('resize', updateHeight);
       window.removeEventListener('resize', updateHeight);
       document.removeEventListener('touchstart', onTouchStart);
       document.removeEventListener('touchmove', onTouchMove);
-      root.classList.remove('search-editing');
+      root.classList.remove('iphone-layout');
       root.style.removeProperty('--search-viewport-height');
-      content.scrollTop = 0;
-      // Restore the visible result position, or the original page position if
-      // the user did not move the list (e.g. focused search from the introduction).
-      const targetScroll =
-        Math.abs(listScroll - initialListScroll) < 1
-          ? originalScroll
-          : Math.max(0, contentTop - controls.getBoundingClientRect().height + listScroll);
-      window.scrollTo({ top: targetScroll, behavior: 'instant' });
     };
-  }, [editing, controlsRef, contentRef]);
+  }, []);
 
   return {
     editing,

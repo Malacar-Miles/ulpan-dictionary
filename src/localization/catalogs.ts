@@ -41,7 +41,7 @@ export const catalogs: Record<Locale, Messages> = {
     clearSearch: 'Очистить поиск',
     searchPlaceholder: 'Поиск на русском или иврите',
     searchHint: 'ИВРИТ · ПРОИЗНОШЕНИЕ · ПЕРЕВОД',
-    niqqud: 'Никкуд',
+    niqqud: 'Никуд',
     handwriting: 'Пропись',
     language: 'Язык интерфейса',
     topics: 'ТЕМЫ',

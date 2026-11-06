@@ -5,7 +5,7 @@ const preserveSearchFocus = (event: PointerEvent<HTMLDivElement>) => {
   // Keep search focused while changing controls on iPhone so the layout does
   // not move between pointer down and click events.
   if (
-    document.documentElement.classList.contains('search-editing') &&
+    document.documentElement.classList.contains('iphone-layout') &&
     document.activeElement?.id === 'search' &&
     event.target instanceof Element &&
     event.target.closest('button, .niqqud-toggle, .handwriting-toggle')
@@ -16,7 +16,7 @@ const preserveSearchFocus = (event: PointerEvent<HTMLDivElement>) => {
 export const useDictionaryLayout = (query: string, activeTopic: string) => {
   const controlsRef = useRef<HTMLDivElement>(null);
   const contentRef = useRef<HTMLElement>(null);
-  const { startEditing, stopEditing } = useSearchViewport(controlsRef, contentRef);
+  const { startEditing, stopEditing } = useSearchViewport();
 
   useLayoutEffect(() => {
     const controls = controlsRef.current;

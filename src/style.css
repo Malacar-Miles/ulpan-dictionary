@@ -577,6 +577,12 @@ mark {
     --search-padding: 10px;
     --search-icon-gap: 9px;
   }
+  .sticky-controls .niqqud-row {
+    margin-top: 0;
+  }
+  .sticky-controls .filters-head {
+    margin-top: 8px;
+  }
 }
 
 .card-top {
@@ -644,34 +650,34 @@ body {
 }
 
 /* Mobile search session: the panel and the results are separate flex rows.
-   VisualViewport supplies height only; scrolling never repositions the panel. */
-html.search-editing,
-.search-editing body {
+   The shell remains mounted before, during, and after search focus. */
+html.iphone-layout,
+.iphone-layout body {
   height: 100%;
   overflow: hidden;
   overscroll-behavior: none;
 }
-.search-editing body {
+.iphone-layout body {
   position: fixed;
   inset: 0;
 }
-.search-editing #root {
+.iphone-layout #root {
   height: var(--search-viewport-height, 100dvh);
   display: flex;
   flex-direction: column;
   overflow: hidden;
 }
-.search-editing .header {
+.iphone-layout .header {
   display: none;
 }
-.search-editing .sticky-controls {
+.iphone-layout .sticky-controls {
   position: relative;
   flex: 0 0 auto;
   max-height: 60%;
   overflow-y: auto;
   overscroll-behavior: contain;
 }
-.search-editing .content {
+.iphone-layout .content {
   flex: 1 1 0;
   min-height: 0;
   width: 100%;
