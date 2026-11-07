@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05",
+  "updatedAt": "2026-11-07",
   "intro": {
     "ru": "Произношение приблизительное; ударение обозначено знаком над гласной. ה в транскрипции обозначено как h. Примеры и уточнения добавлены для понимания.",
     "es": "La pronunciación es aproximada; la tilde indica el acento. h representa una ה pronunciada; ch, el sonido de ח o כ sin dagesh; sh, el de שׁ; z, el de צ (ts). s representa tanto ס/שׂ como ז. g siempre representa el sonido de «gato», incluso ante e o i; y representa el sonido de י consonántica. Son convenciones personales de aprendizaje, no reglas de ortografía española. Se incluyen ejemplos y aclaraciones."
@@ -1009,6 +1009,36 @@
             "es": {
               "pronunciation": "horé / horá / horím / horót",
               "meaning": "progenitor / progenitora / progenitores / progenitoras; masculino singular / femenino singular / masculino plural / femenino plural. Se suele usar הורה / הורים; הורה puede referirse al padre o a la madre. Las formas femeninas específicas son menos habituales."
+            }
+          }
+        },
+        {
+          "hebrew": "גנן / גננת / גננים / גננות",
+          "hebrewWithNiqqud": "גַּנָּן / גַּנֶּנֶת / גַּנָּנִים / גַּנָּנוֹת",
+          "id": "word-329",
+          "translations": {
+            "ru": {
+              "pronunciation": "гана́н / гане́нет / ганани́м / ганано́т",
+              "meaning": "воспитатель / воспитательница / воспитатели / воспитательницы детского сада; м. ед. / ж. ед. / м. мн. / ж. мн."
+            },
+            "es": {
+              "pronunciation": "ganán / ganénet / gananím / gananót",
+              "meaning": "educador / educadora / educadores / educadoras de jardín de infancia; masculino singular / femenino singular / masculino plural / femenino plural"
+            }
+          }
+        },
+        {
+          "hebrew": "סבא / סבתא / סבאים / סבתות",
+          "hebrewWithNiqqud": "סַבָּא / סָבְתָא / סַבָּאִים / סָבְתוֹת",
+          "id": "word-334",
+          "translations": {
+            "ru": {
+              "pronunciation": "са́ба / са́вта / сабаи́м / савто́т",
+              "meaning": "дедушка / бабушка / дедушки / бабушки; м. ед. / ж. ед. / м. мн. / ж. мн."
+            },
+            "es": {
+              "pronunciation": "sába / sávta / sabaím / savtót",
+              "meaning": "abuelo / abuela / abuelos / abuelas; masculino singular / femenino singular / masculino plural / femenino plural"
             }
           }
         }
@@ -2091,6 +2121,246 @@
               "meaning": "cosa, objeto / cosas, objetos; masculino en hebreo, singular / plural"
             }
           }
+        },
+        {
+          "hebrew": "מרפסת / מרפסות",
+          "hebrewWithNiqqud": "מִרְפֶּסֶת / מִרְפָּסוֹת",
+          "id": "word-309",
+          "translations": {
+            "ru": {
+              "pronunciation": "мирпе́сет / мирпасо́т",
+              "meaning": "балкон, веранда / балконы, веранды; ж. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "mirpéset / mirpasót",
+              "meaning": "balcón, terraza / balcones, terrazas; femenino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "דג / דגים",
+          "hebrewWithNiqqud": "דָּג / דָּגִים",
+          "id": "word-313",
+          "translations": {
+            "ru": {
+              "pronunciation": "даг / даги́м",
+              "meaning": "рыба / рыбы; м. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "dag / dagím",
+              "meaning": "pez, pescado / peces, pescados; masculino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "עוף / עופות",
+          "hebrewWithNiqqud": "עוֹף / עוֹפוֹת",
+          "id": "word-314",
+          "translations": {
+            "ru": {
+              "pronunciation": "оф / офо́т",
+              "meaning": "курица, мясо птицы; также птица / птицы; м. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "of / ofót",
+              "meaning": "pollo, carne de ave; también ave / aves; masculino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "סלט / סלטים",
+          "hebrewWithNiqqud": "סָלָט / סָלָטִים",
+          "id": "word-315",
+          "translations": {
+            "ru": {
+              "pronunciation": "сала́т / сала́тим",
+              "meaning": "салат / салаты; м. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "salát / salátim",
+              "meaning": "ensalada / ensaladas; masculino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "ירק / ירקות",
+          "hebrewWithNiqqud": "יָרָק / יְרָקוֹת",
+          "id": "word-316",
+          "translations": {
+            "ru": {
+              "pronunciation": "яра́к / йерако́т",
+              "meaning": "овощ / овощи; м. род, ед. / мн. Нормативно: яра́к; разговорное יֶרֶק (йе́рек) также употребляется в значении «овощ»."
+            },
+            "es": {
+              "pronunciation": "yarák / yerakót",
+              "meaning": "verdura, hortaliza / verduras, hortalizas; masculino en hebreo, singular / plural. Pronunciación normativa: yarák; coloquialmente también יֶרֶק (yérek) con el sentido de «verdura»."
+            }
+          }
+        },
+        {
+          "hebrew": "עגבנייה / עגבניות",
+          "hebrewWithNiqqud": "עַגְבָנִיָּה / עַגְבָנִיּוֹת",
+          "id": "word-317",
+          "translations": {
+            "ru": {
+              "pronunciation": "агвания́ / агванийо́т",
+              "meaning": "помидор / помидоры; ж. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "agvaniyá / agvaniyót",
+              "meaning": "tomate / tomates; femenino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "מלפפון / מלפפונים",
+          "hebrewWithNiqqud": "מְלָפְפוֹן / מְלָפְפוֹנִים",
+          "id": "word-318",
+          "translations": {
+            "ru": {
+              "pronunciation": "мелафефо́н / мелафефони́м",
+              "meaning": "огурец / огурцы; м. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "melafefón / melafefoním",
+              "meaning": "pepino / pepinos; masculino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "בצל / בצלים",
+          "hebrewWithNiqqud": "בָּצָל / בְּצָלִים",
+          "id": "word-319",
+          "translations": {
+            "ru": {
+              "pronunciation": "баца́ль / бцали́м",
+              "meaning": "лук, луковица / луковицы; м. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "bazál / bzalím",
+              "meaning": "cebolla / cebollas; masculino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "תפוח / תפוחים",
+          "hebrewWithNiqqud": "תַּפּוּחַ / תַּפּוּחִים",
+          "id": "word-320",
+          "translations": {
+            "ru": {
+              "pronunciation": "тапу́ах / тапухи́м",
+              "meaning": "яблоко / яблоки; м. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "tapúach / tapuchím",
+              "meaning": "manzana / manzanas; masculino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "תפוז / תפוזים",
+          "hebrewWithNiqqud": "תַּפּוּז / תַּפּוּזִים",
+          "id": "word-321",
+          "translations": {
+            "ru": {
+              "pronunciation": "тапу́з / тапузи́м",
+              "meaning": "апельсин / апельсины; м. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "tapús / tapusím",
+              "meaning": "naranja / naranjas; masculino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "בננה / בננות",
+          "hebrewWithNiqqud": "בָּנָנָה / בָּנָנוֹת",
+          "id": "word-322",
+          "translations": {
+            "ru": {
+              "pronunciation": "бана́на / бана́нот",
+              "meaning": "банан / бананы; ж. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "banána / banánot",
+              "meaning": "banana / bananas; femenino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "מיץ / מיצים",
+          "hebrewWithNiqqud": "מִיץ / מִיצִים",
+          "id": "word-323",
+          "translations": {
+            "ru": {
+              "pronunciation": "миц / мици́м",
+              "meaning": "сок / соки; м. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "miz / mizím",
+              "meaning": "jugo, zumo / jugos, zumos; masculino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "עינב / ענבים",
+          "hebrewWithNiqqud": "עֵנָב / עֲנָבִים",
+          "id": "word-324",
+          "translations": {
+            "ru": {
+              "pronunciation": "эна́в / анави́м",
+              "meaning": "виноградина / виноград (мн. число); м. род, ед. / мн. Часто также пишут ענב без י."
+            },
+            "es": {
+              "pronunciation": "enáv / anavím",
+              "meaning": "uva / uvas; masculino en hebreo, singular / plural. También es frecuente la grafía ענב sin י."
+            }
+          }
+        },
+        {
+          "hebrew": "מרק / מרקים",
+          "hebrewWithNiqqud": "מָרָק / מְרָקִים",
+          "id": "word-327",
+          "translations": {
+            "ru": {
+              "pronunciation": "мара́к / мераки́м",
+              "meaning": "суп / супы; м. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "marák / merakím",
+              "meaning": "sopa / sopas; masculino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "חלב",
+          "hebrewWithNiqqud": "חָלָב",
+          "id": "word-332",
+          "translations": {
+            "ru": {
+              "pronunciation": "хала́в",
+              "meaning": "молоко; м. род, обычно неисчисляемое"
+            },
+            "es": {
+              "pronunciation": "chaláv",
+              "meaning": "leche; masculino en hebreo, normalmente incontable"
+            }
+          }
+        },
+        {
+          "hebrew": "תה",
+          "hebrewWithNiqqud": "תֵּה",
+          "id": "word-333",
+          "translations": {
+            "ru": {
+              "pronunciation": "те",
+              "meaning": "чай; м. род, обычно неисчисляемое; конечная ה не произносится"
+            },
+            "es": {
+              "pronunciation": "te",
+              "meaning": "té; masculino en hebreo, normalmente incontable; la ה final no se pronuncia"
+            }
+          }
         }
       ],
       "id": "places",
@@ -2721,6 +2991,81 @@
               "meaning": "sábado / sábados; femenino en hebreo, singular / plural. También יום שבת (yom shabát), sábado."
             }
           }
+        },
+        {
+          "hebrew": "סוף / סופים",
+          "hebrewWithNiqqud": "סוֹף / סוֹפִים",
+          "id": "word-305",
+          "translations": {
+            "ru": {
+              "pronunciation": "соф / софи́м",
+              "meaning": "конец / концы, окончания; м. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "sof / sofím",
+              "meaning": "fin, final / fines, finales; masculino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "קורס / קורסים",
+          "hebrewWithNiqqud": "קוּרְס / קוּרְסִים",
+          "id": "word-306",
+          "translations": {
+            "ru": {
+              "pronunciation": "курс / курси́м",
+              "meaning": "курс обучения / курсы; м. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "kurs / kursím",
+              "meaning": "curso / cursos; masculino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "תוכנית / תוכניות",
+          "hebrewWithNiqqud": "תָּכְנִית / תָּכְנִיּוֹת",
+          "id": "word-325",
+          "translations": {
+            "ru": {
+              "pronunciation": "тохни́т / тохнийо́т",
+              "meaning": "план, программа / планы, программы; ж. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "tochnít / tochniyót",
+              "meaning": "plan, programa / planes, programas; femenino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "פגישה / פגישות",
+          "hebrewWithNiqqud": "פְּגִישָׁה / פְּגִישׁוֹת",
+          "id": "word-326",
+          "translations": {
+            "ru": {
+              "pronunciation": "пгиша́ / пгишо́т",
+              "meaning": "встреча / встречи; ж. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "pgishá / pgishót",
+              "meaning": "reunión, cita / reuniones, citas; femenino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "שבוע / שבועות / שבועיים",
+          "hebrewWithNiqqud": "שָׁבוּעַ / שָׁבוּעוֹת / שְׁבוּעַיִם",
+          "id": "word-328",
+          "translations": {
+            "ru": {
+              "pronunciation": "шаву́а / шавуо́т / швуа́йим",
+              "meaning": "неделя / недели / две недели; м. род, ед. / мн. / двойственное число"
+            },
+            "es": {
+              "pronunciation": "shavúa / shavuót / shvuáyim",
+              "meaning": "semana / semanas / dos semanas; masculino en hebreo, singular / plural / dual"
+            }
+          }
         }
       ],
       "id": "study",
@@ -3229,6 +3574,51 @@
             "es": {
               "pronunciation": "rozé / rozá / rozím / rozót",
               "meaning": "quiere / quiere / quieren / quieren; presente"
+            }
+          }
+        },
+        {
+          "hebrew": "קונה / קונה / קונים / קונות",
+          "hebrewWithNiqqud": "קוֹנֶה / קוֹנָה / קוֹנִים / קוֹנוֹת",
+          "id": "word-310",
+          "translations": {
+            "ru": {
+              "pronunciation": "коне́ / кона́ / кони́м / коно́т",
+              "meaning": "покупает / покупает / покупают / покупают; настоящее время"
+            },
+            "es": {
+              "pronunciation": "koné / koná / koním / konót",
+              "meaning": "compra / compra / compran / compran; presente"
+            }
+          }
+        },
+        {
+          "hebrew": "אוכל / אוכלת / אוכלים / אוכלות",
+          "hebrewWithNiqqud": "אוֹכֵל / אוֹכֶלֶת / אוֹכְלִים / אוֹכְלוֹת",
+          "id": "word-311",
+          "translations": {
+            "ru": {
+              "pronunciation": "охе́ль / охе́лет / охли́м / охло́т",
+              "meaning": "ест / ест / едят / едят; настоящее время. Инфинитив: לאכול (לֶאֱכֹל, леэхо́ль) — есть, кушать."
+            },
+            "es": {
+              "pronunciation": "ochél / ochélet / ochlím / ochlót",
+              "meaning": "come / come / comen / comen; presente. Infinitivo: לאכול (לֶאֱכֹל, leechól), comer."
+            }
+          }
+        },
+        {
+          "hebrew": "שותה / שותה / שותים / שותות",
+          "hebrewWithNiqqud": "שׁוֹתֶה / שׁוֹתָה / שׁוֹתִים / שׁוֹתוֹת",
+          "id": "word-312",
+          "translations": {
+            "ru": {
+              "pronunciation": "шоте́ / шота́ / шоти́м / шото́т",
+              "meaning": "пьёт / пьёт / пьют / пьют; настоящее время. Инфинитив: לשתות (לִשְׁתּוֹת, лишто́т) — пить."
+            },
+            "es": {
+              "pronunciation": "shoté / shotá / shotím / shotót",
+              "meaning": "bebe / bebe / beben / beben; presente. Infinitivo: לשתות (לִשְׁתּוֹת, lishtót), beber."
             }
           }
         }
@@ -3769,6 +4159,36 @@
             "es": {
               "pronunciation": "kal / kalá / kalím / kalót",
               "meaning": "ligero de peso; fácil, sencillo; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+            }
+          }
+        },
+        {
+          "hebrew": "חכם / חכמה / חכמים / חכמות",
+          "hebrewWithNiqqud": "חָכָם / חֲכָמָה / חֲכָמִים / חֲכָמוֹת",
+          "id": "word-330",
+          "translations": {
+            "ru": {
+              "pronunciation": "хаха́м / хахама́ / хахами́м / хахамо́т",
+              "meaning": "умный, мудрый; м. ед. / ж. ед. / м. мн. / ж. мн."
+            },
+            "es": {
+              "pronunciation": "chachám / chachamá / chachamím / chachamót",
+              "meaning": "inteligente, sabio; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+            }
+          }
+        },
+        {
+          "hebrew": "חם / חמה / חמים / חמות",
+          "hebrewWithNiqqud": "חַם / חַמָּה / חַמִּים / חַמּוֹת",
+          "id": "word-331",
+          "translations": {
+            "ru": {
+              "pronunciation": "хам / хама́ / хами́м / хамо́т",
+              "meaning": "горячий, тёплый; м. ед. / ж. ед. / м. мн. / ж. мн."
+            },
+            "es": {
+              "pronunciation": "cham / chamá / chamím / chamót",
+              "meaning": "caliente, cálido; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
             }
           }
         }
@@ -4343,17 +4763,62 @@
           }
         },
         {
-          "hebrew": "להם / להן",
-          "hebrewWithNiqqud": "לָהֶם / לָהֶן",
+          "hebrew": "לי / לך / לך / לו / לה / לנו / לכם / לכן / להם / להן",
+          "hebrewWithNiqqud": "לִי / לְךָ / לָךְ / לוֹ / לָהּ / לָנוּ / לָכֶם / לָכֶן / לָהֶם / לָהֶן",
           "id": "word-282",
           "translations": {
             "ru": {
-              "pronunciation": "лаhе́м / лаhе́н",
-              "meaning": "им, для них: мужская или смешанная группа / женская группа; предлог ל־ с местоименными окончаниями. С יש / אין: у них есть / нет."
+              "pronunciation": "ли / леха́ / лах / ло / ла / ла́ну / лахе́м / лахе́н / лаhе́м / лаhе́н",
+              "meaning": "мне / тебе (м.) / тебе (ж.) / ему / ей / нам / вам (м.) / вам (ж.) / им (м.) / им (ж.); предлог ל־ с местоименными окончаниями: «кому», «для кого». Мужская форма мн. числа также для смешанной группы. С יש / אין: у меня, у тебя и т. д. есть / нет. Не путать לו (ло, «ему») и לא (ло, «не»)."
             },
             "es": {
-              "pronunciation": "lahém / lahén",
-              "meaning": "a ellos, para ellos / a ellas, para ellas; preposición ל־ con sufijos personales. La forma masculina incluye grupos mixtos. Con יש / אין: ellos o ellas tienen / no tienen."
+              "pronunciation": "li / lechá / lach / lo / la / lánu / lachém / lachén / lahém / lahén",
+              "meaning": "a mí / a ti (hombre) / a ti (mujer) / a él / a ella / a nosotros o nosotras / a ustedes (masculino) / a ustedes (femenino) / a ellos / a ellas; preposición ל־ con sufijos personales: «a», «para». El masculino plural incluye grupos mixtos. Con יש / אין expresa posesión: tengo / no tengo, tienes / no tienes, etc. No confundir לו (lo, «a él») con לא (lo, «no»)."
+            }
+          }
+        },
+        {
+          "hebrew": "כל / כול",
+          "hebrewWithNiqqud": "כָּל / כֹּל",
+          "id": "word-304",
+          "translations": {
+            "ru": {
+              "pronunciation": "коль / коль",
+              "meaning": "каждый, всякий; весь, всё, все. Перед существительным пишется כל: כל יום — каждый день. Самостоятельное «всё» в полном написании — כול (например, הכול — всё)."
+            },
+            "es": {
+              "pronunciation": "kol / kol",
+              "meaning": "cada; todo, toda, todos, todas. Ante un sustantivo se escribe כל: כל יום, cada día. Como palabra independiente, «todo» se escribe כול sin niqqud (por ejemplo, הכול, todo)."
+            }
+          }
+        },
+        {
+          "hebrew": "שלו / שלה",
+          "hebrewWithNiqqud": "שֶׁלּוֹ / שֶׁלָּהּ",
+          "id": "word-307",
+          "translations": {
+            "ru": {
+              "pronunciation": "шело́ / шела́",
+              "meaning": "его / её; принадлежность. Форма зависит от владельца, а не от рода и числа принадлежащего ему предмета."
+            },
+            "es": {
+              "pronunciation": "sheló / shelá",
+              "meaning": "de él / de ella; posesión. La forma depende del poseedor, no del género ni del número de lo poseído."
+            }
+          }
+        },
+        {
+          "hebrew": "שלהם / שלהן",
+          "hebrewWithNiqqud": "שֶׁלָּהֶם / שֶׁלָּהֶן",
+          "id": "word-308",
+          "translations": {
+            "ru": {
+              "pronunciation": "шелаhе́м / шелаhе́н",
+              "meaning": "их: владельцы — мужчины или смешанная группа / женщины"
+            },
+            "es": {
+              "pronunciation": "shelahém / shelahén",
+              "meaning": "de ellos / de ellas; masculino también para un grupo mixto de poseedores"
             }
           }
         }
