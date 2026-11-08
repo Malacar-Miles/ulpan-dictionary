@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07",
+  "updatedAt": "2026-11-08",
   "intro": {
     "ru": "Произношение приблизительное; ударение обозначено знаком над гласной. ה в транскрипции обозначено как h. Примеры и уточнения добавлены для понимания.",
     "es": "La pronunciación es aproximada; la tilde indica el acento. h representa una ה pronunciada; ch, el sonido de ח o כ sin dagesh; sh, el de שׁ; z, el de צ (ts). s representa tanto ס/שׂ como ז. g siempre representa el sonido de «gato», incluso ante e o i; y representa el sonido de י consonántica. Son convenciones personales de aprendizaje, no reglas de ortografía española. Se incluyen ejemplos y aclaraciones."
@@ -1039,6 +1039,36 @@
             "es": {
               "pronunciation": "sába / sávta / sabaím / savtót",
               "meaning": "abuelo / abuela / abuelos / abuelas; masculino singular / femenino singular / masculino plural / femenino plural"
+            }
+          }
+        },
+        {
+          "hebrew": "אבא / אבות",
+          "hebrewWithNiqqud": "אַבָּא / אָבוֹת",
+          "id": "word-342",
+          "translations": {
+            "ru": {
+              "pronunciation": "а́ба / аво́т",
+              "meaning": "папа / папы, отцы; м. род, ед. / мн. Для множественного числа используется форма от אב — отец."
+            },
+            "es": {
+              "pronunciation": "ába / avót",
+              "meaning": "papá / papás, padres; masculino en hebreo, singular / plural. El plural procede de אב, padre."
+            }
+          }
+        },
+        {
+          "hebrew": "אימא / אימהות",
+          "hebrewWithNiqqud": "אִמָּא / אִמָּהוֹת",
+          "id": "word-343",
+          "translations": {
+            "ru": {
+              "pronunciation": "и́ма / имаhо́т",
+              "meaning": "мама / мамы, матери; ж. род, ед. / мн. Распространённое написание — אמא; полное написание — אימא. Множественное число — от אם, мать."
+            },
+            "es": {
+              "pronunciation": "íma / imahót",
+              "meaning": "mamá / mamás, madres; femenino en hebreo, singular / plural. Grafía frecuente: אמא; grafía plena: אימא. El plural procede de אם, madre."
             }
           }
         }
@@ -2361,6 +2391,81 @@
               "meaning": "té; masculino en hebreo, normalmente incontable; la ה final no se pronuncia"
             }
           }
+        },
+        {
+          "hebrew": "חולצה / חולצות",
+          "hebrewWithNiqqud": "חֻלְצָה / חֻלְצוֹת",
+          "id": "word-335",
+          "translations": {
+            "ru": {
+              "pronunciation": "хульца́ / хульцо́т",
+              "meaning": "рубашка, футболка, блузка / рубашки, футболки, блузки; ж. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "chulzá / chulzót",
+              "meaning": "camisa, camiseta, blusa / camisas, camisetas, blusas; femenino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "מעיל / מעילים",
+          "hebrewWithNiqqud": "מְעִיל / מְעִילִים",
+          "id": "word-336",
+          "translations": {
+            "ru": {
+              "pronunciation": "меи́ль / меили́м",
+              "meaning": "пальто, тёплая куртка / пальто, тёплые куртки; м. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "meíl / meilím",
+              "meaning": "abrigo, chaqueta de abrigo / abrigos, chaquetas de abrigo; masculino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "חנות / חנויות",
+          "hebrewWithNiqqud": "חֲנוּת / חֲנֻיּוֹת",
+          "id": "word-337",
+          "translations": {
+            "ru": {
+              "pronunciation": "хану́т / хануйо́т",
+              "meaning": "магазин / магазины; ж. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "chanút / chanuyót",
+              "meaning": "tienda / tiendas; femenino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "כדור / כדורים",
+          "hebrewWithNiqqud": "כַּדּוּר / כַּדּוּרִים",
+          "id": "word-339",
+          "translations": {
+            "ru": {
+              "pronunciation": "каду́р / кадури́м",
+              "meaning": "мяч / мячи; м. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "kadúr / kadurím",
+              "meaning": "pelota, balón / pelotas, balones; masculino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "אוכל / אוכלים",
+          "hebrewWithNiqqud": "אֹכֶל / אֳכָלִים",
+          "id": "word-340",
+          "translations": {
+            "ru": {
+              "pronunciation": "о́хель / охали́м",
+              "meaning": "еда, пища / виды пищи, кушанья; м. род, ед. / мн. Обычно неисчисляемое; множественное число — о разных видах пищи. Существительное о́хель, не глагол охе́ль — «ест»."
+            },
+            "es": {
+              "pronunciation": "óchel / ochalím",
+              "meaning": "comida, alimento / tipos de comida, alimentos; masculino en hebreo, singular / plural. Normalmente incontable; el plural se refiere a distintos tipos de comida. Sustantivo óchel, distinto del verbo ochél, «come»."
+            }
+          }
         }
       ],
       "id": "places",
@@ -3621,6 +3726,21 @@
               "meaning": "bebe / bebe / beben / beben; presente. Infinitivo: לשתות (לִשְׁתּוֹת, lishtót), beber."
             }
           }
+        },
+        {
+          "hebrew": "משחק / משחקת / משחקים / משחקות",
+          "hebrewWithNiqqud": "מְשַׂחֵק / מְשַׂחֶקֶת / מְשַׂחֲקִים / מְשַׂחֲקוֹת",
+          "id": "word-338",
+          "translations": {
+            "ru": {
+              "pronunciation": "месахе́к / месахе́кет / месахаки́м / месахако́т",
+              "meaning": "играет / играет / играют / играют; настоящее время; играть в игру или играть роль. Инфинитив: לשחק (לְשַׂחֵק, лесахе́к) — играть."
+            },
+            "es": {
+              "pronunciation": "mesachék / mesachéket / mesachakím / mesachakót",
+              "meaning": "juega / juega / juegan / juegan; presente; jugar a un juego o interpretar un papel. Infinitivo: לשחק (לְשַׂחֵק, lesachék), jugar o actuar."
+            }
+          }
         }
       ],
       "id": "verbs",
@@ -4429,6 +4549,21 @@
             "es": {
               "pronunciation": "éyse? / éyso? / éylu?",
               "meaning": "¿qué?, ¿cuál? / ¿qué?, ¿cuál? / ¿qué?, ¿cuáles?; masculino singular / femenino singular / plural de ambos géneros en hebreo"
+            }
+          }
+        },
+        {
+          "hebrew": "למי?",
+          "hebrewWithNiqqud": "לְמִי?",
+          "id": "word-341",
+          "translations": {
+            "ru": {
+              "pronunciation": "леми́?",
+              "meaning": "кому? для кого? С יש / אין — у кого есть / нет? Предлог ל־ + מי; не изменяется по родам и числам."
+            },
+            "es": {
+              "pronunciation": "lemí?",
+              "meaning": "¿a quién? ¿para quién? Con יש / אין pregunta quién tiene / no tiene algo. Preposición ל־ + מי; no cambia según género ni número."
             }
           }
         }
