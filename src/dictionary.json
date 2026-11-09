@@ -1131,6 +1131,51 @@
               "meaning": "primo / prima / primos (también grupo mixto) / primas. También בת דוד (bat dod), hija de un tío, y בן דודה (ben dodá), hijo de una tía."
             }
           }
+        },
+        {
+          "hebrew": "וטרינר / וטרינרית / וטרינרים / וטרינריות",
+          "hebrewWithNiqqud": "וֶטֶרִינָר / וֶטֶרִינָרִית / וֶטֶרִינָרִים / וֶטֶרִינָרִיּוֹת",
+          "id": "word-365",
+          "translations": {
+            "ru": {
+              "pronunciation": "ветерина́р / ветерина́рит / ветерина́рим / ветеринарийо́т",
+              "meaning": "ветеринар; м. ед. / ж. ед. / м. мн. / ж. мн."
+            },
+            "es": {
+              "pronunciation": "veterinár / veterinárit / veterinárim / veterinariyót",
+              "meaning": "veterinario / veterinaria / veterinarios / veterinarias; masculino singular / femenino singular / masculino plural / femenino plural"
+            }
+          }
+        },
+        {
+          "hebrew": "מנהל / מנהלת / מנהלים / מנהלות",
+          "hebrewWithNiqqud": "מְנַהֵל / מְנַהֶלֶת / מְנַהֲלִים / מְנַהֲלוֹת",
+          "id": "word-366",
+          "translations": {
+            "ru": {
+              "pronunciation": "менаhе́ль / менаhе́лет / менаhали́м / менаhало́т",
+              "meaning": "руководитель, директор; м. ед. / ж. ед. / м. мн. / ж. мн.; название должности"
+            },
+            "es": {
+              "pronunciation": "menahél / menahélet / menahalím / menahalót",
+              "meaning": "director / directora / directores / directoras; también gerente; masculino singular / femenino singular / masculino plural / femenino plural; cargo profesional"
+            }
+          }
+        },
+        {
+          "hebrew": "תינוק / תינוקת / תינוקות / תינוקות",
+          "hebrewWithNiqqud": "תִּינוֹק / תִּינֹקֶת / תִּינוֹקוֹת / תִּינוֹקוֹת",
+          "id": "word-368",
+          "translations": {
+            "ru": {
+              "pronunciation": "тино́к / тино́кет / тиноко́т / тиноко́т",
+              "meaning": "младенец (мальчик) / младенец (девочка) / младенцы (мальчики или смешанная группа) / младенцы (девочки); м. ед. / ж. ед. / м. мн. / ж. мн. Формы множественного числа совпадают."
+            },
+            "es": {
+              "pronunciation": "tinók / tinóket / tinokót / tinokót",
+              "meaning": "bebé (niño) / bebé (niña) / bebés (niños o grupo mixto) / bebés (niñas); masculino singular / femenino singular / masculino plural / femenino plural. Las formas plurales coinciden."
+            }
+          }
         }
       ],
       "id": "people",
@@ -2599,6 +2644,21 @@
             "es": {
               "pronunciation": "shchuná / shchunót",
               "meaning": "barrio / barrios; femenino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "מרכז קליטה / מרכזי קליטה",
+          "hebrewWithNiqqud": "מֶרְכַּז קְלִיטָה / מֶרְכְּזֵי קְלִיטָה",
+          "id": "word-367",
+          "translations": {
+            "ru": {
+              "pronunciation": "мерка́з клита́ / меркезе́й клита́",
+              "meaning": "центр абсорбции (приёма и адаптации репатриантов) / центры абсорбции; м. род, ед. / мн. С артиклем: מרכז הקליטה (מֶרְכַּז הַקְּלִיטָה, мерка́з hаклита́) — определённый центр абсорбции. В сопряжённом сочетании артикль ставится перед вторым словом."
+            },
+            "es": {
+              "pronunciation": "merkás klitá / merkeséy klitá",
+              "meaning": "centro de absorción (acogida e integración de nuevos inmigrantes) / centros de absorción; masculino en hebreo, singular / plural. Con artículo: מרכז הקליטה (מֶרְכַּז הַקְּלִיטָה, merkás haklitá), el centro de absorción. En el estado constructo, el artículo se coloca ante la segunda palabra."
             }
           }
         }
