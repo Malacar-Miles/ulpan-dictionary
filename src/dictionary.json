@@ -2466,6 +2466,81 @@
               "meaning": "comida, alimento / tipos de comida, alimentos; masculino en hebreo, singular / plural. Normalmente incontable; el plural se refiere a distintos tipos de comida. Sustantivo óchel, distinto del verbo ochél, «come»."
             }
           }
+        },
+        {
+          "hebrew": "כרטיס / כרטיסים",
+          "hebrewWithNiqqud": "כַּרְטִיס / כַּרְטִיסִים",
+          "id": "word-344",
+          "translations": {
+            "ru": {
+              "pronunciation": "карти́с / картиси́м",
+              "meaning": "билет, карточка / билеты, карточки; м. род, ед. / мн. כרטיס אשראי — кредитная карта."
+            },
+            "es": {
+              "pronunciation": "kartís / kartisím",
+              "meaning": "billete, entrada, tarjeta / billetes, entradas, tarjetas; masculino en hebreo, singular / plural. כרטיס אשראי significa «tarjeta de crédito»."
+            }
+          }
+        },
+        {
+          "hebrew": "הר / הרים",
+          "hebrewWithNiqqud": "הָר / הָרִים",
+          "id": "word-349",
+          "translations": {
+            "ru": {
+              "pronunciation": "hар / hари́м",
+              "meaning": "гора / горы; м. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "har / harím",
+              "meaning": "montaña / montañas; masculino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "צפון",
+          "hebrewWithNiqqud": "צָפוֹן",
+          "id": "word-350",
+          "translations": {
+            "ru": {
+              "pronunciation": "цафо́н",
+              "meaning": "север; м. род; название стороны света, обычно без множественного числа"
+            },
+            "es": {
+              "pronunciation": "zafón",
+              "meaning": "norte; masculino en hebreo; punto cardinal, normalmente sin plural"
+            }
+          }
+        },
+        {
+          "hebrew": "חיה / חיות",
+          "hebrewWithNiqqud": "חַיָּה / חַיּוֹת",
+          "id": "word-351",
+          "translations": {
+            "ru": {
+              "pronunciation": "хая́ / хайо́т",
+              "meaning": "животное, зверь / животные, звери; ж. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "chayá / chayót",
+              "meaning": "animal, bestia / animales, bestias; femenino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "שכונה / שכונות",
+          "hebrewWithNiqqud": "שְׁכוּנָה / שְׁכוּנוֹת",
+          "id": "word-352",
+          "translations": {
+            "ru": {
+              "pronunciation": "шхуна́ / шхуно́т",
+              "meaning": "район, квартал / районы, кварталы; ж. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "shchuná / shchunót",
+              "meaning": "barrio / barrios; femenino en hebreo, singular / plural"
+            }
+          }
         }
       ],
       "id": "places",
@@ -3169,6 +3244,51 @@
             "es": {
               "pronunciation": "shavúa / shavuót / shvuáyim",
               "meaning": "semana / semanas / dos semanas; masculino en hebreo, singular / plural / dual"
+            }
+          }
+        },
+        {
+          "hebrew": "אשראי",
+          "hebrewWithNiqqud": "אַשְׁרַאי",
+          "id": "word-345",
+          "translations": {
+            "ru": {
+              "pronunciation": "ашра́й",
+              "meaning": "кредит; м. род, неисчисляемое в этом значении. כרטיס אשראי — кредитная карта; באשראי — в кредит, при оплате — картой."
+            },
+            "es": {
+              "pronunciation": "ashráy",
+              "meaning": "crédito; masculino en hebreo, incontable en este sentido. כרטיס אשראי significa «tarjeta de crédito»; באשראי, «a crédito» o, al pagar, «con tarjeta»."
+            }
+          }
+        },
+        {
+          "hebrew": "חשבון / חשבונות",
+          "hebrewWithNiqqud": "חֶשְׁבּוֹן / חֶשְׁבּוֹנוֹת",
+          "id": "word-347",
+          "translations": {
+            "ru": {
+              "pronunciation": "хешбо́н / хешбоно́т",
+              "meaning": "счёт (к оплате, банковский), расчёт; также арифметика; м. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "cheshbón / cheshbonót",
+              "meaning": "cuenta (para pagar o bancaria), cálculo; también aritmética; masculino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "בחינה / בחינות",
+          "hebrewWithNiqqud": "בְּחִינָה / בְּחִינוֹת",
+          "id": "word-348",
+          "translations": {
+            "ru": {
+              "pronunciation": "бхина́ / бхино́т",
+              "meaning": "экзамен, проверка / экзамены, проверки; ж. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "bchiná / bchinót",
+              "meaning": "examen, evaluación / exámenes, evaluaciones; femenino en hebreo, singular / plural"
             }
           }
         }
@@ -4309,6 +4429,21 @@
             "es": {
               "pronunciation": "cham / chamá / chamím / chamót",
               "meaning": "caliente, cálido; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+            }
+          }
+        },
+        {
+          "hebrew": "נוח / נוחה / נוחים / נוחות",
+          "hebrewWithNiqqud": "נוֹחַ / נוֹחָה / נוֹחִים / נוֹחוֹת",
+          "id": "word-346",
+          "translations": {
+            "ru": {
+              "pronunciation": "но́ах / ноха́ / нохи́м / нохо́т",
+              "meaning": "удобный, комфортный; м. ед. / ж. ед. / м. мн. / ж. мн."
+            },
+            "es": {
+              "pronunciation": "nóach / nochá / nochím / nochót",
+              "meaning": "cómodo, confortable; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
             }
           }
         }
