@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08",
+  "updatedAt": "2026-11-09",
   "intro": {
     "ru": "Произношение приблизительное; ударение обозначено знаком над гласной. ה в транскрипции обозначено как h. Примеры и уточнения добавлены для понимания.",
     "es": "La pronunciación es aproximada; la tilde indica el acento. h representa una ה pronunciada; ch, el sonido de ח o כ sin dagesh; sh, el de שׁ; z, el de צ (ts). s representa tanto ס/שׂ como ז. g siempre representa el sonido de «gato», incluso ante e o i; y representa el sonido de י consonántica. Son convenciones personales de aprendizaje, no reglas de ortografía española. Se incluyen ejemplos y aclaraciones."
@@ -1069,6 +1069,66 @@
             "es": {
               "pronunciation": "íma / imahót",
               "meaning": "mamá / mamás, madres; femenino en hebreo, singular / plural. Grafía frecuente: אמא; grafía plena: אימא. El plural procede de אם, madre."
+            }
+          }
+        },
+        {
+          "hebrew": "גיל / גילים",
+          "hebrewWithNiqqud": "גִּיל / גִּילִים",
+          "id": "word-359",
+          "translations": {
+            "ru": {
+              "pronunciation": "гиль / гили́м",
+              "meaning": "возраст / возрасты; м. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "gil / gilím",
+              "meaning": "edad / edades; masculino en hebreo, singular / plural"
+            }
+          }
+        },
+        {
+          "hebrew": "דוד / דודה / דודים / דודות",
+          "hebrewWithNiqqud": "דּוֹד / דּוֹדָה / דּוֹדִים / דּוֹדוֹת",
+          "id": "word-361",
+          "translations": {
+            "ru": {
+              "pronunciation": "дод / дода́ / доди́м / додо́т",
+              "meaning": "дядя / тётя / дяди / тёти; м. ед. / ж. ед. / м. мн. / ж. мн."
+            },
+            "es": {
+              "pronunciation": "dod / dodá / dodím / dodót",
+              "meaning": "tío / tía / tíos / tías; masculino singular / femenino singular / masculino plural / femenino plural"
+            }
+          }
+        },
+        {
+          "hebrew": "אחיין / אחיינית / אחיינים / אחייניות",
+          "hebrewWithNiqqud": "אַחְיָן / אַחְיָנִית / אַחְיָנִים / אַחְיָנִיּוֹת",
+          "id": "word-362",
+          "translations": {
+            "ru": {
+              "pronunciation": "ахья́н / ахьяни́т / ахьяни́м / ахьянийо́т",
+              "meaning": "племянник / племянница / племянники / племянницы; м. ед. / ж. ед. / м. мн. / ж. мн."
+            },
+            "es": {
+              "pronunciation": "achyán / achyanít / achyaním / achyaniyót",
+              "meaning": "sobrino / sobrina / sobrinos / sobrinas; masculino singular / femenino singular / masculino plural / femenino plural"
+            }
+          }
+        },
+        {
+          "hebrew": "בן דוד / בת דודה / בני דודים / בנות דודות",
+          "hebrewWithNiqqud": "בֶּן דּוֹד / בַּת דּוֹדָה / בְּנֵי דּוֹדִים / בְּנוֹת דּוֹדוֹת",
+          "id": "word-363",
+          "translations": {
+            "ru": {
+              "pronunciation": "бен дод / бат дода́ / бней доди́м / бнот додо́т",
+              "meaning": "двоюродный брат / двоюродная сестра / двоюродные братья (или смешанная группа) / двоюродные сёстры. Также בת דוד (бат дод) — дочь дяди, בן דודה (бен дода́) — сын тёти."
+            },
+            "es": {
+              "pronunciation": "ben dod / bat dodá / bney dodím / bnot dodót",
+              "meaning": "primo / prima / primos (también grupo mixto) / primas. También בת דוד (bat dod), hija de un tío, y בן דודה (ben dodá), hijo de una tía."
             }
           }
         }
@@ -3291,6 +3351,21 @@
               "meaning": "examen, evaluación / exámenes, evaluaciones; femenino en hebreo, singular / plural"
             }
           }
+        },
+        {
+          "hebrew": "נוכחות",
+          "hebrewWithNiqqud": "נוֹכְחוּת",
+          "id": "word-353",
+          "translations": {
+            "ru": {
+              "pronunciation": "нохеху́т",
+              "meaning": "присутствие, посещаемость; ж. род, обычно неисчисляемое"
+            },
+            "es": {
+              "pronunciation": "nochechút",
+              "meaning": "presencia, asistencia; femenino en hebreo, normalmente incontable"
+            }
+          }
         }
       ],
       "id": "study",
@@ -3859,6 +3934,81 @@
             "es": {
               "pronunciation": "mesachék / mesachéket / mesachakím / mesachakót",
               "meaning": "juega / juega / juegan / juegan; presente; jugar a un juego o interpretar un papel. Infinitivo: לשחק (לְשַׂחֵק, lesachék), jugar o actuar."
+            }
+          }
+        },
+        {
+          "hebrew": "בודק / בודקת / בודקים / בודקות",
+          "hebrewWithNiqqud": "בּוֹדֵק / בּוֹדֶקֶת / בּוֹדְקִים / בּוֹדְקוֹת",
+          "id": "word-354",
+          "translations": {
+            "ru": {
+              "pronunciation": "боде́к / боде́кет / бодки́м / бодко́т",
+              "meaning": "проверяет; настоящее время: м. ед. / ж. ед. / м. мн. / ж. мн."
+            },
+            "es": {
+              "pronunciation": "bodék / bodéket / bodkím / bodkót",
+              "meaning": "comprueba, revisa; presente: masculino singular / femenino singular / masculino plural / femenino plural"
+            }
+          }
+        },
+        {
+          "hebrew": "נוכח / נוכחת / נוכחים / נוכחות",
+          "hebrewWithNiqqud": "נוֹכֵחַ / נוֹכַחַת / נוֹכְחִים / נוֹכְחוֹת",
+          "id": "word-355",
+          "translations": {
+            "ru": {
+              "pronunciation": "нохе́ах / ноха́хат / нохехи́м / нохехо́т",
+              "meaning": "присутствует; также «присутствующий»; настоящее время: м. ед. / ж. ед. / м. мн. / ж. мн."
+            },
+            "es": {
+              "pronunciation": "nochéach / nocháchat / nochechím / nochechót",
+              "meaning": "está presente; también «presente»; presente: masculino singular / femenino singular / masculino plural / femenino plural"
+            }
+          }
+        },
+        {
+          "hebrew": "משלים / משלימה / משלימים / משלימות",
+          "hebrewWithNiqqud": "מַשְׁלִים / מַשְׁלִימָה / מַשְׁלִימִים / מַשְׁלִימוֹת",
+          "id": "word-356",
+          "translations": {
+            "ru": {
+              "pronunciation": "машли́м / машлима́ / машлими́м / машлимо́т",
+              "meaning": "завершает, дополняет (например, предложение); настоящее время: м. ед. / ж. ед. / м. мн. / ж. мн."
+            },
+            "es": {
+              "pronunciation": "mashlím / mashlimá / mashlimím / mashlimót",
+              "meaning": "completa, termina (por ejemplo, una oración); presente: masculino singular / femenino singular / masculino plural / femenino plural"
+            }
+          }
+        },
+        {
+          "hebrew": "מטפל / מטפלת / מטפלים / מטפלות",
+          "hebrewWithNiqqud": "מְטַפֵּל / מְטַפֶּלֶת / מְטַפְּלִים / מְטַפְּלוֹת",
+          "id": "word-357",
+          "translations": {
+            "ru": {
+              "pronunciation": "метапе́ль / метапе́лет / метапли́м / метапло́т",
+              "meaning": "ухаживает, заботится; о ком-либо/чём-либо — с предлогом ב־; настоящее время: м. ед. / ж. ед. / м. мн. / ж. мн."
+            },
+            "es": {
+              "pronunciation": "metapél / metapélet / metaplím / metaplót",
+              "meaning": "cuida, se ocupa de alguien o algo; complemento con la preposición ב־; presente: masculino singular / femenino singular / masculino plural / femenino plural"
+            }
+          }
+        },
+        {
+          "hebrew": "נשאר / נשארת / נשארים / נשארות",
+          "hebrewWithNiqqud": "נִשְׁאָר / נִשְׁאֶרֶת / נִשְׁאָרִים / נִשְׁאָרוֹת",
+          "id": "word-358",
+          "translations": {
+            "ru": {
+              "pronunciation": "нишъа́р / нишъэ́рет / нишъари́м / нишъаро́т",
+              "meaning": "остаётся; настоящее время: м. ед. / ж. ед. / м. мн. / ж. мн."
+            },
+            "es": {
+              "pronunciation": "nishár / nishéret / nisharím / nisharót",
+              "meaning": "se queda, permanece; presente: masculino singular / femenino singular / masculino plural / femenino plural"
             }
           }
         }
@@ -4444,6 +4594,21 @@
             "es": {
               "pronunciation": "nóach / nochá / nochím / nochót",
               "meaning": "cómodo, confortable; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+            }
+          }
+        },
+        {
+          "hebrew": "מתוק / מתוקה / מתוקים / מתוקות",
+          "hebrewWithNiqqud": "מָתוֹק / מְתוּקָה / מְתוּקִים / מְתוּקוֹת",
+          "id": "word-364",
+          "translations": {
+            "ru": {
+              "pronunciation": "мато́к / метука́ / метуки́м / метуко́т",
+              "meaning": "сладкий / сладкая / сладкие (м.) / сладкие (ж.); также ласково «милый». מתוקים как существительное — сладости."
+            },
+            "es": {
+              "pronunciation": "matók / metuká / metukím / metukót",
+              "meaning": "dulce; masculino singular / femenino singular / masculino plural / femenino plural en hebreo; también «adorable» como expresión cariñosa. מתוקים como sustantivo significa «dulces»."
             }
           }
         }
@@ -5089,6 +5254,21 @@
             "es": {
               "pronunciation": "shelahém / shelahén",
               "meaning": "de ellos / de ellas; masculino también para un grupo mixto de poseedores"
+            }
+          }
+        },
+        {
+          "hebrew": "מפני / מפני ש־",
+          "hebrewWithNiqqud": "מִפְּנֵי / מִפְּנֵי שֶׁ־",
+          "id": "word-360",
+          "translations": {
+            "ru": {
+              "pronunciation": "мипне́й / мипне́й ше-",
+              "meaning": "из-за, по причине / потому что. Аналог כי — именно מפני ש־ перед предложением; ש־ пишется слитно со следующим словом."
+            },
+            "es": {
+              "pronunciation": "mipnéy / mipnéy she-",
+              "meaning": "a causa de / porque. El equivalente de כי es מפני ש־ ante una oración; ש־ se escribe unido a la palabra siguiente."
             }
           }
         }
