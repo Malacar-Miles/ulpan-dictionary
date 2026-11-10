@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09",
+  "updatedAt": "2026-11-10",
   "intro": {
     "ru": "Произношение приблизительное; ударение обозначено знаком над гласной. ה в транскрипции обозначено как h. Примеры и уточнения добавлены для понимания.",
     "es": "La pronunciación es aproximada; la tilde indica el acento. h representa una ה pronunciada; ch, el sonido de ח o כ sin dagesh; sh, el de שׁ; z, el de צ (ts). s representa tanto ס/שׂ como ז. g siempre representa el sonido de «gato», incluso ante e o i; y representa el sonido de י consonántica. Son convenciones personales de aprendizaje, no reglas de ortografía española. Se incluyen ejemplos y aclaraciones."
@@ -1174,6 +1174,66 @@
             "es": {
               "pronunciation": "tinók / tinóket / tinokót / tinokót",
               "meaning": "bebé (niño) / bebé (niña) / bebés (niños o grupo mixto) / bebés (niñas); masculino singular / femenino singular / masculino plural / femenino plural. Las formas plurales coinciden."
+            }
+          }
+        },
+        {
+          "hebrew": "חתן / כלה / חתנים / כלות",
+          "hebrewWithNiqqud": "חָתָן / כַּלָּה / חֲתָנִים / כַּלּוֹת",
+          "id": "word-369",
+          "translations": {
+            "ru": {
+              "pronunciation": "хата́н / кала́ / хатани́м / кало́т",
+              "meaning": "зять / невестка (жена сына) / зятья / невестки; м. ед. / ж. ед. / м. мн. / ж. мн."
+            },
+            "es": {
+              "pronunciation": "chatán / kalá / chataním / kalót",
+              "meaning": "yerno / nuera / yernos / nueras; masculino singular / femenino singular / masculino plural / femenino plural."
+            }
+          }
+        },
+        {
+          "hebrew": "חם / חמות / חמים / חמיות",
+          "hebrewWithNiqqud": "חָם / חָמוֹת / חָמִים / חֲמָיוֹת",
+          "id": "word-370",
+          "translations": {
+            "ru": {
+              "pronunciation": "хам / хамо́т / хами́м / хамайо́т",
+              "meaning": "тесть, свёкор / тёща, свекровь / тестьи, свёкры / тёщи, свекрови; м. ед. / ж. ед. / м. мн. / ж. мн. Родители супруга или супруги. Не путать с חם — «горячий»."
+            },
+            "es": {
+              "pronunciation": "cham / chamót / chamím / chamayót",
+              "meaning": "suegro / suegra / suegros / suegras; masculino singular / femenino singular / masculino plural / femenino plural. Padres del cónyuge. No confundir con חם, «caliente»."
+            }
+          }
+        },
+        {
+          "hebrew": "גיס / גיסה / גיסים / גיסות",
+          "hebrewWithNiqqud": "גִּיס / גִּיסָה / גִּיסִים / גִּיסוֹת",
+          "id": "word-371",
+          "translations": {
+            "ru": {
+              "pronunciation": "гис / гиса́ / гиси́м / гисо́т",
+              "meaning": "брат супруга/супруги или муж сестры / сестра супруга/супруги или жена брата / те же родственники, мужчины / те же родственницы, женщины; м. ед. / ж. ед. / м. мн. / ж. мн."
+            },
+            "es": {
+              "pronunciation": "gis / gisá / gisím / gisót",
+              "meaning": "cuñado / cuñada / cuñados / cuñadas; masculino singular / femenino singular / masculino plural / femenino plural."
+            }
+          }
+        },
+        {
+          "hebrew": "בחור / בחורה / בחורים / בחורות",
+          "hebrewWithNiqqud": "בָּחוּר / בַּחוּרָה / בַּחוּרִים / בַּחוּרוֹת",
+          "id": "word-372",
+          "translations": {
+            "ru": {
+              "pronunciation": "баху́р / бахура́ / бахури́м / бахуро́т",
+              "meaning": "парень, молодой человек / девушка / парни / девушки; м. ед. / ж. ед. / м. мн. / ж. мн."
+            },
+            "es": {
+              "pronunciation": "bachúr / bachurá / bachurím / bachurót",
+              "meaning": "joven (hombre) / joven (mujer) / jóvenes (hombres) / jóvenes (mujeres); masculino singular / femenino singular / masculino plural / femenino plural."
             }
           }
         }
@@ -2661,6 +2721,36 @@
               "meaning": "centro de absorción (acogida e integración de nuevos inmigrantes) / centros de absorción; masculino en hebreo, singular / plural. Con artículo: מרכז הקליטה (מֶרְכַּז הַקְּלִיטָה, merkás haklitá), el centro de absorción. En el estado constructo, el artículo se coloca ante la segunda palabra."
             }
           }
+        },
+        {
+          "hebrew": "ארץ / ארצות",
+          "hebrewWithNiqqud": "אֶרֶץ / אֲרָצוֹת",
+          "id": "word-377",
+          "translations": {
+            "ru": {
+              "pronunciation": "э́рец / арацо́т",
+              "meaning": "страна, земля / страны, земли; ж. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "érez / arazót",
+              "meaning": "país, tierra / países, tierras; femenino en hebreo, singular / plural."
+            }
+          }
+        },
+        {
+          "hebrew": "רהיט / רהיטים",
+          "hebrewWithNiqqud": "רָהִיט / רָהִיטִים",
+          "id": "word-379",
+          "translations": {
+            "ru": {
+              "pronunciation": "раhи́т / раhити́м",
+              "meaning": "предмет мебели / предметы мебели, мебель; м. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "rahít / rahitím",
+              "meaning": "mueble / muebles; masculino en hebreo, singular / plural."
+            }
+          }
         }
       ],
       "id": "places",
@@ -3424,6 +3514,21 @@
             "es": {
               "pronunciation": "nochechút",
               "meaning": "presencia, asistencia; femenino en hebreo, normalmente incontable"
+            }
+          }
+        },
+        {
+          "hebrew": "מצב / מצבים",
+          "hebrewWithNiqqud": "מַצָּב / מַצָּבִים",
+          "id": "word-378",
+          "translations": {
+            "ru": {
+              "pronunciation": "маца́в / мацави́м",
+              "meaning": "состояние, положение, ситуация / состояния, положения, ситуации; м. род, ед. / мн."
+            },
+            "es": {
+              "pronunciation": "mazáv / mazavím",
+              "meaning": "estado, situación / estados, situaciones; masculino en hebreo, singular / plural."
             }
           }
         }
@@ -4669,6 +4774,81 @@
             "es": {
               "pronunciation": "matók / metuká / metukím / metukót",
               "meaning": "dulce; masculino singular / femenino singular / masculino plural / femenino plural en hebreo; también «adorable» como expresión cariñosa. מתוקים como sustantivo significa «dulces»."
+            }
+          }
+        },
+        {
+          "hebrew": "מבוגר / מבוגרת / מבוגרים / מבוגרות",
+          "hebrewWithNiqqud": "מְבֻגָּר / מְבֻגֶּרֶת / מְבֻגָּרִים / מְבֻגָּרוֹת",
+          "id": "word-373",
+          "translations": {
+            "ru": {
+              "pronunciation": "мевуга́р / мевуге́рет / мевугари́м / мевугаро́т",
+              "meaning": "взрослый / взрослая / взрослые (м.) / взрослые (ж.); м. ед. / ж. ед. / м. мн. / ж. мн."
+            },
+            "es": {
+              "pronunciation": "mevugár / mevugéret / mevugarím / mevugarót",
+              "meaning": "adulto / adulta / adultos / adultas; masculino singular / femenino singular / masculino plural / femenino plural."
+            }
+          }
+        },
+        {
+          "hebrew": "זקן / זקנה / זקנים / זקנות",
+          "hebrewWithNiqqud": "זָקֵן / זְקֵנָה / זְקֵנִים / זְקֵנוֹת",
+          "id": "word-374",
+          "translations": {
+            "ru": {
+              "pronunciation": "заке́н / зкена́ / зкени́м / зкено́т",
+              "meaning": "старый, пожилой / старая, пожилая / старые, пожилые (м.) / старые, пожилые (ж.); м. ед. / ж. ед. / м. мн. / ж. мн. О возрасте человека; о старом предмете — ישן."
+            },
+            "es": {
+              "pronunciation": "sakén / skená / skením / skenót",
+              "meaning": "anciano / anciana / ancianos / ancianas; masculino singular / femenino singular / masculino plural / femenino plural. Se refiere a la edad de una persona; para un objeto viejo se usa ישן."
+            }
+          }
+        },
+        {
+          "hebrew": "צעיר / צעירה / צעירים / צעירות",
+          "hebrewWithNiqqud": "צָעִיר / צְעִירָה / צְעִירִים / צְעִירוֹת",
+          "id": "word-375",
+          "translations": {
+            "ru": {
+              "pronunciation": "цаи́р / цеира́ / цеири́м / цеиро́т",
+              "meaning": "молодой / молодая / молодые (м.) / молодые (ж.); м. ед. / ж. ед. / м. мн. / ж. мн."
+            },
+            "es": {
+              "pronunciation": "zaír / zeirá / zeirím / zeirót",
+              "meaning": "joven (masculino) / joven (femenino) / jóvenes (masculino) / jóvenes (femenino); masculino singular / femenino singular / masculino plural / femenino plural."
+            }
+          }
+        },
+        {
+          "hebrew": "ישן / ישנה / ישנים / ישנות",
+          "hebrewWithNiqqud": "יָשָׁן / יְשָׁנָה / יְשָׁנִים / יְשָׁנוֹת",
+          "id": "word-376",
+          "translations": {
+            "ru": {
+              "pronunciation": "яша́н / йешана́ / йешани́м / йешано́т",
+              "meaning": "старый / старая / старые (м.) / старые (ж.); м. ед. / ж. ед. / м. мн. / ж. мн. О вещи, не новой; о пожилом человеке — זקן."
+            },
+            "es": {
+              "pronunciation": "yashán / yeshaná / yeshaním / yeshanót",
+              "meaning": "viejo / vieja / viejos / viejas; masculino singular / femenino singular / masculino plural / femenino plural. Se refiere a algo que no es nuevo; para una persona anciana se usa זקן."
+            }
+          }
+        },
+        {
+          "hebrew": "שכור / שכורה / שכורים / שכורות",
+          "hebrewWithNiqqud": "שָׂכוּר / שְׂכוּרָה / שְׂכוּרִים / שְׂכוּרוֹת",
+          "id": "word-380",
+          "translations": {
+            "ru": {
+              "pronunciation": "саху́р / схура́ / схури́м / схуро́т",
+              "meaning": "арендованный / арендованная / арендованные (м.) / арендованные (ж.); м. ед. / ж. ед. / м. мн. / ж. мн. Например: דירה שכורה — съёмная квартира."
+            },
+            "es": {
+              "pronunciation": "sachúr / schurá / schurím / schurót",
+              "meaning": "alquilado / alquilada / alquilados / alquiladas; masculino singular / femenino singular / masculino plural / femenino plural. Por ejemplo: דירה שכורה — apartamento alquilado."
             }
           }
         }
