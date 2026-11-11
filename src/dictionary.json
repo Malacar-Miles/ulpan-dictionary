@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10",
+  "updatedAt": "2026-11-11",
   "intro": {
     "ru": "Произношение приблизительное; ударение обозначено знаком над гласной. ה в транскрипции обозначено как h. Примеры и уточнения добавлены для понимания.",
     "es": "La pronunciación es aproximada; la tilde indica el acento. h representa una ה pronunciada; ch, el sonido de ח o כ sin dagesh; sh, el de שׁ; z, el de צ (ts). s representa tanto ס/שׂ como ז. g siempre representa el sonido de «gato», incluso ante e o i; y representa el sonido de י consonántica. Son convenciones personales de aprendizaje, no reglas de ortografía española. Se incluyen ejemplos y aclaraciones."
@@ -2751,6 +2751,36 @@
               "meaning": "mueble / muebles; masculino en hebreo, singular / plural."
             }
           }
+        },
+        {
+          "hebrew": "בקבוק / בקבוקים",
+          "hebrewWithNiqqud": "בַּקְבּוּק / בַּקְבּוּקִים",
+          "id": "word-382",
+          "translations": {
+            "ru": {
+              "pronunciation": "бакбу́к / бакбуки́м",
+              "meaning": "бутылка / бутылки (м. род в иврите)"
+            },
+            "es": {
+              "pronunciation": "bakbúk / bakbukím",
+              "meaning": "botella / botellas (masculino en hebreo)"
+            }
+          }
+        },
+        {
+          "hebrew": "מים",
+          "hebrewWithNiqqud": "מַיִם",
+          "id": "word-383",
+          "translations": {
+            "ru": {
+              "pronunciation": "ма́йим",
+              "meaning": "вода. В иврите согласуется в мужском роде множественного числа."
+            },
+            "es": {
+              "pronunciation": "máyim",
+              "meaning": "agua. En hebreo concuerda en masculino plural."
+            }
+          }
         }
       ],
       "id": "places",
@@ -3531,6 +3561,36 @@
               "meaning": "estado, situación / estados, situaciones; masculino en hebreo, singular / plural."
             }
           }
+        },
+        {
+          "hebrew": "זמן / זמנים",
+          "hebrewWithNiqqud": "זְמַן / זְמַנִּים",
+          "id": "word-385",
+          "translations": {
+            "ru": {
+              "pronunciation": "зман / змани́м",
+              "meaning": "время / времена (м. род)"
+            },
+            "es": {
+              "pronunciation": "sman / smaním",
+              "meaning": "tiempo / tiempos (masculino en hebreo)"
+            }
+          }
+        },
+        {
+          "hebrew": "בעיה / בעיות",
+          "hebrewWithNiqqud": "בְּעָיָה / בְּעָיוֹת",
+          "id": "word-386",
+          "translations": {
+            "ru": {
+              "pronunciation": "беая́ / беайо́т",
+              "meaning": "проблема / проблемы (ж. род)"
+            },
+            "es": {
+              "pronunciation": "beayá / beayót",
+              "meaning": "problema / problemas (femenino en hebreo)"
+            }
+          }
         }
       ],
       "id": "study",
@@ -4174,6 +4234,36 @@
             "es": {
               "pronunciation": "nishár / nishéret / nisharím / nisharót",
               "meaning": "se queda, permanece; presente: masculino singular / femenino singular / masculino plural / femenino plural"
+            }
+          }
+        },
+        {
+          "hebrew": "שומע / שומעת / שומעים / שומעות",
+          "hebrewWithNiqqud": "שׁוֹמֵעַ / שׁוֹמַעַת / שׁוֹמְעִים / שׁוֹמְעוֹת",
+          "id": "word-381",
+          "translations": {
+            "ru": {
+              "pronunciation": "шоме́а / шома́ат / шомъи́м / шомъо́т",
+              "meaning": "слышит, слушает (ед. ч.) / слышат, слушают (мн. ч.)"
+            },
+            "es": {
+              "pronunciation": "shoméa / shomáat / shomím / shomót",
+              "meaning": "oye, escucha (singular) / oyen, escuchan (plural)"
+            }
+          }
+        },
+        {
+          "hebrew": "מחכה / מחכה / מחכים / מחכות",
+          "hebrewWithNiqqud": "מְחַכֶּה / מְחַכָּה / מְחַכִּים / מְחַכּוֹת",
+          "id": "word-384",
+          "translations": {
+            "ru": {
+              "pronunciation": "мехаке́ / мехака́ / мехаки́м / мехако́т",
+              "meaning": "ждёт (ед. ч.) / ждут (мн. ч.). Ждать кого-либо или чего-либо — с предлогом ל־."
+            },
+            "es": {
+              "pronunciation": "mechaké / mechaká / mechakím / mechakót",
+              "meaning": "espera (singular) / esperan (plural). En hebreo se usa ל־ ante la persona o cosa que se espera."
             }
           }
         }
