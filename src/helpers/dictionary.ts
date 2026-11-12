@@ -13,6 +13,7 @@ export const localizeSections = (locale: Locale): DictionarySection[] =>
     ...section.translations[locale],
     entries: section.entries.map((entry) => ({
       id: entry.id,
+      addedAt: entry.addedAt,
       hebrew: entry.hebrew,
       hebrewWithNiqqud: entry.hebrewWithNiqqud,
       ...entry.translations[locale],
@@ -33,6 +34,25 @@ export const filterSections = (query: string, activeTopic: string, locale: Local
       ),
     }))
     .filter((section) => section.entries.length > 0);
+
+export const groupByDateAdded = (
+  sections: DictionarySection[],
+  locale: Locale,
+): DictionarySection[] => {
+  const groups = new Map<string, DictionarySection>();
+  for (const section of sections) {
+    for (const entry of section.entries) {
+      const date = entry.addedAt;
+      let group = groups.get(date);
+      if (!group) {
+        group = { id: date, title: formatUpdatedDate(date, locale), note: '', entries: [] };
+        groups.set(date, group);
+      }
+      group.entries.push(entry);
+    }
+  }
+  return [...groups.values()].sort((a, b) => b.id.localeCompare(a.id));
+};
 
 export const countEntries = (items: DictionarySection[]) =>
   items.reduce((sum, section) => sum + section.entries.length, 0);

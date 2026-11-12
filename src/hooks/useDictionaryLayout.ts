@@ -13,7 +13,7 @@ const preserveSearchFocus = (event: PointerEvent<HTMLDivElement>) => {
     event.preventDefault();
 };
 
-export const useDictionaryLayout = (query: string, activeTopic: string) => {
+export const useDictionaryLayout = (query: string, activeTopic: string | null) => {
   const controlsRef = useRef<HTMLDivElement>(null);
   const contentRef = useRef<HTMLElement>(null);
   const { startEditing, stopEditing } = useSearchViewport();

@@ -30,6 +30,7 @@ const DictionaryApp = () => {
         onNiqqudChange={dictionary.changeNiqqud}
         topics={dictionary.topics}
         activeTopic={dictionary.activeTopic}
+        selectedTopic={dictionary.selectedTopic}
         onTopicSelect={dictionary.setActiveTopic}
       />
       <main

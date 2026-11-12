@@ -18,8 +18,9 @@ type DictionaryControlsProps = {
   showNiqqud: boolean;
   onNiqqudChange: ChangeEventHandler<HTMLInputElement>;
   topics: Topic[];
-  activeTopic: string;
-  onTopicSelect: (topic: string) => void;
+  activeTopic: string | null;
+  selectedTopic: string;
+  onTopicSelect: (topic: string | null) => void;
 };
 export const DictionaryControls = ({
   controlsRef,
@@ -35,6 +36,7 @@ export const DictionaryControls = ({
   onNiqqudChange,
   topics,
   activeTopic,
+  selectedTopic,
   onTopicSelect,
 }: DictionaryControlsProps) => {
   return (
@@ -56,7 +58,10 @@ export const DictionaryControls = ({
         <TopicFilters
           topics={topics}
           activeTopic={activeTopic}
-          emphasizeActiveTopic={query.trim().length > 0 && activeTopic !== ALL_TOPICS}
+          selectedTopic={selectedTopic}
+          emphasizeActiveTopic={
+            query.trim().length > 0 && activeTopic !== null && activeTopic !== ALL_TOPICS
+          }
           onSelect={onTopicSelect}
         />
       </div>

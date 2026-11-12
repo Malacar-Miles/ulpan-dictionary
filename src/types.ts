@@ -2,7 +2,7 @@ import type { Locale } from './localization/catalogs';
 
 export type EntryTranslation = { pronunciation: string; meaning: string };
 export type HebrewSpellings = { hebrew: string; hebrewWithNiqqud?: string };
-export type DictionaryEntry = HebrewSpellings & EntryTranslation & { id: string };
+export type DictionaryEntry = HebrewSpellings & EntryTranslation & { id: string; addedAt: string };
 export type DictionarySection = {
   id: string;
   title: string;
@@ -17,6 +17,7 @@ export type DictionaryData = {
     translations: Record<Locale, { title: string; note: string }>;
     entries: (HebrewSpellings & {
       id: string;
+      addedAt: string;
       translations: Record<Locale, EntryTranslation>;
     })[];
   }[];

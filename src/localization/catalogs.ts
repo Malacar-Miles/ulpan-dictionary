@@ -13,7 +13,10 @@ type Messages = {
   niqqud: string;
   handwriting: string;
   language: string;
-  topicFilter: string;
+  dictionaryViews: string;
+  byTopicShort: string;
+  byDateShort: string;
+  byDateAdded: string;
   allTopics: string;
   allWords: string;
   found: string;
@@ -42,7 +45,10 @@ export const catalogs: Record<Locale, Messages> = {
     niqqud: 'Никуд',
     handwriting: 'Пропись',
     language: 'Язык интерфейса',
-    topicFilter: 'Фильтр по теме',
+    dictionaryViews: 'Просмотр словаря',
+    byTopicShort: 'По темам',
+    byDateShort: 'По дате',
+    byDateAdded: 'По дате добавления',
     allTopics: 'Все темы',
     allWords: 'Все слова',
     found: 'Найдено:',
@@ -73,7 +79,10 @@ export const catalogs: Record<Locale, Messages> = {
     niqqud: 'Niqqud',
     handwriting: 'Manuscrita',
     language: 'Idioma de la interfaz',
-    topicFilter: 'Filtrar por tema',
+    dictionaryViews: 'Vistas del diccionario',
+    byTopicShort: 'Por tema',
+    byDateShort: 'Por fecha',
+    byDateAdded: 'Por fecha de incorporación',
     allTopics: 'Todos los temas',
     allWords: 'Todas las palabras',
     found: 'Resultados:',

@@ -4,6 +4,7 @@ import {
   ALL_TOPICS,
   localizeSections,
   filterSections,
+  groupByDateAdded,
   countEntries,
   formatUpdatedDate,
 } from '../helpers/dictionary';
@@ -16,9 +17,17 @@ export const useDictionary = () => {
   const { showNiqqud, setShowNiqqud } = useNiqqudPreference();
   const [query, setQuery] = useState('');
   const resultsQuery = useDeferredValue(query);
-  const [activeTopic, setActiveTopic] = useState(ALL_TOPICS);
+  const [selectedTopic, setSelectedTopic] = useState(ALL_TOPICS);
+  const [byDate, setByDate] = useState(false);
+  const activeTopic = byDate ? null : selectedTopic;
+  const setActiveTopic = (topic: string | null) => {
+    setByDate(topic === null);
+    if (topic !== null) setSelectedTopic(topic);
+  };
   const { results, showFallbackNotice } = useMemo(() => {
-    const matches = filterSections(resultsQuery, activeTopic, locale);
+    const matches = filterSections(resultsQuery, activeTopic ?? ALL_TOPICS, locale);
+    if (activeTopic === null)
+      return { results: groupByDateAdded(matches, locale), showFallbackNotice: false };
     if (matches.length || activeTopic === ALL_TOPICS || !resultsQuery.trim()) {
       return { results: matches, showFallbackNotice: false };
     }
@@ -34,6 +43,7 @@ export const useDictionary = () => {
     query,
     resultsQuery,
     activeTopic,
+    selectedTopic,
     showFallbackNotice,
     showNiqqud,
     results,
@@ -50,8 +60,10 @@ export const useDictionary = () => {
     updated: formatUpdatedDate(dictionary.updatedAt, locale),
     intro: dictionary.intro[locale],
     resultsTitle:
-      showFallbackNotice || activeTopic === ALL_TOPICS
-        ? messages.allWords
-        : sections.find((section) => section.id === activeTopic)!.title,
+      activeTopic === null
+        ? messages.byDateAdded
+        : showFallbackNotice || activeTopic === ALL_TOPICS
+          ? messages.allWords
+          : sections.find((section) => section.id === activeTopic)!.title,
   };
 };

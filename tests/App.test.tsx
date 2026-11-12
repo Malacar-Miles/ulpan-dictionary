@@ -7,6 +7,11 @@ import { formatUpdatedDate } from '../src/helpers/dictionary';
 
 beforeEach(() => {
   localStorage.clear();
+  vi.stubGlobal('matchMedia', () => ({
+    matches: false,
+    addEventListener: vi.fn(),
+    removeEventListener: vi.fn(),
+  }));
   vi.spyOn(navigator, 'languages', 'get').mockReturnValue(['ru']);
   vi.stubGlobal(
     'ResizeObserver',
@@ -263,4 +268,59 @@ it('shows Spanish matches from other topics while keeping the selected filter', 
   ).toBe('false');
   expect(container.querySelector('.meaning mark')?.textContent).toBe('canción');
   expect(container.querySelector('.empty')).toBeNull();
+});
+
+it('switches directly from the topic chooser to newest-first addition dates across topics', () => {
+  const { container } = render(<App />);
+  const entries = dictionary.sections.flatMap((section) => section.entries);
+  const dates = [...new Set(entries.map((entry) => entry.addedAt))].sort().reverse();
+  const topics = screen.getByRole('button', { name: 'Все темы' });
+  fireEvent.click(topics);
+  fireEvent.click(screen.getByRole('button', { name: 'По дате добавления' }));
+  expect(topics.getAttribute('aria-expanded')).toBe('false');
+  const sections = [...container.querySelectorAll('main .section')];
+  expect(sections.map((section) => section.querySelector('h3')?.textContent)).toEqual(
+    dates.map((date) => formatUpdatedDate(date)),
+  );
+  sections.forEach((section, i) => {
+    expect([...section.querySelectorAll('.meaning')].map((el) => el.textContent)).toEqual(
+      entries
+        .filter((entry) => entry.addedAt === dates[i])
+        .map((entry) => entry.translations.ru.meaning),
+    );
+  });
+  fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'תודה' } });
+  const matchingCount = container.querySelectorAll('.card').length;
+  expect(matchingCount).toBeGreaterThan(0);
+  expect(matchingCount).toBeLessThan(entries.length);
+  fireEvent.click(screen.getByRole('button', { name: 'Язык интерфейса' }));
+  fireEvent.click(screen.getByRole('button', { name: 'Español' }));
+  expect(
+    screen.getByRole('button', { name: 'Por fecha de incorporación', pressed: true }),
+  ).toBeTruthy();
+  expect(container.querySelectorAll('.card')).toHaveLength(matchingCount);
+  fireEvent.click(topics);
+  expect(topics.getAttribute('aria-expanded')).toBe('true');
+  expect(container.querySelector('main h3')?.textContent).toBe(
+    dictionary.sections[0].translations.es.title,
+  );
+});
+
+it.each([true, false])('returns to the expected topic for compact tabs = %s', (compact) => {
+  vi.stubGlobal('matchMedia', () => ({
+    matches: compact,
+    addEventListener: vi.fn(),
+    removeEventListener: vi.fn(),
+  }));
+  render(<App />);
+  const title = dictionary.sections[0].translations.ru.title;
+  const topics = screen.getByRole('button', { name: compact ? 'По темам' : 'Все темы' });
+  fireEvent.click(topics);
+  fireEvent.click(screen.getByRole('button', { name: title }));
+  expect(topics.textContent).toBe(compact ? 'По темам' : title);
+  expect(screen.getByRole('heading', { level: 2 }).textContent).toBe(title);
+  fireEvent.click(screen.getByRole('button', { name: compact ? 'По дате' : 'По дате добавления' }));
+  expect(screen.getByRole('heading', { level: 2 }).textContent).toBe('По дате добавления');
+  fireEvent.click(topics);
+  expect(screen.getByRole('heading', { level: 2 }).textContent).toBe(compact ? 'Все слова' : title);
 });
