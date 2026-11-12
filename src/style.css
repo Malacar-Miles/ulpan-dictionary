@@ -198,8 +198,10 @@ h1 em {
     sans-serif;
   cursor: pointer;
 }
-.filters button:hover {
-  border-color: #78a48e;
+@media (any-hover: hover) {
+  .filters button:hover {
+    border-color: #78a48e;
+  }
 }
 .filters button.active {
   background: #285d4b;
@@ -740,7 +742,12 @@ html.iphone-layout,
   color: #315a49;
   cursor: pointer;
 }
-.language-menu-button:hover,
+@media (any-hover: hover) {
+  .language-menu-button:hover {
+    background: #f5f9f6;
+    border-color: #cbd9ce;
+  }
+}
 .language-menu-button[aria-expanded='true'] {
   background: #f5f9f6;
   border-color: #cbd9ce;
