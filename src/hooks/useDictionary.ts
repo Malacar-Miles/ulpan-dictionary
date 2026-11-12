@@ -17,15 +17,15 @@ export const useDictionary = () => {
   const [query, setQuery] = useState('');
   const resultsQuery = useDeferredValue(query);
   const [activeTopic, setActiveTopic] = useState(ALL_TOPICS);
-  const results = useMemo(
-    () => filterSections(resultsQuery, activeTopic, locale),
-    [resultsQuery, activeTopic, locale],
-  );
-  const resetFilterOrSearch = useCallback(() => {
-    if (activeTopic !== ALL_TOPICS) setActiveTopic(ALL_TOPICS);
-    else setQuery('');
-  }, [activeTopic]);
-  const clearQuery = () => setQuery('');
+  const { results, showFallbackNotice } = useMemo(() => {
+    const matches = filterSections(resultsQuery, activeTopic, locale);
+    if (matches.length || activeTopic === ALL_TOPICS || !resultsQuery.trim()) {
+      return { results: matches, showFallbackNotice: false };
+    }
+    const allMatches = filterSections(resultsQuery, ALL_TOPICS, locale);
+    return { results: allMatches, showFallbackNotice: allMatches.length > 0 };
+  }, [resultsQuery, activeTopic, locale]);
+  const clearQuery = useCallback(() => setQuery(''), []);
   const changeQuery = (event: ChangeEvent<HTMLInputElement>) => setQuery(event.target.value);
   const changeNiqqud = (event: ChangeEvent<HTMLInputElement>) =>
     setShowNiqqud(event.target.checked);
@@ -34,10 +34,9 @@ export const useDictionary = () => {
     query,
     resultsQuery,
     activeTopic,
-    hasActiveFilter: activeTopic !== ALL_TOPICS,
+    showFallbackNotice,
     showNiqqud,
     results,
-    resetFilterOrSearch,
     changeQuery,
     clearQuery,
     changeNiqqud,
@@ -51,7 +50,7 @@ export const useDictionary = () => {
     updated: formatUpdatedDate(dictionary.updatedAt, locale),
     intro: dictionary.intro[locale],
     resultsTitle:
-      activeTopic === ALL_TOPICS
+      showFallbackNotice || activeTopic === ALL_TOPICS
         ? messages.allWords
         : sections.find((section) => section.id === activeTopic)!.title,
   };

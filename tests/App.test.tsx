@@ -35,19 +35,16 @@ describe('dictionary interface', () => {
       section.translations.ru.title,
     );
     fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'zzzznotaword' } });
-    expect(
-      screen.getByRole('heading', { name: 'Ничего не нашлось, но включен фильтр' }),
-    ).toBeTruthy();
-    fireEvent.click(screen.getByRole('button', { name: 'Сбросить фильтр' }));
-    expect((screen.getByRole('searchbox') as HTMLInputElement).value).toBe('zzzznotaword');
     expect(screen.getByRole('heading', { name: 'Ничего не нашлось' })).toBeTruthy();
-    expect(screen.queryByText('но включен фильтр')).toBeNull();
+    expect(screen.queryByRole('status')).toBeNull();
     fireEvent.click(screen.getByRole('button', { name: 'Сбросить поиск' }));
     expect((screen.getByRole('searchbox') as HTMLInputElement).value).toBe('');
-    expect(container.querySelectorAll('.card')).toHaveLength(total);
-    expect(screen.getByRole('button', { name: 'Все темы' }).getAttribute('aria-pressed')).toBe(
-      'true',
-    );
+    expect(container.querySelectorAll('.card')).toHaveLength(section.entries.length);
+    expect(
+      screen
+        .getByRole('button', { name: section.translations.ru.title })
+        .getAttribute('aria-pressed'),
+    ).toBe('true');
   });
 
   it('restores and persists the niqqud preference', () => {
@@ -248,17 +245,18 @@ it('clears only the query and returns focus to the search field', () => {
   expect(screen.queryByRole('button', { name: 'Очистить поиск' })).toBeNull();
 });
 
-it('removes the Spanish topic filter while retaining a query that matches another topic', () => {
+it('shows Spanish matches from other topics while keeping the selected filter', () => {
   localStorage.setItem('ulpan-dictionary-language', 'es');
   const { container } = render(<App />);
   fireEvent.click(screen.getByRole('button', { name: 'Saludos y comunicación' }));
   fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'cancion' } });
-  expect(screen.getByText('pero hay un filtro activo')).toBeTruthy();
-  fireEvent.click(screen.getByRole('button', { name: 'Quitar filtro' }));
-  expect((screen.getByRole('searchbox') as HTMLInputElement).value).toBe('cancion');
-  expect(screen.getByRole('button', { name: 'Todos los temas' }).getAttribute('aria-pressed')).toBe(
-    'true',
+  expect(screen.getByRole('status').textContent).toBe(
+    'No se encontraron resultados en la categoría seleccionada. Estos son los resultados de todo el diccionario.',
   );
+  expect((screen.getByRole('searchbox') as HTMLInputElement).value).toBe('cancion');
+  expect(
+    screen.getByRole('button', { name: 'Saludos y comunicación' }).getAttribute('aria-pressed'),
+  ).toBe('true');
   expect(container.querySelector('.meaning mark')?.textContent).toBe('canción');
   expect(container.querySelector('.empty')).toBeNull();
 });

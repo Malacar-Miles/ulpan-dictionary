@@ -21,9 +21,8 @@ type Messages = {
   withoutNiqqud: string;
   withNiqqud: string;
   emptyTitle: string;
-  emptyFilterNotice: string;
+  searchFallbackNotice: string;
   emptyHint: string;
-  resetFilter: string;
   resetSearch: string;
   footer: string;
   records: (count: number, date: string) => string;
@@ -52,9 +51,8 @@ export const catalogs: Record<Locale, Messages> = {
     withoutNiqqud: 'Без никуд:',
     withNiqqud: 'С никудом:',
     emptyTitle: 'Ничего не нашлось',
-    emptyFilterNotice: 'но включен фильтр',
+    searchFallbackNotice: 'Ничего не найдено в выбранной категории. Вот результаты по всем словам.',
     emptyHint: 'Попробуй изменить запрос или выбрать другую тему.',
-    resetFilter: 'Сбросить фильтр',
     resetSearch: 'Сбросить поиск',
     footer: 'СЛОВАРЬ УЛЬПАНА',
     records: (count, date) => {
@@ -85,9 +83,9 @@ export const catalogs: Record<Locale, Messages> = {
     withoutNiqqud: 'Sin niqqud:',
     withNiqqud: 'Con niqqud:',
     emptyTitle: 'No se encontraron resultados',
-    emptyFilterNotice: 'pero hay un filtro activo',
+    searchFallbackNotice:
+      'No se encontraron resultados en la categoría seleccionada. Estos son los resultados de todo el diccionario.',
     emptyHint: 'Prueba otra búsqueda o selecciona otro tema.',
-    resetFilter: 'Quitar filtro',
     resetSearch: 'Borrar búsqueda',
     footer: 'DICCIONARIO DEL ULPÁN',
     records: (count, date) => `${count} ${count === 1 ? 'entrada' : 'entradas'} · Act. ${date}`,

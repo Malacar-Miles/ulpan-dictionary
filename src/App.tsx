@@ -40,13 +40,13 @@ const DictionaryApp = () => {
         ref={contentRef}
       >
         <DictionaryResults
-          hasActiveFilter={dictionary.hasActiveFilter}
+          showFallbackNotice={dictionary.showFallbackNotice}
           title={dictionary.resultsTitle}
           count={dictionary.count}
           sections={dictionary.results}
           query={dictionary.resultsQuery}
           showNiqqud={dictionary.showNiqqud}
-          onReset={dictionary.resetFilterOrSearch}
+          onReset={dictionary.clearQuery}
         />
         <DictionaryFooter intro={dictionary.intro} />
       </main>

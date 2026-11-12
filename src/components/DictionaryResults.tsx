@@ -4,7 +4,7 @@ import type { DictionarySection as Section } from '../types';
 import { DictionarySection } from './DictionarySection';
 import { EmptyResults } from './EmptyResults';
 type DictionaryResultsProps = {
-  hasActiveFilter: boolean;
+  showFallbackNotice: boolean;
   title: string;
   count: number;
   sections: Section[];
@@ -14,7 +14,7 @@ type DictionaryResultsProps = {
 };
 export const DictionaryResults = memo(
   ({
-    hasActiveFilter,
+    showFallbackNotice,
     title,
     count,
     sections,
@@ -25,6 +25,11 @@ export const DictionaryResults = memo(
     const { messages } = useLocale();
     return (
       <>
+        {showFallbackNotice && (
+          <p className="search-fallback-notice" role="status">
+            {messages.searchFallbackNotice}
+          </p>
+        )}
         <div className="results-head">
           <div>
             <p className="eyebrow">
@@ -46,7 +51,7 @@ export const DictionaryResults = memo(
             />
           ))
         ) : (
-          <EmptyResults hasActiveFilter={hasActiveFilter} onReset={onReset} />
+          <EmptyResults onReset={onReset} />
         )}
       </>
     );
