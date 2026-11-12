@@ -1,4 +1,4 @@
-import { useMemo, useState, type ChangeEvent } from 'react';
+import { useCallback, useDeferredValue, useMemo, useState, type ChangeEvent } from 'react';
 import dictionary from '../dictionary.json';
 import {
   ALL_TOPICS,
@@ -15,15 +15,16 @@ export const useDictionary = () => {
   const sections = useMemo(() => localizeSections(locale), [locale]);
   const { showNiqqud, setShowNiqqud } = useNiqqudPreference();
   const [query, setQuery] = useState('');
+  const resultsQuery = useDeferredValue(query);
   const [activeTopic, setActiveTopic] = useState(ALL_TOPICS);
   const results = useMemo(
-    () => filterSections(query, activeTopic, locale),
-    [query, activeTopic, locale],
+    () => filterSections(resultsQuery, activeTopic, locale),
+    [resultsQuery, activeTopic, locale],
   );
-  const resetFilterOrSearch = () => {
+  const resetFilterOrSearch = useCallback(() => {
     if (activeTopic !== ALL_TOPICS) setActiveTopic(ALL_TOPICS);
     else setQuery('');
-  };
+  }, [activeTopic]);
   const clearQuery = () => setQuery('');
   const changeQuery = (event: ChangeEvent<HTMLInputElement>) => setQuery(event.target.value);
   const changeNiqqud = (event: ChangeEvent<HTMLInputElement>) =>
@@ -31,6 +32,7 @@ export const useDictionary = () => {
 
   return {
     query,
+    resultsQuery,
     activeTopic,
     hasActiveFilter: activeTopic !== ALL_TOPICS,
     showNiqqud,

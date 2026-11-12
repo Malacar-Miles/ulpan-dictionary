@@ -11,7 +11,7 @@ const DictionaryApp = () => {
   const dictionary = useDictionary();
   const { handwriting, changeHandwriting } = useHandwritingPreference();
   const { controlsRef, contentRef, startEditing, stopEditing, preserveSearchFocus } =
-    useDictionaryLayout(dictionary.query, dictionary.activeTopic);
+    useDictionaryLayout(dictionary.resultsQuery, dictionary.activeTopic);
 
   return (
     <>
@@ -44,7 +44,7 @@ const DictionaryApp = () => {
           title={dictionary.resultsTitle}
           count={dictionary.count}
           sections={dictionary.results}
-          query={dictionary.query}
+          query={dictionary.resultsQuery}
           showNiqqud={dictionary.showNiqqud}
           onReset={dictionary.resetFilterOrSearch}
         />
