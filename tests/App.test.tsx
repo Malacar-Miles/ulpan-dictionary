@@ -17,19 +17,24 @@ beforeEach(() => {
     'ResizeObserver',
     class {
       observe = vi.fn();
+      unobserve = vi.fn();
       disconnect = vi.fn();
     },
   );
+  vi.stubGlobal('scrollTo', vi.fn());
+  vi.spyOn(HTMLElement.prototype, 'offsetHeight', 'get').mockReturnValue(160);
   HTMLElement.prototype.scrollTo = vi.fn();
 });
 afterEach(() => {
   cleanup();
   vi.unstubAllGlobals();
+  vi.unstubAllEnvs();
   vi.restoreAllMocks();
 });
 
 describe('dictionary interface', () => {
   it('renders every entry, filters topics, searches, and resets empty results', () => {
+    vi.stubEnv('VITE_VIRTUALIZE_RESULTS', 'false');
     const { container } = render(<App />);
     const total = dictionary.sections.reduce((sum, section) => sum + section.entries.length, 0);
     expect(container.querySelectorAll('.card')).toHaveLength(total);
@@ -200,7 +205,7 @@ describe('localization', () => {
         name: 'Borrar búsqueda',
       }),
     );
-    expect(container.querySelectorAll('.card')).toHaveLength(
+    expect(Number(container.querySelector('.results-head strong')?.textContent)).toBe(
       dictionary.sections.reduce((sum, section) => sum + section.entries.length, 0),
     );
   });
@@ -271,6 +276,7 @@ it('shows Spanish matches from other topics while keeping the selected filter', 
 });
 
 it('switches directly from the topic chooser to newest-first addition dates across topics', () => {
+  vi.stubEnv('VITE_VIRTUALIZE_RESULTS', 'false');
   const { container } = render(<App />);
   const entries = dictionary.sections.flatMap((section) => section.entries);
   const dates = [...new Set(entries.map((entry) => entry.addedAt))].sort().reverse();
@@ -323,4 +329,20 @@ it.each([true, false])('returns to the expected topic for compact tabs = %s', (c
   expect(screen.getByRole('heading', { level: 2 }).textContent).toBe('По дате добавления');
   fireEvent.click(topics);
   expect(screen.getByRole('heading', { level: 2 }).textContent).toBe(compact ? 'Все слова' : title);
+});
+
+it('mounts a moving window of cards as the reader scrolls', () => {
+  vi.stubEnv('VITE_VIRTUALIZE_RESULTS', 'true');
+  const { container } = render(<App />);
+  const total = dictionary.sections.reduce((sum, section) => sum + section.entries.length, 0);
+  const firstMeaning = dictionary.sections[0].entries[0].translations.ru.meaning;
+  expect(container.querySelector('.meaning')?.textContent).toBe(firstMeaning);
+  expect(container.querySelectorAll('.card').length).toBeLessThan(total);
+  vi.stubGlobal('scrollY', 4000);
+  fireEvent.scroll(window);
+  expect(container.querySelector('.meaning')?.textContent).not.toBe(firstMeaning);
+  expect(container.querySelectorAll('.card').length).toBeGreaterThan(0);
+  vi.stubGlobal('scrollY', 0);
+  fireEvent.scroll(window);
+  expect(container.querySelector('.meaning')?.textContent).toBe(firstMeaning);
 });

@@ -1,7 +1,8 @@
 import { memo } from 'react';
 import { useLocale } from '../localization/context';
 import type { DictionarySection as Section } from '../types';
-import { DictionarySection } from './DictionarySection';
+import { VirtualDictionarySections } from './VirtualDictionarySections';
+import { DictionarySections } from './DictionarySection';
 import { EmptyResults } from './EmptyResults';
 type DictionaryResultsProps = {
   showFallbackNotice: boolean;
@@ -26,6 +27,10 @@ export const DictionaryResults = memo(
     showNiqqud,
     onReset,
   }: DictionaryResultsProps) => {
+    const Sections =
+      import.meta.env.VITE_VIRTUALIZE_RESULTS === 'false'
+        ? DictionarySections
+        : VirtualDictionarySections;
     const { messages } = useLocale();
     return (
       <>
@@ -47,14 +52,7 @@ export const DictionaryResults = memo(
           </p>
         </div>
         {sections.length ? (
-          sections.map((section) => (
-            <DictionarySection
-              key={section.id}
-              section={section}
-              query={query}
-              showNiqqud={showNiqqud}
-            />
-          ))
+          <Sections sections={sections} query={query} showNiqqud={showNiqqud} />
         ) : (
           <EmptyResults onReset={onReset} />
         )}

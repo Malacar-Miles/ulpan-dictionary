@@ -1,12 +1,14 @@
 import { createTouchScrollHandlers } from './helpers/touchScroll';
 import { useLayoutEffect, useState } from 'react';
 
+export const isIPhone = () => /iPhone/i.test(navigator.userAgent);
+
 /** Keep a stable iPhone shell through keyboard opening and closing. */
 export const useSearchViewport = () => {
   const [editing, setEditing] = useState(false);
 
   useLayoutEffect(() => {
-    if (!/iPhone/i.test(navigator.userAgent)) return;
+    if (!isIPhone()) return;
     const root = document.documentElement;
     const viewport = window.visualViewport;
 
@@ -41,7 +43,7 @@ export const useSearchViewport = () => {
   return {
     editing,
     startEditing: () => {
-      if (/iPhone/i.test(navigator.userAgent)) setEditing(true);
+      if (isIPhone()) setEditing(true);
     },
     stopEditing: () => setEditing(false),
   };

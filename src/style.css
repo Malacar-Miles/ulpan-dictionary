@@ -330,9 +330,12 @@ h1 em {
   max-width: 850px;
   margin: 0 0 15px;
 }
+.content {
+  --card-columns: 3;
+}
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(var(--card-columns), minmax(0, 1fr));
   gap: 12px;
 }
 .card {
@@ -461,8 +464,8 @@ footer p {
   .filters {
     padding-top: 5px;
   }
-  .grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .content {
+    --card-columns: 2;
   }
   .content {
     padding-top: 30px;
@@ -487,8 +490,8 @@ footer p {
   .brand {
     font-size: 10px;
   }
-  .grid {
-    grid-template-columns: 1fr;
+  .content {
+    --card-columns: 1;
   }
   .card {
     min-height: 0;
@@ -857,4 +860,19 @@ html.iphone-layout,
   border-radius: 8px;
   background: #f7eadc;
   color: #80502c;
+}
+
+.virtual-sections {
+  position: relative;
+}
+.virtual-row {
+  position: absolute;
+  inset: 0 0 auto;
+  display: flow-root;
+}
+.virtual-card-row {
+  padding-bottom: 12px;
+}
+.virtual-section-end {
+  padding-bottom: 35px;
 }

@@ -91,3 +91,10 @@ UI catalogs live in `src/localization/catalogs.ts`; the language hook updates th
 Search covers Hebrew and the displayed language's meanings and pronunciation. Spanish search ignores vowel accents but distinguishes `ñ` from `n` and `h` from `ch`. Russian search retains its existing h/х and е/ё/э equivalences. Highlighting preserves the original accented letters and Hebrew niqqud.
 
 Latin phonetics follow [the student's approved conventions](docs/student-latin-phonetics.md), not generic Spanish transliteration. They are stored as reviewed data, not generated at runtime. Future dictionary additions must include both languages; use the project dictionary-addition skill.
+
+## Result virtualization
+
+The results grid uses TanStack React Virtual by default. To use the full grid,
+set `VITE_VIRTUALIZE_RESULTS=false` in `.env.local`. Remove the setting or set it
+to `true` to enable virtualization again. Restart Vite or rebuild for the change
+to take effect. Both renderers use the same cards, headings and search results.
