@@ -1,21 +1,11 @@
 // @vitest-environment jsdom
-import { useRef } from 'react';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { cleanup, fireEvent, render, screen } from '@testing-library/react';
 import { useSearchViewport } from '../src/useSearchViewport';
 
 const ViewportHarness = () => {
-  const controls = useRef<HTMLDivElement>(null);
-  const content = useRef<HTMLElement>(null);
-  const { startEditing, stopEditing } = useSearchViewport();
-  return (
-    <>
-      <div ref={controls}>
-        <input aria-label="Search" onFocus={startEditing} onBlur={stopEditing} />
-      </div>
-      <main ref={content} />
-    </>
-  );
+  useSearchViewport();
+  return <input aria-label="Search" />;
 };
 
 beforeEach(() => {
@@ -28,22 +18,12 @@ afterEach(() => {
 });
 
 describe('search viewport lifecycle', () => {
-  it('leaves the document layout alone on other devices', () => {
-    vi.spyOn(navigator, 'userAgent', 'get').mockReturnValue('Desktop');
-    render(<ViewportHarness />);
-    fireEvent.focus(screen.getByRole('textbox'));
-    expect(document.documentElement.classList.contains('iphone-layout')).toBe(false);
-  });
-
-  it('keeps the iPhone shell and resize tracking through focus and blur', () => {
-    vi.spyOn(navigator, 'userAgent', 'get').mockReturnValue('iPhone');
+  it('tracks the shared viewport through focus, blur and keyboard resizing', () => {
     const viewport = Object.assign(new EventTarget(), { height: 400, scale: 1 });
     vi.stubGlobal('visualViewport', viewport);
-    render(<ViewportHarness />);
-    expect(document.documentElement.classList.contains('iphone-layout')).toBe(true);
+    const { unmount } = render(<ViewportHarness />);
     fireEvent.focus(screen.getByRole('textbox'));
     const root = document.documentElement;
-    expect(root.classList.contains('iphone-layout')).toBe(true);
     expect(root.style.getPropertyValue('--search-viewport-height')).toBe('400px');
     viewport.height = 300;
     viewport.dispatchEvent(new Event('resize'));
@@ -53,10 +33,11 @@ describe('search viewport lifecycle', () => {
     viewport.dispatchEvent(new Event('resize'));
     expect(root.style.getPropertyValue('--search-viewport-height')).toBe('300px');
     fireEvent.blur(screen.getByRole('textbox'));
-    expect(root.classList.contains('iphone-layout')).toBe(true);
     expect(root.style.getPropertyValue('--search-viewport-height')).toBe('300px');
     expect(window.scrollTo).not.toHaveBeenCalled();
     viewport.dispatchEvent(new Event('resize'));
     expect(root.style.getPropertyValue('--search-viewport-height')).toBe('300px');
+    unmount();
+    expect(root.style.getPropertyValue('--search-viewport-height')).toBe('');
   });
 });

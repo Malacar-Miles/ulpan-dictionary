@@ -22,7 +22,7 @@ beforeEach(() => {
       disconnect = vi.fn();
     },
   );
-  vi.stubGlobal('scrollTo', vi.fn());
+  vi.spyOn(HTMLElement.prototype, 'clientHeight', 'get').mockReturnValue(768);
   vi.spyOn(HTMLElement.prototype, 'offsetHeight', 'get').mockReturnValue(160);
   HTMLElement.prototype.scrollTo = vi.fn();
 });
@@ -338,11 +338,12 @@ it('mounts a moving window of cards as the reader scrolls', () => {
   const firstMeaning = dictionary.sections[0].entries[0].translations.ru.meaning;
   expect(container.querySelector('.meaning')?.textContent).toBe(firstMeaning);
   expect(container.querySelectorAll('.card').length).toBeLessThan(total);
-  vi.stubGlobal('scrollY', 4000);
-  fireEvent.scroll(window);
+  const scroller = container.querySelector<HTMLElement>('.dictionary-scroll')!;
+  scroller.scrollTop = 4000;
+  fireEvent.scroll(scroller);
   expect(container.querySelector('.meaning')?.textContent).not.toBe(firstMeaning);
   expect(container.querySelectorAll('.card').length).toBeGreaterThan(0);
-  vi.stubGlobal('scrollY', 0);
-  fireEvent.scroll(window);
+  scroller.scrollTop = 0;
+  fireEvent.scroll(scroller);
   expect(container.querySelector('.meaning')?.textContent).toBe(firstMeaning);
 });

@@ -661,16 +661,9 @@ body {
 }
 /* Preserve scrolling space when the search returns few results. */
 .content {
-  min-height: max(0px, calc(100vh - var(--controls-height, 0px)));
-  min-height: max(0px, calc(100dvh - var(--controls-height, 0px)));
+  min-height: calc(100% - var(--controls-height, 0px));
 }
 
-/* Hide the introduction in the installed app, leaving dictionary controls visible. */
-@media (display-mode: standalone), (display-mode: fullscreen) {
-  .header {
-    display: none;
-  }
-}
 /* A 16px input font prevents iOS from zooming the page on focus. */
 @media (max-width: 750px), (pointer: coarse) {
   .search-wrap input {
@@ -678,44 +671,27 @@ body {
   }
 }
 
-/* Mobile search session: the panel and the results are separate flex rows.
-   The shell remains mounted before, during, and after search focus. */
-html.iphone-layout,
-.iphone-layout body {
+html,
+body {
   height: 100%;
   overflow: hidden;
-  overscroll-behavior: none;
 }
-.iphone-layout body {
+body {
   position: fixed;
   inset: 0;
 }
-.iphone-layout #root {
+.dictionary-scroll {
   height: var(--search-viewport-height, 100dvh);
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
 }
-.iphone-layout .header {
-  display: none;
-}
-.iphone-layout .sticky-controls {
-  position: relative;
-  flex: 0 0 auto;
+.sticky-controls {
   max-height: 60%;
   overflow-y: auto;
   overscroll-behavior: contain;
 }
-.iphone-layout .sticky-controls:has(.topic-trigger[aria-expanded='true']) {
+.sticky-controls:has(.topic-trigger[aria-expanded='true']) {
   max-height: 100%;
-}
-.iphone-layout .content {
-  flex: 1 1 0;
-  min-height: 0;
-  width: 100%;
-  margin: 0 auto;
-  overflow-y: auto;
-  overscroll-behavior-y: contain;
 }
 
 /* Change only Hebrew card spellings; keep the underlying text selectable. */

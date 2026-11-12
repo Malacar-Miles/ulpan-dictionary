@@ -32,7 +32,7 @@ The file contains `updatedAt` (`YYYY-MM-DD`), `intro.ru/es`, and topic sections.
 
 The app includes a web app manifest and can be added to the home screen after it is deployed over HTTPS. In Safari on iPhone, use **Share → Add to Home Screen**; on Android, use the browser's **Install app** or **Add to Home screen** option. Menu wording can vary by device and browser.
 
-When opened as an installed app, the introductory header is hidden and the search and filters remain visible. The current app requires an internet connection; it has no offline support or automatic update notification. An already open app does not automatically load a newly deployed dictionary.
+In the browser and the installed app, the logo and introduction scroll away while the search and filters stay pinned. The current app requires an internet connection; it has no offline support or automatic update notification. An already open app does not automatically load a newly deployed dictionary.
 
 ## Deployment
 
@@ -45,7 +45,7 @@ The app is configured to build as static files in `dist/`. The repository is con
 - `src/hooks/` owns dictionary state, saved preferences, and layout effects.
 - `src/helpers/` contains filtering, spelling selection, highlighting segments, and touch handling.
 - `src/search.ts` implements normalization, matching, and highlight ranges.
-- `src/useSearchViewport.ts` manages the existing iPhone search session and cleanup.
+- `src/useSearchViewport.ts` tracks the visible viewport height for the shared scroll container.
 - `src/types.ts` defines the shared dictionary types.
 - `tests/` covers search semantics and dictionary interactions.
 

@@ -11,8 +11,6 @@ type DictionaryControlsProps = {
   query: string;
   onQueryChange: ChangeEventHandler<HTMLInputElement>;
   onQueryClear: () => void;
-  onSearchFocus: () => void;
-  onSearchBlur: () => void;
   handwriting: boolean;
   onHandwritingChange: ChangeEventHandler<HTMLInputElement>;
   showNiqqud: boolean;
@@ -28,8 +26,6 @@ export const DictionaryControls = ({
   query,
   onQueryChange,
   onQueryClear,
-  onSearchFocus,
-  onSearchBlur,
   handwriting,
   onHandwritingChange,
   showNiqqud,
@@ -42,13 +38,7 @@ export const DictionaryControls = ({
   return (
     <div className="sticky-controls" ref={controlsRef} onPointerDownCapture={onPointerDownCapture}>
       <div className="wrap">
-        <SearchField
-          query={query}
-          onChange={onQueryChange}
-          onClear={onQueryClear}
-          onFocus={onSearchFocus}
-          onBlur={onSearchBlur}
-        />
+        <SearchField query={query} onChange={onQueryChange} onClear={onQueryClear} />
         <DisplayControls
           showNiqqud={showNiqqud}
           onNiqqudChange={onNiqqudChange}

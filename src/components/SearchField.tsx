@@ -6,10 +6,8 @@ type SearchFieldProps = {
   query: string;
   onChange: ChangeEventHandler<HTMLInputElement>;
   onClear: () => void;
-  onFocus: () => void;
-  onBlur: () => void;
 };
-export const SearchField = ({ query, onChange, onClear, onFocus, onBlur }: SearchFieldProps) => {
+export const SearchField = ({ query, onChange, onClear }: SearchFieldProps) => {
   const { messages } = useLocale();
   const { inputRef, preserveInputFocus, clear } = useSearchClear(onClear);
   const { wrapperRef, hintRef } = useSearchHintWidth();
@@ -29,8 +27,6 @@ export const SearchField = ({ query, onChange, onClear, onFocus, onBlur }: Searc
         placeholder={messages.searchPlaceholder}
         value={query}
         onChange={onChange}
-        onFocus={onFocus}
-        onBlur={onBlur}
         autoComplete="off"
         enterKeyHint="done"
       />

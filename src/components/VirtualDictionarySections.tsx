@@ -1,6 +1,5 @@
 import { useCallback, useLayoutEffect, useMemo, useRef, useState } from 'react';
-import { useVirtualizer, useWindowVirtualizer } from '@tanstack/react-virtual';
-import { isIPhone } from '../useSearchViewport';
+import { useVirtualizer } from '@tanstack/react-virtual';
 import type { DictionaryEntry, DictionarySection } from '../types';
 import { EntryGrid, SectionHeading, type SectionListProps } from './DictionarySection';
 
@@ -26,19 +25,17 @@ const buildRows = (sections: DictionarySection[], columns: number) => {
 
 export const VirtualDictionarySections = ({ sections, ...display }: SectionListProps) => {
   const list = useRef<HTMLDivElement>(null);
-  const inPane = isIPhone();
   const [columns, setColumns] = useState(3);
   const [scrollMargin, setScrollMargin] = useState(0);
 
   useLayoutEffect(() => {
     const element = list.current!;
     const main = element.closest('main')!;
+    const scroller = element.closest<HTMLElement>('.dictionary-scroll')!;
     const update = () => {
       setColumns(Number(getComputedStyle(element).getPropertyValue('--card-columns')) || 3);
       const top = element.getBoundingClientRect().top;
-      setScrollMargin(
-        inPane ? top - main.getBoundingClientRect().top + main.scrollTop : top + window.scrollY,
-      );
+      setScrollMargin(top - scroller.getBoundingClientRect().top + scroller.scrollTop);
     };
     update();
     // Controls, fonts and the fallback notice can move the list without a window resize.
@@ -51,25 +48,19 @@ export const VirtualDictionarySections = ({ sections, ...display }: SectionListP
       observer.disconnect();
       window.removeEventListener('resize', update);
     };
-  }, [inPane, sections]);
+  }, [sections]);
 
   const rows = useMemo(() => buildRows(sections, columns), [sections, columns]);
   const getItemKey = useCallback((index: number) => rows[index].key, [rows]);
-  const options = {
+  // eslint-disable-next-line react-hooks/incompatible-library -- Read the mutable instance during render.
+  const virtualizer = useVirtualizer<HTMLElement, HTMLDivElement>({
+    getScrollElement: () => list.current?.closest<HTMLElement>('.dictionary-scroll') ?? null,
     count: rows.length,
     getItemKey,
     estimateSize: (index: number) => ('section' in rows[index] ? 54 : 180),
     overscan: 4,
     scrollMargin,
-  };
-  const page = useWindowVirtualizer<HTMLDivElement>({ ...options, enabled: !inPane });
-  // eslint-disable-next-line react-hooks/incompatible-library -- Read the mutable instance during render.
-  const pane = useVirtualizer<HTMLElement, HTMLDivElement>({
-    ...options,
-    enabled: inPane,
-    getScrollElement: () => list.current?.closest('main') ?? null,
   });
-  const virtualizer = inPane ? pane : page;
 
   return (
     <div className="virtual-sections" ref={list} style={{ height: virtualizer.getTotalSize() }}>

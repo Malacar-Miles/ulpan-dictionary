@@ -2,7 +2,7 @@ import { useLocale } from '../localization/context';
 export const DictionaryHeader = () => {
   const { messages } = useLocale();
   return (
-    <header className="header">
+    <header id="top" className="header">
       <div className="wrap">
         <div className="topline">
           <a className="brand" href="#top" aria-label={messages.backToTop}>

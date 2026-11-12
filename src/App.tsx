@@ -10,11 +10,13 @@ import { useDictionaryLayout } from './hooks/useDictionaryLayout';
 const DictionaryApp = () => {
   const dictionary = useDictionary();
   const { handwriting, changeHandwriting } = useHandwritingPreference();
-  const { controlsRef, contentRef, startEditing, stopEditing, preserveSearchFocus } =
-    useDictionaryLayout(dictionary.resultsQuery, dictionary.activeTopic);
+  const { controlsRef, scrollRef, preserveSearchFocus } = useDictionaryLayout(
+    dictionary.resultsQuery,
+    dictionary.activeTopic,
+  );
 
   return (
-    <>
+    <div className="dictionary-scroll" ref={scrollRef}>
       <DictionaryHeader />
       <DictionaryControls
         controlsRef={controlsRef}
@@ -22,8 +24,6 @@ const DictionaryApp = () => {
         query={dictionary.query}
         onQueryChange={dictionary.changeQuery}
         onQueryClear={dictionary.clearQuery}
-        onSearchFocus={startEditing}
-        onSearchBlur={stopEditing}
         handwriting={handwriting}
         onHandwritingChange={changeHandwriting}
         showNiqqud={dictionary.showNiqqud}
@@ -33,11 +33,7 @@ const DictionaryApp = () => {
         selectedTopic={dictionary.selectedTopic}
         onTopicSelect={dictionary.setActiveTopic}
       />
-      <main
-        id="top"
-        className={`wrap content${handwriting ? ' handwritten' : ''}`}
-        ref={contentRef}
-      >
+      <main className={`wrap content${handwriting ? ' handwritten' : ''}`}>
         <DictionaryResults
           total={dictionary.total}
           updated={dictionary.updated}
@@ -51,7 +47,7 @@ const DictionaryApp = () => {
         />
         <DictionaryFooter intro={dictionary.intro} />
       </main>
-    </>
+    </div>
   );
 };
 
