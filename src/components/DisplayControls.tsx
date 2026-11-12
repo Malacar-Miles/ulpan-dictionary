@@ -1,5 +1,6 @@
 import type { ChangeEventHandler } from 'react';
-import { useLanguageMenu } from '../hooks/useLanguageMenu';
+import { useCollapse } from '../hooks/useCollapse';
+import { Collapse } from './Collapse';
 import { useLocale } from '../localization/context';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { NiqqudToggle } from './NiqqudToggle';
@@ -18,8 +19,8 @@ export const DisplayControls = ({
   handwriting,
   onHandwritingChange,
 }: DisplayControlsProps) => {
-  const { messages } = useLocale();
-  const { isOpen, panelId, buttonRef, panelRef, toggle, close, selectLanguage } = useLanguageMenu();
+  const { messages, setLocale } = useLocale();
+  const { isOpen, panelId, buttonRef, panelRef, toggle, close } = useCollapse();
   return (
     <>
       <div className="niqqud-row">
@@ -51,20 +52,16 @@ export const DisplayControls = ({
           </svg>
         </button>
       </div>
-      <div
-        id={panelId}
-        ref={panelRef}
-        className={`language-panel${isOpen ? ' is-open' : ''}`}
-        aria-hidden={!isOpen}
-        inert={!isOpen}
-        onKeyDown={(event) => {
-          if (event.key === 'Escape') close();
-        }}
-      >
-        <div className="language-panel-content">
-          <LanguageSwitcher onSelect={selectLanguage} />
+      <Collapse isOpen={isOpen} panelId={panelId} panelRef={panelRef} close={close}>
+        <div className="language-options">
+          <LanguageSwitcher
+            onSelect={(locale) => {
+              setLocale(locale);
+              close();
+            }}
+          />
         </div>
-      </div>
+      </Collapse>
     </>
   );
 };

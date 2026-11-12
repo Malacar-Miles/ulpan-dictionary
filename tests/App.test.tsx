@@ -29,6 +29,7 @@ describe('dictionary interface', () => {
     const total = dictionary.sections.reduce((sum, section) => sum + section.entries.length, 0);
     expect(container.querySelectorAll('.card')).toHaveLength(total);
     const section = dictionary.sections[0];
+    fireEvent.click(screen.getByRole('button', { name: 'Все темы' }));
     fireEvent.click(screen.getByRole('button', { name: section.translations.ru.title }));
     expect(container.querySelectorAll('.card')).toHaveLength(section.entries.length);
     expect(screen.getByRole('heading', { level: 2 }).textContent).toBe(
@@ -43,8 +44,8 @@ describe('dictionary interface', () => {
     expect(
       screen
         .getByRole('button', { name: section.translations.ru.title })
-        .getAttribute('aria-pressed'),
-    ).toBe('true');
+        .getAttribute('aria-expanded'),
+    ).toBe('false');
   });
 
   it('restores and persists the niqqud preference', () => {
@@ -119,6 +120,7 @@ describe('dictionary interface', () => {
 describe('localization', () => {
   it('switches language without losing the topic, query, or display preferences', () => {
     const { container, unmount } = render(<App />);
+    fireEvent.click(screen.getByRole('button', { name: 'Все темы' }));
     fireEvent.click(screen.getByRole('button', { name: 'Глаголы и состояния' }));
     fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'הולך' } });
     fireEvent.click(screen.getByRole('checkbox', { name: 'Никуд' }));
@@ -128,8 +130,8 @@ describe('localization', () => {
     expect(document.documentElement.lang).toBe('es');
     expect(document.title).toBe('Diccionario del ulpán');
     expect(
-      screen.getByRole('button', { name: 'Verbos y estados' }).getAttribute('aria-pressed'),
-    ).toBe('true');
+      screen.getByRole('button', { name: 'Verbos y estados' }).getAttribute('aria-expanded'),
+    ).toBe('false');
     expect((screen.getByRole('searchbox') as HTMLInputElement).value).toBe('הולך');
     expect((screen.getByRole('checkbox', { name: 'Niqqud' }) as HTMLInputElement).checked).toBe(
       false,
@@ -140,7 +142,7 @@ describe('localization', () => {
       'holéch / holéchet / holchím / holchót',
     );
     expect(container.querySelector('.meaning')?.textContent).toBe('va, camina');
-    expect(container.querySelector('.filters-search-active button.active')?.textContent).toBe(
+    expect(container.querySelector('.filters-search-active .topic-trigger')?.textContent).toBe(
       'Verbos y estados',
     );
     const total = dictionary.sections.reduce((sum, section) => sum + section.entries.length, 0);
@@ -233,6 +235,7 @@ it('clears only the query and returns focus to the search field', () => {
   render(<App />);
   expect(screen.queryByRole('button', { name: 'Очистить поиск' })).toBeNull();
   const topic = dictionary.sections[0].translations.ru.title;
+  fireEvent.click(screen.getByRole('button', { name: 'Все темы' }));
   fireEvent.click(screen.getByRole('button', { name: topic }));
   const input = screen.getByRole('searchbox') as HTMLInputElement;
   fireEvent.change(input, { target: { value: 'תודה' } });
@@ -241,13 +244,14 @@ it('clears only the query and returns focus to the search field', () => {
   fireEvent.click(clear);
   expect(input.value).toBe('');
   expect(document.activeElement).toBe(input);
-  expect(screen.getByRole('button', { name: topic }).getAttribute('aria-pressed')).toBe('true');
+  expect(screen.getByRole('button', { name: topic }).getAttribute('aria-expanded')).toBe('false');
   expect(screen.queryByRole('button', { name: 'Очистить поиск' })).toBeNull();
 });
 
 it('shows Spanish matches from other topics while keeping the selected filter', () => {
   localStorage.setItem('ulpan-dictionary-language', 'es');
   const { container } = render(<App />);
+  fireEvent.click(screen.getByRole('button', { name: 'Todos los temas' }));
   fireEvent.click(screen.getByRole('button', { name: 'Saludos y comunicación' }));
   fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'cancion' } });
   expect(screen.getByRole('status').textContent).toBe(
@@ -255,8 +259,8 @@ it('shows Spanish matches from other topics while keeping the selected filter', 
   );
   expect((screen.getByRole('searchbox') as HTMLInputElement).value).toBe('cancion');
   expect(
-    screen.getByRole('button', { name: 'Saludos y comunicación' }).getAttribute('aria-pressed'),
-  ).toBe('true');
+    screen.getByRole('button', { name: 'Saludos y comunicación' }).getAttribute('aria-expanded'),
+  ).toBe('false');
   expect(container.querySelector('.meaning mark')?.textContent).toBe('canción');
   expect(container.querySelector('.empty')).toBeNull();
 });

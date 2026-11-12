@@ -180,9 +180,6 @@ h1 em {
   font-weight: 700;
 }
 .filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 7px;
   padding-bottom: 26px;
 }
 .filters button,
@@ -203,13 +200,38 @@ h1 em {
     border-color: #78a48e;
   }
 }
-.filters button.active {
+.topic-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 10px 5px 5px;
+}
+.topic-options button[aria-pressed='true'] {
+  background: #d4e5db;
+  border-color: #78a48e;
+  color: #234c3c;
+}
+.topic-trigger::after {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 0 2px 2px 10px;
+  border: solid currentColor;
+  border-width: 0 1.5px 1.5px 0;
+  transform: rotate(45deg);
+}
+.topic-trigger[aria-expanded='true']::after {
+  transform: rotate(225deg);
+  vertical-align: middle;
+}
+.filters .topic-trigger {
   background: #285d4b;
   border-color: #285d4b;
   color: white;
 }
 @media (prefers-reduced-motion: no-preference) {
-  .filters-search-active button.active {
+  .filters-search-active .topic-trigger {
     animation: active-topic-pulse 2.4s ease-in-out infinite;
   }
 }
@@ -432,14 +454,7 @@ footer p {
     padding-right: calc(var(--search-padding) + 2px);
   }
   .filters {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    margin: 0 -20px;
-    padding: 5px 20px 18px;
-    scrollbar-width: thin;
-  }
-  .filters button {
-    white-space: nowrap;
+    padding-top: 5px;
   }
   .grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -543,7 +558,6 @@ mark {
   }
   .filters {
     padding-block: 8px 20px;
-    row-gap: 8px;
   }
 }
 @media (max-width: 750px) {
@@ -579,12 +593,6 @@ mark {
 }
 @media (max-width: 470px) {
   .wrap {
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-  .filters {
-    margin-left: -12px;
-    margin-right: -12px;
     padding-left: 12px;
     padding-right: 12px;
   }
@@ -681,6 +689,9 @@ html.iphone-layout,
   overflow-y: auto;
   overscroll-behavior: contain;
 }
+.iphone-layout .sticky-controls:has(.topic-trigger[aria-expanded='true']) {
+  max-height: 100%;
+}
 .iphone-layout .content {
   flex: 1 1 0;
   min-height: 0;
@@ -756,41 +767,41 @@ html.iphone-layout,
   outline: 3px solid #d49663;
   outline-offset: 2px;
 }
-.language-panel {
+.collapse {
   display: grid;
   grid-template-rows: 0fr;
   visibility: hidden;
 }
-.language-panel.is-open {
+.collapse.is-open {
   grid-template-rows: 1fr;
   visibility: visible;
 }
-.language-panel-content {
+.collapse-content {
   min-height: 0;
   overflow: hidden;
-  display: flex;
-  justify-content: flex-end;
   opacity: 0;
 }
-.language-panel.is-open .language-panel-content {
+.collapse.is-open .collapse-content {
   opacity: 1;
 }
-.language-panel-content .language-switcher {
-  margin: 8px 4px 4px;
+.language-options {
+  display: flex;
+  justify-content: flex-end;
+  padding: 8px 4px 4px;
 }
 @media (prefers-reduced-motion: no-preference) {
-  .language-panel {
+  .collapse {
     transition:
       grid-template-rows 160ms ease-out 160ms,
       visibility 0s 320ms;
   }
-  .language-panel.is-open {
+  .collapse.is-open {
     transition-delay: 0s;
   }
-  .language-panel-content {
+  .collapse-content {
     transition: opacity 160ms ease-out;
   }
-  .language-panel.is-open .language-panel-content {
+  .collapse.is-open .collapse-content {
     transition-delay: 160ms;
   }
 }

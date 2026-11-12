@@ -1,9 +1,5 @@
 import { useId, useRef, useState } from 'react';
-import { useLocale } from '../localization/context';
-import type { Locale } from '../localization/catalogs';
-
-export const useLanguageMenu = () => {
-  const { setLocale } = useLocale();
+export const useCollapse = () => {
   const [isOpen, setIsOpen] = useState(false);
   const panelId = useId();
   const buttonRef = useRef<HTMLButtonElement>(null);
@@ -14,10 +10,5 @@ export const useLanguageMenu = () => {
     if (panelRef.current?.contains(document.activeElement)) buttonRef.current?.focus();
     setIsOpen(false);
   };
-  const selectLanguage = (locale: Locale) => {
-    setLocale(locale);
-    close();
-  };
-
-  return { isOpen, panelId, buttonRef, panelRef, toggle, close, selectLanguage };
+  return { isOpen, panelId, buttonRef, panelRef, toggle, close };
 };
