@@ -32,7 +32,7 @@ The file contains `updatedAt` (`YYYY-MM-DD`), `intro.ru/es`, and topic sections.
 
 The app includes a web app manifest and can be added to the home screen after it is deployed over HTTPS. In Safari on iPhone, use **Share → Add to Home Screen**; on Android, use the browser's **Install app** or **Add to Home screen** option. Menu wording can vary by device and browser.
 
-In the browser and the installed app, the logo and introduction scroll away while the search and filters stay pinned. The current app requires an internet connection; it has no offline support or automatic update notification. An already open app does not automatically load a newly deployed dictionary.
+In both the browser and the installed app, search and filters stay pinned. The logo and introduction are hidden at viewport widths of 750px or less and scroll away on larger screens. The current app requires an internet connection; it has no offline support or automatic update notification. An already open app does not automatically load a newly deployed dictionary.
 
 ## Deployment
 
