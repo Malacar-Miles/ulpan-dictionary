@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "intro": {
     "ru": "Произношение приблизительное; ударение обозначено знаком над гласной. ה в транскрипции обозначено как h. Примеры и уточнения добавлены для понимания.",
     "es": "La pronunciación es aproximada; la tilde indica el acento. h representa una ה pronunciada; ch, el sonido de ח o כ sin dagesh; sh, el de שׁ; z, el de צ (ts). s representa tanto ס/שׂ como ז. g siempre representa el sonido de «gato», incluso ante e o i; y representa el sonido de י consonántica. Son convenciones personales de aprendizaje, no reglas de ortografía española. Se incluyen ejemplos y aclaraciones."
@@ -319,6 +319,81 @@
             "es": {
               "pronunciation": "símu lev",
               "meaning": "¡presten atención! Expresión fija; imperativo dirigido a un grupo"
+            }
+          }
+        },
+        {
+          "hebrew": "נסיעה טובה",
+          "hebrewWithNiqqud": "נְסִיעָה טוֹבָה",
+          "id": "word-390",
+          "translations": {
+            "ru": {
+              "pronunciation": "несиа́ това́",
+              "meaning": "счастливого пути!"
+            },
+            "es": {
+              "pronunciation": "nesiá tová",
+              "meaning": "¡buen viaje!"
+            }
+          }
+        },
+        {
+          "hebrew": "בתיאבון",
+          "hebrewWithNiqqud": "בְּתֵאָבוֹן",
+          "id": "word-393",
+          "translations": {
+            "ru": {
+              "pronunciation": "бетеаво́н",
+              "meaning": "приятного аппетита!"
+            },
+            "es": {
+              "pronunciation": "beteavón",
+              "meaning": "¡buen provecho!"
+            }
+          }
+        },
+        {
+          "hebrew": "מה קרה?",
+          "hebrewWithNiqqud": "מָה קָרָה?",
+          "id": "word-395",
+          "translations": {
+            "ru": {
+              "pronunciation": "ма кара́",
+              "meaning": "что случилось?"
+            },
+            "es": {
+              "pronunciation": "ma kará",
+              "meaning": "¿qué pasó?"
+            }
+          }
+        },
+        {
+          "hebrew": "יהיה בסדר",
+          "hebrewWithNiqqud": "יִהְיֶה בְּסֵדֶר",
+          "id": "word-396",
+          "translations": {
+            "ru": {
+              "pronunciation": "йиhье́ бесе́дер",
+              "meaning": "всё будет в порядке"
+            },
+            "es": {
+              "pronunciation": "yihyé beséder",
+              "meaning": "todo irá bien"
+            }
+          }
+        },
+        {
+          "hebrew": "אותו דבר",
+          "hebrewWithNiqqud": "אוֹתוֹ דָּבָר",
+          "id": "word-402",
+          "translations": {
+            "ru": {
+              "pronunciation": "ото́ дава́р",
+              "meaning": "то же самое"
+            },
+            "es": {
+              "pronunciation": "otó davár",
+              "meaning": "lo mismo"
             }
           }
         }
@@ -1234,6 +1309,21 @@
             "es": {
               "pronunciation": "bachúr / bachurá / bachurím / bachurót",
               "meaning": "joven (hombre) / joven (mujer) / jóvenes (hombres) / jóvenes (mujeres); masculino singular / femenino singular / masculino plural / femenino plural."
+            }
+          }
+        },
+        {
+          "hebrew": "קרוב משפחה / קרובת משפחה / קרובי משפחה / קרובות משפחה",
+          "hebrewWithNiqqud": "קְרוֹב מִשְׁפָּחָה / קְרוֹבַת מִשְׁפָּחָה / קְרוֹבֵי מִשְׁפָּחָה / קְרוֹבוֹת מִשְׁפָּחָה",
+          "id": "word-399",
+          "translations": {
+            "ru": {
+              "pronunciation": "кров мишпаха́ / крова́т мишпаха́ / крове́й мишпаха́ / крово́т мишпаха́",
+              "meaning": "родственник / родственница / родственники / родственницы"
+            },
+            "es": {
+              "pronunciation": "krov mishpachá / krovát mishpachá / krovéy mishpachá / krovót mishpachá",
+              "meaning": "pariente (hombre) / pariente (mujer) / parientes (hombres o grupo mixto) / parientes (mujeres)"
             }
           }
         }
@@ -2781,6 +2871,21 @@
               "meaning": "agua. En hebreo concuerda en masculino plural."
             }
           }
+        },
+        {
+          "hebrew": "מתנה / מתנות",
+          "hebrewWithNiqqud": "מַתָּנָה / מַתָּנוֹת",
+          "id": "word-391",
+          "translations": {
+            "ru": {
+              "pronunciation": "матана́ / матано́т",
+              "meaning": "подарок / подарки (ж. род в иврите)"
+            },
+            "es": {
+              "pronunciation": "mataná / matanót",
+              "meaning": "regalo / regalos (femenino en hebreo)"
+            }
+          }
         }
       ],
       "id": "places",
@@ -3591,6 +3696,51 @@
               "meaning": "problema / problemas (femenino en hebreo)"
             }
           }
+        },
+        {
+          "hebrew": "תור / תורים",
+          "hebrewWithNiqqud": "תּוֹר / תּוֹרִים",
+          "id": "word-387",
+          "translations": {
+            "ru": {
+              "pronunciation": "тор / тори́м",
+              "meaning": "очередь, черёд или запись на приём / очереди, записи на приём (м. род)"
+            },
+            "es": {
+              "pronunciation": "tor / torím",
+              "meaning": "fila, turno o cita / filas, turnos o citas (masculino en hebreo)"
+            }
+          }
+        },
+        {
+          "hebrew": "שעה / שעות",
+          "hebrewWithNiqqud": "שָׁעָה / שָׁעוֹת",
+          "id": "word-394",
+          "translations": {
+            "ru": {
+              "pronunciation": "шаа́ / шао́т",
+              "meaning": "час / часы (ж. род). С артиклем השעה (הַשָּׁעָה, hашаа́). מה השעה? — Который час?"
+            },
+            "es": {
+              "pronunciation": "shaá / shaót",
+              "meaning": "hora / horas (femenino). Con artículo השעה (הַשָּׁעָה, hashaá). מה השעה? — ¿Qué hora es?"
+            }
+          }
+        },
+        {
+          "hebrew": "זוג / זוגות",
+          "hebrewWithNiqqud": "זוּג / זוּגוֹת",
+          "id": "word-400",
+          "translations": {
+            "ru": {
+              "pronunciation": "зуг / зуго́т",
+              "meaning": "пара / пары (м. род в иврите)"
+            },
+            "es": {
+              "pronunciation": "sug / sugót",
+              "meaning": "pareja, par / parejas, pares (masculino en hebreo)"
+            }
+          }
         }
       ],
       "id": "study",
@@ -4264,6 +4414,66 @@
             "es": {
               "pronunciation": "mechaké / mechaká / mechakím / mechakót",
               "meaning": "espera (singular) / esperan (plural). En hebreo se usa ל־ ante la persona o cosa que se espera."
+            }
+          }
+        },
+        {
+          "hebrew": "מכיר / מכירה / מכירים / מכירות",
+          "hebrewWithNiqqud": "מַכִּיר / מַכִּירָה / מַכִּירִים / מַכִּירוֹת",
+          "id": "word-389",
+          "translations": {
+            "ru": {
+              "pronunciation": "маки́р / макира́ / макири́м / макиро́т",
+              "meaning": "знает, знаком с кем-либо или чем-либо, узнаёт"
+            },
+            "es": {
+              "pronunciation": "makír / makirá / makirím / makirót",
+              "meaning": "conoce a alguien o algo, reconoce"
+            }
+          }
+        },
+        {
+          "hebrew": "בוכה / בוכה / בוכים / בוכות",
+          "hebrewWithNiqqud": "בּוֹכֶה / בּוֹכָה / בּוֹכִים / בּוֹכוֹת",
+          "id": "word-392",
+          "translations": {
+            "ru": {
+              "pronunciation": "бохе́ / боха́ / бохи́м / бохо́т",
+              "meaning": "плачет / плачет / плачут / плачут"
+            },
+            "es": {
+              "pronunciation": "boché / bochá / bochím / bochót",
+              "meaning": "llora / llora / lloran / lloran"
+            }
+          }
+        },
+        {
+          "hebrew": "דומה ל־ / דומה ל־ / דומים ל־ / דומות ל־",
+          "hebrewWithNiqqud": "דּוֹמֶה לְ־ / דּוֹמָה לְ־ / דּוֹמִים לְ־ / דּוֹמוֹת לְ־",
+          "id": "word-403",
+          "translations": {
+            "ru": {
+              "pronunciation": "доме́ ле- / дома́ ле- / доми́м ле- / домо́т ле-",
+              "meaning": "похож на / похожа на / похожи на (м.) / похожи на (ж.)"
+            },
+            "es": {
+              "pronunciation": "domé le- / domá le- / domím le- / domót le-",
+              "meaning": "se parece a (m.) / se parece a (f.) / se parecen a (m.) / se parecen a (f.)"
+            }
+          }
+        },
+        {
+          "hebrew": "מגיע / מגיעה / מגיעים / מגיעות",
+          "hebrewWithNiqqud": "מַגִּיעַ / מַגִּיעָה / מַגִּיעִים / מַגִּיעוֹת",
+          "id": "word-404",
+          "translations": {
+            "ru": {
+              "pronunciation": "маги́а / магиа́ / магии́м / магио́т",
+              "meaning": "прибывает, добирается (до места)"
+            },
+            "es": {
+              "pronunciation": "magía / magiá / magiím / magiót",
+              "meaning": "llega a un lugar"
             }
           }
         }
@@ -4941,6 +5151,51 @@
               "meaning": "alquilado / alquilada / alquilados / alquiladas; masculino singular / femenino singular / masculino plural / femenino plural. Por ejemplo: דירה שכורה — apartamento alquilado."
             }
           }
+        },
+        {
+          "hebrew": "עצוב / עצובה / עצובים / עצובות",
+          "hebrewWithNiqqud": "עָצוּב / עֲצוּבָה / עֲצוּבִים / עֲצוּבוֹת",
+          "id": "word-388",
+          "translations": {
+            "ru": {
+              "pronunciation": "ацу́в / ацува́ / ацуви́м / ацуво́т",
+              "meaning": "грустный / грустная / грустные (м.) / грустные (ж.)"
+            },
+            "es": {
+              "pronunciation": "azúv / azuvá / azuvím / azuvót",
+              "meaning": "triste (m.) / triste (f.) / tristes (m.) / tristes (f.)"
+            }
+          }
+        },
+        {
+          "hebrew": "קרוב ל־ / קרובה ל־ / קרובים ל־ / קרובות ל־",
+          "hebrewWithNiqqud": "קָרוֹב לְ־ / קְרוֹבָה לְ־ / קְרוֹבִים לְ־ / קְרוֹבוֹת לְ־",
+          "id": "word-397",
+          "translations": {
+            "ru": {
+              "pronunciation": "каро́в ле- / крова́ ле- / крови́м ле- / крово́т ле-",
+              "meaning": "близко к, рядом с. Прилагательное согласуется с тем, кто или что находится рядом."
+            },
+            "es": {
+              "pronunciation": "karóv le- / krová le- / krovím le- / krovót le-",
+              "meaning": "cerca de. El adjetivo hebreo concuerda con la persona o cosa que está cerca."
+            }
+          }
+        },
+        {
+          "hebrew": "רחוק מ־ / רחוקה מ־ / רחוקים מ־ / רחוקות מ־",
+          "hebrewWithNiqqud": "רָחוֹק מִ־ / רְחוֹקָה מִ־ / רְחוֹקִים מִ־ / רְחוֹקוֹת מִ־",
+          "id": "word-398",
+          "translations": {
+            "ru": {
+              "pronunciation": "рахо́к ми- / рехока́ ми- / рехоки́м ми- / рехоко́т ми-",
+              "meaning": "далеко от. Прилагательное согласуется с тем, кто или что находится далеко."
+            },
+            "es": {
+              "pronunciation": "rachók mi- / rechoká mi- / rechokím mi- / rechokót mi-",
+              "meaning": "lejos de. El adjetivo hebreo concuerda con la persona o cosa que está lejos."
+            }
+          }
         }
       ],
       "id": "adjectives",
@@ -5194,6 +5449,21 @@
             "es": {
               "pronunciation": "lemí?",
               "meaning": "¿a quién? ¿para quién? Con יש / אין pregunta quién tiene / no tiene algo. Preposición ל־ + מי; no cambia según género ni número."
+            }
+          }
+        },
+        {
+          "hebrew": "מדוע",
+          "hebrewWithNiqqud": "מַדּוּעַ",
+          "id": "word-401",
+          "translations": {
+            "ru": {
+              "pronunciation": "маду́а",
+              "meaning": "почему? по какой причине?"
+            },
+            "es": {
+              "pronunciation": "madúa",
+              "meaning": "¿por qué? ¿por qué motivo?"
             }
           }
         }
