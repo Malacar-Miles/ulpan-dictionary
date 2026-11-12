@@ -24,7 +24,7 @@ The application uses React, TypeScript, and Vite. Search and topic filtering run
 
 ## Dictionary data
 
-The application's source of truth is [`src/dictionary.json`](src/dictionary.json). Edit it directly; it is not automatically synchronized with the Markdown dictionary in the parent project. Agent instructions for maintaining entries are in [`AGENTS.md`](AGENTS.md).
+The application's source of truth is [`src/dictionary.json`](src/dictionary.json). Edit it directly. Agent instructions for maintaining entries are in [`AGENTS.md`](AGENTS.md).
 
 The file contains `updatedAt` (`YYYY-MM-DD`), `intro.ru/es`, and topic sections. Sections have permanent IDs and localized `translations.ru/es.title` and `.note`. Each entry has a permanent ID, shared `hebrew` and optional `hebrewWithNiqqud`, and `translations.ru/es` containing `pronunciation` and `meaning`. Never renumber IDs when inserting or reordering entries. Both translations are required; `tests/localizedDictionary.test.ts` checks completeness, IDs, stress counts, and form alignment.
 

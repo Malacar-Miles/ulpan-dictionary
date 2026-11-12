@@ -5,12 +5,11 @@ description: Add words or lesson notes from chat to this project's Hebrew dictio
 
 # Add dictionary words
 
-Turn the user's notes into verified entries in `src/dictionary.json`. This workflow includes a local commit, unless the user explicitly asks for a draft or no commit. Never push unless the user explicitly instructs it. Follow the current request and applicable `AGENTS.md` instructions.
+Turn the user's notes into verified entries in `src/dictionary.json`. This workflow includes a local commit, unless the user explicitly asks for a draft or no commit. Follow the [project Git rules](../../../AGENTS.md#git-and-deployment).
 
 ## Read and interpret
 
-- Work from the repository root. Read the current JSON, its section notes, and relevant existing entries. The parent Markdown dictionary is a separate resource: do not synchronize or edit it.
-- Inspect `git status --short`, unstaged changes, and the staged diff before editing. Preserve unrelated work. Record a baseline so the eventual commit can contain only this task's changes.
+- Work from the repository root. Read the current JSON, its section notes, and relevant existing entries.
 - Accept unordered Hebrew, Russian or Spanish translations, Russian or Latin phonetic spellings, partial forms, duplicates, and sentences. Identify the intended word, sense, part of speech, and supplied tense from context; retain meaningful expressions as expressions.
 - Account for every supplied item as added, merged/already present, or unresolved. Search across all sections and spelling variants before adding a new card. Merge the same lexeme and sense, preserving useful forms and explanations. Identical unvocalized spelling alone is not proof of duplication: שם can mean “name” or “there.”
 - Correct clear errors directly. If several meanings remain plausible after checking context and sources, ask one focused question rather than silently choosing. Continue with independent, unambiguous items and clearly report any deferred items. Do not treat an unanswered question as approval.
@@ -29,11 +28,12 @@ Turn the user's notes into verified entries in `src/dictionary.json`. This workf
 
 ## Edit the JSON
 
-Use the existing schema; do not introduce application features or change rendering:
+Store the Hebrew spelling fields once per card, shared by both locales. Use the existing schema without changing application behavior.
 
 - `id`: unique permanent entry ID. Follow the existing `word-NNN` pattern, choose the next unused number, and never renumber existing entries or derive IDs from translated text. Section IDs are also permanent.
+- `addedAt`: set this once when creating a card, using the user’s current local date (`YYYY-MM-DD`, currently `Asia/Jerusalem`). Keep the existing value when correcting a card, adding forms or translations, or merging new notes into it.
 - `hebrew`: ordinary modern spelling without niqqud.
-- `hebrewWithNiqqud`: verified vocalized spelling. Write and verify this independently: full unvocalized spelling can contain letters absent from vocalized spelling.
+- `hebrewWithNiqqud`: optional verified vocalized spelling. Omit it when the vocalization is unknown. Write and verify this independently: full unvocalized spelling can contain letters absent from vocalized spelling.
 - `translations.ru.pronunciation`: approximate Russian transcription, aligned with the Hebrew forms. Mark stress with combining acute U+0301 on the stressed vowel of each multisyllabic word, including transcription inside `meaning`. Use Latin `h` for pronounced ה and `х` for ח or fricative כ/ך. Do not pronounce a silent final ה.
 - `translations.ru.meaning`: Russian translation, grammatical labels, and short clarifications where needed. Make slash-separated alternatives and tense distinctions understandable.
 
@@ -58,9 +58,8 @@ The caption is data-driven. Update it as part of every actual dictionary-content
 - Parse the final JSON. Review the diff against the baseline and account for every input item. Check new entries' stable IDs, categories, both language translations, Hebrew with/without niqqud, stress, matching order/count of forms in both pronunciations, duplicate handling, and retained meanings. Confirm four present-tense forms for each affected verb.
 - Run `git diff --check` and `npm run check` (formatting, lint, tests, and production build). Verify the rendered update caption as described above. Automated checks cannot certify linguistic correctness; report source-verification limits separately.
 - Fix failures introduced by this update. If verification remains blocked or fails for an unrelated reason, report the specific limitation and leave the edits uncommitted rather than bypassing checks or changing application behavior without authorization.
-- Review and stage only this task's dictionary changes, normally `src/dictionary.json`. If unrelated edits share the file, stage only the task's hunks. Do not include previously staged unrelated work in the commit; use an isolated index or ask only if separation cannot be done safely. Never reset or discard the user's work.
+- Review the dictionary diff and stage the verified dictionary changes, normally `src/dictionary.json`.
 - The user's requested dictionary-addition workflow authorizes the local commit; no routine extra confirmation is required. Create a descriptive commit, inspect its actual contents, and report its hash. Do not amend an earlier commit. If nothing changed, report that instead.
-- Do not run `git push` unless explicitly instructed by the user. If pushing is separately requested, follow the project's deployment verification requirements as well.
 
 ## Report in chat
 
