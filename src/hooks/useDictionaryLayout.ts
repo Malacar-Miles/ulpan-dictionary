@@ -1,5 +1,5 @@
 import { useLayoutEffect, useRef, type PointerEvent } from 'react';
-import { useSearchViewport } from '../useSearchViewport';
+import { useSearchViewport, useTouchScroller } from '../useSearchViewport';
 
 const preserveSearchFocus = (event: PointerEvent<HTMLDivElement>) => {
   // Keep search focused while changing controls on touch screens so the layout does
@@ -16,7 +16,8 @@ const preserveSearchFocus = (event: PointerEvent<HTMLDivElement>) => {
 export const useDictionaryLayout = (query: string, activeTopic: string | null) => {
   const controlsRef = useRef<HTMLDivElement>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
-  useSearchViewport();
+  const touchScroller = useTouchScroller();
+  useSearchViewport(touchScroller);
 
   useLayoutEffect(() => {
     const controls = controlsRef.current;
@@ -38,9 +39,9 @@ export const useDictionaryLayout = (query: string, activeTopic: string | null) =
     if (!scroller) return;
     // Return to the first result without revealing a header the reader has scrolled past.
     const headerHeight = scroller.querySelector('header')!.offsetHeight;
-    if (scroller.scrollTop > headerHeight)
-      scroller.scrollTo({ top: headerHeight, behavior: 'instant' });
-  }, [query, activeTopic]);
+    if ((touchScroller ? scroller.scrollTop : window.scrollY) > headerHeight)
+      (touchScroller ? scroller : window).scrollTo({ top: headerHeight, behavior: 'instant' });
+  }, [query, activeTopic, touchScroller]);
 
   return { controlsRef, scrollRef, preserveSearchFocus };
 };

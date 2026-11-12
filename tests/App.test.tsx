@@ -24,6 +24,7 @@ beforeEach(() => {
   );
   vi.spyOn(HTMLElement.prototype, 'clientHeight', 'get').mockReturnValue(768);
   vi.spyOn(HTMLElement.prototype, 'offsetHeight', 'get').mockReturnValue(160);
+  vi.stubGlobal('scrollTo', vi.fn());
   HTMLElement.prototype.scrollTo = vi.fn();
 });
 afterEach(() => {
@@ -331,19 +332,30 @@ it.each([true, false])('returns to the expected topic for compact tabs = %s', (c
   expect(screen.getByRole('heading', { level: 2 }).textContent).toBe(compact ? 'Все слова' : title);
 });
 
-it('mounts a moving window of cards as the reader scrolls', () => {
-  vi.spyOn(config, 'VIRTUALIZE_RESULTS', 'get').mockReturnValue(true);
-  const { container } = render(<App />);
-  const total = dictionary.sections.reduce((sum, section) => sum + section.entries.length, 0);
-  const firstMeaning = dictionary.sections[0].entries[0].translations.ru.meaning;
-  expect(container.querySelector('.meaning')?.textContent).toBe(firstMeaning);
-  expect(container.querySelectorAll('.card').length).toBeLessThan(total);
-  const scroller = container.querySelector<HTMLElement>('.dictionary-scroll')!;
-  scroller.scrollTop = 4000;
-  fireEvent.scroll(scroller);
-  expect(container.querySelector('.meaning')?.textContent).not.toBe(firstMeaning);
-  expect(container.querySelectorAll('.card').length).toBeGreaterThan(0);
-  scroller.scrollTop = 0;
-  fireEvent.scroll(scroller);
-  expect(container.querySelector('.meaning')?.textContent).toBe(firstMeaning);
-});
+it.each([false, true])(
+  'virtualizes the active scroll target with a coarse pointer = %s',
+  (touch) => {
+    vi.stubGlobal('matchMedia', (query: string) => ({
+      matches: touch && query === '(pointer: coarse)',
+      addEventListener: vi.fn(),
+      removeEventListener: vi.fn(),
+    }));
+    vi.spyOn(config, 'VIRTUALIZE_RESULTS', 'get').mockReturnValue(true);
+    const { container } = render(<App />);
+    const total = dictionary.sections.reduce((sum, section) => sum + section.entries.length, 0);
+    const firstMeaning = dictionary.sections[0].entries[0].translations.ru.meaning;
+    expect(container.querySelector('.meaning')?.textContent).toBe(firstMeaning);
+    expect(container.querySelectorAll('.card').length).toBeLessThan(total);
+    const scroller = container.querySelector<HTMLElement>('.dictionary-scroll')!;
+    const scroll = (top: number) => {
+      if (touch) scroller.scrollTop = top;
+      else vi.stubGlobal('scrollY', top);
+      fireEvent.scroll(touch ? scroller : window);
+    };
+    scroll(4000);
+    expect(container.querySelector('.meaning')?.textContent).not.toBe(firstMeaning);
+    expect(container.querySelectorAll('.card').length).toBeGreaterThan(0);
+    scroll(0);
+    expect(container.querySelector('.meaning')?.textContent).toBe(firstMeaning);
+  },
+);

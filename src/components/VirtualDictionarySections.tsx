@@ -1,5 +1,6 @@
 import { useCallback, useLayoutEffect, useMemo, useRef, useState } from 'react';
-import { useVirtualizer } from '@tanstack/react-virtual';
+import { useTouchScroller } from '../useSearchViewport';
+import { useVirtualizer, useWindowVirtualizer } from '@tanstack/react-virtual';
 import type { DictionaryEntry, DictionarySection } from '../types';
 import { EntryGrid, SectionHeading, type SectionListProps } from './DictionarySection';
 
@@ -24,6 +25,7 @@ const buildRows = (sections: DictionarySection[], columns: number) => {
 };
 
 export const VirtualDictionarySections = ({ sections, ...display }: SectionListProps) => {
+  const touchScroller = useTouchScroller();
   const list = useRef<HTMLDivElement>(null);
   const [columns, setColumns] = useState(3);
   const [scrollMargin, setScrollMargin] = useState(0);
@@ -35,7 +37,11 @@ export const VirtualDictionarySections = ({ sections, ...display }: SectionListP
     const update = () => {
       setColumns(Number(getComputedStyle(element).getPropertyValue('--card-columns')) || 3);
       const top = element.getBoundingClientRect().top;
-      setScrollMargin(top - scroller.getBoundingClientRect().top + scroller.scrollTop);
+      setScrollMargin(
+        touchScroller
+          ? top - scroller.getBoundingClientRect().top + scroller.scrollTop
+          : top + window.scrollY,
+      );
     };
     update();
     // Controls, fonts and the fallback notice can move the list without a window resize.
@@ -48,19 +54,25 @@ export const VirtualDictionarySections = ({ sections, ...display }: SectionListP
       observer.disconnect();
       window.removeEventListener('resize', update);
     };
-  }, [sections]);
+  }, [sections, touchScroller]);
 
   const rows = useMemo(() => buildRows(sections, columns), [sections, columns]);
   const getItemKey = useCallback((index: number) => rows[index].key, [rows]);
-  // eslint-disable-next-line react-hooks/incompatible-library -- Read the mutable instance during render.
-  const virtualizer = useVirtualizer<HTMLElement, HTMLDivElement>({
-    getScrollElement: () => list.current?.closest<HTMLElement>('.dictionary-scroll') ?? null,
+  const options = {
     count: rows.length,
     getItemKey,
     estimateSize: (index: number) => ('section' in rows[index] ? 54 : 180),
     overscan: 4,
     scrollMargin,
+  };
+  const page = useWindowVirtualizer<HTMLDivElement>({ ...options, enabled: !touchScroller });
+  // eslint-disable-next-line react-hooks/incompatible-library -- Read the mutable instance during render.
+  const pane = useVirtualizer<HTMLElement, HTMLDivElement>({
+    ...options,
+    enabled: touchScroller,
+    getScrollElement: () => list.current?.closest<HTMLElement>('.dictionary-scroll') ?? null,
   });
+  const virtualizer = touchScroller ? pane : page;
 
   return (
     <div className="virtual-sections" ref={list} style={{ height: virtualizer.getTotalSize() }}>

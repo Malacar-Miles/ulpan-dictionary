@@ -4,7 +4,7 @@ import { cleanup, fireEvent, render, screen } from '@testing-library/react';
 import { useSearchViewport } from '../src/useSearchViewport';
 
 const ViewportHarness = () => {
-  useSearchViewport();
+  useSearchViewport(true);
   return <input aria-label="Search" />;
 };
 
@@ -18,7 +18,7 @@ afterEach(() => {
 });
 
 describe('search viewport lifecycle', () => {
-  it('tracks the shared viewport through focus, blur and keyboard resizing', () => {
+  it('tracks the touch viewport through focus, blur and keyboard resizing', () => {
     const viewport = Object.assign(new EventTarget(), { height: 400, scale: 1 });
     vi.stubGlobal('visualViewport', viewport);
     const { unmount } = render(<ViewportHarness />);

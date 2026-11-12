@@ -671,7 +671,7 @@ body {
 }
 /* Preserve scrolling space when the search returns few results. */
 .content {
-  min-height: calc(100% - var(--controls-height, 0px));
+  min-height: calc(var(--search-viewport-height, 100dvh) - var(--controls-height, 0px));
 }
 
 /* A 16px input font prevents iOS from zooming the page on focus. */
@@ -681,27 +681,29 @@ body {
   }
 }
 
-html,
-body {
-  height: 100%;
-  overflow: hidden;
-}
-body {
-  position: fixed;
-  inset: 0;
-}
-.dictionary-scroll {
-  height: var(--search-viewport-height, 100dvh);
-  overflow-y: auto;
-  overscroll-behavior: contain;
-}
-.sticky-controls {
-  max-height: 60%;
-  overflow-y: auto;
-  overscroll-behavior: contain;
-}
-.sticky-controls:has(.topic-trigger[aria-expanded='true']) {
-  max-height: 100%;
+@media (pointer: coarse) {
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+  }
+  body {
+    position: fixed;
+    inset: 0;
+  }
+  .dictionary-scroll {
+    height: var(--search-viewport-height, 100dvh);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+  .sticky-controls {
+    max-height: 60%;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+  .sticky-controls:has(.topic-trigger[aria-expanded='true']) {
+    max-height: 100%;
+  }
 }
 
 /* Change only Hebrew card spellings; keep the underlying text selectable. */

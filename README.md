@@ -45,7 +45,7 @@ The app is configured to build as static files in `dist/`. The repository is con
 - `src/hooks/` owns dictionary state, saved preferences, and layout effects.
 - `src/helpers/` contains filtering, spelling selection, highlighting segments, and touch handling.
 - `src/search.ts` implements normalization, matching, and highlight ranges.
-- `src/useSearchViewport.ts` tracks the visible viewport height for the shared scroll container.
+- `src/useSearchViewport.ts` tracks the visible viewport height for the touch scroll container. Desktop uses native window scrolling.
 - `src/types.ts` defines the shared dictionary types.
 - `tests/` covers search semantics and dictionary interactions.
 

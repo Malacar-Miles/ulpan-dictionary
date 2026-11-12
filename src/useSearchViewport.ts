@@ -1,8 +1,18 @@
 import { createTouchScrollHandlers } from './helpers/touchScroll';
-import { useLayoutEffect } from 'react';
+import { useLayoutEffect, useSyncExternalStore } from 'react';
 
-export const useSearchViewport = () => {
+const touchScrollQuery = '(pointer: coarse)';
+const usesTouchScroller = () => window.matchMedia(touchScrollQuery).matches;
+const subscribe = (notify: () => void) => {
+  const media = window.matchMedia(touchScrollQuery);
+  media.addEventListener('change', notify);
+  return () => media.removeEventListener('change', notify);
+};
+export const useTouchScroller = () => useSyncExternalStore(subscribe, usesTouchScroller);
+
+export const useSearchViewport = (touchScroller: boolean) => {
   useLayoutEffect(() => {
+    if (!touchScroller) return;
     const root = document.documentElement;
     const viewport = window.visualViewport;
 
@@ -30,5 +40,5 @@ export const useSearchViewport = () => {
       document.removeEventListener('touchmove', onTouchMove);
       root.style.removeProperty('--search-viewport-height');
     };
-  }, []);
+  }, [touchScroller]);
 };
