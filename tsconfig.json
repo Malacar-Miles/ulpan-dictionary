@@ -7,7 +7,6 @@
     "resolveJsonModule": true,
     "jsx": "react-jsx",
     "strict": true,
-    "types": ["vite/client"],
     "noEmit": true,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true

@@ -1,6 +1,7 @@
 // @vitest-environment jsdom
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+import * as config from '../src/config';
 import { App } from '../src/App';
 import dictionary from '../src/dictionary.json';
 import { formatUpdatedDate } from '../src/helpers/dictionary';
@@ -28,13 +29,12 @@ beforeEach(() => {
 afterEach(() => {
   cleanup();
   vi.unstubAllGlobals();
-  vi.unstubAllEnvs();
   vi.restoreAllMocks();
 });
 
 describe('dictionary interface', () => {
   it('renders every entry, filters topics, searches, and resets empty results', () => {
-    vi.stubEnv('VITE_VIRTUALIZE_RESULTS', 'false');
+    vi.spyOn(config, 'VIRTUALIZE_RESULTS', 'get').mockReturnValue(false);
     const { container } = render(<App />);
     const total = dictionary.sections.reduce((sum, section) => sum + section.entries.length, 0);
     expect(container.querySelectorAll('.card')).toHaveLength(total);
@@ -276,7 +276,7 @@ it('shows Spanish matches from other topics while keeping the selected filter', 
 });
 
 it('switches directly from the topic chooser to newest-first addition dates across topics', () => {
-  vi.stubEnv('VITE_VIRTUALIZE_RESULTS', 'false');
+  vi.spyOn(config, 'VIRTUALIZE_RESULTS', 'get').mockReturnValue(false);
   const { container } = render(<App />);
   const entries = dictionary.sections.flatMap((section) => section.entries);
   const dates = [...new Set(entries.map((entry) => entry.addedAt))].sort().reverse();
@@ -332,7 +332,7 @@ it.each([true, false])('returns to the expected topic for compact tabs = %s', (c
 });
 
 it('mounts a moving window of cards as the reader scrolls', () => {
-  vi.stubEnv('VITE_VIRTUALIZE_RESULTS', 'true');
+  vi.spyOn(config, 'VIRTUALIZE_RESULTS', 'get').mockReturnValue(true);
   const { container } = render(<App />);
   const total = dictionary.sections.reduce((sum, section) => sum + section.entries.length, 0);
   const firstMeaning = dictionary.sections[0].entries[0].translations.ru.meaning;

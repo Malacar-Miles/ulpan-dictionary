@@ -94,7 +94,5 @@ Latin phonetics follow [the student's approved conventions](docs/student-latin-p
 
 ## Result virtualization
 
-The results grid uses TanStack React Virtual by default. To use the full grid,
-set `VITE_VIRTUALIZE_RESULTS=false` in `.env.local`. Remove the setting or set it
-to `true` to enable virtualization again. Restart Vite or rebuild for the change
-to take effect. Both renderers use the same cards, headings and search results.
+Set `VIRTUALIZE_RESULTS` in [src/config.ts](src/config.ts) to `true` for virtualized
+rows or `false` for the full grid. The next build uses that value.

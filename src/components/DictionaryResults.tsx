@@ -1,4 +1,5 @@
 import { memo } from 'react';
+import { VIRTUALIZE_RESULTS } from '../config';
 import { useLocale } from '../localization/context';
 import type { DictionarySection as Section } from '../types';
 import { VirtualDictionarySections } from './VirtualDictionarySections';
@@ -27,10 +28,7 @@ export const DictionaryResults = memo(
     showNiqqud,
     onReset,
   }: DictionaryResultsProps) => {
-    const Sections =
-      import.meta.env.VITE_VIRTUALIZE_RESULTS === 'false'
-        ? DictionarySections
-        : VirtualDictionarySections;
+    const Sections = VIRTUALIZE_RESULTS ? VirtualDictionarySections : DictionarySections;
     const { messages } = useLocale();
     return (
       <>
