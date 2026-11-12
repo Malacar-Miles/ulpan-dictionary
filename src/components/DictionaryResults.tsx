@@ -5,6 +5,8 @@ import { DictionarySection } from './DictionarySection';
 import { EmptyResults } from './EmptyResults';
 type DictionaryResultsProps = {
   showFallbackNotice: boolean;
+  total: number;
+  updated: string;
   title: string;
   count: number;
   sections: Section[];
@@ -15,6 +17,8 @@ type DictionaryResultsProps = {
 export const DictionaryResults = memo(
   ({
     showFallbackNotice,
+    total,
+    updated,
     title,
     count,
     sections,
@@ -30,13 +34,14 @@ export const DictionaryResults = memo(
             {messages.searchFallbackNotice}
           </p>
         )}
+        <div className="results-meta">
+          <p className="eyebrow">
+            <span></span> {messages.dictionary}
+          </p>
+          <span className="records-caption">{messages.records(total, updated)}</span>
+        </div>
         <div className="results-head">
-          <div>
-            <p className="eyebrow">
-              <span></span> {messages.dictionary}
-            </p>
-            <h2>{title}</h2>
-          </div>
+          <h2>{title}</h2>
           <p aria-live="polite">
             {messages.found} <strong>{count}</strong>
           </p>

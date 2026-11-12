@@ -28,8 +28,6 @@ const DictionaryApp = () => {
         onHandwritingChange={changeHandwriting}
         showNiqqud={dictionary.showNiqqud}
         onNiqqudChange={dictionary.changeNiqqud}
-        total={dictionary.total}
-        updated={dictionary.updated}
         topics={dictionary.topics}
         activeTopic={dictionary.activeTopic}
         onTopicSelect={dictionary.setActiveTopic}
@@ -40,6 +38,8 @@ const DictionaryApp = () => {
         ref={contentRef}
       >
         <DictionaryResults
+          total={dictionary.total}
+          updated={dictionary.updated}
           showFallbackNotice={dictionary.showFallbackNotice}
           title={dictionary.resultsTitle}
           count={dictionary.count}

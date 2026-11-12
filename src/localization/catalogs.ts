@@ -13,7 +13,6 @@ type Messages = {
   niqqud: string;
   handwriting: string;
   language: string;
-  topics: string;
   topicFilter: string;
   allTopics: string;
   allWords: string;
@@ -43,7 +42,6 @@ export const catalogs: Record<Locale, Messages> = {
     niqqud: 'Никуд',
     handwriting: 'Пропись',
     language: 'Язык интерфейса',
-    topics: 'ТЕМЫ',
     topicFilter: 'Фильтр по теме',
     allTopics: 'Все темы',
     allWords: 'Все слова',
@@ -58,7 +56,7 @@ export const catalogs: Record<Locale, Messages> = {
     records: (count, date) => {
       const category = new Intl.PluralRules('ru').select(count);
       const noun = category === 'one' ? 'запись' : category === 'few' ? 'записи' : 'записей';
-      return `${count} ${noun} в словаре, обновлено ${date}`;
+      return `${count} ${noun}, обновлено ${date}`;
     },
   },
   es: {
@@ -75,7 +73,6 @@ export const catalogs: Record<Locale, Messages> = {
     niqqud: 'Niqqud',
     handwriting: 'Manuscrita',
     language: 'Idioma de la interfaz',
-    topics: 'TEMAS',
     topicFilter: 'Filtrar por tema',
     allTopics: 'Todos los temas',
     allWords: 'Todas las palabras',

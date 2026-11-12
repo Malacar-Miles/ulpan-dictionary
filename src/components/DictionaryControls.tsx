@@ -1,6 +1,5 @@
 import { DisplayControls } from './DisplayControls';
 import type { Topic } from '../types';
-import { useLocale } from '../localization/context';
 import type { ChangeEventHandler, PointerEventHandler, RefObject } from 'react';
 import { SearchField } from './SearchField';
 import { TopicFilters } from './TopicFilters';
@@ -18,8 +17,6 @@ type DictionaryControlsProps = {
   onHandwritingChange: ChangeEventHandler<HTMLInputElement>;
   showNiqqud: boolean;
   onNiqqudChange: ChangeEventHandler<HTMLInputElement>;
-  total: number;
-  updated: string;
   topics: Topic[];
   activeTopic: string;
   onTopicSelect: (topic: string) => void;
@@ -36,13 +33,10 @@ export const DictionaryControls = ({
   onHandwritingChange,
   showNiqqud,
   onNiqqudChange,
-  total,
-  updated,
   topics,
   activeTopic,
   onTopicSelect,
 }: DictionaryControlsProps) => {
-  const { messages } = useLocale();
   return (
     <div className="sticky-controls" ref={controlsRef} onPointerDownCapture={onPointerDownCapture}>
       <div className="wrap">
@@ -59,10 +53,6 @@ export const DictionaryControls = ({
           handwriting={handwriting}
           onHandwritingChange={onHandwritingChange}
         />
-        <div className="filters-head">
-          <span>{messages.topics}</span>
-          <span>{messages.records(total, updated)}</span>
-        </div>
         <TopicFilters
           topics={topics}
           activeTopic={activeTopic}

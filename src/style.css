@@ -179,20 +179,6 @@ h1 em {
   color: #a3b5aa;
   font-weight: 700;
 }
-.filters-head {
-  display: flex;
-  justify-content: space-between;
-  margin: 25px 0 11px;
-  font-size: 10px;
-  letter-spacing: 0.12em;
-  font-weight: 800;
-  color: #718d80;
-}
-.filters-head span:last-child {
-  letter-spacing: 0;
-  font-size: 11px;
-  font-weight: 500;
-}
 .filters {
   display: flex;
   flex-wrap: wrap;
@@ -252,8 +238,21 @@ h1 em {
   align-items: end;
   margin-bottom: 30px;
 }
-.results-head .eyebrow {
+.results-meta {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
   margin-bottom: 8px;
+}
+.results-meta .eyebrow {
+  margin: 0;
+}
+.records-caption {
+  text-align: right;
+  font-size: 11px;
+  font-weight: 500;
+  color: #718d80;
 }
 .results-head h2 {
   font-size: 25px;
@@ -533,6 +532,18 @@ mark {
   padding-top: 12px;
   box-shadow: 0 5px 16px #294d3d0d;
 }
+@media (width > 750px) {
+  .heading {
+    padding: 24px 0 12px;
+  }
+  .niqqud-row {
+    margin-top: 8px;
+  }
+  .filters {
+    padding-block: 8px 20px;
+    row-gap: 8px;
+  }
+}
 @media (max-width: 750px) {
   .sticky-controls {
     padding-top: 10px;
@@ -542,9 +553,6 @@ mark {
   }
   .sticky-controls .niqqud-row {
     margin-top: 11px;
-  }
-  .sticky-controls .filters-head {
-    margin: 13px 0 8px;
   }
   .sticky-controls .filters {
     padding-bottom: 7px;
@@ -584,9 +592,6 @@ mark {
   }
   .sticky-controls .niqqud-row {
     margin-top: 0;
-  }
-  .sticky-controls .filters-head {
-    margin-top: 8px;
   }
 }
 
@@ -644,14 +649,6 @@ body {
   .search-wrap input {
     font-size: 16px;
   }
-}
-
-.filters-head {
-  gap: 12px;
-  align-items: baseline;
-}
-.filters-head span:last-child {
-  text-align: right;
 }
 
 /* Mobile search session: the panel and the results are separate flex rows.

@@ -144,7 +144,7 @@ describe('localization', () => {
       'Verbos y estados',
     );
     const total = dictionary.sections.reduce((sum, section) => sum + section.entries.length, 0);
-    expect(container.querySelector('.filters-head')?.textContent).toContain(
+    expect(container.querySelector('main .results-meta .records-caption')?.textContent).toContain(
       `${total} entradas · Act. ${formatUpdatedDate(dictionary.updatedAt, 'es')}`,
     );
     expect(container.querySelector('main')?.textContent).not.toMatch(/[а-яё]/i);
