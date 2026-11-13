@@ -1,3 +1,4 @@
+import { grammarLabel } from '../localization/grammar';
 import dictionary from '../dictionary.json';
 import { matches, highlightRanges } from '../search';
 import type { DictionaryData, DictionarySection, HebrewSpellings } from '../types';
@@ -11,14 +12,39 @@ export const localizeSections = (locale: Locale): DictionarySection[] =>
   data.sections.map((section) => ({
     id: section.id,
     ...section.translations[locale],
-    entries: section.entries.map((entry) => ({
-      id: entry.id,
-      addedAt: entry.addedAt,
-      hebrew: entry.hebrew,
-      hebrewWithNiqqud: entry.hebrewWithNiqqud,
-      ...entry.translations[locale],
-    })),
+    entries: section.entries.map((entry) => {
+      const rows = entry.items.flatMap(({ lexemeId }) =>
+        data.lexemes[lexemeId].forms.flatMap((form) =>
+          form.variants.map((variant, i) => ({
+            key: [lexemeId, form.id, i].join('/'),
+            hebrew: variant.hebrew,
+            hebrewWithNiqqud: variant.hebrewWithNiqqud,
+            pronunciation: variant.pronunciation[locale],
+            label: grammarLabel(form.grammar, locale, variant.usage),
+            gloss: form.gloss?.[locale],
+          })),
+        ),
+      );
+      const first = entry.items[0];
+      const defaultRow = rows.find(
+        (row) => row.key === [first.lexemeId, first.defaultFormId, 0].join('/'),
+      )!;
+      return {
+        id: entry.id,
+        addedAt: entry.addedAt,
+        meaning: entry.translations[locale].meaning,
+        rows,
+        defaultRow,
+      };
+    }),
   }));
+
+export const rowFields = (row: DictionarySection['entries'][number]['defaultRow']) => [
+  row.hebrew,
+  row.hebrewWithNiqqud ?? '',
+  row.pronunciation,
+  row.gloss ?? '',
+];
 
 export const filterSections = (query: string, activeTopic: string, locale: Locale = 'ru') =>
   localizeSections(locale)
@@ -26,11 +52,7 @@ export const filterSections = (query: string, activeTopic: string, locale: Local
     .map((section) => ({
       ...section,
       entries: section.entries.filter((entry) =>
-        matches(
-          [entry.hebrew, entry.hebrewWithNiqqud ?? '', entry.pronunciation, entry.meaning],
-          query,
-          locale,
-        ),
+        matches([entry.meaning, ...entry.rows.flatMap(rowFields)], query, locale),
       ),
     }))
     .filter((section) => section.entries.length > 0);

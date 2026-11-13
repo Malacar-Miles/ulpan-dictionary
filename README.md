@@ -26,7 +26,7 @@ The application uses React, TypeScript, and Vite. Search and topic filtering run
 
 The application's source of truth is [`src/dictionary.json`](src/dictionary.json). Edit it directly. Agent instructions for maintaining entries are in [`AGENTS.md`](AGENTS.md).
 
-The file contains `updatedAt` (`YYYY-MM-DD`), `intro.ru/es`, and topic sections. Sections have permanent IDs and localized `translations.ru/es.title` and `.note`. Each entry has a permanent ID, shared `hebrew` and optional `hebrewWithNiqqud`, and `translations.ru/es` containing `pronunciation` and `meaning`. Never renumber IDs when inserting or reordering entries. Both translations are required; `tests/localizedDictionary.test.ts` checks completeness, IDs, stress counts, and form alignment.
+Schema version 2 stores lesson cards in topic sections. Each card has a permanent ID, an addition date, Russian and Spanish meanings, and one or more references to shared `lexemes`. An item’s `defaultFormId` identifies the form to show first. Each lexeme records its lemma, part of speech, and grammatical forms. A form has a stable ID, structured grammar, an optional bilingual gloss, and one or more variants. Each variant pairs its ordinary Hebrew spelling and optional verified niqqud with Russian and Spanish pronunciations. Fixed idioms use one form. Add inflections to the existing lexeme so every card referring to it can use them.
 
 ## Installation on a phone
 

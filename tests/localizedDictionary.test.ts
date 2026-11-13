@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest';
+import type { DictionaryData } from '../src/types';
 import dictionary from '../src/dictionary.json';
 import {
   ALL_TOPICS,
@@ -7,6 +8,7 @@ import {
   localizeSections,
 } from '../src/helpers/dictionary';
 
+const data: DictionaryData = dictionary;
 const entries = dictionary.sections.flatMap((section) => section.entries);
 
 describe('bilingual dictionary integrity', () => {
@@ -23,15 +25,21 @@ describe('bilingual dictionary integrity', () => {
     for (const entry of entries) {
       for (const locale of ['ru', 'es'] as const) {
         expect(entry.translations[locale].meaning.trim()).not.toBe('');
-        expect(entry.translations[locale].pronunciation.trim()).not.toBe('');
       }
-      const { ru, es } = entry.translations;
-      expect(es.pronunciation).not.toMatch(/\p{Script=Cyrillic}/u);
-      expect(es.meaning).not.toMatch(/\p{Script=Cyrillic}/u);
-      expect(es.pronunciation.split('/')).toHaveLength(ru.pronunciation.split('/').length);
-      expect(es.pronunciation.normalize('NFD').match(/\u0301/g)?.length ?? 0).toBe(
-        ru.pronunciation.match(/\u0301/g)?.length ?? 0,
-      );
+      for (const item of entry.items) {
+        const lexeme = data.lexemes[item.lexemeId];
+        expect(lexeme.forms.some((form) => form.id === item.defaultFormId)).toBe(true);
+        expect(new Set(lexeme.forms.map((form) => form.id)).size).toBe(lexeme.forms.length);
+        for (const form of lexeme.forms)
+          for (const variant of form.variants) {
+            const { ru, es } = variant.pronunciation;
+            expect(variant.hebrew.trim() && ru.trim() && es.trim()).toBeTruthy();
+            expect(es).not.toMatch(/\p{Script=Cyrillic}/u);
+            expect(es.normalize('NFD').match(/\u0301/g)?.length ?? 0).toBe(
+              ru.match(/\u0301/g)?.length ?? 0,
+            );
+          }
+      }
     }
   });
 
@@ -42,11 +50,9 @@ describe('bilingual dictionary integrity', () => {
     expect(countEntries(es)).toBe(entries.length);
     const spellings = (locale: 'ru' | 'es') =>
       localizeSections(locale).flatMap((section) =>
-        section.entries.map(({ id, hebrew, hebrewWithNiqqud }) => ({
-          id,
-          hebrew,
-          hebrewWithNiqqud,
-        })),
+        section.entries.flatMap((entry) =>
+          entry.rows.map(({ hebrew, hebrewWithNiqqud }) => ({ hebrew, hebrewWithNiqqud })),
+        ),
       );
     expect(spellings('es')).toEqual(spellings('ru'));
     expect(countEntries(filterSections('gracias', ALL_TOPICS, 'es'))).toBe(2);
@@ -69,7 +75,10 @@ describe('bilingual dictionary integrity', () => {
       'word-162': 'yesh',
     };
     for (const [id, latin] of Object.entries(examples)) {
-      expect(entries.find((entry) => entry.id === id)?.translations.es.pronunciation).toBe(latin);
+      const entry = localizeSections('es')
+        .flatMap((section) => section.entries)
+        .find((entry) => entry.id === id)!;
+      expect(entry.rows.map((row) => row.pronunciation).join(' / ')).toContain(latin);
     }
   });
 });

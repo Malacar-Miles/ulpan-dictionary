@@ -34,6 +34,24 @@ afterEach(() => {
 });
 
 describe('dictionary interface', () => {
+  it('replaces the default with a table and reveals a searched inflection', () => {
+    localStorage.setItem('ulpan-dictionary-language', 'es');
+    const { container } = render(<App />);
+    const search = screen.getByRole('searchbox');
+    fireEvent.change(search, { target: { value: 'holéch' } });
+    const card = container.querySelector('.card')!;
+    const button = within(card as HTMLElement).getByRole('button');
+    expect(button.getAttribute('aria-expanded')).toBe('false');
+    fireEvent.click(card);
+    expect(card.querySelector('.card-top')).toBeNull();
+    expect(card.querySelectorAll('tbody tr')).toHaveLength(4);
+    fireEvent.click(button);
+    expect(card.querySelector('table')).toBeNull();
+    fireEvent.change(search, { target: { value: 'holchót' } });
+    expect(container.querySelector('table .pronunciation mark')?.textContent).toBe('holchót');
+    fireEvent.change(search, { target: { value: 'בוקר טוב' } });
+    expect(container.querySelector('.card button')).toBeNull();
+  });
   it('renders every entry, filters topics, searches, and resets empty results', () => {
     vi.spyOn(config, 'VIRTUALIZE_RESULTS', 'get').mockReturnValue(false);
     const { container } = render(<App />);
@@ -65,11 +83,11 @@ describe('dictionary interface', () => {
     const toggle = screen.getByRole('checkbox', { name: 'Никуд' }) as HTMLInputElement;
     expect(toggle.checked).toBe(false);
     expect(container.querySelector('.hebrew')?.textContent).toBe(
-      dictionary.sections[0].entries[0].hebrew,
+      dictionary.lexemes['word-001'].forms[0].variants[0].hebrew,
     );
     fireEvent.click(toggle);
     expect(localStorage.getItem('ulpan-dictionary-show-niqqud')).toBe('true');
-    const entry = dictionary.sections[0].entries[0];
+    const entry = dictionary.lexemes['word-001'].forms[0].variants[0];
     expect(container.querySelector('.hebrew')?.textContent).toBe(
       entry.hebrewWithNiqqud ?? entry.hebrew,
     );
@@ -149,9 +167,7 @@ describe('localization', () => {
     );
     expect(container.querySelector('main')?.classList.contains('handwritten')).toBe(true);
     expect(container.querySelectorAll('.card')).toHaveLength(1);
-    expect(container.querySelector('.pronunciation')?.textContent).toBe(
-      'holéch / holéchet / holchím / holchót',
-    );
+    expect(container.querySelector('.pronunciation')?.textContent).toBe('holéch');
     expect(container.querySelector('.meaning')?.textContent).toBe('va, camina');
     expect(container.querySelector('.filters-search-active .topic-trigger')?.textContent).toBe(
       'Verbos y estados',

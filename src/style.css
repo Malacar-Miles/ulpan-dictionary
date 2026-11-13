@@ -864,3 +864,40 @@ body {
 .virtual-section-end {
   padding-bottom: 35px;
 }
+
+.card.expandable {
+  cursor: pointer;
+  position: relative;
+}
+.forms-trigger {
+  float: left;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid #b2c8bc;
+  color: #305844;
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.forms-trigger[aria-expanded='true'] {
+  float: none;
+  margin-bottom: 0.5rem;
+}
+.forms-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.86rem;
+  text-align: start;
+}
+.forms-table :is(th, td) {
+  text-align: start;
+  vertical-align: top;
+  padding: 0.38rem 0.18rem;
+  border-bottom: 1px solid #cedbd2;
+}
+.forms-table .hebrew {
+  font-size: 1.25rem;
+}
+.card-top {
+  flex-wrap: wrap;
+}
