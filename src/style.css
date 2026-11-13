@@ -889,19 +889,24 @@ body {
 .forms-trigger[aria-expanded='true'] svg {
   transform: rotate(180deg);
 }
-.forms-table {
-  width: 100%;
-  border-collapse: collapse;
+.forms-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1.5fr);
+  column-gap: 0.5rem;
   font-size: 0.86rem;
-  text-align: start;
+  word-break: break-word;
 }
-.forms-table :is(th, td) {
-  text-align: start;
-  vertical-align: top;
-  padding: 0.38rem 0.18rem;
+.form-row {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: subgrid;
+  padding-block: 0.38rem;
   border-bottom: 1px solid #cedbd2;
 }
-.forms-table .hebrew {
+.form-row .pronunciation {
+  margin: 0;
+}
+.forms-grid .hebrew {
   font-size: 1.25rem;
 }
 .card-top {

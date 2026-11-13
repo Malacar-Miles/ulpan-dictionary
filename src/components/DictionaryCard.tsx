@@ -74,39 +74,35 @@ export const DictionaryCard = ({ entry, query, showNiqqud }: DictionaryCardProps
       )}
       <div id={id}>
         {open ? (
-          <table className="forms-table">
-            <thead className="sr-only">
-              <tr>
-                {(locale === 'ru'
-                  ? ['Иврит', 'Произношение', 'Форма']
-                  : ['Hebreo', 'Pronunciación', 'Forma']
-                ).map((text) => (
-                  <th key={text} scope="col">
-                    {text}
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {rows.map((row) => (
-                <tr key={row.key}>
-                  <td>{hebrew(row)}</td>
-                  <td className="pronunciation">
-                    <Highlight text={row.pronunciation} query={query} />
-                  </td>
-                  <td>
-                    {row.label}
-                    {row.gloss && (
-                      <>
-                        {' '}
-                        · <Highlight text={row.gloss} query={query} />
-                      </>
-                    )}
-                  </td>
-                </tr>
+          <div className="forms-grid" role="table">
+            <div className="sr-only" role="row">
+              {(locale === 'ru'
+                ? ['Иврит', 'Произношение', 'Форма']
+                : ['Hebreo', 'Pronunciación', 'Forma']
+              ).map((text) => (
+                <span key={text} role="columnheader">
+                  {text}
+                </span>
               ))}
-            </tbody>
-          </table>
+            </div>
+            {rows.map((row) => (
+              <div key={row.key} role="row" className="form-row">
+                <div role="cell">{hebrew(row)}</div>
+                <div role="cell" className="pronunciation">
+                  <Highlight text={row.pronunciation} query={query} />
+                </div>
+                <div role="cell">
+                  {row.label}
+                  {row.gloss && (
+                    <>
+                      {' '}
+                      · <Highlight text={row.gloss} query={query} />
+                    </>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
         ) : (
           <>
             <div className="card-top">{hebrew(defaultRow)}</div>

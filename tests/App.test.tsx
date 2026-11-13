@@ -44,11 +44,13 @@ describe('dictionary interface', () => {
     expect(button.getAttribute('aria-expanded')).toBe('false');
     fireEvent.click(card);
     expect(card.querySelector('.card-top')).toBeNull();
-    expect(card.querySelectorAll('tbody tr')).toHaveLength(4);
+    expect(within(card as HTMLElement).getAllByRole('cell')).toHaveLength(12);
     fireEvent.click(button);
-    expect(card.querySelector('table')).toBeNull();
+    expect(within(card as HTMLElement).queryByRole('table')).toBeNull();
     fireEvent.change(search, { target: { value: 'holchót' } });
-    expect(container.querySelector('table .pronunciation mark')?.textContent).toBe('holchót');
+    expect(screen.getByRole('table').querySelector('.pronunciation mark')?.textContent).toBe(
+      'holchót',
+    );
     fireEvent.change(search, { target: { value: 'בוקר טוב' } });
     expect(container.querySelector('.card button')).toBeNull();
   });
