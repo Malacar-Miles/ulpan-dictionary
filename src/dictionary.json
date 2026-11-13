@@ -4404,16 +4404,16 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "учится, изучает; למדנו — לָמַדְנוּ, лама́дну: мы учили, изучали; прошедшее время, 1-е лицо мн. числа, оба рода"
+              "meaning": "учиться, изучать; למדנו — לָמַדְנוּ, лама́дну: мы учили, изучали; прошедшее время, 1-е лицо мн. числа, оба рода"
             },
             "es": {
-              "meaning": "estudia, aprende; למדנו — לָמַדְנוּ, lamádnu: estudiamos, aprendimos; pasado, primera persona plural, ambos géneros"
+              "meaning": "estudiar, aprender; למדנו — לָמַדְנוּ, lamádnu: estudiamos, aprendimos; pasado, primera persona plural, ambos géneros"
             }
           },
           "items": [
             {
               "lexemeId": "word-138",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4422,16 +4422,16 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "работает"
+              "meaning": "работать"
             },
             "es": {
-              "meaning": "trabaja"
+              "meaning": "trabajar"
             }
           },
           "items": [
             {
               "lexemeId": "word-139",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4440,16 +4440,16 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "идёт, ходит пешком"
+              "meaning": "идти, ходить пешком"
             },
             "es": {
-              "meaning": "va, camina"
+              "meaning": "ir, caminar"
             }
           },
           "items": [
             {
               "lexemeId": "word-140",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4458,16 +4458,16 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "едет, ездит"
+              "meaning": "ехать, ездить"
             },
             "es": {
-              "meaning": "va en un medio de transporte, viaja"
+              "meaning": "ir en un medio de transporte, viajar"
             }
           },
           "items": [
             {
               "lexemeId": "word-141",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4476,16 +4476,16 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "знает, умеет"
+              "meaning": "знать, уметь"
             },
             "es": {
-              "meaning": "sabe, conoce; sabe hacer algo"
+              "meaning": "saber, conocer, saber hacer algo"
             }
           },
           "items": [
             {
               "lexemeId": "word-142",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4494,16 +4494,16 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "пишет"
+              "meaning": "писать"
             },
             "es": {
-              "meaning": "escribe"
+              "meaning": "escribir"
             }
           },
           "items": [
             {
               "lexemeId": "word-143",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4512,16 +4512,16 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "читает; קוראים также «зовут» в вопросе איך קוראים לך?"
+              "meaning": "читать; קוראים также «зовут» в вопросе איך קוראים לך?"
             },
             "es": {
-              "meaning": "lee; קוראים también significa «se llama» en la pregunta איך קוראים לך?"
+              "meaning": "leer; קוראים también significa «se llama» en la pregunta איך קוראים לך?"
             }
           },
           "items": [
             {
               "lexemeId": "word-144",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4530,16 +4530,16 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "любит"
+              "meaning": "любить"
             },
             "es": {
-              "meaning": "ama, quiere"
+              "meaning": "amar, querer"
             }
           },
           "items": [
             {
               "lexemeId": "word-145",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4548,16 +4548,16 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "говорит, разговаривает"
+              "meaning": "говорить, разговаривать"
             },
             "es": {
-              "meaning": "habla, conversa"
+              "meaning": "hablar, conversar"
             }
           },
           "items": [
             {
               "lexemeId": "word-146",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4566,16 +4566,16 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "говорит, произносит"
+              "meaning": "говорить, произносить"
             },
             "es": {
-              "meaning": "dice, pronuncia"
+              "meaning": "decir, pronunciar"
             }
           },
           "items": [
             {
               "lexemeId": "word-147",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4584,16 +4584,16 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "живёт, проживает; גרה: нормативное ударение гара́, в разговорной речи обычно га́ра"
+              "meaning": "жить, проживать; גרה: нормативное ударение гара́, в разговорной речи обычно га́ра"
             },
             "es": {
-              "meaning": "vive, reside; גרה: acento normativo gará; en el habla coloquial suele ser gára"
+              "meaning": "vivir, residir; גרה: acento normativo gará; en el habla coloquial suele ser gára"
             }
           },
           "items": [
             {
               "lexemeId": "word-148",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4602,16 +4602,16 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "чувствует себя; אני מרגיש טוב / אני מרגישה טוב — я чувствую себя хорошо"
+              "meaning": "чувствовать, чувствовать себя; אני מרגיש טוב / אני מרגישה טוב — я чувствую себя хорошо"
             },
             "es": {
-              "meaning": "se siente; אני מרגיש טוב / אני מרגישה טוב — me siento bien"
+              "meaning": "sentir, sentirse; אני מרגיש טוב / אני מרגישה טוב — me siento bien"
             }
           },
           "items": [
             {
               "lexemeId": "word-149",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4620,16 +4620,16 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "находится, присутствует"
+              "meaning": "находиться, присутствовать"
             },
             "es": {
-              "meaning": "se encuentra, está presente"
+              "meaning": "encontrarse, estar presente"
             }
           },
           "items": [
             {
               "lexemeId": "word-150",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4638,16 +4638,16 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "отсутствует; не хватает"
+              "meaning": "отсутствовать, недоставать; не хватает"
             },
             "es": {
-              "meaning": "falta, está ausente"
+              "meaning": "faltar, estar ausente"
             }
           },
           "items": [
             {
               "lexemeId": "word-151",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4656,16 +4656,16 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "спрашивает"
+              "meaning": "спрашивать"
             },
             "es": {
-              "meaning": "pregunta"
+              "meaning": "preguntar"
             }
           },
           "items": [
             {
               "lexemeId": "word-152",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4674,16 +4674,16 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "отвечает; формы ед. числа без огласовок пишутся одинаково"
+              "meaning": "отвечать; формы ед. числа без огласовок пишутся одинаково"
             },
             "es": {
-              "meaning": "responde; las formas singulares se escriben igual sin niqqud"
+              "meaning": "responder; las formas singulares se escriben igual sin niqqud"
             }
           },
           "items": [
             {
               "lexemeId": "word-153",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4692,16 +4692,16 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "понимает"
+              "meaning": "понимать"
             },
             "es": {
-              "meaning": "entiende"
+              "meaning": "entender"
             }
           },
           "items": [
             {
               "lexemeId": "word-154",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4710,16 +4710,16 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "опаздывает"
+              "meaning": "опаздывать"
             },
             "es": {
-              "meaning": "llega tarde"
+              "meaning": "llegar tarde"
             }
           },
           "items": [
             {
               "lexemeId": "word-155",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4728,16 +4728,16 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "стоит"
+              "meaning": "стоять"
             },
             "es": {
-              "meaning": "está de pie"
+              "meaning": "estar de pie"
             }
           },
           "items": [
             {
               "lexemeId": "word-156",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4746,16 +4746,16 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "сидит"
+              "meaning": "сидеть"
             },
             "es": {
-              "meaning": "está sentado"
+              "meaning": "estar sentado"
             }
           },
           "items": [
             {
               "lexemeId": "word-157",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4764,16 +4764,16 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "поднимает"
+              "meaning": "поднимать"
             },
             "es": {
-              "meaning": "levanta"
+              "meaning": "levantar"
             }
           },
           "items": [
             {
               "lexemeId": "word-158",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4782,16 +4782,16 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "гуляет, путешествует"
+              "meaning": "гулять, путешествовать"
             },
             "es": {
-              "meaning": "pasea, viaja"
+              "meaning": "pasear, viajar"
             }
           },
           "items": [
             {
               "lexemeId": "word-159",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4800,16 +4800,16 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "рождается; настоящее время. נוֹלָד — рождается, נוֹלַד — родился: без огласовок пишутся одинаково. Во множественном числе форма общая для обоих родов. Например, נולדתי (נוֹלַדְתִּי, нола́дти) означает «я родился»."
+              "meaning": "рождаться. נוֹלָד — рождается, נוֹלַד — родился: без огласовок пишутся одинаково. Во множественном числе форма общая для обоих родов. Например, נולדתי (נוֹלַדְתִּי, нола́дти) означает «я родился»."
             },
             "es": {
-              "meaning": "nace; presente. נוֹלָד — nace; נוֹלַד — nació: se escriben igual sin niqqud. En plural se usa la misma forma para ambos géneros. Por ejemplo, נולדתי (נוֹלַדְתִּי, noládti) significa «nací»."
+              "meaning": "nacer. נוֹלָד — nace; נוֹלַד — nació: se escriben igual sin niqqud. En plural se usa la misma forma para ambos géneros. Por ejemplo, נולדתי (נוֹלַדְתִּי, noládti) significa «nací»."
             }
           },
           "items": [
             {
               "lexemeId": "word-160",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4872,16 +4872,16 @@
           "addedAt": "2026-11-02",
           "translations": {
             "ru": {
-              "meaning": "приходит, прибывает; настоящее время; באה: нормативное баа́; в разговорной речи также ба́а"
+              "meaning": "приходить, прибывать; באה: нормативное баа́; в разговорной речи также ба́а"
             },
             "es": {
-              "meaning": "viene, llega; presente; באה: pronunciación normativa baá; también báa en el habla coloquial"
+              "meaning": "venir, llegar; באה: pronunciación normativa baá; también báa en el habla coloquial"
             }
           },
           "items": [
             {
               "lexemeId": "word-165",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4890,16 +4890,16 @@
           "addedAt": "2026-11-02",
           "translations": {
             "ru": {
-              "meaning": "входит, заходит; настоящее время. При указании места обычно ל־: נכנס לכיתה — входит в класс"
+              "meaning": "входить, заходить. При указании места обычно ל־: נכנס לכיתה — входит в класс"
             },
             "es": {
-              "meaning": "entra; presente. Para indicar el lugar suele usarse ל־: נכנס לכיתה — entra en el aula"
+              "meaning": "entrar. Para indicar el lugar suele usarse ל־: נכנס לכיתה — entra en el aula"
             }
           },
           "items": [
             {
               "lexemeId": "word-166",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4908,16 +4908,16 @@
           "addedAt": "2026-11-02",
           "translations": {
             "ru": {
-              "meaning": "выходит, покидает; настоящее время. מ־ — откуда: יוצא מהכיתה — выходит из класса; יוצא מהעיר — покидает город. ל־ — куда или для чего: יוצא לכיתה — выходит, направляясь в класс. Произношение приставок зависит от следующего слова"
+              "meaning": "выходить, покидать. מ־ — откуда: יוצא מהכיתה — выходит из класса; יוצא מהעיר — покидает город. ל־ — куда или для чего: יוצא לכיתה — выходит, направляясь в класс. Произношение приставок зависит от следующего слова"
             },
             "es": {
-              "meaning": "sale, abandona un lugar; presente. מ־ indica de dónde: יוצא מהכיתה — sale del aula; יוצא מהעיר — sale de la ciudad. ל־ indica destino o finalidad: יוצא לכיתה — sale para ir al aula. La pronunciación de los prefijos depende de la palabra siguiente"
+              "meaning": "salir, abandonar un lugar. מ־ indica de dónde: יוצא מהכיתה — sale del aula; יוצא מהעיר — sale de la ciudad. ל־ indica destino o finalidad: יוצא לכיתה — sale para ir al aula. La pronunciación de los prefijos depende de la palabra siguiente"
             }
           },
           "items": [
             {
               "lexemeId": "word-167",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4926,16 +4926,16 @@
           "addedAt": "2026-11-03",
           "translations": {
             "ru": {
-              "meaning": "видит; настоящее время. Формы ед. числа без огласовок пишутся одинаково"
+              "meaning": "видеть. Формы ед. числа без огласовок пишутся одинаково"
             },
             "es": {
-              "meaning": "ve; presente. Las formas singulares se escriben igual sin niqqud"
+              "meaning": "ver. Las formas singulares se escriben igual sin niqqud"
             }
           },
           "items": [
             {
               "lexemeId": "word-228",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4944,16 +4944,16 @@
           "addedAt": "2026-11-03",
           "translations": {
             "ru": {
-              "meaning": "бежит, бегает; настоящее время; רצה: нормативное раца́; в разговорной речи также ра́ца"
+              "meaning": "бежать, бегать; רצה: нормативное раца́; в разговорной речи также ра́ца"
             },
             "es": {
-              "meaning": "corre; presente; רצה: pronunciación normativa razá; también ráza en el habla coloquial"
+              "meaning": "correr; רצה: pronunciación normativa razá; también ráza en el habla coloquial"
             }
           },
           "items": [
             {
               "lexemeId": "word-233",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4962,16 +4962,16 @@
           "addedAt": "2026-11-05",
           "translations": {
             "ru": {
-              "meaning": "хочет"
+              "meaning": "хотеть"
             },
             "es": {
-              "meaning": "quiere"
+              "meaning": "querer"
             }
           },
           "items": [
             {
               "lexemeId": "word-288",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4980,16 +4980,16 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "покупает"
+              "meaning": "покупать"
             },
             "es": {
-              "meaning": "compra"
+              "meaning": "comprar"
             }
           },
           "items": [
             {
               "lexemeId": "word-310",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -4998,16 +4998,16 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "ест; настоящее время. Инфинитив: לאכול (לֶאֱכֹל, леэхо́ль) — есть, кушать."
+              "meaning": "есть, кушать"
             },
             "es": {
-              "meaning": "come; presente. Infinitivo: לאכול (לֶאֱכֹל, leechól), comer."
+              "meaning": "comer"
             }
           },
           "items": [
             {
               "lexemeId": "word-311",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -5016,16 +5016,16 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "пьёт; настоящее время. Инфинитив: לשתות (לִשְׁתּוֹת, лишто́т) — пить."
+              "meaning": "пить"
             },
             "es": {
-              "meaning": "bebe; presente. Infinitivo: לשתות (לִשְׁתּוֹת, lishtót), beber."
+              "meaning": "beber"
             }
           },
           "items": [
             {
               "lexemeId": "word-312",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -5034,16 +5034,16 @@
           "addedAt": "2026-11-08",
           "translations": {
             "ru": {
-              "meaning": "играет; настоящее время; играть в игру или играть роль. Инфинитив: לשחק (לְשַׂחֵק, лесахе́к) — играть."
+              "meaning": "играть в игру или исполнять роль"
             },
             "es": {
-              "meaning": "juega; presente; jugar a un juego o interpretar un papel. Infinitivo: לשחק (לְשַׂחֵק, lesachék), jugar o actuar."
+              "meaning": "jugar o interpretar un papel"
             }
           },
           "items": [
             {
               "lexemeId": "word-338",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -5052,16 +5052,16 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "проверяет"
+              "meaning": "проверять"
             },
             "es": {
-              "meaning": "comprueba, revisa"
+              "meaning": "comprobar, revisar"
             }
           },
           "items": [
             {
               "lexemeId": "word-354",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -5070,16 +5070,16 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "присутствует; также «присутствующий»"
+              "meaning": "присутствовать; также «присутствующий»"
             },
             "es": {
-              "meaning": "está presente; también «presente»"
+              "meaning": "estar presente, asistir; también «presente»"
             }
           },
           "items": [
             {
               "lexemeId": "word-355",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -5088,16 +5088,16 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "завершает, дополняет (например, предложение)"
+              "meaning": "завершать, дополнять (например, предложение)"
             },
             "es": {
-              "meaning": "completa, termina (por ejemplo, una oración)"
+              "meaning": "completar, terminar (por ejemplo, una oración)"
             }
           },
           "items": [
             {
               "lexemeId": "word-356",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -5106,16 +5106,16 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "ухаживает, заботится; о ком-либо/чём-либо — с предлогом ב־"
+              "meaning": "ухаживать, заботиться; о ком-либо/чём-либо — с предлогом ב־"
             },
             "es": {
-              "meaning": "cuida, se ocupa de alguien o algo; complemento con la preposición ב־"
+              "meaning": "cuidar, ocuparse de alguien o algo; complemento con la preposición ב־"
             }
           },
           "items": [
             {
               "lexemeId": "word-357",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -5124,16 +5124,16 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "остаётся"
+              "meaning": "оставаться"
             },
             "es": {
-              "meaning": "se queda, permanece"
+              "meaning": "quedarse, permanecer"
             }
           },
           "items": [
             {
               "lexemeId": "word-358",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -5142,16 +5142,16 @@
           "addedAt": "2026-11-11",
           "translations": {
             "ru": {
-              "meaning": "слышит, слушает"
+              "meaning": "слышать, слушать"
             },
             "es": {
-              "meaning": "oye, escucha"
+              "meaning": "oír, escuchar"
             }
           },
           "items": [
             {
               "lexemeId": "word-381",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -5160,16 +5160,16 @@
           "addedAt": "2026-11-11",
           "translations": {
             "ru": {
-              "meaning": "ждёт. Перед тем, кого или чего ждут, ставится ל־."
+              "meaning": "ждать. Перед тем, кого или чего ждут, ставится ל־."
             },
             "es": {
-              "meaning": "espera. Se usa ל־ ante la persona o cosa que se espera."
+              "meaning": "esperar. Se usa ל־ ante la persona o cosa que se espera."
             }
           },
           "items": [
             {
               "lexemeId": "word-384",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -5178,16 +5178,16 @@
           "addedAt": "2026-11-12",
           "translations": {
             "ru": {
-              "meaning": "знает, знаком с кем-либо или чем-либо, узнаёт"
+              "meaning": "знать, быть знакомым с кем-либо или чем-либо, узнавать"
             },
             "es": {
-              "meaning": "conoce a alguien o algo, reconoce"
+              "meaning": "conocer a alguien o algo, reconocer"
             }
           },
           "items": [
             {
               "lexemeId": "word-389",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -5196,16 +5196,16 @@
           "addedAt": "2026-11-12",
           "translations": {
             "ru": {
-              "meaning": "плачет"
+              "meaning": "плакать"
             },
             "es": {
-              "meaning": "llora"
+              "meaning": "llorar"
             }
           },
           "items": [
             {
               "lexemeId": "word-392",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -5214,16 +5214,16 @@
           "addedAt": "2026-11-12",
           "translations": {
             "ru": {
-              "meaning": "похож на"
+              "meaning": "быть похожим на"
             },
             "es": {
-              "meaning": "se parece a"
+              "meaning": "parecerse a"
             }
           },
           "items": [
             {
               "lexemeId": "word-403",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         },
@@ -5232,16 +5232,16 @@
           "addedAt": "2026-11-12",
           "translations": {
             "ru": {
-              "meaning": "прибывает, добирается (до места)"
+              "meaning": "прибывать, добираться (до места)"
             },
             "es": {
-              "meaning": "llega a un lugar"
+              "meaning": "llegar a un lugar"
             }
           },
           "items": [
             {
               "lexemeId": "word-404",
-              "defaultFormId": "present-masculine-singular"
+              "defaultFormId": "infinitive"
             }
           ]
         }
@@ -18793,8 +18793,24 @@
       "partOfSpeech": "noun"
     },
     "word-138": {
-      "lemma": "לומד",
+      "lemma": "ללמוד",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "ללמוד",
+              "hebrewWithNiqqud": "לִלְמֹד",
+              "pronunciation": {
+                "ru": "лильмо́д",
+                "es": "lilmód"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -18871,8 +18887,24 @@
       "partOfSpeech": "verb"
     },
     "word-139": {
-      "lemma": "עובד",
+      "lemma": "לעבוד",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לעבוד",
+              "hebrewWithNiqqud": "לַעֲבֹד",
+              "pronunciation": {
+                "ru": "лааво́д",
+                "es": "laavód"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -18949,8 +18981,24 @@
       "partOfSpeech": "verb"
     },
     "word-140": {
-      "lemma": "הולך",
+      "lemma": "ללכת",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "ללכת",
+              "hebrewWithNiqqud": "לָלֶכֶת",
+              "pronunciation": {
+                "ru": "лалэ́хет",
+                "es": "laléchet"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -19027,8 +19075,24 @@
       "partOfSpeech": "verb"
     },
     "word-141": {
-      "lemma": "נוסע",
+      "lemma": "לנסוע",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לנסוע",
+              "hebrewWithNiqqud": "לִנְסֹעַ",
+              "pronunciation": {
+                "ru": "линсо́а",
+                "es": "linsóa"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -19105,8 +19169,24 @@
       "partOfSpeech": "verb"
     },
     "word-142": {
-      "lemma": "יודע",
+      "lemma": "לדעת",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לדעת",
+              "hebrewWithNiqqud": "לָדַעַת",
+              "pronunciation": {
+                "ru": "лада́ат",
+                "es": "ladáat"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -19183,8 +19263,24 @@
       "partOfSpeech": "verb"
     },
     "word-143": {
-      "lemma": "כותב",
+      "lemma": "לכתוב",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לכתוב",
+              "hebrewWithNiqqud": "לִכְתֹּב",
+              "pronunciation": {
+                "ru": "лихто́в",
+                "es": "lichtóv"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -19261,8 +19357,24 @@
       "partOfSpeech": "verb"
     },
     "word-144": {
-      "lemma": "קורא",
+      "lemma": "לקרוא",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לקרוא",
+              "hebrewWithNiqqud": "לִקְרֹא",
+              "pronunciation": {
+                "ru": "ликро́",
+                "es": "likró"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -19339,8 +19451,24 @@
       "partOfSpeech": "verb"
     },
     "word-145": {
-      "lemma": "אוהב",
+      "lemma": "לאהוב",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לאהוב",
+              "hebrewWithNiqqud": "לֶאֱהֹב",
+              "pronunciation": {
+                "ru": "леэhо́в",
+                "es": "leehóv"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -19417,8 +19545,24 @@
       "partOfSpeech": "verb"
     },
     "word-146": {
-      "lemma": "מדבר",
+      "lemma": "לדבר",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לדבר",
+              "hebrewWithNiqqud": "לְדַבֵּר",
+              "pronunciation": {
+                "ru": "ледабэ́р",
+                "es": "ledabér"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -19495,8 +19639,24 @@
       "partOfSpeech": "verb"
     },
     "word-147": {
-      "lemma": "אומר",
+      "lemma": "לומר",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לומר",
+              "hebrewWithNiqqud": "לוֹמַר",
+              "pronunciation": {
+                "ru": "лома́р",
+                "es": "lomár"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -19573,8 +19733,24 @@
       "partOfSpeech": "verb"
     },
     "word-148": {
-      "lemma": "גר",
+      "lemma": "לגור",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לגור",
+              "hebrewWithNiqqud": "לָגוּר",
+              "pronunciation": {
+                "ru": "лагу́р",
+                "es": "lagúr"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -19651,8 +19827,24 @@
       "partOfSpeech": "verb"
     },
     "word-149": {
-      "lemma": "מרגיש",
+      "lemma": "להרגיש",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "להרגיש",
+              "hebrewWithNiqqud": "לְהַרְגִּישׁ",
+              "pronunciation": {
+                "ru": "леhарги́ш",
+                "es": "lehargísh"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -19729,8 +19921,24 @@
       "partOfSpeech": "verb"
     },
     "word-150": {
-      "lemma": "נמצא",
+      "lemma": "להימצא",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "להימצא",
+              "hebrewWithNiqqud": "לְהִמָּצֵא",
+              "pronunciation": {
+                "ru": "леhимацэ́",
+                "es": "lehimazé"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -19807,8 +20015,24 @@
       "partOfSpeech": "verb"
     },
     "word-151": {
-      "lemma": "חסר",
+      "lemma": "לחסור",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לחסור",
+              "hebrewWithNiqqud": "לַחְסֹר",
+              "pronunciation": {
+                "ru": "лахсо́р",
+                "es": "lachsór"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -19885,8 +20109,24 @@
       "partOfSpeech": "verb"
     },
     "word-152": {
-      "lemma": "שואל",
+      "lemma": "לשאול",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לשאול",
+              "hebrewWithNiqqud": "לִשְׁאֹל",
+              "pronunciation": {
+                "ru": "лишъо́ль",
+                "es": "lishól"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -19963,8 +20203,24 @@
       "partOfSpeech": "verb"
     },
     "word-153": {
-      "lemma": "עונה",
+      "lemma": "לענות",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לענות",
+              "hebrewWithNiqqud": "לַעֲנוֹת",
+              "pronunciation": {
+                "ru": "лаано́т",
+                "es": "laanót"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -20041,8 +20297,24 @@
       "partOfSpeech": "verb"
     },
     "word-154": {
-      "lemma": "מבין",
+      "lemma": "להבין",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "להבין",
+              "hebrewWithNiqqud": "לְהָבִין",
+              "pronunciation": {
+                "ru": "леhави́н",
+                "es": "lehavín"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -20119,8 +20391,24 @@
       "partOfSpeech": "verb"
     },
     "word-155": {
-      "lemma": "מאחר",
+      "lemma": "לאחר",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לאחר",
+              "hebrewWithNiqqud": "לְאַחֵר",
+              "pronunciation": {
+                "ru": "леахэ́р",
+                "es": "leachér"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -20197,8 +20485,24 @@
       "partOfSpeech": "verb"
     },
     "word-156": {
-      "lemma": "עומד",
+      "lemma": "לעמוד",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לעמוד",
+              "hebrewWithNiqqud": "לַעֲמֹד",
+              "pronunciation": {
+                "ru": "лаамо́д",
+                "es": "laamód"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -20275,8 +20579,24 @@
       "partOfSpeech": "verb"
     },
     "word-157": {
-      "lemma": "יושב",
+      "lemma": "לשבת",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לשבת",
+              "hebrewWithNiqqud": "לָשֶׁבֶת",
+              "pronunciation": {
+                "ru": "лашэ́вет",
+                "es": "lashévet"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -20353,8 +20673,24 @@
       "partOfSpeech": "verb"
     },
     "word-158": {
-      "lemma": "מרים",
+      "lemma": "להרים",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "להרים",
+              "hebrewWithNiqqud": "לְהָרִים",
+              "pronunciation": {
+                "ru": "леhари́м",
+                "es": "leharím"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -20431,8 +20767,24 @@
       "partOfSpeech": "verb"
     },
     "word-159": {
-      "lemma": "מטייל",
+      "lemma": "לטייל",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לטייל",
+              "hebrewWithNiqqud": "לְטַיֵּל",
+              "pronunciation": {
+                "ru": "летайэ́ль",
+                "es": "letayél"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -20509,8 +20861,24 @@
       "partOfSpeech": "verb"
     },
     "word-160": {
-      "lemma": "נולד",
+      "lemma": "להיוולד",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "להיוולד",
+              "hebrewWithNiqqud": "לְהִוָּלֵד",
+              "pronunciation": {
+                "ru": "леhивалэ́д",
+                "es": "lehivaléd"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -20755,8 +21123,24 @@
       "partOfSpeech": "expression"
     },
     "word-165": {
-      "lemma": "בא",
+      "lemma": "לבוא",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לבוא",
+              "hebrewWithNiqqud": "לָבוֹא",
+              "pronunciation": {
+                "ru": "лаво́",
+                "es": "lavó"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -20833,8 +21217,24 @@
       "partOfSpeech": "verb"
     },
     "word-166": {
-      "lemma": "נכנס",
+      "lemma": "להיכנס",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "להיכנס",
+              "hebrewWithNiqqud": "לְהִכָּנֵס",
+              "pronunciation": {
+                "ru": "леhиканэ́с",
+                "es": "lehikanés"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -20911,8 +21311,24 @@
       "partOfSpeech": "verb"
     },
     "word-167": {
-      "lemma": "יוצא",
+      "lemma": "לצאת",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לצאת",
+              "hebrewWithNiqqud": "לָצֵאת",
+              "pronunciation": {
+                "ru": "лацэ́т",
+                "es": "lazét"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -20989,8 +21405,24 @@
       "partOfSpeech": "verb"
     },
     "word-228": {
-      "lemma": "רואה",
+      "lemma": "לראות",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לראות",
+              "hebrewWithNiqqud": "לִרְאוֹת",
+              "pronunciation": {
+                "ru": "лиръо́т",
+                "es": "lirót"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -21067,8 +21499,24 @@
       "partOfSpeech": "verb"
     },
     "word-233": {
-      "lemma": "רץ",
+      "lemma": "לרוץ",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לרוץ",
+              "hebrewWithNiqqud": "לָרוּץ",
+              "pronunciation": {
+                "ru": "лару́ц",
+                "es": "larúz"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -21145,8 +21593,24 @@
       "partOfSpeech": "verb"
     },
     "word-288": {
-      "lemma": "רוצה",
+      "lemma": "לרצות",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לרצות",
+              "hebrewWithNiqqud": "לִרְצוֹת",
+              "pronunciation": {
+                "ru": "лирцо́т",
+                "es": "lirzót"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -21223,8 +21687,24 @@
       "partOfSpeech": "verb"
     },
     "word-310": {
-      "lemma": "קונה",
+      "lemma": "לקנות",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לקנות",
+              "hebrewWithNiqqud": "לִקְנוֹת",
+              "pronunciation": {
+                "ru": "ликно́т",
+                "es": "liknót"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -21301,8 +21781,24 @@
       "partOfSpeech": "verb"
     },
     "word-311": {
-      "lemma": "אוכל",
+      "lemma": "לאכול",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לאכול",
+              "hebrewWithNiqqud": "לֶאֱכֹל",
+              "pronunciation": {
+                "ru": "леэхо́ль",
+                "es": "leechól"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -21379,8 +21875,24 @@
       "partOfSpeech": "verb"
     },
     "word-312": {
-      "lemma": "שותה",
+      "lemma": "לשתות",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לשתות",
+              "hebrewWithNiqqud": "לִשְׁתּוֹת",
+              "pronunciation": {
+                "ru": "лишто́т",
+                "es": "lishtót"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -21457,8 +21969,24 @@
       "partOfSpeech": "verb"
     },
     "word-338": {
-      "lemma": "משחק",
+      "lemma": "לשחק",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לשחק",
+              "hebrewWithNiqqud": "לְשַׂחֵק",
+              "pronunciation": {
+                "ru": "лесахэ́к",
+                "es": "lesachék"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -21535,8 +22063,24 @@
       "partOfSpeech": "verb"
     },
     "word-354": {
-      "lemma": "בודק",
+      "lemma": "לבדוק",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לבדוק",
+              "hebrewWithNiqqud": "לִבְדֹּק",
+              "pronunciation": {
+                "ru": "ливдо́к",
+                "es": "livdók"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -21613,8 +22157,24 @@
       "partOfSpeech": "verb"
     },
     "word-355": {
-      "lemma": "נוכח",
+      "lemma": "לנכוח",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לנכוח",
+              "hebrewWithNiqqud": "לִנְכֹּחַ",
+              "pronunciation": {
+                "ru": "линко́ах",
+                "es": "linkóach"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -21691,8 +22251,24 @@
       "partOfSpeech": "verb"
     },
     "word-356": {
-      "lemma": "משלים",
+      "lemma": "להשלים",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "להשלים",
+              "hebrewWithNiqqud": "לְהַשְׁלִים",
+              "pronunciation": {
+                "ru": "леhашли́м",
+                "es": "lehashlím"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -21769,8 +22345,24 @@
       "partOfSpeech": "verb"
     },
     "word-357": {
-      "lemma": "מטפל",
+      "lemma": "לטפל",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לטפל",
+              "hebrewWithNiqqud": "לְטַפֵּל",
+              "pronunciation": {
+                "ru": "летапэ́ль",
+                "es": "letapél"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -21847,8 +22439,24 @@
       "partOfSpeech": "verb"
     },
     "word-358": {
-      "lemma": "נשאר",
+      "lemma": "להישאר",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "להישאר",
+              "hebrewWithNiqqud": "לְהִשָּׁאֵר",
+              "pronunciation": {
+                "ru": "леhишаэ́р",
+                "es": "lehishaér"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -21925,8 +22533,24 @@
       "partOfSpeech": "verb"
     },
     "word-381": {
-      "lemma": "שומע",
+      "lemma": "לשמוע",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לשמוע",
+              "hebrewWithNiqqud": "לִשְׁמֹעַ",
+              "pronunciation": {
+                "ru": "лишмо́а",
+                "es": "lishmóa"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -22003,8 +22627,24 @@
       "partOfSpeech": "verb"
     },
     "word-384": {
-      "lemma": "מחכה",
+      "lemma": "לחכות",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לחכות",
+              "hebrewWithNiqqud": "לְחַכּוֹת",
+              "pronunciation": {
+                "ru": "лехако́т",
+                "es": "lechakót"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -22081,8 +22721,24 @@
       "partOfSpeech": "verb"
     },
     "word-389": {
-      "lemma": "מכיר",
+      "lemma": "להכיר",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "להכיר",
+              "hebrewWithNiqqud": "לְהַכִּיר",
+              "pronunciation": {
+                "ru": "леhаки́р",
+                "es": "lehakír"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -22159,8 +22815,24 @@
       "partOfSpeech": "verb"
     },
     "word-392": {
-      "lemma": "בוכה",
+      "lemma": "לבכות",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לבכות",
+              "hebrewWithNiqqud": "לִבְכּוֹת",
+              "pronunciation": {
+                "ru": "ливко́т",
+                "es": "livkót"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -22237,8 +22909,24 @@
       "partOfSpeech": "verb"
     },
     "word-403": {
-      "lemma": "דומה ל־",
+      "lemma": "לדמות ל־",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לדמות ל־",
+              "hebrewWithNiqqud": "לִדְמוֹת לְ־",
+              "pronunciation": {
+                "ru": "лидмо́т ле-",
+                "es": "lidmót le-"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {
@@ -22315,8 +23003,24 @@
       "partOfSpeech": "verb"
     },
     "word-404": {
-      "lemma": "מגיע",
+      "lemma": "להגיע",
       "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "להגיע",
+              "hebrewWithNiqqud": "לְהַגִּיעַ",
+              "pronunciation": {
+                "ru": "леhаги́а",
+                "es": "lehagía"
+              }
+            }
+          ]
+        },
         {
           "id": "present-masculine-singular",
           "grammar": {

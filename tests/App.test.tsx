@@ -38,13 +38,13 @@ describe('dictionary interface', () => {
     localStorage.setItem('ulpan-dictionary-language', 'es');
     const { container } = render(<App />);
     const search = screen.getByRole('searchbox');
-    fireEvent.change(search, { target: { value: 'holéch' } });
+    fireEvent.change(search, { target: { value: 'laléchet' } });
     const card = container.querySelector('.card')!;
     const button = within(card as HTMLElement).getByRole('button');
     expect(button.getAttribute('aria-expanded')).toBe('false');
     fireEvent.click(card);
     expect(card.querySelector('.card-top')).toBeNull();
-    expect(within(card as HTMLElement).getAllByRole('cell')).toHaveLength(12);
+    expect(within(card as HTMLElement).getAllByRole('cell')).toHaveLength(15);
     fireEvent.click(button);
     expect(within(card as HTMLElement).queryByRole('table')).toBeNull();
     fireEvent.change(search, { target: { value: 'holchót' } });
@@ -169,8 +169,8 @@ describe('localization', () => {
     );
     expect(container.querySelector('main')?.classList.contains('handwritten')).toBe(true);
     expect(container.querySelectorAll('.card')).toHaveLength(1);
-    expect(container.querySelector('.pronunciation')?.textContent).toBe('holéch');
-    expect(container.querySelector('.meaning')?.textContent).toBe('va, camina');
+    expect(container.querySelector('.pronunciation')?.textContent).toBe('laléchet');
+    expect(container.querySelector('.meaning')?.textContent).toBe('ir, caminar');
     expect(container.querySelector('.filters-search-active .topic-trigger')?.textContent).toBe(
       'Verbos y estados',
     );
