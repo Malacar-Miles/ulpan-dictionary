@@ -282,24 +282,6 @@
           ]
         },
         {
-          "id": "word-016",
-          "addedAt": "2026-11-01",
-          "translations": {
-            "ru": {
-              "meaning": "как у вас дела? Обращение к группе."
-            },
-            "es": {
-              "meaning": "¿cómo están? Se dirige a un grupo."
-            }
-          },
-          "items": [
-            {
-              "lexemeId": "word-016",
-              "defaultFormId": "phrase-2-masculine-plural"
-            }
-          ]
-        },
-        {
           "id": "word-017",
           "addedAt": "2026-11-01",
           "translations": {
@@ -6491,24 +6473,6 @@
           ]
         },
         {
-          "id": "word-209",
-          "addedAt": "2026-11-01",
-          "translations": {
-            "ru": {
-              "meaning": "вы (обращение к группе). Мужская форма множественного числа подходит и для смешанной группы."
-            },
-            "es": {
-              "meaning": "ustedes. El masculino plural también se usa para grupos mixtos."
-            }
-          },
-          "items": [
-            {
-              "lexemeId": "word-209",
-              "defaultFormId": "pronoun-2-masculine-plural"
-            }
-          ]
-        },
-        {
           "id": "word-210",
           "addedAt": "2026-11-01",
           "translations": {
@@ -6523,24 +6487,6 @@
             {
               "lexemeId": "word-210",
               "defaultFormId": "pronoun-3-masculine-singular"
-            }
-          ]
-        },
-        {
-          "id": "word-211",
-          "addedAt": "2026-11-01",
-          "translations": {
-            "ru": {
-              "meaning": "они. Мужская форма множественного числа подходит и для смешанной группы."
-            },
-            "es": {
-              "meaning": "ellos. El masculino plural también se usa para grupos mixtos."
-            }
-          },
-          "items": [
-            {
-              "lexemeId": "word-211",
-              "defaultFormId": "pronoun-3-masculine-plural"
             }
           ]
         },
@@ -7787,13 +7733,7 @@
               }
             }
           ]
-        }
-      ],
-      "partOfSpeech": "expression"
-    },
-    "word-016": {
-      "lemma": "מה שלומכם?",
-      "forms": [
+        },
         {
           "id": "phrase-2-masculine-plural",
           "grammar": {
@@ -7813,7 +7753,11 @@
                 "es": "ma shlomchém?"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "как у вас дела?",
+            "es": "¿cómo están?"
+          }
         },
         {
           "id": "phrase-2-feminine-plural",
@@ -7834,7 +7778,11 @@
                 "es": "ma shlomchén?"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "как у вас дела?",
+            "es": "¿cómo están?"
+          }
         }
       ],
       "partOfSpeech": "expression"
@@ -25727,13 +25675,7 @@
               }
             }
           ]
-        }
-      ],
-      "partOfSpeech": "pronoun"
-    },
-    "word-209": {
-      "lemma": "אתם",
-      "forms": [
+        },
         {
           "id": "pronoun-2-masculine-plural",
           "grammar": {
@@ -25751,7 +25693,11 @@
                 "es": "atém"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "вы. Мужская форма множественного числа подходит и для смешанной группы.",
+            "es": "ustedes. El masculino plural también se usa para grupos mixtos."
+          }
         },
         {
           "id": "pronoun-2-feminine-plural",
@@ -25770,7 +25716,11 @@
                 "es": "atén"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "вы",
+            "es": "ustedes"
+          }
         }
       ],
       "partOfSpeech": "pronoun"
@@ -25823,13 +25773,7 @@
             "ru": "она",
             "es": "ella"
           }
-        }
-      ],
-      "partOfSpeech": "pronoun"
-    },
-    "word-211": {
-      "lemma": "הם",
-      "forms": [
+        },
         {
           "id": "pronoun-3-masculine-plural",
           "grammar": {
@@ -25847,7 +25791,11 @@
                 "es": "hem"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "они. Мужская форма множественного числа подходит и для смешанной группы.",
+            "es": "ellos. El masculino plural también se usa para grupos mixtos."
+          }
         },
         {
           "id": "pronoun-3-feminine-plural",
@@ -25866,7 +25814,11 @@
                 "es": "hen"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "они",
+            "es": "ellas"
+          }
         }
       ],
       "partOfSpeech": "pronoun"
