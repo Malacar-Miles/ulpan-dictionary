@@ -43,6 +43,16 @@ describe('bilingual dictionary integrity', () => {
     }
   });
 
+  it('shows each collection of lexemes on one card', () => {
+    const collections = entries.map((entry) =>
+      entry.items
+        .map((item) => item.lexemeId)
+        .sort()
+        .join('|'),
+    );
+    expect(new Set(collections).size).toBe(entries.length);
+  });
+
   it('retains shared Hebrew and stable categories across languages', () => {
     const ru = localizeSections('ru');
     const es = localizeSections('es');
@@ -69,7 +79,7 @@ describe('bilingual dictionary integrity', () => {
       'word-174': 'meanyén / meanyénet / meanyením / meanyenót',
       'word-113': 'tiyúl / tiyulím',
       'word-088': 'masgán / masganím',
-      'word-214': 'shelchá / shelách',
+      'word-212': 'shelchá / shelách',
       'word-141': 'noséa / nosáat / nosím / nosót',
       'word-050': 'tayár / tayéret / tayarím / tayarót',
       'word-162': 'yesh',

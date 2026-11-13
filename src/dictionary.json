@@ -513,60 +513,6 @@
           ]
         },
         {
-          "id": "word-020",
-          "addedAt": "2026-11-01",
-          "translations": {
-            "ru": {
-              "meaning": "моё имя"
-            },
-            "es": {
-              "meaning": "mi nombre"
-            }
-          },
-          "items": [
-            {
-              "lexemeId": "word-019",
-              "defaultFormId": "suffix-1-singular"
-            }
-          ]
-        },
-        {
-          "id": "word-021",
-          "addedAt": "2026-11-01",
-          "translations": {
-            "ru": {
-              "meaning": "твоё имя"
-            },
-            "es": {
-              "meaning": "tu nombre"
-            }
-          },
-          "items": [
-            {
-              "lexemeId": "word-019",
-              "defaultFormId": "suffix-2-masculine-singular"
-            }
-          ]
-        },
-        {
-          "id": "word-022",
-          "addedAt": "2026-11-01",
-          "translations": {
-            "ru": {
-              "meaning": "его имя"
-            },
-            "es": {
-              "meaning": "su nombre (de él)"
-            }
-          },
-          "items": [
-            {
-              "lexemeId": "word-019",
-              "defaultFormId": "suffix-3-masculine-singular"
-            }
-          ]
-        },
-        {
           "id": "word-023",
           "addedAt": "2026-11-01",
           "translations": {
@@ -581,42 +527,6 @@
             {
               "lexemeId": "word-023",
               "defaultFormId": "suffix-1-singular"
-            }
-          ]
-        },
-        {
-          "id": "word-024",
-          "addedAt": "2026-11-01",
-          "translations": {
-            "ru": {
-              "meaning": "твоё самочувствие"
-            },
-            "es": {
-              "meaning": "tu estado"
-            }
-          },
-          "items": [
-            {
-              "lexemeId": "word-023",
-              "defaultFormId": "suffix-2-masculine-singular"
-            }
-          ]
-        },
-        {
-          "id": "word-025",
-          "addedAt": "2026-11-01",
-          "translations": {
-            "ru": {
-              "meaning": "ваше самочувствие"
-            },
-            "es": {
-              "meaning": "su estado (de ustedes)"
-            }
-          },
-          "items": [
-            {
-              "lexemeId": "word-023",
-              "defaultFormId": "suffix-2-masculine-plural"
             }
           ]
         },
@@ -4908,34 +4818,16 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "рождается; настоящее время. נוֹלָד — рождается, נוֹלַד — родился: без огласовок пишутся одинаково"
+              "meaning": "рождается; настоящее время. נוֹלָד — рождается, נוֹלַד — родился: без огласовок пишутся одинаково. Во множественном числе форма общая для обоих родов. Например, נולדתי (נוֹלַדְתִּי, нола́дти) означает «я родился»."
             },
             "es": {
-              "meaning": "nace; presente. נוֹלָד — nace; נוֹלַד — nació: se escriben igual sin niqqud"
+              "meaning": "nace; presente. נוֹלָד — nace; נוֹלַד — nació: se escriben igual sin niqqud. En plural se usa la misma forma para ambos géneros. Por ejemplo, נולדתי (נוֹלַדְתִּי, noládti) significa «nací»."
             }
           },
           "items": [
             {
               "lexemeId": "word-160",
               "defaultFormId": "present-masculine-singular"
-            }
-          ]
-        },
-        {
-          "id": "word-161",
-          "addedAt": "2026-11-02",
-          "translations": {
-            "ru": {
-              "meaning": "родился. Во множественном числе форма общая для обоих родов. Например, נולדתי (נוֹלַדְתִּי, нола́дти) означает «я родился»."
-            },
-            "es": {
-              "meaning": "nació. En plural se usa la misma forma para ambos géneros. Por ejemplo, נולדתי (נוֹלַדְתִּי, noládti) significa «nací»."
-            }
-          },
-          "items": [
-            {
-              "lexemeId": "word-160",
-              "defaultFormId": "past-3-masculine-singular"
             }
           ]
         },
@@ -6444,10 +6336,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "кому? для кого?; также «у кого?» в некоторых конструкциях, например למי יש ...?"
+              "meaning": "кому? для кого? С יש / אין — у кого есть / нет? Предлог ל־ + מי; не изменяется по родам и числам. Например: למי יש ...?"
             },
             "es": {
-              "meaning": "¿a quién? ¿para quién? También «¿quién tiene?» en construcciones como למי יש ...?"
+              "meaning": "¿a quién? ¿para quién? Con יש / אין pregunta quién tiene / no tiene algo. Preposición ל־ + מי; no cambia según género ni número. Por ejemplo: למי יש ...?"
             }
           },
           "items": [
@@ -6526,24 +6418,6 @@
             {
               "lexemeId": "word-243",
               "defaultFormId": "agreement-masculine-singular"
-            }
-          ]
-        },
-        {
-          "id": "word-341",
-          "addedAt": "2026-11-08",
-          "translations": {
-            "ru": {
-              "meaning": "кому? для кого? С יש / אין — у кого есть / нет? Предлог ל־ + מי; не изменяется по родам и числам."
-            },
-            "es": {
-              "meaning": "¿a quién? ¿para quién? Con יש / אין pregunta quién tiene / no tiene algo. Preposición ל־ + מי; no cambia según género ni número."
-            }
-          },
-          "items": [
-            {
-              "lexemeId": "word-341",
-              "defaultFormId": "fixed"
             }
           ]
         },
@@ -6675,52 +6549,16 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "частица принадлежности: «кого?», «чей?»"
+              "meaning": "частица принадлежности: «кого?», «чей?». Форма зависит от того, кому принадлежит предмет. Мужская форма множественного числа подходит и для смешанной группы."
             },
             "es": {
-              "meaning": "partícula de posesión: «de», «¿de quién?»"
+              "meaning": "partícula de posesión: «de», «¿de quién?». La forma hebrea depende de quién posee el objeto. El masculino plural también se usa para grupos mixtos."
             }
           },
           "items": [
             {
               "lexemeId": "word-212",
               "defaultFormId": "fixed"
-            }
-          ]
-        },
-        {
-          "id": "word-213",
-          "addedAt": "2026-11-01",
-          "translations": {
-            "ru": {
-              "meaning": "мой"
-            },
-            "es": {
-              "meaning": "mío"
-            }
-          },
-          "items": [
-            {
-              "lexemeId": "word-212",
-              "defaultFormId": "suffix-1-singular"
-            }
-          ]
-        },
-        {
-          "id": "word-214",
-          "addedAt": "2026-11-01",
-          "translations": {
-            "ru": {
-              "meaning": "твой"
-            },
-            "es": {
-              "meaning": "tuyo"
-            }
-          },
-          "items": [
-            {
-              "lexemeId": "word-212",
-              "defaultFormId": "suffix-2-masculine-singular"
             }
           ]
         },
@@ -6991,42 +6829,6 @@
             {
               "lexemeId": "word-304",
               "defaultFormId": "construct"
-            }
-          ]
-        },
-        {
-          "id": "word-307",
-          "addedAt": "2026-11-07",
-          "translations": {
-            "ru": {
-              "meaning": "его. Форма зависит от того, кому принадлежит предмет."
-            },
-            "es": {
-              "meaning": "suyo. La forma hebrea depende de quién posee el objeto."
-            }
-          },
-          "items": [
-            {
-              "lexemeId": "word-212",
-              "defaultFormId": "suffix-3-masculine-singular"
-            }
-          ]
-        },
-        {
-          "id": "word-308",
-          "addedAt": "2026-11-07",
-          "translations": {
-            "ru": {
-              "meaning": "их. Мужская форма множественного числа подходит и для смешанной группы."
-            },
-            "es": {
-              "meaning": "de ellos. El masculino plural también se usa para grupos mixtos."
-            }
-          },
-          "items": [
-            {
-              "lexemeId": "word-212",
-              "defaultFormId": "suffix-3-masculine-plural"
             }
           ]
         },
@@ -8366,7 +8168,11 @@
                 "es": "shmi"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "моё имя",
+            "es": "mi nombre"
+          }
         },
         {
           "id": "suffix-2-masculine-singular",
@@ -8387,7 +8193,11 @@
                 "es": "shimchá"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "твоё имя",
+            "es": "tu nombre"
+          }
         },
         {
           "id": "suffix-2-feminine-singular",
@@ -8408,7 +8218,11 @@
                 "es": "shméch"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "твоё имя",
+            "es": "tu nombre"
+          }
         },
         {
           "id": "suffix-3-masculine-singular",
@@ -8429,7 +8243,11 @@
                 "es": "shmo"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "его имя",
+            "es": "su nombre (de él)"
+          }
         },
         {
           "id": "suffix-3-feminine-singular",
@@ -8450,7 +8268,11 @@
                 "es": "shma"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "её имя",
+            "es": "su nombre (de ella)"
+          }
         }
       ],
       "partOfSpeech": "noun"
@@ -8476,7 +8298,11 @@
                 "es": "shlomí"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "моё самочувствие",
+            "es": "mi bienestar"
+          }
         },
         {
           "id": "suffix-2-masculine-singular",
@@ -8497,7 +8323,11 @@
                 "es": "shlomchá"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "твоё самочувствие",
+            "es": "tu bienestar"
+          }
         },
         {
           "id": "suffix-2-feminine-singular",
@@ -8518,7 +8348,11 @@
                 "es": "shloméch"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "твоё самочувствие",
+            "es": "tu bienestar"
+          }
         },
         {
           "id": "suffix-2-masculine-plural",
@@ -8539,7 +8373,11 @@
                 "es": "shlomchém"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "ваше самочувствие",
+            "es": "su bienestar (de ustedes)"
+          }
         },
         {
           "id": "suffix-2-feminine-plural",
@@ -8560,7 +8398,11 @@
                 "es": "shlomchén"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "ваше самочувствие",
+            "es": "su bienestar (de ustedes)"
+          }
         }
       ],
       "partOfSpeech": "noun"
@@ -25773,28 +25615,6 @@
       ],
       "partOfSpeech": "determiner"
     },
-    "word-341": {
-      "lemma": "למי?",
-      "forms": [
-        {
-          "id": "fixed",
-          "grammar": {
-            "kind": "fixed"
-          },
-          "variants": [
-            {
-              "hebrew": "למי?",
-              "hebrewWithNiqqud": "לְמִי?",
-              "pronunciation": {
-                "ru": "леми́?",
-                "es": "lemí?"
-              }
-            }
-          ]
-        }
-      ],
-      "partOfSpeech": "interrogative"
-    },
     "word-401": {
       "lemma": "מדוע",
       "forms": [
@@ -26088,7 +25908,11 @@
                 "es": "shelí"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "мой",
+            "es": "mío"
+          }
         },
         {
           "id": "suffix-2-masculine-singular",
@@ -26109,7 +25933,11 @@
                 "es": "shelchá"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "твой",
+            "es": "tuyo"
+          }
         },
         {
           "id": "suffix-2-feminine-singular",
@@ -26130,7 +25958,11 @@
                 "es": "shelách"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "твой",
+            "es": "tuyo"
+          }
         },
         {
           "id": "suffix-3-masculine-singular",
@@ -26151,7 +25983,11 @@
                 "es": "sheló"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "его",
+            "es": "de él"
+          }
         },
         {
           "id": "suffix-3-feminine-singular",
@@ -26172,7 +26008,11 @@
                 "es": "shelá"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "её",
+            "es": "de ella"
+          }
         },
         {
           "id": "suffix-3-masculine-plural",
@@ -26193,7 +26033,11 @@
                 "es": "shelahém"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "их",
+            "es": "de ellos"
+          }
         },
         {
           "id": "suffix-3-feminine-plural",
@@ -26214,7 +26058,11 @@
                 "es": "shelahén"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "их",
+            "es": "de ellas"
+          }
         }
       ],
       "partOfSpeech": "preposition"
