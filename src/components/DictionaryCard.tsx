@@ -72,26 +72,16 @@ export const DictionaryCard = ({ entry, query, showNiqqud }: DictionaryCardProps
               <path d="m5 9 7 7 7-7" />
             </svg>
           </button>
-          {open && (
+          {open && entry.root !== undefined && (
             <div className="card-roots">
               {messages.root}{' '}
-              {entry.roots.length === 0
-                ? messages.rootUnlisted
-                : entry.roots.map(({ value, word }) => (
-                    <span key={value}>
-                      {word && (
-                        <>
-                          <bdi lang="he" dir="rtl">
-                            {word}
-                          </bdi>
-                          {' · '}
-                        </>
-                      )}
-                      <bdi lang="he" dir="rtl">
-                        {value}
-                      </bdi>
-                    </span>
-                  ))}
+              {entry.root === null ? (
+                messages.rootUnlisted
+              ) : (
+                <bdi lang="he" dir="rtl">
+                  <strong>{entry.root}</strong>
+                </bdi>
+              )}
             </div>
           )}
         </div>

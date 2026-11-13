@@ -34,7 +34,7 @@ type Messages = {
 
 export const catalogs: Record<Locale, Messages> = {
   ru: {
-    root: 'корень',
+    root: 'корень:',
     rootUnlisted: 'не указан',
     pageTitle: 'Словарь ульпана',
     brand: 'УЛЬПАН',
@@ -70,7 +70,7 @@ export const catalogs: Record<Locale, Messages> = {
     },
   },
   es: {
-    root: 'raíz',
+    root: 'raíz:',
     rootUnlisted: 'sin indicar',
     pageTitle: 'Diccionario del ulpán',
     brand: 'ULPÁN',

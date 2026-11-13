@@ -711,6 +711,24 @@
           ]
         },
         {
+          "id": "word-036-bat",
+          "addedAt": "2026-11-01",
+          "translations": {
+            "ru": {
+              "meaning": "дочь"
+            },
+            "es": {
+              "meaning": "hija"
+            }
+          },
+          "items": [
+            {
+              "lexemeId": "word-036-bat",
+              "defaultFormId": "agreement-feminine-singular"
+            }
+          ]
+        },
+        {
           "id": "word-037",
           "addedAt": "2026-11-01",
           "translations": {
@@ -761,6 +779,24 @@
             {
               "lexemeId": "word-039",
               "defaultFormId": "agreement-masculine-singular"
+            }
+          ]
+        },
+        {
+          "id": "word-039-f",
+          "addedAt": "2026-11-01",
+          "translations": {
+            "ru": {
+              "meaning": "женщина"
+            },
+            "es": {
+              "meaning": "mujer"
+            }
+          },
+          "items": [
+            {
+              "lexemeId": "word-039-f",
+              "defaultFormId": "agreement-feminine-singular"
             }
           ]
         },
@@ -1039,21 +1075,49 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "иврит / русский язык / английский язык; названия языков: ж. р.; в этом значении мн. числа нет"
+              "meaning": "иврит. Название языка, ж. р., без множественного числа."
             },
             "es": {
-              "meaning": "hebreo / ruso / inglés; nombres de idiomas: femenino en hebreo; sin plural en este sentido"
+              "meaning": "hebreo. Nombre de idioma, femenino en hebreo, sin plural en este sentido."
             }
           },
           "items": [
             {
               "lexemeId": "word-055-1",
               "defaultFormId": "noun-feminine-singular"
+            }
+          ]
+        },
+        {
+          "id": "word-055-2",
+          "addedAt": "2026-11-01",
+          "translations": {
+            "ru": {
+              "meaning": "русский язык. Название языка, ж. р., без множественного числа."
             },
+            "es": {
+              "meaning": "ruso. Nombre de idioma, femenino en hebreo, sin plural en este sentido."
+            }
+          },
+          "items": [
             {
               "lexemeId": "word-055-2",
               "defaultFormId": "noun-feminine-singular"
+            }
+          ]
+        },
+        {
+          "id": "word-055-3",
+          "addedAt": "2026-11-01",
+          "translations": {
+            "ru": {
+              "meaning": "английский язык. Название языка, ж. р., без множественного числа."
             },
+            "es": {
+              "meaning": "inglés. Nombre de idioma, femenino en hebreo, sin plural en este sentido."
+            }
+          },
+          "items": [
             {
               "lexemeId": "word-055-3",
               "defaultFormId": "noun-feminine-singular"
@@ -1097,6 +1161,24 @@
           ]
         },
         {
+          "id": "word-241-f",
+          "addedAt": "2026-11-03",
+          "translations": {
+            "ru": {
+              "meaning": "сестра. В медицине — медсестра."
+            },
+            "es": {
+              "meaning": "hermana. En el ámbito sanitario, enfermera."
+            }
+          },
+          "items": [
+            {
+              "lexemeId": "word-241-f",
+              "defaultFormId": "agreement-feminine-singular"
+            }
+          ]
+        },
+        {
           "id": "word-242",
           "addedAt": "2026-11-03",
           "translations": {
@@ -1119,16 +1201,34 @@
           "addedAt": "2026-11-04",
           "translations": {
             "ru": {
-              "meaning": "господин; מר — обращение к мужчине перед именем, обычной формы мн. числа нет. У גברת также мн. גברות — גְּבָרוֹת, гваро́т"
+              "meaning": "господин. Обращение перед именем мужчины, обычно употребляется в единственном числе."
             },
             "es": {
-              "meaning": "señor; מר se usa ante el nombre de un hombre y no tiene plural habitual. גברת también tiene el plural גברות — גְּבָרוֹת, gvarót"
+              "meaning": "señor. Tratamiento ante el nombre de un hombre, normalmente en singular."
             }
           },
           "items": [
             {
               "lexemeId": "word-253",
               "defaultFormId": "noun-masculine-singular"
+            }
+          ]
+        },
+        {
+          "id": "word-253-f",
+          "addedAt": "2026-11-04",
+          "translations": {
+            "ru": {
+              "meaning": "госпожа"
+            },
+            "es": {
+              "meaning": "señora"
+            }
+          },
+          "items": [
+            {
+              "lexemeId": "word-253-f",
+              "defaultFormId": "noun-feminine-singular"
             }
           ]
         },
@@ -1241,6 +1341,24 @@
           ]
         },
         {
+          "id": "word-334-f",
+          "addedAt": "2026-11-07",
+          "translations": {
+            "ru": {
+              "meaning": "бабушка"
+            },
+            "es": {
+              "meaning": "abuela"
+            }
+          },
+          "items": [
+            {
+              "lexemeId": "word-334-f",
+              "defaultFormId": "agreement-feminine-singular"
+            }
+          ]
+        },
+        {
           "id": "word-342",
           "addedAt": "2026-11-08",
           "translations": {
@@ -1335,16 +1453,34 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "двоюродный брат. Также בת דוד (бат дод) — дочь дяди, בן דודה (бен дода́) — сын тёти."
+              "meaning": "двоюродный брат. בן דודה (бен дода́) — сын тёти."
             },
             "es": {
-              "meaning": "primo. También בת דוד (bat dod), hija de un tío, y בן דודה (ben dodá), hijo de una tía."
+              "meaning": "primo. בן דודה (ben dodá) significa «hijo de una tía»."
             }
           },
           "items": [
             {
               "lexemeId": "word-363",
               "defaultFormId": "agreement-masculine-singular"
+            }
+          ]
+        },
+        {
+          "id": "word-363-f",
+          "addedAt": "2026-11-09",
+          "translations": {
+            "ru": {
+              "meaning": "двоюродная сестра. בת דוד (бат дод) — дочь дяди."
+            },
+            "es": {
+              "meaning": "prima. בת דוד (bat dod) significa «hija de un tío»."
+            }
+          },
+          "items": [
+            {
+              "lexemeId": "word-363-f",
+              "defaultFormId": "agreement-feminine-singular"
             }
           ]
         },
@@ -1407,10 +1543,10 @@
           "addedAt": "2026-11-10",
           "translations": {
             "ru": {
-              "meaning": "зять"
+              "meaning": "жених, зять"
             },
             "es": {
-              "meaning": "yerno"
+              "meaning": "novio en una boda, yerno"
             }
           },
           "items": [
@@ -1421,20 +1557,56 @@
           ]
         },
         {
+          "id": "word-369-f",
+          "addedAt": "2026-11-10",
+          "translations": {
+            "ru": {
+              "meaning": "невеста, невестка (жена сына)"
+            },
+            "es": {
+              "meaning": "novia en una boda, nuera"
+            }
+          },
+          "items": [
+            {
+              "lexemeId": "word-369-f",
+              "defaultFormId": "agreement-feminine-singular"
+            }
+          ]
+        },
+        {
           "id": "word-370",
           "addedAt": "2026-11-10",
           "translations": {
             "ru": {
-              "meaning": "родитель супруга или супруги. Не путать с חם — «горячий»."
+              "meaning": "тесть, свёкор. Не путать с חם — «горячий»."
             },
             "es": {
-              "meaning": "padre o madre del cónyuge. No confundir con חם, «caliente»."
+              "meaning": "suegro. Se escribe igual que חם («caliente»)."
             }
           },
           "items": [
             {
               "lexemeId": "word-370",
               "defaultFormId": "agreement-masculine-singular"
+            }
+          ]
+        },
+        {
+          "id": "word-370-f",
+          "addedAt": "2026-11-10",
+          "translations": {
+            "ru": {
+              "meaning": "тёща, свекровь"
+            },
+            "es": {
+              "meaning": "suegra"
+            }
+          },
+          "items": [
+            {
+              "lexemeId": "word-370-f",
+              "defaultFormId": "agreement-feminine-singular"
             }
           ]
         },
@@ -3687,16 +3859,34 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "самец; זכר / נקבה также обозначают мужской / женский род в грамматике"
+              "meaning": "самец. В грамматике — мужской род."
             },
             "es": {
-              "meaning": "macho; זכר / נקבה también designan el género masculino / femenino en gramática"
+              "meaning": "macho. En gramática, género masculino."
             }
           },
           "items": [
             {
               "lexemeId": "word-129",
               "defaultFormId": "agreement-masculine-singular"
+            }
+          ]
+        },
+        {
+          "id": "word-129-f",
+          "addedAt": "2026-11-01",
+          "translations": {
+            "ru": {
+              "meaning": "самка. В грамматике — женский род."
+            },
+            "es": {
+              "meaning": "hembra. En gramática, género femenino."
+            }
+          },
+          "items": [
+            {
+              "lexemeId": "word-129-f",
+              "defaultFormId": "agreement-feminine-singular"
             }
           ]
         },
@@ -5509,7 +5699,21 @@
             {
               "lexemeId": "word-181-1",
               "defaultFormId": "adverb"
+            }
+          ]
+        },
+        {
+          "id": "word-181-2",
+          "addedAt": "2026-11-01",
+          "translations": {
+            "ru": {
+              "meaning": "тут, здесь"
             },
+            "es": {
+              "meaning": "aquí"
+            }
+          },
+          "items": [
             {
               "lexemeId": "word-181-2",
               "defaultFormId": "adverb"
@@ -5629,17 +5833,31 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "בַּזְּמַן — вовремя; בִּזְמַן — во время чего-либо. Без огласовок пишутся одинаково"
+              "meaning": "вовремя"
             },
             "es": {
-              "meaning": "בַּזְּמַן — a tiempo; בִּזְמַן — durante algo. Se escriben igual sin niqqud"
+              "meaning": "a tiempo"
             }
           },
           "items": [
             {
               "lexemeId": "word-188-1",
               "defaultFormId": "adverb"
+            }
+          ]
+        },
+        {
+          "id": "word-188-2",
+          "addedAt": "2026-11-01",
+          "translations": {
+            "ru": {
+              "meaning": "во время чего-либо"
             },
+            "es": {
+              "meaning": "durante"
+            }
+          },
+          "items": [
             {
               "lexemeId": "word-188-2",
               "defaultFormId": "preposition"
@@ -6206,17 +6424,31 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "откуда? Первое — разговорный вариант"
+              "meaning": "откуда? (разговорное)"
             },
             "es": {
-              "meaning": "¿de dónde? La primera variante es coloquial"
+              "meaning": "¿de dónde? (coloquial)"
             }
           },
           "items": [
             {
               "lexemeId": "word-198-1",
               "defaultFormId": "adverb"
+            }
+          ]
+        },
+        {
+          "id": "word-198-2",
+          "addedAt": "2026-11-01",
+          "translations": {
+            "ru": {
+              "meaning": "откуда? (книжное)"
             },
+            "es": {
+              "meaning": "¿de dónde? (formal)"
+            }
+          },
+          "items": [
             {
               "lexemeId": "word-198-2",
               "defaultFormId": "adverb"
@@ -6783,17 +7015,31 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "из-за, по причине / потому что. Аналог כי — именно מפני ש־ перед предложением; ש־ пишется слитно со следующим словом."
+              "meaning": "из-за, по причине. Перед существительным."
             },
             "es": {
-              "meaning": "a causa de / porque. El equivalente de כי es מפני ש־ ante una oración; ש־ se escribe unido a la palabra siguiente."
+              "meaning": "a causa de. Se usa ante un sustantivo."
             }
           },
           "items": [
             {
               "lexemeId": "word-360-1",
               "defaultFormId": "preposition"
+            }
+          ]
+        },
+        {
+          "id": "word-360-2",
+          "addedAt": "2026-11-09",
+          "translations": {
+            "ru": {
+              "meaning": "потому что. Вводит придаточное предложение. ש־ пишется слитно со следующим словом."
             },
+            "es": {
+              "meaning": "porque. Introduce una oración subordinada. ש־ se escribe unido a la palabra siguiente."
+            }
+          },
+          "items": [
             {
               "lexemeId": "word-360-2",
               "defaultFormId": "conjunction"
@@ -7645,8 +7891,7 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective",
-      "root": "כ־ו־ן"
+      "partOfSpeech": "adjective"
     },
     "word-013-5": {
       "lemma": "נכון?",
@@ -7668,8 +7913,7 @@
           ]
         }
       ],
-      "partOfSpeech": "expression",
-      "root": "כ־ו־ן"
+      "partOfSpeech": "expression"
     },
     "word-014": {
       "lemma": "מה נשמע?",
@@ -7789,9 +8033,7 @@
           }
         }
       ],
-      "partOfSpeech": "expression",
-      "root": "שׁ־ל־ם",
-      "rootWord": "שלומך"
+      "partOfSpeech": "expression"
     },
     "word-017": {
       "lemma": "איך קוראים לך?",
@@ -7839,9 +8081,7 @@
           ]
         }
       ],
-      "partOfSpeech": "expression",
-      "root": "ק־ר־א",
-      "rootWord": "קוראים"
+      "partOfSpeech": "expression"
     },
     "word-018": {
       "lemma": "מה שמך?",
@@ -7889,9 +8129,7 @@
           ]
         }
       ],
-      "partOfSpeech": "expression",
-      "root": "שׁ־ו־ם",
-      "rootWord": "שמך"
+      "partOfSpeech": "expression"
     },
     "word-235": {
       "lemma": "בבקשה",
@@ -8407,9 +8645,7 @@
           ]
         }
       ],
-      "partOfSpeech": "noun",
-      "root": "שׁ־ו־ם",
-      "rootWord": "שם"
+      "partOfSpeech": "noun"
     },
     "word-027": {
       "lemma": "שם משפחה",
@@ -8467,9 +8703,7 @@
           ]
         }
       ],
-      "partOfSpeech": "noun",
-      "root": "שׁ־ו־ם",
-      "rootWord": "שם"
+      "partOfSpeech": "noun"
     },
     "word-028": {
       "lemma": "מצב משפחתי",
@@ -8511,9 +8745,7 @@
           ]
         }
       ],
-      "partOfSpeech": "noun",
-      "root": "י־צ־ב",
-      "rootWord": "מצב"
+      "partOfSpeech": "noun"
     },
     "word-029": {
       "lemma": "מה המצב המשפחתי שלך?",
@@ -8561,9 +8793,7 @@
           ]
         }
       ],
-      "partOfSpeech": "expression",
-      "root": "י־צ־ב",
-      "rootWord": "המצב"
+      "partOfSpeech": "expression"
     },
     "word-030": {
       "lemma": "כתובת",
@@ -8648,9 +8878,7 @@
           ]
         }
       ],
-      "partOfSpeech": "noun",
-      "root": "ס־פ־ר",
-      "rootWord": "מספר"
+      "partOfSpeech": "noun"
     },
     "word-032": {
       "lemma": "מספר תעודת זהות",
@@ -8692,9 +8920,7 @@
           ]
         }
       ],
-      "partOfSpeech": "noun",
-      "root": "ס־פ־ר",
-      "rootWord": "מספר"
+      "partOfSpeech": "noun"
     },
     "word-033": {
       "lemma": "שם העיר",
@@ -8736,9 +8962,7 @@
           ]
         }
       ],
-      "partOfSpeech": "noun",
-      "root": "שׁ־ו־ם",
-      "rootWord": "שם"
+      "partOfSpeech": "noun"
     },
     "word-034": {
       "lemma": "ארץ לידה",
@@ -8780,9 +9004,7 @@
           ]
         }
       ],
-      "partOfSpeech": "noun",
-      "root": "א־ר־ץ",
-      "rootWord": "ארץ"
+      "partOfSpeech": "noun"
     },
     "word-035": {
       "lemma": "משפחה",
@@ -8853,28 +9075,6 @@
           }
         },
         {
-          "id": "agreement-feminine-singular",
-          "grammar": {
-            "kind": "noun",
-            "gender": "feminine",
-            "number": "singular"
-          },
-          "variants": [
-            {
-              "hebrew": "בת",
-              "hebrewWithNiqqud": "בַּת",
-              "pronunciation": {
-                "ru": "бат",
-                "es": "bat"
-              }
-            }
-          ],
-          "gloss": {
-            "ru": "дочь",
-            "es": "hija"
-          }
-        },
-        {
           "id": "agreement-masculine-plural",
           "grammar": {
             "kind": "noun",
@@ -8894,28 +9094,6 @@
           "gloss": {
             "ru": "сыновья",
             "es": "hijos"
-          }
-        },
-        {
-          "id": "agreement-feminine-plural",
-          "grammar": {
-            "kind": "noun",
-            "gender": "feminine",
-            "number": "plural"
-          },
-          "variants": [
-            {
-              "hebrew": "בנות",
-              "hebrewWithNiqqud": "בָּנוֹת",
-              "pronunciation": {
-                "ru": "бано́т",
-                "es": "banót"
-              }
-            }
-          ],
-          "gloss": {
-            "ru": "дочери",
-            "es": "hijas"
           }
         }
       ],
@@ -9138,28 +9316,6 @@
           }
         },
         {
-          "id": "agreement-feminine-singular",
-          "grammar": {
-            "kind": "noun",
-            "gender": "feminine",
-            "number": "singular"
-          },
-          "variants": [
-            {
-              "hebrew": "אישה",
-              "hebrewWithNiqqud": "אִשָּׁה",
-              "pronunciation": {
-                "ru": "иша́",
-                "es": "ishá"
-              }
-            }
-          ],
-          "gloss": {
-            "ru": "женщина",
-            "es": "mujer"
-          }
-        },
-        {
           "id": "agreement-masculine-plural",
           "grammar": {
             "kind": "noun",
@@ -9179,28 +9335,6 @@
           "gloss": {
             "ru": "люди, мужчины",
             "es": "personas, hombres"
-          }
-        },
-        {
-          "id": "agreement-feminine-plural",
-          "grammar": {
-            "kind": "noun",
-            "gender": "feminine",
-            "number": "plural"
-          },
-          "variants": [
-            {
-              "hebrew": "נשים",
-              "hebrewWithNiqqud": "נָשִׁים",
-              "pronunciation": {
-                "ru": "наши́м",
-                "es": "nashím"
-              }
-            }
-          ],
-          "gloss": {
-            "ru": "женщины",
-            "es": "mujeres"
           }
         }
       ],
@@ -9911,9 +10045,7 @@
           ]
         }
       ],
-      "partOfSpeech": "noun",
-      "root": "ע־ל־ה",
-      "rootWord": "עולה"
+      "partOfSpeech": "noun"
     },
     "word-049": {
       "lemma": "עולה ותיק",
@@ -9991,9 +10123,7 @@
           ]
         }
       ],
-      "partOfSpeech": "noun",
-      "root": "ע־ל־ה",
-      "rootWord": "עולה"
+      "partOfSpeech": "noun"
     },
     "word-050": {
       "lemma": "תייר",
@@ -10218,8 +10348,7 @@
           }
         }
       ],
-      "partOfSpeech": "noun",
-      "root": "ע־ב־ר"
+      "partOfSpeech": "noun"
     },
     "word-055-2": {
       "lemma": "רוסית",
@@ -10247,8 +10376,7 @@
           }
         }
       ],
-      "partOfSpeech": "noun",
-      "root": null
+      "partOfSpeech": "noun"
     },
     "word-055-3": {
       "lemma": "אנגלית",
@@ -10276,8 +10404,7 @@
           }
         }
       ],
-      "partOfSpeech": "noun",
-      "root": null
+      "partOfSpeech": "noun"
     },
     "word-056": {
       "lemma": "אלמן",
@@ -10400,28 +10527,6 @@
           }
         },
         {
-          "id": "agreement-feminine-singular",
-          "grammar": {
-            "kind": "noun",
-            "gender": "feminine",
-            "number": "singular"
-          },
-          "variants": [
-            {
-              "hebrew": "אחות",
-              "hebrewWithNiqqud": "אָחוֹת",
-              "pronunciation": {
-                "ru": "ахо́т",
-                "es": "achót"
-              }
-            }
-          ],
-          "gloss": {
-            "ru": "сестра",
-            "es": "hermana"
-          }
-        },
-        {
           "id": "agreement-masculine-plural",
           "grammar": {
             "kind": "noun",
@@ -10441,28 +10546,6 @@
           "gloss": {
             "ru": "братья",
             "es": "hermanos"
-          }
-        },
-        {
-          "id": "agreement-feminine-plural",
-          "grammar": {
-            "kind": "noun",
-            "gender": "feminine",
-            "number": "plural"
-          },
-          "variants": [
-            {
-              "hebrew": "אחיות",
-              "hebrewWithNiqqud": "אֲחָיוֹת",
-              "pronunciation": {
-                "ru": "ахайо́т",
-                "es": "achayót"
-              }
-            }
-          ],
-          "gloss": {
-            "ru": "сёстры",
-            "es": "hermanas"
           }
         }
       ],
@@ -10571,50 +10654,6 @@
           "gloss": {
             "ru": "господин",
             "es": "señor"
-          }
-        },
-        {
-          "id": "noun-feminine-singular",
-          "grammar": {
-            "kind": "noun",
-            "gender": "feminine",
-            "number": "singular"
-          },
-          "variants": [
-            {
-              "hebrew": "גברת",
-              "hebrewWithNiqqud": "גְּבֶרֶת",
-              "pronunciation": {
-                "ru": "гве́рет",
-                "es": "gvéret"
-              }
-            }
-          ],
-          "gloss": {
-            "ru": "госпожа",
-            "es": "señora"
-          }
-        },
-        {
-          "id": "noun-feminine-plural",
-          "grammar": {
-            "kind": "noun",
-            "gender": "feminine",
-            "number": "plural"
-          },
-          "variants": [
-            {
-              "hebrew": "גבירות",
-              "hebrewWithNiqqud": "גְּבִירוֹת",
-              "pronunciation": {
-                "ru": "гвиро́т",
-                "es": "gvirót"
-              }
-            }
-          ],
-          "gloss": {
-            "ru": "госпожи",
-            "es": "señoras"
           }
         }
       ],
@@ -11042,28 +11081,6 @@
           }
         },
         {
-          "id": "agreement-feminine-singular",
-          "grammar": {
-            "kind": "noun",
-            "gender": "feminine",
-            "number": "singular"
-          },
-          "variants": [
-            {
-              "hebrew": "סבתא",
-              "hebrewWithNiqqud": "סָבְתָא",
-              "pronunciation": {
-                "ru": "са́вта",
-                "es": "sávta"
-              }
-            }
-          ],
-          "gloss": {
-            "ru": "бабушка",
-            "es": "abuela"
-          }
-        },
-        {
           "id": "agreement-masculine-plural",
           "grammar": {
             "kind": "noun",
@@ -11083,28 +11100,6 @@
           "gloss": {
             "ru": "дедушки",
             "es": "abuelos"
-          }
-        },
-        {
-          "id": "agreement-feminine-plural",
-          "grammar": {
-            "kind": "noun",
-            "gender": "feminine",
-            "number": "plural"
-          },
-          "variants": [
-            {
-              "hebrew": "סבתות",
-              "hebrewWithNiqqud": "סָבְתוֹת",
-              "pronunciation": {
-                "ru": "савто́т",
-                "es": "savtót"
-              }
-            }
-          ],
-          "gloss": {
-            "ru": "бабушки",
-            "es": "abuelas"
           }
         }
       ],
@@ -11452,24 +11447,6 @@
           ]
         },
         {
-          "id": "agreement-feminine-singular",
-          "grammar": {
-            "kind": "noun",
-            "gender": "feminine",
-            "number": "singular"
-          },
-          "variants": [
-            {
-              "hebrew": "בת דודה",
-              "hebrewWithNiqqud": "בַּת דּוֹדָה",
-              "pronunciation": {
-                "ru": "бат дода́",
-                "es": "bat dodá"
-              }
-            }
-          ]
-        },
-        {
           "id": "agreement-masculine-plural",
           "grammar": {
             "kind": "noun",
@@ -11486,29 +11463,9 @@
               }
             }
           ]
-        },
-        {
-          "id": "agreement-feminine-plural",
-          "grammar": {
-            "kind": "noun",
-            "gender": "feminine",
-            "number": "plural"
-          },
-          "variants": [
-            {
-              "hebrew": "בנות דודות",
-              "hebrewWithNiqqud": "בְּנוֹת דּוֹדוֹת",
-              "pronunciation": {
-                "ru": "бнот додо́т",
-                "es": "bnot dodót"
-              }
-            }
-          ]
         }
       ],
-      "partOfSpeech": "noun",
-      "root": "ב־נ־י",
-      "rootWord": "בן"
+      "partOfSpeech": "noun"
     },
     "word-365": {
       "lemma": "וטרינר",
@@ -11773,28 +11730,6 @@
           }
         },
         {
-          "id": "agreement-feminine-singular",
-          "grammar": {
-            "kind": "noun",
-            "gender": "feminine",
-            "number": "singular"
-          },
-          "variants": [
-            {
-              "hebrew": "כלה",
-              "hebrewWithNiqqud": "כַּלָּה",
-              "pronunciation": {
-                "ru": "кала́",
-                "es": "kalá"
-              }
-            }
-          ],
-          "gloss": {
-            "ru": "невестка (жена сына)",
-            "es": "nuera"
-          }
-        },
-        {
           "id": "agreement-masculine-plural",
           "grammar": {
             "kind": "noun",
@@ -11814,28 +11749,6 @@
           "gloss": {
             "ru": "зятья",
             "es": "yernos"
-          }
-        },
-        {
-          "id": "agreement-feminine-plural",
-          "grammar": {
-            "kind": "noun",
-            "gender": "feminine",
-            "number": "plural"
-          },
-          "variants": [
-            {
-              "hebrew": "כלות",
-              "hebrewWithNiqqud": "כַּלּוֹת",
-              "pronunciation": {
-                "ru": "кало́т",
-                "es": "kalót"
-              }
-            }
-          ],
-          "gloss": {
-            "ru": "невестки",
-            "es": "nueras"
           }
         }
       ],
@@ -11868,28 +11781,6 @@
           }
         },
         {
-          "id": "agreement-feminine-singular",
-          "grammar": {
-            "kind": "noun",
-            "gender": "feminine",
-            "number": "singular"
-          },
-          "variants": [
-            {
-              "hebrew": "חמות",
-              "hebrewWithNiqqud": "חָמוֹת",
-              "pronunciation": {
-                "ru": "хамо́т",
-                "es": "chamót"
-              }
-            }
-          ],
-          "gloss": {
-            "ru": "тёща, свекровь",
-            "es": "suegra"
-          }
-        },
-        {
           "id": "agreement-masculine-plural",
           "grammar": {
             "kind": "noun",
@@ -11907,30 +11798,8 @@
             }
           ],
           "gloss": {
-            "ru": "тестьи, свёкры",
+            "ru": "тести, свёкры",
             "es": "suegros"
-          }
-        },
-        {
-          "id": "agreement-feminine-plural",
-          "grammar": {
-            "kind": "noun",
-            "gender": "feminine",
-            "number": "plural"
-          },
-          "variants": [
-            {
-              "hebrew": "חמיות",
-              "hebrewWithNiqqud": "חֲמָיוֹת",
-              "pronunciation": {
-                "ru": "хамайо́т",
-                "es": "chamayót"
-              }
-            }
-          ],
-          "gloss": {
-            "ru": "тёщи, свекрови",
-            "es": "suegras"
           }
         }
       ],
@@ -12203,9 +12072,7 @@
           }
         }
       ],
-      "partOfSpeech": "noun",
-      "root": "ק־ר־ב",
-      "rootWord": "קרוב"
+      "partOfSpeech": "noun"
     },
     "word-057": {
       "lemma": "רחוב",
@@ -12881,9 +12748,7 @@
           ]
         }
       ],
-      "partOfSpeech": "noun",
-      "root": "ב־י־ת",
-      "rootWord": "בית"
+      "partOfSpeech": "noun"
     },
     "word-073": {
       "lemma": "מסעדה",
@@ -12968,9 +12833,7 @@
           ]
         }
       ],
-      "partOfSpeech": "noun",
-      "root": "ח־נ־ה",
-      "rootWord": "תחנת"
+      "partOfSpeech": "noun"
     },
     "word-075": {
       "lemma": "אולפן",
@@ -14823,9 +14686,7 @@
           ]
         }
       ],
-      "partOfSpeech": "noun",
-      "root": "ג־נ־ן",
-      "rootWord": "גן"
+      "partOfSpeech": "noun"
     },
     "word-251": {
       "lemma": "ספסל",
@@ -16315,9 +16176,7 @@
           ]
         }
       ],
-      "partOfSpeech": "noun",
-      "root": "ר־כ־ז",
-      "rootWord": "מרכז"
+      "partOfSpeech": "noun"
     },
     "word-377": {
       "lemma": "ארץ",
@@ -17306,28 +17165,6 @@
           }
         },
         {
-          "id": "agreement-feminine-singular",
-          "grammar": {
-            "kind": "noun",
-            "gender": "feminine",
-            "number": "singular"
-          },
-          "variants": [
-            {
-              "hebrew": "נקבה",
-              "hebrewWithNiqqud": "נְקֵבָה",
-              "pronunciation": {
-                "ru": "некева́",
-                "es": "nekevá"
-              }
-            }
-          ],
-          "gloss": {
-            "ru": "самка",
-            "es": "hembra"
-          }
-        },
-        {
           "id": "agreement-masculine-plural",
           "grammar": {
             "kind": "noun",
@@ -17347,28 +17184,6 @@
           "gloss": {
             "ru": "самцы",
             "es": "machos"
-          }
-        },
-        {
-          "id": "agreement-feminine-plural",
-          "grammar": {
-            "kind": "noun",
-            "gender": "feminine",
-            "number": "plural"
-          },
-          "variants": [
-            {
-              "hebrew": "נקבות",
-              "hebrewWithNiqqud": "נְקֵבוֹת",
-              "pronunciation": {
-                "ru": "некево́т",
-                "es": "nekevót"
-              }
-            }
-          ],
-          "gloss": {
-            "ru": "самки",
-            "es": "hembras"
           }
         }
       ],
@@ -17537,9 +17352,7 @@
           ]
         }
       ],
-      "partOfSpeech": "noun",
-      "root": "שׁ־ו־ם",
-      "rootWord": "שם"
+      "partOfSpeech": "noun"
     },
     "word-133": {
       "lemma": "שם עצם",
@@ -17581,9 +17394,7 @@
           ]
         }
       ],
-      "partOfSpeech": "noun",
-      "root": "שׁ־ו־ם",
-      "rootWord": "שם"
+      "partOfSpeech": "noun"
     },
     "word-134": {
       "lemma": "סופית",
@@ -17726,9 +17537,7 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective",
-      "root": "י־צ־א",
-      "rootWord": "יוצא"
+      "partOfSpeech": "adjective"
     },
     "word-137": {
       "lemma": "אות",
@@ -17813,9 +17622,7 @@
           ]
         }
       ],
-      "partOfSpeech": "noun",
-      "root": "שׁ־ו־ם",
-      "rootWord": "שם"
+      "partOfSpeech": "noun"
     },
     "word-250": {
       "lemma": "סיפור",
@@ -18139,9 +17946,7 @@
           ]
         }
       ],
-      "partOfSpeech": "noun",
-      "root": "י־ו־ם",
-      "rootWord": "יום"
+      "partOfSpeech": "noun"
     },
     "word-298": {
       "lemma": "יום שני",
@@ -18183,9 +17988,7 @@
           ]
         }
       ],
-      "partOfSpeech": "noun",
-      "root": "י־ו־ם",
-      "rootWord": "יום"
+      "partOfSpeech": "noun"
     },
     "word-299": {
       "lemma": "יום שלישי",
@@ -18227,9 +18030,7 @@
           ]
         }
       ],
-      "partOfSpeech": "noun",
-      "root": "י־ו־ם",
-      "rootWord": "יום"
+      "partOfSpeech": "noun"
     },
     "word-300": {
       "lemma": "יום רביעי",
@@ -18271,9 +18072,7 @@
           ]
         }
       ],
-      "partOfSpeech": "noun",
-      "root": "י־ו־ם",
-      "rootWord": "יום"
+      "partOfSpeech": "noun"
     },
     "word-301": {
       "lemma": "יום חמישי",
@@ -18315,9 +18114,7 @@
           ]
         }
       ],
-      "partOfSpeech": "noun",
-      "root": "י־ו־ם",
-      "rootWord": "יום"
+      "partOfSpeech": "noun"
     },
     "word-302": {
       "lemma": "יום שישי",
@@ -18359,9 +18156,7 @@
           ]
         }
       ],
-      "partOfSpeech": "noun",
-      "root": "י־ו־ם",
-      "rootWord": "יום"
+      "partOfSpeech": "noun"
     },
     "word-303": {
       "lemma": "שבת",
@@ -21382,8 +21177,7 @@
           ]
         }
       ],
-      "partOfSpeech": "expression",
-      "root": null
+      "partOfSpeech": "expression"
     },
     "word-165": {
       "lemma": "לבוא",
@@ -23282,8 +23076,7 @@
           ]
         }
       ],
-      "partOfSpeech": "verb",
-      "root": "ד־מ־ה"
+      "partOfSpeech": "verb"
     },
     "word-404": {
       "lemma": "להגיע",
@@ -24199,8 +23992,7 @@
           ]
         }
       ],
-      "partOfSpeech": "adverb",
-      "root": null
+      "partOfSpeech": "adverb"
     },
     "word-181-2": {
       "lemma": "כאן",
@@ -24222,8 +24014,7 @@
           ]
         }
       ],
-      "partOfSpeech": "adverb",
-      "root": null
+      "partOfSpeech": "adverb"
     },
     "word-182": {
       "lemma": "שם",
@@ -24381,8 +24172,7 @@
           }
         }
       ],
-      "partOfSpeech": "adverb",
-      "root": "ז־מ־ן"
+      "partOfSpeech": "adverb"
     },
     "word-188-2": {
       "lemma": "בזמן",
@@ -24408,8 +24198,7 @@
           }
         }
       ],
-      "partOfSpeech": "preposition",
-      "root": "ז־מ־ן"
+      "partOfSpeech": "preposition"
     },
     "word-189": {
       "lemma": "רק",
@@ -26041,8 +25830,7 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective",
-      "root": "ק־ר־ב"
+      "partOfSpeech": "adjective"
     },
     "word-398": {
       "lemma": "רחוק מ־",
@@ -26120,8 +25908,7 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective",
-      "root": "ר־ח־ק"
+      "partOfSpeech": "adjective"
     },
     "word-194": {
       "lemma": "מי?",
@@ -26213,8 +26000,7 @@
           ]
         }
       ],
-      "partOfSpeech": "expression",
-      "root": null
+      "partOfSpeech": "expression"
     },
     "word-197": {
       "lemma": "איפה?",
@@ -26258,8 +26044,7 @@
           ]
         }
       ],
-      "partOfSpeech": "adverb",
-      "root": null
+      "partOfSpeech": "adverb"
     },
     "word-198-2": {
       "lemma": "מאין?",
@@ -26281,8 +26066,7 @@
           ]
         }
       ],
-      "partOfSpeech": "adverb",
-      "root": null
+      "partOfSpeech": "adverb"
     },
     "word-199": {
       "lemma": "איך?",
@@ -26390,8 +26174,7 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective",
-      "root": null
+      "partOfSpeech": "adjective"
     },
     "word-203": {
       "lemma": "מתי?",
@@ -26505,9 +26288,7 @@
           ]
         }
       ],
-      "partOfSpeech": "expression",
-      "root": "ב־נ־י",
-      "rootWord": "בן"
+      "partOfSpeech": "expression"
     },
     "word-236": {
       "lemma": "לאן?",
@@ -27734,8 +27515,7 @@
           }
         }
       ],
-      "partOfSpeech": "preposition",
-      "root": null
+      "partOfSpeech": "preposition"
     },
     "word-360-2": {
       "lemma": "מפני ש־",
@@ -27761,8 +27541,7 @@
           }
         }
       ],
-      "partOfSpeech": "conjunction",
-      "root": null
+      "partOfSpeech": "conjunction"
     },
     "word-261": {
       "lemma": "אפס",
@@ -28446,6 +28225,464 @@
       ],
       "partOfSpeech": "numeral",
       "root": null
+    },
+    "word-036-bat": {
+      "lemma": "בת",
+      "forms": [
+        {
+          "id": "agreement-feminine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "בת",
+              "hebrewWithNiqqud": "בַּת",
+              "pronunciation": {
+                "ru": "бат",
+                "es": "bat"
+              }
+            }
+          ],
+          "gloss": {
+            "ru": "дочь",
+            "es": "hija"
+          }
+        },
+        {
+          "id": "agreement-feminine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "בנות",
+              "hebrewWithNiqqud": "בָּנוֹת",
+              "pronunciation": {
+                "ru": "бано́т",
+                "es": "banót"
+              }
+            }
+          ],
+          "gloss": {
+            "ru": "дочери",
+            "es": "hijas"
+          }
+        }
+      ],
+      "partOfSpeech": "noun",
+      "root": "ב־נ־י"
+    },
+    "word-039-f": {
+      "lemma": "אישה",
+      "forms": [
+        {
+          "id": "agreement-feminine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "אישה",
+              "hebrewWithNiqqud": "אִשָּׁה",
+              "pronunciation": {
+                "ru": "иша́",
+                "es": "ishá"
+              }
+            }
+          ],
+          "gloss": {
+            "ru": "женщина",
+            "es": "mujer"
+          }
+        },
+        {
+          "id": "agreement-feminine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "נשים",
+              "hebrewWithNiqqud": "נָשִׁים",
+              "pronunciation": {
+                "ru": "наши́м",
+                "es": "nashím"
+              }
+            }
+          ],
+          "gloss": {
+            "ru": "женщины",
+            "es": "mujeres"
+          }
+        }
+      ],
+      "partOfSpeech": "noun",
+      "root": "א־נ־שׁ"
+    },
+    "word-241-f": {
+      "lemma": "אחות",
+      "forms": [
+        {
+          "id": "agreement-feminine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "אחות",
+              "hebrewWithNiqqud": "אָחוֹת",
+              "pronunciation": {
+                "ru": "ахо́т",
+                "es": "achót"
+              }
+            }
+          ],
+          "gloss": {
+            "ru": "сестра",
+            "es": "hermana"
+          }
+        },
+        {
+          "id": "agreement-feminine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "אחיות",
+              "hebrewWithNiqqud": "אֲחָיוֹת",
+              "pronunciation": {
+                "ru": "ахайо́т",
+                "es": "achayót"
+              }
+            }
+          ],
+          "gloss": {
+            "ru": "сёстры",
+            "es": "hermanas"
+          }
+        }
+      ],
+      "partOfSpeech": "noun",
+      "root": "א־ח־י"
+    },
+    "word-253-f": {
+      "lemma": "גברת",
+      "forms": [
+        {
+          "id": "noun-feminine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "גברת",
+              "hebrewWithNiqqud": "גְּבֶרֶת",
+              "pronunciation": {
+                "ru": "гве́рет",
+                "es": "gvéret"
+              }
+            }
+          ],
+          "gloss": {
+            "ru": "госпожа",
+            "es": "señora"
+          }
+        },
+        {
+          "id": "noun-feminine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "גבירות",
+              "hebrewWithNiqqud": "גְּבִירוֹת",
+              "pronunciation": {
+                "ru": "гвиро́т",
+                "es": "gvirót"
+              }
+            },
+            {
+              "hebrew": "גברות",
+              "hebrewWithNiqqud": "גְּבָרוֹת",
+              "pronunciation": {
+                "ru": "гваро́т",
+                "es": "gvarót"
+              }
+            }
+          ],
+          "gloss": {
+            "ru": "госпожи",
+            "es": "señoras"
+          }
+        }
+      ],
+      "partOfSpeech": "noun",
+      "root": "ג־ב־ר"
+    },
+    "word-334-f": {
+      "lemma": "סבתא",
+      "forms": [
+        {
+          "id": "agreement-feminine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "סבתא",
+              "hebrewWithNiqqud": "סָבְתָא",
+              "pronunciation": {
+                "ru": "са́вта",
+                "es": "sávta"
+              }
+            }
+          ],
+          "gloss": {
+            "ru": "бабушка",
+            "es": "abuela"
+          }
+        },
+        {
+          "id": "agreement-feminine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "סבתות",
+              "hebrewWithNiqqud": "סָבְתוֹת",
+              "pronunciation": {
+                "ru": "савто́т",
+                "es": "savtót"
+              }
+            }
+          ],
+          "gloss": {
+            "ru": "бабушки",
+            "es": "abuelas"
+          }
+        }
+      ],
+      "partOfSpeech": "noun",
+      "root": null
+    },
+    "word-363-f": {
+      "lemma": "בת דודה",
+      "forms": [
+        {
+          "id": "agreement-feminine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "בת דודה",
+              "hebrewWithNiqqud": "בַּת דּוֹדָה",
+              "pronunciation": {
+                "ru": "бат дода́",
+                "es": "bat dodá"
+              }
+            }
+          ]
+        },
+        {
+          "id": "agreement-feminine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "בנות דודות",
+              "hebrewWithNiqqud": "בְּנוֹת דּוֹדוֹת",
+              "pronunciation": {
+                "ru": "бнот додо́т",
+                "es": "bnot dodót"
+              }
+            }
+          ]
+        }
+      ],
+      "partOfSpeech": "noun"
+    },
+    "word-369-f": {
+      "lemma": "כלה",
+      "forms": [
+        {
+          "id": "agreement-feminine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "כלה",
+              "hebrewWithNiqqud": "כַּלָּה",
+              "pronunciation": {
+                "ru": "кала́",
+                "es": "kalá"
+              }
+            }
+          ],
+          "gloss": {
+            "ru": "невестка (жена сына)",
+            "es": "nuera"
+          }
+        },
+        {
+          "id": "agreement-feminine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "כלות",
+              "hebrewWithNiqqud": "כַּלּוֹת",
+              "pronunciation": {
+                "ru": "кало́т",
+                "es": "kalót"
+              }
+            }
+          ],
+          "gloss": {
+            "ru": "невестки",
+            "es": "nueras"
+          }
+        }
+      ],
+      "partOfSpeech": "noun",
+      "root": "כ־ל־ל"
+    },
+    "word-370-f": {
+      "lemma": "חמות",
+      "forms": [
+        {
+          "id": "agreement-feminine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "חמות",
+              "hebrewWithNiqqud": "חָמוֹת",
+              "pronunciation": {
+                "ru": "хамо́т",
+                "es": "chamót"
+              }
+            }
+          ],
+          "gloss": {
+            "ru": "тёща, свекровь",
+            "es": "suegra"
+          }
+        },
+        {
+          "id": "agreement-feminine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "חמיות",
+              "hebrewWithNiqqud": "חֲמָיוֹת",
+              "pronunciation": {
+                "ru": "хамайо́т",
+                "es": "chamayót"
+              }
+            }
+          ],
+          "gloss": {
+            "ru": "тёщи, свекрови",
+            "es": "suegras"
+          }
+        }
+      ],
+      "partOfSpeech": "noun",
+      "root": null
+    },
+    "word-129-f": {
+      "lemma": "נקבה",
+      "forms": [
+        {
+          "id": "agreement-feminine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "נקבה",
+              "hebrewWithNiqqud": "נְקֵבָה",
+              "pronunciation": {
+                "ru": "некева́",
+                "es": "nekevá"
+              }
+            }
+          ],
+          "gloss": {
+            "ru": "самка",
+            "es": "hembra"
+          }
+        },
+        {
+          "id": "agreement-feminine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "נקבות",
+              "hebrewWithNiqqud": "נְקֵבוֹת",
+              "pronunciation": {
+                "ru": "некево́т",
+                "es": "nekevót"
+              }
+            }
+          ],
+          "gloss": {
+            "ru": "самки",
+            "es": "hembras"
+          }
+        }
+      ],
+      "partOfSpeech": "noun",
+      "root": "נ־ק־ב"
     }
   }
 }

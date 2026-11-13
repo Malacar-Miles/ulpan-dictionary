@@ -44,7 +44,7 @@ describe('dictionary interface', () => {
     expect(button.getAttribute('aria-expanded')).toBe('false');
     expect(card.querySelector('.card-roots')).toBeNull();
     fireEvent.click(card);
-    expect(card.querySelector('.card-roots')?.textContent).toBe('raíz ה־ל־ך');
+    expect(card.querySelector('.card-roots')?.textContent).toBe('raíz: ה־ל־ך');
     expect(card.querySelector('.card-top')).toBeNull();
     expect(within(card as HTMLElement).getAllByRole('cell')).toHaveLength(15);
     fireEvent.click(button);

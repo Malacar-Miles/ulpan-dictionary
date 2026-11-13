@@ -21,7 +21,7 @@ export type DictionaryEntry = {
   id: string;
   addedAt: string;
   meaning: string;
-  roots: { value: string; word?: string }[];
+  root?: string | null;
   rows: FormRow[];
   defaultRow: FormRow;
 };
@@ -41,7 +41,6 @@ export type DictionaryData = {
       lemma: string;
       partOfSpeech: string;
       root?: string | null;
-      rootWord?: string;
       binyan?: string;
       forms: {
         id: string;
