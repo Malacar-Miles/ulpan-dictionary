@@ -873,7 +873,7 @@ body {
   display: inline-grid;
   place-items: center;
   padding: 0;
-  float: left;
+  flex: none;
   width: 2rem;
   height: 2rem;
   border: 1px solid #b2c8bc;
@@ -882,9 +882,25 @@ body {
   border-radius: 50%;
   cursor: pointer;
 }
-.forms-trigger[aria-expanded='true'] {
+.forms-header {
+  float: left;
+}
+.forms-header.expanded {
   float: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
   margin-bottom: 0.5rem;
+}
+.card-roots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.35em;
+  color: #51675a;
+  font-size: 0.9rem;
+  text-align: right;
 }
 .forms-trigger[aria-expanded='true'] svg {
   transform: rotate(180deg);

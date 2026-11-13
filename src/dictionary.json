@@ -7399,7 +7399,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "צ־י־ן"
     },
     "word-008": {
       "lemma": "מעולה",
@@ -7477,7 +7478,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "ע־ל־ה"
     },
     "word-009": {
       "lemma": "טוב מאוד",
@@ -7643,7 +7645,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "כ־ו־ן"
     },
     "word-013-5": {
       "lemma": "נכון?",
@@ -7665,7 +7668,8 @@
           ]
         }
       ],
-      "partOfSpeech": "expression"
+      "partOfSpeech": "expression",
+      "root": "כ־ו־ן"
     },
     "word-014": {
       "lemma": "מה נשמע?",
@@ -7785,7 +7789,9 @@
           }
         }
       ],
-      "partOfSpeech": "expression"
+      "partOfSpeech": "expression",
+      "root": "שׁ־ל־ם",
+      "rootWord": "שלומך"
     },
     "word-017": {
       "lemma": "איך קוראים לך?",
@@ -7833,7 +7839,9 @@
           ]
         }
       ],
-      "partOfSpeech": "expression"
+      "partOfSpeech": "expression",
+      "root": "ק־ר־א",
+      "rootWord": "קוראים"
     },
     "word-018": {
       "lemma": "מה שמך?",
@@ -7881,7 +7889,9 @@
           ]
         }
       ],
-      "partOfSpeech": "expression"
+      "partOfSpeech": "expression",
+      "root": "שׁ־ו־ם",
+      "rootWord": "שמך"
     },
     "word-235": {
       "lemma": "בבקשה",
@@ -8223,7 +8233,8 @@
           }
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "שׁ־ו־ם"
     },
     "word-023": {
       "lemma": "שלומי",
@@ -8353,7 +8364,8 @@
           }
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "שׁ־ל־ם"
     },
     "word-026": {
       "lemma": "שם פרטי",
@@ -8395,7 +8407,9 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "שׁ־ו־ם",
+      "rootWord": "שם"
     },
     "word-027": {
       "lemma": "שם משפחה",
@@ -8453,7 +8467,9 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "שׁ־ו־ם",
+      "rootWord": "שם"
     },
     "word-028": {
       "lemma": "מצב משפחתי",
@@ -8495,7 +8511,9 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "י־צ־ב",
+      "rootWord": "מצב"
     },
     "word-029": {
       "lemma": "מה המצב המשפחתי שלך?",
@@ -8543,7 +8561,9 @@
           ]
         }
       ],
-      "partOfSpeech": "expression"
+      "partOfSpeech": "expression",
+      "root": "י־צ־ב",
+      "rootWord": "המצב"
     },
     "word-030": {
       "lemma": "כתובת",
@@ -8585,7 +8605,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "כ־ת־ב"
     },
     "word-031": {
       "lemma": "מספר טלפון",
@@ -8627,7 +8648,9 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ס־פ־ר",
+      "rootWord": "מספר"
     },
     "word-032": {
       "lemma": "מספר תעודת זהות",
@@ -8669,7 +8692,9 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ס־פ־ר",
+      "rootWord": "מספר"
     },
     "word-033": {
       "lemma": "שם העיר",
@@ -8711,7 +8736,9 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "שׁ־ו־ם",
+      "rootWord": "שם"
     },
     "word-034": {
       "lemma": "ארץ לידה",
@@ -8753,7 +8780,9 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "א־ר־ץ",
+      "rootWord": "ארץ"
     },
     "word-035": {
       "lemma": "משפחה",
@@ -8795,7 +8824,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "שׁ־פ־ח"
     },
     "word-036": {
       "lemma": "בן",
@@ -8889,7 +8919,8 @@
           }
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ב־נ־י"
     },
     "word-037": {
       "lemma": "חבר",
@@ -8983,7 +9014,8 @@
           }
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ח־ב־ר"
     },
     "word-038": {
       "lemma": "ילד",
@@ -9077,7 +9109,8 @@
           }
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "י־ל־ד"
     },
     "word-039": {
       "lemma": "איש",
@@ -9171,7 +9204,8 @@
           }
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "א־נ־שׁ"
     },
     "word-040": {
       "lemma": "בעל",
@@ -9213,7 +9247,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ב־ע־ל"
     },
     "word-041": {
       "lemma": "נשוי",
@@ -9291,7 +9326,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "נ־שׂ־א"
     },
     "word-042": {
       "lemma": "רווק",
@@ -9369,7 +9405,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "ר־ו־ק"
     },
     "word-043": {
       "lemma": "גרוש",
@@ -9447,7 +9484,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "ג־ר־שׁ"
     },
     "word-044": {
       "lemma": "מורה",
@@ -9541,7 +9579,8 @@
           }
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "י־ר־ה"
     },
     "word-045": {
       "lemma": "תלמיד",
@@ -9635,7 +9674,8 @@
           }
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ל־מ־ד"
     },
     "word-046": {
       "lemma": "רופא",
@@ -9713,7 +9753,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ר־פ־א"
     },
     "word-047": {
       "lemma": "צבר",
@@ -9791,7 +9832,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "צ־ב־ר"
     },
     "word-048": {
       "lemma": "עולה חדש",
@@ -9869,7 +9911,9 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ע־ל־ה",
+      "rootWord": "עולה"
     },
     "word-049": {
       "lemma": "עולה ותיק",
@@ -9947,7 +9991,9 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ע־ל־ה",
+      "rootWord": "עולה"
     },
     "word-050": {
       "lemma": "תייר",
@@ -10025,7 +10071,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ת־י־ר"
     },
     "word-051": {
       "lemma": "מקצוע",
@@ -10067,7 +10114,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ק־צ־ע"
     },
     "word-052": {
       "lemma": "רוסיה",
@@ -10141,7 +10189,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ח־ו־ף"
     },
     "word-055-1": {
       "lemma": "עברית",
@@ -10169,7 +10218,8 @@
           }
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ע־ב־ר"
     },
     "word-055-2": {
       "lemma": "רוסית",
@@ -10197,7 +10247,8 @@
           }
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": null
     },
     "word-055-3": {
       "lemma": "אנגלית",
@@ -10225,7 +10276,8 @@
           }
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": null
     },
     "word-056": {
       "lemma": "אלמן",
@@ -10319,7 +10371,8 @@
           }
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "א־ל־ם"
     },
     "word-241": {
       "lemma": "אח",
@@ -10413,7 +10466,8 @@
           }
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "א־ח־י"
     },
     "word-242": {
       "lemma": "פקיד",
@@ -10491,7 +10545,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "פ־ק־ד"
     },
     "word-253": {
       "lemma": "מר",
@@ -10563,7 +10618,8 @@
           }
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "מ־ר־ה"
     },
     "word-255": {
       "lemma": "מזכיר",
@@ -10641,7 +10697,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ז־כ־ר"
     },
     "word-259": {
       "lemma": "חייל",
@@ -10719,7 +10776,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ח־י־ל"
     },
     "word-285": {
       "lemma": "נכד",
@@ -10797,7 +10855,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "נ־כ־ד"
     },
     "word-289": {
       "lemma": "הורה",
@@ -10875,7 +10934,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ה־ר־ה"
     },
     "word-329": {
       "lemma": "גנן",
@@ -10953,7 +11013,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ג־נ־ן"
     },
     "word-334": {
       "lemma": "סבא",
@@ -11047,7 +11108,8 @@
           }
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "שׂ־ו־ב"
     },
     "word-342": {
       "lemma": "אבא",
@@ -11089,7 +11151,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "א־ב־ה"
     },
     "word-343": {
       "lemma": "אימא",
@@ -11131,7 +11194,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": null
     },
     "word-359": {
       "lemma": "גיל",
@@ -11173,7 +11237,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ג־ל־ל"
     },
     "word-361": {
       "lemma": "דוד",
@@ -11267,7 +11332,8 @@
           }
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ד־ו־ד"
     },
     "word-362": {
       "lemma": "אחיין",
@@ -11361,7 +11427,8 @@
           }
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "א־ח־י"
     },
     "word-363": {
       "lemma": "בן דוד",
@@ -11439,7 +11506,9 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ב־נ־י",
+      "rootWord": "בן"
     },
     "word-365": {
       "lemma": "וטרינר",
@@ -11517,7 +11586,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": null
     },
     "word-366": {
       "lemma": "מנהל",
@@ -11595,7 +11665,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "נ־ה־ל"
     },
     "word-368": {
       "lemma": "תינוק",
@@ -11673,7 +11744,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "י־נ־ק"
     },
     "word-369": {
       "lemma": "חתן",
@@ -11767,7 +11839,8 @@
           }
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ח־ת־ן"
     },
     "word-370": {
       "lemma": "חם",
@@ -11861,7 +11934,8 @@
           }
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": null
     },
     "word-371": {
       "lemma": "גיס",
@@ -11939,7 +12013,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": null
     },
     "word-372": {
       "lemma": "בחור",
@@ -12033,7 +12108,8 @@
           }
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ב־ח־ר"
     },
     "word-399": {
       "lemma": "קרוב משפחה",
@@ -12127,7 +12203,9 @@
           }
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ק־ר־ב",
+      "rootWord": "קרוב"
     },
     "word-057": {
       "lemma": "רחוב",
@@ -12169,7 +12247,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ר־ח־ב"
     },
     "word-058": {
       "lemma": "בית",
@@ -12211,7 +12290,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ב־י־ת"
     },
     "word-059": {
       "lemma": "כיתה",
@@ -12253,7 +12333,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "כ־ת־ת"
     },
     "word-060": {
       "lemma": "עיר",
@@ -12295,7 +12376,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ע־י־ר"
     },
     "word-061": {
       "lemma": "דרך",
@@ -12337,7 +12419,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ד־ר־ך"
     },
     "word-062": {
       "lemma": "בנק",
@@ -12379,7 +12462,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": null
     },
     "word-063": {
       "lemma": "אוניברסיטה",
@@ -12421,7 +12505,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": null
     },
     "word-064": {
       "lemma": "תיאטרון",
@@ -12471,7 +12556,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": null
     },
     "word-065": {
       "lemma": "שוק",
@@ -12513,7 +12599,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "שׁ־ו־ק"
     },
     "word-066": {
       "lemma": "דואר",
@@ -12579,7 +12666,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ס־פ־ר"
     },
     "word-068": {
       "lemma": "קניון",
@@ -12621,7 +12709,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ק־נ־ה"
     },
     "word-069": {
       "lemma": "מוזיאון",
@@ -12663,7 +12752,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": null
     },
     "word-070": {
       "lemma": "עירייה",
@@ -12705,7 +12795,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ע־י־ר"
     },
     "word-071": {
       "lemma": "מכולת",
@@ -12747,7 +12838,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "א־כ־ל"
     },
     "word-072": {
       "lemma": "בית קפה",
@@ -12789,7 +12881,9 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ב־י־ת",
+      "rootWord": "בית"
     },
     "word-073": {
       "lemma": "מסעדה",
@@ -12831,7 +12925,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ס־ע־ד"
     },
     "word-074": {
       "lemma": "תחנת אוטובוס",
@@ -12873,7 +12968,9 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ח־נ־ה",
+      "rootWord": "תחנת"
     },
     "word-075": {
       "lemma": "אולפן",
@@ -12915,7 +13012,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "א־ל־ף"
     },
     "word-076": {
       "lemma": "בניין",
@@ -12957,7 +13055,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ב־נ־ה"
     },
     "word-077": {
       "lemma": "קיר",
@@ -12999,7 +13098,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ק־ו־ר"
     },
     "word-078": {
       "lemma": "דלת",
@@ -13041,7 +13141,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ד־ל־ת"
     },
     "word-079": {
       "lemma": "חלון",
@@ -13083,7 +13184,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ח־ל־ל"
     },
     "word-080": {
       "lemma": "וילון",
@@ -13125,7 +13227,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": null
     },
     "word-081": {
       "lemma": "ארון",
@@ -13167,7 +13270,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "א־ר־ה"
     },
     "word-082": {
       "lemma": "שולחן",
@@ -13209,7 +13313,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "שׁ־ל־ח"
     },
     "word-083": {
       "lemma": "כיסא",
@@ -13251,7 +13356,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "כ־ס־א"
     },
     "word-084": {
       "lemma": "שטיח",
@@ -13293,7 +13399,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "שׁ־ט־ח"
     },
     "word-085": {
       "lemma": "תמונה",
@@ -13335,7 +13442,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "מ־י־ן"
     },
     "word-086": {
       "lemma": "לוח",
@@ -13377,7 +13485,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ל־ו־ח"
     },
     "word-087": {
       "lemma": "מחשב",
@@ -13419,7 +13528,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ח־שׁ־ב"
     },
     "word-088": {
       "lemma": "מזגן",
@@ -13461,7 +13571,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "מ־ז־ג"
     },
     "word-089": {
       "lemma": "מנורה",
@@ -13503,7 +13614,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "נ־ו־ר"
     },
     "word-090": {
       "lemma": "מפה",
@@ -13545,7 +13657,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": null
     },
     "word-091": {
       "lemma": "תיק",
@@ -13587,7 +13700,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ת־י־ק"
     },
     "word-092": {
       "lemma": "סל",
@@ -13629,7 +13743,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ס־ל־ל"
     },
     "word-093": {
       "lemma": "שעון",
@@ -13671,7 +13786,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "שׁ־ע־ה"
     },
     "word-094": {
       "lemma": "מפתח",
@@ -13713,7 +13829,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "פ־ת־ח"
     },
     "word-095": {
       "lemma": "כוס",
@@ -13755,7 +13872,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": null
     },
     "word-096": {
       "lemma": "עיפרון",
@@ -13797,7 +13915,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ע־פ־ר"
     },
     "word-097": {
       "lemma": "עט",
@@ -13839,7 +13958,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ע־ו־ט"
     },
     "word-098": {
       "lemma": "מחברת",
@@ -13881,7 +14001,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ח־ב־ר"
     },
     "word-099": {
       "lemma": "ספר",
@@ -13923,7 +14044,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ס־פ־ר"
     },
     "word-100": {
       "lemma": "עיתון",
@@ -13965,7 +14087,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ע־ת־ת"
     },
     "word-101": {
       "lemma": "מכתב",
@@ -14007,7 +14130,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "כ־ת־ב"
     },
     "word-102": {
       "lemma": "כסף",
@@ -14049,7 +14173,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "כ־ס־ף"
     },
     "word-103": {
       "lemma": "שירותים",
@@ -14115,7 +14240,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "פ־ר־ח"
     },
     "word-105": {
       "lemma": "כלב",
@@ -14157,7 +14283,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "כ־ל־ב"
     },
     "word-106": {
       "lemma": "עכבר",
@@ -14199,7 +14326,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": null
     },
     "word-107": {
       "lemma": "רגל",
@@ -14241,7 +14369,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ר־ג־ל"
     },
     "word-108": {
       "lemma": "שמיים",
@@ -14307,7 +14436,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "י־מ־ם"
     },
     "word-110": {
       "lemma": "דירה",
@@ -14349,7 +14479,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ד־ו־ר"
     },
     "word-111": {
       "lemma": "רכבת",
@@ -14391,7 +14522,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ר־כ־ב"
     },
     "word-230": {
       "lemma": "שמש",
@@ -14433,7 +14565,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "שׁ־מ־שׁ"
     },
     "word-234": {
       "lemma": "מונית",
@@ -14475,7 +14608,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "מ־נ־ה"
     },
     "word-238": {
       "lemma": "טלוויזיה",
@@ -14517,7 +14651,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": null
     },
     "word-240": {
       "lemma": "מרפאה",
@@ -14559,7 +14694,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ר־פ־א"
     },
     "word-246": {
       "lemma": "פארק",
@@ -14601,7 +14737,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": null
     },
     "word-247": {
       "lemma": "גן",
@@ -14643,7 +14780,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ג־נ־ן"
     },
     "word-248": {
       "lemma": "גן ילדים",
@@ -14685,7 +14823,9 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ג־נ־ן",
+      "rootWord": "גן"
     },
     "word-251": {
       "lemma": "ספסל",
@@ -14727,7 +14867,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": null
     },
     "word-281": {
       "lemma": "מגבת",
@@ -14769,7 +14910,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "נ־ג־ב"
     },
     "word-283": {
       "lemma": "בירה",
@@ -14811,7 +14953,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": null
     },
     "word-284": {
       "lemma": "סיגריה",
@@ -14853,7 +14996,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": null
     },
     "word-286": {
       "lemma": "גלידה",
@@ -14895,7 +15039,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ג־ל־ד"
     },
     "word-290": {
       "lemma": "חדר",
@@ -14937,7 +15082,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ח־ד־ר"
     },
     "word-292": {
       "lemma": "עוגה",
@@ -14979,7 +15125,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ע־ו־ג"
     },
     "word-295": {
       "lemma": "ספה",
@@ -15021,7 +15168,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": null
     },
     "word-296": {
       "lemma": "חפץ",
@@ -15063,7 +15211,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ח־פ־צ־א"
     },
     "word-309": {
       "lemma": "מרפסת",
@@ -15105,7 +15254,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ר־פ־ס"
     },
     "word-313": {
       "lemma": "דג",
@@ -15147,7 +15297,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ד־ו־ג"
     },
     "word-314": {
       "lemma": "עוף",
@@ -15189,7 +15340,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ע־ו־ף"
     },
     "word-315": {
       "lemma": "סלט",
@@ -15231,7 +15383,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": null
     },
     "word-316": {
       "lemma": "ירק",
@@ -15273,7 +15426,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "י־ר־ק"
     },
     "word-317": {
       "lemma": "עגבנייה",
@@ -15315,7 +15469,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ע־ג־ב"
     },
     "word-318": {
       "lemma": "מלפפון",
@@ -15357,7 +15512,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": null
     },
     "word-319": {
       "lemma": "בצל",
@@ -15399,7 +15555,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ב־צ־ל"
     },
     "word-320": {
       "lemma": "תפוח",
@@ -15441,7 +15598,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "נ־פ־ח"
     },
     "word-321": {
       "lemma": "תפוז",
@@ -15483,7 +15641,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": null
     },
     "word-322": {
       "lemma": "בננה",
@@ -15525,7 +15684,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": null
     },
     "word-323": {
       "lemma": "מיץ",
@@ -15567,7 +15727,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "מ־צ־ה"
     },
     "word-324": {
       "lemma": "עינב",
@@ -15609,7 +15770,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ע־נ־ב"
     },
     "word-327": {
       "lemma": "מרק",
@@ -15651,7 +15813,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "מ־ר־ק"
     },
     "word-332": {
       "lemma": "חלב",
@@ -15741,7 +15904,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ח־ל־ץ"
     },
     "word-336": {
       "lemma": "מעיל",
@@ -15783,7 +15947,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "מ־ע־ל"
     },
     "word-337": {
       "lemma": "חנות",
@@ -15825,7 +15990,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ח־נ־ה"
     },
     "word-339": {
       "lemma": "כדור",
@@ -15867,7 +16033,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "כ־ד־ר"
     },
     "word-340": {
       "lemma": "אוכל",
@@ -15909,7 +16076,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "א־כ־ל"
     },
     "word-344": {
       "lemma": "כרטיס",
@@ -15951,7 +16119,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "כ־ר־ט־ס"
     },
     "word-349": {
       "lemma": "הר",
@@ -15993,7 +16162,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ה־ר־ר"
     },
     "word-350": {
       "lemma": "צפון",
@@ -16059,7 +16229,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ח־י־ה"
     },
     "word-352": {
       "lemma": "שכונה",
@@ -16101,7 +16272,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "שׁ־כ־ן"
     },
     "word-367": {
       "lemma": "מרכז קליטה",
@@ -16143,7 +16315,9 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ר־כ־ז",
+      "rootWord": "מרכז"
     },
     "word-377": {
       "lemma": "ארץ",
@@ -16185,7 +16359,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "א־ר־ץ"
     },
     "word-379": {
       "lemma": "רהיט",
@@ -16227,7 +16402,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ר־ה־ט"
     },
     "word-382": {
       "lemma": "בקבוק",
@@ -16269,7 +16445,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ב־ק־ב־ק"
     },
     "word-383": {
       "lemma": "מים",
@@ -16334,7 +16511,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "נ־ת־ן"
     },
     "word-112": {
       "lemma": "שיעור",
@@ -16376,7 +16554,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "שׁ־ע־ר"
     },
     "word-113": {
       "lemma": "טיול",
@@ -16418,7 +16597,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ט־י־ל"
     },
     "word-114": {
       "lemma": "הפסקה",
@@ -16460,7 +16640,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "פ־ס־ק"
     },
     "word-115": {
       "lemma": "עבודה",
@@ -16502,7 +16683,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ע־ב־ד"
     },
     "word-116": {
       "lemma": "מילה",
@@ -16544,7 +16726,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "מ־ל־ל"
     },
     "word-117": {
       "lemma": "עמוד",
@@ -16586,7 +16769,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ע־מ־ד"
     },
     "word-118": {
       "lemma": "משפט",
@@ -16628,7 +16812,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "שׁ־פ־ט"
     },
     "word-119": {
       "lemma": "שאלה",
@@ -16670,7 +16855,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "שׁ־א־ל"
     },
     "word-120": {
       "lemma": "תשובה",
@@ -16712,7 +16898,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "שׁ־ו־ב"
     },
     "word-121": {
       "lemma": "שיר",
@@ -16754,7 +16941,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "שׁ־י־ר"
     },
     "word-122": {
       "lemma": "שקט",
@@ -16820,7 +17008,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "כ־ו־ח"
     },
     "word-124": {
       "lemma": "מספר",
@@ -16862,7 +17051,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ס־פ־ר"
     },
     "word-125": {
       "lemma": "יום",
@@ -16922,7 +17112,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "י־ו־ם"
     },
     "word-126": {
       "lemma": "חודש",
@@ -16982,7 +17173,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ח־ד־שׁ"
     },
     "word-127": {
       "lemma": "שנה",
@@ -17042,7 +17234,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "שׁ־נ־ה"
     },
     "word-128": {
       "lemma": "תאריך",
@@ -17084,7 +17277,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "א־ר־ך"
     },
     "word-129": {
       "lemma": "זכר",
@@ -17178,7 +17372,8 @@
           }
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ז־כ־ר"
     },
     "word-130": {
       "lemma": "רב",
@@ -17256,7 +17451,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "ר־ב־ב"
     },
     "word-131": {
       "lemma": "פועל",
@@ -17298,7 +17494,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "פ־ע־ל"
     },
     "word-132": {
       "lemma": "שם תואר",
@@ -17340,7 +17537,9 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "שׁ־ו־ם",
+      "rootWord": "שם"
     },
     "word-133": {
       "lemma": "שם עצם",
@@ -17382,7 +17581,9 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "שׁ־ו־ם",
+      "rootWord": "שם"
     },
     "word-134": {
       "lemma": "סופית",
@@ -17424,7 +17625,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ס־ו־ף"
     },
     "word-135": {
       "lemma": "בסוף מילה",
@@ -17524,7 +17726,9 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "י־צ־א",
+      "rootWord": "יוצא"
     },
     "word-137": {
       "lemma": "אות",
@@ -17566,7 +17770,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "א־ו־ת"
     },
     "word-249": {
       "lemma": "שם הפועל",
@@ -17608,7 +17813,9 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "שׁ־ו־ם",
+      "rootWord": "שם"
     },
     "word-250": {
       "lemma": "סיפור",
@@ -17650,7 +17857,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ס־פ־ר"
     },
     "word-252": {
       "lemma": "חופש",
@@ -17692,7 +17900,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ח־פ־שׁ"
     },
     "word-260": {
       "lemma": "דקה",
@@ -17734,7 +17943,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ד־ק־ק"
     },
     "word-287": {
       "lemma": "סבלנות",
@@ -17800,7 +18010,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ר־ג־ע"
     },
     "word-293": {
       "lemma": "מזל",
@@ -17842,7 +18053,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "נ־ז־ל"
     },
     "word-294": {
       "lemma": "מוזיקה",
@@ -17884,7 +18096,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": null
     },
     "word-297": {
       "lemma": "יום ראשון",
@@ -17926,7 +18139,9 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "י־ו־ם",
+      "rootWord": "יום"
     },
     "word-298": {
       "lemma": "יום שני",
@@ -17968,7 +18183,9 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "י־ו־ם",
+      "rootWord": "יום"
     },
     "word-299": {
       "lemma": "יום שלישי",
@@ -18010,7 +18227,9 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "י־ו־ם",
+      "rootWord": "יום"
     },
     "word-300": {
       "lemma": "יום רביעי",
@@ -18052,7 +18271,9 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "י־ו־ם",
+      "rootWord": "יום"
     },
     "word-301": {
       "lemma": "יום חמישי",
@@ -18094,7 +18315,9 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "י־ו־ם",
+      "rootWord": "יום"
     },
     "word-302": {
       "lemma": "יום שישי",
@@ -18136,7 +18359,9 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "י־ו־ם",
+      "rootWord": "יום"
     },
     "word-303": {
       "lemma": "שבת",
@@ -18178,7 +18403,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "שׁ־ב־ת"
     },
     "word-305": {
       "lemma": "סוף",
@@ -18220,7 +18446,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ס־ו־ף"
     },
     "word-306": {
       "lemma": "קורס",
@@ -18262,7 +18489,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": null
     },
     "word-325": {
       "lemma": "תוכנית",
@@ -18304,7 +18532,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ת־כ־ן"
     },
     "word-326": {
       "lemma": "פגישה",
@@ -18346,7 +18575,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "פ־ג־שׁ"
     },
     "word-328": {
       "lemma": "שבוע",
@@ -18406,7 +18636,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "שׁ־ב־ע"
     },
     "word-345": {
       "lemma": "אשראי",
@@ -18472,7 +18703,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ח־שׁ־ב"
     },
     "word-348": {
       "lemma": "בחינה",
@@ -18514,7 +18746,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ב־ח־ן"
     },
     "word-353": {
       "lemma": "נוכחות",
@@ -18580,7 +18813,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "י־צ־ב"
     },
     "word-385": {
       "lemma": "זמן",
@@ -18622,7 +18856,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ז־מ־ן"
     },
     "word-386": {
       "lemma": "בעיה",
@@ -18664,7 +18899,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ב־ע־ה"
     },
     "word-387": {
       "lemma": "תור",
@@ -18706,7 +18942,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ת־ו־ר"
     },
     "word-394": {
       "lemma": "שעה",
@@ -18748,7 +18985,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "שׁ־ע־ה"
     },
     "word-400": {
       "lemma": "זוג",
@@ -18790,7 +19028,8 @@
           ]
         }
       ],
-      "partOfSpeech": "noun"
+      "partOfSpeech": "noun",
+      "root": "ז־ו־ג"
     },
     "word-138": {
       "lemma": "ללמוד",
@@ -18884,7 +19123,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "ל־מ־ד"
     },
     "word-139": {
       "lemma": "לעבוד",
@@ -18978,7 +19218,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "ע־ב־ד"
     },
     "word-140": {
       "lemma": "ללכת",
@@ -19072,7 +19313,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "ה־ל־ך"
     },
     "word-141": {
       "lemma": "לנסוע",
@@ -19166,7 +19408,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "נ־ס־ע"
     },
     "word-142": {
       "lemma": "לדעת",
@@ -19260,7 +19503,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "י־ד־ע"
     },
     "word-143": {
       "lemma": "לכתוב",
@@ -19354,7 +19598,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "כ־ת־ב"
     },
     "word-144": {
       "lemma": "לקרוא",
@@ -19448,7 +19693,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "ק־ר־א"
     },
     "word-145": {
       "lemma": "לאהוב",
@@ -19542,7 +19788,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "א־ה־ב"
     },
     "word-146": {
       "lemma": "לדבר",
@@ -19636,7 +19883,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "ד־ב־ר"
     },
     "word-147": {
       "lemma": "לומר",
@@ -19730,7 +19978,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "א־מ־ר"
     },
     "word-148": {
       "lemma": "לגור",
@@ -19824,7 +20073,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "ג־ו־ר"
     },
     "word-149": {
       "lemma": "להרגיש",
@@ -19918,7 +20168,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "ר־ג־שׁ"
     },
     "word-150": {
       "lemma": "להימצא",
@@ -20012,7 +20263,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "מ־צ־א"
     },
     "word-151": {
       "lemma": "לחסור",
@@ -20106,7 +20358,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "ח־ס־ר"
     },
     "word-152": {
       "lemma": "לשאול",
@@ -20200,7 +20453,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "שׁ־א־ל"
     },
     "word-153": {
       "lemma": "לענות",
@@ -20294,7 +20548,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "ע־נ־ה"
     },
     "word-154": {
       "lemma": "להבין",
@@ -20388,7 +20643,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "ב־י־ן"
     },
     "word-155": {
       "lemma": "לאחר",
@@ -20482,7 +20738,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "א־ח־ר"
     },
     "word-156": {
       "lemma": "לעמוד",
@@ -20576,7 +20833,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "ע־מ־ד"
     },
     "word-157": {
       "lemma": "לשבת",
@@ -20670,7 +20928,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "י־שׁ־ב"
     },
     "word-158": {
       "lemma": "להרים",
@@ -20764,7 +21023,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "ר־ו־ם"
     },
     "word-159": {
       "lemma": "לטייל",
@@ -20858,7 +21118,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "ט־י־ל"
     },
     "word-160": {
       "lemma": "להיוולד",
@@ -21008,7 +21269,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "י־ל־ד"
     },
     "word-162": {
       "lemma": "יש",
@@ -21120,7 +21382,8 @@
           ]
         }
       ],
-      "partOfSpeech": "expression"
+      "partOfSpeech": "expression",
+      "root": null
     },
     "word-165": {
       "lemma": "לבוא",
@@ -21214,7 +21477,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "ב־ו־א"
     },
     "word-166": {
       "lemma": "להיכנס",
@@ -21308,7 +21572,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "כ־נ־ס"
     },
     "word-167": {
       "lemma": "לצאת",
@@ -21402,7 +21667,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "י־צ־א"
     },
     "word-228": {
       "lemma": "לראות",
@@ -21496,7 +21762,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "ר־א־ה"
     },
     "word-233": {
       "lemma": "לרוץ",
@@ -21590,7 +21857,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "ר־ו־ץ"
     },
     "word-288": {
       "lemma": "לרצות",
@@ -21684,7 +21952,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "ר־צ־ה"
     },
     "word-310": {
       "lemma": "לקנות",
@@ -21778,7 +22047,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "ק־נ־ה"
     },
     "word-311": {
       "lemma": "לאכול",
@@ -21872,7 +22142,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "א־כ־ל"
     },
     "word-312": {
       "lemma": "לשתות",
@@ -21966,7 +22237,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "שׁ־ת־ה"
     },
     "word-338": {
       "lemma": "לשחק",
@@ -22060,7 +22332,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "שׂ־ח־ק"
     },
     "word-354": {
       "lemma": "לבדוק",
@@ -22154,7 +22427,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "ב־ד־ק"
     },
     "word-355": {
       "lemma": "לנכוח",
@@ -22248,7 +22522,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "נ־כ־ח"
     },
     "word-356": {
       "lemma": "להשלים",
@@ -22342,7 +22617,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "שׁ־ל־ם"
     },
     "word-357": {
       "lemma": "לטפל",
@@ -22436,7 +22712,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "ט־פ־ל"
     },
     "word-358": {
       "lemma": "להישאר",
@@ -22530,7 +22807,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "שׁ־א־ר"
     },
     "word-381": {
       "lemma": "לשמוע",
@@ -22624,7 +22902,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "שׁ־מ־ע"
     },
     "word-384": {
       "lemma": "לחכות",
@@ -22718,7 +22997,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "ח־כ־ה"
     },
     "word-389": {
       "lemma": "להכיר",
@@ -22812,7 +23092,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "נ־כ־ר"
     },
     "word-392": {
       "lemma": "לבכות",
@@ -22906,7 +23187,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "ב־כ־ה"
     },
     "word-403": {
       "lemma": "לדמות ל־",
@@ -23000,7 +23282,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "ד־מ־ה"
     },
     "word-404": {
       "lemma": "להגיע",
@@ -23094,7 +23377,8 @@
           ]
         }
       ],
-      "partOfSpeech": "verb"
+      "partOfSpeech": "verb",
+      "root": "נ־ג־ע"
     },
     "word-168": {
       "lemma": "טוב",
@@ -23172,7 +23456,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "ט־ו־ב"
     },
     "word-169": {
       "lemma": "נחמד",
@@ -23250,7 +23535,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "ח־מ־ד"
     },
     "word-170": {
       "lemma": "שמח",
@@ -23328,7 +23614,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "שׂ־מ־ח"
     },
     "word-171": {
       "lemma": "גדול",
@@ -23406,7 +23693,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "ג־ד־ל"
     },
     "word-172": {
       "lemma": "קטן",
@@ -23484,7 +23772,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "ק־ט־ן"
     },
     "word-173": {
       "lemma": "יפה",
@@ -23562,7 +23851,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "י־פ־ה"
     },
     "word-174": {
       "lemma": "מעניין",
@@ -23640,7 +23930,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "ע־נ־י־ן"
     },
     "word-175": {
       "lemma": "חשוב",
@@ -23718,7 +24009,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "ח־שׁ־ב"
     },
     "word-176": {
       "lemma": "ספציפי",
@@ -23796,7 +24088,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": null
     },
     "word-177": {
       "lemma": "הרבה",
@@ -23906,7 +24199,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adverb"
+      "partOfSpeech": "adverb",
+      "root": null
     },
     "word-181-2": {
       "lemma": "כאן",
@@ -23928,7 +24222,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adverb"
+      "partOfSpeech": "adverb",
+      "root": null
     },
     "word-182": {
       "lemma": "שם",
@@ -24086,7 +24381,8 @@
           }
         }
       ],
-      "partOfSpeech": "adverb"
+      "partOfSpeech": "adverb",
+      "root": "ז־מ־ן"
     },
     "word-188-2": {
       "lemma": "בזמן",
@@ -24112,7 +24408,8 @@
           }
         }
       ],
-      "partOfSpeech": "preposition"
+      "partOfSpeech": "preposition",
+      "root": "ז־מ־ן"
     },
     "word-189": {
       "lemma": "רק",
@@ -24278,7 +24575,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "ק־שׁ־ה"
     },
     "word-229": {
       "lemma": "עייף",
@@ -24356,7 +24654,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "ע־י־ף"
     },
     "word-231": {
       "lemma": "חולה",
@@ -24434,7 +24733,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "ח־ל־ה"
     },
     "word-232": {
       "lemma": "בריא",
@@ -24512,7 +24812,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "ב־ר־א"
     },
     "word-237": {
       "lemma": "עוד",
@@ -24612,7 +24913,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "צ־ב־ר"
     },
     "word-245": {
       "lemma": "לבן",
@@ -24690,7 +24992,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "ל־ב־ן"
     },
     "word-256": {
       "lemma": "תמיד",
@@ -24790,7 +25093,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "א־ר־ך"
     },
     "word-258": {
       "lemma": "קל",
@@ -24868,7 +25172,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "ק־ל־ל"
     },
     "word-330": {
       "lemma": "חכם",
@@ -24946,7 +25251,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "ח־כ־ם"
     },
     "word-331": {
       "lemma": "חם",
@@ -25024,7 +25330,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "ח־מ־ם"
     },
     "word-346": {
       "lemma": "נוח",
@@ -25102,7 +25409,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "נ־ו־ח"
     },
     "word-364": {
       "lemma": "מתוק",
@@ -25180,7 +25488,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "מ־ת־ק"
     },
     "word-373": {
       "lemma": "מבוגר",
@@ -25258,7 +25567,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "ב־ג־ר"
     },
     "word-374": {
       "lemma": "זקן",
@@ -25336,7 +25646,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "ז־ק־ן"
     },
     "word-375": {
       "lemma": "צעיר",
@@ -25414,7 +25725,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "צ־ע־ר"
     },
     "word-376": {
       "lemma": "ישן",
@@ -25492,7 +25804,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "י־שׁ־ן"
     },
     "word-380": {
       "lemma": "שכור",
@@ -25570,7 +25883,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "שׂ־כ־ר"
     },
     "word-388": {
       "lemma": "עצוב",
@@ -25648,7 +25962,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "ע־צ־ב"
     },
     "word-397": {
       "lemma": "קרוב ל־",
@@ -25726,7 +26041,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "ק־ר־ב"
     },
     "word-398": {
       "lemma": "רחוק מ־",
@@ -25804,7 +26120,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": "ר־ח־ק"
     },
     "word-194": {
       "lemma": "מי?",
@@ -25896,7 +26213,8 @@
           ]
         }
       ],
-      "partOfSpeech": "expression"
+      "partOfSpeech": "expression",
+      "root": null
     },
     "word-197": {
       "lemma": "איפה?",
@@ -25940,7 +26258,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adverb"
+      "partOfSpeech": "adverb",
+      "root": null
     },
     "word-198-2": {
       "lemma": "מאין?",
@@ -25962,7 +26281,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adverb"
+      "partOfSpeech": "adverb",
+      "root": null
     },
     "word-199": {
       "lemma": "איך?",
@@ -26070,7 +26390,8 @@
           ]
         }
       ],
-      "partOfSpeech": "adjective"
+      "partOfSpeech": "adjective",
+      "root": null
     },
     "word-203": {
       "lemma": "מתי?",
@@ -26184,7 +26505,9 @@
           ]
         }
       ],
-      "partOfSpeech": "expression"
+      "partOfSpeech": "expression",
+      "root": "ב־נ־י",
+      "rootWord": "בן"
     },
     "word-236": {
       "lemma": "לאן?",
@@ -26265,7 +26588,8 @@
           ]
         }
       ],
-      "partOfSpeech": "determiner"
+      "partOfSpeech": "determiner",
+      "root": null
     },
     "word-401": {
       "lemma": "מדוע",
@@ -26337,7 +26661,8 @@
           }
         }
       ],
-      "partOfSpeech": "pronoun"
+      "partOfSpeech": "pronoun",
+      "root": null
     },
     "word-208": {
       "lemma": "אתה",
@@ -26427,7 +26752,8 @@
           }
         }
       ],
-      "partOfSpeech": "pronoun"
+      "partOfSpeech": "pronoun",
+      "root": null
     },
     "word-210": {
       "lemma": "הוא",
@@ -26525,7 +26851,8 @@
           }
         }
       ],
-      "partOfSpeech": "pronoun"
+      "partOfSpeech": "pronoun",
+      "root": null
     },
     "word-212": {
       "lemma": "של",
@@ -26721,7 +27048,8 @@
           }
         }
       ],
-      "partOfSpeech": "preposition"
+      "partOfSpeech": "preposition",
+      "root": null
     },
     "word-215": {
       "lemma": "עם",
@@ -27000,7 +27328,8 @@
           ]
         }
       ],
-      "partOfSpeech": "pronoun"
+      "partOfSpeech": "pronoun",
+      "root": null
     },
     "word-226": {
       "lemma": "מישהו",
@@ -27042,7 +27371,8 @@
           ]
         }
       ],
-      "partOfSpeech": "pronoun"
+      "partOfSpeech": "pronoun",
+      "root": null
     },
     "word-227": {
       "lemma": "אם",
@@ -27338,7 +27668,8 @@
           }
         }
       ],
-      "partOfSpeech": "preposition"
+      "partOfSpeech": "preposition",
+      "root": null
     },
     "word-304": {
       "lemma": "כל",
@@ -27376,7 +27707,8 @@
           ]
         }
       ],
-      "partOfSpeech": "determiner"
+      "partOfSpeech": "determiner",
+      "root": "כ־ל־ל"
     },
     "word-360-1": {
       "lemma": "מפני",
@@ -27402,7 +27734,8 @@
           }
         }
       ],
-      "partOfSpeech": "preposition"
+      "partOfSpeech": "preposition",
+      "root": null
     },
     "word-360-2": {
       "lemma": "מפני ש־",
@@ -27428,7 +27761,8 @@
           }
         }
       ],
-      "partOfSpeech": "conjunction"
+      "partOfSpeech": "conjunction",
+      "root": null
     },
     "word-261": {
       "lemma": "אפס",
@@ -27490,7 +27824,8 @@
           ]
         }
       ],
-      "partOfSpeech": "numeral"
+      "partOfSpeech": "numeral",
+      "root": "א־ח־ד"
     },
     "word-263": {
       "lemma": "שניים",
@@ -27564,7 +27899,8 @@
           ]
         }
       ],
-      "partOfSpeech": "numeral"
+      "partOfSpeech": "numeral",
+      "root": "שׁ־נ־ה"
     },
     "word-264": {
       "lemma": "שלושה",
@@ -27604,7 +27940,8 @@
           ]
         }
       ],
-      "partOfSpeech": "numeral"
+      "partOfSpeech": "numeral",
+      "root": "שׁ־ל־שׁ"
     },
     "word-265": {
       "lemma": "ארבעה",
@@ -27644,7 +27981,8 @@
           ]
         }
       ],
-      "partOfSpeech": "numeral"
+      "partOfSpeech": "numeral",
+      "root": "ר־ב־ע"
     },
     "word-266": {
       "lemma": "חמישה",
@@ -27684,7 +28022,8 @@
           ]
         }
       ],
-      "partOfSpeech": "numeral"
+      "partOfSpeech": "numeral",
+      "root": "ח־מ־שׁ"
     },
     "word-267": {
       "lemma": "שישה",
@@ -27724,7 +28063,8 @@
           ]
         }
       ],
-      "partOfSpeech": "numeral"
+      "partOfSpeech": "numeral",
+      "root": "שׁ־שׁ־ה"
     },
     "word-268": {
       "lemma": "שבעה",
@@ -27764,7 +28104,8 @@
           ]
         }
       ],
-      "partOfSpeech": "numeral"
+      "partOfSpeech": "numeral",
+      "root": "שׁ־ב־ע"
     },
     "word-269": {
       "lemma": "שמונה",
@@ -27804,7 +28145,8 @@
           ]
         }
       ],
-      "partOfSpeech": "numeral"
+      "partOfSpeech": "numeral",
+      "root": null
     },
     "word-270": {
       "lemma": "תשעה",
@@ -27844,7 +28186,8 @@
           ]
         }
       ],
-      "partOfSpeech": "numeral"
+      "partOfSpeech": "numeral",
+      "root": null
     },
     "word-271": {
       "lemma": "עשרה",
@@ -27884,7 +28227,8 @@
           ]
         }
       ],
-      "partOfSpeech": "numeral"
+      "partOfSpeech": "numeral",
+      "root": "ע־שׂ־ר"
     },
     "word-272": {
       "lemma": "עשרים",
@@ -28100,7 +28444,8 @@
           ]
         }
       ],
-      "partOfSpeech": "numeral"
+      "partOfSpeech": "numeral",
+      "root": null
     }
   }
 }

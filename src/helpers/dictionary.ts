@@ -29,7 +29,18 @@ export const localizeSections = (locale: Locale): DictionarySection[] =>
       const defaultRow = rows.find(
         (row) => row.key === [first.lexemeId, first.defaultFormId, 0].join('/'),
       )!;
+      const roots = entry.items
+        .flatMap(({ lexemeId }) => {
+          const { root, rootWord, lemma } = data.lexemes[lexemeId];
+          return root
+            ? [{ value: root, word: rootWord ?? (entry.items.length > 1 ? lemma : undefined) }]
+            : [];
+        })
+        .filter(
+          (root, index, all) => all.findIndex((other) => other.value === root.value) === index,
+        );
       return {
+        roots,
         id: entry.id,
         addedAt: entry.addedAt,
         meaning: entry.translations[locale].meaning,

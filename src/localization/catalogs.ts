@@ -1,6 +1,8 @@
 export type Locale = 'ru' | 'es';
 
 type Messages = {
+  root: string;
+  rootUnlisted: string;
   pageTitle: string;
   brand: string;
   dictionary: string;
@@ -32,6 +34,8 @@ type Messages = {
 
 export const catalogs: Record<Locale, Messages> = {
   ru: {
+    root: 'корень',
+    rootUnlisted: 'не указан',
     pageTitle: 'Словарь ульпана',
     brand: 'УЛЬПАН',
     dictionary: 'СЛОВАРЬ',
@@ -66,6 +70,8 @@ export const catalogs: Record<Locale, Messages> = {
     },
   },
   es: {
+    root: 'raíz',
+    rootUnlisted: 'sin indicar',
     pageTitle: 'Diccionario del ulpán',
     brand: 'ULPÁN',
     dictionary: 'DICCIONARIO',

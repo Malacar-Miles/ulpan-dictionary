@@ -42,11 +42,14 @@ describe('dictionary interface', () => {
     const card = container.querySelector('.card')!;
     const button = within(card as HTMLElement).getByRole('button');
     expect(button.getAttribute('aria-expanded')).toBe('false');
+    expect(card.querySelector('.card-roots')).toBeNull();
     fireEvent.click(card);
+    expect(card.querySelector('.card-roots')?.textContent).toBe('raíz ה־ל־ך');
     expect(card.querySelector('.card-top')).toBeNull();
     expect(within(card as HTMLElement).getAllByRole('cell')).toHaveLength(15);
     fireEvent.click(button);
     expect(within(card as HTMLElement).queryByRole('table')).toBeNull();
+    expect(card.querySelector('.card-roots')).toBeNull();
     fireEvent.change(search, { target: { value: 'holchót' } });
     expect(screen.getByRole('table').querySelector('.pronunciation mark')?.textContent).toBe(
       'holchót',
