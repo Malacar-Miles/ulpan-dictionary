@@ -870,6 +870,9 @@ body {
   position: relative;
 }
 .forms-trigger {
+  display: inline-grid;
+  place-items: center;
+  padding: 0;
   float: left;
   width: 2rem;
   height: 2rem;
@@ -882,6 +885,9 @@ body {
 .forms-trigger[aria-expanded='true'] {
   float: none;
   margin-bottom: 0.5rem;
+}
+.forms-trigger[aria-expanded='true'] svg {
+  transform: rotate(180deg);
 }
 .forms-table {
   width: 100%;

@@ -57,13 +57,25 @@ export const DictionaryCard = ({ entry, query, showNiqqud }: DictionaryCardProps
           aria-label={(locale === 'ru' ? 'Формы слова ' : 'Formas de ') + defaultRow.hebrew}
           onClick={toggle}
         >
-          <span aria-hidden="true">{open ? '▴' : '▾'}</span>
+          <svg
+            aria-hidden="true"
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path d="m5 9 7 7 7-7" />
+          </svg>
         </button>
       )}
       <div id={id}>
         {open ? (
           <table className="forms-table">
-            <thead>
+            <thead className="sr-only">
               <tr>
                 {(locale === 'ru'
                   ? ['Иврит', 'Произношение', 'Форма']

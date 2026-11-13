@@ -120,10 +120,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "отлично, превосходно; также «отличный» как прилагательное: м. ед. / ж. ед. / м. мн. / ж. мн. Для восклицания используется первая форма"
+              "meaning": "отличный; как восклицание — «Отлично!»"
             },
             "es": {
-              "meaning": "excelente, estupendo; también adjetivo «excelente»: masculino singular / femenino singular / masculino plural / femenino plural en hebreo. Como exclamación se usa la primera forma"
+              "meaning": "excelente; como exclamación, «¡Estupendo!»"
             }
           },
           "items": [
@@ -138,10 +138,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "отлично, превосходно; также «отличный» как прилагательное: м. ед. / ж. ед. / м. мн. / ж. мн. Для восклицания используется первая форма"
+              "meaning": "превосходный; как восклицание — «Отлично!»"
             },
             "es": {
-              "meaning": "excelente, estupendo; también adjetivo «excelente»: masculino singular / femenino singular / masculino plural / femenino plural en hebreo. Como exclamación se usa la primera forma"
+              "meaning": "excelente; como exclamación, «¡Estupendo!»"
             }
           },
           "items": [
@@ -228,10 +228,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "верный, правильный: м. ед. / ж. ед. / м. мн. / ж. мн.; נכון — верно, правильно; נכון? — верно? правильно? (уточняющий вопрос)"
+              "meaning": "верный, правильный; נכון — верно, правильно; נכון? — верно? правильно? (уточняющий вопрос)"
             },
             "es": {
-              "meaning": "correcto: masculino singular / femenino singular / masculino plural / femenino plural en hebreo; נכון — correcto, así es; נכון? — ¿verdad? ¿correcto? (pregunta de confirmación)"
+              "meaning": "correcto; נכון — correcto, así es; נכון? — ¿verdad? ¿correcto? (pregunta de confirmación)"
             }
           },
           "items": [
@@ -268,10 +268,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "как дела? Обращение к мужчине / женщине"
+              "meaning": "как дела?"
             },
             "es": {
-              "meaning": "¿cómo estás? Dirigido a un hombre / a una mujer"
+              "meaning": "¿cómo estás?"
             }
           },
           "items": [
@@ -286,10 +286,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "как ваши дела? К группе мужчин или смешанной / к группе женщин"
+              "meaning": "как у вас дела? Обращение к группе."
             },
             "es": {
-              "meaning": "¿cómo están? Dirigido a un grupo masculino o mixto / a un grupo femenino"
+              "meaning": "¿cómo están? Se dirige a un grupo."
             }
           },
           "items": [
@@ -304,10 +304,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "как тебя зовут? К мужчине / женщине"
+              "meaning": "как тебя зовут?"
             },
             "es": {
-              "meaning": "¿cómo te llamas? Dirigido a un hombre / a una mujer"
+              "meaning": "¿cómo te llamas?"
             }
           },
           "items": [
@@ -322,10 +322,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "как тебя зовут? К мужчине / женщине"
+              "meaning": "как тебя зовут?"
             },
             "es": {
-              "meaning": "¿cuál es tu nombre? Dirigido a un hombre / a una mujer"
+              "meaning": "¿cuál es tu nombre?"
             }
           },
           "items": [
@@ -499,10 +499,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "имя; название; м. р.; ед. / мн."
+              "meaning": "имя; название"
             },
             "es": {
-              "meaning": "nombre; masculino en hebreo; singular / plural"
+              "meaning": "nombre"
             }
           },
           "items": [
@@ -535,10 +535,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "твоё имя: при обращении к мужчине / женщине"
+              "meaning": "твоё имя"
             },
             "es": {
-              "meaning": "tu nombre: dirigido a un hombre / a una mujer"
+              "meaning": "tu nombre"
             }
           },
           "items": [
@@ -553,10 +553,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "его имя / её имя"
+              "meaning": "его имя"
             },
             "es": {
-              "meaning": "su nombre (de él) / su nombre (de ella)"
+              "meaning": "su nombre (de él)"
             }
           },
           "items": [
@@ -589,10 +589,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "твоё самочувствие: при обращении к мужчине / женщине"
+              "meaning": "твоё самочувствие"
             },
             "es": {
-              "meaning": "tu estado: dirigido a un hombre / a una mujer"
+              "meaning": "tu estado"
             }
           },
           "items": [
@@ -607,10 +607,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "ваше самочувствие: к группе мужчин или смешанной / женщин"
+              "meaning": "ваше самочувствие"
             },
             "es": {
-              "meaning": "su estado: dirigido a un grupo masculino o mixto / a un grupo femenino"
+              "meaning": "su estado (de ustedes)"
             }
           },
           "items": [
@@ -625,10 +625,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "личное имя; м. р.; ед. / мн."
+              "meaning": "личное имя"
             },
             "es": {
-              "meaning": "nombre de pila; masculino en hebreo; singular / plural"
+              "meaning": "nombre de pila"
             }
           },
           "items": [
@@ -643,10 +643,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "фамилия; м. р.; два варианта, каждый в ед. / мн. числе. Обычный вариант — שם משפחה. שם משפחתי по контексту может также означать «моя фамилия»"
+              "meaning": "фамилия. Обычный вариант — שם משפחה. В зависимости от контекста שם משפחתי может означать «моя фамилия»."
             },
             "es": {
-              "meaning": "apellido; masculino en hebreo; dos variantes, cada una en singular / plural. La expresión habitual es שם משפחה. Según el contexto, שם משפחתי también puede significar «mi apellido»"
+              "meaning": "apellido. La expresión habitual es שם משפחה. Según el contexto, שם משפחתי también puede significar «mi apellido»."
             }
           },
           "items": [
@@ -661,10 +661,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "семейное положение; м. р.; ед. / мн."
+              "meaning": "семейное положение"
             },
             "es": {
-              "meaning": "estado civil; masculino en hebreo; singular / plural"
+              "meaning": "estado civil"
             }
           },
           "items": [
@@ -679,10 +679,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "какое твоё семейное положение? Обращение к мужчине / женщине"
+              "meaning": "какое твоё семейное положение?"
             },
             "es": {
-              "meaning": "¿cuál es tu estado civil? Dirigido a un hombre / a una mujer"
+              "meaning": "¿cuál es tu estado civil?"
             }
           },
           "items": [
@@ -697,10 +697,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "адрес; ж. р.; ед. / мн."
+              "meaning": "адрес"
             },
             "es": {
-              "meaning": "dirección; femenino en hebreo; singular / plural"
+              "meaning": "dirección"
             }
           },
           "items": [
@@ -715,10 +715,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "номер телефона; м. р.; ед. / мн."
+              "meaning": "номер телефона"
             },
             "es": {
-              "meaning": "número de teléfono; masculino en hebreo; singular / plural"
+              "meaning": "número de teléfono"
             }
           },
           "items": [
@@ -733,10 +733,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "номер удостоверения личности; м. р.; ед. / мн."
+              "meaning": "номер удостоверения личности"
             },
             "es": {
-              "meaning": "número del documento de identidad; masculino en hebreo; singular / plural"
+              "meaning": "número del documento de identidad"
             }
           },
           "items": [
@@ -751,10 +751,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "название города; м. р.; ед. / мн."
+              "meaning": "название города"
             },
             "es": {
-              "meaning": "nombre de la ciudad; masculino en hebreo; singular / plural"
+              "meaning": "nombre de la ciudad"
             }
           },
           "items": [
@@ -769,10 +769,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "страна рождения; ж. р.; ед. / мн."
+              "meaning": "страна рождения"
             },
             "es": {
-              "meaning": "país de nacimiento; femenino en hebreo; singular / plural"
+              "meaning": "país de nacimiento"
             }
           },
           "items": [
@@ -787,10 +787,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "семья; ж. р.; ед. / мн."
+              "meaning": "семья"
             },
             "es": {
-              "meaning": "familia; femenino en hebreo; singular / plural"
+              "meaning": "familia"
             }
           },
           "items": [
@@ -805,10 +805,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "сын / дочь / сыновья / дочери; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "сын"
             },
             "es": {
-              "meaning": "hijo / hija / hijos / hijas; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "hijo"
             }
           },
           "items": [
@@ -823,10 +823,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "друг / подруга / друзья / подруги; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "друг"
             },
             "es": {
-              "meaning": "amigo / amiga / amigos / amigas; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "amigo"
             }
           },
           "items": [
@@ -841,10 +841,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "ребёнок, мальчик / девочка / дети, мальчики / девочки; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "ребёнок, мальчик"
             },
             "es": {
-              "meaning": "niño / niña / niños / niñas; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "niño"
             }
           },
           "items": [
@@ -859,10 +859,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "мужчина / женщина / люди, мужчины / женщины; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "мужчина"
             },
             "es": {
-              "meaning": "hombre / mujer / personas, hombres / mujeres; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "hombre"
             }
           },
           "items": [
@@ -877,10 +877,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "муж; м. р.; ед. / мн."
+              "meaning": "муж"
             },
             "es": {
-              "meaning": "marido; masculino en hebreo; singular / plural"
+              "meaning": "marido"
             }
           },
           "items": [
@@ -895,10 +895,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "женат / замужем; состоящие в браке; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "состоит в браке"
             },
             "es": {
-              "meaning": "casado / casada / casados / casadas; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "casado"
             }
           },
           "items": [
@@ -913,10 +913,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "холост / не замужем; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "холост"
             },
             "es": {
-              "meaning": "soltero / soltera; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "soltero"
             }
           },
           "items": [
@@ -931,10 +931,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "разведён / разведена; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "разведён"
             },
             "es": {
-              "meaning": "divorciado / divorciada; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "divorciado"
             }
           },
           "items": [
@@ -949,10 +949,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "учитель / учительница / учителя / учительницы; формы ед. числа без огласовок пишутся одинаково; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "учитель; формы ед. числа без огласовок пишутся одинаково"
             },
             "es": {
-              "meaning": "profesor / profesora / profesores / profesoras; las formas singulares se escriben igual sin niqqud; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "profesor; las formas singulares se escriben igual sin niqqud"
             }
           },
           "items": [
@@ -967,10 +967,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "ученик / ученица / ученики / ученицы; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "ученик"
             },
             "es": {
-              "meaning": "alumno / alumna / alumnos / alumnas; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "alumno"
             }
           },
           "items": [
@@ -985,10 +985,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "врач; мужчина / женщина / мужчины / женщины; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "врач"
             },
             "es": {
-              "meaning": "médico / médica / médicos / médicas; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "médico"
             }
           },
           "items": [
@@ -1003,10 +1003,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "уроженец / уроженка / уроженцы / уроженки Израиля; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "уроженец Израиля"
             },
             "es": {
-              "meaning": "israelí de nacimiento; hombre / mujer / hombres / mujeres; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "israelí de nacimiento"
             }
           },
           "items": [
@@ -1021,10 +1021,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "новый репатриант / новая репатриантка / новые репатрианты / новые репатриантки; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "новый репатриант"
             },
             "es": {
-              "meaning": "nuevo inmigrante / nueva inmigrante / nuevos inmigrantes / nuevas inmigrantes que hacen aliá; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "inmigrante que acaba de hacer aliá"
             }
           },
           "items": [
@@ -1039,10 +1039,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "давний репатриант / давняя репатриантка / давние репатрианты / давние репатриантки; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "давний репатриант"
             },
             "es": {
-              "meaning": "inmigrante que hizo aliá hace tiempo; hombre / mujer / hombres / mujeres; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "inmigrante que hizo aliá hace tiempo"
             }
           },
           "items": [
@@ -1057,10 +1057,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "турист / туристка / туристы / туристки; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "турист"
             },
             "es": {
-              "meaning": "turista; hombre / mujer / hombres / mujeres; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "turista"
             }
           },
           "items": [
@@ -1075,10 +1075,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "профессия; м. р.; ед. / мн."
+              "meaning": "профессия"
             },
             "es": {
-              "meaning": "profesión; masculino en hebreo; singular / plural"
+              "meaning": "profesión"
             }
           },
           "items": [
@@ -1173,10 +1173,10 @@
           "addedAt": "2026-11-02",
           "translations": {
             "ru": {
-              "meaning": "вдовец / вдова / вдовцы / вдовы"
+              "meaning": "вдовец"
             },
             "es": {
-              "meaning": "viudo / viuda / viudos / viudas"
+              "meaning": "viudo"
             }
           },
           "items": [
@@ -1191,10 +1191,10 @@
           "addedAt": "2026-11-03",
           "translations": {
             "ru": {
-              "meaning": "брат / сестра / братья / сёстры; также медбрат / медсестра / медбратья / медсёстры — значение определяется контекстом"
+              "meaning": "брат; в медицинском контексте — медбрат"
             },
             "es": {
-              "meaning": "hermano / hermana / hermanos / hermanas; también enfermero / enfermera / enfermeros / enfermeras, según el contexto"
+              "meaning": "hermano; en un contexto sanitario, enfermero"
             }
           },
           "items": [
@@ -1209,10 +1209,10 @@
           "addedAt": "2026-11-03",
           "translations": {
             "ru": {
-              "meaning": "служащий, офисный сотрудник, чиновник; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "служащий, офисный сотрудник, чиновник"
             },
             "es": {
-              "meaning": "empleado administrativo, funcionario; masculino singular / femenino singular / masculino plural / femenino plural"
+              "meaning": "empleado administrativo, funcionario"
             }
           },
           "items": [
@@ -1227,10 +1227,10 @@
           "addedAt": "2026-11-04",
           "translations": {
             "ru": {
-              "meaning": "господин / госпожа / госпожи; מר — обращение к мужчине перед именем, обычной формы мн. числа нет. У גברת также мн. גברות — גְּבָרוֹת, гваро́т"
+              "meaning": "господин; מר — обращение к мужчине перед именем, обычной формы мн. числа нет. У גברת также мн. גברות — גְּבָרוֹת, гваро́т"
             },
             "es": {
-              "meaning": "señor / señora / señoras; מר se usa ante el nombre de un hombre y no tiene plural habitual. גברת también tiene el plural גברות — גְּבָרוֹת, gvarót"
+              "meaning": "señor; מר se usa ante el nombre de un hombre y no tiene plural habitual. גברת también tiene el plural גברות — גְּבָרוֹת, gvarót"
             }
           },
           "items": [
@@ -1245,10 +1245,10 @@
           "addedAt": "2026-11-04",
           "translations": {
             "ru": {
-              "meaning": "секретарь, профессия; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "секретарь, профессия"
             },
             "es": {
-              "meaning": "secretario / secretaria / secretarios / secretarias; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "secretario"
             }
           },
           "items": [
@@ -1263,10 +1263,10 @@
           "addedAt": "2026-11-04",
           "translations": {
             "ru": {
-              "meaning": "солдат, военнослужащий; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "солдат, военнослужащий"
             },
             "es": {
-              "meaning": "soldado, militar; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "soldado, militar"
             }
           },
           "items": [
@@ -1281,10 +1281,10 @@
           "addedAt": "2026-11-05",
           "translations": {
             "ru": {
-              "meaning": "внук / внучка / внуки / внучки; мужской ед. / женский ед. / мужской мн. / женский мн."
+              "meaning": "внук"
             },
             "es": {
-              "meaning": "nieto / nieta / nietos / nietas; masculino singular / femenino singular / masculino plural / femenino plural"
+              "meaning": "nieto"
             }
           },
           "items": [
@@ -1299,10 +1299,10 @@
           "addedAt": "2026-11-05",
           "translations": {
             "ru": {
-              "meaning": "родитель / родительница / родители / родительницы; мужской ед. / женский ед. / мужской мн. / женский мн. Обычно употребляют הורה / הורים; הורה может обозначать любого из родителей. Отдельные женские формы употребляются реже."
+              "meaning": "родитель. Обычно употребляют הורה / הורים; הורה может обозначать любого из родителей. Отдельные женские формы употребляются реже."
             },
             "es": {
-              "meaning": "progenitor / progenitora / progenitores / progenitoras; masculino singular / femenino singular / masculino plural / femenino plural. Se suele usar הורה / הורים; הורה puede referirse al padre o a la madre. Las formas femeninas específicas son menos habituales."
+              "meaning": "progenitor. Se suele usar הורה / הורים; הורה puede referirse al padre o a la madre. Las formas femeninas específicas son menos habituales."
             }
           },
           "items": [
@@ -1317,10 +1317,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "воспитатель / воспитательница / воспитатели / воспитательницы детского сада; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "воспитатель детского сада"
             },
             "es": {
-              "meaning": "educador / educadora / educadores / educadoras de jardín de infancia; masculino singular / femenino singular / masculino plural / femenino plural"
+              "meaning": "educador de jardín de infancia"
             }
           },
           "items": [
@@ -1335,10 +1335,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "дедушка / бабушка / дедушки / бабушки; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "дедушка"
             },
             "es": {
-              "meaning": "abuelo / abuela / abuelos / abuelas; masculino singular / femenino singular / masculino plural / femenino plural"
+              "meaning": "abuelo"
             }
           },
           "items": [
@@ -1353,10 +1353,10 @@
           "addedAt": "2026-11-08",
           "translations": {
             "ru": {
-              "meaning": "папа / папы, отцы; м. род, ед. / мн. Для множественного числа используется форма от אב — отец."
+              "meaning": "папа. Во множественном числе используется форма от אב («отец»)."
             },
             "es": {
-              "meaning": "papá / papás, padres; masculino en hebreo, singular / plural. El plural procede de אב, padre."
+              "meaning": "papá. El plural procede de אב, padre."
             }
           },
           "items": [
@@ -1371,10 +1371,10 @@
           "addedAt": "2026-11-08",
           "translations": {
             "ru": {
-              "meaning": "мама / мамы, матери; ж. род, ед. / мн. Распространённое написание — אמא; полное написание — אימא. Множественное число — от אם, мать."
+              "meaning": "мама. Полное написание — אימא; распространён также вариант אמא. Форма множественного числа происходит от אם («мать»)."
             },
             "es": {
-              "meaning": "mamá / mamás, madres; femenino en hebreo, singular / plural. Grafía frecuente: אמא; grafía plena: אימא. El plural procede de אם, madre."
+              "meaning": "mamá. Grafía frecuente: אמא; grafía plena: אימא. El plural procede de אם, madre."
             }
           },
           "items": [
@@ -1389,10 +1389,10 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "возраст / возрасты; м. род, ед. / мн."
+              "meaning": "возраст"
             },
             "es": {
-              "meaning": "edad / edades; masculino en hebreo, singular / plural"
+              "meaning": "edad"
             }
           },
           "items": [
@@ -1407,10 +1407,10 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "дядя / тётя / дяди / тёти; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "дядя"
             },
             "es": {
-              "meaning": "tío / tía / tíos / tías; masculino singular / femenino singular / masculino plural / femenino plural"
+              "meaning": "tío"
             }
           },
           "items": [
@@ -1425,10 +1425,10 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "племянник / племянница / племянники / племянницы; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "племянник"
             },
             "es": {
-              "meaning": "sobrino / sobrina / sobrinos / sobrinas; masculino singular / femenino singular / masculino plural / femenino plural"
+              "meaning": "sobrino"
             }
           },
           "items": [
@@ -1443,10 +1443,10 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "двоюродный брат / двоюродная сестра / двоюродные братья (или смешанная группа) / двоюродные сёстры. Также בת דוד (бат дод) — дочь дяди, בן דודה (бен дода́) — сын тёти."
+              "meaning": "двоюродный брат. Также בת דוד (бат дод) — дочь дяди, בן דודה (бен дода́) — сын тёти."
             },
             "es": {
-              "meaning": "primo / prima / primos (también grupo mixto) / primas. También בת דוד (bat dod), hija de un tío, y בן דודה (ben dodá), hijo de una tía."
+              "meaning": "primo. También בת דוד (bat dod), hija de un tío, y בן דודה (ben dodá), hijo de una tía."
             }
           },
           "items": [
@@ -1461,10 +1461,10 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "ветеринар; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "ветеринар"
             },
             "es": {
-              "meaning": "veterinario / veterinaria / veterinarios / veterinarias; masculino singular / femenino singular / masculino plural / femenino plural"
+              "meaning": "veterinario"
             }
           },
           "items": [
@@ -1479,10 +1479,10 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "руководитель, директор; м. ед. / ж. ед. / м. мн. / ж. мн.; название должности"
+              "meaning": "руководитель, директор; название должности"
             },
             "es": {
-              "meaning": "director / directora / directores / directoras; también gerente; masculino singular / femenino singular / masculino plural / femenino plural; cargo profesional"
+              "meaning": "director; también gerente; cargo profesional"
             }
           },
           "items": [
@@ -1497,10 +1497,10 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "младенец (мальчик) / младенец (девочка) / младенцы (мальчики или смешанная группа) / младенцы (девочки); м. ед. / ж. ед. / м. мн. / ж. мн. Формы множественного числа совпадают."
+              "meaning": "младенец. Во множественном числе формы обоих родов совпадают."
             },
             "es": {
-              "meaning": "bebé (niño) / bebé (niña) / bebés (niños o grupo mixto) / bebés (niñas); masculino singular / femenino singular / masculino plural / femenino plural. Las formas plurales coinciden."
+              "meaning": "bebé. En plural coinciden las formas de ambos géneros."
             }
           },
           "items": [
@@ -1515,10 +1515,10 @@
           "addedAt": "2026-11-10",
           "translations": {
             "ru": {
-              "meaning": "зять / невестка (жена сына) / зятья / невестки; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "зять"
             },
             "es": {
-              "meaning": "yerno / nuera / yernos / nueras; masculino singular / femenino singular / masculino plural / femenino plural."
+              "meaning": "yerno"
             }
           },
           "items": [
@@ -1533,10 +1533,10 @@
           "addedAt": "2026-11-10",
           "translations": {
             "ru": {
-              "meaning": "тесть, свёкор / тёща, свекровь / тестьи, свёкры / тёщи, свекрови; м. ед. / ж. ед. / м. мн. / ж. мн. Родители супруга или супруги. Не путать с חם — «горячий»."
+              "meaning": "родитель супруга или супруги. Не путать с חם — «горячий»."
             },
             "es": {
-              "meaning": "suegro / suegra / suegros / suegras; masculino singular / femenino singular / masculino plural / femenino plural. Padres del cónyuge. No confundir con חם, «caliente»."
+              "meaning": "padre o madre del cónyuge. No confundir con חם, «caliente»."
             }
           },
           "items": [
@@ -1551,10 +1551,10 @@
           "addedAt": "2026-11-10",
           "translations": {
             "ru": {
-              "meaning": "брат супруга/супруги или муж сестры / сестра супруга/супруги или жена брата / те же родственники, мужчины / те же родственницы, женщины; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "брат или сестра супруга, а также супруг брата или сестры"
             },
             "es": {
-              "meaning": "cuñado / cuñada / cuñados / cuñadas; masculino singular / femenino singular / masculino plural / femenino plural."
+              "meaning": "cuñado"
             }
           },
           "items": [
@@ -1569,10 +1569,10 @@
           "addedAt": "2026-11-10",
           "translations": {
             "ru": {
-              "meaning": "парень, молодой человек / девушка / парни / девушки; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "парень, молодой человек"
             },
             "es": {
-              "meaning": "joven (hombre) / joven (mujer) / jóvenes (hombres) / jóvenes (mujeres); masculino singular / femenino singular / masculino plural / femenino plural."
+              "meaning": "joven"
             }
           },
           "items": [
@@ -1587,10 +1587,10 @@
           "addedAt": "2026-11-12",
           "translations": {
             "ru": {
-              "meaning": "родственник / родственница / родственники / родственницы"
+              "meaning": "родственник"
             },
             "es": {
-              "meaning": "pariente (hombre) / pariente (mujer) / parientes (hombres o grupo mixto) / parientes (mujeres)"
+              "meaning": "pariente"
             }
           },
           "items": [
@@ -1620,10 +1620,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "улица; м. р.; ед. / мн."
+              "meaning": "улица"
             },
             "es": {
-              "meaning": "calle; masculino en hebreo; singular / plural"
+              "meaning": "calle"
             }
           },
           "items": [
@@ -1638,10 +1638,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "дом; м. р.; ед. / мн."
+              "meaning": "дом"
             },
             "es": {
-              "meaning": "casa; masculino en hebreo; singular / plural"
+              "meaning": "casa"
             }
           },
           "items": [
@@ -1656,10 +1656,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "класс, аудитория; בכיתה — ба-кита́, в классе; ж. р.; ед. / мн."
+              "meaning": "класс, аудитория; בכיתה — ба-кита́, в классе"
             },
             "es": {
-              "meaning": "aula, clase; בכיתה — ba-kitá, en el aula; femenino en hebreo; singular / plural"
+              "meaning": "aula, clase; בכיתה — ba-kitá, en el aula"
             }
           },
           "items": [
@@ -1674,10 +1674,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "город; ж. р.; ед. / мн."
+              "meaning": "город"
             },
             "es": {
-              "meaning": "ciudad; femenino en hebreo; singular / plural"
+              "meaning": "ciudad"
             }
           },
           "items": [
@@ -1692,10 +1692,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "дорога, путь; ж. р.; ед. / мн."
+              "meaning": "дорога, путь"
             },
             "es": {
-              "meaning": "camino, vía; femenino en hebreo; singular / plural"
+              "meaning": "camino, vía"
             }
           },
           "items": [
@@ -1710,10 +1710,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "банк; м. р.; ед. / мн."
+              "meaning": "банк"
             },
             "es": {
-              "meaning": "banco; masculino en hebreo; singular / plural"
+              "meaning": "banco"
             }
           },
           "items": [
@@ -1728,10 +1728,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "университет; ж. р.; ед. / мн."
+              "meaning": "университет"
             },
             "es": {
-              "meaning": "universidad; femenino en hebreo; singular / plural"
+              "meaning": "universidad"
             }
           },
           "items": [
@@ -1746,10 +1746,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "театр; м. р.; ед. / два варианта мн. числа"
+              "meaning": "театр"
             },
             "es": {
-              "meaning": "teatro; masculino en hebreo; singular / dos variantes del plural"
+              "meaning": "teatro"
             }
           },
           "items": [
@@ -1764,10 +1764,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "рынок; м. р.; ед. / мн."
+              "meaning": "рынок"
             },
             "es": {
-              "meaning": "mercado; masculino en hebreo; singular / plural"
+              "meaning": "mercado"
             }
           },
           "items": [
@@ -1800,10 +1800,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "библиотека; ж. р.; ед. / мн."
+              "meaning": "библиотека"
             },
             "es": {
-              "meaning": "biblioteca; femenino en hebreo; singular / plural"
+              "meaning": "biblioteca"
             }
           },
           "items": [
@@ -1818,10 +1818,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "торговый центр; м. р.; ед. / мн."
+              "meaning": "торговый центр"
             },
             "es": {
-              "meaning": "centro comercial; masculino en hebreo; singular / plural"
+              "meaning": "centro comercial"
             }
           },
           "items": [
@@ -1836,10 +1836,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "музей; м. р.; ед. / мн."
+              "meaning": "музей"
             },
             "es": {
-              "meaning": "museo; masculino en hebreo; singular / plural"
+              "meaning": "museo"
             }
           },
           "items": [
@@ -1854,10 +1854,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "мэрия, муниципалитет; ж. р.; ед. / мн."
+              "meaning": "мэрия, муниципалитет"
             },
             "es": {
-              "meaning": "ayuntamiento, municipalidad; femenino en hebreo; singular / plural"
+              "meaning": "ayuntamiento, municipalidad"
             }
           },
           "items": [
@@ -1872,10 +1872,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "продуктовый магазин, ж. р.; ж. р.; ед. / мн."
+              "meaning": "продуктовый магазин"
             },
             "es": {
-              "meaning": "tienda de comestibles; femenino en hebreo; femenino en hebreo; singular / plural"
+              "meaning": "tienda de comestibles"
             }
           },
           "items": [
@@ -1890,10 +1890,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "кафе; м. р.; ед. / мн."
+              "meaning": "кафе"
             },
             "es": {
-              "meaning": "cafetería; masculino en hebreo; singular / plural"
+              "meaning": "cafetería"
             }
           },
           "items": [
@@ -1908,10 +1908,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "ресторан; ж. р.; ед. / мн."
+              "meaning": "ресторан"
             },
             "es": {
-              "meaning": "restaurante; femenino en hebreo; singular / plural"
+              "meaning": "restaurante"
             }
           },
           "items": [
@@ -1926,10 +1926,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "автобусная остановка; ж. р.; ед. / мн.; תחנה — תַּחֲנָה, тахана́: остановка, станция; мн. תחנות — תַּחֲנוֹת, тахано́т. Перед существительным в сопряжённом сочетании (смиху́т) окончание ־ה меняется на ־ת: תחנת — תַּחֲנַת, тахана́т; תחנת אוטובוס — автобусная остановка. Во мн. числе: תחנות אוטובוס"
+              "meaning": "автобусная остановка; תחנה — תַּחֲנָה, тахана́: остановка, станция; мн. תחנות — תַּחֲנוֹת, тахано́т. Перед существительным в сопряжённом сочетании (смиху́т) окончание ־ה меняется на ־ת: תחנת — תַּחֲנַת, тахана́т; תחנת אוטובוס — автобусная остановка. Во мн. числе: תחנות אוטובוס"
             },
             "es": {
-              "meaning": "parada de autobús; femenino en hebreo; singular / plural; תחנה — תַּחֲנָה, tachaná: parada, estación; plural תחנות — תַּחֲנוֹת, tachanót. Ante un sustantivo en una construcción de estado constructo (smichút), ־ה cambia a ־ת: תחנת — תַּחֲנַת, tachanát; תחנת אוטובוס — parada de autobús. En plural: תחנות אוטובוס"
+              "meaning": "parada de autobús; תחנה — תַּחֲנָה, tachaná: parada, estación; plural תחנות — תַּחֲנוֹת, tachanót. Ante un sustantivo en una construcción de estado constructo (smichút), ־ה cambia a ־ת: תחנת — תַּחֲנַת, tachanát; תחנת אוטובוס — parada de autobús. En plural: תחנות אוטובוס"
             }
           },
           "items": [
@@ -1944,10 +1944,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "ульпан; באולפן — ба-ульпа́н, в ульпане; м. р.; ед. / мн."
+              "meaning": "ульпан; באולפן — ба-ульпа́н, в ульпане"
             },
             "es": {
-              "meaning": "ulpán (curso intensivo de hebreo); באולפן — ba-ulpán, en el ulpán; masculino en hebreo; singular / plural"
+              "meaning": "ulpán (curso intensivo de hebreo); באולפן — ba-ulpán, en el ulpán"
             }
           },
           "items": [
@@ -1962,10 +1962,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "здание; м. р.; ед. / мн."
+              "meaning": "здание"
             },
             "es": {
-              "meaning": "edificio; masculino en hebreo; singular / plural"
+              "meaning": "edificio"
             }
           },
           "items": [
@@ -1980,10 +1980,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "стена / стены; м. р., несмотря на окончание мн. числа ־ות"
+              "meaning": "стена; м. р., несмотря на окончание мн. числа ־ות"
             },
             "es": {
-              "meaning": "pared / paredes; masculino en hebreo, a pesar de la terminación plural ־ות"
+              "meaning": "pared; masculino en hebreo, a pesar de la terminación plural ־ות"
             }
           },
           "items": [
@@ -1998,10 +1998,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "дверь; ж. р.; ед. / мн."
+              "meaning": "дверь"
             },
             "es": {
-              "meaning": "puerta; femenino en hebreo; singular / plural"
+              "meaning": "puerta"
             }
           },
           "items": [
@@ -2016,10 +2016,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "окно; м. р.; ед. / мн."
+              "meaning": "окно"
             },
             "es": {
-              "meaning": "ventana; masculino en hebreo; singular / plural"
+              "meaning": "ventana"
             }
           },
           "items": [
@@ -2034,10 +2034,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "штора; м. р.; ед. / мн."
+              "meaning": "штора"
             },
             "es": {
-              "meaning": "cortina; masculino en hebreo; singular / plural"
+              "meaning": "cortina"
             }
           },
           "items": [
@@ -2052,10 +2052,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "шкаф; м. р.; ед. / мн."
+              "meaning": "шкаф"
             },
             "es": {
-              "meaning": "armario; masculino en hebreo; singular / plural"
+              "meaning": "armario"
             }
           },
           "items": [
@@ -2070,10 +2070,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "стол; м. р.; ед. / мн."
+              "meaning": "стол"
             },
             "es": {
-              "meaning": "mesa; masculino en hebreo; singular / plural"
+              "meaning": "mesa"
             }
           },
           "items": [
@@ -2088,10 +2088,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "стул; м. р.; ед. / мн."
+              "meaning": "стул"
             },
             "es": {
-              "meaning": "silla; masculino en hebreo; singular / plural"
+              "meaning": "silla"
             }
           },
           "items": [
@@ -2106,10 +2106,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "ковёр; м. р.; ед. / мн."
+              "meaning": "ковёр"
             },
             "es": {
-              "meaning": "alfombra; masculino en hebreo; singular / plural"
+              "meaning": "alfombra"
             }
           },
           "items": [
@@ -2124,10 +2124,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "картина, фотография; ж. р.; ед. / мн."
+              "meaning": "картина, фотография"
             },
             "es": {
-              "meaning": "cuadro, fotografía; femenino en hebreo; singular / plural"
+              "meaning": "cuadro, fotografía"
             }
           },
           "items": [
@@ -2142,10 +2142,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "доска; м. р.; ед. / мн."
+              "meaning": "доска"
             },
             "es": {
-              "meaning": "pizarra; masculino en hebreo; singular / plural"
+              "meaning": "pizarra"
             }
           },
           "items": [
@@ -2160,10 +2160,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "компьютер; м. р.; ед. / мн."
+              "meaning": "компьютер"
             },
             "es": {
-              "meaning": "computadora, ordenador; masculino en hebreo; singular / plural"
+              "meaning": "computadora, ordenador"
             }
           },
           "items": [
@@ -2178,10 +2178,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "кондиционер; м. р.; ед. / мн."
+              "meaning": "кондиционер"
             },
             "es": {
-              "meaning": "aire acondicionado; masculino en hebreo; singular / plural"
+              "meaning": "aire acondicionado"
             }
           },
           "items": [
@@ -2196,10 +2196,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "лампа, светильник; ж. р.; ед. / мн."
+              "meaning": "лампа, светильник"
             },
             "es": {
-              "meaning": "lámpara; femenino en hebreo; singular / plural"
+              "meaning": "lámpara"
             }
           },
           "items": [
@@ -2214,10 +2214,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "карта; ж. р.; ед. / мн."
+              "meaning": "карта"
             },
             "es": {
-              "meaning": "mapa; femenino en hebreo; singular / plural"
+              "meaning": "mapa"
             }
           },
           "items": [
@@ -2232,10 +2232,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "сумка, портфель; м. р.; ед. / мн."
+              "meaning": "сумка, портфель"
             },
             "es": {
-              "meaning": "bolso, cartera; masculino en hebreo; singular / plural"
+              "meaning": "bolso, cartera"
             }
           },
           "items": [
@@ -2250,10 +2250,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "корзина; сумка-корзина; м. р.; ед. / мн."
+              "meaning": "корзина; сумка-корзина"
             },
             "es": {
-              "meaning": "cesta; bolso tipo cesta; masculino en hebreo; singular / plural"
+              "meaning": "cesta; bolso tipo cesta"
             }
           },
           "items": [
@@ -2268,10 +2268,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "часы; м. р.; ед. / мн."
+              "meaning": "часы"
             },
             "es": {
-              "meaning": "reloj; masculino en hebreo; singular / plural"
+              "meaning": "reloj"
             }
           },
           "items": [
@@ -2286,10 +2286,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "ключ; м. р.; ед. / мн."
+              "meaning": "ключ"
             },
             "es": {
-              "meaning": "llave; masculino en hebreo; singular / plural"
+              "meaning": "llave"
             }
           },
           "items": [
@@ -2304,10 +2304,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "стакан, чашка; ж. р.; ж. р.; ед. / мн."
+              "meaning": "стакан, чашка"
             },
             "es": {
-              "meaning": "vaso, taza; femenino en hebreo; femenino en hebreo; singular / plural"
+              "meaning": "vaso, taza"
             }
           },
           "items": [
@@ -2322,10 +2322,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "карандаш; м. р.; ед. / мн."
+              "meaning": "карандаш"
             },
             "es": {
-              "meaning": "lápiz; masculino en hebreo; singular / plural"
+              "meaning": "lápiz"
             }
           },
           "items": [
@@ -2340,10 +2340,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "ручка; м. р.; ед. / мн."
+              "meaning": "ручка"
             },
             "es": {
-              "meaning": "bolígrafo; masculino en hebreo; singular / plural"
+              "meaning": "bolígrafo"
             }
           },
           "items": [
@@ -2358,10 +2358,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "тетрадь; ж. р.; ед. / мн."
+              "meaning": "тетрадь"
             },
             "es": {
-              "meaning": "cuaderno; femenino en hebreo; singular / plural"
+              "meaning": "cuaderno"
             }
           },
           "items": [
@@ -2376,10 +2376,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "книга / книги; м. р."
+              "meaning": "книга"
             },
             "es": {
-              "meaning": "libro / libros; masculino en hebreo"
+              "meaning": "libro"
             }
           },
           "items": [
@@ -2394,10 +2394,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "газета; м. р.; ед. / мн."
+              "meaning": "газета"
             },
             "es": {
-              "meaning": "periódico; masculino en hebreo; singular / plural"
+              "meaning": "periódico"
             }
           },
           "items": [
@@ -2412,10 +2412,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "письмо; м. р.; ед. / мн."
+              "meaning": "письмо"
             },
             "es": {
-              "meaning": "carta; masculino en hebreo; singular / plural"
+              "meaning": "carta"
             }
           },
           "items": [
@@ -2466,10 +2466,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "цветок; м. р.; ед. / мн."
+              "meaning": "цветок"
             },
             "es": {
-              "meaning": "flor; masculino en hebreo; singular / plural"
+              "meaning": "flor"
             }
           },
           "items": [
@@ -2484,10 +2484,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "собака, пёс; м. р.; ед. / мн."
+              "meaning": "собака, пёс"
             },
             "es": {
-              "meaning": "perro; masculino en hebreo; singular / plural"
+              "meaning": "perro"
             }
           },
           "items": [
@@ -2502,10 +2502,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "мышь, мышка; м. р.; ед. / мн."
+              "meaning": "мышь, мышка"
             },
             "es": {
-              "meaning": "ratón; masculino en hebreo; singular / plural"
+              "meaning": "ratón"
             }
           },
           "items": [
@@ -2520,10 +2520,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "нога / ноги; רגל также «ступня»; ж. р.; ед. / форма двойственного числа, также употребляемая для мн. числа"
+              "meaning": "нога, ступня. Двойственная форма употребляется и во множественном числе."
             },
             "es": {
-              "meaning": "pierna / piernas; רגל también significa «pie»; femenino en hebreo; singular / forma dual, que también se usa para el plural"
+              "meaning": "pierna, pie. La forma dual también se usa como plural."
             }
           },
           "items": [
@@ -2556,10 +2556,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "море; м. р.; ед. / мн."
+              "meaning": "море"
             },
             "es": {
-              "meaning": "mar; masculino en hebreo; singular / plural"
+              "meaning": "mar"
             }
           },
           "items": [
@@ -2574,10 +2574,10 @@
           "addedAt": "2026-11-02",
           "translations": {
             "ru": {
-              "meaning": "квартира / квартиры; ж. р."
+              "meaning": "квартира"
             },
             "es": {
-              "meaning": "apartamento / apartamentos; femenino en hebreo"
+              "meaning": "apartamento"
             }
           },
           "items": [
@@ -2592,10 +2592,10 @@
           "addedAt": "2026-11-02",
           "translations": {
             "ru": {
-              "meaning": "поезд / поезда; ж. р."
+              "meaning": "поезд"
             },
             "es": {
-              "meaning": "tren / trenes; femenino en hebreo"
+              "meaning": "tren"
             }
           },
           "items": [
@@ -2610,10 +2610,10 @@
           "addedAt": "2026-11-03",
           "translations": {
             "ru": {
-              "meaning": "солнце / солнца; обычно ж. р."
+              "meaning": "солнце; обычно ж. р."
             },
             "es": {
-              "meaning": "sol / soles; normalmente femenino en hebreo"
+              "meaning": "sol; normalmente femenino en hebreo"
             }
           },
           "items": [
@@ -2628,10 +2628,10 @@
           "addedAt": "2026-11-03",
           "translations": {
             "ru": {
-              "meaning": "такси; ед. / мн., ж. р."
+              "meaning": "такси"
             },
             "es": {
-              "meaning": "taxi / taxis; femenino en hebreo"
+              "meaning": "taxi"
             }
           },
           "items": [
@@ -2646,10 +2646,10 @@
           "addedAt": "2026-11-03",
           "translations": {
             "ru": {
-              "meaning": "телевизор / телевизоры; ж. р. טלוויזיה также означает «телевидение»"
+              "meaning": "телевизор; ж. р. טלוויזיה также означает «телевидение»"
             },
             "es": {
-              "meaning": "televisor / televisores; femenino en hebreo. טלוויזיה también significa «televisión» como medio"
+              "meaning": "televisor; femenino en hebreo. טלוויזיה también significa «televisión» como medio"
             }
           },
           "items": [
@@ -2664,10 +2664,10 @@
           "addedAt": "2026-11-03",
           "translations": {
             "ru": {
-              "meaning": "клиника, поликлиника / клиники, поликлиники; ж. р."
+              "meaning": "клиника, поликлиника"
             },
             "es": {
-              "meaning": "clínica, centro de salud / clínicas, centros de salud; femenino en hebreo"
+              "meaning": "clínica, centro de salud"
             }
           },
           "items": [
@@ -2682,10 +2682,10 @@
           "addedAt": "2026-11-03",
           "translations": {
             "ru": {
-              "meaning": "парк / парки; м. р."
+              "meaning": "парк"
             },
             "es": {
-              "meaning": "parque / parques; masculino en hebreo"
+              "meaning": "parque"
             }
           },
           "items": [
@@ -2700,10 +2700,10 @@
           "addedAt": "2026-11-03",
           "translations": {
             "ru": {
-              "meaning": "сад / сады; м. р."
+              "meaning": "сад"
             },
             "es": {
-              "meaning": "jardín / jardines; masculino en hebreo"
+              "meaning": "jardín"
             }
           },
           "items": [
@@ -2718,10 +2718,10 @@
           "addedAt": "2026-11-03",
           "translations": {
             "ru": {
-              "meaning": "детский сад / детские сады; м. р."
+              "meaning": "детский сад"
             },
             "es": {
-              "meaning": "jardín de infancia / jardines de infancia; masculino en hebreo"
+              "meaning": "jardín de infancia"
             }
           },
           "items": [
@@ -2736,10 +2736,10 @@
           "addedAt": "2026-11-04",
           "translations": {
             "ru": {
-              "meaning": "скамейка, скамья; м. р.; ед. / мн."
+              "meaning": "скамейка, скамья"
             },
             "es": {
-              "meaning": "banco para sentarse; masculino en hebreo; singular / plural"
+              "meaning": "banco para sentarse"
             }
           },
           "items": [
@@ -2754,10 +2754,10 @@
           "addedAt": "2026-11-05",
           "translations": {
             "ru": {
-              "meaning": "полотенце / полотенца; ж. род, ед. / мн."
+              "meaning": "полотенце"
             },
             "es": {
-              "meaning": "toalla / toallas; femenino en hebreo, singular / plural"
+              "meaning": "toalla"
             }
           },
           "items": [
@@ -2772,10 +2772,10 @@
           "addedAt": "2026-11-05",
           "translations": {
             "ru": {
-              "meaning": "пиво; ж. род, ед. / мн. Множественное число — порции или сорта пива. Не путать с בירה (бира́) — столица."
+              "meaning": "пиво. Множественное число — порции или сорта пива. Не путать с בירה (бира́) — столица."
             },
             "es": {
-              "meaning": "cerveza; femenino en hebreo, singular / plural. El plural indica porciones o tipos de cerveza. No confundir con בירה (birá), capital."
+              "meaning": "cerveza. El plural indica porciones o tipos de cerveza. No confundir con בירה (birá), capital."
             }
           },
           "items": [
@@ -2790,10 +2790,10 @@
           "addedAt": "2026-11-05",
           "translations": {
             "ru": {
-              "meaning": "сигарета / сигареты; ж. род, ед. / мн."
+              "meaning": "сигарета"
             },
             "es": {
-              "meaning": "cigarrillo / cigarrillos; femenino en hebreo, singular / plural"
+              "meaning": "cigarrillo"
             }
           },
           "items": [
@@ -2808,10 +2808,10 @@
           "addedAt": "2026-11-05",
           "translations": {
             "ru": {
-              "meaning": "мороженое; ж. род, ед. / мн. Множественное число — порции или виды мороженого. Нормативное ударение глида́; разговорное — гли́да."
+              "meaning": "мороженое. Множественное число — порции или виды мороженого. Нормативное ударение глида́; разговорное — гли́да."
             },
             "es": {
-              "meaning": "helado; femenino en hebreo, singular / plural. El plural indica porciones o tipos de helado. Acento normativo: glidá; coloquial: glída."
+              "meaning": "helado. El plural indica porciones o tipos de helado. Acento normativo: glidá; coloquial: glída."
             }
           },
           "items": [
@@ -2826,10 +2826,10 @@
           "addedAt": "2026-11-05",
           "translations": {
             "ru": {
-              "meaning": "комната / комнаты; м. род, ед. / мн."
+              "meaning": "комната"
             },
             "es": {
-              "meaning": "habitación / habitaciones; masculino en hebreo, singular / plural"
+              "meaning": "habitación"
             }
           },
           "items": [
@@ -2844,10 +2844,10 @@
           "addedAt": "2026-11-05",
           "translations": {
             "ru": {
-              "meaning": "торт, пирог / торты, пироги; ж. род, ед. / мн."
+              "meaning": "торт, пирог"
             },
             "es": {
-              "meaning": "pastel, tarta / pasteles, tartas; femenino en hebreo, singular / plural"
+              "meaning": "pastel, tarta"
             }
           },
           "items": [
@@ -2862,10 +2862,10 @@
           "addedAt": "2026-11-05",
           "translations": {
             "ru": {
-              "meaning": "диван / диваны; ж. род, ед. / мн."
+              "meaning": "диван"
             },
             "es": {
-              "meaning": "sofá / sofás; femenino en hebreo, singular / plural"
+              "meaning": "sofá"
             }
           },
           "items": [
@@ -2880,10 +2880,10 @@
           "addedAt": "2026-11-05",
           "translations": {
             "ru": {
-              "meaning": "вещь, предмет / вещи, предметы; м. род, ед. / мн."
+              "meaning": "вещь, предмет"
             },
             "es": {
-              "meaning": "cosa, objeto / cosas, objetos; masculino en hebreo, singular / plural"
+              "meaning": "cosa, objeto"
             }
           },
           "items": [
@@ -2898,10 +2898,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "балкон, веранда / балконы, веранды; ж. род, ед. / мн."
+              "meaning": "балкон, веранда"
             },
             "es": {
-              "meaning": "balcón, terraza / balcones, terrazas; femenino en hebreo, singular / plural"
+              "meaning": "balcón, terraza"
             }
           },
           "items": [
@@ -2916,10 +2916,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "рыба / рыбы; м. род, ед. / мн."
+              "meaning": "рыба"
             },
             "es": {
-              "meaning": "pez, pescado / peces, pescados; masculino en hebreo, singular / plural"
+              "meaning": "pez, pescado"
             }
           },
           "items": [
@@ -2934,10 +2934,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "курица, мясо птицы; также птица / птицы; м. род, ед. / мн."
+              "meaning": "курица, мясо птицы; также птица"
             },
             "es": {
-              "meaning": "pollo, carne de ave; también ave / aves; masculino en hebreo, singular / plural"
+              "meaning": "pollo, carne de ave; también ave"
             }
           },
           "items": [
@@ -2952,10 +2952,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "салат / салаты; м. род, ед. / мн."
+              "meaning": "салат"
             },
             "es": {
-              "meaning": "ensalada / ensaladas; masculino en hebreo, singular / plural"
+              "meaning": "ensalada"
             }
           },
           "items": [
@@ -2970,10 +2970,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "овощ / овощи; м. род, ед. / мн. Нормативно: яра́к; разговорное יֶרֶק (йе́рек) также употребляется в значении «овощ»."
+              "meaning": "овощ. Нормативное произношение — яра́к. В разговорной речи встречается יֶרֶק (йе́рек)."
             },
             "es": {
-              "meaning": "verdura, hortaliza / verduras, hortalizas; masculino en hebreo, singular / plural. Pronunciación normativa: yarák; coloquialmente también יֶרֶק (yérek) con el sentido de «verdura»."
+              "meaning": "verdura, hortaliza. Pronunciación normativa: yarák; coloquialmente también יֶרֶק (yérek) con el sentido de «verdura»."
             }
           },
           "items": [
@@ -2988,10 +2988,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "помидор / помидоры; ж. род, ед. / мн."
+              "meaning": "помидор"
             },
             "es": {
-              "meaning": "tomate / tomates; femenino en hebreo, singular / plural"
+              "meaning": "tomate"
             }
           },
           "items": [
@@ -3006,10 +3006,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "огурец / огурцы; м. род, ед. / мн."
+              "meaning": "огурец"
             },
             "es": {
-              "meaning": "pepino / pepinos; masculino en hebreo, singular / plural"
+              "meaning": "pepino"
             }
           },
           "items": [
@@ -3024,10 +3024,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "лук, луковица / луковицы; м. род, ед. / мн."
+              "meaning": "лук, луковица"
             },
             "es": {
-              "meaning": "cebolla / cebollas; masculino en hebreo, singular / plural"
+              "meaning": "cebolla"
             }
           },
           "items": [
@@ -3042,10 +3042,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "яблоко / яблоки; м. род, ед. / мн."
+              "meaning": "яблоко"
             },
             "es": {
-              "meaning": "manzana / manzanas; masculino en hebreo, singular / plural"
+              "meaning": "manzana"
             }
           },
           "items": [
@@ -3060,10 +3060,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "апельсин / апельсины; м. род, ед. / мн."
+              "meaning": "апельсин"
             },
             "es": {
-              "meaning": "naranja / naranjas; masculino en hebreo, singular / plural"
+              "meaning": "naranja"
             }
           },
           "items": [
@@ -3078,10 +3078,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "банан / бананы; ж. род, ед. / мн."
+              "meaning": "банан"
             },
             "es": {
-              "meaning": "banana / bananas; femenino en hebreo, singular / plural"
+              "meaning": "banana"
             }
           },
           "items": [
@@ -3096,10 +3096,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "сок / соки; м. род, ед. / мн."
+              "meaning": "сок"
             },
             "es": {
-              "meaning": "jugo, zumo / jugos, zumos; masculino en hebreo, singular / plural"
+              "meaning": "jugo, zumo"
             }
           },
           "items": [
@@ -3114,10 +3114,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "виноградина / виноград (мн. число); м. род, ед. / мн. Часто также пишут ענב без י."
+              "meaning": "виноградина. Во множественном числе — виноград. Встречается также написание ענב без י."
             },
             "es": {
-              "meaning": "uva / uvas; masculino en hebreo, singular / plural. También es frecuente la grafía ענב sin י."
+              "meaning": "uva. También es frecuente la grafía ענב sin י."
             }
           },
           "items": [
@@ -3132,10 +3132,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "суп / супы; м. род, ед. / мн."
+              "meaning": "суп"
             },
             "es": {
-              "meaning": "sopa / sopas; masculino en hebreo, singular / plural"
+              "meaning": "sopa"
             }
           },
           "items": [
@@ -3186,10 +3186,10 @@
           "addedAt": "2026-11-08",
           "translations": {
             "ru": {
-              "meaning": "рубашка, футболка, блузка / рубашки, футболки, блузки; ж. род, ед. / мн."
+              "meaning": "рубашка, футболка, блузка"
             },
             "es": {
-              "meaning": "camisa, camiseta, blusa / camisas, camisetas, blusas; femenino en hebreo, singular / plural"
+              "meaning": "camisa, camiseta, blusa"
             }
           },
           "items": [
@@ -3204,10 +3204,10 @@
           "addedAt": "2026-11-08",
           "translations": {
             "ru": {
-              "meaning": "пальто, тёплая куртка / пальто, тёплые куртки; м. род, ед. / мн."
+              "meaning": "пальто, тёплая куртка"
             },
             "es": {
-              "meaning": "abrigo, chaqueta de abrigo / abrigos, chaquetas de abrigo; masculino en hebreo, singular / plural"
+              "meaning": "abrigo, chaqueta de abrigo"
             }
           },
           "items": [
@@ -3222,10 +3222,10 @@
           "addedAt": "2026-11-08",
           "translations": {
             "ru": {
-              "meaning": "магазин / магазины; ж. род, ед. / мн."
+              "meaning": "магазин"
             },
             "es": {
-              "meaning": "tienda / tiendas; femenino en hebreo, singular / plural"
+              "meaning": "tienda"
             }
           },
           "items": [
@@ -3240,10 +3240,10 @@
           "addedAt": "2026-11-08",
           "translations": {
             "ru": {
-              "meaning": "мяч / мячи; м. род, ед. / мн."
+              "meaning": "мяч"
             },
             "es": {
-              "meaning": "pelota, balón / pelotas, balones; masculino en hebreo, singular / plural"
+              "meaning": "pelota, balón"
             }
           },
           "items": [
@@ -3258,10 +3258,10 @@
           "addedAt": "2026-11-08",
           "translations": {
             "ru": {
-              "meaning": "еда, пища / виды пищи, кушанья; м. род, ед. / мн. Обычно неисчисляемое; множественное число — о разных видах пищи. Существительное о́хель, не глагол охе́ль — «ест»."
+              "meaning": "еда, пища. Обычно неисчисляемое; множественное число — о разных видах пищи. Существительное о́хель, не глагол охе́ль — «ест»."
             },
             "es": {
-              "meaning": "comida, alimento / tipos de comida, alimentos; masculino en hebreo, singular / plural. Normalmente incontable; el plural se refiere a distintos tipos de comida. Sustantivo óchel, distinto del verbo ochél, «come»."
+              "meaning": "comida, alimento. Normalmente incontable; el plural se refiere a distintos tipos de comida. Sustantivo óchel, distinto del verbo ochél, «come»."
             }
           },
           "items": [
@@ -3276,10 +3276,10 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "билет, карточка / билеты, карточки; м. род, ед. / мн. כרטיס אשראי — кредитная карта."
+              "meaning": "билет, карточка. כרטיס אשראי — кредитная карта."
             },
             "es": {
-              "meaning": "billete, entrada, tarjeta / billetes, entradas, tarjetas; masculino en hebreo, singular / plural. כרטיס אשראי significa «tarjeta de crédito»."
+              "meaning": "billete, entrada, tarjeta. כרטיס אשראי significa «tarjeta de crédito»."
             }
           },
           "items": [
@@ -3294,10 +3294,10 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "гора / горы; м. род, ед. / мн."
+              "meaning": "гора"
             },
             "es": {
-              "meaning": "montaña / montañas; masculino en hebreo, singular / plural"
+              "meaning": "montaña"
             }
           },
           "items": [
@@ -3330,10 +3330,10 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "животное, зверь / животные, звери; ж. род, ед. / мн."
+              "meaning": "животное, зверь"
             },
             "es": {
-              "meaning": "animal, bestia / animales, bestias; femenino en hebreo, singular / plural"
+              "meaning": "animal, bestia"
             }
           },
           "items": [
@@ -3348,10 +3348,10 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "район, квартал / районы, кварталы; ж. род, ед. / мн."
+              "meaning": "район, квартал"
             },
             "es": {
-              "meaning": "barrio / barrios; femenino en hebreo, singular / plural"
+              "meaning": "barrio"
             }
           },
           "items": [
@@ -3366,10 +3366,10 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "центр абсорбции (приёма и адаптации репатриантов) / центры абсорбции; м. род, ед. / мн. С артиклем: מרכז הקליטה (מֶרְכַּז הַקְּלִיטָה, мерка́з hаклита́) — определённый центр абсорбции. В сопряжённом сочетании артикль ставится перед вторым словом."
+              "meaning": "центр абсорбции (приёма и адаптации репатриантов). С артиклем: מרכז הקליטה (מֶרְכַּז הַקְּלִיטָה, мерка́з hаклита́) — определённый центр абсорбции. В сопряжённом сочетании артикль ставится перед вторым словом."
             },
             "es": {
-              "meaning": "centro de absorción (acogida e integración de nuevos inmigrantes) / centros de absorción; masculino en hebreo, singular / plural. Con artículo: מרכז הקליטה (מֶרְכַּז הַקְּלִיטָה, merkás haklitá), el centro de absorción. En el estado constructo, el artículo se coloca ante la segunda palabra."
+              "meaning": "centro de absorción (acogida e integración de nuevos inmigrantes). Con artículo: מרכז הקליטה (מֶרְכַּז הַקְּלִיטָה, merkás haklitá), el centro de absorción. En el estado constructo, el artículo se coloca ante la segunda palabra."
             }
           },
           "items": [
@@ -3384,10 +3384,10 @@
           "addedAt": "2026-11-10",
           "translations": {
             "ru": {
-              "meaning": "страна, земля / страны, земли; ж. род, ед. / мн."
+              "meaning": "страна, земля"
             },
             "es": {
-              "meaning": "país, tierra / países, tierras; femenino en hebreo, singular / plural."
+              "meaning": "país, tierra."
             }
           },
           "items": [
@@ -3402,10 +3402,10 @@
           "addedAt": "2026-11-10",
           "translations": {
             "ru": {
-              "meaning": "предмет мебели / предметы мебели, мебель; м. род, ед. / мн."
+              "meaning": "предмет мебели"
             },
             "es": {
-              "meaning": "mueble / muebles; masculino en hebreo, singular / plural."
+              "meaning": "mueble."
             }
           },
           "items": [
@@ -3420,10 +3420,10 @@
           "addedAt": "2026-11-11",
           "translations": {
             "ru": {
-              "meaning": "бутылка / бутылки (м. род в иврите)"
+              "meaning": "бутылка"
             },
             "es": {
-              "meaning": "botella / botellas (masculino en hebreo)"
+              "meaning": "botella"
             }
           },
           "items": [
@@ -3456,10 +3456,10 @@
           "addedAt": "2026-11-12",
           "translations": {
             "ru": {
-              "meaning": "подарок / подарки (ж. род в иврите)"
+              "meaning": "подарок"
             },
             "es": {
-              "meaning": "regalo / regalos (femenino en hebreo)"
+              "meaning": "regalo"
             }
           },
           "items": [
@@ -3489,10 +3489,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "урок, занятие; м. р.; ед. / мн."
+              "meaning": "урок, занятие"
             },
             "es": {
-              "meaning": "lección, clase; masculino en hebreo; singular / plural"
+              "meaning": "lección, clase"
             }
           },
           "items": [
@@ -3507,10 +3507,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "прогулка, экскурсия, поездка; м. р.; ед. / мн."
+              "meaning": "прогулка, экскурсия, поездка"
             },
             "es": {
-              "meaning": "paseo, excursión, viaje; masculino en hebreo; singular / plural"
+              "meaning": "paseo, excursión, viaje"
             }
           },
           "items": [
@@ -3525,10 +3525,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "перерыв; ж. р.; ед. / мн."
+              "meaning": "перерыв"
             },
             "es": {
-              "meaning": "descanso, pausa; femenino en hebreo; singular / plural"
+              "meaning": "descanso, pausa"
             }
           },
           "items": [
@@ -3543,10 +3543,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "работа; ж. р.; ед. / мн."
+              "meaning": "работа"
             },
             "es": {
-              "meaning": "trabajo; femenino en hebreo; singular / plural"
+              "meaning": "trabajo"
             }
           },
           "items": [
@@ -3561,10 +3561,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "слово / слова; ж. р., несмотря на окончание мн. числа ־ים"
+              "meaning": "слово; ж. р., несмотря на окончание мн. числа ־ים"
             },
             "es": {
-              "meaning": "palabra / palabras; femenino en hebreo, a pesar de la terminación plural ־ים"
+              "meaning": "palabra; femenino en hebreo, a pesar de la terminación plural ־ים"
             }
           },
           "items": [
@@ -3579,10 +3579,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "страница; также столб; м. р.; ед. / мн."
+              "meaning": "страница; также столб"
             },
             "es": {
-              "meaning": "página; también columna; masculino en hebreo; singular / plural"
+              "meaning": "página; también columna"
             }
           },
           "items": [
@@ -3597,10 +3597,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "предложение; м. р.; ед. / мн."
+              "meaning": "предложение"
             },
             "es": {
-              "meaning": "oración, frase; masculino en hebreo; singular / plural"
+              "meaning": "oración, frase"
             }
           },
           "items": [
@@ -3615,10 +3615,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "вопрос; ж. р.; ед. / мн."
+              "meaning": "вопрос"
             },
             "es": {
-              "meaning": "pregunta; femenino en hebreo; singular / plural"
+              "meaning": "pregunta"
             }
           },
           "items": [
@@ -3633,10 +3633,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "ответ; ж. р.; ед. / мн."
+              "meaning": "ответ"
             },
             "es": {
-              "meaning": "respuesta; femenino en hebreo; singular / plural"
+              "meaning": "respuesta"
             }
           },
           "items": [
@@ -3651,10 +3651,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "песня; м. р.; ед. / мн."
+              "meaning": "песня"
             },
             "es": {
-              "meaning": "canción; masculino en hebreo; singular / plural"
+              "meaning": "canción"
             }
           },
           "items": [
@@ -3687,10 +3687,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "сила; м. р.; ед. / мн."
+              "meaning": "сила"
             },
             "es": {
-              "meaning": "fuerza; masculino en hebreo; singular / plural"
+              "meaning": "fuerza"
             }
           },
           "items": [
@@ -3705,10 +3705,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "номер, число; м. р.; ед. / мн."
+              "meaning": "номер, число"
             },
             "es": {
-              "meaning": "número; masculino en hebreo; singular / plural"
+              "meaning": "número"
             }
           },
           "items": [
@@ -3723,10 +3723,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "день; м. р.; ед. / мн.; последняя форма — двойственное число: два дня"
+              "meaning": "день"
             },
             "es": {
-              "meaning": "día; masculino en hebreo; singular / plural; la última forma es el dual: dos días"
+              "meaning": "día"
             }
           },
           "items": [
@@ -3741,10 +3741,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "месяц; м. р.; ед. / мн.; последняя форма — двойственное число: два месяца"
+              "meaning": "месяц"
             },
             "es": {
-              "meaning": "mes; masculino en hebreo; singular / plural; la última forma es el dual: dos meses"
+              "meaning": "mes"
             }
           },
           "items": [
@@ -3759,10 +3759,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "год; ж. р.; ед. / мн.; последняя форма — двойственное число: два года"
+              "meaning": "год"
             },
             "es": {
-              "meaning": "año; femenino en hebreo; singular / plural; la última forma es el dual: dos años"
+              "meaning": "año"
             }
           },
           "items": [
@@ -3777,10 +3777,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "дата; м. р.; ед. / мн."
+              "meaning": "дата"
             },
             "es": {
-              "meaning": "fecha; masculino en hebreo; singular / plural"
+              "meaning": "fecha"
             }
           },
           "items": [
@@ -3795,10 +3795,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "самец / самка / самцы / самки; זכר / נקבה также обозначают мужской / женский род в грамматике; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "самец; זכר / נקבה также обозначают мужской / женский род в грамматике"
             },
             "es": {
-              "meaning": "macho / hembra / machos / hembras; זכר / נקבה también designan el género masculino / femenino en gramática; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "macho; זכר / נקבה también designan el género masculino / femenino en gramática"
             }
           },
           "items": [
@@ -3813,10 +3813,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "многочисленный; многие, много. В грамматике רבים / רבות обозначают множественное число мужского / женского рода; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "многочисленный; много. В грамматике רבים / רבות обозначают множественное число мужского / женского рода"
             },
             "es": {
-              "meaning": "numeroso; muchos, muchas. En gramática, רבים / רבות designan el plural masculino / femenino; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "numeroso; muchos. En gramática, רבים / רבות designan el plural masculino / femenino"
             }
           },
           "items": [
@@ -3831,10 +3831,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "глагол; м. р.; ед. / мн."
+              "meaning": "глагол"
             },
             "es": {
-              "meaning": "verbo; masculino en hebreo; singular / plural"
+              "meaning": "verbo"
             }
           },
           "items": [
@@ -3849,10 +3849,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "имя прилагательное; м. р.; ед. / мн."
+              "meaning": "имя прилагательное"
             },
             "es": {
-              "meaning": "adjetivo; masculino en hebreo; singular / plural"
+              "meaning": "adjetivo"
             }
           },
           "items": [
@@ -3867,10 +3867,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "имя существительное; м. р.; ед. / мн."
+              "meaning": "имя существительное"
             },
             "es": {
-              "meaning": "sustantivo; masculino en hebreo; singular / plural"
+              "meaning": "sustantivo"
             }
           },
           "items": [
@@ -3885,10 +3885,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "конечная форма буквы; ж. р.; ед. / мн.; женские формы прилагательного סופי при подразумеваемом слове אות («буква»)"
+              "meaning": "конечная форма буквы; женские формы прилагательного סופי при подразумеваемом слове אות («буква»)"
             },
             "es": {
-              "meaning": "forma final de una letra; femenino en hebreo; singular / plural; formas femeninas del adjetivo סופי con אות («letra») implícito"
+              "meaning": "forma final de una letra; formas femeninas del adjetivo סופי con אות («letra») implícito"
             }
           },
           "items": [
@@ -3921,10 +3921,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "исключение; исключительный, необычный; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "исключение; исключительный, необычный"
             },
             "es": {
-              "meaning": "excepción; excepcional, fuera de lo común; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "excepción; excepcional, fuera de lo común"
             }
           },
           "items": [
@@ -3939,10 +3939,10 @@
           "addedAt": "2026-11-02",
           "translations": {
             "ru": {
-              "meaning": "буква / буквы; ж. р."
+              "meaning": "буква"
             },
             "es": {
-              "meaning": "letra / letras; femenino en hebreo"
+              "meaning": "letra"
             }
           },
           "items": [
@@ -3957,10 +3957,10 @@
           "addedAt": "2026-11-04",
           "translations": {
             "ru": {
-              "meaning": "неопределённая форма глагола, инфинитив; м. р.; ед. / мн."
+              "meaning": "неопределённая форма глагола, инфинитив"
             },
             "es": {
-              "meaning": "infinitivo; masculino en hebreo; singular / plural"
+              "meaning": "infinitivo"
             }
           },
           "items": [
@@ -3975,10 +3975,10 @@
           "addedAt": "2026-11-04",
           "translations": {
             "ru": {
-              "meaning": "рассказ, история; м. р.; ед. / мн."
+              "meaning": "рассказ, история"
             },
             "es": {
-              "meaning": "relato, historia; masculino en hebreo; singular / plural"
+              "meaning": "relato, historia"
             }
           },
           "items": [
@@ -4011,10 +4011,10 @@
           "addedAt": "2026-11-04",
           "translations": {
             "ru": {
-              "meaning": "минута; ж. р.; ед. / мн."
+              "meaning": "минута"
             },
             "es": {
-              "meaning": "minuto; femenino en hebreo; singular / plural"
+              "meaning": "minuto"
             }
           },
           "items": [
@@ -4047,10 +4047,10 @@
           "addedAt": "2026-11-05",
           "translations": {
             "ru": {
-              "meaning": "момент, мгновение / моменты, мгновения; м. род, ед. / мн. Возглас רגע! — «Секунду!», «Погодите!»."
+              "meaning": "момент, мгновение. Возглас רגע! означает «Секунду!» или «Погодите!»."
             },
             "es": {
-              "meaning": "momento, instante / momentos, instantes; masculino en hebreo, singular / plural. La exclamación רגע! significa «¡Un momento!», «¡Espera!» o «¡Esperen!»."
+              "meaning": "momento, instante. La exclamación רגע! significa «¡Un momento!», «¡Espera!» o «¡Esperen!»."
             }
           },
           "items": [
@@ -4065,10 +4065,10 @@
           "addedAt": "2026-11-05",
           "translations": {
             "ru": {
-              "meaning": "удача, везение; также знак зодиака / знаки зодиака; м. род, ед. / мн. В значении «удача» обычно употребляется единственное число."
+              "meaning": "удача, везение; также знак зодиака. В значении «удача» обычно употребляется единственное число."
             },
             "es": {
-              "meaning": "suerte, fortuna; también signo del zodiaco / signos del zodiaco; masculino en hebreo, singular / plural. En el sentido de «suerte» suele usarse en singular."
+              "meaning": "suerte, fortuna; también signo del zodiaco. En el sentido de «suerte» suele usarse en singular."
             }
           },
           "items": [
@@ -4101,10 +4101,10 @@
           "addedAt": "2026-11-05",
           "translations": {
             "ru": {
-              "meaning": "воскресенье / воскресенья; м. род, ед. / мн."
+              "meaning": "воскресенье"
             },
             "es": {
-              "meaning": "domingo / domingos; masculino en hebreo, singular / plural"
+              "meaning": "domingo"
             }
           },
           "items": [
@@ -4119,10 +4119,10 @@
           "addedAt": "2026-11-05",
           "translations": {
             "ru": {
-              "meaning": "понедельник / понедельники; м. род, ед. / мн."
+              "meaning": "понедельник"
             },
             "es": {
-              "meaning": "lunes / lunes; masculino en hebreo, singular / plural"
+              "meaning": "lunes"
             }
           },
           "items": [
@@ -4137,10 +4137,10 @@
           "addedAt": "2026-11-05",
           "translations": {
             "ru": {
-              "meaning": "вторник / вторники; м. род, ед. / мн."
+              "meaning": "вторник"
             },
             "es": {
-              "meaning": "martes / martes; masculino en hebreo, singular / plural"
+              "meaning": "martes"
             }
           },
           "items": [
@@ -4155,10 +4155,10 @@
           "addedAt": "2026-11-05",
           "translations": {
             "ru": {
-              "meaning": "среда / среды; м. род, ед. / мн."
+              "meaning": "среда"
             },
             "es": {
-              "meaning": "miércoles / miércoles; masculino en hebreo, singular / plural"
+              "meaning": "miércoles"
             }
           },
           "items": [
@@ -4173,10 +4173,10 @@
           "addedAt": "2026-11-05",
           "translations": {
             "ru": {
-              "meaning": "четверг / четверги; м. род, ед. / мн."
+              "meaning": "четверг"
             },
             "es": {
-              "meaning": "jueves / jueves; masculino en hebreo, singular / plural"
+              "meaning": "jueves"
             }
           },
           "items": [
@@ -4191,10 +4191,10 @@
           "addedAt": "2026-11-05",
           "translations": {
             "ru": {
-              "meaning": "пятница / пятницы; м. род, ед. / мн."
+              "meaning": "пятница"
             },
             "es": {
-              "meaning": "viernes / viernes; masculino en hebreo, singular / plural"
+              "meaning": "viernes"
             }
           },
           "items": [
@@ -4209,10 +4209,10 @@
           "addedAt": "2026-11-05",
           "translations": {
             "ru": {
-              "meaning": "суббота / субботы; ж. род, ед. / мн. Также יום שבת (йом шаба́т) — суббота."
+              "meaning": "суббота. Также יום שבת (йом шаба́т)."
             },
             "es": {
-              "meaning": "sábado / sábados; femenino en hebreo, singular / plural. También יום שבת (yom shabát), sábado."
+              "meaning": "sábado. También יום שבת (yom shabát), sábado."
             }
           },
           "items": [
@@ -4227,10 +4227,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "конец / концы, окончания; м. род, ед. / мн."
+              "meaning": "конец, окончание"
             },
             "es": {
-              "meaning": "fin, final / fines, finales; masculino en hebreo, singular / plural"
+              "meaning": "fin, final"
             }
           },
           "items": [
@@ -4245,10 +4245,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "курс обучения / курсы; м. род, ед. / мн."
+              "meaning": "курс обучения"
             },
             "es": {
-              "meaning": "curso / cursos; masculino en hebreo, singular / plural"
+              "meaning": "curso"
             }
           },
           "items": [
@@ -4263,10 +4263,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "план, программа / планы, программы; ж. род, ед. / мн."
+              "meaning": "план, программа"
             },
             "es": {
-              "meaning": "plan, programa / planes, programas; femenino en hebreo, singular / plural"
+              "meaning": "plan, programa"
             }
           },
           "items": [
@@ -4281,10 +4281,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "встреча / встречи; ж. род, ед. / мн."
+              "meaning": "встреча"
             },
             "es": {
-              "meaning": "reunión, cita / reuniones, citas; femenino en hebreo, singular / plural"
+              "meaning": "reunión, cita"
             }
           },
           "items": [
@@ -4299,10 +4299,10 @@
           "addedAt": "2026-11-05",
           "translations": {
             "ru": {
-              "meaning": "неделя / недели / две недели; м. род, ед. / мн. / двойственное число"
+              "meaning": "неделя"
             },
             "es": {
-              "meaning": "semana / semanas / dos semanas; masculino en hebreo, singular / plural / dual"
+              "meaning": "semana"
             }
           },
           "items": [
@@ -4335,10 +4335,10 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "счёт (к оплате, банковский), расчёт; также арифметика; м. род, ед. / мн."
+              "meaning": "счёт (к оплате, банковский), расчёт; также арифметика"
             },
             "es": {
-              "meaning": "cuenta (para pagar o bancaria), cálculo; también aritmética; masculino en hebreo, singular / plural"
+              "meaning": "cuenta (para pagar o bancaria), cálculo; también aritmética"
             }
           },
           "items": [
@@ -4353,10 +4353,10 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "экзамен, проверка / экзамены, проверки; ж. род, ед. / мн."
+              "meaning": "экзамен, проверка"
             },
             "es": {
-              "meaning": "examen, evaluación / exámenes, evaluaciones; femenino en hebreo, singular / plural"
+              "meaning": "examen, evaluación"
             }
           },
           "items": [
@@ -4389,10 +4389,10 @@
           "addedAt": "2026-11-10",
           "translations": {
             "ru": {
-              "meaning": "состояние, положение, ситуация / состояния, положения, ситуации; м. род, ед. / мн."
+              "meaning": "состояние, положение, ситуация"
             },
             "es": {
-              "meaning": "estado, situación / estados, situaciones; masculino en hebreo, singular / plural."
+              "meaning": "estado, situación."
             }
           },
           "items": [
@@ -4407,10 +4407,10 @@
           "addedAt": "2026-11-11",
           "translations": {
             "ru": {
-              "meaning": "время / времена (м. род)"
+              "meaning": "время"
             },
             "es": {
-              "meaning": "tiempo / tiempos (masculino en hebreo)"
+              "meaning": "tiempo"
             }
           },
           "items": [
@@ -4425,10 +4425,10 @@
           "addedAt": "2026-11-11",
           "translations": {
             "ru": {
-              "meaning": "проблема / проблемы (ж. род)"
+              "meaning": "проблема"
             },
             "es": {
-              "meaning": "problema / problemas (femenino en hebreo)"
+              "meaning": "problema"
             }
           },
           "items": [
@@ -4443,10 +4443,10 @@
           "addedAt": "2026-11-12",
           "translations": {
             "ru": {
-              "meaning": "очередь, черёд или запись на приём / очереди, записи на приём (м. род)"
+              "meaning": "очередь, черёд или запись на приём"
             },
             "es": {
-              "meaning": "fila, turno o cita / filas, turnos o citas (masculino en hebreo)"
+              "meaning": "fila, turno o cita"
             }
           },
           "items": [
@@ -4461,10 +4461,10 @@
           "addedAt": "2026-11-12",
           "translations": {
             "ru": {
-              "meaning": "час / часы (ж. род). С артиклем השעה (הַשָּׁעָה, hашаа́). מה השעה? — Который час?"
+              "meaning": "час. С артиклем השעה (הַשָּׁעָה, hашаа́). מה השעה? — Который час?"
             },
             "es": {
-              "meaning": "hora / horas (femenino). Con artículo השעה (הַשָּׁעָה, hashaá). מה השעה? — ¿Qué hora es?"
+              "meaning": "hora. Con artículo השעה (הַשָּׁעָה, hashaá). מה השעה? — ¿Qué hora es?"
             }
           },
           "items": [
@@ -4479,10 +4479,10 @@
           "addedAt": "2026-11-12",
           "translations": {
             "ru": {
-              "meaning": "пара / пары (м. род в иврите)"
+              "meaning": "пара"
             },
             "es": {
-              "meaning": "pareja, par / parejas, pares (masculino en hebreo)"
+              "meaning": "pareja, par"
             }
           },
           "items": [
@@ -4857,7 +4857,7 @@
               "meaning": "сидит"
             },
             "es": {
-              "meaning": "está sentado/a"
+              "meaning": "está sentado"
             }
           },
           "items": [
@@ -4926,10 +4926,10 @@
           "addedAt": "2026-11-02",
           "translations": {
             "ru": {
-              "meaning": "родился / родилась / родились (м.) / родились (ж.); прошедшее время, 3-е лицо. Во множественном числе форма одинакова для обоих родов. נולדתי — נוֹלַדְתִּי, нола́дти — я родился или родилась"
+              "meaning": "родился. Во множественном числе форма общая для обоих родов. Например, נולדתי (נוֹלַדְתִּי, нола́дти) означает «я родился»."
             },
             "es": {
-              "meaning": "nació (él) / nació (ella) / nacieron (ellos) / nacieron (ellas); pasado, tercera persona. El plural es igual para ambos géneros. נולדתי — נוֹלַדְתִּי, noládti — nací (hombre o mujer)"
+              "meaning": "nació. En plural se usa la misma forma para ambos géneros. Por ejemplo, נולדתי (נוֹלַדְתִּי, noládti) significa «nací»."
             }
           },
           "items": [
@@ -4980,10 +4980,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "у меня есть / у тебя есть: обращение к мужчине / женщине"
+              "meaning": "у меня есть"
             },
             "es": {
-              "meaning": "tengo / tienes: dirigido a un hombre / a una mujer"
+              "meaning": "tengo"
             }
           },
           "items": [
@@ -5088,10 +5088,10 @@
           "addedAt": "2026-11-05",
           "translations": {
             "ru": {
-              "meaning": "хочет / хочет / хотят / хотят; настоящее время"
+              "meaning": "хочет"
             },
             "es": {
-              "meaning": "quiere / quiere / quieren / quieren; presente"
+              "meaning": "quiere"
             }
           },
           "items": [
@@ -5106,10 +5106,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "покупает / покупает / покупают / покупают; настоящее время"
+              "meaning": "покупает"
             },
             "es": {
-              "meaning": "compra / compra / compran / compran; presente"
+              "meaning": "compra"
             }
           },
           "items": [
@@ -5124,10 +5124,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "ест / ест / едят / едят; настоящее время. Инфинитив: לאכול (לֶאֱכֹל, леэхо́ль) — есть, кушать."
+              "meaning": "ест; настоящее время. Инфинитив: לאכול (לֶאֱכֹל, леэхо́ль) — есть, кушать."
             },
             "es": {
-              "meaning": "come / come / comen / comen; presente. Infinitivo: לאכול (לֶאֱכֹל, leechól), comer."
+              "meaning": "come; presente. Infinitivo: לאכול (לֶאֱכֹל, leechól), comer."
             }
           },
           "items": [
@@ -5142,10 +5142,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "пьёт / пьёт / пьют / пьют; настоящее время. Инфинитив: לשתות (לִשְׁתּוֹת, лишто́т) — пить."
+              "meaning": "пьёт; настоящее время. Инфинитив: לשתות (לִשְׁתּוֹת, лишто́т) — пить."
             },
             "es": {
-              "meaning": "bebe / bebe / beben / beben; presente. Infinitivo: לשתות (לִשְׁתּוֹת, lishtót), beber."
+              "meaning": "bebe; presente. Infinitivo: לשתות (לִשְׁתּוֹת, lishtót), beber."
             }
           },
           "items": [
@@ -5160,10 +5160,10 @@
           "addedAt": "2026-11-08",
           "translations": {
             "ru": {
-              "meaning": "играет / играет / играют / играют; настоящее время; играть в игру или играть роль. Инфинитив: לשחק (לְשַׂחֵק, лесахе́к) — играть."
+              "meaning": "играет; настоящее время; играть в игру или играть роль. Инфинитив: לשחק (לְשַׂחֵק, лесахе́к) — играть."
             },
             "es": {
-              "meaning": "juega / juega / juegan / juegan; presente; jugar a un juego o interpretar un papel. Infinitivo: לשחק (לְשַׂחֵק, lesachék), jugar o actuar."
+              "meaning": "juega; presente; jugar a un juego o interpretar un papel. Infinitivo: לשחק (לְשַׂחֵק, lesachék), jugar o actuar."
             }
           },
           "items": [
@@ -5178,10 +5178,10 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "проверяет; настоящее время: м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "проверяет"
             },
             "es": {
-              "meaning": "comprueba, revisa; presente: masculino singular / femenino singular / masculino plural / femenino plural"
+              "meaning": "comprueba, revisa"
             }
           },
           "items": [
@@ -5196,10 +5196,10 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "присутствует; также «присутствующий»; настоящее время: м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "присутствует; также «присутствующий»"
             },
             "es": {
-              "meaning": "está presente; también «presente»; presente: masculino singular / femenino singular / masculino plural / femenino plural"
+              "meaning": "está presente; también «presente»"
             }
           },
           "items": [
@@ -5214,10 +5214,10 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "завершает, дополняет (например, предложение); настоящее время: м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "завершает, дополняет (например, предложение)"
             },
             "es": {
-              "meaning": "completa, termina (por ejemplo, una oración); presente: masculino singular / femenino singular / masculino plural / femenino plural"
+              "meaning": "completa, termina (por ejemplo, una oración)"
             }
           },
           "items": [
@@ -5232,10 +5232,10 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "ухаживает, заботится; о ком-либо/чём-либо — с предлогом ב־; настоящее время: м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "ухаживает, заботится; о ком-либо/чём-либо — с предлогом ב־"
             },
             "es": {
-              "meaning": "cuida, se ocupa de alguien o algo; complemento con la preposición ב־; presente: masculino singular / femenino singular / masculino plural / femenino plural"
+              "meaning": "cuida, se ocupa de alguien o algo; complemento con la preposición ב־"
             }
           },
           "items": [
@@ -5250,10 +5250,10 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "остаётся; настоящее время: м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "остаётся"
             },
             "es": {
-              "meaning": "se queda, permanece; presente: masculino singular / femenino singular / masculino plural / femenino plural"
+              "meaning": "se queda, permanece"
             }
           },
           "items": [
@@ -5268,10 +5268,10 @@
           "addedAt": "2026-11-11",
           "translations": {
             "ru": {
-              "meaning": "слышит, слушает (ед. ч.) / слышат, слушают (мн. ч.)"
+              "meaning": "слышит, слушает"
             },
             "es": {
-              "meaning": "oye, escucha (singular) / oyen, escuchan (plural)"
+              "meaning": "oye, escucha"
             }
           },
           "items": [
@@ -5286,10 +5286,10 @@
           "addedAt": "2026-11-11",
           "translations": {
             "ru": {
-              "meaning": "ждёт (ед. ч.) / ждут (мн. ч.). Ждать кого-либо или чего-либо — с предлогом ל־."
+              "meaning": "ждёт. Перед тем, кого или чего ждут, ставится ל־."
             },
             "es": {
-              "meaning": "espera (singular) / esperan (plural). En hebreo se usa ל־ ante la persona o cosa que se espera."
+              "meaning": "espera. Se usa ל־ ante la persona o cosa que se espera."
             }
           },
           "items": [
@@ -5322,10 +5322,10 @@
           "addedAt": "2026-11-12",
           "translations": {
             "ru": {
-              "meaning": "плачет / плачет / плачут / плачут"
+              "meaning": "плачет"
             },
             "es": {
-              "meaning": "llora / llora / lloran / lloran"
+              "meaning": "llora"
             }
           },
           "items": [
@@ -5340,10 +5340,10 @@
           "addedAt": "2026-11-12",
           "translations": {
             "ru": {
-              "meaning": "похож на / похожа на / похожи на (м.) / похожи на (ж.)"
+              "meaning": "похож на"
             },
             "es": {
-              "meaning": "se parece a (m.) / se parece a (f.) / se parecen a (m.) / se parecen a (f.)"
+              "meaning": "se parece a"
             }
           },
           "items": [
@@ -5391,10 +5391,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "хороший / хорошая; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "хороший"
             },
             "es": {
-              "meaning": "bueno / buena; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "bueno"
             }
           },
           "items": [
@@ -5409,10 +5409,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "милый, приятный; формы по роду и числу"
+              "meaning": "милый, приятный"
             },
             "es": {
-              "meaning": "simpático, agradable; formas según género y número"
+              "meaning": "simpático, agradable"
             }
           },
           "items": [
@@ -5427,10 +5427,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "радостный, довольный; рад / рада / рады; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "радостный, довольный"
             },
             "es": {
-              "meaning": "alegre, contento / contenta / contentos / contentas; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "alegre, contento"
             }
           },
           "items": [
@@ -5445,10 +5445,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "большой; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "большой"
             },
             "es": {
-              "meaning": "grande; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "grande"
             }
           },
           "items": [
@@ -5463,10 +5463,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "маленький; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "маленький"
             },
             "es": {
-              "meaning": "pequeño; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "pequeño"
             }
           },
           "items": [
@@ -5481,10 +5481,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "красивый / красивая / красивые (м.) / красивые (ж.); формы ед. числа без огласовок пишутся одинаково"
+              "meaning": "красивый; формы единственного числа без огласовок пишутся одинаково"
             },
             "es": {
-              "meaning": "bonito / bonita / bonitos / bonitas; las formas singulares se escriben igual sin niqqud"
+              "meaning": "bonito; las formas singulares se escriben igual sin niqqud"
             }
           },
           "items": [
@@ -5499,10 +5499,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "интересный; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "интересный"
             },
             "es": {
-              "meaning": "interesante; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "interesante"
             }
           },
           "items": [
@@ -5517,10 +5517,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "важный; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "важный"
             },
             "es": {
-              "meaning": "importante; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "importante"
             }
           },
           "items": [
@@ -5535,10 +5535,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "конкретный / конкретная; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "конкретный"
             },
             "es": {
-              "meaning": "específico / específica; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "específico"
             }
           },
           "items": [
@@ -5849,10 +5849,10 @@
           "addedAt": "2026-11-02",
           "translations": {
             "ru": {
-              "meaning": "трудный, тяжёлый, сложный; м. ед. / ж. ед. / м. мн. / ж. мн. Формы ед. числа без огласовок пишутся одинаково"
+              "meaning": "трудный, тяжёлый, сложный. Формы ед. числа без огласовок пишутся одинаково"
             },
             "es": {
-              "meaning": "difícil, duro, complicado; masculino singular / femenino singular / masculino plural / femenino plural. Las formas singulares se escriben igual sin niqqud"
+              "meaning": "difícil, duro, complicado. Las formas singulares se escriben igual sin niqqud"
             }
           },
           "items": [
@@ -5867,10 +5867,10 @@
           "addedAt": "2026-11-03",
           "translations": {
             "ru": {
-              "meaning": "уставший, усталый; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "уставший, усталый"
             },
             "es": {
-              "meaning": "cansado, cansada; masculino singular / femenino singular / masculino plural / femenino plural"
+              "meaning": "cansado"
             }
           },
           "items": [
@@ -5885,10 +5885,10 @@
           "addedAt": "2026-11-03",
           "translations": {
             "ru": {
-              "meaning": "больной, больная; м. ед. / ж. ед. / м. мн. / ж. мн. Формы ед. числа без огласовок пишутся одинаково"
+              "meaning": "больной. Формы ед. числа без огласовок пишутся одинаково"
             },
             "es": {
-              "meaning": "enfermo, enferma; masculino singular / femenino singular / masculino plural / femenino plural. Las formas singulares se escriben igual sin niqqud"
+              "meaning": "enfermo. Las formas singulares se escriben igual sin niqqud"
             }
           },
           "items": [
@@ -5903,10 +5903,10 @@
           "addedAt": "2026-11-03",
           "translations": {
             "ru": {
-              "meaning": "здоровый, здоровая; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "здоровый"
             },
             "es": {
-              "meaning": "sano, sana; masculino singular / femenino singular / masculino plural / femenino plural"
+              "meaning": "sano"
             }
           },
           "items": [
@@ -5939,10 +5939,10 @@
           "addedAt": "2026-11-03",
           "translations": {
             "ru": {
-              "meaning": "общественный, публичный; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "общественный, публичный"
             },
             "es": {
-              "meaning": "público, pública; masculino singular / femenino singular / masculino plural / femenino plural"
+              "meaning": "público"
             }
           },
           "items": [
@@ -5957,10 +5957,10 @@
           "addedAt": "2026-11-03",
           "translations": {
             "ru": {
-              "meaning": "белый / белая / белые (м.) / белые (ж.)"
+              "meaning": "белый"
             },
             "es": {
-              "meaning": "blanco / blanca / blancos / blancas"
+              "meaning": "blanco"
             }
           },
           "items": [
@@ -5993,10 +5993,10 @@
           "addedAt": "2026-11-04",
           "translations": {
             "ru": {
-              "meaning": "длинный, долгий; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "длинный, долгий"
             },
             "es": {
-              "meaning": "largo, de larga duración; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "largo, de larga duración"
             }
           },
           "items": [
@@ -6011,10 +6011,10 @@
           "addedAt": "2026-11-04",
           "translations": {
             "ru": {
-              "meaning": "лёгкий по весу; простой, нетрудный; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "лёгкий по весу; простой, нетрудный"
             },
             "es": {
-              "meaning": "ligero de peso; fácil, sencillo; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "ligero de peso; fácil, sencillo"
             }
           },
           "items": [
@@ -6029,10 +6029,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "умный, мудрый; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "умный, мудрый"
             },
             "es": {
-              "meaning": "inteligente, sabio; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "inteligente, sabio"
             }
           },
           "items": [
@@ -6047,10 +6047,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "горячий, тёплый; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "горячий, тёплый"
             },
             "es": {
-              "meaning": "caliente, cálido; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "caliente, cálido"
             }
           },
           "items": [
@@ -6065,10 +6065,10 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "удобный, комфортный; м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "удобный, комфортный"
             },
             "es": {
-              "meaning": "cómodo, confortable; masculino singular / femenino singular / masculino plural / femenino plural en hebreo"
+              "meaning": "cómodo, confortable"
             }
           },
           "items": [
@@ -6083,10 +6083,10 @@
           "addedAt": "2026-11-09",
           "translations": {
             "ru": {
-              "meaning": "сладкий / сладкая / сладкие (м.) / сладкие (ж.); также ласково «милый». מתוקים как существительное — сладости."
+              "meaning": "сладкий; также ласково «милый». מתוקים как существительное означает «сладости»."
             },
             "es": {
-              "meaning": "dulce; masculino singular / femenino singular / masculino plural / femenino plural en hebreo; también «adorable» como expresión cariñosa. מתוקים como sustantivo significa «dulces»."
+              "meaning": "dulce; también «adorable» como expresión cariñosa. מתוקים como sustantivo significa «dulces»."
             }
           },
           "items": [
@@ -6101,10 +6101,10 @@
           "addedAt": "2026-11-10",
           "translations": {
             "ru": {
-              "meaning": "взрослый / взрослая / взрослые (м.) / взрослые (ж.); м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "взрослый"
             },
             "es": {
-              "meaning": "adulto / adulta / adultos / adultas; masculino singular / femenino singular / masculino plural / femenino plural."
+              "meaning": "adulto"
             }
           },
           "items": [
@@ -6119,10 +6119,10 @@
           "addedAt": "2026-11-10",
           "translations": {
             "ru": {
-              "meaning": "старый, пожилой / старая, пожилая / старые, пожилые (м.) / старые, пожилые (ж.); м. ед. / ж. ед. / м. мн. / ж. мн. О возрасте человека; о старом предмете — ישן."
+              "meaning": "пожилой (о человеке). О старом предмете говорят ישן."
             },
             "es": {
-              "meaning": "anciano / anciana / ancianos / ancianas; masculino singular / femenino singular / masculino plural / femenino plural. Se refiere a la edad de una persona; para un objeto viejo se usa ישן."
+              "meaning": "anciano; para un objeto viejo se usa ישן."
             }
           },
           "items": [
@@ -6137,10 +6137,10 @@
           "addedAt": "2026-11-10",
           "translations": {
             "ru": {
-              "meaning": "молодой / молодая / молодые (м.) / молодые (ж.); м. ед. / ж. ед. / м. мн. / ж. мн."
+              "meaning": "молодой"
             },
             "es": {
-              "meaning": "joven (masculino) / joven (femenino) / jóvenes (masculino) / jóvenes (femenino); masculino singular / femenino singular / masculino plural / femenino plural."
+              "meaning": "joven"
             }
           },
           "items": [
@@ -6155,10 +6155,10 @@
           "addedAt": "2026-11-10",
           "translations": {
             "ru": {
-              "meaning": "старый / старая / старые (м.) / старые (ж.); м. ед. / ж. ед. / м. мн. / ж. мн. О вещи, не новой; о пожилом человеке — זקן."
+              "meaning": "старый (о вещи). О пожилом человеке говорят זקן."
             },
             "es": {
-              "meaning": "viejo / vieja / viejos / viejas; masculino singular / femenino singular / masculino plural / femenino plural. Se refiere a algo que no es nuevo; para una persona anciana se usa זקן."
+              "meaning": "viejo; para una persona anciana se usa זקן."
             }
           },
           "items": [
@@ -6173,10 +6173,10 @@
           "addedAt": "2026-11-10",
           "translations": {
             "ru": {
-              "meaning": "арендованный / арендованная / арендованные (м.) / арендованные (ж.); м. ед. / ж. ед. / м. мн. / ж. мн. Например: דירה שכורה — съёмная квартира."
+              "meaning": "арендованный. Например, דירה שכורה — съёмная квартира."
             },
             "es": {
-              "meaning": "alquilado / alquilada / alquilados / alquiladas; masculino singular / femenino singular / masculino plural / femenino plural. Por ejemplo: דירה שכורה — apartamento alquilado."
+              "meaning": "alquilado: דירה שכורה — apartamento alquilado."
             }
           },
           "items": [
@@ -6191,10 +6191,10 @@
           "addedAt": "2026-11-12",
           "translations": {
             "ru": {
-              "meaning": "грустный / грустная / грустные (м.) / грустные (ж.)"
+              "meaning": "грустный"
             },
             "es": {
-              "meaning": "triste (m.) / triste (f.) / tristes (m.) / tristes (f.)"
+              "meaning": "triste"
             }
           },
           "items": [
@@ -6296,10 +6296,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "кто ты? К мужчине / женщине"
+              "meaning": "кто ты?"
             },
             "es": {
-              "meaning": "¿quién eres? Dirigido a un hombre / a una mujer"
+              "meaning": "¿quién eres?"
             }
           },
           "items": [
@@ -6408,10 +6408,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "что это? Мужская / женская форма"
+              "meaning": "что это?"
             },
             "es": {
-              "meaning": "¿qué es esto? Forma masculina / femenina"
+              "meaning": "¿qué es esto?"
             }
           },
           "items": [
@@ -6465,7 +6465,7 @@
               "meaning": "сколько?"
             },
             "es": {
-              "meaning": "¿cuánto? ¿cuántos?"
+              "meaning": "¿cuánto?"
             }
           },
           "items": [
@@ -6480,10 +6480,10 @@
           "addedAt": "2026-11-02",
           "translations": {
             "ru": {
-              "meaning": "сколько тебе лет? Обращение к мужчине / женщине"
+              "meaning": "сколько тебе лет?"
             },
             "es": {
-              "meaning": "¿cuántos años tienes? Dirigido a un hombre / a una mujer"
+              "meaning": "¿cuántos años tienes?"
             }
           },
           "items": [
@@ -6516,10 +6516,10 @@
           "addedAt": "2026-11-03",
           "translations": {
             "ru": {
-              "meaning": "какой? / какая? / какие?; множественное число для обоих родов"
+              "meaning": "какой?"
             },
             "es": {
-              "meaning": "¿qué?, ¿cuál? / ¿qué?, ¿cuál? / ¿qué?, ¿cuáles?; masculino singular / femenino singular / plural de ambos géneros en hebreo"
+              "meaning": "¿qué?, ¿cuál?"
             }
           },
           "items": [
@@ -6585,10 +6585,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "я / мы"
+              "meaning": "я"
             },
             "es": {
-              "meaning": "yo / nosotros, nosotras"
+              "meaning": "yo"
             }
           },
           "items": [
@@ -6603,10 +6603,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "ты, м. / ж."
+              "meaning": "ты"
             },
             "es": {
-              "meaning": "tú: masculino / femenino"
+              "meaning": "tú"
             }
           },
           "items": [
@@ -6621,10 +6621,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "вы: мужчины или смешанная группа / женщины"
+              "meaning": "вы (обращение к группе). Мужская форма множественного числа подходит и для смешанной группы."
             },
             "es": {
-              "meaning": "ustedes: grupo masculino o mixto / grupo femenino"
+              "meaning": "ustedes. El masculino plural también se usa para grupos mixtos."
             }
           },
           "items": [
@@ -6639,10 +6639,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "он / она"
+              "meaning": "он"
             },
             "es": {
-              "meaning": "él / ella"
+              "meaning": "él"
             }
           },
           "items": [
@@ -6657,10 +6657,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "они: мужчины или смешанная группа / женщины"
+              "meaning": "они. Мужская форма множественного числа подходит и для смешанной группы."
             },
             "es": {
-              "meaning": "ellos / ellas; masculino también para grupos mixtos"
+              "meaning": "ellos. El masculino plural también se usa para grupos mixtos."
             }
           },
           "items": [
@@ -6693,10 +6693,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "мой, моя, моё, мои"
+              "meaning": "мой"
             },
             "es": {
-              "meaning": "mío, mía, míos, mías"
+              "meaning": "mío"
             }
           },
           "items": [
@@ -6711,10 +6711,10 @@
           "addedAt": "2026-11-01",
           "translations": {
             "ru": {
-              "meaning": "твой, твоя, твоё, твои: обращение к мужчине / женщине"
+              "meaning": "твой"
             },
             "es": {
-              "meaning": "tuyo, tuya, tuyos, tuyas: dirigido a un hombre / a una mujer"
+              "meaning": "tuyo"
             }
           },
           "items": [
@@ -6909,10 +6909,10 @@
           "addedAt": "2026-11-03",
           "translations": {
             "ru": {
-              "meaning": "этот, это (м. ед.) / эта, это (ж. ед.) / эти (мн. обоих родов); указательные местоимения"
+              "meaning": "этот; указывает на близкий предмет или человека"
             },
             "es": {
-              "meaning": "este, esto (masculino singular en hebreo) / esta, esto (femenino singular en hebreo) / estos, estas (plural de ambos géneros); demostrativos"
+              "meaning": "este; señala algo o a alguien cercano"
             }
           },
           "items": [
@@ -6927,10 +6927,10 @@
           "addedAt": "2026-11-03",
           "translations": {
             "ru": {
-              "meaning": "кто-то; мужская / женская форма"
+              "meaning": "кто-то"
             },
             "es": {
-              "meaning": "alguien; forma masculina / femenina en hebreo"
+              "meaning": "alguien"
             }
           },
           "items": [
@@ -6963,10 +6963,10 @@
           "addedAt": "2026-11-05",
           "translations": {
             "ru": {
-              "meaning": "мне / тебе (м.) / тебе (ж.) / ему / ей / нам / вам (м.) / вам (ж.) / им (м.) / им (ж.); предлог ל־ с местоименными окончаниями: «кому», «для кого». Мужская форма мн. числа также для смешанной группы. С יש / אין: у меня, у тебя и т. д. есть / нет. Не путать לו (ло, «ему») и לא (ло, «не»)."
+              "meaning": "кому, для кого. С יש и אין предлог выражает обладание: יש לי — у меня есть. Не путай לו («ему») и לא («нет»): оба произносятся «ло». Мужская форма множественного числа подходит и для смешанной группы."
             },
             "es": {
-              "meaning": "a mí / a ti (hombre) / a ti (mujer) / a él / a ella / a nosotros o nosotras / a ustedes (masculino) / a ustedes (femenino) / a ellos / a ellas; preposición ל־ con sufijos personales: «a», «para». El masculino plural incluye grupos mixtos. Con יש / אין expresa posesión: tengo / no tengo, tienes / no tienes, etc. No confundir לו (lo, «a él») con לא (lo, «no»)."
+              "meaning": "a, para. Con יש y אין expresa posesión: יש לי significa «tengo». לו («a él») y לא («no») se pronuncian igual: lo. El masculino plural también se usa para grupos mixtos."
             }
           },
           "items": [
@@ -6981,10 +6981,10 @@
           "addedAt": "2026-11-03",
           "translations": {
             "ru": {
-              "meaning": "каждый, всякий; весь, всё, все. Перед существительным пишется כל: כל יום — каждый день. Самостоятельное «всё» в полном написании — כול (например, הכול — всё)."
+              "meaning": "каждый, всякий; весь. Перед существительным пишется כל: כל יום — каждый день. Самостоятельное «всё» в полном написании — כול (например, הכול — всё)."
             },
             "es": {
-              "meaning": "cada; todo, toda, todos, todas. Ante un sustantivo se escribe כל: כל יום, cada día. Como palabra independiente, «todo» se escribe כול sin niqqud (por ejemplo, הכול, todo)."
+              "meaning": "cada; todo. Ante un sustantivo se escribe כל: כל יום, cada día. Como palabra independiente, «todo» se escribe כול sin niqqud (por ejemplo, הכול, todo)."
             }
           },
           "items": [
@@ -6999,10 +6999,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "его / её; принадлежность. Форма зависит от владельца, а не от рода и числа принадлежащего ему предмета."
+              "meaning": "его. Форма зависит от того, кому принадлежит предмет."
             },
             "es": {
-              "meaning": "de él / de ella; posesión. La forma depende del poseedor, no del género ni del número de lo poseído."
+              "meaning": "suyo. La forma hebrea depende de quién posee el objeto."
             }
           },
           "items": [
@@ -7017,10 +7017,10 @@
           "addedAt": "2026-11-07",
           "translations": {
             "ru": {
-              "meaning": "их: владельцы — мужчины или смешанная группа / женщины"
+              "meaning": "их. Мужская форма множественного числа подходит и для смешанной группы."
             },
             "es": {
-              "meaning": "de ellos / de ellas; masculino también para un grupo mixto de poseedores"
+              "meaning": "de ellos. El masculino plural también se usa para grupos mixtos."
             }
           },
           "items": [
@@ -7090,10 +7090,10 @@
           "addedAt": "2026-11-04",
           "translations": {
             "ru": {
-              "meaning": "1 — один / одна; м. / ж."
+              "meaning": "1 — один"
             },
             "es": {
-              "meaning": "1 — uno / una; masculino / femenino en hebreo"
+              "meaning": "1 — uno"
             }
           },
           "items": [
@@ -7108,10 +7108,10 @@
           "addedAt": "2026-11-04",
           "translations": {
             "ru": {
-              "meaning": "2 — два / две; м. / ж.; первые две формы — самостоятельные. Перед существительным: שני (м.) / שתי (ж.), например שני ספרים — две книги; שתי דקות — две минуты"
+              "meaning": "2 — два. Перед существительным: שני ספרים — две книги; שתי דקות — две минуты."
             },
             "es": {
-              "meaning": "2 — dos; masculino / femenino en hebreo; las dos primeras formas son independientes. Ante un sustantivo: שני (masculino) / שתי (femenino), por ejemplo שני ספרים — dos libros; שתי דקות — dos minutos"
+              "meaning": "2 — dos. Ante un sustantivo: שני ספרים — dos libros; שתי דקות — dos minutos."
             }
           },
           "items": [
@@ -7126,10 +7126,10 @@
           "addedAt": "2026-11-04",
           "translations": {
             "ru": {
-              "meaning": "3 — три; м. / ж."
+              "meaning": "3 — три"
             },
             "es": {
-              "meaning": "3 — tres; masculino / femenino en hebreo"
+              "meaning": "3 — tres"
             }
           },
           "items": [
@@ -7144,10 +7144,10 @@
           "addedAt": "2026-11-04",
           "translations": {
             "ru": {
-              "meaning": "4 — четыре; м. / ж.; ארבע: нормативное арба́, в разговорной речи также а́рба"
+              "meaning": "4 — четыре; ארבע: нормативное арба́, в разговорной речи также а́рба"
             },
             "es": {
-              "meaning": "4 — cuatro; masculino / femenino en hebreo; ארבע: pronunciación normativa arbá; también árba en el habla coloquial"
+              "meaning": "4 — cuatro; ארבע: pronunciación normativa arbá; también árba en el habla coloquial"
             }
           },
           "items": [
@@ -7162,10 +7162,10 @@
           "addedAt": "2026-11-04",
           "translations": {
             "ru": {
-              "meaning": "5 — пять; м. / ж."
+              "meaning": "5 — пять"
             },
             "es": {
-              "meaning": "5 — cinco; masculino / femenino en hebreo"
+              "meaning": "5 — cinco"
             }
           },
           "items": [
@@ -7180,10 +7180,10 @@
           "addedAt": "2026-11-04",
           "translations": {
             "ru": {
-              "meaning": "6 — шесть; м. / ж."
+              "meaning": "6 — шесть"
             },
             "es": {
-              "meaning": "6 — seis; masculino / femenino en hebreo"
+              "meaning": "6 — seis"
             }
           },
           "items": [
@@ -7198,10 +7198,10 @@
           "addedAt": "2026-11-04",
           "translations": {
             "ru": {
-              "meaning": "7 — семь; м. / ж."
+              "meaning": "7 — семь"
             },
             "es": {
-              "meaning": "7 — siete; masculino / femenino en hebreo"
+              "meaning": "7 — siete"
             }
           },
           "items": [
@@ -7216,10 +7216,10 @@
           "addedAt": "2026-11-04",
           "translations": {
             "ru": {
-              "meaning": "8 — восемь; м. / ж.; одинаковое написание без огласовок. Женская форма: нормативное шмонэ́, разговорное шмо́не"
+              "meaning": "8 — восемь; одинаковое написание без огласовок. Женская форма: нормативное шмонэ́, разговорное шмо́не"
             },
             "es": {
-              "meaning": "8 — ocho; masculino / femenino en hebreo; se escriben igual sin niqqud. Forma femenina: pronunciación normativa shmoné, coloquial shmóne"
+              "meaning": "8 — ocho; se escriben igual sin niqqud. Forma femenina: pronunciación normativa shmoné, coloquial shmóne"
             }
           },
           "items": [
@@ -7234,10 +7234,10 @@
           "addedAt": "2026-11-04",
           "translations": {
             "ru": {
-              "meaning": "9 — девять; м. / ж.; женская форма также произносится тэ́йша"
+              "meaning": "9 — девять; женская форма также произносится тэ́йша"
             },
             "es": {
-              "meaning": "9 — nueve; masculino / femenino en hebreo; la forma femenina también se pronuncia téysha"
+              "meaning": "9 — nueve; la forma femenina también se pronuncia téysha"
             }
           },
           "items": [
@@ -7252,10 +7252,10 @@
           "addedAt": "2026-11-04",
           "translations": {
             "ru": {
-              "meaning": "10 — десять; м. / ж."
+              "meaning": "10 — десять"
             },
             "es": {
-              "meaning": "10 — diez; masculino / femenino en hebreo"
+              "meaning": "10 — diez"
             }
           },
           "items": [
@@ -9026,7 +9026,11 @@
                 "es": "ben"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "сын",
+            "es": "hijo"
+          }
         },
         {
           "id": "agreement-feminine-singular",
@@ -9044,7 +9048,11 @@
                 "es": "bat"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "дочь",
+            "es": "hija"
+          }
         },
         {
           "id": "agreement-masculine-plural",
@@ -9062,7 +9070,11 @@
                 "es": "baním"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "сыновья",
+            "es": "hijos"
+          }
         },
         {
           "id": "agreement-feminine-plural",
@@ -9080,7 +9092,11 @@
                 "es": "banót"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "дочери",
+            "es": "hijas"
+          }
         }
       ],
       "partOfSpeech": "noun"
@@ -9104,7 +9120,11 @@
                 "es": "chavér"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "друг",
+            "es": "amigo"
+          }
         },
         {
           "id": "agreement-feminine-singular",
@@ -9122,7 +9142,11 @@
                 "es": "chaverá"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "подруга",
+            "es": "amiga"
+          }
         },
         {
           "id": "agreement-masculine-plural",
@@ -9140,7 +9164,11 @@
                 "es": "chaverím"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "друзья",
+            "es": "amigos"
+          }
         },
         {
           "id": "agreement-feminine-plural",
@@ -9158,7 +9186,11 @@
                 "es": "chaverót"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "подруги",
+            "es": "amigas"
+          }
         }
       ],
       "partOfSpeech": "noun"
@@ -9182,7 +9214,11 @@
                 "es": "yéled"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "ребёнок, мальчик",
+            "es": "niño"
+          }
         },
         {
           "id": "agreement-feminine-singular",
@@ -9200,7 +9236,11 @@
                 "es": "yaldá"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "девочка",
+            "es": "niña"
+          }
         },
         {
           "id": "agreement-masculine-plural",
@@ -9218,7 +9258,11 @@
                 "es": "yeladím"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "дети, мальчики",
+            "es": "niños"
+          }
         },
         {
           "id": "agreement-feminine-plural",
@@ -9236,7 +9280,11 @@
                 "es": "yeladót"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "девочки",
+            "es": "niñas"
+          }
         }
       ],
       "partOfSpeech": "noun"
@@ -9260,7 +9308,11 @@
                 "es": "ish"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "мужчина",
+            "es": "hombre"
+          }
         },
         {
           "id": "agreement-feminine-singular",
@@ -9278,7 +9330,11 @@
                 "es": "ishá"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "женщина",
+            "es": "mujer"
+          }
         },
         {
           "id": "agreement-masculine-plural",
@@ -9296,7 +9352,11 @@
                 "es": "anashím"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "люди, мужчины",
+            "es": "personas, hombres"
+          }
         },
         {
           "id": "agreement-feminine-plural",
@@ -9314,7 +9374,11 @@
                 "es": "nashím"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "женщины",
+            "es": "mujeres"
+          }
         }
       ],
       "partOfSpeech": "noun"
@@ -9614,7 +9678,11 @@
                 "es": "moré"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "учитель",
+            "es": "profesor"
+          }
         },
         {
           "id": "agreement-feminine-singular",
@@ -9632,7 +9700,11 @@
                 "es": "morá"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "учительница",
+            "es": "profesora"
+          }
         },
         {
           "id": "agreement-masculine-plural",
@@ -9650,7 +9722,11 @@
                 "es": "morím"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "учителя",
+            "es": "profesores"
+          }
         },
         {
           "id": "agreement-feminine-plural",
@@ -9668,7 +9744,11 @@
                 "es": "morót"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "учительницы",
+            "es": "profesoras"
+          }
         }
       ],
       "partOfSpeech": "noun"
@@ -9692,7 +9772,11 @@
                 "es": "talmíd"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "ученик",
+            "es": "alumno"
+          }
         },
         {
           "id": "agreement-feminine-singular",
@@ -9710,7 +9794,11 @@
                 "es": "talmidá"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "ученица",
+            "es": "alumna"
+          }
         },
         {
           "id": "agreement-masculine-plural",
@@ -9728,7 +9816,11 @@
                 "es": "talmidím"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "ученики",
+            "es": "alumnos"
+          }
         },
         {
           "id": "agreement-feminine-plural",
@@ -9746,7 +9838,11 @@
                 "es": "talmidót"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "ученицы",
+            "es": "alumnas"
+          }
         }
       ],
       "partOfSpeech": "noun"
@@ -10360,7 +10456,11 @@
                 "es": "almán"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "вдовец",
+            "es": "viudo"
+          }
         },
         {
           "id": "agreement-feminine-singular",
@@ -10378,7 +10478,11 @@
                 "es": "almaná"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "вдова",
+            "es": "viuda"
+          }
         },
         {
           "id": "agreement-masculine-plural",
@@ -10396,7 +10500,11 @@
                 "es": "almaním"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "вдовцы",
+            "es": "viudos"
+          }
         },
         {
           "id": "agreement-feminine-plural",
@@ -10414,7 +10522,11 @@
                 "es": "almanót"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "вдовы",
+            "es": "viudas"
+          }
         }
       ],
       "partOfSpeech": "noun"
@@ -10438,7 +10550,11 @@
                 "es": "ach"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "брат",
+            "es": "hermano"
+          }
         },
         {
           "id": "agreement-feminine-singular",
@@ -10456,7 +10572,11 @@
                 "es": "achót"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "сестра",
+            "es": "hermana"
+          }
         },
         {
           "id": "agreement-masculine-plural",
@@ -10474,7 +10594,11 @@
                 "es": "achím"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "братья",
+            "es": "hermanos"
+          }
         },
         {
           "id": "agreement-feminine-plural",
@@ -10492,7 +10616,11 @@
                 "es": "achayót"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "сёстры",
+            "es": "hermanas"
+          }
         }
       ],
       "partOfSpeech": "noun"
@@ -10594,7 +10722,11 @@
                 "es": "mar"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "господин",
+            "es": "señor"
+          }
         },
         {
           "id": "noun-feminine-singular",
@@ -10612,7 +10744,11 @@
                 "es": "gvéret"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "госпожа",
+            "es": "señora"
+          }
         },
         {
           "id": "noun-feminine-plural",
@@ -10630,7 +10766,11 @@
                 "es": "gvirót"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "госпожи",
+            "es": "señoras"
+          }
         }
       ],
       "partOfSpeech": "noun"
@@ -11044,7 +11184,11 @@
                 "es": "sába"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "дедушка",
+            "es": "abuelo"
+          }
         },
         {
           "id": "agreement-feminine-singular",
@@ -11062,7 +11206,11 @@
                 "es": "sávta"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "бабушка",
+            "es": "abuela"
+          }
         },
         {
           "id": "agreement-masculine-plural",
@@ -11080,7 +11228,11 @@
                 "es": "sabaím"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "дедушки",
+            "es": "abuelos"
+          }
         },
         {
           "id": "agreement-feminine-plural",
@@ -11098,7 +11250,11 @@
                 "es": "savtót"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "бабушки",
+            "es": "abuelas"
+          }
         }
       ],
       "partOfSpeech": "noun"
@@ -11248,7 +11404,11 @@
                 "es": "dod"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "дядя",
+            "es": "tío"
+          }
         },
         {
           "id": "agreement-feminine-singular",
@@ -11266,7 +11426,11 @@
                 "es": "dodá"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "тётя",
+            "es": "tía"
+          }
         },
         {
           "id": "agreement-masculine-plural",
@@ -11284,7 +11448,11 @@
                 "es": "dodím"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "дяди",
+            "es": "tíos"
+          }
         },
         {
           "id": "agreement-feminine-plural",
@@ -11302,7 +11470,11 @@
                 "es": "dodót"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "тёти",
+            "es": "tías"
+          }
         }
       ],
       "partOfSpeech": "noun"
@@ -11326,7 +11498,11 @@
                 "es": "achyán"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "племянник",
+            "es": "sobrino"
+          }
         },
         {
           "id": "agreement-feminine-singular",
@@ -11344,7 +11520,11 @@
                 "es": "achyanít"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "племянница",
+            "es": "sobrina"
+          }
         },
         {
           "id": "agreement-masculine-plural",
@@ -11362,7 +11542,11 @@
                 "es": "achyaním"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "племянники",
+            "es": "sobrinos"
+          }
         },
         {
           "id": "agreement-feminine-plural",
@@ -11380,7 +11564,11 @@
                 "es": "achyaniyót"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "племянницы",
+            "es": "sobrinas"
+          }
         }
       ],
       "partOfSpeech": "noun"
@@ -11716,7 +11904,11 @@
                 "es": "chatán"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "зять",
+            "es": "yerno"
+          }
         },
         {
           "id": "agreement-feminine-singular",
@@ -11734,7 +11926,11 @@
                 "es": "kalá"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "невестка (жена сына)",
+            "es": "nuera"
+          }
         },
         {
           "id": "agreement-masculine-plural",
@@ -11752,7 +11948,11 @@
                 "es": "chataním"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "зятья",
+            "es": "yernos"
+          }
         },
         {
           "id": "agreement-feminine-plural",
@@ -11770,7 +11970,11 @@
                 "es": "kalót"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "невестки",
+            "es": "nueras"
+          }
         }
       ],
       "partOfSpeech": "noun"
@@ -11794,7 +11998,11 @@
                 "es": "cham"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "тесть, свёкор",
+            "es": "suegro"
+          }
         },
         {
           "id": "agreement-feminine-singular",
@@ -11812,7 +12020,11 @@
                 "es": "chamót"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "тёща, свекровь",
+            "es": "suegra"
+          }
         },
         {
           "id": "agreement-masculine-plural",
@@ -11830,7 +12042,11 @@
                 "es": "chamím"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "тестьи, свёкры",
+            "es": "suegros"
+          }
         },
         {
           "id": "agreement-feminine-plural",
@@ -11848,7 +12064,11 @@
                 "es": "chamayót"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "тёщи, свекрови",
+            "es": "suegras"
+          }
         }
       ],
       "partOfSpeech": "noun"
@@ -11950,7 +12170,11 @@
                 "es": "bachúr"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "парень, молодой человек",
+            "es": "joven (hombre)"
+          }
         },
         {
           "id": "agreement-feminine-singular",
@@ -11968,7 +12192,11 @@
                 "es": "bachurá"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "девушка",
+            "es": "joven (mujer)"
+          }
         },
         {
           "id": "agreement-masculine-plural",
@@ -11986,7 +12214,11 @@
                 "es": "bachurím"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "парни",
+            "es": "jóvenes (hombres)"
+          }
         },
         {
           "id": "agreement-feminine-plural",
@@ -12004,7 +12236,11 @@
                 "es": "bachurót"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "девушки",
+            "es": "jóvenes (mujeres)"
+          }
         }
       ],
       "partOfSpeech": "noun"
@@ -12028,7 +12264,11 @@
                 "es": "krov mishpachá"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "родственник",
+            "es": "pariente"
+          }
         },
         {
           "id": "agreement-feminine-singular",
@@ -12046,7 +12286,11 @@
                 "es": "krovát mishpachá"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "родственница",
+            "es": "pariente"
+          }
         },
         {
           "id": "agreement-masculine-plural",
@@ -12064,7 +12308,11 @@
                 "es": "krovéy mishpachá"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "родственники",
+            "es": "parientes"
+          }
         },
         {
           "id": "agreement-feminine-plural",
@@ -12082,7 +12330,11 @@
                 "es": "krovót mishpachá"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "родственницы",
+            "es": "parientes"
+          }
         }
       ],
       "partOfSpeech": "noun"
@@ -17063,7 +17315,11 @@
                 "es": "sachár"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "самец",
+            "es": "macho"
+          }
         },
         {
           "id": "agreement-feminine-singular",
@@ -17081,7 +17337,11 @@
                 "es": "nekevá"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "самка",
+            "es": "hembra"
+          }
         },
         {
           "id": "agreement-masculine-plural",
@@ -17099,7 +17359,11 @@
                 "es": "scharím"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "самцы",
+            "es": "machos"
+          }
         },
         {
           "id": "agreement-feminine-plural",
@@ -17117,7 +17381,11 @@
                 "es": "nekevót"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "самки",
+            "es": "hembras"
+          }
         }
       ],
       "partOfSpeech": "noun"
@@ -25568,7 +25836,11 @@
                 "es": "aní"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "я",
+            "es": "yo"
+          }
         },
         {
           "id": "pronoun-1-plural",
@@ -25586,7 +25858,11 @@
                 "es": "anáchnu"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "мы",
+            "es": "nosotros, nosotras"
+          }
         }
       ],
       "partOfSpeech": "pronoun"
@@ -25699,7 +25975,11 @@
                 "es": "hu"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "он",
+            "es": "él"
+          }
         },
         {
           "id": "pronoun-3-feminine-singular",
@@ -25718,7 +25998,11 @@
                 "es": "hi"
               }
             }
-          ]
+          ],
+          "gloss": {
+            "ru": "она",
+            "es": "ella"
+          }
         }
       ],
       "partOfSpeech": "pronoun"
