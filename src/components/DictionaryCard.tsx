@@ -1,5 +1,5 @@
 import styles from './DictionaryCard.module.css';
-import { useId, useState } from 'react';
+import { memo, useId } from 'react';
 import { useLocale } from '../localization/context';
 import type { DictionaryEntry, FormRow } from '../types';
 import { getEntrySpellings, rowFields } from '../helpers/dictionary';
@@ -7,142 +7,147 @@ import { matches } from '../search';
 import { Highlight } from './Highlight';
 import { CollapseSwap } from './CollapseSwap';
 
-type DictionaryCardProps = { entry: DictionaryEntry; query: string; showNiqqud: boolean };
-export const DictionaryCard = ({ entry, query, showNiqqud }: DictionaryCardProps) => {
-  const { messages, locale } = useLocale();
-  const id = useId();
-  const [choice, setChoice] = useState<{ query: string; open: boolean }>();
-  // Discard manual state when searching, including when returning to an earlier query.
-  if (choice && choice.query !== query) setChoice(undefined);
-  const animate = choice?.query === query;
-  const { rows, defaultRow } = entry;
-  const expandable = rows.length > 1;
-  const open =
-    expandable &&
-    (choice?.query === query
-      ? choice.open
-      : Boolean(query.trim()) &&
-        !matches([...rowFields(defaultRow), entry.meaning], query, locale));
-  const toggle = () => setChoice({ query, open: !open });
-  const hebrew = (row: FormRow) => {
-    const { visible, alternate } = getEntrySpellings(row, query, showNiqqud);
-    return (
-      <>
-        <span className={styles['hebrew']} lang="he" dir="rtl">
-          <Highlight text={visible} query={query} />
-        </span>
-        {alternate && (
-          <span className={styles['alternate-spelling']}>
-            {showNiqqud ? messages.withoutNiqqud : messages.withNiqqud}{' '}
-            <b lang="he" dir="rtl">
-              <Highlight text={alternate} query={query} />
-            </b>
+type DictionaryCardProps = {
+  entry: DictionaryEntry;
+  query: string;
+  showNiqqud: boolean;
+  expanded: boolean | undefined;
+  onExpandedChange: (id: string, expanded: boolean) => void;
+};
+export const DictionaryCard = memo(
+  ({ entry, query, showNiqqud, expanded, onExpandedChange }: DictionaryCardProps) => {
+    const { messages, locale } = useLocale();
+    const id = useId();
+    const animate = expanded !== undefined;
+    const { rows, defaultRow } = entry;
+    const expandable = rows.length > 1;
+    const open =
+      expandable &&
+      (expanded !== undefined
+        ? expanded
+        : Boolean(query.trim()) &&
+          !matches([...rowFields(defaultRow), entry.meaning], query, locale));
+    const toggle = () => onExpandedChange(entry.id, !open);
+    const hebrew = (row: FormRow) => {
+      const { visible, alternate } = getEntrySpellings(row, query, showNiqqud);
+      return (
+        <>
+          <span className={styles['hebrew']} lang="he" dir="rtl">
+            <Highlight text={visible} query={query} />
           </span>
-        )}
-      </>
-    );
-  };
-  return (
-    <article
-      className={
-        styles['card'] +
-        (expandable ? ' ' + styles['expandable'] : '') +
-        (animate ? ' ' + styles['animate-forms'] : '')
-      }
-      onClick={(event) => {
-        if (
-          expandable &&
-          !(event.target as Element).closest('button') &&
-          !window.getSelection()?.toString()
-        )
-          toggle();
-      }}
-    >
-      {expandable && (
-        <div className={styles['forms-toggle']}>
-          <button
-            className={styles['forms-trigger']}
-            aria-expanded={open}
-            aria-controls={id}
-            aria-label={(locale === 'ru' ? 'Формы слова ' : 'Formas de ') + defaultRow.hebrew}
-            onClick={toggle}
-          >
-            <svg
-              aria-hidden="true"
-              width="18"
-              height="18"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path d="m5 9 7 7 7-7" />
-            </svg>
-          </button>
-        </div>
-      )}
-      <CollapseSwap
-        id={id}
-        open={open}
-        summary={
-          <>
-            <div className={styles['card-top']}>{hebrew(defaultRow)}</div>
-            <p className={styles['pronunciation']}>
-              <Highlight text={defaultRow.pronunciation} query={query} />
-            </p>
-          </>
-        }
-      >
-        <div className={styles['forms-header']}>
-          {entry.root !== undefined && (
-            <div className={styles['card-roots']}>
-              {messages.root}{' '}
-              {entry.root === null ? (
-                messages.rootUnlisted
-              ) : (
-                <bdi lang="he" dir="rtl">
-                  <strong>{entry.root}</strong>
-                </bdi>
-              )}
-            </div>
+          {alternate && (
+            <span className={styles['alternate-spelling']}>
+              {showNiqqud ? messages.withoutNiqqud : messages.withNiqqud}{' '}
+              <b lang="he" dir="rtl">
+                <Highlight text={alternate} query={query} />
+              </b>
+            </span>
           )}
-        </div>
-        <div className={styles['forms-grid']} role="table">
-          <div className="sr-only" role="row">
-            {(locale === 'ru'
-              ? ['Иврит', 'Произношение', 'Форма']
-              : ['Hebreo', 'Pronunciación', 'Forma']
-            ).map((text) => (
-              <span key={text} role="columnheader">
-                {text}
-              </span>
-            ))}
+        </>
+      );
+    };
+    return (
+      <article
+        className={
+          styles['card'] +
+          (expandable ? ' ' + styles['expandable'] : '') +
+          (animate ? ' ' + styles['animate-forms'] : '')
+        }
+        onClick={(event) => {
+          if (
+            expandable &&
+            !(event.target as Element).closest('button') &&
+            !window.getSelection()?.toString()
+          )
+            toggle();
+        }}
+      >
+        {expandable && (
+          <div className={styles['forms-toggle']}>
+            <button
+              className={styles['forms-trigger']}
+              aria-expanded={open}
+              aria-controls={id}
+              aria-label={(locale === 'ru' ? 'Формы слова ' : 'Formas de ') + defaultRow.hebrew}
+              onClick={toggle}
+            >
+              <svg
+                aria-hidden="true"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="m5 9 7 7 7-7" />
+              </svg>
+            </button>
           </div>
-          {rows.map((row) => (
-            <div key={row.key} role="row" className={styles['form-row']}>
-              <div role="cell">{hebrew(row)}</div>
-              <div role="cell" className={styles['pronunciation']}>
-                <Highlight text={row.pronunciation} query={query} />
-              </div>
-              <div role="cell">
-                {row.label}
-                {row.gloss && (
-                  <>
-                    {' '}
-                    · <Highlight text={row.gloss} query={query} />
-                  </>
+        )}
+        <CollapseSwap
+          id={id}
+          open={open}
+          summary={
+            <>
+              <div className={styles['card-top']}>{hebrew(defaultRow)}</div>
+              <p className={styles['pronunciation']}>
+                <Highlight text={defaultRow.pronunciation} query={query} />
+              </p>
+            </>
+          }
+        >
+          <div className={styles['forms-header']}>
+            {entry.root !== undefined && (
+              <div className={styles['card-roots']}>
+                {messages.root}{' '}
+                {entry.root === null ? (
+                  messages.rootUnlisted
+                ) : (
+                  <bdi lang="he" dir="rtl">
+                    <strong>{entry.root}</strong>
+                  </bdi>
                 )}
               </div>
+            )}
+          </div>
+          <div className={styles['forms-grid']} role="table">
+            <div className="sr-only" role="row">
+              {(locale === 'ru'
+                ? ['Иврит', 'Произношение', 'Форма']
+                : ['Hebreo', 'Pronunciación', 'Forma']
+              ).map((text) => (
+                <span key={text} role="columnheader">
+                  {text}
+                </span>
+              ))}
             </div>
-          ))}
-        </div>
-      </CollapseSwap>
-      <div className={styles['card-rule']} />
-      <p className={styles['meaning']}>
-        <Highlight text={entry.meaning} query={query} />
-      </p>
-    </article>
-  );
-};
+            {rows.map((row) => (
+              <div key={row.key} role="row" className={styles['form-row']}>
+                <div role="cell">{hebrew(row)}</div>
+                <div role="cell" className={styles['pronunciation']}>
+                  <Highlight text={row.pronunciation} query={query} />
+                </div>
+                <div role="cell">
+                  {row.label}
+                  {row.gloss && (
+                    <>
+                      {' '}
+                      · <Highlight text={row.gloss} query={query} />
+                    </>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+        </CollapseSwap>
+        <div className={styles['card-rule']} />
+        <p className={styles['meaning']}>
+          <Highlight text={entry.meaning} query={query} />
+        </p>
+      </article>
+    );
+  },
+);

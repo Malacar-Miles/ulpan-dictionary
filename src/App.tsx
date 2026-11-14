@@ -59,6 +59,7 @@ const DictionaryApp = () => {
             count={dictionary.count}
             sections={dictionary.results}
             query={dictionary.resultsQuery}
+            activeTopic={dictionary.activeTopic}
             showNiqqud={dictionary.showNiqqud}
             onReset={dictionary.clearQuery}
           />

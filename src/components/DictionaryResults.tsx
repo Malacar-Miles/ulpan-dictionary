@@ -1,5 +1,5 @@
 import styles from './DictionaryResults.module.css';
-import { memo } from 'react';
+import { memo, useCallback, useState } from 'react';
 import { VIRTUALIZE_RESULTS } from '../config';
 import { useLocale } from '../localization/context';
 import type { DictionarySection as Section } from '../types';
@@ -14,6 +14,7 @@ type DictionaryResultsProps = {
   count: number;
   sections: Section[];
   query: string;
+  activeTopic: string | null;
   showNiqqud: boolean;
   onReset: () => void;
 };
@@ -26,11 +27,27 @@ export const DictionaryResults = memo(
     count,
     sections,
     query,
+    activeTopic,
     showNiqqud,
     onReset,
   }: DictionaryResultsProps) => {
     const Sections = VIRTUALIZE_RESULTS ? VirtualDictionarySections : DictionarySections;
     const { messages } = useLocale();
+    const [expansion, setExpansion] = useState(() => ({
+      query,
+      activeTopic,
+      choices: new Map<string, boolean>(),
+    }));
+    // Keep choices above virtual rows, but discard them on search or tab changes.
+    if (expansion.query !== query || expansion.activeTopic !== activeTopic) {
+      setExpansion({ query, activeTopic, choices: new Map() });
+    }
+    const onCardExpandedChange = useCallback((id: string, expanded: boolean) => {
+      setExpansion((current) => ({
+        ...current,
+        choices: new Map(current.choices).set(id, expanded),
+      }));
+    }, []);
     return (
       <>
         {showFallbackNotice && (
@@ -51,7 +68,13 @@ export const DictionaryResults = memo(
           </p>
         </div>
         {sections.length ? (
-          <Sections sections={sections} query={query} showNiqqud={showNiqqud} />
+          <Sections
+            sections={sections}
+            query={query}
+            showNiqqud={showNiqqud}
+            cardChoices={expansion.choices}
+            onCardExpandedChange={onCardExpandedChange}
+          />
         ) : (
           <EmptyResults onReset={onReset} />
         )}

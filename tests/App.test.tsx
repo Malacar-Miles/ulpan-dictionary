@@ -448,6 +448,74 @@ it.each([true, false])('returns to the expected topic for compact tabs = %s', (c
 });
 
 it.each([false, true])(
+  'keeps card choices across virtual unmounts with a coarse pointer = %s',
+  (touch) => {
+    vi.stubGlobal('matchMedia', (query: string) => ({
+      matches: touch && query === '(pointer: coarse)',
+      addEventListener: vi.fn(),
+      removeEventListener: vi.fn(),
+    }));
+    vi.spyOn(config, 'VIRTUALIZE_RESULTS', 'get').mockReturnValue(true);
+    const { container } = render(<App />);
+    fireEvent.click(screen.getByRole('button', { name: 'Все темы' }));
+    fireEvent.click(screen.getByRole('button', { name: ru.sections.verbs.title }));
+    const card = () => screen.getByRole('button', { name: 'Формы слова ללמוד' });
+    const scroller = container.querySelector<HTMLElement>('[data-dictionary-scroll]')!;
+    const scroll = (top: number) => {
+      if (touch) scroller.scrollTop = top;
+      else vi.stubGlobal('scrollY', top);
+      fireEvent.scroll(touch ? scroller : window);
+    };
+    fireEvent.click(card());
+    expect(card().getAttribute('aria-expanded')).toBe('true');
+    scroll(4000);
+    expect(screen.queryByRole('button', { name: 'Формы слова ללמוד' })).toBeNull();
+    scroll(0);
+    expect(card().getAttribute('aria-expanded')).toBe('true');
+    fireEvent.click(card());
+    scroll(4000);
+    scroll(0);
+    expect(card().getAttribute('aria-expanded')).toBe('false');
+  },
+);
+
+it('resets card choices on tab changes, topic changes, search changes, and app remounts', () => {
+  vi.spyOn(config, 'VIRTUALIZE_RESULTS', 'get').mockReturnValue(false);
+  const { unmount } = render(<App />);
+  const card = () => screen.getByRole('button', { name: 'Формы слова ללמוד' });
+  fireEvent.click(card());
+  fireEvent.click(screen.getByRole('button', { name: 'По дате добавления' }));
+  expect(card().getAttribute('aria-expanded')).toBe('false');
+  fireEvent.click(card());
+  fireEvent.click(screen.getByRole('button', { name: 'Все темы' }));
+  expect(card().getAttribute('aria-expanded')).toBe('false');
+  fireEvent.click(card());
+  fireEvent.click(screen.getByRole('button', { name: ru.sections.verbs.title }));
+  expect(card().getAttribute('aria-expanded')).toBe('false');
+
+  fireEvent.click(card());
+  const search = screen.getByRole('searchbox');
+  fireEvent.change(search, { target: { value: 'zzzznotaword' } });
+  expect(screen.queryByRole('button', { name: 'Формы слова ללמוד' })).toBeNull();
+  fireEvent.change(search, { target: { value: '' } });
+  expect(card().getAttribute('aria-expanded')).toBe('false');
+  fireEvent.change(search, { target: { value: 'לומדת' } });
+  expect(card().getAttribute('aria-expanded')).toBe('true');
+  fireEvent.click(card());
+  expect(card().getAttribute('aria-expanded')).toBe('false');
+  fireEvent.change(search, { target: { value: '' } });
+  fireEvent.change(search, { target: { value: 'לומדת' } });
+  expect(card().getAttribute('aria-expanded')).toBe('true');
+
+  fireEvent.change(search, { target: { value: '' } });
+  fireEvent.click(card());
+  expect(card().getAttribute('aria-expanded')).toBe('true');
+  unmount();
+  render(<App />);
+  expect(card().getAttribute('aria-expanded')).toBe('false');
+});
+
+it.each([false, true])(
   'virtualizes the active scroll target with a coarse pointer = %s',
   (touch) => {
     vi.stubGlobal('matchMedia', (query: string) => ({

@@ -2,7 +2,7 @@ import dictionaryCardStyles from '../src/components/DictionaryCard.module.css';
 // @vitest-environment jsdom
 import { afterEach, expect, it, vi } from 'vitest';
 import { cleanup, fireEvent, render, screen } from '@testing-library/react';
-import { VirtualDictionarySections } from '../src/components/VirtualDictionarySections';
+import { DictionaryResults } from '../src/components/DictionaryResults';
 import core from '../src/data/dictionary.core.json';
 import ru from '../src/data/dictionary.ru.json';
 import type { DictionaryLocalization } from '../src/types';
@@ -32,7 +32,7 @@ afterEach(() => {
   vi.unstubAllGlobals();
 });
 
-it('updates virtual positioning without rerendering cards, while content and local state still update', () => {
+it('updates virtual positioning without rerendering cards, while content and expansion still update', () => {
   vi.stubGlobal('matchMedia', () => ({
     matches: false,
     addEventListener: vi.fn(),
@@ -55,7 +55,18 @@ it('updates virtual positioning without rerendering cards, while content and loc
     <LocaleContext.Provider value={locale}>
       <div data-dictionary-scroll>
         <main>
-          <VirtualDictionarySections sections={sections} query={query} showNiqqud={showNiqqud} />
+          <DictionaryResults
+            sections={sections}
+            query={query}
+            showNiqqud={showNiqqud}
+            activeTopic="verbs"
+            showFallbackNotice={false}
+            total={3}
+            updated=""
+            title={section.title}
+            count={3}
+            onReset={() => {}}
+          />
         </main>
       </div>
     </LocaleContext.Provider>

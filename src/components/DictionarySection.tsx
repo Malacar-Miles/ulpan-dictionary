@@ -20,20 +20,38 @@ export const EntryGrid = memo(
     entries,
     query,
     showNiqqud,
+    cardChoices,
+    onCardExpandedChange,
   }: {
     entries: DictionaryEntry[];
     query: string;
     showNiqqud: boolean;
-  }) => (
+  } & CardExpansionProps) => (
     <div className={styles['grid']}>
       {entries.map((entry) => (
-        <DictionaryCard key={entry.id} entry={entry} query={query} showNiqqud={showNiqqud} />
+        <DictionaryCard
+          key={entry.id}
+          entry={entry}
+          query={query}
+          showNiqqud={showNiqqud}
+          expanded={cardChoices.get(entry.id)}
+          onExpandedChange={onCardExpandedChange}
+        />
       ))}
     </div>
   ),
 );
 
-export type SectionListProps = { sections: Section[]; query: string; showNiqqud: boolean };
+type CardExpansionProps = {
+  cardChoices: ReadonlyMap<string, boolean>;
+  onCardExpandedChange: (id: string, expanded: boolean) => void;
+};
+
+export type SectionListProps = {
+  sections: Section[];
+  query: string;
+  showNiqqud: boolean;
+} & CardExpansionProps;
 
 export const DictionarySections = ({ sections, ...display }: SectionListProps) =>
   sections.map((section) => (
