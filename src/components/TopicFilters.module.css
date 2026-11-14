@@ -1,0 +1,77 @@
+.filters {
+  padding-block: 8px 20px;
+}
+.topic-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 10px 5px 5px;
+}
+.topic-options button[aria-pressed='true'] {
+  background: #d4e5db;
+  border-color: var(--color-selected-border);
+  color: #234c3c;
+}
+.topic-trigger::after {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 0 2px 2px 10px;
+  border: solid currentColor;
+  border-width: 0 1.5px 1.5px 0;
+  transform: rotate(45deg);
+}
+.filter-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+.filter-tabs button[aria-pressed='true'] {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: white;
+}
+@keyframes active-topic-pulse {
+  0%,
+  100% {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 0 rgb(212 150 99 / 0%);
+  }
+  50% {
+    background-color: #39765f;
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 3px rgb(212 150 99 / 40%);
+  }
+}
+
+.topic-trigger[aria-expanded='true']::after {
+  transform: rotate(225deg);
+  vertical-align: middle;
+}
+@media (any-hover: hover) {
+  .filters button:hover {
+    border-color: var(--color-selected-border);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .filters-search-active .topic-trigger {
+    animation: active-topic-pulse 2.4s ease-in-out infinite;
+  }
+}
+@media (max-width: 750px) {
+  .filters {
+    padding-top: 5px;
+    padding-bottom: 7px;
+  }
+  .filter-tabs {
+    flex-wrap: nowrap;
+  }
+  .filter-tabs button {
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

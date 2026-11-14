@@ -1,3 +1,4 @@
+import styles from './App.module.css';
 import { useLocale } from './localization/context';
 import { LocaleProvider } from './localization/LocaleProvider';
 import { DictionaryHeader } from './components/DictionaryHeader';
@@ -18,7 +19,7 @@ const DictionaryApp = () => {
   );
 
   return (
-    <div className="dictionary-scroll" ref={scrollRef}>
+    <div data-dictionary-scroll className={styles['dictionary-scroll']} ref={scrollRef}>
       <DictionaryHeader disabled={dictionary.loading} />
       <DictionaryControls
         disabled={dictionary.loading || dictionary.error}
@@ -36,14 +37,14 @@ const DictionaryApp = () => {
         selectedTopic={dictionary.selectedTopic}
         onTopicSelect={dictionary.setActiveTopic}
       />
-      <main className={`wrap content${handwriting ? ' handwritten' : ''}`}>
+      <main className={styles['content'] + (handwriting ? ' ' + styles['handwritten'] : '')}>
         {dictionary.loading ? (
-          <div className="dictionary-loading" role="status">
-            <span className="dictionary-spinner" aria-hidden="true" />
+          <div className={styles['dictionary-loading']} role="status">
+            <span className={styles['dictionary-spinner']} aria-hidden="true" />
             <span>{messages.loading}</span>
           </div>
         ) : dictionary.error ? (
-          <div className="dictionary-loading" role="alert">
+          <div className={styles['dictionary-loading']} role="alert">
             <p>{messages.loadError}</p>
             <button type="button" onClick={dictionary.retry}>
               {messages.retry}

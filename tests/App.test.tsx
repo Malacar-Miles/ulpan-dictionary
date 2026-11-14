@@ -1,3 +1,9 @@
+import appStyles from '../src/App.module.css';
+import dictionarySectionStyles from '../src/components/DictionarySection.module.css';
+import emptyResultsStyles from '../src/components/EmptyResults.module.css';
+import dictionaryResultsStyles from '../src/components/DictionaryResults.module.css';
+import topicFiltersStyles from '../src/components/TopicFilters.module.css';
+import dictionaryCardStyles from '../src/components/DictionaryCard.module.css';
 // @vitest-environment jsdom
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
@@ -55,46 +61,58 @@ describe('dictionary interface', () => {
     const { container } = render(<App />);
     const search = screen.getByRole('searchbox');
     fireEvent.change(search, { target: { value: 'laléchet' } });
-    const card = container.querySelector('.card')!;
+    const card = container.querySelector(`.${dictionaryCardStyles['card']}`)!;
     const button = within(card as HTMLElement).getByRole('button');
     expect(button.getAttribute('aria-expanded')).toBe('false');
-    expect(card.classList.contains('animate-forms')).toBe(false);
+    expect(card.classList.contains(dictionaryCardStyles['animate-forms'])).toBe(false);
     expect(
-      card.querySelector('.card-roots')?.closest('[aria-hidden]')?.getAttribute('aria-hidden'),
+      card
+        .querySelector(`.${dictionaryCardStyles['card-roots']}`)
+        ?.closest('[aria-hidden]')
+        ?.getAttribute('aria-hidden'),
     ).toBe('true');
     fireEvent.click(card);
-    expect(card.classList.contains('animate-forms')).toBe(true);
-    expect(card.querySelector('.card-roots')?.textContent).toBe('raíz: ה־ל־ך');
+    expect(card.classList.contains(dictionaryCardStyles['animate-forms'])).toBe(true);
+    expect(card.querySelector(`.${dictionaryCardStyles['card-roots']}`)?.textContent).toBe(
+      'raíz: ה־ל־ך',
+    );
     expect(
-      card.querySelector('.card-top')?.closest('[aria-hidden]')?.getAttribute('aria-hidden'),
+      card
+        .querySelector(`.${dictionaryCardStyles['card-top']}`)
+        ?.closest('[aria-hidden]')
+        ?.getAttribute('aria-hidden'),
     ).toBe('true');
     expect(within(card as HTMLElement).getAllByRole('cell')).toHaveLength(15);
     fireEvent.click(button);
     expect(within(card as HTMLElement).queryByRole('table')).toBeNull();
     expect(
-      card.querySelector('.card-roots')?.closest('[aria-hidden]')?.getAttribute('aria-hidden'),
+      card
+        .querySelector(`.${dictionaryCardStyles['card-roots']}`)
+        ?.closest('[aria-hidden]')
+        ?.getAttribute('aria-hidden'),
     ).toBe('true');
     fireEvent.change(search, { target: { value: 'holchót' } });
-    expect(screen.getByRole('table').querySelector('.pronunciation mark')?.textContent).toBe(
-      'holchót',
-    );
-    expect(card.classList.contains('animate-forms')).toBe(false);
+    expect(
+      screen.getByRole('table').querySelector(`.${dictionaryCardStyles['pronunciation']} mark`)
+        ?.textContent,
+    ).toBe('holchót');
+    expect(card.classList.contains(dictionaryCardStyles['animate-forms'])).toBe(false);
     fireEvent.change(search, { target: { value: 'laléchet' } });
     expect(button.getAttribute('aria-expanded')).toBe('false');
-    expect(card.classList.contains('animate-forms')).toBe(false);
+    expect(card.classList.contains(dictionaryCardStyles['animate-forms'])).toBe(false);
     fireEvent.click(button);
-    expect(card.classList.contains('animate-forms')).toBe(true);
+    expect(card.classList.contains(dictionaryCardStyles['animate-forms'])).toBe(true);
     fireEvent.change(search, { target: { value: 'ללכת' } });
     expect(button.getAttribute('aria-expanded')).toBe('false');
-    expect(card.classList.contains('animate-forms')).toBe(false);
+    expect(card.classList.contains(dictionaryCardStyles['animate-forms'])).toBe(false);
     fireEvent.change(search, { target: { value: 'בוקר טוב' } });
-    expect(container.querySelector('.card button')).toBeNull();
+    expect(container.querySelector(`.${dictionaryCardStyles['card']} button`)).toBeNull();
   });
   it('renders every entry, filters topics, searches, and resets empty results', () => {
     vi.spyOn(config, 'VIRTUALIZE_RESULTS', 'get').mockReturnValue(false);
     const { container } = render(<App />);
     const total = dictionary.sections.reduce((sum, section) => sum + section.entries.length, 0);
-    expect(container.querySelectorAll('.card')).toHaveLength(total);
+    expect(container.querySelectorAll(`.${dictionaryCardStyles['card']}`)).toHaveLength(total);
     const section = dictionary.sections[0];
     fireEvent.click(screen.getByRole('button', { name: 'Все темы' }));
     fireEvent.click(
@@ -102,7 +120,9 @@ describe('dictionary interface', () => {
         name: ru.sections[section.id as keyof typeof ru.sections].title,
       }),
     );
-    expect(container.querySelectorAll('.card')).toHaveLength(section.entries.length);
+    expect(container.querySelectorAll(`.${dictionaryCardStyles['card']}`)).toHaveLength(
+      section.entries.length,
+    );
     expect(screen.getByRole('heading', { level: 2 }).textContent).toBe(
       ru.sections[section.id as keyof typeof ru.sections].title,
     );
@@ -111,7 +131,9 @@ describe('dictionary interface', () => {
     expect(screen.queryByRole('status')).toBeNull();
     fireEvent.click(screen.getByRole('button', { name: 'Сбросить поиск' }));
     expect((screen.getByRole('searchbox') as HTMLInputElement).value).toBe('');
-    expect(container.querySelectorAll('.card')).toHaveLength(section.entries.length);
+    expect(container.querySelectorAll(`.${dictionaryCardStyles['card']}`)).toHaveLength(
+      section.entries.length,
+    );
     expect(
       screen
         .getByRole('button', { name: ru.sections[section.id as keyof typeof ru.sections].title })
@@ -124,13 +146,13 @@ describe('dictionary interface', () => {
     const { container } = render(<App />);
     const toggle = screen.getByRole('checkbox', { name: 'Никуд' }) as HTMLInputElement;
     expect(toggle.checked).toBe(false);
-    expect(container.querySelector('.hebrew')?.textContent).toBe(
+    expect(container.querySelector(`.${dictionaryCardStyles['hebrew']}`)?.textContent).toBe(
       dictionary.lexemes['word-001'].forms[0].variants[0].hebrew,
     );
     fireEvent.click(toggle);
     expect(localStorage.getItem('ulpan-dictionary-show-niqqud')).toBe('true');
     const entry = dictionary.lexemes['word-001'].forms[0].variants[0];
-    expect(container.querySelector('.hebrew')?.textContent).toBe(
+    expect(container.querySelector(`.${dictionaryCardStyles['hebrew']}`)?.textContent).toBe(
       entry.hebrewWithNiqqud ?? entry.hebrew,
     );
   });
@@ -139,17 +161,21 @@ describe('dictionary interface', () => {
     const { container, unmount } = render(<App />);
     const toggle = screen.getByRole('checkbox', { name: 'Пропись' }) as HTMLInputElement;
     const niqqud = screen.getByRole('checkbox', { name: 'Никуд' }) as HTMLInputElement;
-    const text = container.querySelector('.hebrew')?.textContent;
+    const text = container.querySelector(`.${dictionaryCardStyles['hebrew']}`)?.textContent;
     expect(toggle.checked).toBe(false);
     fireEvent.click(toggle);
-    expect(container.querySelector('main')?.classList.contains('handwritten')).toBe(true);
-    expect(container.querySelector('.hebrew')?.textContent).toBe(text);
+    expect(container.querySelector('main')?.classList.contains(appStyles['handwritten'])).toBe(
+      true,
+    );
+    expect(container.querySelector(`.${dictionaryCardStyles['hebrew']}`)?.textContent).toBe(text);
     expect(niqqud.checked).toBe(true);
     expect(localStorage.getItem('ulpan-dictionary-handwriting')).toBe('true');
     fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'תודה' } });
-    expect(container.querySelector('.hebrew mark')?.textContent).toBe('תּוֹדָה');
+    expect(container.querySelector(`.${dictionaryCardStyles['hebrew']} mark`)?.textContent).toBe(
+      'תּוֹדָה',
+    );
     fireEvent.click(niqqud);
-    expect(container.querySelector('.hebrew')?.textContent).toBe('תודה');
+    expect(container.querySelector(`.${dictionaryCardStyles['hebrew']}`)?.textContent).toBe('תודה');
     expect(toggle.checked).toBe(true);
     unmount();
     const restored = render(<App />);
@@ -157,10 +183,14 @@ describe('dictionary interface', () => {
       name: 'Пропись',
     }) as HTMLInputElement;
     expect(restoredToggle.checked).toBe(true);
-    expect(restored.container.querySelector('main')?.classList.contains('handwritten')).toBe(true);
+    expect(
+      restored.container.querySelector('main')?.classList.contains(appStyles['handwritten']),
+    ).toBe(true);
     fireEvent.click(restoredToggle);
     expect(localStorage.getItem('ulpan-dictionary-handwriting')).toBe('false');
-    expect(restored.container.querySelector('main')?.classList.contains('handwritten')).toBe(false);
+    expect(
+      restored.container.querySelector('main')?.classList.contains(appStyles['handwritten']),
+    ).toBe(false);
   });
 
   it('continues to work when storage is unavailable', () => {
@@ -207,17 +237,27 @@ describe('localization', () => {
     expect((screen.getByRole('checkbox', { name: 'Niqqud' }) as HTMLInputElement).checked).toBe(
       false,
     );
-    expect(container.querySelector('main')?.classList.contains('handwritten')).toBe(true);
-    expect(container.querySelectorAll('.card')).toHaveLength(1);
-    expect(container.querySelector('.pronunciation')?.textContent).toBe('laléchet');
-    expect(container.querySelector('.meaning')?.textContent).toBe('ir, caminar');
-    expect(container.querySelector('.filters-search-active .topic-trigger')?.textContent).toBe(
-      'Verbos y estados',
+    expect(container.querySelector('main')?.classList.contains(appStyles['handwritten'])).toBe(
+      true,
     );
+    expect(container.querySelectorAll(`.${dictionaryCardStyles['card']}`)).toHaveLength(1);
+    expect(container.querySelector(`.${dictionaryCardStyles['pronunciation']}`)?.textContent).toBe(
+      'laléchet',
+    );
+    expect(container.querySelector(`.${dictionaryCardStyles['meaning']}`)?.textContent).toBe(
+      'ir, caminar',
+    );
+    expect(
+      container.querySelector(
+        `.${topicFiltersStyles['filters-search-active']} .${topicFiltersStyles['topic-trigger']}`,
+      )?.textContent,
+    ).toBe('Verbos y estados');
     const total = dictionary.sections.reduce((sum, section) => sum + section.entries.length, 0);
-    expect(container.querySelector('main .results-meta .records-caption')?.textContent).toContain(
-      `${total} entradas · Act. ${formatUpdatedDate(dictionary.updatedAt, 'es')}`,
-    );
+    expect(
+      container.querySelector(
+        `main .${dictionaryResultsStyles['results-meta']} .${dictionaryResultsStyles['records-caption']}`,
+      )?.textContent,
+    ).toContain(`${total} entradas · Act. ${formatUpdatedDate(dictionary.updatedAt, 'es')}`);
     expect(container.querySelector('main')?.textContent).not.toMatch(/[а-яё]/i);
     expect(localStorage.getItem('ulpan-dictionary-language')).toBe('es');
     unmount();
@@ -253,20 +293,29 @@ describe('localization', () => {
     localStorage.setItem('ulpan-dictionary-language', 'es');
     const { container } = render(<App />);
     fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'cancion' } });
-    expect(container.querySelectorAll('.card')).toHaveLength(1);
-    expect(container.querySelector('.meaning mark')?.textContent).toBe('canción');
+    expect(container.querySelectorAll(`.${dictionaryCardStyles['card']}`)).toHaveLength(1);
+    expect(container.querySelector(`.${dictionaryCardStyles['meaning']} mark`)?.textContent).toBe(
+      'canción',
+    );
     fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'holech' } });
-    expect(container.querySelector('.pronunciation mark')?.textContent).toBe('holéch');
+    expect(
+      container.querySelector(`.${dictionaryCardStyles['pronunciation']} mark`)?.textContent,
+    ).toBe('holéch');
     fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'спасибо' } });
     expect(screen.getByText('No se encontraron resultados')).toBeTruthy();
     fireEvent.click(
-      within(container.querySelector('.empty') as HTMLElement).getByRole('button', {
-        name: 'Borrar búsqueda',
-      }),
+      within(container.querySelector(`.${emptyResultsStyles['empty']}`) as HTMLElement).getByRole(
+        'button',
+        {
+          name: 'Borrar búsqueda',
+        },
+      ),
     );
-    expect(Number(container.querySelector('.results-head strong')?.textContent)).toBe(
-      dictionary.sections.reduce((sum, section) => sum + section.entries.length, 0),
-    );
+    expect(
+      Number(
+        container.querySelector(`.${dictionaryResultsStyles['results-head']} strong`)?.textContent,
+      ),
+    ).toBe(dictionary.sections.reduce((sum, section) => sum + section.entries.length, 0));
   });
 });
 
@@ -330,8 +379,10 @@ it('shows Spanish matches from other topics while keeping the selected filter', 
   expect(
     screen.getByRole('button', { name: 'Saludos y comunicación' }).getAttribute('aria-expanded'),
   ).toBe('false');
-  expect(container.querySelector('.meaning mark')?.textContent).toBe('canción');
-  expect(container.querySelector('.empty')).toBeNull();
+  expect(container.querySelector(`.${dictionaryCardStyles['meaning']} mark`)?.textContent).toBe(
+    'canción',
+  );
+  expect(container.querySelector(`.${emptyResultsStyles['empty']}`)).toBeNull();
 });
 
 it('switches directly from the topic chooser to newest-first addition dates across topics', () => {
@@ -343,19 +394,23 @@ it('switches directly from the topic chooser to newest-first addition dates acro
   fireEvent.click(topics);
   fireEvent.click(screen.getByRole('button', { name: 'По дате добавления' }));
   expect(topics.getAttribute('aria-expanded')).toBe('false');
-  const sections = [...container.querySelectorAll('main .section')];
+  const sections = [...container.querySelectorAll(`main .${dictionarySectionStyles['section']}`)];
   expect(sections.map((section) => section.querySelector('h3')?.textContent)).toEqual(
     dates.map((date) => formatUpdatedDate(date)),
   );
   sections.forEach((section, i) => {
-    expect([...section.querySelectorAll('.meaning')].map((el) => el.textContent)).toEqual(
+    expect(
+      [...section.querySelectorAll(`.${dictionaryCardStyles['meaning']}`)].map(
+        (el) => el.textContent,
+      ),
+    ).toEqual(
       entries
         .filter((entry) => entry.addedAt === dates[i])
         .map((entry) => ru.entries[entry.id as keyof typeof ru.entries].meaning),
     );
   });
   fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'תודה' } });
-  const matchingCount = container.querySelectorAll('.card').length;
+  const matchingCount = container.querySelectorAll(`.${dictionaryCardStyles['card']}`).length;
   expect(matchingCount).toBeGreaterThan(0);
   expect(matchingCount).toBeLessThan(entries.length);
   fireEvent.click(screen.getByRole('button', { name: 'Язык интерфейса' }));
@@ -363,7 +418,9 @@ it('switches directly from the topic chooser to newest-first addition dates acro
   expect(
     screen.getByRole('button', { name: 'Por fecha de incorporación', pressed: true }),
   ).toBeTruthy();
-  expect(container.querySelectorAll('.card')).toHaveLength(matchingCount);
+  expect(container.querySelectorAll(`.${dictionaryCardStyles['card']}`)).toHaveLength(
+    matchingCount,
+  );
   fireEvent.click(topics);
   expect(topics.getAttribute('aria-expanded')).toBe('true');
   expect(container.querySelector('main h3')?.textContent).toBe(
@@ -403,18 +460,28 @@ it.each([false, true])(
     const total = dictionary.sections.reduce((sum, section) => sum + section.entries.length, 0);
     const firstMeaning =
       ru.entries[dictionary.sections[0].entries[0].id as keyof typeof ru.entries].meaning;
-    expect(container.querySelector('.meaning')?.textContent).toBe(firstMeaning);
-    expect(container.querySelectorAll('.card').length).toBeLessThan(total);
-    const scroller = container.querySelector<HTMLElement>('.dictionary-scroll')!;
+    expect(container.querySelector(`.${dictionaryCardStyles['meaning']}`)?.textContent).toBe(
+      firstMeaning,
+    );
+    expect(container.querySelectorAll(`.${dictionaryCardStyles['card']}`).length).toBeLessThan(
+      total,
+    );
+    const scroller = container.querySelector<HTMLElement>(`.${appStyles['dictionary-scroll']}`)!;
     const scroll = (top: number) => {
       if (touch) scroller.scrollTop = top;
       else vi.stubGlobal('scrollY', top);
       fireEvent.scroll(touch ? scroller : window);
     };
     scroll(4000);
-    expect(container.querySelector('.meaning')?.textContent).not.toBe(firstMeaning);
-    expect(container.querySelectorAll('.card').length).toBeGreaterThan(0);
+    expect(container.querySelector(`.${dictionaryCardStyles['meaning']}`)?.textContent).not.toBe(
+      firstMeaning,
+    );
+    expect(container.querySelectorAll(`.${dictionaryCardStyles['card']}`).length).toBeGreaterThan(
+      0,
+    );
     scroll(0);
-    expect(container.querySelector('.meaning')?.textContent).toBe(firstMeaning);
+    expect(container.querySelector(`.${dictionaryCardStyles['meaning']}`)?.textContent).toBe(
+      firstMeaning,
+    );
   },
 );

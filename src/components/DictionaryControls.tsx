@@ -1,3 +1,5 @@
+import layoutStyles from '../Layout.module.css';
+import styles from './DictionaryControls.module.css';
 import { DisplayControls } from './DisplayControls';
 import type { Topic } from '../types';
 import type { ChangeEventHandler, PointerEventHandler, RefObject } from 'react';
@@ -38,8 +40,15 @@ export const DictionaryControls = ({
   onTopicSelect,
 }: DictionaryControlsProps) => {
   return (
-    <div className="sticky-controls" ref={controlsRef} onPointerDownCapture={onPointerDownCapture}>
-      <fieldset className="wrap controls-fieldset" disabled={disabled}>
+    <div
+      className={styles['sticky-controls']}
+      ref={controlsRef}
+      onPointerDownCapture={onPointerDownCapture}
+    >
+      <fieldset
+        className={layoutStyles['wrap'] + ' ' + styles['controls-fieldset']}
+        disabled={disabled}
+      >
         <SearchField query={query} onChange={onQueryChange} onClear={onQueryClear} />
         <DisplayControls
           showNiqqud={showNiqqud}

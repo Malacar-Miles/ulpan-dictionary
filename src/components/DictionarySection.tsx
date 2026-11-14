@@ -1,15 +1,16 @@
+import styles from './DictionarySection.module.css';
 import { memo } from 'react';
 import type { DictionaryEntry, DictionarySection as Section } from '../types';
 import { DictionaryCard } from './DictionaryCard';
 
 export const SectionHeading = memo(({ section }: { section: Section }) => (
   <>
-    <div className="section-title">
+    <div className={styles['section-title']}>
       <h3>{section.title}</h3>
       <span>{section.entries.length}</span>
       <div />
     </div>
-    {section.note && <p className="section-note">{section.note}</p>}
+    {section.note && <p className={styles['section-note']}>{section.note}</p>}
   </>
 ));
 
@@ -24,7 +25,7 @@ export const EntryGrid = memo(
     query: string;
     showNiqqud: boolean;
   }) => (
-    <div className="grid">
+    <div className={styles['grid']}>
       {entries.map((entry) => (
         <DictionaryCard key={entry.id} entry={entry} query={query} showNiqqud={showNiqqud} />
       ))}
@@ -36,7 +37,7 @@ export type SectionListProps = { sections: Section[]; query: string; showNiqqud:
 
 export const DictionarySections = ({ sections, ...display }: SectionListProps) =>
   sections.map((section) => (
-    <section key={section.id} className="section">
+    <section key={section.id} className={styles['section']}>
       <SectionHeading section={section} />
       <EntryGrid entries={section.entries} {...display} />
     </section>

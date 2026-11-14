@@ -1,3 +1,4 @@
+import dictionaryCardStyles from '../src/components/DictionaryCard.module.css';
 // @vitest-environment jsdom
 import { afterEach, expect, it, vi } from 'vitest';
 import { cleanup, fireEvent, render, screen } from '@testing-library/react';
@@ -52,7 +53,7 @@ it('updates virtual positioning without rerendering cards, while content and loc
   const locale = { locale: 'ru' as const, setLocale: vi.fn() };
   const view = (query = '', showNiqqud = true) => (
     <LocaleContext.Provider value={locale}>
-      <div className="dictionary-scroll">
+      <div data-dictionary-scroll>
         <main>
           <VirtualDictionarySections sections={sections} query={query} showNiqqud={showNiqqud} />
         </main>
@@ -84,5 +85,5 @@ it('updates virtual positioning without rerendering cards, while content and loc
   expect(
     screen.getByRole('button', { name: 'Формы слова ללמוד' }).getAttribute('aria-expanded'),
   ).toBe('true');
-  expect(container.querySelector('.hebrew')?.textContent).toBe('ללמוד');
+  expect(container.querySelector(`.${dictionaryCardStyles['hebrew']}`)?.textContent).toBe('ללמוד');
 });

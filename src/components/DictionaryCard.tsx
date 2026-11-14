@@ -1,3 +1,4 @@
+import styles from './DictionaryCard.module.css';
 import { useId, useState } from 'react';
 import { useLocale } from '../localization/context';
 import type { DictionaryEntry, FormRow } from '../types';
@@ -27,11 +28,11 @@ export const DictionaryCard = ({ entry, query, showNiqqud }: DictionaryCardProps
     const { visible, alternate } = getEntrySpellings(row, query, showNiqqud);
     return (
       <>
-        <span className="hebrew" lang="he" dir="rtl">
+        <span className={styles['hebrew']} lang="he" dir="rtl">
           <Highlight text={visible} query={query} />
         </span>
         {alternate && (
-          <span className="alternate-spelling">
+          <span className={styles['alternate-spelling']}>
             {showNiqqud ? messages.withoutNiqqud : messages.withNiqqud}{' '}
             <b lang="he" dir="rtl">
               <Highlight text={alternate} query={query} />
@@ -43,7 +44,11 @@ export const DictionaryCard = ({ entry, query, showNiqqud }: DictionaryCardProps
   };
   return (
     <article
-      className={'card' + (expandable ? ' expandable' : '') + (animate ? ' animate-forms' : '')}
+      className={
+        styles['card'] +
+        (expandable ? ' ' + styles['expandable'] : '') +
+        (animate ? ' ' + styles['animate-forms'] : '')
+      }
       onClick={(event) => {
         if (
           expandable &&
@@ -54,9 +59,9 @@ export const DictionaryCard = ({ entry, query, showNiqqud }: DictionaryCardProps
       }}
     >
       {expandable && (
-        <div className="forms-toggle">
+        <div className={styles['forms-toggle']}>
           <button
-            className="forms-trigger"
+            className={styles['forms-trigger']}
             aria-expanded={open}
             aria-controls={id}
             aria-label={(locale === 'ru' ? 'Формы слова ' : 'Formas de ') + defaultRow.hebrew}
@@ -83,16 +88,16 @@ export const DictionaryCard = ({ entry, query, showNiqqud }: DictionaryCardProps
         open={open}
         summary={
           <>
-            <div className="card-top">{hebrew(defaultRow)}</div>
-            <p className="pronunciation">
+            <div className={styles['card-top']}>{hebrew(defaultRow)}</div>
+            <p className={styles['pronunciation']}>
               <Highlight text={defaultRow.pronunciation} query={query} />
             </p>
           </>
         }
       >
-        <div className="forms-header">
+        <div className={styles['forms-header']}>
           {entry.root !== undefined && (
-            <div className="card-roots">
+            <div className={styles['card-roots']}>
               {messages.root}{' '}
               {entry.root === null ? (
                 messages.rootUnlisted
@@ -104,7 +109,7 @@ export const DictionaryCard = ({ entry, query, showNiqqud }: DictionaryCardProps
             </div>
           )}
         </div>
-        <div className="forms-grid" role="table">
+        <div className={styles['forms-grid']} role="table">
           <div className="sr-only" role="row">
             {(locale === 'ru'
               ? ['Иврит', 'Произношение', 'Форма']
@@ -116,9 +121,9 @@ export const DictionaryCard = ({ entry, query, showNiqqud }: DictionaryCardProps
             ))}
           </div>
           {rows.map((row) => (
-            <div key={row.key} role="row" className="form-row">
+            <div key={row.key} role="row" className={styles['form-row']}>
               <div role="cell">{hebrew(row)}</div>
-              <div role="cell" className="pronunciation">
+              <div role="cell" className={styles['pronunciation']}>
                 <Highlight text={row.pronunciation} query={query} />
               </div>
               <div role="cell">
@@ -134,8 +139,8 @@ export const DictionaryCard = ({ entry, query, showNiqqud }: DictionaryCardProps
           ))}
         </div>
       </CollapseSwap>
-      <div className="card-rule" />
-      <p className="meaning">
+      <div className={styles['card-rule']} />
+      <p className={styles['meaning']}>
         <Highlight text={entry.meaning} query={query} />
       </p>
     </article>

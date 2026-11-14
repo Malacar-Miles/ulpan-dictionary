@@ -1,0 +1,69 @@
+.eyebrow {
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  color: #648177;
+  font-weight: 800;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin: 0;
+}
+.eyebrow span {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--color-accent);
+}
+.results-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 30px;
+}
+.results-meta {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.records-caption {
+  text-align: right;
+  font-size: 11px;
+  font-weight: 500;
+  color: #718d80;
+}
+.results-head h2 {
+  font-size: 25px;
+  letter-spacing: -0.04em;
+  margin: 0;
+  color: #243f35;
+}
+.results-head > p {
+  font-size: 12px;
+  color: var(--color-muted);
+  margin: 0 0 3px;
+}
+.results-head strong {
+  color: #365e4d;
+}
+
+.search-fallback-notice {
+  margin: 0 0 16px;
+  padding: 10px 14px;
+  border: 1px solid var(--color-accent);
+  border-radius: var(--radius-control);
+  background: #f7eadc;
+  color: #80502c;
+}
+@media (max-width: 470px) {
+  .results-head h2 {
+    font-size: 21px;
+  }
+  .results-head {
+    gap: 10px;
+  }
+  .results-head > p {
+    white-space: nowrap;
+  }
+}

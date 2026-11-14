@@ -1,0 +1,35 @@
+/* The card provides timings only after a manual toggle. Search changes stay instant. */
+.collapse-swap-panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  visibility: hidden;
+}
+.collapse-swap-panel.is-active {
+  grid-template-rows: 1fr;
+  visibility: visible;
+}
+.collapse-swap-content {
+  min-height: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+.collapse-swap-panel.is-active > .collapse-swap-content {
+  opacity: 1;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .collapse-swap-panel {
+    transition:
+      grid-template-rows var(--forms-resize-duration, 0ms) ease-in-out
+        var(--forms-resize-delay, 0ms),
+      visibility 0s var(--forms-fade-duration, 0ms);
+  }
+  .collapse-swap-panel.is-active {
+    transition-delay: var(--forms-resize-delay, 0ms), 0s;
+  }
+  .collapse-swap-content {
+    transition: opacity var(--forms-fade-duration, 0ms) ease-out;
+  }
+  .collapse-swap-panel.is-active > .collapse-swap-content {
+    transition-delay: var(--forms-reveal-delay, 0ms);
+  }
+}

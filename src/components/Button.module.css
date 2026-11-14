@@ -1,0 +1,13 @@
+.button {
+  border: 1px solid #d1e0d6;
+  border-radius: var(--radius-control);
+  background: var(--color-control);
+  padding: 9px 12px;
+  color: var(--color-control-text);
+  font: 600 11px var(--font-ui);
+  cursor: pointer;
+}
+.button:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+}

@@ -1,0 +1,74 @@
+.niqqud-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 8px;
+  justify-content: space-between;
+}
+.display-toggles {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.niqqud-toggle,
+.handwriting-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--color-toggle-text);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.niqqud-toggle input,
+.handwriting-toggle input {
+  width: 17px;
+  height: 17px;
+  accent-color: var(--color-primary);
+  margin: 0;
+}
+
+.language-menu-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 9px;
+  background: transparent;
+  color: var(--color-toggle-text);
+  cursor: pointer;
+}
+.language-menu-button[aria-expanded='true'] {
+  background: var(--color-control);
+  border-color: var(--color-control-border);
+}
+.language-menu-button:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+}
+.language-options {
+  display: flex;
+  justify-content: flex-end;
+  padding: 8px 4px 4px;
+}
+@media (max-width: 750px) {
+  .niqqud-row {
+    margin-top: 11px;
+  }
+}
+@media (max-width: 470px) {
+  .niqqud-row {
+    margin-top: 0;
+  }
+}
+
+@media (any-hover: hover) {
+  .language-menu-button:hover {
+    background: var(--color-control);
+    border-color: var(--color-control-border);
+  }
+}

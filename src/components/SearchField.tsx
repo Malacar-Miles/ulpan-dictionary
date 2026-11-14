@@ -1,3 +1,4 @@
+import styles from './SearchField.module.css';
 import { useSearchClear } from '../hooks/useSearchClear';
 import { useSearchHintWidth } from '../hooks/useSearchHintWidth';
 import { useLocale } from '../localization/context';
@@ -12,7 +13,10 @@ export const SearchField = ({ query, onChange, onClear }: SearchFieldProps) => {
   const { inputRef, preserveInputFocus, clear } = useSearchClear(onClear);
   const { wrapperRef, hintRef } = useSearchHintWidth();
   return (
-    <div className={`search-wrap${query ? ' has-query' : ''}`} ref={wrapperRef}>
+    <div
+      className={styles['search-wrap'] + (query ? ' ' + styles['has-query'] : '')}
+      ref={wrapperRef}
+    >
       <svg aria-hidden="true" width="21" height="21" viewBox="0 0 24 24" fill="none">
         <circle cx="10.8" cy="10.8" r="6.8" stroke="currentColor" strokeWidth="1.8" />
         <path d="m16 16 4.2 4.2" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
@@ -30,13 +34,13 @@ export const SearchField = ({ query, onChange, onClear }: SearchFieldProps) => {
         autoComplete="off"
         enterKeyHint="done"
       />
-      <span className="search-hint" ref={hintRef} hidden={Boolean(query)}>
+      <span className={styles['search-hint']} ref={hintRef} hidden={Boolean(query)}>
         {messages.searchHint}
       </span>
       {query && (
         <button
           type="button"
-          className="search-clear"
+          className={styles['search-clear']}
           aria-label={messages.clearSearch}
           onPointerDown={preserveInputFocus}
           onClick={clear}

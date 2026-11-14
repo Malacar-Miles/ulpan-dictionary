@@ -1,3 +1,4 @@
+import styles from './VirtualDictionarySections.module.css';
 import { useCallback, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { useTouchScroller } from '../useSearchViewport';
 import { useVirtualizer, useWindowVirtualizer } from '@tanstack/react-virtual';
@@ -33,7 +34,7 @@ export const VirtualDictionarySections = ({ sections, ...display }: SectionListP
   useLayoutEffect(() => {
     const element = list.current!;
     const main = element.closest('main')!;
-    const scroller = element.closest<HTMLElement>('.dictionary-scroll')!;
+    const scroller = element.closest<HTMLElement>('[data-dictionary-scroll]')!;
     const update = () => {
       setColumns(Number(getComputedStyle(element).getPropertyValue('--card-columns')) || 3);
       const top = element.getBoundingClientRect().top;
@@ -70,22 +71,30 @@ export const VirtualDictionarySections = ({ sections, ...display }: SectionListP
   const pane = useVirtualizer<HTMLElement, HTMLDivElement>({
     ...options,
     enabled: touchScroller,
-    getScrollElement: () => list.current?.closest<HTMLElement>('.dictionary-scroll') ?? null,
+    getScrollElement: () => list.current?.closest<HTMLElement>('[data-dictionary-scroll]') ?? null,
   });
   const virtualizer = touchScroller ? pane : page;
 
   return (
-    <div className="virtual-sections" ref={list} style={{ height: virtualizer.getTotalSize() }}>
+    <div
+      className={styles['virtual-sections']}
+      ref={list}
+      style={{ height: virtualizer.getTotalSize() }}
+    >
       {virtualizer.getVirtualItems().map((item) => {
         const row = rows[item.index];
         const spacing =
-          'section' in row ? '' : row.last ? ' virtual-section-end' : ' virtual-card-row';
+          'section' in row
+            ? ''
+            : row.last
+              ? ' ' + styles['virtual-section-end']
+              : ' ' + styles['virtual-card-row'];
         return (
           <div
             key={item.key}
             data-index={item.index}
             ref={virtualizer.measureElement}
-            className={'virtual-row' + spacing}
+            className={styles['virtual-row'] + spacing}
             style={{ transform: `translateY(${item.start - scrollMargin}px)` }}
           >
             {'section' in row ? (

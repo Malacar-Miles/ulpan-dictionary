@@ -1,0 +1,36 @@
+.sticky-controls {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--header-background);
+  border-bottom: 1px solid #d3dfd8;
+  padding-top: 12px;
+  box-shadow: 0 5px 16px #294d3d0d;
+}
+
+.controls-fieldset {
+  border: 0;
+  min-inline-size: 0;
+  padding-block: 0;
+}
+.controls-fieldset:disabled {
+  opacity: 0.55;
+}
+.controls-fieldset:disabled :is(button, input) {
+  cursor: wait;
+}
+@media (max-width: 750px) {
+  .sticky-controls {
+    padding-top: 10px;
+  }
+}
+@media (pointer: coarse) {
+  .sticky-controls {
+    max-height: 60%;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+  .sticky-controls:has([data-topic-trigger][aria-expanded='true']) {
+    max-height: 100%;
+  }
+}

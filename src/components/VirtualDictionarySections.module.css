@@ -1,0 +1,14 @@
+.virtual-sections {
+  position: relative;
+}
+.virtual-row {
+  position: absolute;
+  inset: 0 0 auto;
+  display: flow-root;
+}
+.virtual-card-row {
+  padding-bottom: var(--grid-gap);
+}
+.virtual-section-end {
+  padding-bottom: var(--section-gap);
+}

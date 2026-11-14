@@ -1,0 +1,24 @@
+.empty {
+  text-align: center;
+  padding: 55px 12px 70px;
+  color: #788c7f;
+}
+.empty > span {
+  font-size: 45px;
+  color: #adc9b8;
+}
+.empty h3 {
+  color: #315243;
+  margin: 10px;
+}
+.empty p {
+  font-size: 13px;
+}
+.empty button {
+  margin-top: 8px;
+}
+@media (max-width: 750px) {
+  .empty {
+    padding-top: 0;
+  }
+}

@@ -96,3 +96,34 @@ Latin phonetics follow [the student's approved conventions](docs/student-latin-p
 
 Set `VIRTUALIZE_RESULTS` in [src/config.ts](src/config.ts) to `true` for virtualized
 rows or `false` for the full grid. The next build uses that value.
+
+## Styling and visual regression
+
+Keep vanilla CSS. `src/style.css` contains font registration, shared design tokens,
+base document/scroll behavior, and the screen-reader utility. Component styles live
+in adjacent `*.module.css` files. `App.module.css` owns the page and loading states;
+`Layout.module.css` shares the header/control wrapper. The two display toggles share
+`DisplayControls.module.css`, and topic/reset buttons share `Button.module.css`.
+Section/grid styling is shared by the ordinary and virtualized renderers.
+
+Use custom properties for inherited handwriting and card animation settings.
+`--card-columns` is also read by the virtualizer; preserve its responsive values.
+Behavior hooks use `data-dictionary-scroll` and `data-preserve-search-focus`, rather
+than generated CSS class names. `data-topic-trigger` lets the sticky controls
+respond to the open topic menu without importing the child's stylesheet.
+
+```bash
+npx playwright install chromium
+npm run test:visual
+# Only after reviewing intentional appearance changes:
+npm run test:visual -- --update-snapshots
+```
+
+Playwright snapshots cover desktop, tablet, and touch-mobile layouts in Chromium,
+including Russian/Spanish, topics, forms, handwriting, language menus, and empty
+results. Baselines were captured before the CSS Modules migration on macOS ARM64;
+use the same OS and installed Playwright version for pixel comparisons. Fonts load
+before screenshots and reduced motion makes snapshots stable. Google Fonts still
+requires network access, as in the application. Browser interaction checks exercise
+normal motion and scroll behavior separately. These tests do not replace physical
+iPhone keyboard and standalone-mode verification.

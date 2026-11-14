@@ -1,0 +1,107 @@
+.search-wrap {
+  --search-padding: 19px;
+  --search-icon-gap: 14px;
+  --search-hint-space: 0px;
+  position: relative;
+  height: 60px;
+  border-radius: var(--radius-card);
+  color: var(--color-search-icon);
+  box-shadow: 0 4px 18px #496b5910;
+}
+.search-wrap > svg {
+  position: absolute;
+  left: calc(var(--search-padding) + 1px);
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+.search-wrap:focus-within {
+  outline: 2px solid var(--color-search-focus);
+}
+.search-wrap input {
+  /* Keep Safari's native search-field sizing from overriding the padded box. */
+  -webkit-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  border: 1px solid #d9e4dd;
+  border-radius: inherit;
+  outline: 0;
+  background: white;
+  min-width: 0;
+  padding: 0 calc(var(--search-padding) + var(--search-hint-space) + 2px) 0
+    calc(var(--search-padding) + 21px + var(--search-icon-gap) + 2px);
+  color: #28453b;
+  font: 500 14px var(--font-ui);
+  -webkit-user-select: text;
+  user-select: text;
+}
+.search-wrap input::placeholder {
+  color: #99aba2;
+}
+.search-hint {
+  position: absolute;
+  right: calc(var(--search-padding) + 1px);
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  white-space: nowrap;
+  font-size: 9px;
+  letter-spacing: 0.09em;
+  color: #a3b5aa;
+  font-weight: 700;
+}
+.search-wrap input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  display: none;
+}
+.search-wrap.has-query input {
+  padding-right: 52px;
+}
+.search-clear {
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-control);
+  color: var(--color-search-icon);
+  background: transparent;
+  cursor: pointer;
+}
+.search-clear:focus-visible {
+  outline: 2px solid var(--color-search-focus);
+  outline-offset: -3px;
+}
+@media (max-width: 750px) {
+  .search-hint {
+    display: none;
+  }
+  .search-wrap input {
+    /* The desktop hint must never consume the mobile text/clear-button area. */
+    padding-right: calc(var(--search-padding) + 2px);
+  }
+  .search-wrap {
+    height: 52px;
+  }
+}
+@media (max-width: 470px) {
+  .search-wrap {
+    --search-padding: 10px;
+    --search-icon-gap: 9px;
+  }
+}
+@media (max-width: 750px), (pointer: coarse) {
+  .search-wrap input {
+    font-size: 16px;
+  }
+}

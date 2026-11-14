@@ -1,3 +1,4 @@
+import styles from './Highlight.module.css';
 import { useLocale } from '../localization/context';
 import { getHighlightSegments } from '../helpers/highlight';
 
@@ -7,7 +8,13 @@ export const Highlight = ({ text, query }: HighlightProps) => {
   return (
     <>
       {getHighlightSegments(text, query, locale).map((segment) =>
-        segment.highlighted ? <mark key={segment.start}>{segment.text}</mark> : segment.text,
+        segment.highlighted ? (
+          <mark className={styles['highlight']} key={segment.start}>
+            {segment.text}
+          </mark>
+        ) : (
+          segment.text
+        ),
       )}
     </>
   );

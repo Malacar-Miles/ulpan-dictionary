@@ -8,7 +8,7 @@ const preserveSearchFocus = (event: PointerEvent<HTMLDivElement>) => {
     event.pointerType === 'touch' &&
     document.activeElement?.id === 'search' &&
     event.target instanceof Element &&
-    event.target.closest('button, .niqqud-toggle, .handwriting-toggle')
+    event.target.closest('button, [data-preserve-search-focus]')
   )
     event.preventDefault();
 };

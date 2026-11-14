@@ -1,3 +1,4 @@
+import styles from './Collapse.module.css';
 import type { ReactNode } from 'react';
 import type { useCollapse } from '../hooks/useCollapse';
 
@@ -10,13 +11,13 @@ export const Collapse = ({ isOpen, panelId, panelRef, close, children }: Collaps
   <div
     id={panelId}
     ref={panelRef}
-    className={isOpen ? 'collapse is-open' : 'collapse'}
+    className={isOpen ? styles['collapse'] + ' ' + styles['is-open'] : styles['collapse']}
     aria-hidden={!isOpen}
     inert={!isOpen}
     onKeyDown={(event) => {
       if (event.key === 'Escape') close();
     }}
   >
-    <div className="collapse-content">{children}</div>
+    <div className={styles['collapse-content']}>{children}</div>
   </div>
 );

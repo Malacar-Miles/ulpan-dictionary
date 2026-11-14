@@ -1,3 +1,4 @@
+import dictionaryCardStyles from '../src/components/DictionaryCard.module.css';
 // @vitest-environment jsdom
 import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
 import { afterEach, beforeEach, expect, it, vi } from 'vitest';
@@ -76,31 +77,35 @@ it('loads only core and the selected locale after mount, disables controls until
     expect.stringContaining('.ru.json'),
   ]);
   expect(screen.getByRole('status').textContent).toBe('Загрузка словаря…');
-  expect(container.querySelector('.card')).toBeNull();
+  expect(container.querySelector(`.${dictionaryCardStyles['card']}`)).toBeNull();
   expect(container.querySelector('header')?.hasAttribute('inert')).toBe(true);
   for (const control of container.querySelectorAll('button, input'))
     expect(control.matches(':disabled')).toBe(true);
   await respond(1, ru);
   expect(screen.getByRole('status')).toBeTruthy();
   await respond(0, core);
-  expect(container.querySelector('.card')).toBeTruthy();
+  expect(container.querySelector(`.${dictionaryCardStyles['card']}`)).toBeTruthy();
   expect(screen.getByRole('searchbox').matches(':disabled')).toBe(false);
   fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'תודה' } });
   fireEvent.click(screen.getByRole('button', { name: 'Язык интерфейса' }));
   fireEvent.click(screen.getByRole('button', { name: 'Español' }));
   expect(requests).toHaveLength(3);
   expect(requests[2].url).toContain('.es.json');
-  expect(container.querySelector('.card')).toBeNull();
+  expect(container.querySelector(`.${dictionaryCardStyles['card']}`)).toBeNull();
   expect(screen.getByRole('status').textContent).toBe('Cargando el diccionario…');
   for (const control of container.querySelectorAll('button, input'))
     expect(control.matches(':disabled')).toBe(true);
   await respond(2, es);
-  expect(container.querySelector('.meaning')?.textContent).toContain('gracias');
+  expect(container.querySelector(`.${dictionaryCardStyles['meaning']}`)?.textContent).toContain(
+    'gracias',
+  );
   expect((screen.getByRole('searchbox') as HTMLInputElement).value).toBe('תודה');
   fireEvent.click(screen.getByRole('button', { name: 'Idioma de la interfaz' }));
   fireEvent.click(screen.getByRole('button', { name: 'Русский' }));
   expect(screen.queryByRole('status')).toBeNull();
-  expect(container.querySelector('.meaning')?.textContent).toContain('спасибо');
+  expect(container.querySelector(`.${dictionaryCardStyles['meaning']}`)?.textContent).toContain(
+    'спасибо',
+  );
   expect(requests).toHaveLength(3);
 });
 

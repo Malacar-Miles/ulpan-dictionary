@@ -1,0 +1,7 @@
+.highlight {
+  background: #f7dfaa;
+  color: inherit;
+  border-radius: 3px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}

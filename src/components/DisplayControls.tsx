@@ -1,3 +1,4 @@
+import styles from './DisplayControls.module.css';
 import type { ChangeEventHandler } from 'react';
 import { useCollapse } from '../hooks/useCollapse';
 import { Collapse } from './Collapse';
@@ -23,13 +24,13 @@ export const DisplayControls = ({
   const { isOpen, panelId, buttonRef, panelRef, toggle, close } = useCollapse();
   return (
     <>
-      <div className="niqqud-row">
-        <div className="display-toggles">
+      <div className={styles['niqqud-row']}>
+        <div className={styles['display-toggles']}>
           <NiqqudToggle checked={showNiqqud} onChange={onNiqqudChange} />
           <HandwritingToggle checked={handwriting} onChange={onHandwritingChange} />
         </div>
         <button
-          className="language-menu-button"
+          className={styles['language-menu-button']}
           type="button"
           ref={buttonRef}
           aria-label={messages.language}
@@ -53,7 +54,7 @@ export const DisplayControls = ({
         </button>
       </div>
       <Collapse isOpen={isOpen} panelId={panelId} panelRef={panelRef} close={close}>
-        <div className="language-options">
+        <div className={styles['language-options']}>
           <LanguageSwitcher
             onSelect={(locale) => {
               setLocale(locale);

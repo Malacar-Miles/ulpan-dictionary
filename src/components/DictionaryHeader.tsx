@@ -1,12 +1,14 @@
+import layoutStyles from '../Layout.module.css';
+import styles from './DictionaryHeader.module.css';
 import { useLocale } from '../localization/context';
 export const DictionaryHeader = ({ disabled = false }: { disabled?: boolean }) => {
   const { messages } = useLocale();
   return (
-    <header id="top" className="header" inert={disabled}>
-      <div className="wrap">
-        <div className="topline">
-          <a className="brand" href="#top" aria-label={messages.backToTop}>
-            <span className="brand-icon" aria-hidden="true">
+    <header id="top" className={styles['header']} inert={disabled}>
+      <div className={layoutStyles['wrap']}>
+        <div className={styles['topline']}>
+          <a className={styles['brand']} href="#top" aria-label={messages.backToTop}>
+            <span className={styles['brand-icon']} aria-hidden="true">
               א
             </span>
             <span>
@@ -14,8 +16,8 @@ export const DictionaryHeader = ({ disabled = false }: { disabled?: boolean }) =
             </span>
           </a>
         </div>
-        <div className="heading">
-          <p className="intro-text">{messages.introduction}</p>
+        <div className={styles['heading']}>
+          <p className={styles['intro-text']}>{messages.introduction}</p>
         </div>
       </div>
     </header>

@@ -1,3 +1,4 @@
+import styles from './DictionaryResults.module.css';
 import { memo } from 'react';
 import { VIRTUALIZE_RESULTS } from '../config';
 import { useLocale } from '../localization/context';
@@ -33,17 +34,17 @@ export const DictionaryResults = memo(
     return (
       <>
         {showFallbackNotice && (
-          <p className="search-fallback-notice" role="status">
+          <p className={styles['search-fallback-notice']} role="status">
             {messages.searchFallbackNotice}
           </p>
         )}
-        <div className="results-meta">
-          <p className="eyebrow">
+        <div className={styles['results-meta']}>
+          <p className={styles['eyebrow']}>
             <span></span> {messages.dictionary}
           </p>
-          <span className="records-caption">{messages.records(total, updated)}</span>
+          <span className={styles['records-caption']}>{messages.records(total, updated)}</span>
         </div>
-        <div className="results-head">
+        <div className={styles['results-head']}>
           <h2>{title}</h2>
           <p aria-live="polite">
             {messages.found} <strong>{count}</strong>
