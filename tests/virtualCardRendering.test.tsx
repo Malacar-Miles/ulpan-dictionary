@@ -51,12 +51,18 @@ it('updates virtual positioning without rerendering cards, while content and exp
   )!;
   const sections = [{ ...section, entries: section.entries.slice(0, 3) }];
   const locale = { locale: 'ru' as const, setLocale: vi.fn() };
+  const selection = {
+    selectedIds: new Set<string>(),
+    onToggleCard: () => {},
+    onToggleSection: () => {},
+  };
   const view = (query = '', showNiqqud = true) => (
     <LocaleContext.Provider value={locale}>
       <div data-dictionary-scroll>
         <main>
           <DictionaryResults
             sections={sections}
+            {...selection}
             query={query}
             showNiqqud={showNiqqud}
             activeTopic="verbs"

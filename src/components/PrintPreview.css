@@ -1,0 +1,198 @@
+.print-preview {
+  width: min(960px, calc(100% - 24px));
+  max-height: 90dvh;
+  padding: 0;
+  border: 1px solid #789488;
+  border-radius: 12px;
+  background: #f2f4f1;
+  color: #222;
+  overflow: auto;
+  overscroll-behavior: contain;
+  font-family: Arial, sans-serif;
+  user-select: text;
+  -webkit-user-select: text;
+}
+.print-preview::backdrop {
+  background: #14291fb3;
+}
+.print-preview-controls {
+  padding: 16px;
+  background: white;
+}
+.print-preview-toolbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.print-preview-toolbar h2 {
+  flex: 1;
+  font-size: 18px;
+  margin: 0;
+}
+.print-preview-toolbar > span {
+  margin-right: auto;
+}
+.print-preview button {
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 1px solid #789488;
+  border-radius: 8px;
+  background: white;
+  color: #274e3e;
+  font: inherit;
+  cursor: pointer;
+}
+.print-preview button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.print-preview button:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+}
+.print-preview-print {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.print-preview-settings {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  margin-block: 12px;
+}
+.print-preview-settings label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  cursor: pointer;
+  font-size: 13px;
+}
+.print-preview-settings input {
+  accent-color: var(--color-primary);
+}
+.print-preview-hint {
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 12px 0 0;
+  color: #526157;
+}
+.print-preview-scroll {
+  overflow-x: auto;
+  padding: 12px;
+}
+.print-sheet {
+  width: 190mm;
+  margin: auto;
+  background: white;
+  color: #111;
+  font-family: Arial, sans-serif;
+  font-size: 8pt;
+  line-height: 1.4;
+}
+.print-card-row {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 2mm;
+  margin-bottom: 2mm;
+  break-inside: avoid;
+}
+.print-card {
+  min-width: 0;
+  min-height: 30mm;
+  padding: 2mm;
+  border: 0.2mm dashed #999;
+  overflow-wrap: anywhere;
+}
+.print-card p {
+  margin: 0;
+}
+.print-card-hebrew {
+  font-family: Arial, sans-serif;
+  font-size: 16pt;
+  line-height: 1.5;
+  text-align: right;
+}
+.print-handwritten .print-card-hebrew,
+.print-handwritten .print-card-root bdi {
+  font-family: 'Gveret Levin', Arial, sans-serif;
+  font-weight: 400;
+}
+.print-card[data-expanded='true'] .print-card-hebrew {
+  font-size: 13pt;
+}
+.print-card-form {
+  padding-block: 1mm;
+}
+.print-card-form + .print-card-form {
+  border-top: 0.2mm solid #ddd;
+}
+.print-card .print-card-pronunciation {
+  margin-top: 0.5mm;
+}
+.print-card .print-card-grammar,
+.print-card .print-card-root {
+  font-size: 7pt;
+  color: #444;
+}
+.print-card .print-card-meaning {
+  margin-top: 1mm;
+  padding-top: 1mm;
+  border-top: 0.2mm solid #aaa;
+}
+/* The largest paradigm needs tighter spacing to fit intact on an A4 page. */
+.print-card-row[data-dense='true'] {
+  font-size: 7.5pt;
+  line-height: 1.3;
+}
+.print-card-row[data-dense='true'] .print-card-hebrew {
+  font-size: 11pt;
+  line-height: 1.35;
+}
+.print-card-row[data-dense='true'] .print-card-form {
+  padding-block: 0.5mm;
+}
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 10mm;
+  }
+  html:has(.print-preview[open]),
+  body:has(.print-preview[open]) {
+    position: static !important;
+    height: auto !important;
+    overflow: visible !important;
+    background: white;
+  }
+  body:has(.print-preview[open]) > :not(.print-preview) {
+    display: none !important;
+  }
+  .print-preview[open] {
+    display: block;
+    position: static;
+    width: auto;
+    max-width: none;
+    height: auto;
+    max-height: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    overflow: visible;
+  }
+  .print-preview::backdrop,
+  .print-preview-controls {
+    display: none;
+  }
+  .print-preview-scroll {
+    overflow: visible;
+    padding: 0;
+  }
+  .print-sheet {
+    width: 100%;
+    margin: 0;
+  }
+}

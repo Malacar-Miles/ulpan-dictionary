@@ -54,6 +54,7 @@ export const useDictionary = () => {
     showFallbackNotice,
     showNiqqud,
     results,
+    sections,
     changeQuery,
     clearQuery,
     changeNiqqud,

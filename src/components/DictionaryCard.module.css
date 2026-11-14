@@ -1,9 +1,10 @@
 .card {
+  position: relative;
   background: #fff;
   border: 1px solid #e8ede6;
   border-radius: var(--radius-card);
   min-height: 150px;
-  padding: 18px 19px;
+  padding: 18px 19px 48px;
   box-shadow: 0 3px 12px #43604b08;
   min-width: 0;
   height: auto;
@@ -154,4 +155,30 @@
   .animate-forms .forms-trigger svg {
     transition: transform var(--forms-total-duration) ease-in-out;
   }
+}
+
+.print-select {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+.print-select input {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  accent-color: var(--color-primary);
+  cursor: pointer;
+}
+.print-select:has(:focus-visible) {
+  outline: 3px solid var(--color-accent);
+  outline-offset: -4px;
+  border-radius: 8px;
+}
+.card:has(.print-select input:checked) {
+  border-color: var(--color-selected-border);
 }

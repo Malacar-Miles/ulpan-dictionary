@@ -1,6 +1,18 @@
 export type Locale = 'ru' | 'es';
 
 type Messages = {
+  printSelected: (count: number) => string;
+  selectForPrint: (word: string) => string;
+  selectSection: string;
+  deselectSection: string;
+  printPreview: string;
+  clearPrintSelection: string;
+  printAction: string;
+  printExpand: string;
+  printClose: string;
+  printHint: string;
+  printFontsLoading: string;
+  printFontsError: string;
   loading: string;
   loadError: string;
   retry: string;
@@ -37,6 +49,20 @@ type Messages = {
 
 export const catalogs: Record<Locale, Messages> = {
   ru: {
+    printSelected: (count) => `Выбрано: ${count}`,
+    selectForPrint: (word) => `Выбрать для печати: ${word}`,
+    selectSection: 'Выбрать все',
+    deselectSection: 'Снять выбор',
+    printPreview: 'Предпросмотр печати',
+    clearPrintSelection: 'Очистить выбор',
+    printAction: 'Печать / Сохранить PDF',
+    printExpand: 'Развернуть все карточки',
+    printClose: 'Закрыть',
+    printHint:
+      'A4 · 5 карточек в ряду. В окне печати отключи колонтитулы браузера и выбери масштаб 100%.',
+    printFontsLoading: 'Подготовка шрифтов…',
+    printFontsError: 'Не удалось загрузить шрифт. Попробуй ещё раз или отключи пропись.',
+
     loading: 'Загрузка словаря…',
     loadError: 'Не удалось загрузить словарь. Проверь подключение и попробуй ещё раз.',
     retry: 'Повторить',
@@ -76,6 +102,21 @@ export const catalogs: Record<Locale, Messages> = {
     },
   },
   es: {
+    printSelected: (count) => `Seleccionadas: ${count}`,
+    selectForPrint: (word) => `Seleccionar para imprimir: ${word}`,
+    selectSection: 'Seleccionar todas',
+    deselectSection: 'Quitar selección',
+    printPreview: 'Vista previa de impresión',
+    clearPrintSelection: 'Borrar selección',
+    printAction: 'Imprimir / Guardar PDF',
+    printExpand: 'Expandir todas las tarjetas',
+    printClose: 'Cerrar',
+    printHint:
+      'A4 · 5 tarjetas por fila. Desactiva los encabezados y pies del navegador y selecciona una escala del 100%.',
+    printFontsLoading: 'Preparando las fuentes…',
+    printFontsError:
+      'No se pudo cargar la fuente. Inténtalo de nuevo o desactiva la letra manuscrita.',
+
     loading: 'Cargando el diccionario…',
     loadError: 'No se pudo cargar el diccionario. Comprueba la conexión e inténtalo de nuevo.',
     retry: 'Reintentar',

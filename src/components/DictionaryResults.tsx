@@ -1,4 +1,5 @@
 import styles from './DictionaryResults.module.css';
+import type { PrintSelectionProps } from '../hooks/usePrintSelection';
 import { memo, useCallback, useState } from 'react';
 import { VIRTUALIZE_RESULTS } from '../config';
 import { useLocale } from '../localization/context';
@@ -17,7 +18,7 @@ type DictionaryResultsProps = {
   activeTopic: string | null;
   showNiqqud: boolean;
   onReset: () => void;
-};
+} & PrintSelectionProps;
 export const DictionaryResults = memo(
   ({
     showFallbackNotice,
@@ -30,6 +31,9 @@ export const DictionaryResults = memo(
     activeTopic,
     showNiqqud,
     onReset,
+    selectedIds,
+    onToggleCard,
+    onToggleSection,
   }: DictionaryResultsProps) => {
     const Sections = VIRTUALIZE_RESULTS ? VirtualDictionarySections : DictionarySections;
     const { messages } = useLocale();
@@ -70,6 +74,9 @@ export const DictionaryResults = memo(
         {sections.length ? (
           <Sections
             sections={sections}
+            selectedIds={selectedIds}
+            onToggleCard={onToggleCard}
+            onToggleSection={onToggleSection}
             query={query}
             showNiqqud={showNiqqud}
             cardChoices={expansion.choices}
