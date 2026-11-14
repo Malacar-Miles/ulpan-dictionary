@@ -2,7 +2,7 @@ import { useEffect, useId, useLayoutEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import type { DictionaryEntry, FormRow } from '../types';
 import { useLocale } from '../localization/context';
-import { buildPrintRows } from '../helpers/printLayout';
+import { buildPrintRows, printCardSpan, printFormColumns } from '../helpers/printLayout';
 import { NiqqudToggle } from './NiqqudToggle';
 import { HandwritingToggle } from './HandwritingToggle';
 import { PrintIcon } from './PrintIcon';
@@ -125,11 +125,7 @@ export const PrintPreview = ({
       <div className="print-preview-scroll">
         <div className={'print-sheet' + (handwriting ? ' print-handwritten' : '')}>
           {rows.map((row) => (
-            <div
-              className="print-card-row"
-              data-dense={expanded && row.some((entry) => entry.rows.length > 8)}
-              key={row[0].id}
-            >
+            <div className="print-card-row" key={row[0].id}>
               {row.map((entry) => {
                 const detailed = expanded && entry.rows.length > 1;
                 return (
@@ -138,6 +134,7 @@ export const PrintPreview = ({
                     key={entry.id}
                     data-print-card={entry.id}
                     data-expanded={detailed}
+                    data-columns={printCardSpan(entry, expanded)}
                   >
                     {detailed && entry.root !== undefined && (
                       <p className="print-card-root">
@@ -151,22 +148,28 @@ export const PrintPreview = ({
                         )}
                       </p>
                     )}
-                    {(detailed ? entry.rows : [entry.defaultRow]).map((form) => (
-                      <div className="print-card-form" key={form.key}>
-                        <div className="print-card-hebrew" lang="he" dir="rtl">
-                          {hebrew(form)}
+                    <div className="print-card-forms">
+                      {printFormColumns(entry, expanded).map((column) => (
+                        <div className="print-card-form-column" key={column[0].key}>
+                          {column.map((form) => (
+                            <div className="print-card-form" key={form.key}>
+                              <div className="print-card-hebrew" lang="he" dir="rtl">
+                                {hebrew(form)}
+                              </div>
+                              <p className="print-card-pronunciation" dir="ltr">
+                                {form.pronunciation}
+                              </p>
+                              {detailed && (
+                                <p className="print-card-grammar" dir="ltr">
+                                  {form.label}
+                                  {form.gloss && <> · {form.gloss}</>}
+                                </p>
+                              )}
+                            </div>
+                          ))}
                         </div>
-                        <p className="print-card-pronunciation" dir="ltr">
-                          {form.pronunciation}
-                        </p>
-                        {detailed && (
-                          <p className="print-card-grammar" dir="ltr">
-                            {form.label}
-                            {form.gloss && <> · {form.gloss}</>}
-                          </p>
-                        )}
-                      </div>
-                    ))}
+                      ))}
+                    </div>
                     <p className="print-card-meaning" dir="ltr">
                       {entry.meaning}
                     </p>

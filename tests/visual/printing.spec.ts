@@ -105,10 +105,33 @@ test('preview defaults, five-column layout, expanded grouping, font readiness an
     await page.pdf({ path: testInfo.outputPath('compact.pdf'), preferCSSPageSize: true });
   await expand.check();
   await expect(dialog.locator('[data-expanded="true"]').first()).toBeVisible();
-  const printKinds = await dialog
-    .locator('[data-print-card]')
-    .evaluateAll((cards) => cards.map((card) => card.getAttribute('data-expanded') === 'true'));
-  expect(printKinds).toEqual([...printKinds].sort((a, b) => Number(b) - Number(a)));
+  const wide = dialog.locator('[data-columns="2"]').first();
+  await expect(wide).toHaveCSS('grid-column-start', 'span 2');
+  await expect(wide.locator('.print-card-form-column')).toHaveCount(2);
+  const geometry = await wide.evaluate((card) => {
+    const columns = [...card.querySelectorAll('.print-card-form-column')];
+    const description = card.querySelector('.print-card-meaning')!.getBoundingClientRect();
+    return {
+      counts: columns.map((column) => column.children.length),
+      descriptionWidth: description.width,
+      formsWidth: card.querySelector('.print-card-forms')!.getBoundingClientRect().width,
+    };
+  });
+  expect(Math.abs(geometry.counts[0] - geometry.counts[1])).toBeLessThanOrEqual(1);
+  expect(geometry.descriptionWidth).toBeCloseTo(geometry.formsWidth, 1);
+  expect(
+    await dialog.locator('.print-card-row').evaluateAll((rows) =>
+      rows.every((row) => {
+        let column = 1;
+        return [...row.children].every((card) => {
+          const span = Number(card.getAttribute('data-columns'));
+          const fits = column + span <= 6;
+          column += span;
+          return fits;
+        });
+      }),
+    ),
+  ).toBe(true);
   await dialog.getByRole('checkbox', { name: 'Пропись', exact: true }).uncheck();
   await expect(print).toBeEnabled();
   await page.screenshot({ path: testInfo.outputPath('preview.png') });

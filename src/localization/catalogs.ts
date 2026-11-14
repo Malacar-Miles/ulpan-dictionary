@@ -58,7 +58,7 @@ export const catalogs: Record<Locale, Messages> = {
     printAction: 'Печать / Сохранить PDF',
     printExpand: 'Развернуть все карточки',
     printClose: 'Закрыть',
-    printHint: 'A4 · 5 карточек в ряду. В окне печати выбери масштаб 100%.',
+    printHint: 'A4 · 5 колонок. В окне печати выбери масштаб 100%.',
     printFontsLoading: 'Подготовка шрифтов…',
     printFontsError: 'Не удалось загрузить шрифт. Попробуй ещё раз или отключи пропись.',
 
@@ -110,7 +110,7 @@ export const catalogs: Record<Locale, Messages> = {
     printAction: 'Imprimir / Guardar PDF',
     printExpand: 'Expandir todas las tarjetas',
     printClose: 'Cerrar',
-    printHint: 'A4 · 5 tarjetas por fila. Selecciona una escala del 100% al imprimir.',
+    printHint: 'A4 · 5 columnas. Selecciona una escala del 100% al imprimir.',
     printFontsLoading: 'Preparando las fuentes…',
     printFontsError:
       'No se pudo cargar la fuente. Inténtalo de nuevo o desactiva la letra manuscrita.',
