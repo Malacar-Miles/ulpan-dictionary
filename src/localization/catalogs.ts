@@ -1,6 +1,9 @@
 export type Locale = 'ru' | 'es';
 
 type Messages = {
+  loading: string;
+  loadError: string;
+  retry: string;
   root: string;
   rootUnlisted: string;
   pageTitle: string;
@@ -34,6 +37,9 @@ type Messages = {
 
 export const catalogs: Record<Locale, Messages> = {
   ru: {
+    loading: 'Загрузка словаря…',
+    loadError: 'Не удалось загрузить словарь. Проверь подключение и попробуй ещё раз.',
+    retry: 'Повторить',
     root: 'корень:',
     rootUnlisted: 'не указан',
     pageTitle: 'Словарь ульпана',
@@ -70,6 +76,9 @@ export const catalogs: Record<Locale, Messages> = {
     },
   },
   es: {
+    loading: 'Cargando el diccionario…',
+    loadError: 'No se pudo cargar el diccionario. Comprueba la conexión e inténtalo de nuevo.',
+    retry: 'Reintentar',
     root: 'raíz:',
     rootUnlisted: 'sin indicar',
     pageTitle: 'Diccionario del ulpán',

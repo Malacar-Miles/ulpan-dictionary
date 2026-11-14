@@ -1,3 +1,4 @@
+import { useLocale } from './localization/context';
 import { LocaleProvider } from './localization/LocaleProvider';
 import { DictionaryHeader } from './components/DictionaryHeader';
 import { DictionaryControls } from './components/DictionaryControls';
@@ -9,6 +10,7 @@ import { useDictionaryLayout } from './hooks/useDictionaryLayout';
 
 const DictionaryApp = () => {
   const dictionary = useDictionary();
+  const { messages } = useLocale();
   const { handwriting, changeHandwriting } = useHandwritingPreference();
   const { controlsRef, scrollRef, preserveSearchFocus } = useDictionaryLayout(
     dictionary.resultsQuery,
@@ -17,8 +19,9 @@ const DictionaryApp = () => {
 
   return (
     <div className="dictionary-scroll" ref={scrollRef}>
-      <DictionaryHeader />
+      <DictionaryHeader disabled={dictionary.loading} />
       <DictionaryControls
+        disabled={dictionary.loading || dictionary.error}
         controlsRef={controlsRef}
         onPointerDownCapture={preserveSearchFocus}
         query={dictionary.query}
@@ -34,18 +37,32 @@ const DictionaryApp = () => {
         onTopicSelect={dictionary.setActiveTopic}
       />
       <main className={`wrap content${handwriting ? ' handwritten' : ''}`}>
-        <DictionaryResults
-          total={dictionary.total}
-          updated={dictionary.updated}
-          showFallbackNotice={dictionary.showFallbackNotice}
-          title={dictionary.resultsTitle}
-          count={dictionary.count}
-          sections={dictionary.results}
-          query={dictionary.resultsQuery}
-          showNiqqud={dictionary.showNiqqud}
-          onReset={dictionary.clearQuery}
-        />
-        <DictionaryFooter intro={dictionary.intro} />
+        {dictionary.loading ? (
+          <div className="dictionary-loading" role="status">
+            <span className="dictionary-spinner" aria-hidden="true" />
+            <span>{messages.loading}</span>
+          </div>
+        ) : dictionary.error ? (
+          <div className="dictionary-loading" role="alert">
+            <p>{messages.loadError}</p>
+            <button type="button" onClick={dictionary.retry}>
+              {messages.retry}
+            </button>
+          </div>
+        ) : (
+          <DictionaryResults
+            total={dictionary.total}
+            updated={dictionary.updated}
+            showFallbackNotice={dictionary.showFallbackNotice}
+            title={dictionary.resultsTitle}
+            count={dictionary.count}
+            sections={dictionary.results}
+            query={dictionary.resultsQuery}
+            showNiqqud={dictionary.showNiqqud}
+            onReset={dictionary.clearQuery}
+          />
+        )}
+        {!dictionary.loading && !dictionary.error && <DictionaryFooter intro={dictionary.intro} />}
       </main>
     </div>
   );

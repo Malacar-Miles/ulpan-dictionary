@@ -1,74 +1,90 @@
 import { describe, expect, it } from 'vitest';
-import type { DictionaryData } from '../src/types';
-import dictionary from '../src/dictionary.json';
+import type { DictionaryData, DictionaryLocalization } from '../src/types';
+import dictionary from '../src/data/dictionary.core.json';
+import ru from '../src/data/dictionary.ru.json';
+import es from '../src/data/dictionary.es.json';
 import {
   ALL_TOPICS,
   countEntries,
   filterSections,
   localizeSections,
 } from '../src/helpers/dictionary';
-
 const data: DictionaryData = dictionary;
-const entries = dictionary.sections.flatMap((section) => section.entries);
+const translations = { ru, es } as Record<'ru' | 'es', DictionaryLocalization>;
+const entries = data.sections.flatMap((section) => section.entries);
 
-describe('bilingual dictionary integrity', () => {
-  it('has unique stable IDs and complete translations for every section and entry', () => {
-    const ids = [...dictionary.sections, ...entries].map(({ id }) => id);
+describe('split dictionary integrity', () => {
+  it('has unique IDs, exact translation coverage, and valid form references', () => {
+    const ids = [...data.sections, ...entries].map(({ id }) => id);
     expect(new Set(ids).size).toBe(ids.length);
-    for (const section of dictionary.sections) {
-      for (const locale of ['ru', 'es'] as const) {
-        expect(section.translations[locale].title.trim()).not.toBe('');
-        if (section.translations.ru.note)
-          expect(section.translations[locale].note.trim()).not.toBe('');
+    for (const locale of ['ru', 'es'] as const) {
+      const text = translations[locale];
+      expect(text.schemaVersion).toBe(data.schemaVersion);
+      expect(text.locale).toBe(locale);
+      expect(text.intro.trim()).not.toBe('');
+      expect(Object.keys(text.sections).sort()).toEqual(data.sections.map((s) => s.id).sort());
+      expect(Object.keys(text.entries).sort()).toEqual(entries.map((e) => e.id).sort());
+      expect(Object.keys(text.lexemes).sort()).toEqual(Object.keys(data.lexemes).sort());
+      for (const section of data.sections) {
+        expect(text.sections[section.id].title.trim()).not.toBe('');
+        if (ru.sections[section.id as keyof typeof ru.sections].note)
+          expect(text.sections[section.id].note.trim()).not.toBe('');
       }
-    }
-    for (const entry of entries) {
-      for (const locale of ['ru', 'es'] as const) {
-        expect(entry.translations[locale].meaning.trim()).not.toBe('');
+      for (const entry of entries) {
+        expect(text.entries[entry.id].meaning.trim()).not.toBe('');
+        expect(entry.addedAt).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+        for (const item of entry.items)
+          expect(data.lexemes[item.lexemeId].forms.some((f) => f.id === item.defaultFormId)).toBe(
+            true,
+          );
       }
-      for (const item of entry.items) {
-        const lexeme = data.lexemes[item.lexemeId];
-        expect(lexeme.forms.some((form) => form.id === item.defaultFormId)).toBe(true);
-        expect(new Set(lexeme.forms.map((form) => form.id)).size).toBe(lexeme.forms.length);
-        for (const form of lexeme.forms)
-          for (const variant of form.variants) {
-            const { ru, es } = variant.pronunciation;
-            expect(variant.hebrew.trim() && ru.trim() && es.trim()).toBeTruthy();
-            expect(es).not.toMatch(/\p{Script=Cyrillic}/u);
-            expect(es.normalize('NFD').match(/\u0301/g)?.length ?? 0).toBe(
-              ru.match(/\u0301/g)?.length ?? 0,
-            );
-          }
+      for (const [id, lexeme] of Object.entries(data.lexemes)) {
+        expect(new Set(lexeme.forms.map((f) => f.id)).size).toBe(lexeme.forms.length);
+        expect(Object.keys(text.lexemes[id].forms).sort()).toEqual(
+          lexeme.forms.map((f) => f.id).sort(),
+        );
+        for (const form of lexeme.forms) {
+          const localized = text.lexemes[id].forms[form.id];
+          expect(localized.pronunciations).toHaveLength(form.variants.length);
+          expect(Boolean(localized.gloss)).toBe(
+            Boolean(translations.ru.lexemes[id].forms[form.id].gloss),
+          );
+          form.variants.forEach((variant, i) => {
+            const pronunciation = localized.pronunciations[i];
+            expect(variant.hebrew.trim() && pronunciation.trim()).toBeTruthy();
+            if (locale === 'es') {
+              expect(pronunciation).not.toMatch(/\p{Script=Cyrillic}/u);
+              expect(pronunciation.normalize('NFD').match(/\u0301/g)?.length ?? 0).toBe(
+                translations.ru.lexemes[id].forms[form.id].pronunciations[i].match(/\u0301/g)
+                  ?.length ?? 0,
+              );
+            }
+          });
+        }
       }
     }
   });
-
-  it('shows each collection of lexemes on one card', () => {
-    const collections = entries.map((entry) =>
-      entry.items
-        .map((item) => item.lexemeId)
+  it('shows each collection once and preserves Hebrew across locales', () => {
+    const collections = entries.map((e) =>
+      e.items
+        .map((i) => i.lexemeId)
         .sort()
         .join('|'),
     );
     expect(new Set(collections).size).toBe(entries.length);
-  });
-
-  it('retains shared Hebrew and stable categories across languages', () => {
-    const ru = localizeSections('ru');
-    const es = localizeSections('es');
-    expect(es.map(({ id }) => id)).toEqual(ru.map(({ id }) => id));
-    expect(countEntries(es)).toBe(entries.length);
+    const sections = {
+      ru: localizeSections(data, translations.ru, 'ru'),
+      es: localizeSections(data, translations.es, 'es'),
+    };
     const spellings = (locale: 'ru' | 'es') =>
-      localizeSections(locale).flatMap((section) =>
-        section.entries.flatMap((entry) =>
-          entry.rows.map(({ hebrew, hebrewWithNiqqud }) => ({ hebrew, hebrewWithNiqqud })),
-        ),
+      sections[locale].flatMap((s) =>
+        s.entries.flatMap((e) => e.rows.map((r) => [r.hebrew, r.hebrewWithNiqqud])),
       );
-    expect(spellings('es')).toEqual(spellings('ru'));
-    expect(countEntries(filterSections('gracias', ALL_TOPICS, 'es'))).toBe(2);
-    expect(countEntries(filterSections('gracias', ALL_TOPICS, 'ru'))).toBe(0);
+    expect(spellings('ru')).toEqual(spellings('es'));
+    expect(countEntries(sections.es)).toBe(entries.length);
+    expect(countEntries(filterSections(sections.es, 'gracias', ALL_TOPICS, 'es'))).toBe(2);
+    expect(countEntries(filterSections(sections.ru, 'gracias', ALL_TOPICS, 'ru'))).toBe(0);
   });
-
   it('uses the approved sound mapping and reviewed contextual spellings', () => {
     const examples: Record<string, string> = {
       'word-007': 'mezuyán / mezuyénet / mezuyaním / mezuyanót',
@@ -85,7 +101,7 @@ describe('bilingual dictionary integrity', () => {
       'word-162': 'yesh',
     };
     for (const [id, latin] of Object.entries(examples)) {
-      const entry = localizeSections('es')
+      const entry = localizeSections(data, translations.es, 'es')
         .flatMap((section) => section.entries)
         .find((entry) => entry.id === id)!;
       expect(entry.rows.map((row) => row.pronunciation).join(' / ')).toContain(latin);

@@ -1,7 +1,6 @@
 import type { Locale } from './localization/catalogs';
 
 export type HebrewSpellings = { hebrew: string; hebrewWithNiqqud?: string };
-type Localized = Record<Locale, string>;
 export type Agreement = { person?: number; number?: string; gender?: string };
 export type Grammar = Agreement & {
   kind: string;
@@ -34,7 +33,6 @@ export type DictionarySection = {
 export type DictionaryData = {
   schemaVersion: number;
   updatedAt: string;
-  intro: Localized;
   lexemes: Record<
     string,
     {
@@ -45,20 +43,31 @@ export type DictionaryData = {
       forms: {
         id: string;
         grammar: Grammar;
-        gloss?: Localized;
-        variants: (HebrewSpellings & { pronunciation: Localized; usage?: string })[];
+        variants: (HebrewSpellings & { usage?: string })[];
       }[];
     }
   >;
   sections: {
     id: string;
-    translations: Record<Locale, { title: string; note: string }>;
     entries: {
       id: string;
       addedAt: string;
-      translations: Record<Locale, { meaning: string }>;
       items: { lexemeId: string; defaultFormId: string }[];
     }[];
   }[];
 };
 export type Topic = { id: string; title: string };
+
+export type DictionaryLocalization = {
+  schemaVersion: number;
+  locale: Locale;
+  intro: string;
+  sections: Record<string, { title: string; note: string }>;
+  entries: Record<string, { meaning: string }>;
+  lexemes: Record<string, { forms: Record<string, { pronunciations: string[]; gloss?: string }> }>;
+};
+export type LoadedDictionary = {
+  core: DictionaryData;
+  localization: DictionaryLocalization;
+  sections: DictionarySection[];
+};

@@ -1,8 +1,8 @@
 import { useCallback, useDeferredValue, useMemo, useState, type ChangeEvent } from 'react';
-import dictionary from '../dictionary.json';
+import { useDictionaryData } from './useDictionaryData';
+import type { DictionarySection } from '../types';
 import {
   ALL_TOPICS,
-  localizeSections,
   filterSections,
   groupByDateAdded,
   countEntries,
@@ -11,9 +11,13 @@ import {
 import { useLocale } from '../localization/context';
 import { useNiqqudPreference } from './useNiqqudPreference';
 
+const emptySections: DictionarySection[] = [];
+
 export const useDictionary = () => {
   const { locale, messages } = useLocale();
-  const sections = useMemo(() => localizeSections(locale), [locale]);
+  const { snapshot, retry } = useDictionaryData(locale);
+  const data = snapshot.status === 'ready' ? snapshot.data : undefined;
+  const sections = data?.sections ?? emptySections;
   const { showNiqqud, setShowNiqqud } = useNiqqudPreference();
   const [query, setQuery] = useState('');
   const resultsQuery = useDeferredValue(query);
@@ -25,21 +29,24 @@ export const useDictionary = () => {
     if (topic !== null) setSelectedTopic(topic);
   };
   const { results, showFallbackNotice } = useMemo(() => {
-    const matches = filterSections(resultsQuery, activeTopic ?? ALL_TOPICS, locale);
+    const matches = filterSections(sections, resultsQuery, activeTopic ?? ALL_TOPICS, locale);
     if (activeTopic === null)
       return { results: groupByDateAdded(matches, locale), showFallbackNotice: false };
     if (matches.length || activeTopic === ALL_TOPICS || !resultsQuery.trim()) {
       return { results: matches, showFallbackNotice: false };
     }
-    const allMatches = filterSections(resultsQuery, ALL_TOPICS, locale);
+    const allMatches = filterSections(sections, resultsQuery, ALL_TOPICS, locale);
     return { results: allMatches, showFallbackNotice: allMatches.length > 0 };
-  }, [resultsQuery, activeTopic, locale]);
+  }, [sections, resultsQuery, activeTopic, locale]);
   const clearQuery = useCallback(() => setQuery(''), []);
   const changeQuery = (event: ChangeEvent<HTMLInputElement>) => setQuery(event.target.value);
   const changeNiqqud = (event: ChangeEvent<HTMLInputElement>) =>
     setShowNiqqud(event.target.checked);
 
   return {
+    loading: snapshot.status === 'loading',
+    error: snapshot.status === 'error',
+    retry,
     query,
     resultsQuery,
     activeTopic,
@@ -57,13 +64,13 @@ export const useDictionary = () => {
     ],
     count: countEntries(results),
     total: countEntries(sections),
-    updated: formatUpdatedDate(dictionary.updatedAt, locale),
-    intro: dictionary.intro[locale],
+    updated: data ? formatUpdatedDate(data.core.updatedAt, locale) : '',
+    intro: data?.localization.intro ?? '',
     resultsTitle:
       activeTopic === null
         ? messages.byDateAdded
         : showFallbackNotice || activeTopic === ALL_TOPICS
           ? messages.allWords
-          : sections.find((section) => section.id === activeTopic)!.title,
+          : (sections.find((section) => section.id === activeTopic)?.title ?? messages.allWords),
   };
 };

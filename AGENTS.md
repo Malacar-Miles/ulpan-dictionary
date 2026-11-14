@@ -4,7 +4,7 @@
 
 This is a Hebrew dictionary with Russian and Spanish localization for a small ulpan group, developed exclusively through AI engineering under the owner's direction and review. Keep both interface languages complete and usable on phones and computers. Inclusion means a word or expression appeared in lessons or homework; it does not mean the user has memorized it. Follow the user's current instructions and applicable parent-project instructions.
 
-This repository contains only the web application. Its source of truth is `src/dictionary.json`.
+This repository contains only the web application. Its source of truth is the three JSON files in `src/data/`: `dictionary.core.json`, `dictionary.ru.json`, and `dictionary.es.json`. Core owns Hebrew, grammar, IDs, card ordering, and dates; localization files own translations and pronunciations keyed by core IDs. See [the data architecture](docs/dictionary-data.md).
 
 When adding words or lesson notes, use the [add-dictionary-words workflow](.agents/skills/add-dictionary-words/SKILL.md).
 

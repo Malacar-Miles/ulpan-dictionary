@@ -12,7 +12,7 @@ Purpose: guide a future switch between the app's Russian phonetic spelling and L
 - **P4:** `F40345F9-635E-4B22-93C7-37306E1A6F59.heic`, also supplied as `codex-clipboard-4614abcc-1c37-49dc-a8d1-a45188b715a0.png`: page dated 25.10.2026 with classroom sentences.
 - Both HEIC originals were successfully inspected using macOS Quick Look previews after the initial conversion failed. The subsequent PNG attachments show the same pages. There are four distinct pages of evidence, not six.
 - **P5:** `codex-clipboard-a00c8c7b-a471-4b43-8039-d3cf710c99a6.png`, German ALEF-BET chart supplied by the user. Use this chart only for צ/ץ and ז, following the user's explicit scope correction; preserve the existing mappings otherwise.
-- The current app's `src/dictionary.json` supplies the Russian spelling convention and helps identify the intended Hebrew words. It is not evidence for the student's Latin spelling preferences.
+- The current app's `src/data/dictionary.ru.json` supplies the Russian spelling convention and helps identify the intended Hebrew words. It is not evidence for the student's Latin spelling preferences.
 - [Pealim: לשבת](https://www.pealim.com/he/dict/9-lashevet/) independently supports the identification of יושב / יושבת as `yoshev / yoshevet`. Pealim's Latin conventions are not substituted for the student's choices.
 
 Quoted fragments below are visual readings, not a full diplomatic transcription. Capitalization is retained in evidence where useful, but is not treated as a phonetic distinction. Spanish translations such as `entrar`, `salir`, and `Pregunta`, and personal names, are excluded from sound-mapping evidence. Handwritten Hebrew niqqud is not treated as independently verified pronunciation data.

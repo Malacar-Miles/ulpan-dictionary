@@ -1,17 +1,23 @@
 import { grammarLabel } from '../localization/grammar';
-import dictionary from '../dictionary.json';
 import { matches, highlightRanges } from '../search';
-import type { DictionaryData, DictionarySection, HebrewSpellings } from '../types';
+import type {
+  DictionaryData,
+  DictionaryLocalization,
+  DictionarySection,
+  HebrewSpellings,
+} from '../types';
 import type { Locale } from '../localization/catalogs';
 
 export const ALL_TOPICS = 'all';
 
-const data: DictionaryData = dictionary;
-
-export const localizeSections = (locale: Locale): DictionarySection[] =>
+export const localizeSections = (
+  data: DictionaryData,
+  text: DictionaryLocalization,
+  locale: Locale,
+): DictionarySection[] =>
   data.sections.map((section) => ({
     id: section.id,
-    ...section.translations[locale],
+    ...text.sections[section.id],
     entries: section.entries.map((entry) => {
       const rows = entry.items.flatMap(({ lexemeId }) =>
         data.lexemes[lexemeId].forms.flatMap((form) =>
@@ -19,9 +25,9 @@ export const localizeSections = (locale: Locale): DictionarySection[] =>
             key: [lexemeId, form.id, i].join('/'),
             hebrew: variant.hebrew,
             hebrewWithNiqqud: variant.hebrewWithNiqqud,
-            pronunciation: variant.pronunciation[locale],
+            pronunciation: text.lexemes[lexemeId].forms[form.id].pronunciations[i],
             label: grammarLabel(form.grammar, locale, variant.usage),
-            gloss: form.gloss?.[locale],
+            gloss: text.lexemes[lexemeId].forms[form.id].gloss,
           })),
         ),
       );
@@ -33,7 +39,7 @@ export const localizeSections = (locale: Locale): DictionarySection[] =>
         root: entry.items.length === 1 ? data.lexemes[first.lexemeId].root : undefined,
         id: entry.id,
         addedAt: entry.addedAt,
-        meaning: entry.translations[locale].meaning,
+        meaning: text.entries[entry.id].meaning,
         rows,
         defaultRow,
       };
@@ -47,8 +53,13 @@ export const rowFields = (row: DictionarySection['entries'][number]['defaultRow'
   row.gloss ?? '',
 ];
 
-export const filterSections = (query: string, activeTopic: string, locale: Locale = 'ru') =>
-  localizeSections(locale)
+export const filterSections = (
+  sections: DictionarySection[],
+  query: string,
+  activeTopic: string,
+  locale: Locale = 'ru',
+) =>
+  sections
     .filter((section) => activeTopic === ALL_TOPICS || section.id === activeTopic)
     .map((section) => ({
       ...section,

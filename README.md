@@ -24,7 +24,7 @@ The application uses React, TypeScript, and Vite. Search and topic filtering run
 
 ## Dictionary data
 
-The application's source of truth is [`src/dictionary.json`](src/dictionary.json). Edit it directly. Agent instructions for maintaining entries are in [`AGENTS.md`](AGENTS.md).
+The application's source of truth is the three JSON files in [`src/data/`](src/data/): core, Russian, and Spanish. Edit them together using the [data architecture and loading guide](docs/dictionary-data.md). Agent instructions for maintaining entries are in [`AGENTS.md`](AGENTS.md).
 
 Schema version 2 stores lesson cards in topic sections. Each card has a permanent ID, an addition date, Russian and Spanish meanings, and one or more references to shared `lexemes`. An item’s `defaultFormId` identifies the form to show first. Each lexeme records its lemma, part of speech, and grammatical forms. A form has a stable ID, structured grammar, an optional bilingual gloss, and one or more variants. Each variant pairs its ordinary Hebrew spelling and optional verified niqqud with Russian and Spanish pronunciations. Fixed idioms use one form. Add inflections to the existing lexeme so every card referring to it can use them.
 

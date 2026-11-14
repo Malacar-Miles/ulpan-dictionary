@@ -985,3 +985,42 @@ body {
     transition: transform var(--forms-total-duration) ease-in-out;
   }
 }
+
+.controls-fieldset {
+  border: 0;
+  min-inline-size: 0;
+  padding-block: 0;
+}
+.controls-fieldset:disabled {
+  opacity: 0.55;
+}
+.controls-fieldset:disabled :is(button, input) {
+  cursor: wait;
+}
+.dictionary-loading {
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+}
+.dictionary-spinner {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 3px solid #c5d6ce;
+  border-top-color: #355e50;
+  border-radius: 50%;
+  animation: dictionary-spin 0.85s linear infinite;
+}
+@keyframes dictionary-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dictionary-spinner {
+    animation-duration: 2.5s;
+  }
+}

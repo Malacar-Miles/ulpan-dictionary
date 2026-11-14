@@ -3,10 +3,26 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
 import * as config from '../src/config';
 import { App } from '../src/App';
-import dictionary from '../src/dictionary.json';
+import dictionary from '../src/data/dictionary.core.json';
+import ru from '../src/data/dictionary.ru.json';
+import es from '../src/data/dictionary.es.json';
+import { createDictionaryRepository, dictionaryRepository } from '../src/helpers/dictionaryLoader';
 import { formatUpdatedDate } from '../src/helpers/dictionary';
 
-beforeEach(() => {
+beforeEach(async () => {
+  const repository = createDictionaryRepository();
+  vi.spyOn(dictionaryRepository, 'getSnapshot').mockImplementation(repository.getSnapshot);
+  vi.spyOn(dictionaryRepository, 'subscribe').mockImplementation(repository.subscribe);
+  vi.spyOn(dictionaryRepository, 'load').mockImplementation(repository.load);
+  vi.stubGlobal(
+    'fetch',
+    vi.fn(async (url: string) => ({
+      ok: true,
+      json: async () => (url.includes('.core.') ? dictionary : url.includes('.ru.') ? ru : es),
+    })),
+  );
+  // Existing interaction regressions exercise an already loaded dictionary.
+  await Promise.all([repository.load('ru'), repository.load('es')]);
   localStorage.clear();
   vi.stubGlobal('matchMedia', () => ({
     matches: false,
@@ -81,10 +97,14 @@ describe('dictionary interface', () => {
     expect(container.querySelectorAll('.card')).toHaveLength(total);
     const section = dictionary.sections[0];
     fireEvent.click(screen.getByRole('button', { name: 'Все темы' }));
-    fireEvent.click(screen.getByRole('button', { name: section.translations.ru.title }));
+    fireEvent.click(
+      screen.getByRole('button', {
+        name: ru.sections[section.id as keyof typeof ru.sections].title,
+      }),
+    );
     expect(container.querySelectorAll('.card')).toHaveLength(section.entries.length);
     expect(screen.getByRole('heading', { level: 2 }).textContent).toBe(
-      section.translations.ru.title,
+      ru.sections[section.id as keyof typeof ru.sections].title,
     );
     fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'zzzznotaword' } });
     expect(screen.getByRole('heading', { name: 'Ничего не нашлось' })).toBeTruthy();
@@ -94,7 +114,7 @@ describe('dictionary interface', () => {
     expect(container.querySelectorAll('.card')).toHaveLength(section.entries.length);
     expect(
       screen
-        .getByRole('button', { name: section.translations.ru.title })
+        .getByRole('button', { name: ru.sections[section.id as keyof typeof ru.sections].title })
         .getAttribute('aria-expanded'),
     ).toBe('false');
   });
@@ -283,7 +303,7 @@ it('starts closing immediately after language selection, a globe click, or Escap
 it('clears only the query and returns focus to the search field', () => {
   render(<App />);
   expect(screen.queryByRole('button', { name: 'Очистить поиск' })).toBeNull();
-  const topic = dictionary.sections[0].translations.ru.title;
+  const topic = ru.sections[dictionary.sections[0].id as keyof typeof ru.sections].title;
   fireEvent.click(screen.getByRole('button', { name: 'Все темы' }));
   fireEvent.click(screen.getByRole('button', { name: topic }));
   const input = screen.getByRole('searchbox') as HTMLInputElement;
@@ -331,7 +351,7 @@ it('switches directly from the topic chooser to newest-first addition dates acro
     expect([...section.querySelectorAll('.meaning')].map((el) => el.textContent)).toEqual(
       entries
         .filter((entry) => entry.addedAt === dates[i])
-        .map((entry) => entry.translations.ru.meaning),
+        .map((entry) => ru.entries[entry.id as keyof typeof ru.entries].meaning),
     );
   });
   fireEvent.change(screen.getByRole('searchbox'), { target: { value: 'תודה' } });
@@ -347,7 +367,7 @@ it('switches directly from the topic chooser to newest-first addition dates acro
   fireEvent.click(topics);
   expect(topics.getAttribute('aria-expanded')).toBe('true');
   expect(container.querySelector('main h3')?.textContent).toBe(
-    dictionary.sections[0].translations.es.title,
+    es.sections[dictionary.sections[0].id as keyof typeof es.sections].title,
   );
 });
 
@@ -358,7 +378,7 @@ it.each([true, false])('returns to the expected topic for compact tabs = %s', (c
     removeEventListener: vi.fn(),
   }));
   render(<App />);
-  const title = dictionary.sections[0].translations.ru.title;
+  const title = ru.sections[dictionary.sections[0].id as keyof typeof ru.sections].title;
   const topics = screen.getByRole('button', { name: compact ? 'По темам' : 'Все темы' });
   fireEvent.click(topics);
   fireEvent.click(screen.getByRole('button', { name: title }));
@@ -381,7 +401,8 @@ it.each([false, true])(
     vi.spyOn(config, 'VIRTUALIZE_RESULTS', 'get').mockReturnValue(true);
     const { container } = render(<App />);
     const total = dictionary.sections.reduce((sum, section) => sum + section.entries.length, 0);
-    const firstMeaning = dictionary.sections[0].entries[0].translations.ru.meaning;
+    const firstMeaning =
+      ru.entries[dictionary.sections[0].entries[0].id as keyof typeof ru.entries].meaning;
     expect(container.querySelector('.meaning')?.textContent).toBe(firstMeaning);
     expect(container.querySelectorAll('.card').length).toBeLessThan(total);
     const scroller = container.querySelector<HTMLElement>('.dictionary-scroll')!;

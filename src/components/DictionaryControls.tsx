@@ -6,6 +6,7 @@ import { TopicFilters } from './TopicFilters';
 import { ALL_TOPICS } from '../helpers/dictionary';
 
 type DictionaryControlsProps = {
+  disabled: boolean;
   controlsRef: RefObject<HTMLDivElement | null>;
   onPointerDownCapture: PointerEventHandler<HTMLDivElement>;
   query: string;
@@ -21,6 +22,7 @@ type DictionaryControlsProps = {
   onTopicSelect: (topic: string | null) => void;
 };
 export const DictionaryControls = ({
+  disabled,
   controlsRef,
   onPointerDownCapture,
   query,
@@ -37,7 +39,7 @@ export const DictionaryControls = ({
 }: DictionaryControlsProps) => {
   return (
     <div className="sticky-controls" ref={controlsRef} onPointerDownCapture={onPointerDownCapture}>
-      <div className="wrap">
+      <fieldset className="wrap controls-fieldset" disabled={disabled}>
         <SearchField query={query} onChange={onQueryChange} onClear={onQueryClear} />
         <DisplayControls
           showNiqqud={showNiqqud}
@@ -54,7 +56,7 @@ export const DictionaryControls = ({
           }
           onSelect={onTopicSelect}
         />
-      </div>
+      </fieldset>
     </div>
   );
 };

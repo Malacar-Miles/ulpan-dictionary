@@ -2,6 +2,9 @@
 import { afterEach, expect, it, vi } from 'vitest';
 import { cleanup, fireEvent, render, screen } from '@testing-library/react';
 import { VirtualDictionarySections } from '../src/components/VirtualDictionarySections';
+import core from '../src/data/dictionary.core.json';
+import ru from '../src/data/dictionary.ru.json';
+import type { DictionaryLocalization } from '../src/types';
 import { localizeSections } from '../src/helpers/dictionary';
 import * as highlighting from '../src/helpers/highlight';
 import { LocaleContext } from '../src/localization/context';
@@ -42,7 +45,9 @@ it('updates virtual positioning without rerendering cards, while content and loc
     },
   );
   const highlightCalls = vi.spyOn(highlighting, 'getHighlightSegments');
-  const section = localizeSections('ru').find((section) => section.id === 'verbs')!;
+  const section = localizeSections(core, ru as DictionaryLocalization, 'ru').find(
+    (section) => section.id === 'verbs',
+  )!;
   const sections = [{ ...section, entries: section.entries.slice(0, 3) }];
   const locale = { locale: 'ru' as const, setLocale: vi.fn() };
   const view = (query = '', showNiqqud = true) => (

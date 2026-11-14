@@ -1,8 +1,8 @@
 import { useLocale } from '../localization/context';
-export const DictionaryHeader = () => {
+export const DictionaryHeader = ({ disabled = false }: { disabled?: boolean }) => {
   const { messages } = useLocale();
   return (
-    <header id="top" className="header">
+    <header id="top" className="header" inert={disabled}>
       <div className="wrap">
         <div className="topline">
           <a className="brand" href="#top" aria-label={messages.backToTop}>

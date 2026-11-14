@@ -1,0 +1,6031 @@
+{
+  "schemaVersion": 3,
+  "locale": "es",
+  "intro": "La pronunciación es aproximada; la tilde indica el acento. h representa una ה pronunciada; ch, el sonido de ח o כ sin dagesh; sh, el de שׁ; z, el de צ (ts). s representa tanto ס/שׂ como ז. g siempre representa el sonido de «gato», incluso ante e o i; y representa el sonido de י consonántica. Son convenciones personales de aprendizaje, no reglas de ortografía española. Se incluyen ejemplos y aclaraciones.",
+  "sections": {
+    "greetings": {
+      "title": "Saludos y comunicación",
+      "note": ""
+    },
+    "people": {
+      "title": "Personas, familia y datos personales",
+      "note": "El género y el número se indican en las tarjetas. Las formas adicionales completan los paradigmas; no significa que todas hayan aparecido en clase."
+    },
+    "places": {
+      "title": "Objetos, lugares y naturaleza",
+      "note": "El género y el número se indican en las tarjetas. Las formas adicionales completan los paradigmas; no significa que todas hayan aparecido en clase."
+    },
+    "study": {
+      "title": "Estudio, tiempo y otros sustantivos",
+      "note": "El género y el número se indican en las tarjetas. Las formas adicionales completan los paradigmas; no significa que todas hayan aparecido en clase."
+    },
+    "verbs": {
+      "title": "Verbos y estados",
+      "note": "Las formas del presente aparecen en este orden: masculino singular / femenino singular / masculino plural / femenino plural. Se han añadido las formas que faltaban para completar la conjugación. Para grupos mixtos se usa el masculino plural. Las formas del pasado se indican por separado. יש y אין no siguen este esquema de conjugación."
+    },
+    "adjectives": {
+      "title": "Adjetivos y adverbios",
+      "note": "El género y el número se indican en las tarjetas. Las formas adicionales completan los paradigmas; no significa que todas hayan aparecido en clase."
+    },
+    "questions": {
+      "title": "Palabras interrogativas",
+      "note": ""
+    },
+    "pronouns": {
+      "title": "Pronombres, preposiciones y conjunciones",
+      "note": ""
+    },
+    "numbers": {
+      "title": "Números",
+      "note": "Numerales cardinales. Para 1–10, las formas aparecen en orden masculino / femenino. El género depende del sustantivo en hebreo; para contar sin nombrar objetos suele usarse el femenino. El 0, las decenas de 20–90 y el 100 no tienen formas distintas por género. Para 2 y 100 también se incluyen las formas de estado constructo."
+    }
+  },
+  "entries": {
+    "word-001": {
+      "meaning": "gracias"
+    },
+    "word-002": {
+      "meaning": "muchas gracias"
+    },
+    "word-003": {
+      "meaning": "buenos días"
+    },
+    "word-004": {
+      "meaning": "hasta luego"
+    },
+    "word-005": {
+      "meaning": "mucho gusto"
+    },
+    "word-006": {
+      "meaning": "excelente, genial"
+    },
+    "word-007": {
+      "meaning": "excelente; como exclamación, «¡Estupendo!»"
+    },
+    "word-008": {
+      "meaning": "excelente; como exclamación, «¡Estupendo!»"
+    },
+    "word-009": {
+      "meaning": "muy bien"
+    },
+    "word-010": {
+      "meaning": "bien, en orden; de acuerdo"
+    },
+    "word-011": {
+      "meaning": "todo está bien"
+    },
+    "word-012": {
+      "meaning": "no tengo ni idea"
+    },
+    "word-013": {
+      "meaning": "correcto; נכון — correcto, así es; נכון? — ¿verdad? ¿correcto? (pregunta de confirmación)"
+    },
+    "word-014": {
+      "meaning": "¿qué tal?"
+    },
+    "word-015": {
+      "meaning": "¿cómo estás?"
+    },
+    "word-017": {
+      "meaning": "¿cómo te llamas?"
+    },
+    "word-018": {
+      "meaning": "¿cuál es tu nombre?"
+    },
+    "word-235": {
+      "meaning": "por favor; también al ofrecer algo o responder a un agradecimiento"
+    },
+    "word-239": {
+      "meaning": "¡muy bien! ¡bien hecho! ¡bravo! Expresión de elogio"
+    },
+    "word-254": {
+      "meaning": "¡presten atención! Expresión fija; imperativo dirigido a un grupo"
+    },
+    "word-390": {
+      "meaning": "¡buen viaje!"
+    },
+    "word-393": {
+      "meaning": "¡buen provecho!"
+    },
+    "word-395": {
+      "meaning": "¿qué pasó?"
+    },
+    "word-396": {
+      "meaning": "todo irá bien"
+    },
+    "word-402": {
+      "meaning": "lo mismo"
+    },
+    "word-019": {
+      "meaning": "nombre"
+    },
+    "word-023": {
+      "meaning": "mi estado, mi bienestar"
+    },
+    "word-026": {
+      "meaning": "nombre de pila"
+    },
+    "word-027": {
+      "meaning": "apellido. La expresión habitual es שם משפחה. Según el contexto, שם משפחתי también puede significar «mi apellido»."
+    },
+    "word-028": {
+      "meaning": "estado civil"
+    },
+    "word-029": {
+      "meaning": "¿cuál es tu estado civil?"
+    },
+    "word-030": {
+      "meaning": "dirección"
+    },
+    "word-031": {
+      "meaning": "número de teléfono"
+    },
+    "word-032": {
+      "meaning": "número del documento de identidad"
+    },
+    "word-033": {
+      "meaning": "nombre de la ciudad"
+    },
+    "word-034": {
+      "meaning": "país de nacimiento"
+    },
+    "word-035": {
+      "meaning": "familia"
+    },
+    "word-036": {
+      "meaning": "hijo"
+    },
+    "word-036-bat": {
+      "meaning": "hija"
+    },
+    "word-037": {
+      "meaning": "amigo"
+    },
+    "word-038": {
+      "meaning": "niño"
+    },
+    "word-039": {
+      "meaning": "hombre"
+    },
+    "word-039-f": {
+      "meaning": "mujer"
+    },
+    "word-040": {
+      "meaning": "marido"
+    },
+    "word-041": {
+      "meaning": "casado"
+    },
+    "word-042": {
+      "meaning": "soltero"
+    },
+    "word-043": {
+      "meaning": "divorciado"
+    },
+    "word-044": {
+      "meaning": "profesor; las formas singulares se escriben igual sin niqqud"
+    },
+    "word-045": {
+      "meaning": "alumno"
+    },
+    "word-046": {
+      "meaning": "médico"
+    },
+    "word-047": {
+      "meaning": "israelí de nacimiento"
+    },
+    "word-048": {
+      "meaning": "inmigrante que acaba de hacer aliá"
+    },
+    "word-049": {
+      "meaning": "inmigrante que hizo aliá hace tiempo"
+    },
+    "word-050": {
+      "meaning": "turista"
+    },
+    "word-051": {
+      "meaning": "profesión"
+    },
+    "word-052": {
+      "meaning": "Rusia; מרוסיה — me-rúsiya, de Rusia"
+    },
+    "word-053": {
+      "meaning": "Israel"
+    },
+    "word-054": {
+      "meaning": "Haifa; cháyfa es la pronunciación coloquial extendida; cheyfá es la normativa, correspondiente a חֵיפָה"
+    },
+    "word-055": {
+      "meaning": "hebreo. Nombre de idioma, femenino en hebreo, sin plural en este sentido."
+    },
+    "word-055-2": {
+      "meaning": "ruso. Nombre de idioma, femenino en hebreo, sin plural en este sentido."
+    },
+    "word-055-3": {
+      "meaning": "inglés. Nombre de idioma, femenino en hebreo, sin plural en este sentido."
+    },
+    "word-056": {
+      "meaning": "viudo"
+    },
+    "word-241": {
+      "meaning": "hermano; en un contexto sanitario, enfermero"
+    },
+    "word-241-f": {
+      "meaning": "hermana. En el ámbito sanitario, enfermera."
+    },
+    "word-242": {
+      "meaning": "empleado administrativo, funcionario"
+    },
+    "word-253": {
+      "meaning": "señor. Tratamiento ante el nombre de un hombre, normalmente en singular."
+    },
+    "word-253-f": {
+      "meaning": "señora"
+    },
+    "word-255": {
+      "meaning": "secretario"
+    },
+    "word-259": {
+      "meaning": "soldado, militar"
+    },
+    "word-285": {
+      "meaning": "nieto"
+    },
+    "word-289": {
+      "meaning": "progenitor. Se suele usar הורה / הורים; הורה puede referirse al padre o a la madre. Las formas femeninas específicas son menos habituales."
+    },
+    "word-329": {
+      "meaning": "educador de jardín de infancia"
+    },
+    "word-334": {
+      "meaning": "abuelo"
+    },
+    "word-334-f": {
+      "meaning": "abuela"
+    },
+    "word-342": {
+      "meaning": "papá. El plural procede de אב, padre."
+    },
+    "word-343": {
+      "meaning": "mamá. Grafía frecuente: אמא; grafía plena: אימא. El plural procede de אם, madre."
+    },
+    "word-359": {
+      "meaning": "edad"
+    },
+    "word-361": {
+      "meaning": "tío"
+    },
+    "word-362": {
+      "meaning": "sobrino"
+    },
+    "word-363": {
+      "meaning": "primo. בן דודה (ben dodá) significa «hijo de una tía»."
+    },
+    "word-363-f": {
+      "meaning": "prima. בת דוד (bat dod) significa «hija de un tío»."
+    },
+    "word-365": {
+      "meaning": "veterinario"
+    },
+    "word-366": {
+      "meaning": "director; también gerente; cargo profesional"
+    },
+    "word-368": {
+      "meaning": "bebé. En plural coinciden las formas de ambos géneros."
+    },
+    "word-369": {
+      "meaning": "novio en una boda, yerno"
+    },
+    "word-369-f": {
+      "meaning": "novia en una boda, nuera"
+    },
+    "word-370": {
+      "meaning": "suegro. Se escribe igual que חם («caliente»)."
+    },
+    "word-370-f": {
+      "meaning": "suegra"
+    },
+    "word-371": {
+      "meaning": "cuñado"
+    },
+    "word-372": {
+      "meaning": "joven"
+    },
+    "word-399": {
+      "meaning": "pariente"
+    },
+    "word-057": {
+      "meaning": "calle"
+    },
+    "word-058": {
+      "meaning": "casa"
+    },
+    "word-059": {
+      "meaning": "aula, clase; בכיתה — ba-kitá, en el aula"
+    },
+    "word-060": {
+      "meaning": "ciudad"
+    },
+    "word-061": {
+      "meaning": "camino, vía"
+    },
+    "word-062": {
+      "meaning": "banco"
+    },
+    "word-063": {
+      "meaning": "universidad"
+    },
+    "word-064": {
+      "meaning": "teatro"
+    },
+    "word-065": {
+      "meaning": "mercado"
+    },
+    "word-066": {
+      "meaning": "correo; masculino en hebreo; incontable en el sentido de servicio postal o correspondencia"
+    },
+    "word-067": {
+      "meaning": "biblioteca"
+    },
+    "word-068": {
+      "meaning": "centro comercial"
+    },
+    "word-069": {
+      "meaning": "museo"
+    },
+    "word-070": {
+      "meaning": "ayuntamiento, municipalidad"
+    },
+    "word-071": {
+      "meaning": "tienda de comestibles"
+    },
+    "word-072": {
+      "meaning": "cafetería"
+    },
+    "word-073": {
+      "meaning": "restaurante"
+    },
+    "word-074": {
+      "meaning": "parada de autobús; תחנה — תַּחֲנָה, tachaná: parada, estación; plural תחנות — תַּחֲנוֹת, tachanót. Ante un sustantivo en una construcción de estado constructo (smichút), ־ה cambia a ־ת: תחנת — תַּחֲנַת, tachanát; תחנת אוטובוס — parada de autobús. En plural: תחנות אוטובוס"
+    },
+    "word-075": {
+      "meaning": "ulpán (curso intensivo de hebreo); באולפן — ba-ulpán, en el ulpán"
+    },
+    "word-076": {
+      "meaning": "edificio"
+    },
+    "word-077": {
+      "meaning": "pared; masculino en hebreo, a pesar de la terminación plural ־ות"
+    },
+    "word-078": {
+      "meaning": "puerta"
+    },
+    "word-079": {
+      "meaning": "ventana"
+    },
+    "word-080": {
+      "meaning": "cortina"
+    },
+    "word-081": {
+      "meaning": "armario"
+    },
+    "word-082": {
+      "meaning": "mesa"
+    },
+    "word-083": {
+      "meaning": "silla"
+    },
+    "word-084": {
+      "meaning": "alfombra"
+    },
+    "word-085": {
+      "meaning": "cuadro, fotografía"
+    },
+    "word-086": {
+      "meaning": "pizarra"
+    },
+    "word-087": {
+      "meaning": "computadora, ordenador"
+    },
+    "word-088": {
+      "meaning": "aire acondicionado"
+    },
+    "word-089": {
+      "meaning": "lámpara"
+    },
+    "word-090": {
+      "meaning": "mapa"
+    },
+    "word-091": {
+      "meaning": "bolso, cartera"
+    },
+    "word-092": {
+      "meaning": "cesta; bolso tipo cesta"
+    },
+    "word-093": {
+      "meaning": "reloj"
+    },
+    "word-094": {
+      "meaning": "llave"
+    },
+    "word-095": {
+      "meaning": "vaso, taza"
+    },
+    "word-096": {
+      "meaning": "lápiz"
+    },
+    "word-097": {
+      "meaning": "bolígrafo"
+    },
+    "word-098": {
+      "meaning": "cuaderno"
+    },
+    "word-099": {
+      "meaning": "libro"
+    },
+    "word-100": {
+      "meaning": "periódico"
+    },
+    "word-101": {
+      "meaning": "carta"
+    },
+    "word-102": {
+      "meaning": "dinero (incontable, gramaticalmente masculino singular en hebreo); כספים — fondos, sumas de dinero (masculino plural)"
+    },
+    "word-103": {
+      "meaning": "baño, servicios; forma plural; masculino plural en hebreo; no tiene singular con el sentido de «baño»"
+    },
+    "word-104": {
+      "meaning": "flor"
+    },
+    "word-105": {
+      "meaning": "perro"
+    },
+    "word-106": {
+      "meaning": "ratón"
+    },
+    "word-107": {
+      "meaning": "pierna, pie. La forma dual también se usa como plural."
+    },
+    "word-108": {
+      "meaning": "cielo; masculino plural en hebreo; solo se usa en plural"
+    },
+    "word-109": {
+      "meaning": "mar"
+    },
+    "word-110": {
+      "meaning": "apartamento"
+    },
+    "word-111": {
+      "meaning": "tren"
+    },
+    "word-230": {
+      "meaning": "sol; normalmente femenino en hebreo"
+    },
+    "word-234": {
+      "meaning": "taxi"
+    },
+    "word-238": {
+      "meaning": "televisor; femenino en hebreo. טלוויזיה también significa «televisión» como medio"
+    },
+    "word-240": {
+      "meaning": "clínica, centro de salud"
+    },
+    "word-246": {
+      "meaning": "parque"
+    },
+    "word-247": {
+      "meaning": "jardín"
+    },
+    "word-248": {
+      "meaning": "jardín de infancia"
+    },
+    "word-251": {
+      "meaning": "banco para sentarse"
+    },
+    "word-281": {
+      "meaning": "toalla"
+    },
+    "word-283": {
+      "meaning": "cerveza. El plural indica porciones o tipos de cerveza. No confundir con בירה (birá), capital."
+    },
+    "word-284": {
+      "meaning": "cigarrillo"
+    },
+    "word-286": {
+      "meaning": "helado. El plural indica porciones o tipos de helado. Acento normativo: glidá; coloquial: glída."
+    },
+    "word-290": {
+      "meaning": "habitación"
+    },
+    "word-292": {
+      "meaning": "pastel, tarta"
+    },
+    "word-295": {
+      "meaning": "sofá"
+    },
+    "word-296": {
+      "meaning": "cosa, objeto"
+    },
+    "word-309": {
+      "meaning": "balcón, terraza"
+    },
+    "word-313": {
+      "meaning": "pez, pescado"
+    },
+    "word-314": {
+      "meaning": "pollo, carne de ave; también ave"
+    },
+    "word-315": {
+      "meaning": "ensalada"
+    },
+    "word-316": {
+      "meaning": "verdura, hortaliza. Pronunciación normativa: yarák; coloquialmente también יֶרֶק (yérek) con el sentido de «verdura»."
+    },
+    "word-317": {
+      "meaning": "tomate"
+    },
+    "word-318": {
+      "meaning": "pepino"
+    },
+    "word-319": {
+      "meaning": "cebolla"
+    },
+    "word-320": {
+      "meaning": "manzana"
+    },
+    "word-321": {
+      "meaning": "naranja"
+    },
+    "word-322": {
+      "meaning": "banana"
+    },
+    "word-323": {
+      "meaning": "jugo, zumo"
+    },
+    "word-324": {
+      "meaning": "uva. También es frecuente la grafía ענב sin י."
+    },
+    "word-327": {
+      "meaning": "sopa"
+    },
+    "word-332": {
+      "meaning": "leche; masculino en hebreo, normalmente incontable"
+    },
+    "word-333": {
+      "meaning": "té; masculino en hebreo, normalmente incontable; la ה final no se pronuncia"
+    },
+    "word-335": {
+      "meaning": "camisa, camiseta, blusa"
+    },
+    "word-336": {
+      "meaning": "abrigo, chaqueta de abrigo"
+    },
+    "word-337": {
+      "meaning": "tienda"
+    },
+    "word-339": {
+      "meaning": "pelota, balón"
+    },
+    "word-340": {
+      "meaning": "comida, alimento. Normalmente incontable; el plural se refiere a distintos tipos de comida. Sustantivo óchel, distinto del verbo ochél, «come»."
+    },
+    "word-344": {
+      "meaning": "billete, entrada, tarjeta. כרטיס אשראי significa «tarjeta de crédito»."
+    },
+    "word-349": {
+      "meaning": "montaña"
+    },
+    "word-350": {
+      "meaning": "norte; masculino en hebreo; punto cardinal, normalmente sin plural"
+    },
+    "word-351": {
+      "meaning": "animal, bestia"
+    },
+    "word-352": {
+      "meaning": "barrio"
+    },
+    "word-367": {
+      "meaning": "centro de absorción (acogida e integración de nuevos inmigrantes). Con artículo: מרכז הקליטה (מֶרְכַּז הַקְּלִיטָה, merkás haklitá), el centro de absorción. En el estado constructo, el artículo se coloca ante la segunda palabra."
+    },
+    "word-377": {
+      "meaning": "país, tierra."
+    },
+    "word-379": {
+      "meaning": "mueble."
+    },
+    "word-382": {
+      "meaning": "botella"
+    },
+    "word-383": {
+      "meaning": "agua. En hebreo concuerda en masculino plural."
+    },
+    "word-391": {
+      "meaning": "regalo"
+    },
+    "word-112": {
+      "meaning": "lección, clase"
+    },
+    "word-113": {
+      "meaning": "paseo, excursión, viaje"
+    },
+    "word-114": {
+      "meaning": "descanso, pausa"
+    },
+    "word-115": {
+      "meaning": "trabajo"
+    },
+    "word-116": {
+      "meaning": "palabra; femenino en hebreo, a pesar de la terminación plural ־ים"
+    },
+    "word-117": {
+      "meaning": "página; también columna"
+    },
+    "word-118": {
+      "meaning": "oración, frase"
+    },
+    "word-119": {
+      "meaning": "pregunta"
+    },
+    "word-120": {
+      "meaning": "respuesta"
+    },
+    "word-121": {
+      "meaning": "canción"
+    },
+    "word-122": {
+      "meaning": "silencio; masculino en hebreo; incontable en este sentido"
+    },
+    "word-123": {
+      "meaning": "fuerza"
+    },
+    "word-124": {
+      "meaning": "número"
+    },
+    "word-125": {
+      "meaning": "día"
+    },
+    "word-126": {
+      "meaning": "mes"
+    },
+    "word-127": {
+      "meaning": "año"
+    },
+    "word-128": {
+      "meaning": "fecha"
+    },
+    "word-129": {
+      "meaning": "macho. En gramática, género masculino."
+    },
+    "word-129-f": {
+      "meaning": "hembra. En gramática, género femenino."
+    },
+    "word-130": {
+      "meaning": "numeroso; muchos. En gramática, רבים / רבות designan el plural masculino / femenino"
+    },
+    "word-131": {
+      "meaning": "verbo"
+    },
+    "word-132": {
+      "meaning": "adjetivo"
+    },
+    "word-133": {
+      "meaning": "sustantivo"
+    },
+    "word-134": {
+      "meaning": "forma final de una letra; formas femeninas del adjetivo סופי con אות («letra») implícito"
+    },
+    "word-135": {
+      "meaning": "al final de una palabra"
+    },
+    "word-136": {
+      "meaning": "excepción; excepcional, fuera de lo común"
+    },
+    "word-137": {
+      "meaning": "letra"
+    },
+    "word-249": {
+      "meaning": "infinitivo"
+    },
+    "word-250": {
+      "meaning": "relato, historia"
+    },
+    "word-252": {
+      "meaning": "libertad; coloquialmente: vacaciones, tiempo libre; masculino en hebreo; plural חופשים — períodos de descanso. יום חופש — yom chófesh, día libre"
+    },
+    "word-260": {
+      "meaning": "minuto"
+    },
+    "word-287": {
+      "meaning": "paciencia; femenino en hebreo, incontable en este sentido"
+    },
+    "word-291": {
+      "meaning": "momento, instante. La exclamación רגע! significa «¡Un momento!», «¡Espera!» o «¡Esperen!»."
+    },
+    "word-293": {
+      "meaning": "suerte, fortuna; también signo del zodiaco. En el sentido de «suerte» suele usarse en singular."
+    },
+    "word-294": {
+      "meaning": "música; femenino en hebreo, incontable. מוזיקת es el estado constructo singular ante un sustantivo que precisa el tipo de música: «música de…»; no es un plural."
+    },
+    "word-297": {
+      "meaning": "domingo"
+    },
+    "word-298": {
+      "meaning": "lunes"
+    },
+    "word-299": {
+      "meaning": "martes"
+    },
+    "word-300": {
+      "meaning": "miércoles"
+    },
+    "word-301": {
+      "meaning": "jueves"
+    },
+    "word-302": {
+      "meaning": "viernes"
+    },
+    "word-303": {
+      "meaning": "sábado. También יום שבת (yom shabát), sábado."
+    },
+    "word-305": {
+      "meaning": "fin, final"
+    },
+    "word-306": {
+      "meaning": "curso"
+    },
+    "word-325": {
+      "meaning": "plan, programa"
+    },
+    "word-326": {
+      "meaning": "reunión, cita"
+    },
+    "word-328": {
+      "meaning": "semana"
+    },
+    "word-345": {
+      "meaning": "crédito; masculino en hebreo, incontable en este sentido. כרטיס אשראי significa «tarjeta de crédito»; באשראי, «a crédito» o, al pagar, «con tarjeta»."
+    },
+    "word-347": {
+      "meaning": "cuenta (para pagar o bancaria), cálculo; también aritmética"
+    },
+    "word-348": {
+      "meaning": "examen, evaluación"
+    },
+    "word-353": {
+      "meaning": "presencia, asistencia; femenino en hebreo, normalmente incontable"
+    },
+    "word-378": {
+      "meaning": "estado, situación."
+    },
+    "word-385": {
+      "meaning": "tiempo"
+    },
+    "word-386": {
+      "meaning": "problema"
+    },
+    "word-387": {
+      "meaning": "fila, turno o cita"
+    },
+    "word-394": {
+      "meaning": "hora. Con artículo השעה (הַשָּׁעָה, hashaá). מה השעה? — ¿Qué hora es?"
+    },
+    "word-400": {
+      "meaning": "pareja, par"
+    },
+    "word-138": {
+      "meaning": "estudiar, aprender; למדנו — לָמַדְנוּ, lamádnu: estudiamos, aprendimos; pasado, primera persona plural, ambos géneros"
+    },
+    "word-139": {
+      "meaning": "trabajar"
+    },
+    "word-140": {
+      "meaning": "ir, caminar"
+    },
+    "word-141": {
+      "meaning": "ir en un medio de transporte, viajar"
+    },
+    "word-142": {
+      "meaning": "saber, conocer, saber hacer algo"
+    },
+    "word-143": {
+      "meaning": "escribir"
+    },
+    "word-144": {
+      "meaning": "leer; קוראים también significa «se llama» en la pregunta איך קוראים לך?"
+    },
+    "word-145": {
+      "meaning": "amar, querer"
+    },
+    "word-146": {
+      "meaning": "hablar, conversar"
+    },
+    "word-147": {
+      "meaning": "decir, pronunciar"
+    },
+    "word-148": {
+      "meaning": "vivir, residir; גרה: acento normativo gará; en el habla coloquial suele ser gára"
+    },
+    "word-149": {
+      "meaning": "sentir, sentirse; אני מרגיש טוב / אני מרגישה טוב — me siento bien"
+    },
+    "word-150": {
+      "meaning": "encontrarse, estar presente"
+    },
+    "word-151": {
+      "meaning": "faltar, estar ausente"
+    },
+    "word-152": {
+      "meaning": "preguntar"
+    },
+    "word-153": {
+      "meaning": "responder; las formas singulares se escriben igual sin niqqud"
+    },
+    "word-154": {
+      "meaning": "entender"
+    },
+    "word-155": {
+      "meaning": "llegar tarde"
+    },
+    "word-156": {
+      "meaning": "estar de pie"
+    },
+    "word-157": {
+      "meaning": "estar sentado"
+    },
+    "word-158": {
+      "meaning": "levantar"
+    },
+    "word-159": {
+      "meaning": "pasear, viajar"
+    },
+    "word-160": {
+      "meaning": "nacer. נוֹלָד — nace; נוֹלַד — nació: se escriben igual sin niqqud. En plural se usa la misma forma para ambos géneros. Por ejemplo, נולדתי (נוֹלַדְתִּי, noládti) significa «nací»."
+    },
+    "word-162": {
+      "meaning": "hay, existe"
+    },
+    "word-163": {
+      "meaning": "no hay, no existe"
+    },
+    "word-164": {
+      "meaning": "tengo"
+    },
+    "word-165": {
+      "meaning": "venir, llegar; באה: pronunciación normativa baá; también báa en el habla coloquial"
+    },
+    "word-166": {
+      "meaning": "entrar. Para indicar el lugar suele usarse ל־: נכנס לכיתה — entra en el aula"
+    },
+    "word-167": {
+      "meaning": "salir, abandonar un lugar. מ־ indica de dónde: יוצא מהכיתה — sale del aula; יוצא מהעיר — sale de la ciudad. ל־ indica destino o finalidad: יוצא לכיתה — sale para ir al aula. La pronunciación de los prefijos depende de la palabra siguiente"
+    },
+    "word-228": {
+      "meaning": "ver. Las formas singulares se escriben igual sin niqqud"
+    },
+    "word-233": {
+      "meaning": "correr; רצה: pronunciación normativa razá; también ráza en el habla coloquial"
+    },
+    "word-288": {
+      "meaning": "querer"
+    },
+    "word-310": {
+      "meaning": "comprar"
+    },
+    "word-311": {
+      "meaning": "comer"
+    },
+    "word-312": {
+      "meaning": "beber"
+    },
+    "word-338": {
+      "meaning": "jugar o interpretar un papel"
+    },
+    "word-354": {
+      "meaning": "comprobar, revisar"
+    },
+    "word-355": {
+      "meaning": "estar presente, asistir; también «presente»"
+    },
+    "word-356": {
+      "meaning": "completar, terminar (por ejemplo, una oración)"
+    },
+    "word-357": {
+      "meaning": "cuidar, ocuparse de alguien o algo; complemento con la preposición ב־"
+    },
+    "word-358": {
+      "meaning": "quedarse, permanecer"
+    },
+    "word-381": {
+      "meaning": "oír, escuchar"
+    },
+    "word-384": {
+      "meaning": "esperar. Se usa ל־ ante la persona o cosa que se espera."
+    },
+    "word-389": {
+      "meaning": "conocer a alguien o algo, reconocer"
+    },
+    "word-392": {
+      "meaning": "llorar"
+    },
+    "word-403": {
+      "meaning": "parecerse a"
+    },
+    "word-404": {
+      "meaning": "llegar a un lugar"
+    },
+    "word-168": {
+      "meaning": "bueno"
+    },
+    "word-169": {
+      "meaning": "simpático, agradable"
+    },
+    "word-170": {
+      "meaning": "alegre, contento"
+    },
+    "word-171": {
+      "meaning": "grande"
+    },
+    "word-172": {
+      "meaning": "pequeño"
+    },
+    "word-173": {
+      "meaning": "bonito; las formas singulares se escriben igual sin niqqud"
+    },
+    "word-174": {
+      "meaning": "interesante"
+    },
+    "word-175": {
+      "meaning": "importante"
+    },
+    "word-176": {
+      "meaning": "específico"
+    },
+    "word-177": {
+      "meaning": "mucho"
+    },
+    "word-178": {
+      "meaning": "poco"
+    },
+    "word-179": {
+      "meaning": "un poco"
+    },
+    "word-180": {
+      "meaning": "muy"
+    },
+    "word-181": {
+      "meaning": "aquí"
+    },
+    "word-181-2": {
+      "meaning": "aquí"
+    },
+    "word-182": {
+      "meaning": "allí; se escribe igual que שם — shem, nombre"
+    },
+    "word-183": {
+      "meaning": "quizás, tal vez; אולי אתה יודע איפה יש בנק? — uláy atá yodéa éyfo yesh bank? — ¿Tal vez sabes dónde hay un banco? (dirigido a un hombre)"
+    },
+    "word-184": {
+      "meaning": "ahora"
+    },
+    "word-185": {
+      "meaning": "ayer"
+    },
+    "word-186": {
+      "meaning": "hoy"
+    },
+    "word-187": {
+      "meaning": "mañana"
+    },
+    "word-188": {
+      "meaning": "a tiempo"
+    },
+    "word-188-2": {
+      "meaning": "durante"
+    },
+    "word-189": {
+      "meaning": "solo, solamente"
+    },
+    "word-190": {
+      "meaning": "ya"
+    },
+    "word-191": {
+      "meaning": "también; גם ... וגם ... — tanto ... como ..."
+    },
+    "word-192": {
+      "meaning": "no"
+    },
+    "word-193": {
+      "meaning": "difícil, duro, complicado. Las formas singulares se escriben igual sin niqqud"
+    },
+    "word-229": {
+      "meaning": "cansado"
+    },
+    "word-231": {
+      "meaning": "enfermo. Las formas singulares se escriben igual sin niqqud"
+    },
+    "word-232": {
+      "meaning": "sano"
+    },
+    "word-237": {
+      "meaning": "más, todavía, aún; עוד פעם — otra vez; עוד קצת — un poco más"
+    },
+    "word-244": {
+      "meaning": "público"
+    },
+    "word-245": {
+      "meaning": "blanco"
+    },
+    "word-256": {
+      "meaning": "siempre; adverbio"
+    },
+    "word-257": {
+      "meaning": "largo, de larga duración"
+    },
+    "word-258": {
+      "meaning": "ligero de peso; fácil, sencillo"
+    },
+    "word-330": {
+      "meaning": "inteligente, sabio"
+    },
+    "word-331": {
+      "meaning": "caliente, cálido"
+    },
+    "word-346": {
+      "meaning": "cómodo, confortable"
+    },
+    "word-364": {
+      "meaning": "dulce; también «adorable» como expresión cariñosa. מתוקים como sustantivo significa «dulces»."
+    },
+    "word-373": {
+      "meaning": "adulto"
+    },
+    "word-374": {
+      "meaning": "anciano; para un objeto viejo se usa ישן."
+    },
+    "word-375": {
+      "meaning": "joven"
+    },
+    "word-376": {
+      "meaning": "viejo; para una persona anciana se usa זקן."
+    },
+    "word-380": {
+      "meaning": "alquilado: דירה שכורה — apartamento alquilado."
+    },
+    "word-388": {
+      "meaning": "triste"
+    },
+    "word-397": {
+      "meaning": "cerca de. El adjetivo hebreo concuerda con la persona o cosa que está cerca."
+    },
+    "word-398": {
+      "meaning": "lejos de. El adjetivo hebreo concuerda con la persona o cosa que está lejos."
+    },
+    "word-194": {
+      "meaning": "¿quién?"
+    },
+    "word-195": {
+      "meaning": "¿con quién?"
+    },
+    "word-196": {
+      "meaning": "¿quién eres?"
+    },
+    "word-197": {
+      "meaning": "¿dónde?"
+    },
+    "word-198": {
+      "meaning": "¿de dónde? (coloquial)"
+    },
+    "word-198-2": {
+      "meaning": "¿de dónde? (formal)"
+    },
+    "word-199": {
+      "meaning": "¿cómo?"
+    },
+    "word-200": {
+      "meaning": "¿por qué? ¿para qué?"
+    },
+    "word-201": {
+      "meaning": "¿qué?"
+    },
+    "word-202": {
+      "meaning": "¿qué es esto?"
+    },
+    "word-203": {
+      "meaning": "¿cuándo?"
+    },
+    "word-204": {
+      "meaning": "¿a quién? ¿para quién? Con יש / אין pregunta quién tiene / no tiene algo. Preposición ל־ + מי; no cambia según género ni número. Por ejemplo: למי יש ...?"
+    },
+    "word-205": {
+      "meaning": "¿cuánto?"
+    },
+    "word-206": {
+      "meaning": "¿cuántos años tienes?"
+    },
+    "word-236": {
+      "meaning": "¿adónde? Adverbio interrogativo de dirección; no cambia según género, número ni persona."
+    },
+    "word-243": {
+      "meaning": "¿qué?, ¿cuál?"
+    },
+    "word-401": {
+      "meaning": "¿por qué? ¿por qué motivo?"
+    },
+    "word-207": {
+      "meaning": "yo"
+    },
+    "word-208": {
+      "meaning": "tú"
+    },
+    "word-210": {
+      "meaning": "él"
+    },
+    "word-212": {
+      "meaning": "partícula de posesión: «de», «¿de quién?». La forma hebrea depende de quién posee el objeto. El masculino plural también se usa para grupos mixtos."
+    },
+    "word-215": {
+      "meaning": "con, junto con"
+    },
+    "word-216": {
+      "meaning": "sobre, en"
+    },
+    "word-217": {
+      "meaning": "al lado de, cerca de"
+    },
+    "word-218": {
+      "meaning": "frente a"
+    },
+    "word-219": {
+      "meaning": "bajo, debajo de"
+    },
+    "word-220": {
+      "meaning": "entre"
+    },
+    "word-221": {
+      "meaning": "porque"
+    },
+    "word-222": {
+      "meaning": "y; la pronunciación del prefijo puede cambiar"
+    },
+    "word-223": {
+      "meaning": "pero, sin embargo"
+    },
+    "word-224": {
+      "meaning": "como, en calidad de; preposición prefijada que se une a la palabra siguiente. La pronunciación puede cambiar. No confundir con כי — ki, «porque»"
+    },
+    "word-225": {
+      "meaning": "este; señala algo o a alguien cercano"
+    },
+    "word-226": {
+      "meaning": "alguien"
+    },
+    "word-227": {
+      "meaning": "si; conjunción condicional. No confundir con עם — im, «con, junto con»"
+    },
+    "word-282": {
+      "meaning": "a, para. Con יש y אין expresa posesión: יש לי significa «tengo». לו («a él») y לא («no») se pronuncian igual: lo. El masculino plural también se usa para grupos mixtos."
+    },
+    "word-304": {
+      "meaning": "cada; todo. Ante un sustantivo se escribe כל: כל יום, cada día. Como palabra independiente, «todo» se escribe כול sin niqqud (por ejemplo, הכול, todo)."
+    },
+    "word-360": {
+      "meaning": "a causa de. Se usa ante un sustantivo."
+    },
+    "word-360-2": {
+      "meaning": "porque. Introduce una oración subordinada. ש־ se escribe unido a la palabra siguiente."
+    },
+    "word-261": {
+      "meaning": "0 — cero; una sola forma. El nombre del número es masculino; plural אפסים — אֲפָסִים, afasím: ceros"
+    },
+    "word-262": {
+      "meaning": "1 — uno"
+    },
+    "word-263": {
+      "meaning": "2 — dos. Ante un sustantivo: שני ספרים — dos libros; שתי דקות — dos minutos."
+    },
+    "word-264": {
+      "meaning": "3 — tres"
+    },
+    "word-265": {
+      "meaning": "4 — cuatro; ארבע: pronunciación normativa arbá; también árba en el habla coloquial"
+    },
+    "word-266": {
+      "meaning": "5 — cinco"
+    },
+    "word-267": {
+      "meaning": "6 — seis"
+    },
+    "word-268": {
+      "meaning": "7 — siete"
+    },
+    "word-269": {
+      "meaning": "8 — ocho; se escriben igual sin niqqud. Forma femenina: pronunciación normativa shmoné, coloquial shmóne"
+    },
+    "word-270": {
+      "meaning": "9 — nueve; la forma femenina también se pronuncia téysha"
+    },
+    "word-271": {
+      "meaning": "10 — diez"
+    },
+    "word-272": {
+      "meaning": "20 — veinte; una misma forma para ambos géneros"
+    },
+    "word-273": {
+      "meaning": "30 — treinta; una misma forma para ambos géneros"
+    },
+    "word-274": {
+      "meaning": "40 — cuarenta; una misma forma para ambos géneros"
+    },
+    "word-275": {
+      "meaning": "50 — cincuenta; una misma forma para ambos géneros"
+    },
+    "word-276": {
+      "meaning": "60 — sesenta; una misma forma para ambos géneros"
+    },
+    "word-277": {
+      "meaning": "70 — setenta; una misma forma para ambos géneros"
+    },
+    "word-278": {
+      "meaning": "80 — ochenta; una misma forma para ambos géneros"
+    },
+    "word-279": {
+      "meaning": "90 — noventa; una misma forma para ambos géneros"
+    },
+    "word-280": {
+      "meaning": "100 — cien; una misma forma con objetos de ambos géneros. La palabra מאה es femenina; pronunciación normativa meá, coloquial méa. מאת es la forma de estado constructo, por ejemplo מאת השנים — los cien años; también se admite מאה השנים. Ante un sustantivo indefinido corriente: מאה ספרים — cien libros. Plural מאות — מֵאוֹת, meót: centenas"
+    }
+  },
+  "lexemes": {
+    "word-001": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["todá"]
+        }
+      }
+    },
+    "word-002": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["todá rabá"]
+        }
+      }
+    },
+    "word-003": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["bóker tov"]
+        }
+      }
+    },
+    "word-004": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["lehitraót"]
+        }
+      }
+    },
+    "word-005": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["naím meód"]
+        }
+      }
+    },
+    "word-006": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["yófi"]
+        }
+      }
+    },
+    "word-007": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["mezuyán"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["mezuyénet"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["mezuyaním"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["mezuyanót"]
+        }
+      }
+    },
+    "word-008": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["meulé"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["meulá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["meulím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["meulót"]
+        }
+      }
+    },
+    "word-009": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["tov meód"]
+        }
+      }
+    },
+    "word-010": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["beséder"]
+        }
+      }
+    },
+    "word-011": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["hakól beséder"]
+        }
+      }
+    },
+    "word-012": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["eyn li muság"]
+        }
+      }
+    },
+    "word-013": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["nachón"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["nechoná"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["nechoním"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["nechonót"]
+        }
+      }
+    },
+    "word-013-5": {
+      "forms": {
+        "question": {
+          "pronunciations": ["nachón?"]
+        }
+      }
+    },
+    "word-014": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["ma nishmá?"]
+        }
+      }
+    },
+    "word-015": {
+      "forms": {
+        "phrase-2-masculine-singular": {
+          "pronunciations": ["ma shlomchá?"]
+        },
+        "phrase-2-feminine-singular": {
+          "pronunciations": ["ma shloméch?"]
+        },
+        "phrase-2-masculine-plural": {
+          "pronunciations": ["ma shlomchém?"],
+          "gloss": "¿cómo están?"
+        },
+        "phrase-2-feminine-plural": {
+          "pronunciations": ["ma shlomchén?"],
+          "gloss": "¿cómo están?"
+        }
+      }
+    },
+    "word-017": {
+      "forms": {
+        "phrase-2-masculine-singular": {
+          "pronunciations": ["eych korím lechá?"]
+        },
+        "phrase-2-feminine-singular": {
+          "pronunciations": ["eych korím lach?"]
+        }
+      }
+    },
+    "word-018": {
+      "forms": {
+        "phrase-2-masculine-singular": {
+          "pronunciations": ["ma shimchá?"]
+        },
+        "phrase-2-feminine-singular": {
+          "pronunciations": ["ma shméch?"]
+        }
+      }
+    },
+    "word-235": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["bevakashá"]
+        }
+      }
+    },
+    "word-239": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["kol hakavód"]
+        }
+      }
+    },
+    "word-254": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["símu lev"]
+        }
+      }
+    },
+    "word-390": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["nesiá tová"]
+        }
+      }
+    },
+    "word-393": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["beteavón"]
+        }
+      }
+    },
+    "word-395": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["ma kará"]
+        }
+      }
+    },
+    "word-396": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["yihyé beséder"]
+        }
+      }
+    },
+    "word-402": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["otó davár"]
+        }
+      }
+    },
+    "word-019": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["shem"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["shemót"]
+        },
+        "suffix-1-singular": {
+          "pronunciations": ["shmi"],
+          "gloss": "mi nombre"
+        },
+        "suffix-2-masculine-singular": {
+          "pronunciations": ["shimchá"],
+          "gloss": "tu nombre"
+        },
+        "suffix-2-feminine-singular": {
+          "pronunciations": ["shméch"],
+          "gloss": "tu nombre"
+        },
+        "suffix-3-masculine-singular": {
+          "pronunciations": ["shmo"],
+          "gloss": "su nombre (de él)"
+        },
+        "suffix-3-feminine-singular": {
+          "pronunciations": ["shma"],
+          "gloss": "su nombre (de ella)"
+        }
+      }
+    },
+    "word-023": {
+      "forms": {
+        "suffix-1-singular": {
+          "pronunciations": ["shlomí"],
+          "gloss": "mi bienestar"
+        },
+        "suffix-2-masculine-singular": {
+          "pronunciations": ["shlomchá"],
+          "gloss": "tu bienestar"
+        },
+        "suffix-2-feminine-singular": {
+          "pronunciations": ["shloméch"],
+          "gloss": "tu bienestar"
+        },
+        "suffix-2-masculine-plural": {
+          "pronunciations": ["shlomchém"],
+          "gloss": "su bienestar (de ustedes)"
+        },
+        "suffix-2-feminine-plural": {
+          "pronunciations": ["shlomchén"],
+          "gloss": "su bienestar (de ustedes)"
+        }
+      }
+    },
+    "word-026": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["shem pratí"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["shemót pratiyím"]
+        }
+      }
+    },
+    "word-027": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["shem mishpachá", "shem mishpachtí"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["shmot mishpachá", "shemót mishpachtiyím"]
+        }
+      }
+    },
+    "word-028": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["mazáv mishpachtí"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["mazavím mishpachtiyím"]
+        }
+      }
+    },
+    "word-029": {
+      "forms": {
+        "phrase-2-masculine-singular": {
+          "pronunciations": ["ma hamazáv hamishpachtí shelchá?"]
+        },
+        "phrase-2-feminine-singular": {
+          "pronunciations": ["ma hamazáv hamishpachtí shelách?"]
+        }
+      }
+    },
+    "word-030": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["któvet"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["ktovót"]
+        }
+      }
+    },
+    "word-031": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["mispár télefon"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["misperéy télefon"]
+        }
+      }
+    },
+    "word-032": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["mispár teudát sehút"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["misperéy teudát sehút"]
+        }
+      }
+    },
+    "word-033": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["shem haír"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["shmot hearím"]
+        }
+      }
+    },
+    "word-034": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["érez leydá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["arzót leydá"]
+        }
+      }
+    },
+    "word-035": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["mishpachá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["mishpachót"]
+        }
+      }
+    },
+    "word-036": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["ben"],
+          "gloss": "hijo"
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["baním"],
+          "gloss": "hijos"
+        }
+      }
+    },
+    "word-037": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["chavér"],
+          "gloss": "amigo"
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["chaverá"],
+          "gloss": "amiga"
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["chaverím"],
+          "gloss": "amigos"
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["chaverót"],
+          "gloss": "amigas"
+        }
+      }
+    },
+    "word-038": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["yéled"],
+          "gloss": "niño"
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["yaldá"],
+          "gloss": "niña"
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["yeladím"],
+          "gloss": "niños"
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["yeladót"],
+          "gloss": "niñas"
+        }
+      }
+    },
+    "word-039": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["ish"],
+          "gloss": "hombre"
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["anashím"],
+          "gloss": "personas, hombres"
+        }
+      }
+    },
+    "word-040": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["báal"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["bealím"]
+        }
+      }
+    },
+    "word-041": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["nasúy"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["nesuá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["nesuím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["nesuót"]
+        }
+      }
+    },
+    "word-042": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["ravák"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["ravaká"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["ravakím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["ravakót"]
+        }
+      }
+    },
+    "word-043": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["garúsh"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["grushá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["grushím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["grushót"]
+        }
+      }
+    },
+    "word-044": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["moré"],
+          "gloss": "profesor"
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["morá"],
+          "gloss": "profesora"
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["morím"],
+          "gloss": "profesores"
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["morót"],
+          "gloss": "profesoras"
+        }
+      }
+    },
+    "word-045": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["talmíd"],
+          "gloss": "alumno"
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["talmidá"],
+          "gloss": "alumna"
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["talmidím"],
+          "gloss": "alumnos"
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["talmidót"],
+          "gloss": "alumnas"
+        }
+      }
+    },
+    "word-046": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["rofé"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["rofá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["rofím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["rofót"]
+        }
+      }
+    },
+    "word-047": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["zabár"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["zabarít"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["zabarím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["zabariyót"]
+        }
+      }
+    },
+    "word-048": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["olé chadásh"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["olá chadashá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["olím chadashím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["olót chadashót"]
+        }
+      }
+    },
+    "word-049": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["olé vatík"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["olá vtiká"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["olím vtikím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["olót vtikót"]
+        }
+      }
+    },
+    "word-050": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["tayár"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["tayéret"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["tayarím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["tayarót"]
+        }
+      }
+    },
+    "word-051": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["mikzóa"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["mikzoót"]
+        }
+      }
+    },
+    "word-052": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["rúsiya"]
+        }
+      }
+    },
+    "word-053": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["israél"]
+        }
+      }
+    },
+    "word-054": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["cheyfá", "cháyfa"]
+        }
+      }
+    },
+    "word-055-1": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["ivrít"],
+          "gloss": "hebreo"
+        }
+      }
+    },
+    "word-055-2": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["rusít"],
+          "gloss": "ruso"
+        }
+      }
+    },
+    "word-055-3": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["anglít"],
+          "gloss": "inglés"
+        }
+      }
+    },
+    "word-056": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["almán"],
+          "gloss": "viudo"
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["almaná"],
+          "gloss": "viuda"
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["almaním"],
+          "gloss": "viudos"
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["almanót"],
+          "gloss": "viudas"
+        }
+      }
+    },
+    "word-241": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["ach"],
+          "gloss": "hermano"
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["achím"],
+          "gloss": "hermanos"
+        }
+      }
+    },
+    "word-242": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["pakíd"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["pkidá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["pkidím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["pkidót"]
+        }
+      }
+    },
+    "word-253": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["mar"],
+          "gloss": "señor"
+        }
+      }
+    },
+    "word-255": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["maskír"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["maskirá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["maskirím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["maskirót"]
+        }
+      }
+    },
+    "word-259": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["chayál"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["chayélet"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["chayalím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["chayalót"]
+        }
+      }
+    },
+    "word-285": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["néched"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["nechdá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["nechadím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["nechadót"]
+        }
+      }
+    },
+    "word-289": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["horé"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["horá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["horím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["horót"]
+        }
+      }
+    },
+    "word-329": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["ganán"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["ganénet"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["gananím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["gananót"]
+        }
+      }
+    },
+    "word-334": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["sába"],
+          "gloss": "abuelo"
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["sabaím"],
+          "gloss": "abuelos"
+        }
+      }
+    },
+    "word-342": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["ába"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["avót"]
+        }
+      }
+    },
+    "word-343": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["íma"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["imahót"]
+        }
+      }
+    },
+    "word-359": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["gil"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["gilím"]
+        }
+      }
+    },
+    "word-361": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["dod"],
+          "gloss": "tío"
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["dodá"],
+          "gloss": "tía"
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["dodím"],
+          "gloss": "tíos"
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["dodót"],
+          "gloss": "tías"
+        }
+      }
+    },
+    "word-362": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["achyán"],
+          "gloss": "sobrino"
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["achyanít"],
+          "gloss": "sobrina"
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["achyaním"],
+          "gloss": "sobrinos"
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["achyaniyót"],
+          "gloss": "sobrinas"
+        }
+      }
+    },
+    "word-363": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["ben dod"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["bney dodím"]
+        }
+      }
+    },
+    "word-365": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["veterinár"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["veterinárit"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["veterinárim"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["veterinariyót"]
+        }
+      }
+    },
+    "word-366": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["menahél"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["menahélet"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["menahalím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["menahalót"]
+        }
+      }
+    },
+    "word-368": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["tinók"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["tinóket"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["tinokót"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["tinokót"]
+        }
+      }
+    },
+    "word-369": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["chatán"],
+          "gloss": "yerno"
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["chataním"],
+          "gloss": "yernos"
+        }
+      }
+    },
+    "word-370": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["cham"],
+          "gloss": "suegro"
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["chamím"],
+          "gloss": "suegros"
+        }
+      }
+    },
+    "word-371": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["gis"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["gisá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["gisím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["gisót"]
+        }
+      }
+    },
+    "word-372": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["bachúr"],
+          "gloss": "joven (hombre)"
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["bachurá"],
+          "gloss": "joven (mujer)"
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["bachurím"],
+          "gloss": "jóvenes (hombres)"
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["bachurót"],
+          "gloss": "jóvenes (mujeres)"
+        }
+      }
+    },
+    "word-399": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["krov mishpachá"],
+          "gloss": "pariente"
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["krovát mishpachá"],
+          "gloss": "pariente"
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["krovéy mishpachá"],
+          "gloss": "parientes"
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["krovót mishpachá"],
+          "gloss": "parientes"
+        }
+      }
+    },
+    "word-057": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["rechóv"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["rechovót"]
+        }
+      }
+    },
+    "word-058": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["báyit"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["batím"]
+        }
+      }
+    },
+    "word-059": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["kitá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["kitót"]
+        }
+      }
+    },
+    "word-060": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["ir"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["arím"]
+        }
+      }
+    },
+    "word-061": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["dérech"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["drachím"]
+        }
+      }
+    },
+    "word-062": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["bank"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["bánkim"]
+        }
+      }
+    },
+    "word-063": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["univérsita"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["universitaót"]
+        }
+      }
+    },
+    "word-064": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["teatrón"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["teatroním", "teatraót"]
+        }
+      }
+    },
+    "word-065": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["shuk"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["shvakím"]
+        }
+      }
+    },
+    "word-066": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["dóar"]
+        }
+      }
+    },
+    "word-067": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["sifriyá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["sifriyót"]
+        }
+      }
+    },
+    "word-068": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["kanyón"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["kanyoním"]
+        }
+      }
+    },
+    "word-069": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["museón"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["museoním"]
+        }
+      }
+    },
+    "word-070": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["iriyá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["iriyót"]
+        }
+      }
+    },
+    "word-071": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["makólet"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["makolót"]
+        }
+      }
+    },
+    "word-072": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["beyt kafé"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["batéy kafé"]
+        }
+      }
+    },
+    "word-073": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["misadá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["misadót"]
+        }
+      }
+    },
+    "word-074": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["tachanát ótobus"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["tachanót ótobus"]
+        }
+      }
+    },
+    "word-075": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["ulpán"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["ulpaním"]
+        }
+      }
+    },
+    "word-076": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["binyán"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["binyaním"]
+        }
+      }
+    },
+    "word-077": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["kir"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["kirót"]
+        }
+      }
+    },
+    "word-078": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["délet"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["dlatót"]
+        }
+      }
+    },
+    "word-079": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["chalón"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["chalonót"]
+        }
+      }
+    },
+    "word-080": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["vilón"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["vilonót"]
+        }
+      }
+    },
+    "word-081": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["arón"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["aronót"]
+        }
+      }
+    },
+    "word-082": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["shulchán"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["shulchanót"]
+        }
+      }
+    },
+    "word-083": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["kisé"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["kisót"]
+        }
+      }
+    },
+    "word-084": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["shatíach"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["shtichím"]
+        }
+      }
+    },
+    "word-085": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["tmuná"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["tmunót"]
+        }
+      }
+    },
+    "word-086": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["lúach"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["luchót"]
+        }
+      }
+    },
+    "word-087": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["machshév"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["machshevím"]
+        }
+      }
+    },
+    "word-088": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["masgán"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["masganím"]
+        }
+      }
+    },
+    "word-089": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["menorá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["menorót"]
+        }
+      }
+    },
+    "word-090": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["mapá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["mapót"]
+        }
+      }
+    },
+    "word-091": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["tik"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["tikím"]
+        }
+      }
+    },
+    "word-092": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["sal"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["salím"]
+        }
+      }
+    },
+    "word-093": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["shaón"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["sheoním"]
+        }
+      }
+    },
+    "word-094": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["maftéach"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["maftechót"]
+        }
+      }
+    },
+    "word-095": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["kos"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["kosót"]
+        }
+      }
+    },
+    "word-096": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["iparón"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["efronót"]
+        }
+      }
+    },
+    "word-097": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["et"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["etím"]
+        }
+      }
+    },
+    "word-098": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["machbéret"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["machbarót"]
+        }
+      }
+    },
+    "word-099": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["séfer"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["sfarím"]
+        }
+      }
+    },
+    "word-100": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["itón"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["itoním"]
+        }
+      }
+    },
+    "word-101": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["michtáv"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["michtavím"]
+        }
+      }
+    },
+    "word-102": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["késef"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["ksafím"]
+        }
+      }
+    },
+    "word-103": {
+      "forms": {
+        "noun-masculine-plural": {
+          "pronunciations": ["sherutím"]
+        }
+      }
+    },
+    "word-104": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["pérach"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["prachím"]
+        }
+      }
+    },
+    "word-105": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["kélev"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["klavím"]
+        }
+      }
+    },
+    "word-106": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["achbár"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["achbarím"]
+        }
+      }
+    },
+    "word-107": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["régel"]
+        },
+        "noun-feminine-dual": {
+          "pronunciations": ["ragláyim"]
+        }
+      }
+    },
+    "word-108": {
+      "forms": {
+        "noun-masculine-plural": {
+          "pronunciations": ["shamáyim"]
+        }
+      }
+    },
+    "word-109": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["yam"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["yamím"]
+        }
+      }
+    },
+    "word-110": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["dirá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["dirót"]
+        }
+      }
+    },
+    "word-111": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["rakévet"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["rakavót"]
+        }
+      }
+    },
+    "word-230": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["shémesh"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["shmashót"]
+        }
+      }
+    },
+    "word-234": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["monít"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["moniyót"]
+        }
+      }
+    },
+    "word-238": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["televísya"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["televísyot"]
+        }
+      }
+    },
+    "word-240": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["mirpaá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["mirpaót"]
+        }
+      }
+    },
+    "word-246": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["park"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["parkím"]
+        }
+      }
+    },
+    "word-247": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["gan"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["ganím"]
+        }
+      }
+    },
+    "word-248": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["gan yeladím"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["ganéy yeladím"]
+        }
+      }
+    },
+    "word-251": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["safsál"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["safsalím"]
+        }
+      }
+    },
+    "word-281": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["magévet"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["magavót"]
+        }
+      }
+    },
+    "word-283": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["bíra"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["bírot"]
+        }
+      }
+    },
+    "word-284": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["sigárya"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["sigáryot"]
+        }
+      }
+    },
+    "word-286": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["glidá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["glidót"]
+        }
+      }
+    },
+    "word-290": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["chéder"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["chadarím"]
+        }
+      }
+    },
+    "word-292": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["ugá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["ugót"]
+        }
+      }
+    },
+    "word-295": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["sapá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["sapót"]
+        }
+      }
+    },
+    "word-296": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["chéfez"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["chafazím"]
+        }
+      }
+    },
+    "word-309": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["mirpéset"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["mirpasót"]
+        }
+      }
+    },
+    "word-313": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["dag"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["dagím"]
+        }
+      }
+    },
+    "word-314": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["of"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["ofót"]
+        }
+      }
+    },
+    "word-315": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["salát"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["salátim"]
+        }
+      }
+    },
+    "word-316": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["yarák"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["yerakót"]
+        }
+      }
+    },
+    "word-317": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["agvaniyá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["agvaniyót"]
+        }
+      }
+    },
+    "word-318": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["melafefón"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["melafefoním"]
+        }
+      }
+    },
+    "word-319": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["bazál"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["bzalím"]
+        }
+      }
+    },
+    "word-320": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["tapúach"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["tapuchím"]
+        }
+      }
+    },
+    "word-321": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["tapús"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["tapusím"]
+        }
+      }
+    },
+    "word-322": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["banána"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["banánot"]
+        }
+      }
+    },
+    "word-323": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["miz"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["mizím"]
+        }
+      }
+    },
+    "word-324": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["enáv"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["anavím"]
+        }
+      }
+    },
+    "word-327": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["marák"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["merakím"]
+        }
+      }
+    },
+    "word-332": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["chaláv"]
+        }
+      }
+    },
+    "word-333": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["te"]
+        }
+      }
+    },
+    "word-335": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["chulzá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["chulzót"]
+        }
+      }
+    },
+    "word-336": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["meíl"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["meilím"]
+        }
+      }
+    },
+    "word-337": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["chanút"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["chanuyót"]
+        }
+      }
+    },
+    "word-339": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["kadúr"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["kadurím"]
+        }
+      }
+    },
+    "word-340": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["óchel"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["ochalím"]
+        }
+      }
+    },
+    "word-344": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["kartís"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["kartisím"]
+        }
+      }
+    },
+    "word-349": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["har"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["harím"]
+        }
+      }
+    },
+    "word-350": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["zafón"]
+        }
+      }
+    },
+    "word-351": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["chayá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["chayót"]
+        }
+      }
+    },
+    "word-352": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["shchuná"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["shchunót"]
+        }
+      }
+    },
+    "word-367": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["merkás klitá"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["merkeséy klitá"]
+        }
+      }
+    },
+    "word-377": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["érez"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["arazót"]
+        }
+      }
+    },
+    "word-379": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["rahít"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["rahitím"]
+        }
+      }
+    },
+    "word-382": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["bakbúk"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["bakbukím"]
+        }
+      }
+    },
+    "word-383": {
+      "forms": {
+        "noun-plural": {
+          "pronunciations": ["máyim"]
+        }
+      }
+    },
+    "word-391": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["mataná"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["matanót"]
+        }
+      }
+    },
+    "word-112": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["shiúr"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["shiurím"]
+        }
+      }
+    },
+    "word-113": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["tiyúl"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["tiyulím"]
+        }
+      }
+    },
+    "word-114": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["hafsaká"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["hafsakót"]
+        }
+      }
+    },
+    "word-115": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["avodá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["avodót"]
+        }
+      }
+    },
+    "word-116": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["milá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["milím"]
+        }
+      }
+    },
+    "word-117": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["amúd"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["amudím"]
+        }
+      }
+    },
+    "word-118": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["mishpát"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["mishpatím"]
+        }
+      }
+    },
+    "word-119": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["sheelá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["sheelót"]
+        }
+      }
+    },
+    "word-120": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["tshuvá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["tshuvót"]
+        }
+      }
+    },
+    "word-121": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["shir"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["shirím"]
+        }
+      }
+    },
+    "word-122": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["shéket"]
+        }
+      }
+    },
+    "word-123": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["kóach"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["kochót"]
+        }
+      }
+    },
+    "word-124": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["mispár"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["misparím"]
+        }
+      }
+    },
+    "word-125": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["yom"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["yamím"]
+        },
+        "noun-masculine-dual": {
+          "pronunciations": ["yomáyim"]
+        }
+      }
+    },
+    "word-126": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["chódesh"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["chodashím"]
+        },
+        "noun-masculine-dual": {
+          "pronunciations": ["chodsháyim"]
+        }
+      }
+    },
+    "word-127": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["shaná"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["shaním"]
+        },
+        "noun-feminine-dual": {
+          "pronunciations": ["shnatáyim"]
+        }
+      }
+    },
+    "word-128": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["taarích"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["taarichím"]
+        }
+      }
+    },
+    "word-129": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["sachár"],
+          "gloss": "macho"
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["scharím"],
+          "gloss": "machos"
+        }
+      }
+    },
+    "word-130": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["rav"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["rabá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["rabím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["rabót"]
+        }
+      }
+    },
+    "word-131": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["póal"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["pealím"]
+        }
+      }
+    },
+    "word-132": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["shem tóar"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["shmot tóar"]
+        }
+      }
+    },
+    "word-133": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["shem ézem"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["shmot ézem"]
+        }
+      }
+    },
+    "word-134": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["sofít"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["sofiyót"]
+        }
+      }
+    },
+    "word-135": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["be-sof milá"]
+        }
+      }
+    },
+    "word-136": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["yozé dófen"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["yozét dófen"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["yozéy dófen"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["yozót dófen"]
+        }
+      }
+    },
+    "word-137": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["ot"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["otiyót"]
+        }
+      }
+    },
+    "word-249": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["shem hapóal"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["shmot hapóal"]
+        }
+      }
+    },
+    "word-250": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["sipúr"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["sipurím"]
+        }
+      }
+    },
+    "word-252": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["chófesh"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["chofashím"]
+        }
+      }
+    },
+    "word-260": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["daká"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["dakót"]
+        }
+      }
+    },
+    "word-287": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["savlanút"]
+        }
+      }
+    },
+    "word-291": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["réga"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["regaím"]
+        }
+      }
+    },
+    "word-293": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["masál"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["masalót"]
+        }
+      }
+    },
+    "word-294": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["músika"]
+        },
+        "construct-feminine-singular": {
+          "pronunciations": ["músikat"]
+        }
+      }
+    },
+    "word-297": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["yom rishón"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["yeméy rishón"]
+        }
+      }
+    },
+    "word-298": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["yom shení"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["yeméy shení"]
+        }
+      }
+    },
+    "word-299": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["yom shlishí"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["yeméy shlishí"]
+        }
+      }
+    },
+    "word-300": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["yom revií"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["yeméy revií"]
+        }
+      }
+    },
+    "word-301": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["yom chamishí"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["yeméy chamishí"]
+        }
+      }
+    },
+    "word-302": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["yom shishí"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["yeméy shishí"]
+        }
+      }
+    },
+    "word-303": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["shabát"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["shabatót"]
+        }
+      }
+    },
+    "word-305": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["sof"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["sofím"]
+        }
+      }
+    },
+    "word-306": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["kurs"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["kursím"]
+        }
+      }
+    },
+    "word-325": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["tochnít"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["tochniyót"]
+        }
+      }
+    },
+    "word-326": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["pgishá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["pgishót"]
+        }
+      }
+    },
+    "word-328": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["shavúa"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["shavuót"]
+        },
+        "noun-masculine-dual": {
+          "pronunciations": ["shvuáyim"]
+        }
+      }
+    },
+    "word-345": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["ashráy"]
+        }
+      }
+    },
+    "word-347": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["cheshbón"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["cheshbonót"]
+        }
+      }
+    },
+    "word-348": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["bchiná"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["bchinót"]
+        }
+      }
+    },
+    "word-353": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["nochechút"]
+        }
+      }
+    },
+    "word-378": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["mazáv"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["mazavím"]
+        }
+      }
+    },
+    "word-385": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["sman"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["smaním"]
+        }
+      }
+    },
+    "word-386": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["beayá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["beayót"]
+        }
+      }
+    },
+    "word-387": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["tor"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["torím"]
+        }
+      }
+    },
+    "word-394": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["shaá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["shaót"]
+        }
+      }
+    },
+    "word-400": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["sug"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["sugót"]
+        }
+      }
+    },
+    "word-138": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lilmód"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["loméd"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["lomédet"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["lomdím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["lomdót"]
+        }
+      }
+    },
+    "word-139": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["laavód"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["ovéd"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["ovédet"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["ovdím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["ovdót"]
+        }
+      }
+    },
+    "word-140": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["laléchet"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["holéch"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["holéchet"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["holchím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["holchót"]
+        }
+      }
+    },
+    "word-141": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["linsóa"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["noséa"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["nosáat"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["nosím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["nosót"]
+        }
+      }
+    },
+    "word-142": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["ladáat"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["yodéa"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["yodáat"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["yodím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["yodót"]
+        }
+      }
+    },
+    "word-143": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lichtóv"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["kotév"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["kotévet"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["kotvím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["kotvót"]
+        }
+      }
+    },
+    "word-144": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["likró"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["koré"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["korét"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["korím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["korót"]
+        }
+      }
+    },
+    "word-145": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["leehóv"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["ohév"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["ohévet"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["ohavím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["ohavót"]
+        }
+      }
+    },
+    "word-146": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["ledabér"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["medabér"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["medabéret"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["medabrím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["medabrót"]
+        }
+      }
+    },
+    "word-147": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lomár"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["omér"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["oméret"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["omrím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["omrót"]
+        }
+      }
+    },
+    "word-148": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lagúr"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["gar"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["gará"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["garím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["garót"]
+        }
+      }
+    },
+    "word-149": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lehargísh"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["margísh"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["margishá"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["margishím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["margishót"]
+        }
+      }
+    },
+    "word-150": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lehimazé"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["nimzá"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["nimzét"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["nimzaím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["nimzaót"]
+        }
+      }
+    },
+    "word-151": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lachsór"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["chasér"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["chaserá"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["chaserím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["chaserót"]
+        }
+      }
+    },
+    "word-152": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lishól"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["shoél"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["shoélet"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["shoalím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["shoalót"]
+        }
+      }
+    },
+    "word-153": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["laanót"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["oné"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["oná"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["oním"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["onót"]
+        }
+      }
+    },
+    "word-154": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lehavín"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["mevín"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["meviná"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["meviním"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["mevinót"]
+        }
+      }
+    },
+    "word-155": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["leachér"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["meachér"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["meachéret"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["meacharím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["meacharót"]
+        }
+      }
+    },
+    "word-156": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["laamód"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["oméd"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["omédet"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["omdím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["omdót"]
+        }
+      }
+    },
+    "word-157": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lashévet"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["yoshév"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["yoshévet"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["yoshvím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["yoshvót"]
+        }
+      }
+    },
+    "word-158": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["leharím"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["merím"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["merimá"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["merimím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["merimót"]
+        }
+      }
+    },
+    "word-159": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["letayél"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["metayél"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["metayélet"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["metaylím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["metaylót"]
+        }
+      }
+    },
+    "word-160": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lehivaléd"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["nolád"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["nolédet"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["noladím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["noladót"]
+        },
+        "past-3-masculine-singular": {
+          "pronunciations": ["nolád"]
+        },
+        "past-3-feminine-singular": {
+          "pronunciations": ["noldá"]
+        },
+        "past-3-plural": {
+          "pronunciations": ["noldú"]
+        }
+      }
+    },
+    "word-162": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["yesh"]
+        }
+      }
+    },
+    "word-163": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["eyn"]
+        }
+      }
+    },
+    "word-164": {
+      "forms": {
+        "phrase-1-singular": {
+          "pronunciations": ["yesh li"]
+        },
+        "phrase-2-masculine-singular": {
+          "pronunciations": ["yesh lechá"]
+        },
+        "phrase-2-feminine-singular": {
+          "pronunciations": ["yesh lach"]
+        }
+      }
+    },
+    "word-165": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lavó"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["ba"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["baá"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["baím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["baót"]
+        }
+      }
+    },
+    "word-166": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lehikanés"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["nichnás"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["nichnéset"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["nichnasím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["nichnasót"]
+        }
+      }
+    },
+    "word-167": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lazét"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["yozé"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["yozét"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["yozím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["yozót"]
+        }
+      }
+    },
+    "word-228": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lirót"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["roé"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["roá"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["roím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["roót"]
+        }
+      }
+    },
+    "word-233": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["larúz"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["raz"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["razá"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["razím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["razót"]
+        }
+      }
+    },
+    "word-288": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lirzót"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["rozé"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["rozá"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["rozím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["rozót"]
+        }
+      }
+    },
+    "word-310": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["liknót"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["koné"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["koná"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["koním"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["konót"]
+        }
+      }
+    },
+    "word-311": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["leechól"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["ochél"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["ochélet"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["ochlím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["ochlót"]
+        }
+      }
+    },
+    "word-312": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lishtót"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["shoté"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["shotá"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["shotím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["shotót"]
+        }
+      }
+    },
+    "word-338": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lesachék"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["mesachék"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["mesachéket"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["mesachakím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["mesachakót"]
+        }
+      }
+    },
+    "word-354": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["livdók"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["bodék"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["bodéket"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["bodkím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["bodkót"]
+        }
+      }
+    },
+    "word-355": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["linkóach"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["nochéach"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["nocháchat"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["nochechím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["nochechót"]
+        }
+      }
+    },
+    "word-356": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lehashlím"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["mashlím"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["mashlimá"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["mashlimím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["mashlimót"]
+        }
+      }
+    },
+    "word-357": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["letapél"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["metapél"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["metapélet"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["metaplím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["metaplót"]
+        }
+      }
+    },
+    "word-358": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lehishaér"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["nishár"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["nishéret"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["nisharím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["nisharót"]
+        }
+      }
+    },
+    "word-381": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lishmóa"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["shoméa"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["shomáat"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["shomím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["shomót"]
+        }
+      }
+    },
+    "word-384": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lechakót"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["mechaké"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["mechaká"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["mechakím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["mechakót"]
+        }
+      }
+    },
+    "word-389": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lehakír"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["makír"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["makirá"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["makirím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["makirót"]
+        }
+      }
+    },
+    "word-392": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["livkót"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["boché"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["bochá"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["bochím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["bochót"]
+        }
+      }
+    },
+    "word-403": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lidmót le-"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["domé le-"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["domá le-"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["domím le-"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["domót le-"]
+        }
+      }
+    },
+    "word-404": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lehagía"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["magía"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["magiá"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["magiím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["magiót"]
+        }
+      }
+    },
+    "word-168": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["tov"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["tová"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["tovím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["tovót"]
+        }
+      }
+    },
+    "word-169": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["nechmád"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["nechmadá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["nechmadím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["nechmadót"]
+        }
+      }
+    },
+    "word-170": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["saméach"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["smechá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["smechím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["smechót"]
+        }
+      }
+    },
+    "word-171": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["gadól"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["gdolá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["gdolím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["gdolót"]
+        }
+      }
+    },
+    "word-172": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["katán"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["ktaná"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["ktaním"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["ktanót"]
+        }
+      }
+    },
+    "word-173": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["yafé"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["yafá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["yafím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["yafót"]
+        }
+      }
+    },
+    "word-174": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["meanyén"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["meanyénet"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["meanyením"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["meanyenót"]
+        }
+      }
+    },
+    "word-175": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["chashúv"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["chashuvá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["chashuvím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["chashuvót"]
+        }
+      }
+    },
+    "word-176": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["spezífi"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["spezífit"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["spezífiyim"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["spezífiyot"]
+        }
+      }
+    },
+    "word-177": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["harbé"]
+        }
+      }
+    },
+    "word-178": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["meát"]
+        }
+      }
+    },
+    "word-179": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["kzat"]
+        }
+      }
+    },
+    "word-180": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["meód"]
+        }
+      }
+    },
+    "word-181-1": {
+      "forms": {
+        "adverb": {
+          "pronunciations": ["po"]
+        }
+      }
+    },
+    "word-181-2": {
+      "forms": {
+        "adverb": {
+          "pronunciations": ["kan"]
+        }
+      }
+    },
+    "word-182": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["sham"]
+        }
+      }
+    },
+    "word-183": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["uláy"]
+        }
+      }
+    },
+    "word-184": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["achsháv"]
+        }
+      }
+    },
+    "word-185": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["etmól"]
+        }
+      }
+    },
+    "word-186": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["hayóm"]
+        }
+      }
+    },
+    "word-187": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["machár"]
+        }
+      }
+    },
+    "word-188-1": {
+      "forms": {
+        "adverb": {
+          "pronunciations": ["basmán"],
+          "gloss": "a tiempo"
+        }
+      }
+    },
+    "word-188-2": {
+      "forms": {
+        "preposition": {
+          "pronunciations": ["bismán"],
+          "gloss": "durante"
+        }
+      }
+    },
+    "word-189": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["rak"]
+        }
+      }
+    },
+    "word-190": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["kvar"]
+        }
+      }
+    },
+    "word-191": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["gam"]
+        }
+      }
+    },
+    "word-192": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["lo"]
+        }
+      }
+    },
+    "word-193": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["kashé"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["kashá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["kashím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["kashót"]
+        }
+      }
+    },
+    "word-229": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["ayéf"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["ayefá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["ayefím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["ayefót"]
+        }
+      }
+    },
+    "word-231": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["cholé"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["cholá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["cholím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["cholót"]
+        }
+      }
+    },
+    "word-232": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["barí"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["briá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["briím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["briót"]
+        }
+      }
+    },
+    "word-237": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["od"]
+        }
+      }
+    },
+    "word-244": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["ziburí"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["ziburít"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["ziburiyím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["ziburiyót"]
+        }
+      }
+    },
+    "word-245": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["laván"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["levaná"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["levaním"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["levanót"]
+        }
+      }
+    },
+    "word-256": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["tamíd"]
+        }
+      }
+    },
+    "word-257": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["aróch"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["aruká"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["arukím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["arukót"]
+        }
+      }
+    },
+    "word-258": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["kal"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["kalá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["kalím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["kalót"]
+        }
+      }
+    },
+    "word-330": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["chachám"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["chachamá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["chachamím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["chachamót"]
+        }
+      }
+    },
+    "word-331": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["cham"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["chamá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["chamím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["chamót"]
+        }
+      }
+    },
+    "word-346": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["nóach"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["nochá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["nochím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["nochót"]
+        }
+      }
+    },
+    "word-364": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["matók"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["metuká"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["metukím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["metukót"]
+        }
+      }
+    },
+    "word-373": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["mevugár"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["mevugéret"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["mevugarím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["mevugarót"]
+        }
+      }
+    },
+    "word-374": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["sakén"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["skená"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["skením"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["skenót"]
+        }
+      }
+    },
+    "word-375": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["zaír"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["zeirá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["zeirím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["zeirót"]
+        }
+      }
+    },
+    "word-376": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["yashán"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["yeshaná"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["yeshaním"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["yeshanót"]
+        }
+      }
+    },
+    "word-380": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["sachúr"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["schurá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["schurím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["schurót"]
+        }
+      }
+    },
+    "word-388": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["azúv"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["azuvá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["azuvím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["azuvót"]
+        }
+      }
+    },
+    "word-397": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["karóv le-"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["krová le-"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["krovím le-"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["krovót le-"]
+        }
+      }
+    },
+    "word-398": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["rachók mi-"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["rechoká mi-"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["rechokím mi-"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["rechokót mi-"]
+        }
+      }
+    },
+    "word-194": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["mi?"]
+        }
+      }
+    },
+    "word-195": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["im mi?"]
+        }
+      }
+    },
+    "word-196": {
+      "forms": {
+        "phrase-2-masculine-singular": {
+          "pronunciations": ["mi atá?"]
+        },
+        "phrase-2-feminine-singular": {
+          "pronunciations": ["mi at?"]
+        }
+      }
+    },
+    "word-197": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["éyfo?"]
+        }
+      }
+    },
+    "word-198-1": {
+      "forms": {
+        "adverb": {
+          "pronunciations": ["me-éyfo?"]
+        }
+      }
+    },
+    "word-198-2": {
+      "forms": {
+        "adverb": {
+          "pronunciations": ["me-áyin?"]
+        }
+      }
+    },
+    "word-199": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["eych?"]
+        }
+      }
+    },
+    "word-200": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["láma?"]
+        }
+      }
+    },
+    "word-201": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["ma?"]
+        }
+      }
+    },
+    "word-202": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["ma se?"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["ma sot?"]
+        }
+      }
+    },
+    "word-203": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["matáy?"]
+        }
+      }
+    },
+    "word-204": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["lemí?"]
+        }
+      }
+    },
+    "word-205": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["káma?"]
+        }
+      }
+    },
+    "word-206": {
+      "forms": {
+        "phrase-2-masculine-singular": {
+          "pronunciations": ["ben káma atá?"]
+        },
+        "phrase-2-feminine-singular": {
+          "pronunciations": ["bat káma at?"]
+        }
+      }
+    },
+    "word-236": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["leán?"]
+        }
+      }
+    },
+    "word-243": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["éyse?"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["éyso?"]
+        },
+        "agreement-plural": {
+          "pronunciations": ["éylu?"]
+        }
+      }
+    },
+    "word-401": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["madúa"]
+        }
+      }
+    },
+    "word-207": {
+      "forms": {
+        "pronoun-1-singular": {
+          "pronunciations": ["aní"],
+          "gloss": "yo"
+        },
+        "pronoun-1-plural": {
+          "pronunciations": ["anáchnu"],
+          "gloss": "nosotros, nosotras"
+        }
+      }
+    },
+    "word-208": {
+      "forms": {
+        "pronoun-2-masculine-singular": {
+          "pronunciations": ["atá"]
+        },
+        "pronoun-2-feminine-singular": {
+          "pronunciations": ["at"]
+        },
+        "pronoun-2-masculine-plural": {
+          "pronunciations": ["atém"],
+          "gloss": "ustedes. El masculino plural también se usa para grupos mixtos."
+        },
+        "pronoun-2-feminine-plural": {
+          "pronunciations": ["atén"],
+          "gloss": "ustedes"
+        }
+      }
+    },
+    "word-210": {
+      "forms": {
+        "pronoun-3-masculine-singular": {
+          "pronunciations": ["hu"],
+          "gloss": "él"
+        },
+        "pronoun-3-feminine-singular": {
+          "pronunciations": ["hi"],
+          "gloss": "ella"
+        },
+        "pronoun-3-masculine-plural": {
+          "pronunciations": ["hem"],
+          "gloss": "ellos. El masculino plural también se usa para grupos mixtos."
+        },
+        "pronoun-3-feminine-plural": {
+          "pronunciations": ["hen"],
+          "gloss": "ellas"
+        }
+      }
+    },
+    "word-212": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["shel"]
+        },
+        "suffix-1-singular": {
+          "pronunciations": ["shelí"],
+          "gloss": "mío"
+        },
+        "suffix-2-masculine-singular": {
+          "pronunciations": ["shelchá"],
+          "gloss": "tuyo"
+        },
+        "suffix-2-feminine-singular": {
+          "pronunciations": ["shelách"],
+          "gloss": "tuyo"
+        },
+        "suffix-3-masculine-singular": {
+          "pronunciations": ["sheló"],
+          "gloss": "de él"
+        },
+        "suffix-3-feminine-singular": {
+          "pronunciations": ["shelá"],
+          "gloss": "de ella"
+        },
+        "suffix-3-masculine-plural": {
+          "pronunciations": ["shelahém"],
+          "gloss": "de ellos"
+        },
+        "suffix-3-feminine-plural": {
+          "pronunciations": ["shelahén"],
+          "gloss": "de ellas"
+        }
+      }
+    },
+    "word-215": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["im"]
+        }
+      }
+    },
+    "word-216": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["al"]
+        }
+      }
+    },
+    "word-217": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["al yad"]
+        }
+      }
+    },
+    "word-218": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["mul"]
+        }
+      }
+    },
+    "word-219": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["táchat"]
+        }
+      }
+    },
+    "word-220": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["beyn"]
+        }
+      }
+    },
+    "word-221": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["ki"]
+        }
+      }
+    },
+    "word-222": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["ve-"]
+        }
+      }
+    },
+    "word-223": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["avál"]
+        }
+      }
+    },
+    "word-224": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["ke-"]
+        }
+      }
+    },
+    "word-225": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["se"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["sot"]
+        },
+        "agreement-plural": {
+          "pronunciations": ["éle"]
+        }
+      }
+    },
+    "word-226": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["míshehu"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["míshehi"]
+        }
+      }
+    },
+    "word-227": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["im"]
+        }
+      }
+    },
+    "word-282": {
+      "forms": {
+        "base": {
+          "pronunciations": ["le-"],
+          "gloss": "a, para"
+        },
+        "suffix-1-singular": {
+          "pronunciations": ["li"],
+          "gloss": "a mí"
+        },
+        "suffix-2-masculine-singular": {
+          "pronunciations": ["lechá"],
+          "gloss": "a ti"
+        },
+        "suffix-2-feminine-singular": {
+          "pronunciations": ["lach"],
+          "gloss": "a ti"
+        },
+        "suffix-3-masculine-singular": {
+          "pronunciations": ["lo"],
+          "gloss": "a él"
+        },
+        "suffix-3-feminine-singular": {
+          "pronunciations": ["la"],
+          "gloss": "a ella"
+        },
+        "suffix-1-plural": {
+          "pronunciations": ["lánu"],
+          "gloss": "a nosotros/as"
+        },
+        "suffix-2-masculine-plural": {
+          "pronunciations": ["lachém"],
+          "gloss": "a ustedes"
+        },
+        "suffix-2-feminine-plural": {
+          "pronunciations": ["lachén"],
+          "gloss": "a ustedes"
+        },
+        "suffix-3-masculine-plural": {
+          "pronunciations": ["lahém"],
+          "gloss": "a ellos"
+        },
+        "suffix-3-feminine-plural": {
+          "pronunciations": ["lahén"],
+          "gloss": "a ellas"
+        }
+      }
+    },
+    "word-304": {
+      "forms": {
+        "construct": {
+          "pronunciations": ["kol"]
+        },
+        "absolute": {
+          "pronunciations": ["kol"]
+        }
+      }
+    },
+    "word-360-1": {
+      "forms": {
+        "preposition": {
+          "pronunciations": ["mipnéy"],
+          "gloss": "a causa de"
+        }
+      }
+    },
+    "word-360-2": {
+      "forms": {
+        "conjunction": {
+          "pronunciations": ["mipnéy she-"],
+          "gloss": "porque"
+        }
+      }
+    },
+    "word-261": {
+      "forms": {
+        "absolute": {
+          "pronunciations": ["éfes"]
+        }
+      }
+    },
+    "word-262": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["echád"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["achát"]
+        }
+      }
+    },
+    "word-263": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["shnáyim"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["shtáyim"]
+        },
+        "construct-masculine": {
+          "pronunciations": ["shney"]
+        },
+        "construct-feminine": {
+          "pronunciations": ["shtey"]
+        }
+      }
+    },
+    "word-264": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["shloshá"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["shalósh"]
+        }
+      }
+    },
+    "word-265": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["arbaá"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["arbá"]
+        }
+      }
+    },
+    "word-266": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["chamishá"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["chamésh"]
+        }
+      }
+    },
+    "word-267": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["shishá"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["shesh"]
+        }
+      }
+    },
+    "word-268": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["shivá"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["shéva"]
+        }
+      }
+    },
+    "word-269": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["shmoná"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["shmoné"]
+        }
+      }
+    },
+    "word-270": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["tishá"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["tésha"]
+        }
+      }
+    },
+    "word-271": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["asará"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["éser"]
+        }
+      }
+    },
+    "word-272": {
+      "forms": {
+        "absolute": {
+          "pronunciations": ["esrím"]
+        }
+      }
+    },
+    "word-273": {
+      "forms": {
+        "absolute": {
+          "pronunciations": ["shloshím"]
+        }
+      }
+    },
+    "word-274": {
+      "forms": {
+        "absolute": {
+          "pronunciations": ["arbaím"]
+        }
+      }
+    },
+    "word-275": {
+      "forms": {
+        "absolute": {
+          "pronunciations": ["chamishím"]
+        }
+      }
+    },
+    "word-276": {
+      "forms": {
+        "absolute": {
+          "pronunciations": ["shishím"]
+        }
+      }
+    },
+    "word-277": {
+      "forms": {
+        "absolute": {
+          "pronunciations": ["shivím"]
+        }
+      }
+    },
+    "word-278": {
+      "forms": {
+        "absolute": {
+          "pronunciations": ["shmoním"]
+        }
+      }
+    },
+    "word-279": {
+      "forms": {
+        "absolute": {
+          "pronunciations": ["tishím"]
+        }
+      }
+    },
+    "word-280": {
+      "forms": {
+        "absolute-feminine": {
+          "pronunciations": ["meá"]
+        },
+        "construct-feminine": {
+          "pronunciations": ["meát"]
+        }
+      }
+    },
+    "word-036-bat": {
+      "forms": {
+        "agreement-feminine-singular": {
+          "pronunciations": ["bat"],
+          "gloss": "hija"
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["banót"],
+          "gloss": "hijas"
+        }
+      }
+    },
+    "word-039-f": {
+      "forms": {
+        "agreement-feminine-singular": {
+          "pronunciations": ["ishá"],
+          "gloss": "mujer"
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["nashím"],
+          "gloss": "mujeres"
+        }
+      }
+    },
+    "word-241-f": {
+      "forms": {
+        "agreement-feminine-singular": {
+          "pronunciations": ["achót"],
+          "gloss": "hermana"
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["achayót"],
+          "gloss": "hermanas"
+        }
+      }
+    },
+    "word-253-f": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["gvéret"],
+          "gloss": "señora"
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["gvirót", "gvarót"],
+          "gloss": "señoras"
+        }
+      }
+    },
+    "word-334-f": {
+      "forms": {
+        "agreement-feminine-singular": {
+          "pronunciations": ["sávta"],
+          "gloss": "abuela"
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["savtót"],
+          "gloss": "abuelas"
+        }
+      }
+    },
+    "word-363-f": {
+      "forms": {
+        "agreement-feminine-singular": {
+          "pronunciations": ["bat dodá"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["bnot dodót"]
+        }
+      }
+    },
+    "word-369-f": {
+      "forms": {
+        "agreement-feminine-singular": {
+          "pronunciations": ["kalá"],
+          "gloss": "nuera"
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["kalót"],
+          "gloss": "nueras"
+        }
+      }
+    },
+    "word-370-f": {
+      "forms": {
+        "agreement-feminine-singular": {
+          "pronunciations": ["chamót"],
+          "gloss": "suegra"
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["chamayót"],
+          "gloss": "suegras"
+        }
+      }
+    },
+    "word-129-f": {
+      "forms": {
+        "agreement-feminine-singular": {
+          "pronunciations": ["nekevá"],
+          "gloss": "hembra"
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["nekevót"],
+          "gloss": "hembras"
+        }
+      }
+    }
+  }
+}
