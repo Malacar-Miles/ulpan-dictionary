@@ -25,7 +25,6 @@ export const SectionHeading = memo(
             type="button"
             className={styles['section-select']}
             aria-label={`${action}: ${section.title}`}
-            title={`${action}: ${section.title}`}
             aria-pressed={allSelected ? true : someSelected ? 'mixed' : false}
             onClick={() => onToggleSection(section.entries.map((entry) => entry.id))}
           >

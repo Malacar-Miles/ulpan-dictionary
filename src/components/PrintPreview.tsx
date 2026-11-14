@@ -6,6 +6,7 @@ import { buildPrintRows } from '../helpers/printLayout';
 import { NiqqudToggle } from './NiqqudToggle';
 import { HandwritingToggle } from './HandwritingToggle';
 import { PrintIcon } from './PrintIcon';
+import displayControlsStyles from './DisplayControls.module.css';
 import './PrintPreview.css';
 
 export const PrintPreview = ({
@@ -83,13 +84,13 @@ export const PrintPreview = ({
             }}
           />
           {hasExpandable && (
-            <label>
+            <label className={displayControlsStyles['niqqud-toggle']}>
               <input
                 type="checkbox"
                 checked={expanded}
                 onChange={(event) => setExpanded(event.target.checked)}
-              />{' '}
-              {messages.printExpand}
+              />
+              <span>{messages.printExpand}</span>
             </label>
           )}
         </div>

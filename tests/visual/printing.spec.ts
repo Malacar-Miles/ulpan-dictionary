@@ -114,6 +114,12 @@ test('preview defaults, five-column layout, expanded grouping, font readiness an
   await page.screenshot({ path: testInfo.outputPath('preview.png') });
   if (testInfo.project.name === 'desktop')
     await page.pdf({ path: testInfo.outputPath('expanded.pdf'), preferCSSPageSize: true });
+  if (testInfo.project.name === 'desktop')
+    await page.pdf({
+      path: testInfo.outputPath('expanded-with-headers.pdf'),
+      preferCSSPageSize: true,
+      displayHeaderFooter: true,
+    });
   await page.evaluate(() => {
     window.print = () => document.body.setAttribute('data-print-invoked', 'true');
   });
@@ -194,7 +200,7 @@ test('the complete expanded dictionary fits within printable row dimensions in b
       const heights = await dialog
         .locator('.print-card-row')
         .evaluateAll((rows) => rows.map((row) => row.getBoundingClientRect().height));
-      // A4 portrait minus two 10 mm margins, at 96 CSS px per inch.
+      // A4 portrait minus two 15 mm margins, at 96 CSS px per inch.
       expect(
         Math.max(...heights),
         JSON.stringify(
@@ -207,7 +213,7 @@ test('the complete expanded dictionary fits within printable row dimensions in b
               })),
           ),
         ),
-      ).toBeLessThan((277 * 96) / 25.4);
+      ).toBeLessThan((267 * 96) / 25.4);
     }
     await page.pdf({
       path: testInfo.outputPath(`dense-${locale}.pdf`),
