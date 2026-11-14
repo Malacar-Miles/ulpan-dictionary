@@ -882,14 +882,20 @@ body {
   border-radius: 50%;
   cursor: pointer;
 }
-.forms-header {
-  float: left;
+.forms-toggle {
+  position: absolute;
+  z-index: 1;
 }
-.forms-header.expanded {
-  float: none;
+.card.expandable .card-top {
+  padding-left: 2.5rem;
+  min-height: 2rem;
+}
+.forms-header {
+  min-height: 2rem;
+  padding-left: 2.5rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 0.5rem;
   margin-bottom: 0.5rem;
 }
@@ -927,4 +933,41 @@ body {
 }
 .card-top {
   flex-wrap: wrap;
+}
+
+.collapse-swap-panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  visibility: hidden;
+}
+.collapse-swap-panel.is-active {
+  grid-template-rows: 1fr;
+  visibility: visible;
+}
+.collapse-swap-content {
+  min-height: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+.collapse-swap-panel.is-active > .collapse-swap-content {
+  opacity: 1;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .collapse-swap-panel {
+    transition:
+      grid-template-rows 240ms ease-in-out 120ms,
+      visibility 0s 120ms;
+  }
+  .collapse-swap-panel.is-active {
+    transition-delay: 120ms, 0s;
+  }
+  .collapse-swap-content {
+    transition: opacity 120ms ease-out;
+  }
+  .collapse-swap-panel.is-active > .collapse-swap-content {
+    transition-delay: 360ms;
+  }
+  .forms-trigger svg {
+    transition: transform 480ms ease-in-out;
+  }
 }

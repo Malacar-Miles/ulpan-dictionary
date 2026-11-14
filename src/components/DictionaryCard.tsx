@@ -4,6 +4,7 @@ import type { DictionaryEntry, FormRow } from '../types';
 import { getEntrySpellings, rowFields } from '../helpers/dictionary';
 import { matches } from '../search';
 import { Highlight } from './Highlight';
+import { CollapseSwap } from './CollapseSwap';
 
 type DictionaryCardProps = { entry: DictionaryEntry; query: string; showNiqqud: boolean };
 export const DictionaryCard = ({ entry, query, showNiqqud }: DictionaryCardProps) => {
@@ -50,7 +51,7 @@ export const DictionaryCard = ({ entry, query, showNiqqud }: DictionaryCardProps
       }}
     >
       {expandable && (
-        <div className={open ? 'forms-header expanded' : 'forms-header'}>
+        <div className="forms-toggle">
           <button
             className="forms-trigger"
             aria-expanded={open}
@@ -72,7 +73,22 @@ export const DictionaryCard = ({ entry, query, showNiqqud }: DictionaryCardProps
               <path d="m5 9 7 7 7-7" />
             </svg>
           </button>
-          {open && entry.root !== undefined && (
+        </div>
+      )}
+      <CollapseSwap
+        id={id}
+        open={open}
+        summary={
+          <>
+            <div className="card-top">{hebrew(defaultRow)}</div>
+            <p className="pronunciation">
+              <Highlight text={defaultRow.pronunciation} query={query} />
+            </p>
+          </>
+        }
+      >
+        <div className="forms-header">
+          {entry.root !== undefined && (
             <div className="card-roots">
               {messages.root}{' '}
               {entry.root === null ? (
@@ -85,47 +101,36 @@ export const DictionaryCard = ({ entry, query, showNiqqud }: DictionaryCardProps
             </div>
           )}
         </div>
-      )}
-      <div id={id}>
-        {open ? (
-          <div className="forms-grid" role="table">
-            <div className="sr-only" role="row">
-              {(locale === 'ru'
-                ? ['Иврит', 'Произношение', 'Форма']
-                : ['Hebreo', 'Pronunciación', 'Forma']
-              ).map((text) => (
-                <span key={text} role="columnheader">
-                  {text}
-                </span>
-              ))}
-            </div>
-            {rows.map((row) => (
-              <div key={row.key} role="row" className="form-row">
-                <div role="cell">{hebrew(row)}</div>
-                <div role="cell" className="pronunciation">
-                  <Highlight text={row.pronunciation} query={query} />
-                </div>
-                <div role="cell">
-                  {row.label}
-                  {row.gloss && (
-                    <>
-                      {' '}
-                      · <Highlight text={row.gloss} query={query} />
-                    </>
-                  )}
-                </div>
-              </div>
+        <div className="forms-grid" role="table">
+          <div className="sr-only" role="row">
+            {(locale === 'ru'
+              ? ['Иврит', 'Произношение', 'Форма']
+              : ['Hebreo', 'Pronunciación', 'Forma']
+            ).map((text) => (
+              <span key={text} role="columnheader">
+                {text}
+              </span>
             ))}
           </div>
-        ) : (
-          <>
-            <div className="card-top">{hebrew(defaultRow)}</div>
-            <p className="pronunciation">
-              <Highlight text={defaultRow.pronunciation} query={query} />
-            </p>
-          </>
-        )}
-      </div>
+          {rows.map((row) => (
+            <div key={row.key} role="row" className="form-row">
+              <div role="cell">{hebrew(row)}</div>
+              <div role="cell" className="pronunciation">
+                <Highlight text={row.pronunciation} query={query} />
+              </div>
+              <div role="cell">
+                {row.label}
+                {row.gloss && (
+                  <>
+                    {' '}
+                    · <Highlight text={row.gloss} query={query} />
+                  </>
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
+      </CollapseSwap>
       <div className="card-rule" />
       <p className="meaning">
         <Highlight text={entry.meaning} query={query} />
