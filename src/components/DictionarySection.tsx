@@ -1,7 +1,8 @@
+import { memo } from 'react';
 import type { DictionaryEntry, DictionarySection as Section } from '../types';
 import { DictionaryCard } from './DictionaryCard';
 
-export const SectionHeading = ({ section }: { section: Section }) => (
+export const SectionHeading = memo(({ section }: { section: Section }) => (
   <>
     <div className="section-title">
       <h3>{section.title}</h3>
@@ -10,22 +11,25 @@ export const SectionHeading = ({ section }: { section: Section }) => (
     </div>
     {section.note && <p className="section-note">{section.note}</p>}
   </>
-);
+));
 
-export const EntryGrid = ({
-  entries,
-  query,
-  showNiqqud,
-}: {
-  entries: DictionaryEntry[];
-  query: string;
-  showNiqqud: boolean;
-}) => (
-  <div className="grid">
-    {entries.map((entry) => (
-      <DictionaryCard key={entry.id} entry={entry} query={query} showNiqqud={showNiqqud} />
-    ))}
-  </div>
+// Virtual row positions change on scroll and resize; their contents can stay rendered.
+export const EntryGrid = memo(
+  ({
+    entries,
+    query,
+    showNiqqud,
+  }: {
+    entries: DictionaryEntry[];
+    query: string;
+    showNiqqud: boolean;
+  }) => (
+    <div className="grid">
+      {entries.map((entry) => (
+        <DictionaryCard key={entry.id} entry={entry} query={query} showNiqqud={showNiqqud} />
+      ))}
+    </div>
+  ),
 );
 
 export type SectionListProps = { sections: Section[]; query: string; showNiqqud: boolean };
