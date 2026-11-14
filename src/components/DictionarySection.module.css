@@ -42,3 +42,28 @@
     line-height: 1.4;
   }
 }
+
+.section-select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 44px;
+  flex: none;
+  border: 1px solid transparent;
+  border-radius: var(--radius-control);
+  padding: 6px 10px;
+  color: var(--color-control-text);
+  background: transparent;
+  font: 600 11px var(--font-ui);
+  cursor: pointer;
+}
+.section-select[aria-pressed='true'] {
+  border-color: var(--color-selected-border);
+  background: var(--color-control);
+  color: var(--color-primary);
+}
+.section-select:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+}

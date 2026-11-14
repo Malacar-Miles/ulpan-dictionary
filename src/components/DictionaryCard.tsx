@@ -9,13 +9,23 @@ import { CollapseSwap } from './CollapseSwap';
 
 type DictionaryCardProps = {
   entry: DictionaryEntry;
+  selected: boolean;
+  onToggleCard: (id: string) => void;
   query: string;
   showNiqqud: boolean;
   expanded: boolean | undefined;
   onExpandedChange: (id: string, expanded: boolean) => void;
 };
 export const DictionaryCard = memo(
-  ({ entry, query, showNiqqud, expanded, onExpandedChange }: DictionaryCardProps) => {
+  ({
+    entry,
+    query,
+    showNiqqud,
+    expanded,
+    onExpandedChange,
+    selected,
+    onToggleCard,
+  }: DictionaryCardProps) => {
     const { messages, locale } = useLocale();
     const id = useId();
     const animate = expanded !== undefined;
@@ -56,7 +66,7 @@ export const DictionaryCard = memo(
         onClick={(event) => {
           if (
             expandable &&
-            !(event.target as Element).closest('button') &&
+            !(event.target as Element).closest('button, input, label') &&
             !window.getSelection()?.toString()
           )
             toggle();
@@ -147,6 +157,17 @@ export const DictionaryCard = memo(
         <p className={styles['meaning']}>
           <Highlight text={entry.meaning} query={query} />
         </p>
+        <label
+          className={styles['print-select']}
+          title={messages.selectForPrint(defaultRow.hebrew)}
+        >
+          <input
+            type="checkbox"
+            checked={selected}
+            aria-label={messages.selectForPrint(defaultRow.hebrew)}
+            onChange={() => onToggleCard(entry.id)}
+          />
+        </label>
       </article>
     );
   },

@@ -1,4 +1,7 @@
 import styles from './App.module.css';
+import { useState } from 'react';
+import { usePrintSelection } from './hooks/usePrintSelection';
+import { PrintPreview } from './components/PrintPreview';
 import { useLocale } from './localization/context';
 import { LocaleProvider } from './localization/LocaleProvider';
 import { DictionaryHeader } from './components/DictionaryHeader';
@@ -11,6 +14,8 @@ import { useDictionaryLayout } from './hooks/useDictionaryLayout';
 
 const DictionaryApp = () => {
   const dictionary = useDictionary();
+  const selection = usePrintSelection(dictionary.sections);
+  const [printOpen, setPrintOpen] = useState(false);
   const { messages } = useLocale();
   const { handwriting, changeHandwriting } = useHandwritingPreference();
   const { controlsRef, scrollRef, preserveSearchFocus } = useDictionaryLayout(
@@ -23,6 +28,9 @@ const DictionaryApp = () => {
       <DictionaryHeader disabled={dictionary.loading} />
       <DictionaryControls
         disabled={dictionary.loading || dictionary.error}
+        printCount={selection.selectedIds.size}
+        onPrint={() => setPrintOpen(true)}
+        onClearSelection={selection.clearSelection}
         controlsRef={controlsRef}
         onPointerDownCapture={preserveSearchFocus}
         query={dictionary.query}
@@ -52,6 +60,9 @@ const DictionaryApp = () => {
           </div>
         ) : (
           <DictionaryResults
+            selectedIds={selection.selectedIds}
+            onToggleCard={selection.onToggleCard}
+            onToggleSection={selection.onToggleSection}
             total={dictionary.total}
             updated={dictionary.updated}
             showFallbackNotice={dictionary.showFallbackNotice}
@@ -66,6 +77,14 @@ const DictionaryApp = () => {
         )}
         {!dictionary.loading && !dictionary.error && <DictionaryFooter intro={dictionary.intro} />}
       </main>
+      {printOpen && (
+        <PrintPreview
+          entries={selection.selectedEntries}
+          initialNiqqud={dictionary.showNiqqud}
+          initialHandwriting={handwriting}
+          onClose={() => setPrintOpen(false)}
+        />
+      )}
     </div>
   );
 };

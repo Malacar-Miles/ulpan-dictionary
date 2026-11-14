@@ -98,7 +98,11 @@ export const VirtualDictionarySections = ({ sections, ...display }: SectionListP
             style={{ transform: `translateY(${item.start - scrollMargin}px)` }}
           >
             {'section' in row ? (
-              <SectionHeading section={row.section} />
+              <SectionHeading
+                section={row.section}
+                selectedIds={display.selectedIds}
+                onToggleSection={display.onToggleSection}
+              />
             ) : (
               <EntryGrid entries={row.entries} {...display} />
             )}

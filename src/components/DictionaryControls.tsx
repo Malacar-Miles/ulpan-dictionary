@@ -1,5 +1,6 @@
 import layoutStyles from '../Layout.module.css';
 import styles from './DictionaryControls.module.css';
+import { PrintSelectionBar } from './PrintSelectionBar';
 import { DisplayControls } from './DisplayControls';
 import type { Topic } from '../types';
 import type { ChangeEventHandler, PointerEventHandler, RefObject } from 'react';
@@ -9,6 +10,9 @@ import { ALL_TOPICS } from '../helpers/dictionary';
 
 type DictionaryControlsProps = {
   disabled: boolean;
+  printCount: number;
+  onPrint: () => void;
+  onClearSelection: () => void;
   controlsRef: RefObject<HTMLDivElement | null>;
   onPointerDownCapture: PointerEventHandler<HTMLDivElement>;
   query: string;
@@ -25,6 +29,9 @@ type DictionaryControlsProps = {
 };
 export const DictionaryControls = ({
   disabled,
+  printCount,
+  onPrint,
+  onClearSelection,
   controlsRef,
   onPointerDownCapture,
   query,
@@ -65,6 +72,7 @@ export const DictionaryControls = ({
           }
           onSelect={onTopicSelect}
         />
+        <PrintSelectionBar count={printCount} onPrint={onPrint} onClear={onClearSelection} />
       </fieldset>
     </div>
   );
