@@ -11,6 +11,9 @@ export const DictionaryCard = ({ entry, query, showNiqqud }: DictionaryCardProps
   const { messages, locale } = useLocale();
   const id = useId();
   const [choice, setChoice] = useState<{ query: string; open: boolean }>();
+  // Discard manual state when searching, including when returning to an earlier query.
+  if (choice && choice.query !== query) setChoice(undefined);
+  const animate = choice?.query === query;
   const { rows, defaultRow } = entry;
   const expandable = rows.length > 1;
   const open =
@@ -40,7 +43,7 @@ export const DictionaryCard = ({ entry, query, showNiqqud }: DictionaryCardProps
   };
   return (
     <article
-      className={'card' + (expandable ? ' expandable' : '')}
+      className={'card' + (expandable ? ' expandable' : '') + (animate ? ' animate-forms' : '')}
       onClick={(event) => {
         if (
           expandable &&

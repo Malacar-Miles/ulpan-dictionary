@@ -953,21 +953,35 @@ body {
   opacity: 1;
 }
 @media (prefers-reduced-motion: no-preference) {
-  .collapse-swap-panel {
+  .animate-forms {
+    --forms-fade-duration: 84ms;
+    --forms-resize-duration: 168ms;
+    --forms-resize-delay: 84ms;
+    --forms-reveal-delay: 252ms;
+    --forms-total-duration: 336ms;
+  }
+  .animate-forms:has(.forms-trigger[aria-expanded='true']) {
+    --forms-fade-duration: 84ms;
+    --forms-resize-duration: 252ms;
+    --forms-resize-delay: 0ms;
+    --forms-reveal-delay: 252ms;
+    --forms-total-duration: 336ms;
+  }
+  .animate-forms .collapse-swap-panel {
     transition:
-      grid-template-rows 240ms ease-in-out 120ms,
-      visibility 0s 120ms;
+      grid-template-rows var(--forms-resize-duration) ease-in-out var(--forms-resize-delay),
+      visibility 0s var(--forms-fade-duration);
   }
-  .collapse-swap-panel.is-active {
-    transition-delay: 120ms, 0s;
+  .animate-forms .collapse-swap-panel.is-active {
+    transition-delay: var(--forms-resize-delay), 0s;
   }
-  .collapse-swap-content {
-    transition: opacity 120ms ease-out;
+  .animate-forms .collapse-swap-content {
+    transition: opacity var(--forms-fade-duration) ease-out;
   }
-  .collapse-swap-panel.is-active > .collapse-swap-content {
-    transition-delay: 360ms;
+  .animate-forms .collapse-swap-panel.is-active > .collapse-swap-content {
+    transition-delay: var(--forms-reveal-delay);
   }
-  .forms-trigger svg {
-    transition: transform 480ms ease-in-out;
+  .animate-forms .forms-trigger svg {
+    transition: transform var(--forms-total-duration) ease-in-out;
   }
 }

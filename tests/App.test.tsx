@@ -42,10 +42,12 @@ describe('dictionary interface', () => {
     const card = container.querySelector('.card')!;
     const button = within(card as HTMLElement).getByRole('button');
     expect(button.getAttribute('aria-expanded')).toBe('false');
+    expect(card.classList.contains('animate-forms')).toBe(false);
     expect(
       card.querySelector('.card-roots')?.closest('[aria-hidden]')?.getAttribute('aria-hidden'),
     ).toBe('true');
     fireEvent.click(card);
+    expect(card.classList.contains('animate-forms')).toBe(true);
     expect(card.querySelector('.card-roots')?.textContent).toBe('raíz: ה־ל־ך');
     expect(
       card.querySelector('.card-top')?.closest('[aria-hidden]')?.getAttribute('aria-hidden'),
@@ -60,6 +62,15 @@ describe('dictionary interface', () => {
     expect(screen.getByRole('table').querySelector('.pronunciation mark')?.textContent).toBe(
       'holchót',
     );
+    expect(card.classList.contains('animate-forms')).toBe(false);
+    fireEvent.change(search, { target: { value: 'laléchet' } });
+    expect(button.getAttribute('aria-expanded')).toBe('false');
+    expect(card.classList.contains('animate-forms')).toBe(false);
+    fireEvent.click(button);
+    expect(card.classList.contains('animate-forms')).toBe(true);
+    fireEvent.change(search, { target: { value: 'ללכת' } });
+    expect(button.getAttribute('aria-expanded')).toBe('false');
+    expect(card.classList.contains('animate-forms')).toBe(false);
     fireEvent.change(search, { target: { value: 'בוקר טוב' } });
     expect(container.querySelector('.card button')).toBeNull();
   });
