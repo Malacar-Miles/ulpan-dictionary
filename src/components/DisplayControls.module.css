@@ -22,6 +22,7 @@
 }
 .niqqud-toggle input,
 .handwriting-toggle input {
+  cursor: pointer;
   width: 17px;
   height: 17px;
   accent-color: var(--color-primary);
