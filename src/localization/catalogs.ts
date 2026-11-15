@@ -58,7 +58,7 @@ export const catalogs: Record<Locale, Messages> = {
     printAction: 'Печать / Сохранить PDF',
     printExpand: 'Развернуть все карточки',
     printClose: 'Закрыть',
-    printHint: 'A4 · 5 колонок. В окне печати выбери масштаб 100%.',
+    printHint: 'A4 · 5 колонок. В окне печати выберите масштаб 100%.',
     printFontsLoading: 'Подготовка шрифтов…',
     printFontsError: 'Не удалось загрузить шрифт. Попробуй ещё раз или отключи пропись.',
 

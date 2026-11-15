@@ -9,6 +9,7 @@
   --color-primary: #285d4b;
   --color-accent: #d49663;
   --color-control: #f5f9f6;
+  --color-control-hover: rgb(245 249 246 / 60%);
   --color-control-text: #577267;
   --color-toggle-text: #315a49;
   --color-control-border: #cbd9ce;
@@ -56,6 +57,25 @@ body {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
+}
+@media (any-hover: hover) {
+  :where(label:has(input[type='checkbox'])) {
+    position: relative;
+    isolation: isolate;
+  }
+  label:has(input[type='checkbox']:enabled):hover::before {
+    content: '';
+    position: absolute;
+    left: var(--checkbox-hover-center, 8.5px);
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--color-control-hover);
+    pointer-events: none;
+    z-index: -1;
+  }
 }
 @media (pointer: coarse) {
   html {

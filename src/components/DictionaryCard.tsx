@@ -72,31 +72,19 @@ export const DictionaryCard = memo(
             toggle();
         }}
       >
-        {expandable && (
-          <div className={styles['forms-toggle']}>
-            <button
-              className={styles['forms-trigger']}
-              aria-expanded={open}
-              aria-controls={id}
-              aria-label={(locale === 'ru' ? 'Формы слова ' : 'Formas de ') + defaultRow.hebrew}
-              onClick={toggle}
-            >
-              <svg
-                aria-hidden="true"
-                width="18"
-                height="18"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="m5 9 7 7 7-7" />
-              </svg>
-            </button>
-          </div>
-        )}
+        <span className={styles['print-select-slot']}>
+          <label
+            className={styles['print-select']}
+            title={messages.selectForPrint(defaultRow.hebrew)}
+          >
+            <input
+              type="checkbox"
+              checked={selected}
+              aria-label={messages.selectForPrint(defaultRow.hebrew)}
+              onChange={() => onToggleCard(entry.id)}
+            />
+          </label>
+        </span>
         <CollapseSwap
           id={id}
           open={open}
@@ -158,19 +146,31 @@ export const DictionaryCard = memo(
           <p className={styles['meaning']}>
             <Highlight text={entry.meaning} query={query} />
           </p>
-          <span className={styles['print-select-slot']}>
-            <label
-              className={styles['print-select']}
-              title={messages.selectForPrint(defaultRow.hebrew)}
-            >
-              <input
-                type="checkbox"
-                checked={selected}
-                aria-label={messages.selectForPrint(defaultRow.hebrew)}
-                onChange={() => onToggleCard(entry.id)}
-              />
-            </label>
-          </span>
+          {expandable && (
+            <div className={styles['forms-toggle']}>
+              <button
+                className={styles['forms-trigger']}
+                aria-expanded={open}
+                aria-controls={id}
+                aria-label={(locale === 'ru' ? 'Формы слова ' : 'Formas de ') + defaultRow.hebrew}
+                onClick={toggle}
+              >
+                <svg
+                  aria-hidden="true"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="m5 9 7 7 7-7" />
+                </svg>
+              </button>
+            </div>
+          )}
         </div>
       </article>
     );

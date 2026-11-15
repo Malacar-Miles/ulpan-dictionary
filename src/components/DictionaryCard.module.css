@@ -1,4 +1,5 @@
 .card {
+  --card-heading-height: max(2rem, 31.25px);
   position: relative;
   display: flex;
   flex-direction: column;
@@ -15,6 +16,8 @@
   user-select: text;
 }
 .card-top {
+  min-height: var(--card-heading-height);
+  padding-left: 2.5rem;
   display: flex;
   gap: 10px;
   align-items: start;
@@ -50,11 +53,16 @@
 }
 .meaning {
   flex: 1;
+  align-self: flex-start;
   min-width: 0;
   font-size: 13px;
   line-height: 1.65;
   color: #5a6c61;
   margin: 0;
+}
+.expandable .meaning {
+  min-height: 2rem;
+  align-content: center;
 }
 
 .alternate-spelling {
@@ -98,15 +106,19 @@
   cursor: pointer;
 }
 .forms-toggle {
-  position: absolute;
-  z-index: 1;
+  flex: none;
+  align-self: flex-start;
+}
+@media (any-hover: hover) {
+  .card:hover:not(:has(.print-select:hover)) .forms-trigger {
+    background: var(--color-control-hover);
+  }
 }
 .card.expandable .card-top {
   padding-left: 2.5rem;
-  min-height: 2rem;
 }
 .forms-header {
-  min-height: 2rem;
+  min-height: var(--card-heading-height);
   padding-left: 2.5rem;
   display: flex;
   align-items: center;
@@ -169,12 +181,16 @@
 }
 
 .print-select-slot {
-  position: relative;
+  position: absolute;
+  top: calc(18px + var(--card-heading-height) / 2 - 9px);
+  left: 19px;
+  z-index: 1;
   flex: none;
   width: 18px;
   height: 18px;
 }
 .print-select {
+  --checkbox-hover-center: 50%;
   position: absolute;
   top: 50%;
   left: 50%;

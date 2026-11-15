@@ -7,7 +7,7 @@
   background: #f2f4f1;
   color: #222;
   overflow: auto;
-  overscroll-behavior: contain;
+  overscroll-behavior: none;
   font-family: Arial, sans-serif;
   user-select: text;
   -webkit-user-select: text;
@@ -16,8 +16,12 @@
   background: #14291fb3;
 }
 .print-preview-controls {
+  position: sticky;
+  top: 0;
+  z-index: 1;
   padding: 16px;
   background: white;
+  border-bottom: 0.5px solid var(--color-control-border);
 }
 .print-preview-toolbar {
   display: flex;
@@ -29,6 +33,9 @@
   flex: 1;
   font-size: 18px;
   margin: 0;
+}
+.print-preview-toolbar h2:focus {
+  outline: none;
 }
 .print-preview-toolbar > span {
   margin-right: auto;
@@ -67,7 +74,7 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  min-height: 44px;
+  min-height: 24px;
   cursor: pointer;
   font-size: 13px;
 }
@@ -80,8 +87,24 @@
   margin: 12px 0 0;
   color: #526157;
 }
+@media screen and (max-width: 750px) {
+  .print-preview-controls {
+    display: grid;
+    gap: 8px;
+    padding: 12px 16px;
+  }
+  .print-preview-toolbar,
+  .print-preview-settings {
+    row-gap: 8px;
+  }
+  .print-preview-settings,
+  .print-preview-controls > p {
+    margin: 0;
+  }
+}
 .print-preview-scroll {
   overflow-x: auto;
+  overscroll-behavior-x: none;
   padding: 12px;
 }
 .print-sheet {

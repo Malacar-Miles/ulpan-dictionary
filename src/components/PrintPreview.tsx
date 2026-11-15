@@ -23,6 +23,7 @@ export const PrintPreview = ({
   const { locale, messages } = useLocale();
   const titleId = useId();
   const dialog = useRef<HTMLDialogElement>(null);
+  const heading = useRef<HTMLHeadingElement>(null);
   const [niqqud, setNiqqud] = useState(initialNiqqud);
   const [handwriting, setHandwriting] = useState(initialHandwriting);
   const [expanded, setExpanded] = useState(false);
@@ -34,6 +35,7 @@ export const PrintPreview = ({
   useLayoutEffect(() => {
     const element = dialog.current!;
     element.showModal();
+    heading.current?.focus({ preventScroll: true });
     return () => element.close();
   }, []);
 
@@ -69,7 +71,9 @@ export const PrintPreview = ({
     >
       <div className="print-preview-controls">
         <div className="print-preview-toolbar">
-          <h2 id={titleId}>{messages.printPreview}</h2>
+          <h2 id={titleId} ref={heading} tabIndex={-1}>
+            {messages.printPreview}
+          </h2>
           <button type="button" onClick={onClose}>
             {messages.printClose}
           </button>
