@@ -1255,6 +1255,60 @@
     },
     "word-280": {
       "meaning": "100 — сто; одна форма для обоих родов считаемых предметов. Само слово מאה — ж. р.; нормативное меа́, разговорное ме́а. מאת — сопряжённая форма, например מאת השנים — эти сто лет; также допустимо מאה השנים. Перед обычным неопределённым существительным: מאה ספרים — сто книг. Мн. מאות — מֵאוֹת, мео́т: сотни"
+    },
+    "word-405": {
+      "meaning": "объяснять"
+    },
+    "word-406": {
+      "meaning": "очки. Форма двойственного числа, согласование во множественном числе мужского рода."
+    },
+    "word-407": {
+      "meaning": "рассказывать"
+    },
+    "word-408": {
+      "meaning": "описывать"
+    },
+    "word-409": {
+      "meaning": "высокий"
+    },
+    "word-410": {
+      "meaning": "проводить время, развлекаться"
+    },
+    "word-411": {
+      "meaning": "сожалеть, огорчаться. מצטער также употребляется как «извини», «мне жаль»."
+    },
+    "word-412": {
+      "meaning": "пробка (дорожный затор), также пробка-затычка"
+    },
+    "word-413": {
+      "meaning": "шум"
+    },
+    "word-414": {
+      "meaning": "специальное предложение или операция"
+    },
+    "word-415": {
+      "meaning": "скидка"
+    },
+    "word-416": {
+      "meaning": "отдыхать"
+    },
+    "word-417": {
+      "meaning": "известный, знаменитый"
+    },
+    "word-418": {
+      "meaning": "правило"
+    },
+    "word-419": {
+      "meaning": "обычно, как правило"
+    },
+    "word-420": {
+      "meaning": "занятый"
+    },
+    "word-421": {
+      "meaning": "сахар. Множественное число סוכרים — сахара, виды сахара (например, в химии и питании)."
+    },
+    "word-422": {
+      "meaning": "без"
     }
   },
   "lexemes": {
@@ -4210,6 +4264,10 @@
         },
         "present-feminine-plural": {
           "pronunciations": ["меахаро́т"]
+        },
+        "past-first-person-singular": {
+          "pronunciations": ["иха́рти"],
+          "gloss": "я опоздал / опоздала"
         }
       }
     },
@@ -6024,6 +6082,251 @@
         "agreement-feminine-plural": {
           "pronunciations": ["некево́т"],
           "gloss": "самки"
+        }
+      }
+    },
+    "word-405": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["леhасби́р"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["масби́р"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["масбира́"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["масбири́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["масбиро́т"]
+        }
+      }
+    },
+    "word-406": {
+      "forms": {
+        "noun-masculine-dual": {
+          "pronunciations": ["мишкафа́йим"]
+        }
+      }
+    },
+    "word-407": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["лесапе́р"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["месапе́р"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["месапе́рет"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["месапри́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["месапро́т"]
+        }
+      }
+    },
+    "word-408": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["летаэ́р"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["метаэ́р"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["метаэ́рет"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["метаари́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["метааро́т"]
+        }
+      }
+    },
+    "word-409": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["гаво́аh"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["гвоhа́"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["гвоhи́м"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["гвоhо́т"]
+        }
+      }
+    },
+    "word-410": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["левало́т"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["мевале́"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["мевала́"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["мевали́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["мевало́т"]
+        }
+      }
+    },
+    "word-411": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["леhицтаэ́р"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["мицтаэ́р"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["мицтаэ́рет"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["мицтаари́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["мицтааро́т"]
+        }
+      }
+    },
+    "word-412": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["пка́к"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["пкаки́м"]
+        }
+      }
+    },
+    "word-413": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["ра́аш"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["реаши́м"]
+        }
+      }
+    },
+    "word-414": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["мивца́"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["мивцаи́м"]
+        }
+      }
+    },
+    "word-415": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["hанаха́"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["hанахо́т"]
+        }
+      }
+    },
+    "word-416": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["лану́ах"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["нах"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["наха́"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["нахи́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["нахо́т"]
+        }
+      }
+    },
+    "word-417": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["мефурса́м"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["мефурсе́мет"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["мефурсами́м"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["мефурсамо́т"]
+        }
+      }
+    },
+    "word-418": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["клаль"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["клали́м"]
+        }
+      }
+    },
+    "word-419": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["беде́рех клаль"]
+        }
+      }
+    },
+    "word-420": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["асу́к"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["асука́"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["асуки́м"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["асуко́т"]
+        }
+      }
+    },
+    "word-421": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["сука́р"],
+          "gloss": "сахар"
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["сукари́м"],
+          "gloss": "сахара, виды сахара"
+        }
+      }
+    },
+    "word-422": {
+      "forms": {
+        "preposition": {
+          "pronunciations": ["бли"]
         }
       }
     }

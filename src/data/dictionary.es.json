@@ -1255,6 +1255,60 @@
     },
     "word-280": {
       "meaning": "100 — cien; una misma forma con objetos de ambos géneros. La palabra מאה es femenina; pronunciación normativa meá, coloquial méa. מאת es la forma de estado constructo, por ejemplo מאת השנים — los cien años; también se admite מאה השנים. Ante un sustantivo indefinido corriente: מאה ספרים — cien libros. Plural מאות — מֵאוֹת, meót: centenas"
+    },
+    "word-405": {
+      "meaning": "explicar"
+    },
+    "word-406": {
+      "meaning": "gafas. Forma dual en hebreo, con concordancia en masculino plural."
+    },
+    "word-407": {
+      "meaning": "contar, narrar"
+    },
+    "word-408": {
+      "meaning": "describir"
+    },
+    "word-409": {
+      "meaning": "alto"
+    },
+    "word-410": {
+      "meaning": "pasar el tiempo, divertirse"
+    },
+    "word-411": {
+      "meaning": "lamentar, sentir pena. מצטער también se usa para decir «lo siento»."
+    },
+    "word-412": {
+      "meaning": "atasco de tráfico, también tapón"
+    },
+    "word-413": {
+      "meaning": "ruido"
+    },
+    "word-414": {
+      "meaning": "oferta especial u operación"
+    },
+    "word-415": {
+      "meaning": "descuento"
+    },
+    "word-416": {
+      "meaning": "descansar"
+    },
+    "word-417": {
+      "meaning": "conocido, famoso"
+    },
+    "word-418": {
+      "meaning": "regla"
+    },
+    "word-419": {
+      "meaning": "normalmente, por lo general"
+    },
+    "word-420": {
+      "meaning": "ocupado"
+    },
+    "word-421": {
+      "meaning": "azúcar. El plural סוכרים significa azúcares, tipos de azúcar (por ejemplo, en química y nutrición)."
+    },
+    "word-422": {
+      "meaning": "sin"
     }
   },
   "lexemes": {
@@ -4210,6 +4264,10 @@
         },
         "present-feminine-plural": {
           "pronunciations": ["meacharót"]
+        },
+        "past-first-person-singular": {
+          "pronunciations": ["ichárti"],
+          "gloss": "llegué tarde"
         }
       }
     },
@@ -6024,6 +6082,251 @@
         "agreement-feminine-plural": {
           "pronunciations": ["nekevót"],
           "gloss": "hembras"
+        }
+      }
+    },
+    "word-405": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lehasbír"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["masbír"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["masbirá"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["masbirím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["masbirót"]
+        }
+      }
+    },
+    "word-406": {
+      "forms": {
+        "noun-masculine-dual": {
+          "pronunciations": ["mishkafáyim"]
+        }
+      }
+    },
+    "word-407": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lesapér"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["mesapér"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["mesapéret"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["mesaprím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["mesaprót"]
+        }
+      }
+    },
+    "word-408": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["letaér"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["metaér"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["metaéret"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["metaarím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["metaarót"]
+        }
+      }
+    },
+    "word-409": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["gavóah"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["gvohá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["gvohím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["gvohót"]
+        }
+      }
+    },
+    "word-410": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["levalót"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["mevalé"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["mevalá"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["mevalím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["mevalót"]
+        }
+      }
+    },
+    "word-411": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lehiztaér"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["miztaér"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["miztaéret"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["miztaarím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["miztaarót"]
+        }
+      }
+    },
+    "word-412": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["pkák"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["pkakím"]
+        }
+      }
+    },
+    "word-413": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["ráash"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["reashím"]
+        }
+      }
+    },
+    "word-414": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["mivzá"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["mivzaím"]
+        }
+      }
+    },
+    "word-415": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["hanachá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["hanachót"]
+        }
+      }
+    },
+    "word-416": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lanúach"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["nach"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["nachá"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["nachím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["nachót"]
+        }
+      }
+    },
+    "word-417": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["mefursám"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["mefursémet"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["mefursamím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["mefursamót"]
+        }
+      }
+    },
+    "word-418": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["klal"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["klalím"]
+        }
+      }
+    },
+    "word-419": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["bedérech klal"]
+        }
+      }
+    },
+    "word-420": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["asúk"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["asuká"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["asukím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["asukót"]
+        }
+      }
+    },
+    "word-421": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["sukár"],
+          "gloss": "azúcar"
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["sukarím"],
+          "gloss": "azúcares, tipos de azúcar"
+        }
+      }
+    },
+    "word-422": {
+      "forms": {
+        "preposition": {
+          "pronunciations": ["bli"]
         }
       }
     }
