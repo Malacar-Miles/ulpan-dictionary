@@ -154,20 +154,24 @@ export const DictionaryCard = memo(
           </div>
         </CollapseSwap>
         <div className={styles['card-rule']} />
-        <p className={styles['meaning']}>
-          <Highlight text={entry.meaning} query={query} />
-        </p>
-        <label
-          className={styles['print-select']}
-          title={messages.selectForPrint(defaultRow.hebrew)}
-        >
-          <input
-            type="checkbox"
-            checked={selected}
-            aria-label={messages.selectForPrint(defaultRow.hebrew)}
-            onChange={() => onToggleCard(entry.id)}
-          />
-        </label>
+        <div className={styles['description-row']}>
+          <p className={styles['meaning']}>
+            <Highlight text={entry.meaning} query={query} />
+          </p>
+          <span className={styles['print-select-slot']}>
+            <label
+              className={styles['print-select']}
+              title={messages.selectForPrint(defaultRow.hebrew)}
+            >
+              <input
+                type="checkbox"
+                checked={selected}
+                aria-label={messages.selectForPrint(defaultRow.hebrew)}
+                onChange={() => onToggleCard(entry.id)}
+              />
+            </label>
+          </span>
+        </div>
       </article>
     );
   },

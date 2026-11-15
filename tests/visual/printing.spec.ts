@@ -12,6 +12,13 @@ test('card selection has a large target, preserves expansion and survives views 
   const bounds = await label.boundingBox();
   expect(bounds!.width).toBeGreaterThanOrEqual(44);
   expect(bounds!.height).toBeGreaterThanOrEqual(44);
+  const iconBounds = (await checkbox.boundingBox())!;
+  const slotBounds = (await label.locator('..').boundingBox())!;
+  expect(slotBounds.width).toBe(iconBounds.width);
+  expect(slotBounds.height).toBe(iconBounds.height);
+  expect(bounds!.x + bounds!.width / 2).toBeCloseTo(iconBounds.x + iconBounds.width / 2, 1);
+  expect(bounds!.y + bounds!.height / 2).toBeCloseTo(iconBounds.y + iconBounds.height / 2, 1);
+  await expect(label).toHaveCSS('position', 'absolute');
   await expect(page.locator('[data-print-selection]')).toBeHidden();
   await label.click({ position: { x: 3, y: 3 } });
   await expect(checkbox).toBeChecked();
