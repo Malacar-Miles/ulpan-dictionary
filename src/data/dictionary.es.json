@@ -1309,6 +1309,69 @@
     },
     "word-422": {
       "meaning": "sin"
+    },
+    "word-423": {
+      "meaning": "empezar, comenzar"
+    },
+    "word-424": {
+      "meaning": "a las ... (hora concreta). Por ejemplo, בשעה שמונה — a las ocho."
+    },
+    "word-425": {
+      "meaning": "necesitar, tener que. En hebreo es un adjetivo que concuerda con quien necesita algo. Por ejemplo, אני צריך תרופה — necesito un medicamento (habla un hombre)."
+    },
+    "word-426": {
+      "meaning": "ir al baño, hacer las necesidades (expresión discreta)"
+    },
+    "word-427": {
+      "meaning": "receta médica"
+    },
+    "word-428": {
+      "meaning": "medicamento"
+    },
+    "word-429": {
+      "meaning": "certificado médico de enfermedad"
+    },
+    "word-430": {
+      "meaning": "fiesta"
+    },
+    "word-431": {
+      "meaning": "doler (una parte del cuerpo), causar dolor. כואב לי — me duele."
+    },
+    "word-432": {
+      "meaning": "dinero en efectivo. Se usan ambas formas. במזומן — en efectivo."
+    },
+    "word-433": {
+      "meaning": "por suerte…, menos mal que… ש־ se escribe unido a la palabra siguiente."
+    },
+    "word-434": {
+      "meaning": "qué pena, lástima"
+    },
+    "word-435": {
+      "meaning": "qué pena que… ש־ se escribe unido a la palabra siguiente."
+    },
+    "word-436": {
+      "meaning": "qué bien que… ש־ se escribe unido a la palabra siguiente."
+    },
+    "word-437": {
+      "meaning": "pan. El plural se refiere a panes, variedades o piezas de pan."
+    },
+    "word-438": {
+      "meaning": "pizza"
+    },
+    "word-439": {
+      "meaning": "dame, por favor; a un grupo, denme, por favor. En plural se muestra la forma habitual moderna para ambos géneros."
+    },
+    "word-440": {
+      "meaning": "toma, por favor; a un grupo, tomen, por favor. En plural se muestra la forma habitual moderna para ambos géneros."
+    },
+    "word-441": {
+      "meaning": "el mismo, la misma, los mismos, las mismas. Ante un sustantivo, por ejemplo אותו יום — el mismo día."
+    },
+    "word-442": {
+      "meaning": "marca del complemento directo definido. Con sufijos pronominales expresa me, te, lo, la, etc. Por ejemplo, אני רואה אותו — lo veo."
+    },
+    "word-443": {
+      "meaning": "tarde, noche (primera parte de la noche)"
     }
   },
   "lexemes": {
@@ -6327,6 +6390,293 @@
       "forms": {
         "preposition": {
           "pronunciations": ["bli"]
+        }
+      }
+    },
+    "word-423": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lehatchíl"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["matchíl"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["matchilá"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["matchilím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["matchilót"]
+        }
+      }
+    },
+    "word-424": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["beshaá"]
+        }
+      }
+    },
+    "word-425": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["zarích"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["zrichá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["zrichím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["zrichót"]
+        }
+      }
+    },
+    "word-426": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lehitpanót"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["mitpané"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["mitpaná"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["mitpaním"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["mitpanót"]
+        }
+      }
+    },
+    "word-427": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["mirshám"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["mirshamím"]
+        }
+      }
+    },
+    "word-428": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["trufá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["trufót"]
+        }
+      }
+    },
+    "word-429": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["ishúr machalá"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["ishuréy machalá"]
+        }
+      }
+    },
+    "word-430": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["mesibá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["mesibót"]
+        }
+      }
+    },
+    "word-431": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lichóv"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["koév"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["koévet"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["koavím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["koavót"]
+        }
+      }
+    },
+    "word-432": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["mesumán"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["mesumaním"]
+        }
+      }
+    },
+    "word-433": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["masál she-"]
+        }
+      }
+    },
+    "word-434": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["chavál"]
+        }
+      }
+    },
+    "word-435": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["chavál she-"]
+        }
+      }
+    },
+    "word-436": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["tov she-"]
+        }
+      }
+    },
+    "word-437": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["léchem"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["lechamím"]
+        }
+      }
+    },
+    "word-438": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["píza"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["pizót"]
+        }
+      }
+    },
+    "word-439": {
+      "forms": {
+        "imperative-2-masculine-singular": {
+          "pronunciations": ["ten li bevakashá"]
+        },
+        "imperative-2-feminine-singular": {
+          "pronunciations": ["tni li bevakashá"]
+        },
+        "imperative-2-masculine-plural": {
+          "pronunciations": ["tnu li bevakashá"]
+        },
+        "imperative-2-feminine-plural": {
+          "pronunciations": ["tnu li bevakashá"]
+        }
+      }
+    },
+    "word-440": {
+      "forms": {
+        "imperative-2-masculine-singular": {
+          "pronunciations": ["kach bevakashá"]
+        },
+        "imperative-2-feminine-singular": {
+          "pronunciations": ["kchi bevakashá"]
+        },
+        "imperative-2-masculine-plural": {
+          "pronunciations": ["kchu bevakashá"]
+        },
+        "imperative-2-feminine-plural": {
+          "pronunciations": ["kchu bevakashá"]
+        }
+      }
+    },
+    "word-441": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["otó"],
+          "gloss": "el mismo"
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["otá(h)"],
+          "gloss": "la misma"
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["otám"],
+          "gloss": "los mismos"
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["otán"],
+          "gloss": "las mismas"
+        }
+      }
+    },
+    "word-442": {
+      "forms": {
+        "base": {
+          "pronunciations": ["et"]
+        },
+        "suffix-1s": {
+          "pronunciations": ["otí"],
+          "gloss": "me, a mí"
+        },
+        "suffix-2ms": {
+          "pronunciations": ["otchá"],
+          "gloss": "te, a ti (masculino)"
+        },
+        "suffix-2fs": {
+          "pronunciations": ["otách"],
+          "gloss": "te, a ti (femenino)"
+        },
+        "suffix-3ms": {
+          "pronunciations": ["otó"],
+          "gloss": "lo, a él"
+        },
+        "suffix-3fs": {
+          "pronunciations": ["otá(h)"],
+          "gloss": "la, a ella"
+        },
+        "suffix-1p": {
+          "pronunciations": ["otánu"],
+          "gloss": "nos, a nosotros/as"
+        },
+        "suffix-2mp": {
+          "pronunciations": ["etchém"],
+          "gloss": "a ustedes (masculino)"
+        },
+        "suffix-2fp": {
+          "pronunciations": ["etchén"],
+          "gloss": "a ustedes (femenino)"
+        },
+        "suffix-3mp": {
+          "pronunciations": ["otám"],
+          "gloss": "los, a ellos"
+        },
+        "suffix-3fp": {
+          "pronunciations": ["otán"],
+          "gloss": "las, a ellas"
+        }
+      }
+    },
+    "word-443": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["érev"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["aravím"]
         }
       }
     }

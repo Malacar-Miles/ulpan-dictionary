@@ -1309,6 +1309,69 @@
     },
     "word-422": {
       "meaning": "без"
+    },
+    "word-423": {
+      "meaning": "начинать"
+    },
+    "word-424": {
+      "meaning": "в ... часов, в указанное время. Например, בשעה שמונה — в восемь часов."
+    },
+    "word-425": {
+      "meaning": "нужно, нужен; должен. Согласуется с тем, кому что-либо нужно. Например, אני צריך תרופה — мне нужно лекарство (говорит мужчина)."
+    },
+    "word-426": {
+      "meaning": "сходить в туалет, справить нужду (деликатное выражение)"
+    },
+    "word-427": {
+      "meaning": "рецепт врача"
+    },
+    "word-428": {
+      "meaning": "лекарство"
+    },
+    "word-429": {
+      "meaning": "больничный лист, медицинская справка о болезни"
+    },
+    "word-430": {
+      "meaning": "вечеринка"
+    },
+    "word-431": {
+      "meaning": "болеть (о части тела), причинять боль. כואב לי — у меня болит, мне больно."
+    },
+    "word-432": {
+      "meaning": "наличные деньги. Употребляются обе формы. במזומן — наличными."
+    },
+    "word-433": {
+      "meaning": "повезло, что…; хорошо, что… ש־ пишется слитно со следующим словом."
+    },
+    "word-434": {
+      "meaning": "жаль, жалко"
+    },
+    "word-435": {
+      "meaning": "жаль, что… ש־ пишется слитно со следующим словом."
+    },
+    "word-436": {
+      "meaning": "хорошо, что… ש־ пишется слитно со следующим словом."
+    },
+    "word-437": {
+      "meaning": "хлеб. Множественное число — хлеба, сорта или буханки хлеба."
+    },
+    "word-438": {
+      "meaning": "пицца"
+    },
+    "word-439": {
+      "meaning": "дай мне, пожалуйста; при обращении к группе — дайте мне, пожалуйста. Во множественном числе приведена обычная современная форма для обоих родов."
+    },
+    "word-440": {
+      "meaning": "возьми, пожалуйста; при обращении к группе — возьмите, пожалуйста. Во множественном числе приведена обычная современная форма для обоих родов."
+    },
+    "word-441": {
+      "meaning": "тот же, та же, те же. Перед существительным, например אותו יום — тот же день."
+    },
+    "word-442": {
+      "meaning": "показатель определённого прямого дополнения. С местоименными окончаниями — меня, тебя, его и т. д. Например, אני רואה אותו — я вижу его."
+    },
+    "word-443": {
+      "meaning": "вечер"
     }
   },
   "lexemes": {
@@ -6327,6 +6390,293 @@
       "forms": {
         "preposition": {
           "pronunciations": ["бли"]
+        }
+      }
+    },
+    "word-423": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["леhатхи́ль"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["матхи́ль"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["матхила́"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["матхили́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["матхило́т"]
+        }
+      }
+    },
+    "word-424": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["бешаа́"]
+        }
+      }
+    },
+    "word-425": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["цари́х"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["цриха́"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["црихи́м"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["црихо́т"]
+        }
+      }
+    },
+    "word-426": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["леhитпано́т"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["митпане́"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["митпана́"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["митпани́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["митпано́т"]
+        }
+      }
+    },
+    "word-427": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["мирша́м"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["миршами́м"]
+        }
+      }
+    },
+    "word-428": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["труфа́"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["труфо́т"]
+        }
+      }
+    },
+    "word-429": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["ишу́р махала́"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["ишуре́й махала́"]
+        }
+      }
+    },
+    "word-430": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["месиба́"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["месибо́т"]
+        }
+      }
+    },
+    "word-431": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["лихъо́в"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["коэ́в"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["коэ́вет"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["коави́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["коаво́т"]
+        }
+      }
+    },
+    "word-432": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["мезума́н"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["мезумани́м"]
+        }
+      }
+    },
+    "word-433": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["маза́ль ше-"]
+        }
+      }
+    },
+    "word-434": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["хава́ль"]
+        }
+      }
+    },
+    "word-435": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["хава́ль ше-"]
+        }
+      }
+    },
+    "word-436": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["тов ше-"]
+        }
+      }
+    },
+    "word-437": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["ле́хем"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["лехами́м"]
+        }
+      }
+    },
+    "word-438": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["пи́ца"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["пицо́т"]
+        }
+      }
+    },
+    "word-439": {
+      "forms": {
+        "imperative-2-masculine-singular": {
+          "pronunciations": ["тен ли бевакаша́"]
+        },
+        "imperative-2-feminine-singular": {
+          "pronunciations": ["тни ли бевакаша́"]
+        },
+        "imperative-2-masculine-plural": {
+          "pronunciations": ["тну ли бевакаша́"]
+        },
+        "imperative-2-feminine-plural": {
+          "pronunciations": ["тну ли бевакаша́"]
+        }
+      }
+    },
+    "word-440": {
+      "forms": {
+        "imperative-2-masculine-singular": {
+          "pronunciations": ["ках бевакаша́"]
+        },
+        "imperative-2-feminine-singular": {
+          "pronunciations": ["кхи бевакаша́"]
+        },
+        "imperative-2-masculine-plural": {
+          "pronunciations": ["кху бевакаша́"]
+        },
+        "imperative-2-feminine-plural": {
+          "pronunciations": ["кху бевакаша́"]
+        }
+      }
+    },
+    "word-441": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["ото́"],
+          "gloss": "тот же"
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["ота́(h)"],
+          "gloss": "та же"
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["ота́м"],
+          "gloss": "те же (м.)"
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["ота́н"],
+          "gloss": "те же (ж.)"
+        }
+      }
+    },
+    "word-442": {
+      "forms": {
+        "base": {
+          "pronunciations": ["эт"]
+        },
+        "suffix-1s": {
+          "pronunciations": ["оти́"],
+          "gloss": "меня"
+        },
+        "suffix-2ms": {
+          "pronunciations": ["отха́"],
+          "gloss": "тебя (м.)"
+        },
+        "suffix-2fs": {
+          "pronunciations": ["ота́х"],
+          "gloss": "тебя (ж.)"
+        },
+        "suffix-3ms": {
+          "pronunciations": ["ото́"],
+          "gloss": "его"
+        },
+        "suffix-3fs": {
+          "pronunciations": ["ота́(h)"],
+          "gloss": "её"
+        },
+        "suffix-1p": {
+          "pronunciations": ["ота́ну"],
+          "gloss": "нас"
+        },
+        "suffix-2mp": {
+          "pronunciations": ["этхе́м"],
+          "gloss": "вас (м.)"
+        },
+        "suffix-2fp": {
+          "pronunciations": ["этхе́н"],
+          "gloss": "вас (ж.)"
+        },
+        "suffix-3mp": {
+          "pronunciations": ["ота́м"],
+          "gloss": "их (м.)"
+        },
+        "suffix-3fp": {
+          "pronunciations": ["ота́н"],
+          "gloss": "их (ж.)"
+        }
+      }
+    },
+    "word-443": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["э́рев"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["арави́м"]
         }
       }
     }
