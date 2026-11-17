@@ -1372,6 +1372,63 @@
     },
     "word-443": {
       "meaning": "tarde, noche (primera parte de la noche)"
+    },
+    "word-444": {
+      "meaning": "lluvia"
+    },
+    "word-445": {
+      "meaning": "paraguas"
+    },
+    "word-446": {
+      "meaning": "sombrilla"
+    },
+    "word-447": {
+      "meaning": "sala de estar; salón"
+    },
+    "word-448": {
+      "meaning": "cuerpo"
+    },
+    "word-449": {
+      "meaning": "solo, a solas; por cuenta propia. La forma לבד no cambia según el género o el número."
+    },
+    "word-450": {
+      "meaning": "rápidamente, deprisa"
+    },
+    "word-451": {
+      "meaning": "opción, alternativa. אין ברירה — no hay alternativa."
+    },
+    "word-452": {
+      "meaning": "despacio, lentamente"
+    },
+    "word-453": {
+      "meaning": "tardío; מאוחר también significa «tarde» (adverbio)."
+    },
+    "word-454": {
+      "meaning": "¡suerte! ¡mucho éxito! También «con éxito»."
+    },
+    "word-455": {
+      "meaning": "perfecto"
+    },
+    "word-456": {
+      "meaning": "miel; normalmente incontable"
+    },
+    "word-457": {
+      "meaning": "pesado, persona molesta (hombre); coloquial"
+    },
+    "word-458": {
+      "meaning": "frío"
+    },
+    "word-459": {
+      "meaning": "poder, ser capaz. En hebreo moderno suele usarse להיות מסוגל como expresión de infinitivo."
+    },
+    "word-460": {
+      "meaning": "refrigerador"
+    },
+    "word-461": {
+      "meaning": "volver, regresar; repetir (con la preposición על)"
+    },
+    "word-462": {
+      "meaning": "esperar, tener esperanza"
     }
   },
   "lexemes": {
@@ -6677,6 +6734,263 @@
         },
         "noun-masculine-plural": {
           "pronunciations": ["aravím"]
+        }
+      }
+    },
+    "word-444": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["géshem"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["gshamím"]
+        }
+      }
+    },
+    "word-445": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["mitriyá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["mitriyót"]
+        }
+      }
+    },
+    "word-446": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["shimshiyá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["shimshiyót"]
+        }
+      }
+    },
+    "word-447": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["salón"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["saloním"]
+        }
+      }
+    },
+    "word-448": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["guf"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["gufím"]
+        }
+      }
+    },
+    "word-449": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["levád"]
+        },
+        "suffix-1s": {
+          "pronunciations": ["levadí"],
+          "gloss": "yo solo/a, por mi cuenta"
+        },
+        "suffix-2ms": {
+          "pronunciations": ["levadchá"],
+          "gloss": "tú solo"
+        },
+        "suffix-2fs": {
+          "pronunciations": ["levadéch"],
+          "gloss": "tú sola"
+        },
+        "suffix-3ms": {
+          "pronunciations": ["levadó"],
+          "gloss": "él solo"
+        },
+        "suffix-3fs": {
+          "pronunciations": ["levadá(h)"],
+          "gloss": "ella sola"
+        },
+        "suffix-1p": {
+          "pronunciations": ["levadénu"],
+          "gloss": "nosotros/as solos/as"
+        },
+        "suffix-2mp": {
+          "pronunciations": ["levadchém"],
+          "gloss": "ustedes solos"
+        },
+        "suffix-2fp": {
+          "pronunciations": ["levadchén"],
+          "gloss": "ustedes solas"
+        },
+        "suffix-3mp": {
+          "pronunciations": ["levadám"],
+          "gloss": "ellos solos"
+        },
+        "suffix-3fp": {
+          "pronunciations": ["levadán"],
+          "gloss": "ellas solas"
+        }
+      }
+    },
+    "word-450": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["mahér"]
+        }
+      }
+    },
+    "word-451": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["brerá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["brerót"]
+        }
+      }
+    },
+    "word-452": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["leát"]
+        }
+      }
+    },
+    "word-453": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["meuchár"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["meuchéret"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["meucharím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["meucharót"]
+        }
+      }
+    },
+    "word-454": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["behazlachá"]
+        }
+      }
+    },
+    "word-455": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["mushlám"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["mushlémet"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["mushlamím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["mushlamót"]
+        }
+      }
+    },
+    "word-456": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["dvash"]
+        }
+      }
+    },
+    "word-457": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["núdnik"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["núdnikim"]
+        }
+      }
+    },
+    "word-458": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["kar"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["kará"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["karím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["karót"]
+        }
+      }
+    },
+    "word-459": {
+      "forms": {
+        "present-masculine-singular": {
+          "pronunciations": ["yachól"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["yecholá"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["yecholím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["yecholót"]
+        }
+      }
+    },
+    "word-460": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["mekarér"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["mekarerím"]
+        }
+      }
+    },
+    "word-461": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lachasór"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["chosér"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["choséret"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["chosrím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["chosrót"]
+        }
+      }
+    },
+    "word-462": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lekavót"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["mekavé"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["mekavá"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["mekavím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["mekavót"]
         }
       }
     }

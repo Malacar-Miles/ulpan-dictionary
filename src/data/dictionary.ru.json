@@ -1372,6 +1372,63 @@
     },
     "word-443": {
       "meaning": "вечер"
+    },
+    "word-444": {
+      "meaning": "дождь"
+    },
+    "word-445": {
+      "meaning": "зонт от дождя"
+    },
+    "word-446": {
+      "meaning": "зонт от солнца"
+    },
+    "word-447": {
+      "meaning": "гостиная; салон"
+    },
+    "word-448": {
+      "meaning": "тело"
+    },
+    "word-449": {
+      "meaning": "один, в одиночестве; самостоятельно. Форма לבד не меняется по родам и числам."
+    },
+    "word-450": {
+      "meaning": "быстро"
+    },
+    "word-451": {
+      "meaning": "выбор, альтернатива. אין ברירה — нет выбора."
+    },
+    "word-452": {
+      "meaning": "медленно"
+    },
+    "word-453": {
+      "meaning": "поздний; מאוחר также означает «поздно»."
+    },
+    "word-454": {
+      "meaning": "удачи! успехов! Также «успешно», «с успехом»."
+    },
+    "word-455": {
+      "meaning": "идеальный, совершенный"
+    },
+    "word-456": {
+      "meaning": "мёд; обычно неисчисляемое"
+    },
+    "word-457": {
+      "meaning": "надоеда, зануда (о мужчине); разговорное слово"
+    },
+    "word-458": {
+      "meaning": "холодный"
+    },
+    "word-459": {
+      "meaning": "мочь, быть в состоянии. В современном языке в роли инфинитива обычно употребляется выражение להיות מסוגל — быть способным."
+    },
+    "word-460": {
+      "meaning": "холодильник"
+    },
+    "word-461": {
+      "meaning": "возвращаться; повторять (с предлогом על)"
+    },
+    "word-462": {
+      "meaning": "надеяться"
     }
   },
   "lexemes": {
@@ -6677,6 +6734,263 @@
         },
         "noun-masculine-plural": {
           "pronunciations": ["арави́м"]
+        }
+      }
+    },
+    "word-444": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["ге́шем"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["гшами́м"]
+        }
+      }
+    },
+    "word-445": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["митрия́"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["митрийо́т"]
+        }
+      }
+    },
+    "word-446": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["шимшия́"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["шимшийо́т"]
+        }
+      }
+    },
+    "word-447": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["сало́н"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["салони́м"]
+        }
+      }
+    },
+    "word-448": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["гуф"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["гуфи́м"]
+        }
+      }
+    },
+    "word-449": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["лева́д"]
+        },
+        "suffix-1s": {
+          "pronunciations": ["левади́"],
+          "gloss": "я один / одна, самостоятельно"
+        },
+        "suffix-2ms": {
+          "pronunciations": ["левадха́"],
+          "gloss": "ты один"
+        },
+        "suffix-2fs": {
+          "pronunciations": ["леваде́х"],
+          "gloss": "ты одна"
+        },
+        "suffix-3ms": {
+          "pronunciations": ["левадо́"],
+          "gloss": "он один"
+        },
+        "suffix-3fs": {
+          "pronunciations": ["левада́(h)"],
+          "gloss": "она одна"
+        },
+        "suffix-1p": {
+          "pronunciations": ["леваде́ну"],
+          "gloss": "мы одни"
+        },
+        "suffix-2mp": {
+          "pronunciations": ["левадхе́м"],
+          "gloss": "вы одни (м.)"
+        },
+        "suffix-2fp": {
+          "pronunciations": ["левадхе́н"],
+          "gloss": "вы одни (ж.)"
+        },
+        "suffix-3mp": {
+          "pronunciations": ["левада́м"],
+          "gloss": "они одни (м.)"
+        },
+        "suffix-3fp": {
+          "pronunciations": ["левада́н"],
+          "gloss": "они одни (ж.)"
+        }
+      }
+    },
+    "word-450": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["маhе́р"]
+        }
+      }
+    },
+    "word-451": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["брера́"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["бреро́т"]
+        }
+      }
+    },
+    "word-452": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["леа́т"]
+        }
+      }
+    },
+    "word-453": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["меуха́р"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["меухе́рет"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["меухари́м"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["меухаро́т"]
+        }
+      }
+    },
+    "word-454": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["беhацлаха́"]
+        }
+      }
+    },
+    "word-455": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["мушла́м"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["мушле́мет"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["мушлами́м"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["мушламо́т"]
+        }
+      }
+    },
+    "word-456": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["дваш"]
+        }
+      }
+    },
+    "word-457": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["ну́дник"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["ну́дниким"]
+        }
+      }
+    },
+    "word-458": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["кар"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["кара́"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["кари́м"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["каро́т"]
+        }
+      }
+    },
+    "word-459": {
+      "forms": {
+        "present-masculine-singular": {
+          "pronunciations": ["яхо́ль"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["йехола́"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["йехоли́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["йехоло́т"]
+        }
+      }
+    },
+    "word-460": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["мекаре́р"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["мекарери́м"]
+        }
+      }
+    },
+    "word-461": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["лахазо́р"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["хозе́р"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["хозе́рет"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["хозри́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["хозро́т"]
+        }
+      }
+    },
+    "word-462": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["лекаво́т"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["мекаве́"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["мекава́"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["мекави́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["мекаво́т"]
         }
       }
     }
