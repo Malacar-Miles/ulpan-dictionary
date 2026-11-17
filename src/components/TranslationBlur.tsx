@@ -14,7 +14,11 @@ export const TranslationBlur = ({ children }: { children: ReactNode }) => {
   }, [revealed]);
 
   return (
-    <span className={styles.container} onClick={(event) => event.stopPropagation()}>
+    <span
+      data-translation-blur
+      className={styles.container}
+      onClick={(event) => event.stopPropagation()}
+    >
       <span id={id} aria-hidden={!revealed}>
         {children}
       </span>

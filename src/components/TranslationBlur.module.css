@@ -6,23 +6,45 @@
 
 .cover {
   position: absolute;
-  inset: -2px;
-  width: calc(100% + 4px);
+  inset: -2px 0;
+  width: 100%;
   height: calc(100% + 4px);
   padding: 0;
   border: 0;
-  border-radius: 4px;
-  background: transparent;
-  -webkit-backdrop-filter: blur(9px);
-  backdrop-filter: blur(9px);
+  border-radius: 6px;
+  /* Opaque at rest: the hidden glyphs cannot leave uneven gray patches. */
+  background: #f0f5f1;
+  box-shadow: inset 0 0 0 1px #dce7df;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
   cursor: pointer;
   transition:
     backdrop-filter 160ms ease-out,
     -webkit-backdrop-filter 160ms ease-out,
-    background-color 160ms ease-out;
+    background-color 160ms ease-out,
+    box-shadow 160ms ease-out;
+}
+
+.cover::after {
+  content: '•••';
+  display: block;
+  color: #829b8b;
+  font:
+    10px/1 Arial,
+    sans-serif;
+  letter-spacing: 4px;
+  padding-left: 4px;
+  opacity: 1;
+  transition: opacity 160ms ease-out;
+}
+
+.cover[aria-expanded='true']::after {
+  opacity: 0;
 }
 
 .cover[aria-expanded='true'] {
+  background: transparent;
+  box-shadow: inset 0 0 0 1px transparent;
   -webkit-backdrop-filter: blur(0);
   backdrop-filter: blur(0);
   pointer-events: none;
@@ -35,12 +57,13 @@
 
 @media (any-hover: hover) {
   .cover[aria-expanded='false']:hover {
-    background-color: #43604b0d;
+    background-color: #e5eee7;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .cover {
+  .cover,
+  .cover::after {
     transition: none;
   }
 }

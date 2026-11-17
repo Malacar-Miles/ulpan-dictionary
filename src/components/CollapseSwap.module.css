@@ -33,3 +33,10 @@
     transition-delay: var(--forms-reveal-delay, 0ms);
   }
 }
+
+/* An ancestor opacity fade prevents backdrop blur from masking the text while
+   compositing. Keep the height animation, but show masked content at full opacity. */
+.collapse-swap-content:has([data-translation-blur]) {
+  opacity: 1;
+  transition: none;
+}
