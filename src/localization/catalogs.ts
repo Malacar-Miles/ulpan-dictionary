@@ -29,6 +29,8 @@ type Messages = {
   searchHint: string;
   niqqud: string;
   handwriting: string;
+  translation: string;
+  revealTranslation: string;
   language: string;
   dictionaryViews: string;
   byTopicShort: string;
@@ -79,6 +81,8 @@ export const catalogs: Record<Locale, Messages> = {
     searchHint: 'ИВРИТ · ПРОИЗНОШЕНИЕ · ПЕРЕВОД',
     niqqud: 'Никуд',
     handwriting: 'Пропись',
+    translation: 'Перевод',
+    revealTranslation: 'Показать перевод на 5 секунд',
     language: 'Язык интерфейса',
     dictionaryViews: 'Просмотр словаря',
     byTopicShort: 'По темам',
@@ -132,6 +136,8 @@ export const catalogs: Record<Locale, Messages> = {
     searchHint: 'HEBREO · PRONUNCIACIÓN · TRADUCCIÓN',
     niqqud: 'Niqqud',
     handwriting: 'Manuscrita',
+    translation: 'Traducción',
+    revealTranslation: 'Mostrar traducción durante 5 segundos',
     language: 'Idioma de la interfaz',
     dictionaryViews: 'Vistas del diccionario',
     byTopicShort: 'Por tema',

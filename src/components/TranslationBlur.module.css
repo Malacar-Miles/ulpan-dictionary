@@ -1,0 +1,46 @@
+.container {
+  display: block;
+  position: relative;
+  cursor: text;
+}
+
+.cover {
+  position: absolute;
+  inset: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  -webkit-backdrop-filter: blur(9px);
+  backdrop-filter: blur(9px);
+  cursor: pointer;
+  transition:
+    backdrop-filter 160ms ease-out,
+    -webkit-backdrop-filter 160ms ease-out,
+    background-color 160ms ease-out;
+}
+
+.cover[aria-expanded='true'] {
+  -webkit-backdrop-filter: blur(0);
+  backdrop-filter: blur(0);
+  pointer-events: none;
+}
+
+.cover:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+@media (any-hover: hover) {
+  .cover[aria-expanded='false']:hover {
+    background-color: #43604b0d;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cover {
+    transition: none;
+  }
+}

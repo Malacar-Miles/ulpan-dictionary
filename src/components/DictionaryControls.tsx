@@ -20,6 +20,8 @@ type DictionaryControlsProps = {
   onQueryClear: () => void;
   handwriting: boolean;
   onHandwritingChange: ChangeEventHandler<HTMLInputElement>;
+  showTranslation: boolean;
+  onTranslationChange: ChangeEventHandler<HTMLInputElement>;
   showNiqqud: boolean;
   onNiqqudChange: ChangeEventHandler<HTMLInputElement>;
   topics: Topic[];
@@ -39,6 +41,8 @@ export const DictionaryControls = ({
   onQueryClear,
   handwriting,
   onHandwritingChange,
+  showTranslation,
+  onTranslationChange,
   showNiqqud,
   onNiqqudChange,
   topics,
@@ -58,6 +62,8 @@ export const DictionaryControls = ({
       >
         <SearchField query={query} onChange={onQueryChange} onClear={onQueryClear} />
         <DisplayControls
+          showTranslation={showTranslation}
+          onTranslationChange={onTranslationChange}
           showNiqqud={showNiqqud}
           onNiqqudChange={onNiqqudChange}
           handwriting={handwriting}

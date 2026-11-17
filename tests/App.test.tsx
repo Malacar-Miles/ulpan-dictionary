@@ -141,6 +141,30 @@ describe('dictionary interface', () => {
     ).toBe('false');
   });
 
+  it('defaults to visible translations and restores the translation preference', () => {
+    const first = render(<App />);
+    const toggle = screen.getByRole('checkbox', { name: 'Перевод' }) as HTMLInputElement;
+    expect(toggle.checked).toBe(true);
+    expect(screen.queryByRole('button', { name: 'Показать перевод на 5 секунд' })).toBeNull();
+    fireEvent.click(toggle);
+    expect(localStorage.getItem('ulpan-dictionary-show-translation')).toBe('false');
+    expect(
+      screen.getAllByRole('button', { name: 'Показать перевод на 5 секунд' }).length,
+    ).toBeGreaterThan(0);
+    first.unmount();
+    render(<App />);
+    expect((screen.getByRole('checkbox', { name: 'Перевод' }) as HTMLInputElement).checked).toBe(
+      false,
+    );
+    fireEvent.click(screen.getByRole('button', { name: 'Язык интерфейса' }));
+    fireEvent.click(screen.getByRole('button', { name: 'Español' }));
+    fireEvent.click(screen.getByRole('checkbox', { name: 'Traducción' }));
+    expect(
+      screen.queryByRole('button', { name: 'Mostrar traducción durante 5 segundos' }),
+    ).toBeNull();
+    expect(localStorage.getItem('ulpan-dictionary-show-translation')).toBe('true');
+  });
+
   it('restores and persists the niqqud preference', () => {
     localStorage.setItem('ulpan-dictionary-show-niqqud', 'false');
     const { container } = render(<App />);
@@ -211,6 +235,10 @@ describe('dictionary interface', () => {
     expect(handwriting.checked).toBe(false);
     fireEvent.click(handwriting);
     expect(handwriting.checked).toBe(true);
+    const translation = screen.getByRole('checkbox', { name: 'Перевод' }) as HTMLInputElement;
+    expect(translation.checked).toBe(true);
+    fireEvent.click(translation);
+    expect(translation.checked).toBe(false);
     fireEvent.click(screen.getByRole('button', { name: 'Язык интерфейса' }));
     fireEvent.click(screen.getByRole('button', { name: 'Español' }));
     expect(document.documentElement.lang).toBe('es');

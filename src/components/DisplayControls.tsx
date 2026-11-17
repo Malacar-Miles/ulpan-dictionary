@@ -8,6 +8,8 @@ import { NiqqudToggle } from './NiqqudToggle';
 import { HandwritingToggle } from './HandwritingToggle';
 
 type DisplayControlsProps = {
+  showTranslation: boolean;
+  onTranslationChange: ChangeEventHandler<HTMLInputElement>;
   showNiqqud: boolean;
   onNiqqudChange: ChangeEventHandler<HTMLInputElement>;
   handwriting: boolean;
@@ -15,6 +17,8 @@ type DisplayControlsProps = {
 };
 
 export const DisplayControls = ({
+  showTranslation,
+  onTranslationChange,
   showNiqqud,
   onNiqqudChange,
   handwriting,
@@ -28,6 +32,10 @@ export const DisplayControls = ({
         <div className={styles['display-toggles']}>
           <NiqqudToggle checked={showNiqqud} onChange={onNiqqudChange} />
           <HandwritingToggle checked={handwriting} onChange={onHandwritingChange} />
+          <label data-preserve-search-focus className={styles['niqqud-toggle']}>
+            <input type="checkbox" checked={showTranslation} onChange={onTranslationChange} />
+            <span>{messages.translation}</span>
+          </label>
         </div>
         <button
           className={styles['language-menu-button']}

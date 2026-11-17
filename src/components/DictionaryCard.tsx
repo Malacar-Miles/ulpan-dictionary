@@ -1,5 +1,7 @@
 import styles from './DictionaryCard.module.css';
-import { memo, useId } from 'react';
+import { memo, useContext, useId, type ReactNode } from 'react';
+import { ShowTranslationContext } from '../translationContext';
+import { TranslationBlur } from './TranslationBlur';
 import { useLocale } from '../localization/context';
 import type { DictionaryEntry, FormRow } from '../types';
 import { getEntrySpellings, rowFields } from '../helpers/dictionary';
@@ -28,6 +30,9 @@ export const DictionaryCard = memo(
   }: DictionaryCardProps) => {
     const { messages, locale } = useLocale();
     const id = useId();
+    const showTranslation = useContext(ShowTranslationContext);
+    const translation = (content: ReactNode) =>
+      showTranslation ? content : <TranslationBlur>{content}</TranslationBlur>;
     const animate = expanded !== undefined;
     const { rows, defaultRow } = entry;
     const expandable = rows.length > 1;
@@ -129,12 +134,16 @@ export const DictionaryCard = memo(
                   <Highlight text={row.pronunciation} query={query} />
                 </div>
                 <div role="cell">
-                  {row.label}
-                  {row.gloss && (
+                  {translation(
                     <>
-                      {' '}
-                      · <Highlight text={row.gloss} query={query} />
-                    </>
+                      {row.label}
+                      {row.gloss && (
+                        <>
+                          {' '}
+                          · <Highlight text={row.gloss} query={query} />
+                        </>
+                      )}
+                    </>,
                   )}
                 </div>
               </div>
@@ -144,7 +153,7 @@ export const DictionaryCard = memo(
         <div className={styles['card-rule']} />
         <div className={styles['description-row']}>
           <p className={styles['meaning']}>
-            <Highlight text={entry.meaning} query={query} />
+            {translation(<Highlight text={entry.meaning} query={query} />)}
           </p>
           {expandable && (
             <div className={styles['forms-toggle']}>

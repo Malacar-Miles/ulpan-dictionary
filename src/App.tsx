@@ -1,4 +1,6 @@
 import styles from './App.module.css';
+import { ShowTranslationContext } from './translationContext';
+import { useTranslationPreference } from './hooks/useTranslationPreference';
 import { useState } from 'react';
 import { usePrintSelection } from './hooks/usePrintSelection';
 import { PrintPreview } from './components/PrintPreview';
@@ -14,6 +16,7 @@ import { useDictionaryLayout } from './hooks/useDictionaryLayout';
 
 const DictionaryApp = () => {
   const dictionary = useDictionary();
+  const { showTranslation, setShowTranslation } = useTranslationPreference();
   const selection = usePrintSelection(dictionary.sections);
   const [printOpen, setPrintOpen] = useState(false);
   const { messages } = useLocale();
@@ -38,6 +41,8 @@ const DictionaryApp = () => {
         onQueryClear={dictionary.clearQuery}
         handwriting={handwriting}
         onHandwritingChange={changeHandwriting}
+        showTranslation={showTranslation}
+        onTranslationChange={(event) => setShowTranslation(event.target.checked)}
         showNiqqud={dictionary.showNiqqud}
         onNiqqudChange={dictionary.changeNiqqud}
         topics={dictionary.topics}
@@ -59,21 +64,23 @@ const DictionaryApp = () => {
             </button>
           </div>
         ) : (
-          <DictionaryResults
-            selectedIds={selection.selectedIds}
-            onToggleCard={selection.onToggleCard}
-            onToggleSection={selection.onToggleSection}
-            total={dictionary.total}
-            updated={dictionary.updated}
-            showFallbackNotice={dictionary.showFallbackNotice}
-            title={dictionary.resultsTitle}
-            count={dictionary.count}
-            sections={dictionary.results}
-            query={dictionary.resultsQuery}
-            activeTopic={dictionary.activeTopic}
-            showNiqqud={dictionary.showNiqqud}
-            onReset={dictionary.clearQuery}
-          />
+          <ShowTranslationContext value={showTranslation}>
+            <DictionaryResults
+              selectedIds={selection.selectedIds}
+              onToggleCard={selection.onToggleCard}
+              onToggleSection={selection.onToggleSection}
+              total={dictionary.total}
+              updated={dictionary.updated}
+              showFallbackNotice={dictionary.showFallbackNotice}
+              title={dictionary.resultsTitle}
+              count={dictionary.count}
+              sections={dictionary.results}
+              query={dictionary.resultsQuery}
+              activeTopic={dictionary.activeTopic}
+              showNiqqud={dictionary.showNiqqud}
+              onReset={dictionary.clearQuery}
+            />
+          </ShowTranslationContext>
         )}
         {!dictionary.loading && !dictionary.error && <DictionaryFooter intro={dictionary.intro} />}
       </main>
