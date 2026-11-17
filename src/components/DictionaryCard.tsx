@@ -5,7 +5,7 @@ import { TranslationBlur } from './TranslationBlur';
 import { useLocale } from '../localization/context';
 import type { DictionaryEntry, FormRow } from '../types';
 import { getEntrySpellings, rowFields } from '../helpers/dictionary';
-import { matches } from '../search';
+import { highlightRanges } from '../search';
 import { Highlight } from './Highlight';
 import { CollapseSwap } from './CollapseSwap';
 
@@ -40,8 +40,11 @@ export const DictionaryCard = memo(
       expandable &&
       (expanded !== undefined
         ? expanded
-        : Boolean(query.trim()) &&
-          !matches([...rowFields(defaultRow), entry.meaning], query, locale));
+        : rows.some((row) =>
+            (row.key === defaultRow.key ? [row.gloss ?? ''] : rowFields(row)).some(
+              (field) => highlightRanges(field, query, locale).length > 0,
+            ),
+          ));
     const toggle = () => onExpandedChange(entry.id, !open);
     const hebrew = (row: FormRow) => {
       const { visible, alternate } = getEntrySpellings(row, query, showNiqqud);
