@@ -1429,6 +1429,75 @@
     },
     "word-462": {
       "meaning": "надеяться"
+    },
+    "word-463": {
+      "meaning": "возвращаться; снова делать что-либо. שבה: нормативное ударение шава́, в разговорной речи также ша́ва."
+    },
+    "word-464": {
+      "meaning": "меняться, изменяться"
+    },
+    "word-465": {
+      "meaning": "ничего. В отрицательном предложении — с לא или אין: אני לא רואה שום דבר — я ничего не вижу. Как отдельный ответ: שום דבר — ничего."
+    },
+    "word-466": {
+      "meaning": "ничего. В отрицательном предложении — с לא или אין: אני לא שומע כלום — я ничего не слышу. Как отдельный ответ: כלום — ничего."
+    },
+    "word-467": {
+      "meaning": "голова"
+    },
+    "word-468": {
+      "meaning": "ухо. Двойственная форма употребляется и во множественном числе."
+    },
+    "word-469": {
+      "meaning": "нос"
+    },
+    "word-470": {
+      "meaning": "живот"
+    },
+    "word-471": {
+      "meaning": "рука, кисть руки. Двойственная форма употребляется и во множественном числе."
+    },
+    "word-472": {
+      "meaning": "горло, гортань"
+    },
+    "word-473": {
+      "meaning": "шея"
+    },
+    "word-474": {
+      "meaning": "сердце"
+    },
+    "word-475": {
+      "meaning": "глаз. Двойственная форма употребляется и во множественном числе."
+    },
+    "word-476": {
+      "meaning": "зуб. Двойственная форма употребляется и во множественном числе."
+    },
+    "word-477": {
+      "meaning": "палец руки или ноги"
+    },
+    "word-478": {
+      "meaning": "плечо. Двойственная форма употребляется и во множественном числе."
+    },
+    "word-479": {
+      "meaning": "ночь; мужской род в иврите"
+    },
+    "word-480": {
+      "meaning": "просить"
+    },
+    "word-481": {
+      "meaning": "вино; множественное число — вина, сорта вина"
+    },
+    "word-482": {
+      "meaning": "красный"
+    },
+    "word-483": {
+      "meaning": "флаг"
+    },
+    "word-484": {
+      "meaning": "платить, оплачивать. לשלם על — платить за что-либо."
+    },
+    "word-485": {
+      "meaning": "стоить (о цене). כמה זה עולה? — сколько это стоит?"
     }
   },
   "lexemes": {
@@ -6991,6 +7060,281 @@
         },
         "present-feminine-plural": {
           "pronunciations": ["мекаво́т"]
+        }
+      }
+    },
+    "word-463": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["лашу́в"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["шав"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["шава́", "ша́ва"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["шави́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["шаво́т"]
+        }
+      }
+    },
+    "word-464": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["леhиштано́т"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["миштане́"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["миштана́"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["миштани́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["миштано́т"]
+        }
+      }
+    },
+    "word-465": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["шум дава́р"]
+        }
+      }
+    },
+    "word-466": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["клум"]
+        }
+      }
+    },
+    "word-467": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["рош"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["раши́м"]
+        }
+      }
+    },
+    "word-468": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["о́зен"]
+        },
+        "noun-feminine-dual": {
+          "pronunciations": ["озна́йим"]
+        }
+      }
+    },
+    "word-469": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["аф"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["апи́м"]
+        }
+      }
+    },
+    "word-470": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["бе́тен"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["бтани́м"]
+        }
+      }
+    },
+    "word-471": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["яд"]
+        },
+        "noun-feminine-dual": {
+          "pronunciations": ["яда́йим"]
+        }
+      }
+    },
+    "word-472": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["гаро́н"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["гроно́т"]
+        }
+      }
+    },
+    "word-473": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["цава́р"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["цавари́м"]
+        }
+      }
+    },
+    "word-474": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["лев"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["леваво́т"]
+        }
+      }
+    },
+    "word-475": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["а́йин"]
+        },
+        "noun-feminine-dual": {
+          "pronunciations": ["эйна́йим"]
+        }
+      }
+    },
+    "word-476": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["шен"]
+        },
+        "noun-feminine-dual": {
+          "pronunciations": ["шина́йим"]
+        }
+      }
+    },
+    "word-477": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["э́цба"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["эцбао́т"]
+        }
+      }
+    },
+    "word-478": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["кате́ф"]
+        },
+        "noun-feminine-dual": {
+          "pronunciations": ["ктефа́йим"]
+        }
+      }
+    },
+    "word-479": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["ла́йла"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["лейло́т"]
+        }
+      }
+    },
+    "word-480": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["леваке́ш"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["меваке́ш"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["меваке́шет"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["мевакши́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["мевакшо́т"]
+        }
+      }
+    },
+    "word-481": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["я́йин"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["йейно́т"]
+        }
+      }
+    },
+    "word-482": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["адо́м"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["адума́"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["адуми́м"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["адумо́т"]
+        }
+      }
+    },
+    "word-483": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["де́гель"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["дгали́м"]
+        }
+      }
+    },
+    "word-484": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["лешале́м"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["мешале́м"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["мешале́мет"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["мешальми́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["мешальмо́т"]
+        }
+      }
+    },
+    "word-485": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["лаало́т"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["оле́"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["ола́"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["оли́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["оло́т"]
         }
       }
     }
