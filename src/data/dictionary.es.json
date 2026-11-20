@@ -1498,6 +1498,27 @@
     },
     "word-485": {
       "meaning": "costar (precio). כמה זה עולה? — ¿cuánto cuesta?"
+    },
+    "word-486": {
+      "meaning": "pasillo"
+    },
+    "word-487": {
+      "meaning": "fecha de nacimiento"
+    },
+    "word-488": {
+      "meaning": "atentamente; fórmula de despedida en una carta"
+    },
+    "word-489": {
+      "meaning": "ayudar; לעזור ל־ — ayudar a alguien"
+    },
+    "word-490": {
+      "meaning": "ayuda; normalmente incontable"
+    },
+    "word-491": {
+      "meaning": "encontrar"
+    },
+    "word-492": {
+      "meaning": "¿de quién? Por ejemplo: של מי הספר? — ¿de quién es el libro? La expresión no cambia según el género o el número."
     }
   },
   "lexemes": {
@@ -7335,6 +7356,85 @@
         },
         "present-feminine-plural": {
           "pronunciations": ["olót"]
+        }
+      }
+    },
+    "word-486": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["misderón"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["misderonót"]
+        }
+      }
+    },
+    "word-487": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["taarích ledá"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["taarichéy ledá"]
+        }
+      }
+    },
+    "word-488": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["bivrachá"]
+        }
+      }
+    },
+    "word-489": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["laasór"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["osér"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["oséret"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["osrím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["osrót"]
+        }
+      }
+    },
+    "word-490": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["esrá"]
+        }
+      }
+    },
+    "word-491": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["limzó"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["mozé"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["mozét"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["mozím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["mozót"]
+        }
+      }
+    },
+    "word-492": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["shel mi"]
         }
       }
     }

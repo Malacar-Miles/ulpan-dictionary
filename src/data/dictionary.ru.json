@@ -1498,6 +1498,27 @@
     },
     "word-485": {
       "meaning": "стоить (о цене). כמה זה עולה? — сколько это стоит?"
+    },
+    "word-486": {
+      "meaning": "коридор"
+    },
+    "word-487": {
+      "meaning": "дата рождения"
+    },
+    "word-488": {
+      "meaning": "с уважением; формула завершения письма"
+    },
+    "word-489": {
+      "meaning": "помогать; לעזור ל־ — помогать кому-либо"
+    },
+    "word-490": {
+      "meaning": "помощь; обычно неисчисляемое"
+    },
+    "word-491": {
+      "meaning": "находить"
+    },
+    "word-492": {
+      "meaning": "чей? чья? чьё? чьи? Например: של מי הספר? — чья это книга? Выражение не меняется по родам и числам."
     }
   },
   "lexemes": {
@@ -7335,6 +7356,85 @@
         },
         "present-feminine-plural": {
           "pronunciations": ["оло́т"]
+        }
+      }
+    },
+    "word-486": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["мисдеро́н"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["мисдероно́т"]
+        }
+      }
+    },
+    "word-487": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["таари́х леда́"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["таарихе́й леда́"]
+        }
+      }
+    },
+    "word-488": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["бивраха́"]
+        }
+      }
+    },
+    "word-489": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["лаазо́р"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["озе́р"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["озе́рет"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["озри́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["озро́т"]
+        }
+      }
+    },
+    "word-490": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["эзра́"]
+        }
+      }
+    },
+    "word-491": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["лимцо́"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["моце́"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["моце́т"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["моцъи́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["моцъо́т"]
+        }
+      }
+    },
+    "word-492": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["шель ми"]
         }
       }
     }
