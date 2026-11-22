@@ -1519,6 +1519,51 @@
     },
     "word-492": {
       "meaning": "¿de quién? Por ejemplo: של מי הספר? — ¿de quién es el libro? La expresión no cambia según el género o el número."
+    },
+    "word-493": {
+      "meaning": "pasado. En gramática, זמן עבר significa tiempo pasado."
+    },
+    "word-494": {
+      "meaning": "formulario, impreso"
+    },
+    "word-495": {
+      "meaning": "cuestionario"
+    },
+    "word-496": {
+      "meaning": "corto, breve"
+    },
+    "word-497": {
+      "meaning": "gris"
+    },
+    "word-498": {
+      "meaning": "veamos"
+    },
+    "word-499": {
+      "meaning": "cama"
+    },
+    "word-500": {
+      "meaning": "borrar, eliminar"
+    },
+    "word-501": {
+      "meaning": "otra vez, de nuevo"
+    },
+    "word-502": {
+      "meaning": "otra vez, de nuevo (expresión coloquial)"
+    },
+    "word-503": {
+      "meaning": "retraso, demora"
+    },
+    "word-504": {
+      "meaning": "asamblea, reunión. אסיפת הורים — reunión de padres."
+    },
+    "word-505": {
+      "meaning": "nombre del padre (en un formulario)"
+    },
+    "word-506": {
+      "meaning": "nombre de la madre (en un formulario)"
+    },
+    "word-507": {
+      "meaning": "origen, procedencia. ארץ מוצא — país de origen."
     }
   },
   "lexemes": {
@@ -5833,6 +5878,10 @@
         "suffix-3-feminine-plural": {
           "pronunciations": ["shelahén"],
           "gloss": "de ellas"
+        },
+        "suffix-1-plural": {
+          "pronunciations": ["shelánu"],
+          "gloss": "nuestro, nuestra, nuestros, nuestras"
         }
       }
     },
@@ -7435,6 +7484,171 @@
       "forms": {
         "fixed": {
           "pronunciations": ["shel mi"]
+        }
+      }
+    },
+    "word-493": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["avár"]
+        }
+      }
+    },
+    "word-494": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["tófes"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["tfasím"]
+        }
+      }
+    },
+    "word-495": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["sheelón"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["sheeloním"]
+        }
+      }
+    },
+    "word-496": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["kazár"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["kzará"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["kzarím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["kzarót"]
+        }
+      }
+    },
+    "word-497": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["afór"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["aforá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["aforím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["aforót"]
+        }
+      }
+    },
+    "word-498": {
+      "forms": {
+        "imperative-2-masculine-plural": {
+          "pronunciations": ["bóu niré"],
+          "gloss": "veamos (a un grupo)"
+        },
+        "imperative-2-masculine-singular": {
+          "pronunciations": ["bo niré"],
+          "gloss": "veamos (a un hombre)"
+        },
+        "imperative-2-feminine-singular": {
+          "pronunciations": ["bói niré"],
+          "gloss": "veamos (a una mujer)"
+        }
+      }
+    },
+    "word-499": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["mitá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["mitót"]
+        }
+      }
+    },
+    "word-500": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["limchók"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["mochék"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["mochéket"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["mochakím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["mochakót"]
+        }
+      }
+    },
+    "word-501": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["od páam"]
+        }
+      }
+    },
+    "word-502": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["shuv páam"]
+        }
+      }
+    },
+    "word-503": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["ichúr"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["ichurím"]
+        }
+      }
+    },
+    "word-504": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["asefá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["asefót"]
+        },
+        "noun-feminine-singular-construct": {
+          "pronunciations": ["asefát"]
+        }
+      }
+    },
+    "word-505": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["shem haáv"]
+        }
+      }
+    },
+    "word-506": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["shem haém"]
+        }
+      }
+    },
+    "word-507": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["mozá"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["mozaím"]
         }
       }
     }

@@ -1519,6 +1519,51 @@
     },
     "word-492": {
       "meaning": "чей? чья? чьё? чьи? Например: של מי הספר? — чья это книга? Выражение не меняется по родам и числам."
+    },
+    "word-493": {
+      "meaning": "прошлое. В грамматике זמן עבר — прошедшее время."
+    },
+    "word-494": {
+      "meaning": "бланк, формуляр"
+    },
+    "word-495": {
+      "meaning": "анкета, опросник"
+    },
+    "word-496": {
+      "meaning": "короткий, краткий"
+    },
+    "word-497": {
+      "meaning": "серый"
+    },
+    "word-498": {
+      "meaning": "давайте посмотрим"
+    },
+    "word-499": {
+      "meaning": "кровать"
+    },
+    "word-500": {
+      "meaning": "стирать, удалять"
+    },
+    "word-501": {
+      "meaning": "ещё раз, снова"
+    },
+    "word-502": {
+      "meaning": "опять, ещё раз (разговорное выражение)"
+    },
+    "word-503": {
+      "meaning": "опоздание, задержка"
+    },
+    "word-504": {
+      "meaning": "собрание. אסיפת הורים — родительское собрание."
+    },
+    "word-505": {
+      "meaning": "имя отца (в анкете)"
+    },
+    "word-506": {
+      "meaning": "имя матери (в анкете)"
+    },
+    "word-507": {
+      "meaning": "происхождение. ארץ מוצא — страна происхождения."
     }
   },
   "lexemes": {
@@ -5833,6 +5878,10 @@
         "suffix-3-feminine-plural": {
           "pronunciations": ["шелаhе́н"],
           "gloss": "их"
+        },
+        "suffix-1-plural": {
+          "pronunciations": ["шела́ну"],
+          "gloss": "наш, наша, наше, наши"
         }
       }
     },
@@ -7435,6 +7484,171 @@
       "forms": {
         "fixed": {
           "pronunciations": ["шель ми"]
+        }
+      }
+    },
+    "word-493": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["ава́р"]
+        }
+      }
+    },
+    "word-494": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["то́фес"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["тфаси́м"]
+        }
+      }
+    },
+    "word-495": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["шеэло́н"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["шеэлони́м"]
+        }
+      }
+    },
+    "word-496": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["каца́р"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["кцара́"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["кцари́м"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["кцаро́т"]
+        }
+      }
+    },
+    "word-497": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["афо́р"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["афора́"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["афори́м"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["афоро́т"]
+        }
+      }
+    },
+    "word-498": {
+      "forms": {
+        "imperative-2-masculine-plural": {
+          "pronunciations": ["бо́у ниръэ́"],
+          "gloss": "давайте посмотрим (к группе)"
+        },
+        "imperative-2-masculine-singular": {
+          "pronunciations": ["бо ниръэ́"],
+          "gloss": "давай посмотрим (к мужчине)"
+        },
+        "imperative-2-feminine-singular": {
+          "pronunciations": ["бо́и ниръэ́"],
+          "gloss": "давай посмотрим (к женщине)"
+        }
+      }
+    },
+    "word-499": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["мита́"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["мито́т"]
+        }
+      }
+    },
+    "word-500": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["лимхо́к"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["мохе́к"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["мохе́кет"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["мохаки́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["мохако́т"]
+        }
+      }
+    },
+    "word-501": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["од па́ам"]
+        }
+      }
+    },
+    "word-502": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["шув па́ам"]
+        }
+      }
+    },
+    "word-503": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["иху́р"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["ихури́м"]
+        }
+      }
+    },
+    "word-504": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["асефа́"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["асефо́т"]
+        },
+        "noun-feminine-singular-construct": {
+          "pronunciations": ["асефа́т"]
+        }
+      }
+    },
+    "word-505": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["шем hаа́в"]
+        }
+      }
+    },
+    "word-506": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["шем hаэ́м"]
+        }
+      }
+    },
+    "word-507": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["моца́"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["моцаи́м"]
         }
       }
     }
