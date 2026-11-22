@@ -1564,6 +1564,48 @@
     },
     "word-507": {
       "meaning": "происхождение. ארץ מוצא — страна происхождения."
+    },
+    "word-508": {
+      "meaning": "думать"
+    },
+    "word-509": {
+      "meaning": "быть правым. את צודקת — ты права."
+    },
+    "word-510": {
+      "meaning": "как, подобно (при сравнении)"
+    },
+    "word-511": {
+      "meaning": "центр"
+    },
+    "word-512": {
+      "meaning": "писатель, писательница"
+    },
+    "word-513": {
+      "meaning": "завод, фабрика, промышленное предприятие"
+    },
+    "word-514": {
+      "meaning": "роль, функция, должность"
+    },
+    "word-515": {
+      "meaning": "мясо. Во множественном числе — виды мяса."
+    },
+    "word-516": {
+      "meaning": "свежий"
+    },
+    "word-517": {
+      "meaning": "никогда (с отрицанием). אף פעם לא ראיתי — я никогда не видел(а)."
+    },
+    "word-518": {
+      "meaning": "делать"
+    },
+    "word-519": {
+      "meaning": "сионист, сионистка"
+    },
+    "word-520": {
+      "meaning": "сионистский"
+    },
+    "word-521": {
+      "meaning": "жить, быть живым"
     }
   },
   "lexemes": {
@@ -7649,6 +7691,240 @@
         },
         "noun-masculine-plural": {
           "pronunciations": ["моцаи́м"]
+        }
+      }
+    },
+    "word-508": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["лахшо́в"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["хоше́в"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["хоше́вет"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["хошви́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["хошво́т"]
+        }
+      }
+    },
+    "word-509": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["лицдо́к"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["цоде́к"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["цоде́кет"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["цодки́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["цодко́т"]
+        }
+      }
+    },
+    "word-510": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["кмо"]
+        },
+        "suffix-1s": {
+          "pronunciations": ["камо́ни"],
+          "gloss": "как я"
+        },
+        "suffix-2ms": {
+          "pronunciations": ["камо́ха"],
+          "gloss": "как ты"
+        },
+        "suffix-2fs": {
+          "pronunciations": ["камо́х"],
+          "gloss": "как ты"
+        },
+        "suffix-3ms": {
+          "pronunciations": ["камо́hу"],
+          "gloss": "как он"
+        },
+        "suffix-3fs": {
+          "pronunciations": ["камо́hа"],
+          "gloss": "как она"
+        },
+        "suffix-1p": {
+          "pronunciations": ["камо́ну"],
+          "gloss": "как мы"
+        },
+        "suffix-2mp": {
+          "pronunciations": ["кмохе́м"],
+          "gloss": "как вы"
+        },
+        "suffix-2fp": {
+          "pronunciations": ["кмохе́н"],
+          "gloss": "как вы"
+        },
+        "suffix-3mp": {
+          "pronunciations": ["кмоhе́м"],
+          "gloss": "как они"
+        },
+        "suffix-3fp": {
+          "pronunciations": ["кмоhе́н"],
+          "gloss": "как они"
+        }
+      }
+    },
+    "word-511": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["мерка́з"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["меркази́м"]
+        }
+      }
+    },
+    "word-512": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["софе́р"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["софри́м"]
+        },
+        "noun-feminine-singular": {
+          "pronunciations": ["софе́рет"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["софро́т"]
+        }
+      }
+    },
+    "word-513": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["мифъа́ль"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["мифъали́м"]
+        }
+      }
+    },
+    "word-514": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["тафки́д"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["тафкиди́м"]
+        }
+      }
+    },
+    "word-515": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["баса́р"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["бсари́м"]
+        }
+      }
+    },
+    "word-516": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["тари́"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["трия́"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["трийи́м"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["трийо́т"]
+        }
+      }
+    },
+    "word-517": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["аф па́ам"]
+        }
+      }
+    },
+    "word-518": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["лаасо́т"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["осе́"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["оса́"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["оси́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["осо́т"]
+        }
+      }
+    },
+    "word-519": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["цийони́"]
+        },
+        "noun-feminine-singular": {
+          "pronunciations": ["цийони́т"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["цийони́м"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["цийонийо́т"]
+        }
+      }
+    },
+    "word-520": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["цийони́"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["цийони́т"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["цийони́м"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["цийонийо́т"]
+        }
+      }
+    },
+    "word-521": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["лихйо́т"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["хай"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["хая́"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["хайи́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["хайо́т"]
         }
       }
     }

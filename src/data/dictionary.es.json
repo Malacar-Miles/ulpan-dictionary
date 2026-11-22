@@ -1564,6 +1564,48 @@
     },
     "word-507": {
       "meaning": "origen, procedencia. ארץ מוצא — país de origen."
+    },
+    "word-508": {
+      "meaning": "pensar"
+    },
+    "word-509": {
+      "meaning": "tener razón. את צודקת — tienes razón (a una mujer)."
+    },
+    "word-510": {
+      "meaning": "como, al igual que (en una comparación)"
+    },
+    "word-511": {
+      "meaning": "centro"
+    },
+    "word-512": {
+      "meaning": "escritor, escritora"
+    },
+    "word-513": {
+      "meaning": "fábrica, planta industrial"
+    },
+    "word-514": {
+      "meaning": "papel, función, puesto"
+    },
+    "word-515": {
+      "meaning": "carne. El plural designa tipos de carne."
+    },
+    "word-516": {
+      "meaning": "fresco"
+    },
+    "word-517": {
+      "meaning": "nunca (con negación en hebreo). אף פעם לא ראיתי — nunca vi."
+    },
+    "word-518": {
+      "meaning": "hacer"
+    },
+    "word-519": {
+      "meaning": "sionista (persona)"
+    },
+    "word-520": {
+      "meaning": "sionista (adjetivo)"
+    },
+    "word-521": {
+      "meaning": "vivir, estar vivo"
     }
   },
   "lexemes": {
@@ -7649,6 +7691,240 @@
         },
         "noun-masculine-plural": {
           "pronunciations": ["mozaím"]
+        }
+      }
+    },
+    "word-508": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lachshóv"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["choshév"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["choshévet"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["choshvím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["choshvót"]
+        }
+      }
+    },
+    "word-509": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lizdók"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["zodék"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["zodéket"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["zodkím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["zodkót"]
+        }
+      }
+    },
+    "word-510": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["kmo"]
+        },
+        "suffix-1s": {
+          "pronunciations": ["kamóni"],
+          "gloss": "como yo"
+        },
+        "suffix-2ms": {
+          "pronunciations": ["kamócha"],
+          "gloss": "como tú"
+        },
+        "suffix-2fs": {
+          "pronunciations": ["kamóch"],
+          "gloss": "como tú"
+        },
+        "suffix-3ms": {
+          "pronunciations": ["kamóhu"],
+          "gloss": "como él"
+        },
+        "suffix-3fs": {
+          "pronunciations": ["kamóha"],
+          "gloss": "como ella"
+        },
+        "suffix-1p": {
+          "pronunciations": ["kamónu"],
+          "gloss": "como nosotros"
+        },
+        "suffix-2mp": {
+          "pronunciations": ["kmochém"],
+          "gloss": "como vosotros"
+        },
+        "suffix-2fp": {
+          "pronunciations": ["kmochén"],
+          "gloss": "como vosotras"
+        },
+        "suffix-3mp": {
+          "pronunciations": ["kmohém"],
+          "gloss": "como ellos"
+        },
+        "suffix-3fp": {
+          "pronunciations": ["kmohén"],
+          "gloss": "como ellas"
+        }
+      }
+    },
+    "word-511": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["merkás"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["merkasím"]
+        }
+      }
+    },
+    "word-512": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["sofér"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["sofrím"]
+        },
+        "noun-feminine-singular": {
+          "pronunciations": ["soféret"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["sofrót"]
+        }
+      }
+    },
+    "word-513": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["mifál"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["mifalím"]
+        }
+      }
+    },
+    "word-514": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["tafkíd"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["tafkidím"]
+        }
+      }
+    },
+    "word-515": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["basár"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["bsarím"]
+        }
+      }
+    },
+    "word-516": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["tarí"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["triyá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["triyím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["triyót"]
+        }
+      }
+    },
+    "word-517": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["af páam"]
+        }
+      }
+    },
+    "word-518": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["laasót"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["osé"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["osá"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["osím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["osót"]
+        }
+      }
+    },
+    "word-519": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["ziyoní"]
+        },
+        "noun-feminine-singular": {
+          "pronunciations": ["ziyonít"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["ziyoním"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["ziyoniyót"]
+        }
+      }
+    },
+    "word-520": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["ziyoní"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["ziyonít"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["ziyoním"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["ziyoniyót"]
+        }
+      }
+    },
+    "word-521": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lichyót"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["chay"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["chayá"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["chayím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["chayót"]
         }
       }
     }
