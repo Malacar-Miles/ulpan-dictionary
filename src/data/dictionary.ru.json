@@ -1599,10 +1599,7 @@
       "meaning": "делать"
     },
     "word-519": {
-      "meaning": "сионист, сионистка"
-    },
-    "word-520": {
-      "meaning": "сионистский"
+      "meaning": "сионист, сионистка. Как прилагательное — «сионистский»."
     },
     "word-521": {
       "meaning": "жить, быть живым"
@@ -7889,22 +7886,6 @@
           "pronunciations": ["цийони́м"]
         },
         "noun-feminine-plural": {
-          "pronunciations": ["цийонийо́т"]
-        }
-      }
-    },
-    "word-520": {
-      "forms": {
-        "agreement-masculine-singular": {
-          "pronunciations": ["цийони́"]
-        },
-        "agreement-feminine-singular": {
-          "pronunciations": ["цийони́т"]
-        },
-        "agreement-masculine-plural": {
-          "pronunciations": ["цийони́м"]
-        },
-        "agreement-feminine-plural": {
           "pronunciations": ["цийонийо́т"]
         }
       }

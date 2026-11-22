@@ -1599,10 +1599,7 @@
       "meaning": "hacer"
     },
     "word-519": {
-      "meaning": "sionista (persona)"
-    },
-    "word-520": {
-      "meaning": "sionista (adjetivo)"
+      "meaning": "sionista (persona). También se usa como adjetivo: sionista."
     },
     "word-521": {
       "meaning": "vivir, estar vivo"
@@ -7889,22 +7886,6 @@
           "pronunciations": ["ziyoním"]
         },
         "noun-feminine-plural": {
-          "pronunciations": ["ziyoniyót"]
-        }
-      }
-    },
-    "word-520": {
-      "forms": {
-        "agreement-masculine-singular": {
-          "pronunciations": ["ziyoní"]
-        },
-        "agreement-feminine-singular": {
-          "pronunciations": ["ziyonít"]
-        },
-        "agreement-masculine-plural": {
-          "pronunciations": ["ziyoním"]
-        },
-        "agreement-feminine-plural": {
           "pronunciations": ["ziyoniyót"]
         }
       }

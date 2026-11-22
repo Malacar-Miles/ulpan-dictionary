@@ -4591,16 +4591,6 @@
               "defaultFormId": "fixed"
             }
           ]
-        },
-        {
-          "id": "word-520",
-          "addedAt": "2026-11-22",
-          "items": [
-            {
-              "lexemeId": "word-520",
-              "defaultFormId": "agreement-masculine-singular"
-            }
-          ]
         }
       ],
       "id": "adjectives"
@@ -27553,69 +27543,6 @@
           "id": "noun-feminine-plural",
           "grammar": {
             "kind": "noun",
-            "gender": "feminine",
-            "number": "plural"
-          },
-          "variants": [
-            {
-              "hebrew": "ציוניות",
-              "hebrewWithNiqqud": "צִיּוֹנִיּוֹת"
-            }
-          ]
-        }
-      ]
-    },
-    "word-520": {
-      "lemma": "ציוני",
-      "partOfSpeech": "adjective",
-      "root": null,
-      "forms": [
-        {
-          "id": "agreement-masculine-singular",
-          "grammar": {
-            "kind": "agreement",
-            "gender": "masculine",
-            "number": "singular"
-          },
-          "variants": [
-            {
-              "hebrew": "ציוני",
-              "hebrewWithNiqqud": "צִיּוֹנִי"
-            }
-          ]
-        },
-        {
-          "id": "agreement-feminine-singular",
-          "grammar": {
-            "kind": "agreement",
-            "gender": "feminine",
-            "number": "singular"
-          },
-          "variants": [
-            {
-              "hebrew": "ציונית",
-              "hebrewWithNiqqud": "צִיּוֹנִית"
-            }
-          ]
-        },
-        {
-          "id": "agreement-masculine-plural",
-          "grammar": {
-            "kind": "agreement",
-            "gender": "masculine",
-            "number": "plural"
-          },
-          "variants": [
-            {
-              "hebrew": "ציונים",
-              "hebrewWithNiqqud": "צִיּוֹנִים"
-            }
-          ]
-        },
-        {
-          "id": "agreement-feminine-plural",
-          "grammar": {
-            "kind": "agreement",
             "gender": "feminine",
             "number": "plural"
           },
