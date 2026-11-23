@@ -1603,6 +1603,84 @@
     },
     "word-521": {
       "meaning": "жить, быть живым"
+    },
+    "word-522": {
+      "meaning": "фильм; лента"
+    },
+    "word-523": {
+      "meaning": "сообщение, уведомление, объявление"
+    },
+    "word-524": {
+      "meaning": "СМС, текстовое сообщение"
+    },
+    "word-525": {
+      "meaning": "отправлять, посылать"
+    },
+    "word-526": {
+      "meaning": "записка"
+    },
+    "word-527": {
+      "meaning": "к сожалению, к моему сожалению"
+    },
+    "word-528": {
+      "meaning": "экзамен, тест"
+    },
+    "word-529": {
+      "meaning": "требование, запрос"
+    },
+    "word-530": {
+      "meaning": "привет кому-либо. דרישת שלום למשפחה — привет семье."
+    },
+    "word-531": {
+      "meaning": "проверка, обследование, анализ"
+    },
+    "word-532": {
+      "meaning": "молиться"
+    },
+    "word-533": {
+      "meaning": "молитва"
+    },
+    "word-534": {
+      "meaning": "еврей, еврейка"
+    },
+    "word-535": {
+      "meaning": "собрание (книжное слово). הכנסת — Кнессет, парламент Израиля."
+    },
+    "word-536": {
+      "meaning": "синагога"
+    },
+    "word-537": {
+      "meaning": "Западная стена (Стена Плача) в Иерусалиме"
+    },
+    "word-538": {
+      "meaning": "мусульманин, мусульманка"
+    },
+    "word-539": {
+      "meaning": "мечеть"
+    },
+    "word-540": {
+      "meaning": "вместе"
+    },
+    "word-541": {
+      "meaning": "христианин, христианка"
+    },
+    "word-542": {
+      "meaning": "церковь"
+    },
+    "word-543": {
+      "meaning": "древний, старинный"
+    },
+    "word-544": {
+      "meaning": "юг"
+    },
+    "word-545": {
+      "meaning": "восток"
+    },
+    "word-546": {
+      "meaning": "запад"
+    },
+    "word-547": {
+      "meaning": "пустыня"
     }
   },
   "lexemes": {
@@ -5092,6 +5170,10 @@
         },
         "present-feminine-plural": {
           "pronunciations": ["магио́т"]
+        },
+        "future-1-singular": {
+          "pronunciations": ["аги́а"],
+          "gloss": "я прибуду, я доберусь"
         }
       }
     },
@@ -7906,6 +7988,290 @@
         },
         "present-feminine-plural": {
           "pronunciations": ["хайо́т"]
+        }
+      }
+    },
+    "word-522": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["се́рет"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["срати́м"]
+        }
+      }
+    },
+    "word-523": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["hодаа́"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["hодао́т"]
+        }
+      }
+    },
+    "word-524": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["мисро́н"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["мисрони́м"]
+        }
+      }
+    },
+    "word-525": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["лишло́ах"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["шоле́ах"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["шола́хат"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["шольхи́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["шольхо́т"]
+        }
+      }
+    },
+    "word-526": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["пе́тек"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["птаки́м"]
+        }
+      }
+    },
+    "word-527": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["лецаари́"]
+        }
+      }
+    },
+    "word-528": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["мивха́н"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["мивхани́м"]
+        }
+      }
+    },
+    "word-529": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["дриша́"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["дришо́т"]
+        },
+        "noun-feminine-singular-construct": {
+          "pronunciations": ["дриша́т"]
+        }
+      }
+    },
+    "word-530": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["дриша́т шало́м ле-"]
+        }
+      }
+    },
+    "word-531": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["бдика́"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["бдико́т"]
+        }
+      }
+    },
+    "word-532": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["леhитпале́ль"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["митпале́ль"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["митпале́лет"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["митпалели́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["митпалело́т"]
+        }
+      }
+    },
+    "word-533": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["тфила́"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["тфило́т"]
+        }
+      }
+    },
+    "word-534": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["йеhуди́"]
+        },
+        "noun-feminine-singular": {
+          "pronunciations": ["йеhудия́"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["йеhуди́м"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["йеhудийо́т"]
+        }
+      }
+    },
+    "word-535": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["кне́сет"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["кнасо́т"]
+        }
+      }
+    },
+    "word-536": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["бейт кне́сет"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["бате́й кне́сет"]
+        }
+      }
+    },
+    "word-537": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["hако́тель hамаарави́"]
+        }
+      }
+    },
+    "word-538": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["муслеми́"]
+        },
+        "noun-feminine-singular": {
+          "pronunciations": ["муслеми́т"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["муслеми́м"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["муслемийо́т"]
+        }
+      }
+    },
+    "word-539": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["мисга́д"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["мисгади́м"]
+        }
+      }
+    },
+    "word-540": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["бея́хад"]
+        }
+      }
+    },
+    "word-541": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["ноцри́"]
+        },
+        "noun-feminine-singular": {
+          "pronunciations": ["ноцри́т"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["ноцри́м"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["ноцрийо́т"]
+        }
+      }
+    },
+    "word-542": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["кнесия́"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["кнесийо́т"]
+        }
+      }
+    },
+    "word-543": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["ати́к"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["атика́"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["атики́м"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["атико́т"]
+        }
+      }
+    },
+    "word-544": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["даро́м"]
+        }
+      }
+    },
+    "word-545": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["мизра́х"]
+        }
+      }
+    },
+    "word-546": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["маара́в"]
+        }
+      }
+    },
+    "word-547": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["мидба́р"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["мидбарийо́т"]
         }
       }
     }

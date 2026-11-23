@@ -61,50 +61,54 @@ describe('dictionary interface', () => {
     const { container } = render(<App />);
     const search = screen.getByRole('searchbox');
     fireEvent.change(search, { target: { value: 'laléchet' } });
-    const card = container.querySelector(`.${dictionaryCardStyles['card']}`)!;
-    const button = within(card as HTMLElement).getByRole('button');
-    expect(button.getAttribute('aria-expanded')).toBe('false');
-    expect(card.classList.contains(dictionaryCardStyles['animate-forms'])).toBe(false);
+    const card = () =>
+      screen
+        .getByRole('checkbox', { name: 'Seleccionar para imprimir: ללכת' })
+        .closest<HTMLElement>(`.${dictionaryCardStyles['card']}`)!;
+    const button = () => within(card()).getByRole('button');
+    expect(button().getAttribute('aria-expanded')).toBe('false');
+    expect(card().classList.contains(dictionaryCardStyles['animate-forms'])).toBe(false);
     expect(
-      card
+      card()
         .querySelector(`.${dictionaryCardStyles['card-roots']}`)
         ?.closest('[aria-hidden]')
         ?.getAttribute('aria-hidden'),
     ).toBe('true');
-    fireEvent.click(card);
-    expect(card.classList.contains(dictionaryCardStyles['animate-forms'])).toBe(true);
-    expect(card.querySelector(`.${dictionaryCardStyles['card-roots']}`)?.textContent).toBe(
+    fireEvent.click(card());
+    expect(card().classList.contains(dictionaryCardStyles['animate-forms'])).toBe(true);
+    expect(card().querySelector(`.${dictionaryCardStyles['card-roots']}`)?.textContent).toBe(
       'raíz: ה־ל־ך',
     );
     expect(
-      card
+      card()
         .querySelector(`.${dictionaryCardStyles['card-top']}`)
         ?.closest('[aria-hidden]')
         ?.getAttribute('aria-hidden'),
     ).toBe('true');
-    expect(within(card as HTMLElement).getAllByRole('cell')).toHaveLength(15);
-    fireEvent.click(button);
-    expect(within(card as HTMLElement).queryByRole('table')).toBeNull();
+    expect(within(card()).getAllByRole('cell')).toHaveLength(15);
+    fireEvent.click(button());
+    expect(within(card()).queryByRole('table')).toBeNull();
     expect(
-      card
+      card()
         .querySelector(`.${dictionaryCardStyles['card-roots']}`)
         ?.closest('[aria-hidden]')
         ?.getAttribute('aria-hidden'),
     ).toBe('true');
     fireEvent.change(search, { target: { value: 'holchót' } });
     expect(
-      screen.getByRole('table').querySelector(`.${dictionaryCardStyles['pronunciation']} mark`)
-        ?.textContent,
+      within(card())
+        .getByRole('table')
+        .querySelector(`.${dictionaryCardStyles['pronunciation']} mark`)?.textContent,
     ).toBe('holchót');
-    expect(card.classList.contains(dictionaryCardStyles['animate-forms'])).toBe(false);
+    expect(card().classList.contains(dictionaryCardStyles['animate-forms'])).toBe(false);
     fireEvent.change(search, { target: { value: 'laléchet' } });
-    expect(button.getAttribute('aria-expanded')).toBe('false');
-    expect(card.classList.contains(dictionaryCardStyles['animate-forms'])).toBe(false);
-    fireEvent.click(button);
-    expect(card.classList.contains(dictionaryCardStyles['animate-forms'])).toBe(true);
+    expect(button().getAttribute('aria-expanded')).toBe('false');
+    expect(card().classList.contains(dictionaryCardStyles['animate-forms'])).toBe(false);
+    fireEvent.click(button());
+    expect(card().classList.contains(dictionaryCardStyles['animate-forms'])).toBe(true);
     fireEvent.change(search, { target: { value: 'ללכת' } });
-    expect(button.getAttribute('aria-expanded')).toBe('false');
-    expect(card.classList.contains(dictionaryCardStyles['animate-forms'])).toBe(false);
+    expect(button().getAttribute('aria-expanded')).toBe('false');
+    expect(card().classList.contains(dictionaryCardStyles['animate-forms'])).toBe(false);
     fireEvent.change(search, { target: { value: 'בוקר טוב' } });
     expect(container.querySelector(`.${dictionaryCardStyles['card']} button`)).toBeNull();
   });

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22",
+  "updatedAt": "2026-11-23",
   "sections": [
     {
       "entries": [
@@ -344,6 +344,26 @@
             {
               "lexemeId": "word-498",
               "defaultFormId": "imperative-2-masculine-plural"
+            }
+          ]
+        },
+        {
+          "id": "word-527",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-527",
+              "defaultFormId": "fixed"
+            }
+          ]
+        },
+        {
+          "id": "word-530",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-530",
+              "defaultFormId": "fixed"
             }
           ]
         }
@@ -1078,6 +1098,36 @@
           "items": [
             {
               "lexemeId": "word-519",
+              "defaultFormId": "noun-masculine-singular"
+            }
+          ]
+        },
+        {
+          "id": "word-534",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-534",
+              "defaultFormId": "noun-masculine-singular"
+            }
+          ]
+        },
+        {
+          "id": "word-538",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-538",
+              "defaultFormId": "noun-masculine-singular"
+            }
+          ]
+        },
+        {
+          "id": "word-541",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-541",
               "defaultFormId": "noun-masculine-singular"
             }
           ]
@@ -2436,6 +2486,106 @@
               "defaultFormId": "noun-masculine-singular"
             }
           ]
+        },
+        {
+          "id": "word-522",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-522",
+              "defaultFormId": "noun-masculine-singular"
+            }
+          ]
+        },
+        {
+          "id": "word-526",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-526",
+              "defaultFormId": "noun-masculine-singular"
+            }
+          ]
+        },
+        {
+          "id": "word-536",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-536",
+              "defaultFormId": "noun-masculine-singular"
+            }
+          ]
+        },
+        {
+          "id": "word-537",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-537",
+              "defaultFormId": "fixed"
+            }
+          ]
+        },
+        {
+          "id": "word-539",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-539",
+              "defaultFormId": "noun-masculine-singular"
+            }
+          ]
+        },
+        {
+          "id": "word-542",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-542",
+              "defaultFormId": "noun-feminine-singular"
+            }
+          ]
+        },
+        {
+          "id": "word-544",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-544",
+              "defaultFormId": "noun-masculine-singular"
+            }
+          ]
+        },
+        {
+          "id": "word-545",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-545",
+              "defaultFormId": "noun-masculine-singular"
+            }
+          ]
+        },
+        {
+          "id": "word-546",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-546",
+              "defaultFormId": "noun-masculine-singular"
+            }
+          ]
+        },
+        {
+          "id": "word-547",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-547",
+              "defaultFormId": "noun-masculine-singular"
+            }
+          ]
         }
       ],
       "id": "places"
@@ -3201,6 +3351,76 @@
               "defaultFormId": "noun-masculine-singular"
             }
           ]
+        },
+        {
+          "id": "word-523",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-523",
+              "defaultFormId": "noun-feminine-singular"
+            }
+          ]
+        },
+        {
+          "id": "word-524",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-524",
+              "defaultFormId": "noun-masculine-singular"
+            }
+          ]
+        },
+        {
+          "id": "word-528",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-528",
+              "defaultFormId": "noun-masculine-singular"
+            }
+          ]
+        },
+        {
+          "id": "word-529",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-529",
+              "defaultFormId": "noun-feminine-singular"
+            }
+          ]
+        },
+        {
+          "id": "word-531",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-531",
+              "defaultFormId": "noun-feminine-singular"
+            }
+          ]
+        },
+        {
+          "id": "word-533",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-533",
+              "defaultFormId": "noun-feminine-singular"
+            }
+          ]
+        },
+        {
+          "id": "word-535",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-535",
+              "defaultFormId": "noun-feminine-singular"
+            }
+          ]
         }
       ],
       "id": "study"
@@ -3916,6 +4136,26 @@
               "defaultFormId": "infinitive"
             }
           ]
+        },
+        {
+          "id": "word-525",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-525",
+              "defaultFormId": "infinitive"
+            }
+          ]
+        },
+        {
+          "id": "word-532",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-532",
+              "defaultFormId": "infinitive"
+            }
+          ]
         }
       ],
       "id": "verbs"
@@ -4589,6 +4829,26 @@
             {
               "lexemeId": "word-517",
               "defaultFormId": "fixed"
+            }
+          ]
+        },
+        {
+          "id": "word-540",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-540",
+              "defaultFormId": "fixed"
+            }
+          ]
+        },
+        {
+          "id": "word-543",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-543",
+              "defaultFormId": "agreement-masculine-singular"
             }
           ]
         }
@@ -17716,6 +17976,20 @@
               "hebrewWithNiqqud": "מַגִּיעוֹת"
             }
           ]
+        },
+        {
+          "id": "future-1-singular",
+          "grammar": {
+            "kind": "future",
+            "person": 1,
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "אגיע",
+              "hebrewWithNiqqud": "אַגִּיעַ"
+            }
+          ]
         }
       ],
       "partOfSpeech": "verb",
@@ -27625,6 +27899,1014 @@
             {
               "hebrew": "חיות",
               "hebrewWithNiqqud": "חַיּוֹת"
+            }
+          ]
+        }
+      ]
+    },
+    "word-522": {
+      "lemma": "סרט",
+      "partOfSpeech": "noun",
+      "root": "ס־ר־ט",
+      "forms": [
+        {
+          "id": "noun-masculine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "masculine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "סרט",
+              "hebrewWithNiqqud": "סֶרֶט"
+            }
+          ]
+        },
+        {
+          "id": "noun-masculine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "masculine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "סרטים",
+              "hebrewWithNiqqud": "סְרָטִים"
+            }
+          ]
+        }
+      ]
+    },
+    "word-523": {
+      "lemma": "הודעה",
+      "partOfSpeech": "noun",
+      "root": "י־ד־ע",
+      "forms": [
+        {
+          "id": "noun-feminine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "הודעה",
+              "hebrewWithNiqqud": "הוֹדָעָה"
+            }
+          ]
+        },
+        {
+          "id": "noun-feminine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "הודעות",
+              "hebrewWithNiqqud": "הוֹדָעוֹת"
+            }
+          ]
+        }
+      ]
+    },
+    "word-524": {
+      "lemma": "מסרון",
+      "partOfSpeech": "noun",
+      "root": "מ־ס־ר",
+      "forms": [
+        {
+          "id": "noun-masculine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "masculine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "מסרון",
+              "hebrewWithNiqqud": "מִסְרוֹן"
+            }
+          ]
+        },
+        {
+          "id": "noun-masculine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "masculine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "מסרונים",
+              "hebrewWithNiqqud": "מִסְרוֹנִים"
+            }
+          ]
+        }
+      ]
+    },
+    "word-525": {
+      "lemma": "לשלוח",
+      "partOfSpeech": "verb",
+      "root": "ש־ל־ח",
+      "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "לשלוח",
+              "hebrewWithNiqqud": "לִשְׁלֹחַ"
+            }
+          ]
+        },
+        {
+          "id": "present-masculine-singular",
+          "grammar": {
+            "kind": "present",
+            "gender": "masculine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "שולח",
+              "hebrewWithNiqqud": "שׁוֹלֵחַ"
+            }
+          ]
+        },
+        {
+          "id": "present-feminine-singular",
+          "grammar": {
+            "kind": "present",
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "שולחת",
+              "hebrewWithNiqqud": "שׁוֹלַחַת"
+            }
+          ]
+        },
+        {
+          "id": "present-masculine-plural",
+          "grammar": {
+            "kind": "present",
+            "gender": "masculine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "שולחים",
+              "hebrewWithNiqqud": "שׁוֹלְחִים"
+            }
+          ]
+        },
+        {
+          "id": "present-feminine-plural",
+          "grammar": {
+            "kind": "present",
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "שולחות",
+              "hebrewWithNiqqud": "שׁוֹלְחוֹת"
+            }
+          ]
+        }
+      ]
+    },
+    "word-526": {
+      "lemma": "פתק",
+      "partOfSpeech": "noun",
+      "root": "פ־ת־ק",
+      "forms": [
+        {
+          "id": "noun-masculine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "masculine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "פתק",
+              "hebrewWithNiqqud": "פֶּתֶק"
+            }
+          ]
+        },
+        {
+          "id": "noun-masculine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "masculine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "פתקים",
+              "hebrewWithNiqqud": "פְּתָקִים"
+            }
+          ]
+        }
+      ]
+    },
+    "word-527": {
+      "lemma": "לצערי",
+      "partOfSpeech": "adverb",
+      "root": "צ־ע־ר",
+      "forms": [
+        {
+          "id": "fixed",
+          "grammar": {
+            "kind": "fixed"
+          },
+          "variants": [
+            {
+              "hebrew": "לצערי",
+              "hebrewWithNiqqud": "לְצַעֲרִי"
+            }
+          ]
+        }
+      ]
+    },
+    "word-528": {
+      "lemma": "מבחן",
+      "partOfSpeech": "noun",
+      "root": "ב־ח־ן",
+      "forms": [
+        {
+          "id": "noun-masculine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "masculine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "מבחן",
+              "hebrewWithNiqqud": "מִבְחָן"
+            }
+          ]
+        },
+        {
+          "id": "noun-masculine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "masculine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "מבחנים",
+              "hebrewWithNiqqud": "מִבְחָנִים"
+            }
+          ]
+        }
+      ]
+    },
+    "word-529": {
+      "lemma": "דרישה",
+      "partOfSpeech": "noun",
+      "root": "ד־ר־ש",
+      "forms": [
+        {
+          "id": "noun-feminine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "דרישה",
+              "hebrewWithNiqqud": "דְּרִישָׁה"
+            }
+          ]
+        },
+        {
+          "id": "noun-feminine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "דרישות",
+              "hebrewWithNiqqud": "דְּרִישׁוֹת"
+            }
+          ]
+        },
+        {
+          "id": "noun-feminine-singular-construct",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "singular",
+            "state": "construct"
+          },
+          "variants": [
+            {
+              "hebrew": "דרישת",
+              "hebrewWithNiqqud": "דְּרִישַׁת"
+            }
+          ]
+        }
+      ]
+    },
+    "word-530": {
+      "lemma": "דרישת שלום ל־",
+      "partOfSpeech": "expression",
+      "forms": [
+        {
+          "id": "fixed",
+          "grammar": {
+            "kind": "fixed"
+          },
+          "variants": [
+            {
+              "hebrew": "דרישת שלום ל־",
+              "hebrewWithNiqqud": "דְּרִישַׁת שָׁלוֹם לְ־"
+            }
+          ]
+        }
+      ]
+    },
+    "word-531": {
+      "lemma": "בדיקה",
+      "partOfSpeech": "noun",
+      "root": "ב־ד־ק",
+      "forms": [
+        {
+          "id": "noun-feminine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "בדיקה",
+              "hebrewWithNiqqud": "בְּדִיקָה"
+            }
+          ]
+        },
+        {
+          "id": "noun-feminine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "בדיקות",
+              "hebrewWithNiqqud": "בְּדִיקוֹת"
+            }
+          ]
+        }
+      ]
+    },
+    "word-532": {
+      "lemma": "להתפלל",
+      "partOfSpeech": "verb",
+      "root": "פ־ל־ל",
+      "forms": [
+        {
+          "id": "infinitive",
+          "grammar": {
+            "kind": "infinitive"
+          },
+          "variants": [
+            {
+              "hebrew": "להתפלל",
+              "hebrewWithNiqqud": "לְהִתְפַּלֵּל"
+            }
+          ]
+        },
+        {
+          "id": "present-masculine-singular",
+          "grammar": {
+            "kind": "present",
+            "gender": "masculine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "מתפלל",
+              "hebrewWithNiqqud": "מִתְפַּלֵּל"
+            }
+          ]
+        },
+        {
+          "id": "present-feminine-singular",
+          "grammar": {
+            "kind": "present",
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "מתפללת",
+              "hebrewWithNiqqud": "מִתְפַּלֶּלֶת"
+            }
+          ]
+        },
+        {
+          "id": "present-masculine-plural",
+          "grammar": {
+            "kind": "present",
+            "gender": "masculine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "מתפללים",
+              "hebrewWithNiqqud": "מִתְפַּלְּלִים"
+            }
+          ]
+        },
+        {
+          "id": "present-feminine-plural",
+          "grammar": {
+            "kind": "present",
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "מתפללות",
+              "hebrewWithNiqqud": "מִתְפַּלְּלוֹת"
+            }
+          ]
+        }
+      ]
+    },
+    "word-533": {
+      "lemma": "תפילה",
+      "partOfSpeech": "noun",
+      "root": "פ־ל־ל",
+      "forms": [
+        {
+          "id": "noun-feminine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "תפילה",
+              "hebrewWithNiqqud": "תְּפִלָּה"
+            }
+          ]
+        },
+        {
+          "id": "noun-feminine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "תפילות",
+              "hebrewWithNiqqud": "תְּפִלּוֹת"
+            }
+          ]
+        }
+      ]
+    },
+    "word-534": {
+      "lemma": "יהודי",
+      "partOfSpeech": "noun",
+      "root": "י־ה־ד",
+      "forms": [
+        {
+          "id": "noun-masculine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "masculine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "יהודי",
+              "hebrewWithNiqqud": "יְהוּדִי"
+            }
+          ]
+        },
+        {
+          "id": "noun-feminine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "יהודייה",
+              "hebrewWithNiqqud": "יְהוּדִיָּה"
+            }
+          ]
+        },
+        {
+          "id": "noun-masculine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "masculine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "יהודים",
+              "hebrewWithNiqqud": "יְהוּדִים"
+            }
+          ]
+        },
+        {
+          "id": "noun-feminine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "יהודיות",
+              "hebrewWithNiqqud": "יְהוּדִיּוֹת"
+            }
+          ]
+        }
+      ]
+    },
+    "word-535": {
+      "lemma": "כנסת",
+      "partOfSpeech": "noun",
+      "root": "כ־נ־ס",
+      "forms": [
+        {
+          "id": "noun-feminine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "כנסת",
+              "hebrewWithNiqqud": "כְּנֶסֶת"
+            }
+          ]
+        },
+        {
+          "id": "noun-feminine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "כנסות",
+              "hebrewWithNiqqud": "כְּנָסוֹת"
+            }
+          ]
+        }
+      ]
+    },
+    "word-536": {
+      "lemma": "בית כנסת",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "id": "noun-masculine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "masculine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "בית כנסת",
+              "hebrewWithNiqqud": "בֵּית כְּנֶסֶת"
+            }
+          ]
+        },
+        {
+          "id": "noun-masculine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "masculine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "בתי כנסת",
+              "hebrewWithNiqqud": "בָּתֵּי כְּנֶסֶת"
+            }
+          ]
+        }
+      ]
+    },
+    "word-537": {
+      "lemma": "הכותל המערבי",
+      "partOfSpeech": "expression",
+      "forms": [
+        {
+          "id": "fixed",
+          "grammar": {
+            "kind": "fixed"
+          },
+          "variants": [
+            {
+              "hebrew": "הכותל המערבי",
+              "hebrewWithNiqqud": "הַכֹּתֶל הַמַּעֲרָבִי"
+            }
+          ]
+        }
+      ]
+    },
+    "word-538": {
+      "lemma": "מוסלמי",
+      "partOfSpeech": "noun",
+      "root": null,
+      "forms": [
+        {
+          "id": "noun-masculine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "masculine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "מוסלמי",
+              "hebrewWithNiqqud": "מֻסְלְמִי"
+            }
+          ]
+        },
+        {
+          "id": "noun-feminine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "מוסלמית",
+              "hebrewWithNiqqud": "מֻסְלְמִית"
+            }
+          ]
+        },
+        {
+          "id": "noun-masculine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "masculine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "מוסלמים",
+              "hebrewWithNiqqud": "מֻסְלְמִים"
+            }
+          ]
+        },
+        {
+          "id": "noun-feminine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "מוסלמיות",
+              "hebrewWithNiqqud": "מֻסְלְמִיּוֹת"
+            }
+          ]
+        }
+      ]
+    },
+    "word-539": {
+      "lemma": "מסגד",
+      "partOfSpeech": "noun",
+      "root": "ס־ג־ד",
+      "forms": [
+        {
+          "id": "noun-masculine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "masculine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "מסגד",
+              "hebrewWithNiqqud": "מִסְגָּד"
+            }
+          ]
+        },
+        {
+          "id": "noun-masculine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "masculine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "מסגדים",
+              "hebrewWithNiqqud": "מִסְגָּדִים"
+            }
+          ]
+        }
+      ]
+    },
+    "word-540": {
+      "lemma": "ביחד",
+      "partOfSpeech": "adverb",
+      "root": null,
+      "forms": [
+        {
+          "id": "fixed",
+          "grammar": {
+            "kind": "fixed"
+          },
+          "variants": [
+            {
+              "hebrew": "ביחד",
+              "hebrewWithNiqqud": "בְּיַחַד"
+            }
+          ]
+        }
+      ]
+    },
+    "word-541": {
+      "lemma": "נוצרי",
+      "partOfSpeech": "noun",
+      "root": "נ־צ־ר",
+      "forms": [
+        {
+          "id": "noun-masculine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "masculine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "נוצרי",
+              "hebrewWithNiqqud": "נָצְרִי"
+            }
+          ]
+        },
+        {
+          "id": "noun-feminine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "נוצרית",
+              "hebrewWithNiqqud": "נָצְרִית"
+            }
+          ]
+        },
+        {
+          "id": "noun-masculine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "masculine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "נוצרים",
+              "hebrewWithNiqqud": "נוֹצְרִים"
+            }
+          ]
+        },
+        {
+          "id": "noun-feminine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "נוצריות",
+              "hebrewWithNiqqud": "נָצְרִיּוֹת"
+            }
+          ]
+        }
+      ]
+    },
+    "word-542": {
+      "lemma": "כנסייה",
+      "partOfSpeech": "noun",
+      "root": "כ־נ־ס",
+      "forms": [
+        {
+          "id": "noun-feminine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "כנסייה",
+              "hebrewWithNiqqud": "כְּנֵסִיָּה"
+            }
+          ]
+        },
+        {
+          "id": "noun-feminine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "כנסייות",
+              "hebrewWithNiqqud": "כְּנֵסִיּוֹת"
+            }
+          ]
+        }
+      ]
+    },
+    "word-543": {
+      "lemma": "עתיק",
+      "partOfSpeech": "adjective",
+      "root": "ע־ת־ק",
+      "forms": [
+        {
+          "id": "agreement-masculine-singular",
+          "grammar": {
+            "kind": "agreement",
+            "gender": "masculine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "עתיק",
+              "hebrewWithNiqqud": "עַתִּיק"
+            }
+          ]
+        },
+        {
+          "id": "agreement-feminine-singular",
+          "grammar": {
+            "kind": "agreement",
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "עתיקה",
+              "hebrewWithNiqqud": "עַתִּיקָה"
+            }
+          ]
+        },
+        {
+          "id": "agreement-masculine-plural",
+          "grammar": {
+            "kind": "agreement",
+            "gender": "masculine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "עתיקים",
+              "hebrewWithNiqqud": "עַתִּיקִים"
+            }
+          ]
+        },
+        {
+          "id": "agreement-feminine-plural",
+          "grammar": {
+            "kind": "agreement",
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "עתיקות",
+              "hebrewWithNiqqud": "עַתִּיקוֹת"
+            }
+          ]
+        }
+      ]
+    },
+    "word-544": {
+      "lemma": "דרום",
+      "partOfSpeech": "noun",
+      "root": "ד־ר־ם",
+      "forms": [
+        {
+          "id": "noun-masculine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "masculine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "דרום",
+              "hebrewWithNiqqud": "דָּרוֹם"
+            }
+          ]
+        }
+      ]
+    },
+    "word-545": {
+      "lemma": "מזרח",
+      "partOfSpeech": "noun",
+      "root": "ז־ר־ח",
+      "forms": [
+        {
+          "id": "noun-masculine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "masculine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "מזרח",
+              "hebrewWithNiqqud": "מִזְרָח"
+            }
+          ]
+        }
+      ]
+    },
+    "word-546": {
+      "lemma": "מערב",
+      "partOfSpeech": "noun",
+      "root": "ע־ר־ב",
+      "forms": [
+        {
+          "id": "noun-masculine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "masculine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "מערב",
+              "hebrewWithNiqqud": "מַעֲרָב"
+            }
+          ]
+        }
+      ]
+    },
+    "word-547": {
+      "lemma": "מדבר",
+      "partOfSpeech": "noun",
+      "root": "ד־ב־ר",
+      "forms": [
+        {
+          "id": "noun-masculine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "masculine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "מדבר",
+              "hebrewWithNiqqud": "מִדְבָּר"
+            }
+          ]
+        },
+        {
+          "id": "noun-masculine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "masculine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "מדבריות",
+              "hebrewWithNiqqud": "מִדְבָּרִיּוֹת"
             }
           ]
         }
