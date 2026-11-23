@@ -288,7 +288,7 @@
       "meaning": "ветеринар"
     },
     "word-366": {
-      "meaning": "руководитель, директор; название должности"
+      "meaning": "руководитель, директор, менеджер; название должности"
     },
     "word-368": {
       "meaning": "младенец. Во множественном числе формы обоих родов совпадают."
@@ -1681,6 +1681,12 @@
     },
     "word-547": {
       "meaning": "пустыня"
+    },
+    "word-548": {
+      "meaning": "фрукт, плод"
+    },
+    "word-549": {
+      "meaning": "инженер"
     }
   },
   "lexemes": {
@@ -8272,6 +8278,32 @@
         },
         "noun-masculine-plural": {
           "pronunciations": ["мидбарийо́т"]
+        }
+      }
+    },
+    "word-548": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["при"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["перо́т"]
+        }
+      }
+    },
+    "word-549": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["меhанде́с"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["меhанде́сет"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["меhандеси́м"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["меhандесо́т"]
         }
       }
     }

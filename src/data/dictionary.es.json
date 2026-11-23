@@ -1681,6 +1681,12 @@
     },
     "word-547": {
       "meaning": "desierto"
+    },
+    "word-548": {
+      "meaning": "fruta, fruto"
+    },
+    "word-549": {
+      "meaning": "ingeniero, ingeniera"
     }
   },
   "lexemes": {
@@ -8272,6 +8278,32 @@
         },
         "noun-masculine-plural": {
           "pronunciations": ["midbariyót"]
+        }
+      }
+    },
+    "word-548": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["pri"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["perót"]
+        }
+      }
+    },
+    "word-549": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["mehandés"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["mehandéset"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["mehandesím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["mehandesót"]
         }
       }
     }

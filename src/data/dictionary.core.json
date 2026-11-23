@@ -1131,6 +1131,16 @@
               "defaultFormId": "noun-masculine-singular"
             }
           ]
+        },
+        {
+          "id": "word-549",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-549",
+              "defaultFormId": "agreement-masculine-singular"
+            }
+          ]
         }
       ],
       "id": "people"
@@ -2583,6 +2593,16 @@
           "items": [
             {
               "lexemeId": "word-547",
+              "defaultFormId": "noun-masculine-singular"
+            }
+          ]
+        },
+        {
+          "id": "word-548",
+          "addedAt": "2026-11-23",
+          "items": [
+            {
+              "lexemeId": "word-548",
               "defaultFormId": "noun-masculine-singular"
             }
           ]
@@ -28907,6 +28927,104 @@
             {
               "hebrew": "מדבריות",
               "hebrewWithNiqqud": "מִדְבָּרִיּוֹת"
+            }
+          ]
+        }
+      ]
+    },
+    "word-548": {
+      "lemma": "פרי",
+      "partOfSpeech": "noun",
+      "root": "פ־ר־ה",
+      "forms": [
+        {
+          "id": "noun-masculine-singular",
+          "grammar": {
+            "kind": "noun",
+            "gender": "masculine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "פרי",
+              "hebrewWithNiqqud": "פְּרִי"
+            }
+          ]
+        },
+        {
+          "id": "noun-masculine-plural",
+          "grammar": {
+            "kind": "noun",
+            "gender": "masculine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "פירות",
+              "hebrewWithNiqqud": "פֵּרוֹת"
+            }
+          ]
+        }
+      ]
+    },
+    "word-549": {
+      "lemma": "מהנדס",
+      "partOfSpeech": "noun",
+      "root": "ה־נ־ד־ס",
+      "forms": [
+        {
+          "id": "agreement-masculine-singular",
+          "grammar": {
+            "kind": "agreement",
+            "gender": "masculine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "מהנדס",
+              "hebrewWithNiqqud": "מְהַנְדֵּס"
+            }
+          ]
+        },
+        {
+          "id": "agreement-feminine-singular",
+          "grammar": {
+            "kind": "agreement",
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "מהנדסת",
+              "hebrewWithNiqqud": "מְהַנְדֶּסֶת"
+            }
+          ]
+        },
+        {
+          "id": "agreement-masculine-plural",
+          "grammar": {
+            "kind": "agreement",
+            "gender": "masculine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "מהנדסים",
+              "hebrewWithNiqqud": "מְהַנְדְּסִים"
+            }
+          ]
+        },
+        {
+          "id": "agreement-feminine-plural",
+          "grammar": {
+            "kind": "agreement",
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "מהנדסות",
+              "hebrewWithNiqqud": "מְהַנְדְּסוֹת"
             }
           ]
         }
