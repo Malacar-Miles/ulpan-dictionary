@@ -8,6 +8,10 @@ This repository contains only the web application. Its source of truth is the th
 
 When adding words or lesson notes, use the [add-dictionary-words workflow](.agents/skills/add-dictionary-words/SKILL.md).
 
+## Chat messages with Hebrew
+
+In Russian, English, or Spanish chat messages, start each mixed-language paragraph, heading, or list item with words in the surrounding language so it reads left to right. Wrap each inline Hebrew word or phrase in the actual Unicode characters RLI (U+2067) and PDI (U+2069). Keep punctuation belonging to the surrounding sentence outside the pair. For several translation pairs, use a table with the Russian, English, or Spanish meaning first and the Hebrew in its own column. Apply these controls only when composing chat messages.
+
 ## Application behavior
 
 - React + TypeScript + Vite; `npm run dev` starts development, `npm run build` type-checks and creates `dist/`, and `npm run preview` serves the build.
