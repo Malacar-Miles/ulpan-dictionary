@@ -1714,6 +1714,9 @@
     },
     "word-558": {
       "meaning": "y así sucesivamente (al final de una enumeración); literalmente «y más y más»"
+    },
+    "word-559": {
+      "meaning": "limpio"
     }
   },
   "lexemes": {
@@ -8418,6 +8421,22 @@
       "forms": {
         "fixed": {
           "pronunciations": ["veód vaód"]
+        }
+      }
+    },
+    "word-559": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["nakí"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["nekiyá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["nekiyím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["nekiyót"]
         }
       }
     }

@@ -1714,6 +1714,9 @@
     },
     "word-558": {
       "meaning": "и так далее (в конце перечисления); буквально «и ещё, и ещё»"
+    },
+    "word-559": {
+      "meaning": "чистый"
     }
   },
   "lexemes": {
@@ -8418,6 +8421,22 @@
       "forms": {
         "fixed": {
           "pronunciations": ["вео́д вао́д"]
+        }
+      }
+    },
+    "word-559": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["наки́"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["некия́"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["некийи́м"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["некийо́т"]
         }
       }
     }

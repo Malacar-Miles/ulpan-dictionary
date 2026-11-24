@@ -4951,6 +4951,16 @@
               "defaultFormId": "fixed"
             }
           ]
+        },
+        {
+          "id": "word-559",
+          "addedAt": "2026-11-24",
+          "items": [
+            {
+              "lexemeId": "word-559",
+              "defaultFormId": "agreement-masculine-singular"
+            }
+          ]
         }
       ],
       "id": "adjectives"
@@ -29409,6 +29419,69 @@
             {
               "hebrew": "ועוד ועוד",
               "hebrewWithNiqqud": "וְעוֹד וָעוֹד"
+            }
+          ]
+        }
+      ]
+    },
+    "word-559": {
+      "lemma": "נקי",
+      "partOfSpeech": "adjective",
+      "root": "נ־ק־ה",
+      "forms": [
+        {
+          "id": "agreement-masculine-singular",
+          "grammar": {
+            "kind": "agreement",
+            "gender": "masculine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "נקי",
+              "hebrewWithNiqqud": "נָקִי"
+            }
+          ]
+        },
+        {
+          "id": "agreement-feminine-singular",
+          "grammar": {
+            "kind": "agreement",
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "variants": [
+            {
+              "hebrew": "נקייה",
+              "hebrewWithNiqqud": "נְקִיָּה"
+            }
+          ]
+        },
+        {
+          "id": "agreement-masculine-plural",
+          "grammar": {
+            "kind": "agreement",
+            "gender": "masculine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "נקיים",
+              "hebrewWithNiqqud": "נְקִיִּים"
+            }
+          ]
+        },
+        {
+          "id": "agreement-feminine-plural",
+          "grammar": {
+            "kind": "agreement",
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "variants": [
+            {
+              "hebrew": "נקיות",
+              "hebrewWithNiqqud": "נְקִיּוֹת"
             }
           ]
         }
