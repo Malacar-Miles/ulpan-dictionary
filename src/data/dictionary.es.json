@@ -1687,6 +1687,33 @@
     },
     "word-549": {
       "meaning": "ingeniero, ingeniera"
+    },
+    "word-550": {
+      "meaning": "hasta (en el tiempo o en el espacio)"
+    },
+    "word-551": {
+      "meaning": "agradable"
+    },
+    "word-552": {
+      "meaning": "idioma, lengua"
+    },
+    "word-553": {
+      "meaning": "a veces"
+    },
+    "word-554": {
+      "meaning": "frontera, límite"
+    },
+    "word-555": {
+      "meaning": "Estado, país"
+    },
+    "word-556": {
+      "meaning": "sal. El plural designa sales, por ejemplo en química."
+    },
+    "word-557": {
+      "meaning": "hotel"
+    },
+    "word-558": {
+      "meaning": "y así sucesivamente (al final de una enumeración); literalmente «y más y más»"
     }
   },
   "lexemes": {
@@ -8304,6 +8331,93 @@
         },
         "agreement-feminine-plural": {
           "pronunciations": ["mehandesót"]
+        }
+      }
+    },
+    "word-550": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["ad"]
+        }
+      }
+    },
+    "word-551": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["naím"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["neimá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["neimím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["neimót"]
+        }
+      }
+    },
+    "word-552": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["safá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["safót"]
+        }
+      }
+    },
+    "word-553": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["lifamím"]
+        }
+      }
+    },
+    "word-554": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["gvul"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["gvulót"]
+        }
+      }
+    },
+    "word-555": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["mediná"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["medinót"]
+        }
+      }
+    },
+    "word-556": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["mélach"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["melachím"]
+        }
+      }
+    },
+    "word-557": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["malón"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["melonót"]
+        }
+      }
+    },
+    "word-558": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["veód vaód"]
         }
       }
     }

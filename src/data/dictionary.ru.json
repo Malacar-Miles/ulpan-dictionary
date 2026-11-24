@@ -1687,6 +1687,33 @@
     },
     "word-549": {
       "meaning": "инженер"
+    },
+    "word-550": {
+      "meaning": "до (о времени или месте)"
+    },
+    "word-551": {
+      "meaning": "приятный"
+    },
+    "word-552": {
+      "meaning": "язык (средство общения)"
+    },
+    "word-553": {
+      "meaning": "иногда"
+    },
+    "word-554": {
+      "meaning": "граница, предел"
+    },
+    "word-555": {
+      "meaning": "государство, страна"
+    },
+    "word-556": {
+      "meaning": "соль. Во множественном числе — соли, например в химии."
+    },
+    "word-557": {
+      "meaning": "гостиница, отель"
+    },
+    "word-558": {
+      "meaning": "и так далее (в конце перечисления); буквально «и ещё, и ещё»"
     }
   },
   "lexemes": {
@@ -8304,6 +8331,93 @@
         },
         "agreement-feminine-plural": {
           "pronunciations": ["меhандесо́т"]
+        }
+      }
+    },
+    "word-550": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["ад"]
+        }
+      }
+    },
+    "word-551": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["наи́м"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["неима́"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["неими́м"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["неимо́т"]
+        }
+      }
+    },
+    "word-552": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["сафа́"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["сафо́т"]
+        }
+      }
+    },
+    "word-553": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["лифъами́м"]
+        }
+      }
+    },
+    "word-554": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["гвуль"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["гвуло́т"]
+        }
+      }
+    },
+    "word-555": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["медина́"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["медино́т"]
+        }
+      }
+    },
+    "word-556": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["ме́лах"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["мелахи́м"]
+        }
+      }
+    },
+    "word-557": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["мало́н"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["мелоно́т"]
+        }
+      }
+    },
+    "word-558": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["вео́д вао́д"]
         }
       }
     }
