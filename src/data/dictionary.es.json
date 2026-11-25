@@ -37,7 +37,7 @@
     },
     "numbers": {
       "title": "Números",
-      "note": "Numerales cardinales. Para 1–10, las formas aparecen en orden masculino / femenino. El género depende del sustantivo en hebreo; para contar sin nombrar objetos suele usarse el femenino. El 0, las decenas de 20–90 y el 100 no tienen formas distintas por género. Para 2 y 100 también se incluyen las formas de estado constructo."
+      "note": "Numerales cardinales. Para 1–19, las formas aparecen en orden masculino / femenino. El género depende del sustantivo en hebreo; para contar sin nombrar objetos suele usarse el femenino. El 0, las decenas de 20–90 y el 100 no tienen formas distintas por género. Para 2 y 100 también se incluyen las formas de estado constructo."
     }
   },
   "entries": {
@@ -1762,6 +1762,33 @@
     },
     "word-574": {
       "meaning": "santo, sagrado. עיר קדושה significa «ciudad sagrada»."
+    },
+    "word-575": {
+      "meaning": "11 — once"
+    },
+    "word-576": {
+      "meaning": "12 — doce"
+    },
+    "word-577": {
+      "meaning": "13 — trece"
+    },
+    "word-578": {
+      "meaning": "14 — catorce"
+    },
+    "word-579": {
+      "meaning": "15 — quince"
+    },
+    "word-580": {
+      "meaning": "16 — dieciséis"
+    },
+    "word-581": {
+      "meaning": "17 — diecisiete"
+    },
+    "word-582": {
+      "meaning": "18 — dieciocho"
+    },
+    "word-583": {
+      "meaning": "19 — diecinueve"
     }
   },
   "lexemes": {
@@ -8677,6 +8704,96 @@
         },
         "agreement-feminine-plural": {
           "pronunciations": ["kdoshót"]
+        }
+      }
+    },
+    "word-575": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["achád asár"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["achát esré"]
+        }
+      }
+    },
+    "word-576": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["shneym asár"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["shteym esré"]
+        }
+      }
+    },
+    "word-577": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["shloshá asár"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["shlosh esré"]
+        }
+      }
+    },
+    "word-578": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["arbaá asár"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["arbá esré"]
+        }
+      }
+    },
+    "word-579": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["chamishá asár"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["chamésh esré"]
+        }
+      }
+    },
+    "word-580": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["shishá asár"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["shesh esré"]
+        }
+      }
+    },
+    "word-581": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["shivá asár"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["shva esré"]
+        }
+      }
+    },
+    "word-582": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["shmoná asár"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["shmoné esré"]
+        }
+      }
+    },
+    "word-583": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["tishá asár"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["tsha esré"]
         }
       }
     }

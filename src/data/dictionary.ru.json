@@ -37,7 +37,7 @@
     },
     "numbers": {
       "title": "Числа",
-      "note": "Количественные числительные. Для 1–10 порядок форм: мужской / женский род. Род выбирается по существительному на иврите; при отвлечённом счёте обычно используется женская форма. У 0, десятков 20–90 и 100 отдельной пары родовых форм нет. Для 2 и 100 указаны также сопряжённые формы."
+      "note": "Количественные числительные. Для 1–19 порядок форм: мужской / женский род. Род выбирается по существительному на иврите; при отвлечённом счёте обычно используется женская форма. У 0, десятков 20–90 и 100 отдельной пары родовых форм нет. Для 2 и 100 указаны также сопряжённые формы."
     }
   },
   "entries": {
@@ -1762,6 +1762,33 @@
     },
     "word-574": {
       "meaning": "святой, священный. עיר קדושה — священный город."
+    },
+    "word-575": {
+      "meaning": "11 — одиннадцать"
+    },
+    "word-576": {
+      "meaning": "12 — двенадцать"
+    },
+    "word-577": {
+      "meaning": "13 — тринадцать"
+    },
+    "word-578": {
+      "meaning": "14 — четырнадцать"
+    },
+    "word-579": {
+      "meaning": "15 — пятнадцать"
+    },
+    "word-580": {
+      "meaning": "16 — шестнадцать"
+    },
+    "word-581": {
+      "meaning": "17 — семнадцать"
+    },
+    "word-582": {
+      "meaning": "18 — восемнадцать"
+    },
+    "word-583": {
+      "meaning": "19 — девятнадцать"
     }
   },
   "lexemes": {
@@ -8677,6 +8704,96 @@
         },
         "agreement-feminine-plural": {
           "pronunciations": ["кдошо́т"]
+        }
+      }
+    },
+    "word-575": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["аха́д аса́р"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["аха́т эсрэ́"]
+        }
+      }
+    },
+    "word-576": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["шнейм аса́р"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["штейм эсрэ́"]
+        }
+      }
+    },
+    "word-577": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["шлоша́ аса́р"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["шлош эсрэ́"]
+        }
+      }
+    },
+    "word-578": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["арбаа́ аса́р"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["арба́ эсрэ́"]
+        }
+      }
+    },
+    "word-579": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["хамиша́ аса́р"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["хамэ́ш эсрэ́"]
+        }
+      }
+    },
+    "word-580": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["шиша́ аса́р"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["шеш эсрэ́"]
+        }
+      }
+    },
+    "word-581": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["шивъа́ аса́р"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["шва эсрэ́"]
+        }
+      }
+    },
+    "word-582": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["шмона́ аса́р"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["шмонэ́ эсрэ́"]
+        }
+      }
+    },
+    "word-583": {
+      "forms": {
+        "absolute-masculine": {
+          "pronunciations": ["тишъа́ аса́р"]
+        },
+        "absolute-feminine": {
+          "pronunciations": ["тша эсрэ́"]
         }
       }
     }

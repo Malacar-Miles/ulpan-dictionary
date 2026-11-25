@@ -5698,6 +5698,96 @@
           ]
         },
         {
+          "id": "word-575",
+          "addedAt": "2026-11-25",
+          "items": [
+            {
+              "lexemeId": "word-575",
+              "defaultFormId": "absolute-masculine"
+            }
+          ]
+        },
+        {
+          "id": "word-576",
+          "addedAt": "2026-11-25",
+          "items": [
+            {
+              "lexemeId": "word-576",
+              "defaultFormId": "absolute-masculine"
+            }
+          ]
+        },
+        {
+          "id": "word-577",
+          "addedAt": "2026-11-25",
+          "items": [
+            {
+              "lexemeId": "word-577",
+              "defaultFormId": "absolute-masculine"
+            }
+          ]
+        },
+        {
+          "id": "word-578",
+          "addedAt": "2026-11-25",
+          "items": [
+            {
+              "lexemeId": "word-578",
+              "defaultFormId": "absolute-masculine"
+            }
+          ]
+        },
+        {
+          "id": "word-579",
+          "addedAt": "2026-11-25",
+          "items": [
+            {
+              "lexemeId": "word-579",
+              "defaultFormId": "absolute-masculine"
+            }
+          ]
+        },
+        {
+          "id": "word-580",
+          "addedAt": "2026-11-25",
+          "items": [
+            {
+              "lexemeId": "word-580",
+              "defaultFormId": "absolute-masculine"
+            }
+          ]
+        },
+        {
+          "id": "word-581",
+          "addedAt": "2026-11-25",
+          "items": [
+            {
+              "lexemeId": "word-581",
+              "defaultFormId": "absolute-masculine"
+            }
+          ]
+        },
+        {
+          "id": "word-582",
+          "addedAt": "2026-11-25",
+          "items": [
+            {
+              "lexemeId": "word-582",
+              "defaultFormId": "absolute-masculine"
+            }
+          ]
+        },
+        {
+          "id": "word-583",
+          "addedAt": "2026-11-25",
+          "items": [
+            {
+              "lexemeId": "word-583",
+              "defaultFormId": "absolute-masculine"
+            }
+          ]
+        },
+        {
           "id": "word-272",
           "addedAt": "2026-11-04",
           "items": [
@@ -30367,6 +30457,294 @@
           ]
         }
       ]
+    },
+    "word-575": {
+      "lemma": "אחד עשר",
+      "forms": [
+        {
+          "id": "absolute-masculine",
+          "grammar": {
+            "kind": "absolute",
+            "gender": "masculine"
+          },
+          "variants": [
+            {
+              "hebrew": "אחד עשר",
+              "hebrewWithNiqqud": "אַחַד עָשָׂר"
+            }
+          ]
+        },
+        {
+          "id": "absolute-feminine",
+          "grammar": {
+            "kind": "absolute",
+            "gender": "feminine"
+          },
+          "variants": [
+            {
+              "hebrew": "אחת עשרה",
+              "hebrewWithNiqqud": "אַחַת עֶשְׂרֵה"
+            }
+          ]
+        }
+      ],
+      "partOfSpeech": "numeral"
+    },
+    "word-576": {
+      "lemma": "שניים עשר",
+      "forms": [
+        {
+          "id": "absolute-masculine",
+          "grammar": {
+            "kind": "absolute",
+            "gender": "masculine"
+          },
+          "variants": [
+            {
+              "hebrew": "שניים עשר",
+              "hebrewWithNiqqud": "שְׁנֵים עָשָׂר"
+            }
+          ]
+        },
+        {
+          "id": "absolute-feminine",
+          "grammar": {
+            "kind": "absolute",
+            "gender": "feminine"
+          },
+          "variants": [
+            {
+              "hebrew": "שתיים עשרה",
+              "hebrewWithNiqqud": "שְׁתֵּים עֶשְׂרֵה"
+            }
+          ]
+        }
+      ],
+      "partOfSpeech": "numeral"
+    },
+    "word-577": {
+      "lemma": "שלושה עשר",
+      "forms": [
+        {
+          "id": "absolute-masculine",
+          "grammar": {
+            "kind": "absolute",
+            "gender": "masculine"
+          },
+          "variants": [
+            {
+              "hebrew": "שלושה עשר",
+              "hebrewWithNiqqud": "שְׁלוֹשָׁה עָשָׂר"
+            }
+          ]
+        },
+        {
+          "id": "absolute-feminine",
+          "grammar": {
+            "kind": "absolute",
+            "gender": "feminine"
+          },
+          "variants": [
+            {
+              "hebrew": "שלוש עשרה",
+              "hebrewWithNiqqud": "שְׁלוֹשׁ עֶשְׂרֵה"
+            }
+          ]
+        }
+      ],
+      "partOfSpeech": "numeral"
+    },
+    "word-578": {
+      "lemma": "ארבעה עשר",
+      "forms": [
+        {
+          "id": "absolute-masculine",
+          "grammar": {
+            "kind": "absolute",
+            "gender": "masculine"
+          },
+          "variants": [
+            {
+              "hebrew": "ארבעה עשר",
+              "hebrewWithNiqqud": "אַרְבָּעָה עָשָׂר"
+            }
+          ]
+        },
+        {
+          "id": "absolute-feminine",
+          "grammar": {
+            "kind": "absolute",
+            "gender": "feminine"
+          },
+          "variants": [
+            {
+              "hebrew": "ארבע עשרה",
+              "hebrewWithNiqqud": "אַרְבַּע עֶשְׂרֵה"
+            }
+          ]
+        }
+      ],
+      "partOfSpeech": "numeral"
+    },
+    "word-579": {
+      "lemma": "חמישה עשר",
+      "forms": [
+        {
+          "id": "absolute-masculine",
+          "grammar": {
+            "kind": "absolute",
+            "gender": "masculine"
+          },
+          "variants": [
+            {
+              "hebrew": "חמישה עשר",
+              "hebrewWithNiqqud": "חֲמִשָּׁה עָשָׂר"
+            }
+          ]
+        },
+        {
+          "id": "absolute-feminine",
+          "grammar": {
+            "kind": "absolute",
+            "gender": "feminine"
+          },
+          "variants": [
+            {
+              "hebrew": "חמש עשרה",
+              "hebrewWithNiqqud": "חֲמֵשׁ עֶשְׂרֵה"
+            }
+          ]
+        }
+      ],
+      "partOfSpeech": "numeral"
+    },
+    "word-580": {
+      "lemma": "שישה עשר",
+      "forms": [
+        {
+          "id": "absolute-masculine",
+          "grammar": {
+            "kind": "absolute",
+            "gender": "masculine"
+          },
+          "variants": [
+            {
+              "hebrew": "שישה עשר",
+              "hebrewWithNiqqud": "שִׁשָּׁה עָשָׂר"
+            }
+          ]
+        },
+        {
+          "id": "absolute-feminine",
+          "grammar": {
+            "kind": "absolute",
+            "gender": "feminine"
+          },
+          "variants": [
+            {
+              "hebrew": "שש עשרה",
+              "hebrewWithNiqqud": "שֵׁשׁ עֶשְׂרֵה"
+            }
+          ]
+        }
+      ],
+      "partOfSpeech": "numeral"
+    },
+    "word-581": {
+      "lemma": "שבעה עשר",
+      "forms": [
+        {
+          "id": "absolute-masculine",
+          "grammar": {
+            "kind": "absolute",
+            "gender": "masculine"
+          },
+          "variants": [
+            {
+              "hebrew": "שבעה עשר",
+              "hebrewWithNiqqud": "שִׁבְעָה עָשָׂר"
+            }
+          ]
+        },
+        {
+          "id": "absolute-feminine",
+          "grammar": {
+            "kind": "absolute",
+            "gender": "feminine"
+          },
+          "variants": [
+            {
+              "hebrew": "שבע עשרה",
+              "hebrewWithNiqqud": "שְׁבַע עֶשְׂרֵה"
+            }
+          ]
+        }
+      ],
+      "partOfSpeech": "numeral"
+    },
+    "word-582": {
+      "lemma": "שמונה עשר",
+      "forms": [
+        {
+          "id": "absolute-masculine",
+          "grammar": {
+            "kind": "absolute",
+            "gender": "masculine"
+          },
+          "variants": [
+            {
+              "hebrew": "שמונה עשר",
+              "hebrewWithNiqqud": "שְׁמוֹנָה עָשָׂר"
+            }
+          ]
+        },
+        {
+          "id": "absolute-feminine",
+          "grammar": {
+            "kind": "absolute",
+            "gender": "feminine"
+          },
+          "variants": [
+            {
+              "hebrew": "שמונה עשרה",
+              "hebrewWithNiqqud": "שְׁמוֹנֶה עֶשְׂרֵה"
+            }
+          ]
+        }
+      ],
+      "partOfSpeech": "numeral"
+    },
+    "word-583": {
+      "lemma": "תשעה עשר",
+      "forms": [
+        {
+          "id": "absolute-masculine",
+          "grammar": {
+            "kind": "absolute",
+            "gender": "masculine"
+          },
+          "variants": [
+            {
+              "hebrew": "תשעה עשר",
+              "hebrewWithNiqqud": "תִּשְׁעָה עָשָׂר"
+            }
+          ]
+        },
+        {
+          "id": "absolute-feminine",
+          "grammar": {
+            "kind": "absolute",
+            "gender": "feminine"
+          },
+          "variants": [
+            {
+              "hebrew": "תשע עשרה",
+              "hebrewWithNiqqud": "תְּשַׁע עֶשְׂרֵה"
+            }
+          ]
+        }
+      ],
+      "partOfSpeech": "numeral"
     }
   }
 }
