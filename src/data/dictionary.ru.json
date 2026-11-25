@@ -1717,6 +1717,51 @@
     },
     "word-559": {
       "meaning": "чистый"
+    },
+    "word-560": {
+      "meaning": "житель, жительница"
+    },
+    "word-561": {
+      "meaning": "мир, вселенная"
+    },
+    "word-562": {
+      "meaning": "смеяться"
+    },
+    "word-563": {
+      "meaning": "деревня, село"
+    },
+    "word-564": {
+      "meaning": "столица. С артиклем — עיר הבירה."
+    },
+    "word-565": {
+      "meaning": "суд (учреждение). С артиклем — בית המשפט. בית המשפט העליון — Верховный суд."
+    },
+    "word-566": {
+      "meaning": "соглашаться"
+    },
+    "word-567": {
+      "meaning": "квартал, городской район"
+    },
+    "word-568": {
+      "meaning": "верхний, высший, верховный"
+    },
+    "word-569": {
+      "meaning": "сказать. В повседневной речи в настоящем времени обычно используют формы глагола לומר: אומר, אומרת, אומרים, אומרות."
+    },
+    "word-570": {
+      "meaning": "внешняя сторона, пространство снаружи. בחוץ — снаружи, на улице. חוץ מ־ — кроме."
+    },
+    "word-571": {
+      "meaning": "воздух (обычно неисчисляемое)"
+    },
+    "word-572": {
+      "meaning": "особенный, особый"
+    },
+    "word-573": {
+      "meaning": "место"
+    },
+    "word-574": {
+      "meaning": "святой, священный. עיר קדושה — священный город."
     }
   },
   "lexemes": {
@@ -8437,6 +8482,201 @@
         },
         "agreement-feminine-plural": {
           "pronunciations": ["некийо́т"]
+        }
+      }
+    },
+    "word-560": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["тоша́в"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["тошави́м"]
+        },
+        "noun-feminine-singular": {
+          "pronunciations": ["тоше́вет"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["тошаво́т"]
+        }
+      }
+    },
+    "word-561": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["ола́м"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["оламо́т", "олами́м"]
+        }
+      }
+    },
+    "word-562": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["лицхо́к"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["цохе́к"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["цохе́кет"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["цохаки́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["цохако́т"]
+        }
+      }
+    },
+    "word-563": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["кфар"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["кфари́м"]
+        }
+      }
+    },
+    "word-564": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["ир бира́"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["аре́й бира́"]
+        }
+      }
+    },
+    "word-565": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["бейт мишпа́т"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["бате́й мишпа́т"]
+        }
+      }
+    },
+    "word-566": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["леhаски́м"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["маски́м"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["маскима́"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["маскими́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["маскимо́т"]
+        }
+      }
+    },
+    "word-567": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["ро́ва"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["реваи́м"]
+        }
+      }
+    },
+    "word-568": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["элйо́н"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["элйона́"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["элйони́м"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["элйоно́т"]
+        }
+      }
+    },
+    "word-569": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["леhаги́д"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["маги́д"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["магида́"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["магиди́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["магидо́т"]
+        }
+      }
+    },
+    "word-570": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["хуц"]
+        }
+      }
+    },
+    "word-571": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["ави́р"]
+        }
+      }
+    },
+    "word-572": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["меюха́д"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["меюхе́дет"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["меюхади́м"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["меюхадо́т"]
+        }
+      }
+    },
+    "word-573": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["мако́м"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["мекомо́т"]
+        }
+      }
+    },
+    "word-574": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["кадо́ш"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["кдоша́"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["кдоши́м"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["кдошо́т"]
         }
       }
     }

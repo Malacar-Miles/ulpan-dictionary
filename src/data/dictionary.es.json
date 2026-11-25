@@ -1717,6 +1717,51 @@
     },
     "word-559": {
       "meaning": "limpio"
+    },
+    "word-560": {
+      "meaning": "habitante, residente"
+    },
+    "word-561": {
+      "meaning": "mundo, universo"
+    },
+    "word-562": {
+      "meaning": "reírse"
+    },
+    "word-563": {
+      "meaning": "aldea, pueblo"
+    },
+    "word-564": {
+      "meaning": "capital. Con artículo definido: עיר הבירה."
+    },
+    "word-565": {
+      "meaning": "tribunal de justicia. Con artículo definido: בית המשפט. בית המשפט העליון significa «Tribunal Supremo»."
+    },
+    "word-566": {
+      "meaning": "estar de acuerdo, aceptar"
+    },
+    "word-567": {
+      "meaning": "barrio, distrito urbano"
+    },
+    "word-568": {
+      "meaning": "superior, supremo"
+    },
+    "word-569": {
+      "meaning": "decir. En el presente del habla cotidiana suelen usarse las formas de לומר: אומר, אומרת, אומרים, אומרות."
+    },
+    "word-570": {
+      "meaning": "exterior, espacio de fuera. בחוץ significa «afuera». חוץ מ־ significa «excepto»."
+    },
+    "word-571": {
+      "meaning": "aire (normalmente incontable)"
+    },
+    "word-572": {
+      "meaning": "especial"
+    },
+    "word-573": {
+      "meaning": "lugar"
+    },
+    "word-574": {
+      "meaning": "santo, sagrado. עיר קדושה significa «ciudad sagrada»."
     }
   },
   "lexemes": {
@@ -8437,6 +8482,201 @@
         },
         "agreement-feminine-plural": {
           "pronunciations": ["nekiyót"]
+        }
+      }
+    },
+    "word-560": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["tosháv"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["toshavím"]
+        },
+        "noun-feminine-singular": {
+          "pronunciations": ["toshévet"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["toshavót"]
+        }
+      }
+    },
+    "word-561": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["olám"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["olamót", "olamím"]
+        }
+      }
+    },
+    "word-562": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lizchók"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["zochék"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["zochéket"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["zochakím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["zochakót"]
+        }
+      }
+    },
+    "word-563": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["kfar"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["kfarím"]
+        }
+      }
+    },
+    "word-564": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["ir birá"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["aréy birá"]
+        }
+      }
+    },
+    "word-565": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["beyt mishpát"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["batéy mishpát"]
+        }
+      }
+    },
+    "word-566": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lehaskím"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["maskím"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["maskimá"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["maskimím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["maskimót"]
+        }
+      }
+    },
+    "word-567": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["róva"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["revaím"]
+        }
+      }
+    },
+    "word-568": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["elyón"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["elyoná"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["elyoním"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["elyonót"]
+        }
+      }
+    },
+    "word-569": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["lehagíd"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["magíd"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["magidá"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["magidím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["magidót"]
+        }
+      }
+    },
+    "word-570": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["chuz"]
+        }
+      }
+    },
+    "word-571": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["avír"]
+        }
+      }
+    },
+    "word-572": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["meyuchád"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["meyuchédet"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["meyuchadím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["meyuchadót"]
+        }
+      }
+    },
+    "word-573": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["makóm"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["mekomót"]
+        }
+      }
+    },
+    "word-574": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["kadósh"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["kdoshá"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["kdoshím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["kdoshót"]
         }
       }
     }
