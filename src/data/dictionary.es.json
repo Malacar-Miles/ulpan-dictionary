@@ -1789,6 +1789,87 @@
     },
     "word-583": {
       "meaning": "19 — diecinueve"
+    },
+    "word-584": {
+      "meaning": "practicar, ejercitarse"
+    },
+    "word-585": {
+      "meaning": "dime. En esta petición se usa el futuro en hebreo."
+    },
+    "word-586": {
+      "meaning": "mitad"
+    },
+    "word-587": {
+      "meaning": "enero"
+    },
+    "word-588": {
+      "meaning": "febrero"
+    },
+    "word-589": {
+      "meaning": "marzo"
+    },
+    "word-590": {
+      "meaning": "abril"
+    },
+    "word-591": {
+      "meaning": "mayo"
+    },
+    "word-592": {
+      "meaning": "junio"
+    },
+    "word-593": {
+      "meaning": "julio"
+    },
+    "word-594": {
+      "meaning": "agosto"
+    },
+    "word-595": {
+      "meaning": "septiembre"
+    },
+    "word-596": {
+      "meaning": "octubre"
+    },
+    "word-597": {
+      "meaning": "noviembre"
+    },
+    "word-598": {
+      "meaning": "diciembre"
+    },
+    "word-599": {
+      "meaning": "estación, temporada"
+    },
+    "word-600": {
+      "meaning": "las estaciones del año"
+    },
+    "word-601": {
+      "meaning": "verano"
+    },
+    "word-602": {
+      "meaning": "invierno"
+    },
+    "word-603": {
+      "meaning": "otoño"
+    },
+    "word-604": {
+      "meaning": "primavera"
+    },
+    "word-605": {
+      "meaning": "hoja (de un árbol o una planta)"
+    },
+    "word-606": {
+      "meaning": "caída de las hojas"
+    },
+    "word-607": {
+      "meaning": "extranjero, de otra lengua. Al hablar del calendario significa «gregoriano». חודש לועזי — mes del calendario gregoriano."
+    },
+    "word-608": {
+      "meaning": "nieve"
+    },
+    "word-609": {
+      "meaning": "manecilla de un reloj, aguja de un instrumento"
+    },
+    "word-610": {
+      "meaning": "exactamente, precisamente. Al indicar la hora significa «en punto»: בשעה שלוש בדיוק — a las tres en punto."
     }
   },
   "lexemes": {
@@ -8794,6 +8875,255 @@
         },
         "absolute-feminine": {
           "pronunciations": ["tsha esré"]
+        }
+      }
+    },
+    "word-584": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["letargél"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["metargél"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["metargélet"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["metargelím"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["metargelót"]
+        }
+      }
+    },
+    "word-585": {
+      "forms": {
+        "future-2ms": {
+          "pronunciations": ["tagíd li"],
+          "gloss": "dime (a un hombre)"
+        },
+        "future-2fs": {
+          "pronunciations": ["tagídi li"],
+          "gloss": "dime (a una mujer)"
+        },
+        "future-2mp": {
+          "pronunciations": ["tagídu li"],
+          "gloss": "díganme (a un grupo)"
+        }
+      }
+    },
+    "word-586": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["chézi"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["chazaím"]
+        }
+      }
+    },
+    "word-587": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["yánuar"]
+        }
+      }
+    },
+    "word-588": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["fébruar"]
+        }
+      }
+    },
+    "word-589": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["marz", "mars"]
+        }
+      }
+    },
+    "word-590": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["apríl"]
+        }
+      }
+    },
+    "word-591": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["may"]
+        }
+      }
+    },
+    "word-592": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["yúni"]
+        }
+      }
+    },
+    "word-593": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["yúli"]
+        }
+      }
+    },
+    "word-594": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["ogúst"]
+        }
+      }
+    },
+    "word-595": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["septémber"]
+        }
+      }
+    },
+    "word-596": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["október"]
+        }
+      }
+    },
+    "word-597": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["novémber"]
+        }
+      }
+    },
+    "word-598": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["dezémber"]
+        }
+      }
+    },
+    "word-599": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["oná"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["onót"]
+        }
+      }
+    },
+    "word-600": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["onót hashaná"]
+        }
+      }
+    },
+    "word-601": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["káyiz"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["keyzím"]
+        }
+      }
+    },
+    "word-602": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["chóref"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["chorafím"]
+        }
+      }
+    },
+    "word-603": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["stav"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["stavím"]
+        }
+      }
+    },
+    "word-604": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["avív"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["avivím"]
+        }
+      }
+    },
+    "word-605": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["alé"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["alím"]
+        }
+      }
+    },
+    "word-606": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["shaléchet"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["shalachót"]
+        }
+      }
+    },
+    "word-607": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["loasí"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["loasít"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["loasiyím"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["loasiyót"]
+        }
+      }
+    },
+    "word-608": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["shéleg"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["shlagím"]
+        }
+      }
+    },
+    "word-609": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["machóg"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["mechogím"]
+        }
+      }
+    },
+    "word-610": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["bediyúk"]
         }
       }
     }

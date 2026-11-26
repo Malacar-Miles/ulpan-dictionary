@@ -1789,6 +1789,87 @@
     },
     "word-583": {
       "meaning": "19 — девятнадцать"
+    },
+    "word-584": {
+      "meaning": "практиковаться, отрабатывать навык"
+    },
+    "word-585": {
+      "meaning": "скажи мне. В просьбе используется форма будущего времени."
+    },
+    "word-586": {
+      "meaning": "половина"
+    },
+    "word-587": {
+      "meaning": "январь"
+    },
+    "word-588": {
+      "meaning": "февраль"
+    },
+    "word-589": {
+      "meaning": "март"
+    },
+    "word-590": {
+      "meaning": "апрель"
+    },
+    "word-591": {
+      "meaning": "май"
+    },
+    "word-592": {
+      "meaning": "июнь"
+    },
+    "word-593": {
+      "meaning": "июль"
+    },
+    "word-594": {
+      "meaning": "август"
+    },
+    "word-595": {
+      "meaning": "сентябрь"
+    },
+    "word-596": {
+      "meaning": "октябрь"
+    },
+    "word-597": {
+      "meaning": "ноябрь"
+    },
+    "word-598": {
+      "meaning": "декабрь"
+    },
+    "word-599": {
+      "meaning": "сезон, время года"
+    },
+    "word-600": {
+      "meaning": "времена года"
+    },
+    "word-601": {
+      "meaning": "лето"
+    },
+    "word-602": {
+      "meaning": "зима"
+    },
+    "word-603": {
+      "meaning": "осень"
+    },
+    "word-604": {
+      "meaning": "весна"
+    },
+    "word-605": {
+      "meaning": "лист (дерева, растения)"
+    },
+    "word-606": {
+      "meaning": "листопад, опадание листьев"
+    },
+    "word-607": {
+      "meaning": "иноязычный, иностранный. О календаре — григорианский. חודש לועזי — месяц григорианского календаря."
+    },
+    "word-608": {
+      "meaning": "снег"
+    },
+    "word-609": {
+      "meaning": "стрелка часов или измерительного прибора"
+    },
+    "word-610": {
+      "meaning": "точно, именно. О времени — ровно: בשעה שלוש בדיוק — ровно в три часа."
     }
   },
   "lexemes": {
@@ -8794,6 +8875,255 @@
         },
         "absolute-feminine": {
           "pronunciations": ["ча эсрэ́"]
+        }
+      }
+    },
+    "word-584": {
+      "forms": {
+        "infinitive": {
+          "pronunciations": ["летарге́ль"]
+        },
+        "present-masculine-singular": {
+          "pronunciations": ["метарге́ль"]
+        },
+        "present-feminine-singular": {
+          "pronunciations": ["метарге́лет"]
+        },
+        "present-masculine-plural": {
+          "pronunciations": ["метаргели́м"]
+        },
+        "present-feminine-plural": {
+          "pronunciations": ["метаргело́т"]
+        }
+      }
+    },
+    "word-585": {
+      "forms": {
+        "future-2ms": {
+          "pronunciations": ["таги́д ли"],
+          "gloss": "скажи мне (мужчине)"
+        },
+        "future-2fs": {
+          "pronunciations": ["таги́ди ли"],
+          "gloss": "скажи мне (женщине)"
+        },
+        "future-2mp": {
+          "pronunciations": ["таги́ду ли"],
+          "gloss": "скажите мне (группе)"
+        }
+      }
+    },
+    "word-586": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["хе́ци"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["хацаи́м"]
+        }
+      }
+    },
+    "word-587": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["я́нуар"]
+        }
+      }
+    },
+    "word-588": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["фе́бруар"]
+        }
+      }
+    },
+    "word-589": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["марц", "марс"]
+        }
+      }
+    },
+    "word-590": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["апри́ль"]
+        }
+      }
+    },
+    "word-591": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["май"]
+        }
+      }
+    },
+    "word-592": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["ю́ни"]
+        }
+      }
+    },
+    "word-593": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["ю́ли"]
+        }
+      }
+    },
+    "word-594": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["огу́ст"]
+        }
+      }
+    },
+    "word-595": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["септе́мбер"]
+        }
+      }
+    },
+    "word-596": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["окто́бер"]
+        }
+      }
+    },
+    "word-597": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["нове́мбер"]
+        }
+      }
+    },
+    "word-598": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["деце́мбер"]
+        }
+      }
+    },
+    "word-599": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["она́"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["оно́т"]
+        }
+      }
+    },
+    "word-600": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["оно́т hашана́"]
+        }
+      }
+    },
+    "word-601": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["ка́йиц"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["кейци́м"]
+        }
+      }
+    },
+    "word-602": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["хо́реф"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["хорафи́м"]
+        }
+      }
+    },
+    "word-603": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["став"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["стави́м"]
+        }
+      }
+    },
+    "word-604": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["ави́в"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["авиви́м"]
+        }
+      }
+    },
+    "word-605": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["але́"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["али́м"]
+        }
+      }
+    },
+    "word-606": {
+      "forms": {
+        "noun-feminine-singular": {
+          "pronunciations": ["шале́хет"]
+        },
+        "noun-feminine-plural": {
+          "pronunciations": ["шалахо́т"]
+        }
+      }
+    },
+    "word-607": {
+      "forms": {
+        "agreement-masculine-singular": {
+          "pronunciations": ["лоази́"]
+        },
+        "agreement-feminine-singular": {
+          "pronunciations": ["лоази́т"]
+        },
+        "agreement-masculine-plural": {
+          "pronunciations": ["лоазийи́м"]
+        },
+        "agreement-feminine-plural": {
+          "pronunciations": ["лоазийо́т"]
+        }
+      }
+    },
+    "word-608": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["ше́лег"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["шлаги́м"]
+        }
+      }
+    },
+    "word-609": {
+      "forms": {
+        "noun-masculine-singular": {
+          "pronunciations": ["махо́г"]
+        },
+        "noun-masculine-plural": {
+          "pronunciations": ["мехоги́м"]
+        }
+      }
+    },
+    "word-610": {
+      "forms": {
+        "fixed": {
+          "pronunciations": ["бедию́к"]
         }
       }
     }
